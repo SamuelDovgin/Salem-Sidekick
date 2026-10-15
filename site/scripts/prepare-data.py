@@ -183,6 +183,17 @@ def build():
                         resultDefault='', targetDefault='', notesDefault='')
         template['actionTargets'].update({'Hold / no action':'none','Manual entry':'none'})
         role['template'] = template
+    # Opinionated editorial policy and claim upkeep are independent of raw mechanics.
+    playbooks = {}
+    for group in ['town', 'coven', 'neutral']:
+        playbooks.update(json.loads((PROJECT/f'content/playbook-{group}.json').read_text()))
+    profiles = json.loads((PROJECT/'content/claim-profiles.json').read_text())
+    relations = json.loads((PROJECT/'content/claim-relations.json').read_text())
+    for role in roles:
+        role['playbook'] = playbooks[role['id']]
+        role['claimAudit'] = relations.get(role['id'], {'summary':'Use your real role and truthful history as the normal Town starting point. Other claims remain selectable; their sample does not give you that ability.', 'options':[]})
+        role['claimOptions'] = role['claimAudit']['options']
+        role['preferredClaimId'] = role['claimOptions'][0]['roleId'] if role['claimOptions'] else role['id']
     # Glossary table is already original, curated plain-language copy.
     glossary = []
     for line in source_text('docs/reference/GLOSSARY.md').splitlines():
@@ -201,6 +212,30 @@ def build():
         continuation = next(c for c in parent_role['cards'] if c['id'].endswith('-continuation'))['expanded']
         description = continuation.split('**After transformation:** ',1)[-1]
         states.append({'id':name.lower(),'parentId':parent_role['id'],'name':name,'faction':'Neutral','alignment':'Neutral Apocalypse','alignment_abbreviation':'NA','iconUrl':CDN+name+'.png','iconFallback':icons[name]['asset_url'],'iconSource':icons[name]['file_page'],'notes':notes,'description':description,'source_url':parent_role['source_url'],'template':state_template})
+    state_examples = {
+       'famine':'Famine\nD4: Transformed\nN4: Starve 7',
+       'war':'War\nD5: Transformed\nN5: Rampage 4, 9',
+       'pestilence':'Pestilence\nD4: Transformed\nN4: Spread on 7',
+       'death':'Death\nD5: Transformed — survive this day'
+    }
+    for state in states:
+        parent = next(r for r in roles if r['id']==state['parentId'])
+        state.update(playbook=playbooks[state['id']], claimAudit=parent['claimAudit'], claimOptions=parent['claimOptions'], preferredClaimId=parent['preferredClaimId'])
+        state['template']['example'] = state_examples[state['id']]
+    for role in roles+states:
+        role['claimProfile'] = profiles.get(role['id'], {
+          'effort':'Open faction disclosure',
+          'payoff':'This is the role’s own action history, not an ordinary Town cover. Public disclosure is a deliberate situational choice.',
+          'exposure':'Under the normal-faction profile, this role name can disclose an opposing objective; it is not a quiet survival claim.',
+          'posting':'Use this history privately unless you deliberately choose open disclosure. The selected role’s actual objective still applies.',
+          'willGuidance':[role['template']['fields'],role['template']['notes'],'Keep intended action and actual outcome separate; only write feedback that belongs to this role.'],
+          'example':role['template']['example'],
+          'blank':role['name']+'\n[day/night]: [legal action and target] — [actual feedback]',
+          'expanded':role.get('description', role['playbook']['expanded']),
+          'sourceUrls':[role['source_url']]
+        })
+    assert len(playbooks)==64 and len(profiles)==29 and len(relations)==31
+    assert all(len(r['playbook']['laterPriorities'])==3 and r['claimProfile']['example'] for r in roles+states)
     summary = {
        'uncertaintiesMarkdown': uncertainties_markdown,
        'reviewedOn': original['reviewed_on'], 'ruleset':original['default_context'],
@@ -222,6 +257,7 @@ def build():
           'Role and faction transitions preserve previous action history. Advisory constraints never destroy manual client feedback.'
        ]
     }
+    summary['presentation']='Opinionated default play and ranked later priorities; claim upkeep/payoff/exposure and illustrative wills replace the will editor.'
     output = dict(roles=roles, states=states, glossary={'entries':glossary,'markdown':glossary_markdown}, sourceSummary=summary)
     DEST.parent.mkdir(parents=True, exist_ok=True)
     DEST.write_text(json.dumps(output, ensure_ascii=False, indent=2)+'\n')

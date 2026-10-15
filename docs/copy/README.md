@@ -1,6 +1,8 @@
 # Salem Sidekick: complete interface copy
 
-Status: **content prepared for implementation review; the page has not been implemented.** Revised 2026-10-15 after choosing Compact and requesting more specific opening guidance.
+**Current revision:** the implemented site now uses the [opinionated practical playbook](PRACTICAL_PLAYBOOK.md) and [claim examples](CLAIM_EXAMPLES.md). These supersede generic opening advice and the will-builder UI. The original paired copy below remains supporting mechanics/context.
+
+Original status: **content prepared for implementation review.** Revised 2026-10-15 after choosing Compact and requesting more specific opening guidance.
 
 Read the [three complete role examples](THREE_ROLE_REVIEW.md) and [readiness evidence](READINESS.md) first. The [structured copy pack](ROLE_COPY.json) contains the same authored text as the 60 files below. The existing [research index](../research/roles/INDEX.md) supplies supporting dossiers rather than replacing this actual interface copy.
 

@@ -2,6 +2,10 @@
 
 Research and planning date: **2026-10-15** (America/Chicago). Status: **Compact website implemented** in [site/](site/README.md). This document preserves the design contract; [implementation verification](site/qa/REPORT.md) records completed checks.
 
+## Current practical-play revision
+
+The latest user instruction supersedes the earlier will-builder scope: use prominent **My default play**, ranked later priorities, and **claim-specific example wills with maintenance advice**. The builder is removed from the current interface; old saved notes are retained read-only. Claims compare upkeep, payoff, real support, and exposure. See [the complete audited playbook](docs/copy/PRACTICAL_PLAYBOOK.md) and [all claim examples](docs/copy/CLAIM_EXAMPLES.md). Earlier builder specifications below remain historical design context, not work to restore.
+
 ## 1. Product and accepted requirements
 
 A single-page Town of Salem 2 companion for a beginner using a second screen during a text-chat match. Select a role and understand the next useful decision in 15–30 seconds. Learn why that decision makes sense by expanding the same sections inline. Maintain a simple will without memorizing its format.

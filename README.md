@@ -1,6 +1,6 @@
 # Salem Sidekick
 
-A single-page Town of Salem 2 beginner companion with role guides and a will builder. Research date: 2026-10-15.
+A single-page Town of Salem 2 beginner companion with opinionated role defaults, claim comparisons, and example wills. Research date: 2026-10-15.
 
 [Open Salem Sidekick](https://SamuelDovgin.github.io/Salem-Sidekick/).
 
@@ -10,9 +10,11 @@ To preview locally, run `npm --prefix site run prepare-data`, `npm --prefix site
 
 Open the [privately published Salem Sidekick](https://salem-sidekick.beigebay129.chatgpt.site).
 
-Run the site with `cd site` then `npm run dev`, and open http://127.0.0.1:4173. The app is buildless; its deployment files are in `site/dist/`. See [implementation verification](site/qa/REPORT.md).
+Run the site with `cd site` then `npm run dev`, and open http://127.0.0.1:4173. The app is buildless; its deployment files are in `site/dist/`. See [practical-play audit](docs/copy/PRACTICAL_PLAYBOOK.md).
 
 The [full application plan](PLANNING.md) and research documents below preserve the design and content basis.
+
+The current interface gives an opinionated default move and ranked follow-up priorities for every role. Claim-specific example wills and practical maintenance tips replace the will builder; previous editor notes are retained read-only. [Full practical-play audit](docs/copy/PRACTICAL_PLAYBOOK.md) · [All claim examples](docs/copy/CLAIM_EXAMPLES.md).
 
 | Document | Purpose |
 | --- | --- |

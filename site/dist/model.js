@@ -82,6 +82,6 @@ export function selectActual(state,role,library) {
   state.recent=[role.id,...state.recent.filter(x=>x!==role.id)].slice(0,5);
   if(!state.deliberateClaim && !oldDraft.entries.length && !oldDraft.title.trim()){
     const suggested=role.claim_candidates?.[0]?.role;
-    state.claimId=library.find(r=>r.name===suggested)?.id || role.id;
+    state.claimId=library.find(r=>r.id===role.preferredClaimId)?.id || library.find(r=>r.name===suggested)?.id || role.id;
   }
 }

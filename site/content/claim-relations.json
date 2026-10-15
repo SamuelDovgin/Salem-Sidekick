@@ -1,0 +1,796 @@
+{
+  "archmage": {
+    "summary": "While making direct book attacks, Cleric is the simpler visiting story; Oracle only fits genuinely nonvisiting periods. Neither supplies real protection. Do not choose a public-reveal role merely for an empty N1.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct book attack can share the one-target visiting footprint.",
+        "exposure": "You do not provide Barrier, and the victim or observers may contradict the protective story."
+      },
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A genuine nonvisit period can fit Oracle’s astral action.",
+        "exposure": "Oracle selects roles and supplies protection; an ordinary book attack changes your movement and supplies no Aegis."
+      }
+    ]
+  },
+  "hex-master": {
+    "summary": "Cleric is the low-upkeep pre-book default; Psychic trades daily vision work for more discussion influence. With the astral book action, Oracle may fit movement better, but an earlier visiting history still needs explaining.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "One direct pre-book Hex can share a claimed Barrier destination.",
+        "exposure": "You supply no Barrier, and later astral book movement can contradict a visiting history."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "An ordinary direct Hex can match one chosen visited player.",
+        "exposure": "You have no genuine vision; the night parity and full group constraint still need a plausible story."
+      },
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "The astral book Hex/attack avoids a normal direct visit.",
+        "exposure": "There is no real Aegis, and pre-book direct visits may conflict with an all-Oracle history."
+      }
+    ]
+  },
+  "witch": {
+    "summary": "Cleric is simpler to maintain, but Control is a distinctive effect. Sheriff can use learned role knowledge for a more informed invented story; Psychic creates more daily obligations. You personally visit only the controlled player, not both selected numbers.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "The controlled player is your one personal direct visit.",
+        "exposure": "Control is a distinctive reported effect and no Barrier is granted; the directed destination is not another personal protection."
+      },
+      {
+        "roleId": "sheriff",
+        "role": "Sheriff",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Learned role information can guide a limited check story about the controlled player.",
+        "exposure": "It is not real Sheriff feedback; the victim’s Control report and framing context can break the story."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Your personal visit is to the controlled player, which can fit a single chosen Psychic target.",
+        "exposure": "The second directed destination is not a second personal visit, and you must maintain valid vision counts/parity."
+      }
+    ]
+  },
+  "conjurer": {
+    "summary": "Oracle fits a genuinely inactive nonbook night with fewer daily result obligations. Cleric becomes a visiting fallback with the book. Deputy looks simple on paper but creates a day-shot demand Meteor cannot satisfy.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "Before holding the book, no ordinary night action can fit astral movement.",
+        "exposure": "You cannot provide Aegis; later direct book attacks alter the footprint."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "An ordinary book attack can share one claimed Barrier destination.",
+        "exposure": "There is no real protection; without book, you may not have made the ordinary visit the cover promises."
+      },
+      {
+        "roleId": "deputy",
+        "role": "Deputy",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Little writing · high demonstration risk",
+        "why": "An inactive night is compatible with a real Deputy’s lack of night action.",
+        "exposure": "You cannot reproduce the Deputy shot. A Meteor is a different ability, not a successful Deputy demonstration."
+      }
+    ]
+  },
+  "ritualist": {
+    "summary": "Oracle is my lower-drama astral fallback. Deputy has little writing but severe demonstration pressure. A direct book attack can break a no-visible-visit history, so reassess rather than calling either permanent cover.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A ritual or inactive night can fit a no-visible-visit cover.",
+        "exposure": "No actual Aegis is supplied; direct book attacks can conflict."
+      },
+      {
+        "roleId": "deputy",
+        "role": "Deputy",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Little writing · high demonstration risk",
+        "why": "Neither role requires an ordinary N1 visit.",
+        "exposure": "Town may reasonably ask for the one day shot, which you cannot perform."
+      }
+    ]
+  },
+  "jinx": {
+    "summary": "Cleric is simplest to write, with weak ability support. Crusader can explain visitor danger better but promises defense Jinx does not grant. Surviving witnesses or distinctive death information can defeat either story; Psychic adds daily invented visions on top.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A Jinx house can share a simple single-player destination.",
+        "exposure": "There is no real protection, and visitor deaths or surviving witnesses can directly expose the Jinx action."
+      },
+      {
+        "roleId": "crusader",
+        "role": "Crusader",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Conditional fit · extra rules",
+        "why": "Both can create danger for visitors at a chosen house.",
+        "exposure": "Jinx supplies no Crusader defense; death details and surviving witnesses can identify you."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "The selected house can fit a normal one-target visit.",
+        "exposure": "You have no genuine vision and a survivor may directly expose the Jinx action."
+      }
+    ]
+  },
+  "dreamweaver": {
+    "summary": "Cleric is the simpler visiting cover when you want less daily paperwork. Psychic offers more case-making influence but needs early valid visions. Neither hides the correlation between your visit and a distinctive dream effect.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A single ordinary visit can match the Barrier target on paper.",
+        "exposure": "You supply no protection, and dream effects contradict a claim that your only effect was Barrier."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A one-player visit can fit the selected Psychic target.",
+        "exposure": "No real vision exists; the victim’s dream state may correlate with your action."
+      }
+    ]
+  },
+  "enchanter": {
+    "summary": "Sheriff is my active-pressure choice because framing can support part of a suspicious-looking case. Cleric is lower upkeep if you want a quiet story. Investigator is more demanding because crimes and timing must remain coherent; framing is not a real personal investigation.",
+    "options": [
+      {
+        "roleId": "sheriff",
+        "role": "Sheriff",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More pressure · invented check",
+        "why": "A frame can support a suspicious-looking case when another detection effect is involved.",
+        "exposure": "Your frame is not your own Sheriff result; unaffected observations and timing can expose it."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A normal direct Enchant can share a claimed Barrier destination.",
+        "exposure": "You supply no defense; framing may alter some checks but does not fabricate protective feedback or erase unaffected observations."
+      },
+      {
+        "roleId": "investigator",
+        "role": "Investigator",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Framing can align with some crime evidence in a story.",
+        "exposure": "You still need the current Murder/Trespassing model, and Enchant does not alter all observation channels."
+      }
+    ]
+  },
+  "illusionist": {
+    "summary": "Oracle is the sensible movement-oriented starting cover during astral Illusion. Deputy is low writing but difficult to demonstrate. Book attacks change the footprint; neither cover recreates a real protective effect or public shot.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "Ordinary Illusion is astral, compatible with no visible visit.",
+        "exposure": "Oracle’s role targeting and real protection are different; the book can introduce direct movement."
+      },
+      {
+        "roleId": "deputy",
+        "role": "Deputy",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Little writing · high demonstration risk",
+        "why": "An ordinary inactive-looking night does not require a personal visit.",
+        "exposure": "You cannot shoot as Deputy, and Illusion no longer bypasses the current Deputy/Bodyguard/Trapper interactions."
+      }
+    ]
+  },
+  "medusa": {
+    "summary": "Cleric is the lower-upkeep direct-visit cover. Psychic can influence discussion but requires a legal vision every morning. A Stonemark is neither a Barrier nor a genuine vision, and book/death information can expose both stories.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A selected player can match a reported Barrier destination.",
+        "exposure": "Stonemark does not protect them, and a later book kill changes the consequences."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A direct Stonemark can fit a one-player visit.",
+        "exposure": "There is no genuine vision; persistent marks and hidden-death information can expose the plan."
+      }
+    ]
+  },
+  "necromancer": {
+    "summary": "Retributionist takes more corpse bookkeeping but offers much stronger support when you actually use an eligible Town corpse. Oracle only explains a truly nonvisiting period; it is not a way to hide later corpse visits or book attacks.",
+    "options": [
+      {
+        "roleId": "retributionist",
+        "role": "Retributionist",
+        "alignment": "Town Support",
+        "alignment_abbreviation": "TS",
+        "tag": "Real overlap · more bookkeeping",
+        "why": "Using a legal Town corpse can create an effect a real Retributionist could create.",
+        "exposure": "Evil/Stoned corpses, exhausted uses, forbidden self-protection, and book attack replacement break the overlap."
+      },
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A genuinely inactive opening has no ordinary direct visit.",
+        "exposure": "Later corpse visits or direct book attacks conflict, and you do not actually supply Aegis."
+      }
+    ]
+  },
+  "poisoner": {
+    "summary": "Tavern Keeper is my beginner default because Drink can reproduce the expected roleblock. Socialite is a higher-rule-load Smog story. Cleric has easier paperwork but worse effect fit; do not discard genuine roleblock support just to type fewer lines.",
+    "options": [
+      {
+        "roleId": "tavern-keeper",
+        "role": "Tavern Keeper",
+        "alignment": "Town Support",
+        "alignment_abbreviation": "TS",
+        "tag": "Genuine block · keep the target history",
+        "why": "Drink can create the same roleblock effect the target expects from a Tavern Keeper.",
+        "exposure": "Hungover prevents a repeat lock; Smog is an obstacle effect, and book attacks add lethal consequences."
+      },
+      {
+        "roleId": "socialite",
+        "role": "Socialite",
+        "alignment": "Town Support",
+        "alignment_abbreviation": "TS",
+        "tag": "Conditional fit · extra rules",
+        "why": "Smog and a Party can both obstruct access to a house.",
+        "exposure": "Socialite has invitations, different immunity rules, and a different legal house sequence; resemblance is incomplete."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "An ordinary direct visit can be written as a claimed Barrier destination.",
+        "exposure": "Drink or Smog feedback does not match pure protection, and you provide no genuine Barrier."
+      }
+    ]
+  },
+  "potion-master": {
+    "summary": "Cleric is simplest and has genuine support on Barrier nights. Sheriff can use role knowledge for a selective story but still invents the check result. Seer has high payoff pressure and a normal two-visit requirement your one-target potion does not reproduce.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Simple upkeep · real fit on Barrier",
+        "why": "A real Barrier potion can support an actual protective story.",
+        "exposure": "Changing to Reveal or the harmful mode does not also provide that Barrier."
+      },
+      {
+        "roleId": "sheriff",
+        "role": "Sheriff",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Real role knowledge can guide limited detection claims.",
+        "exposure": "A role reveal is not an actual Sheriff check and cannot justify every guilt category."
+      },
+      {
+        "roleId": "seer",
+        "role": "Seer",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Knowing roles can let you construct a faction-comparison story.",
+        "exposure": "A normal Seer visits two legal players; a one-target potion does not reproduce that movement or comparison."
+      }
+    ]
+  },
+  "voodoo-master": {
+    "summary": "Cleric is my simpler beginner cover: one plausible target line, TP under VFA, and no invented vision each morning. Psychic can contribute more to discussion but is higher upkeep and contradiction risk. Both remain weak on actual ability support: your doll effect is not protection or a vision.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A single destination can fit a claimed Barrier visit.",
+        "exposure": "You supply no Barrier; the actual disruption effect may conflict with the story."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A direct visit can fit one chosen vision target.",
+        "exposure": "The target may identify silence/deafness/blindness, and you have no real vision."
+      }
+    ]
+  },
+  "wildling": {
+    "summary": "Prefer Tracker or Lookout over a generic quiet TP because you can obtain the relevant information for real. Tracker is the usual starting point; choose Lookout if the visitor channel supports a better account. Each requires normal TI posting, and only its own information subset belongs in the will.",
+    "options": [
+      {
+        "roleId": "tracker",
+        "role": "Tracker",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "Real information · regular posting",
+        "why": "Report the sensed player’s visible destinations, which are the channel a Tracker uses.",
+        "exposure": "Do not include visitors or whispers; the book also attacks your selected player."
+      },
+      {
+        "roleId": "lookout",
+        "role": "Lookout",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "Real information · regular posting",
+        "why": "Report the visible visitors to the selected house.",
+        "exposure": "Do not include destinations or whispers, invent missing visitors, or normally claim to watch yourself."
+      }
+    ]
+  },
+  "covenite": {
+    "summary": "Oracle fits a genuinely inactive nonbook start; Cleric fits an ordinary direct book visit more naturally. Both are invented-protection stories. Simple empty-night roles with public buttons create much larger demonstration demands later.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "No ordinary role action can fit a nonvisible-visit story.",
+        "exposure": "You do not protect a role, and holding the book changes the movement."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct book visit can fit a single reported Barrier destination.",
+        "exposure": "The attack is not protection; feedback and deaths can expose the story."
+      }
+    ]
+  },
+  "cultist": {
+    "summary": "Oracle fits the nonbook night footprint; Cleric is a visiting fallback with the book. The daytime conversion is not a protective night action. Recruits keep their role while changing faction, so do not leak that private transition in a public will.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "The special conversion is a day action, leaving no ordinary night visit without book.",
+        "exposure": "No Aegis is supplied; direct book attacks and conversion consequences create later conflicts."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct book target can share a claimed Barrier destination.",
+        "exposure": "No real Barrier exists, and recruited role/faction changes can complicate public evidence."
+      }
+    ]
+  },
+  "baker": {
+    "summary": "Cleric is the easier Feed-period cover because it needs one target line and no daily investigative group. It supplies no real save. Psychic gives more influence at the cost of invented visions, target-history work, and early posting; transformation changes both stories.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "Feed can share the ordinary one-player destination of a Barrier claim.",
+        "exposure": "Bread is not protection: attack feedback, inability to save, and a later Famine state can expose the story."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "One Feed destination can fit the chosen player in a vision.",
+        "exposure": "You receive no vision; N1 Good/two and N2 Evil/three constraints and independent claims must remain consistent."
+      }
+    ]
+  },
+  "berserker": {
+    "summary": "Vigilante explains an inactive loading N1 better, but later kills still need the real load/ammo/death-label story. Cleric is low upkeep on direct attack nights but provides no protection and does not reproduce your nonvisiting N1. Neither makes rampage a normal Town shot.",
+    "options": [
+      {
+        "roleId": "vigilante",
+        "role": "Vigilante",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Little writing · high demonstration risk",
+        "why": "Both can have a quiet N1 before later attacks.",
+        "exposure": "A real Vigilante must Load and track ammo; kill labels, rampage, and upgrades do not match indefinitely."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct attack can share a claimed Barrier destination.",
+        "exposure": "Ordinary N1 inactivity, real deaths, and no protection undermine the story."
+      }
+    ]
+  },
+  "plaguebearer": {
+    "summary": "Cleric is the low-upkeep one-visit fallback with no real healing. Lookout can exploit partial contact clues but is harder to sustain because infection is not a full visitor report. Psychic adds invented daily group results. Do not turn seeded infections into claimed visits.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct Infect can share a one-player destination without requiring invented visitor lists.",
+        "exposure": "There is no Barrier, and infection/transformation progress can create a different public pattern."
+      },
+      {
+        "roleId": "lookout",
+        "role": "Lookout",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Some spread can suggest visitor contact.",
+        "exposure": "Initial neighbors and incomplete propagation are not a complete visitor list; your own destination must also fit."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A direct Infect can fit one selected player in a vision.",
+        "exposure": "No real vision exists, and you must maintain group counts/parity without leaking infection knowledge."
+      }
+    ]
+  },
+  "soul-collector": {
+    "summary": "Oracle is the simpler movement fit for astral Reap, with role-targeting rules and no real Aegis. Sheriff can support pressure around suspicious-looking evidence but normally makes a visible visit that Reap does not reproduce.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "Reap and Aegis do not require an ordinary numbered visible visit.",
+        "exposure": "You supply no protection and must claim role-based Aegis choices, not Reap targets."
+      },
+      {
+        "roleId": "sheriff",
+        "role": "Sheriff",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "Reap’s framing effect can align with some suspicious-looking evidence.",
+        "exposure": "A real Sheriff normally visits; your astral Reap does not reproduce that, and you receive no genuine check."
+      }
+    ]
+  },
+  "doomsayer": {
+    "summary": "Oracle is the less conspicuous no-visible-visit fallback. Deputy requires almost no writing but can face an immediate shot demand. Choose based on what the lobby will ask you to demonstrate, not only how short the will is.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A private guess attempt does not need an ordinary visible player visit.",
+        "exposure": "You do not provide Aegis and may be asked to explain protection choices."
+      },
+      {
+        "roleId": "deputy",
+        "role": "Deputy",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Little writing · high demonstration risk",
+        "why": "No ordinary night action is required by the cover.",
+        "exposure": "You cannot produce its real day shot; do not invent a successful demonstration."
+      }
+    ]
+  },
+  "executioner": {
+    "summary": "Oracle is a quieter nonvisit cover for surviving while you build an ordinary case on the assigned target. Sheriff creates stronger direct pressure but needs an invented check, normal TI timing, and a visit you did not naturally make. Overfocusing can expose the objective.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "No normal night action can fit the cover’s astral footprint.",
+        "exposure": "It supplies no real protection and does not by itself motivate your target’s execution."
+      },
+      {
+        "roleId": "sheriff",
+        "role": "Sheriff",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A claimed suspicious result can create a reason to question the assigned target.",
+        "exposure": "It is fabricated and you normally did not visit; observers, framing context, and overfocusing can expose it."
+      }
+    ]
+  },
+  "jester": {
+    "summary": "Your goal is a plausible hanging, not perfect confirmation. A weak Deputy or a disputed Sheriff can generate suspicion, but being too obvious may make Town refuse the hanging. Chatterbox and the qualifying death route matter more than a universal easiest-cover ranking.",
+    "options": [
+      {
+        "roleId": "deputy",
+        "role": "Deputy",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Hanging setup · goal-dependent",
+        "why": "An inability to produce a useful shot can create plausible suspicion.",
+        "exposure": "Town may identify the Jester goal and refuse to hang you; quota and hanging conditions still matter."
+      },
+      {
+        "roleId": "sheriff",
+        "role": "Sheriff",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "Hanging setup · goal-dependent",
+        "why": "A plausibly disputed report can make Town suspect you.",
+        "exposure": "An impossible report can make you too obvious to hang, and a night kill does not satisfy your goal."
+      }
+    ]
+  },
+  "pirate": {
+    "summary": "Cleric is lower upkeep for a Scour destination; Psychic trades invented groups and daily posting for influence. Neither produces genuine Town results. A later Plunder death and the Landlubber objective can expose the story; true neutral disclosure is situational rather than guaranteed safety.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "Scour or Plunder can share a claimed one-player destination.",
+        "exposure": "Neither supplies Barrier and a Plunder death may contradict the story."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A Scour destination can fit the selected player of a vision.",
+        "exposure": "Scour is not a vision; the full parity/count constraints still apply."
+      }
+    ]
+  },
+  "arsonist": {
+    "summary": "Cleric is the simple active-Douse visiting cover; Oracle fits actual nonvisit actions better. Changing modes changes your movement, so an easy N1 account is not a permanent cover. Neither provides a real save.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "An active Douse can fit a one-player Barrier destination.",
+        "exposure": "No protection exists; Clean and Ignite change the movement history."
+      },
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "Idle cleaning or astral Ignite can fit the absence of a visible visit.",
+        "exposure": "An earlier direct Douse is not an Oracle action, and there is no actual Aegis."
+      }
+    ]
+  },
+  "serial-killer": {
+    "summary": "Cleric is the lower-upkeep direct-visit fallback, with no real protection. Vigilante looks attractive because it kills, but N1 timing, ammunition, death attribution, and retaliation make it much harder to sustain than a casual shooting story.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "An ordinary attack shares a single-player destination.",
+        "exposure": "No Barrier exists, and deaths/retaliation expose a different effect."
+      },
+      {
+        "roleId": "vigilante",
+        "role": "Vigilante",
+        "alignment": "Town Killing",
+        "alignment_abbreviation": "TK",
+        "tag": "Little writing · high demonstration risk",
+        "why": "Later direct kills can be described as a shooting story.",
+        "exposure": "A real Vigilante cannot shoot N1 and needs Load/ammo history; attack labels and Bloodlust differ."
+      }
+    ]
+  },
+  "shroud": {
+    "summary": "For a direct-attack opening, Cleric is the simple visiting fallback. Oracle is conditional on a genuinely astral Shroud action; fallback visibility is disputed. Tracker needs real destination evidence you do not automatically receive, so treat it as a difficult alternative.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct Attack can share a reported Barrier destination.",
+        "exposure": "You grant no protection; a Shroud mode, actual death, or special visibility can break this simple direct-visit story."
+      },
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A successful Shroud mode can fit no ordinary direct visit.",
+        "exposure": "Fallback/direct attack visibility is conditional, and no Aegis is supplied."
+      },
+      {
+        "roleId": "tracker",
+        "role": "Tracker",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A carrier’s known destination may support a limited account.",
+        "exposure": "You do not receive a complete Tracker report, and personal movement can conflict."
+      }
+    ]
+  },
+  "werewolf": {
+    "summary": "Tracker can use real persistent Scent information, so it offers more support than generic TP. It still needs daily posting and your own movement must fit on later attack nights. Cleric is easier writing on direct attacks but supplies no protection or explanation for every earlier scent action.",
+    "options": [
+      {
+        "roleId": "tracker",
+        "role": "Tracker",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "Real information · later movement risk",
+        "why": "Persistent Scent supplies real movement information.",
+        "exposure": "On later attack nights you may visibly go elsewhere; information fit does not fix personal movement."
+      },
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A chosen attack house can share a claimed Barrier destination.",
+        "exposure": "No real protection exists; rampage and kill details differ."
+      }
+    ]
+  },
+  "cursed-soul": {
+    "summary": "Oracle fits the initial astral Swap footprint. Amnesiac can explain a transition only when the actual eligible Town-death chronology fits. Follow the role you really acquire and keep faction separate; a short story cannot repair an impossible transition.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "role": "Oracle",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "The initial Swap is astral rather than an ordinary visible visit.",
+        "exposure": "The acquired role changes future actions; faction stays separate and no initial Aegis exists."
+      },
+      {
+        "roleId": "amnesiac",
+        "role": "Amnesiac",
+        "alignment": "Town Support",
+        "alignment_abbreviation": "TS",
+        "tag": "Conditional fit · extra rules",
+        "why": "A real role change may motivate a transition account.",
+        "exposure": "Amnesiac needs the correct eligible Town-death chronology; a random or evil acquired role does not fit."
+      }
+    ]
+  },
+  "vampire": {
+    "summary": "Cleric is the simpler one-player visiting cover with no actual Barrier. Psychic offers more discussion influence but requires invented early daily visions. Convert, fallback Drain, and new faction members create consequences the will alone cannot hide.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "role": "Cleric",
+        "alignment": "Town Protective",
+        "alignment_abbreviation": "TP",
+        "tag": "Low upkeep · weak independent proof",
+        "why": "A direct Convert/Drain target can share a claimed Barrier destination.",
+        "exposure": "Neither is a real Barrier, and conversion/fallback death can expose the effect."
+      },
+      {
+        "roleId": "psychic",
+        "role": "Psychic",
+        "alignment": "Town Investigative",
+        "alignment_abbreviation": "TI",
+        "tag": "More influence · more upkeep",
+        "why": "A direct action can fit a chosen vision target.",
+        "exposure": "There is no real vision; maintain parity/count constraints and account for new faction members."
+      }
+    ]
+  }
+}

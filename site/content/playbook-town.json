@@ -1,0 +1,495 @@
+{
+  "jailor": {
+    "headline": "Get a useful claim before spending an execution.",
+    "firstNight": "Choose an unresolved prisoner during D1, then ask their exact role, intended action, and target reasoning on N1. You cannot execute tonight.",
+    "reason": "A documented claim gives you a testable D2 lead; N1 is a questioning night, not a killing opportunity.",
+    "targetRule": "Prefer a player whose D1 statements can be checked. With no information, choose an eligible unknown; avoid a credible key Town actor whose action you would suppress.",
+    "pivot": "Do not jail a valuable Town claim merely to obtain a private chat. If you miss the day selection, record the missed jail instead of inventing a prisoner.",
+    "laterPriorities": [
+      "From N2, execute a supported evil when execution is enabled; first compare their answer with independent evidence and protection possibilities.",
+      "Without a strong execution case, jail a different unresolved player and obtain a fresh, specific account; consecutive jails are restricted.",
+      "Before the next day ends, select the next prisoner and preserve the claim log; a wrong Town execution removes your remaining ability."
+    ],
+    "expanded": "Ask a short repeatable question: “Role, previous actions, tonight’s intended action, and why?” A nervous or slow answer is not a guilty result. At dawn compare the answer with posted results, deaths, and earlier statements. A night without a kill does not uniquely identify your prisoner as a killer. Keep future jail choices private unless sharing them solves a concrete coordination problem.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "marshal": {
+    "headline": "Save Tribunal until you can name the executions.",
+    "firstNight": "No N1 ability. Prepare a short claim-and-evidence list; preserve both Tribunal charges for a voting day.",
+    "reason": "Tribunal removes the defense and judgment stages, so activating before you have cases gives coordinated evils a powerful tool.",
+    "targetRule": "Prepare the best supported accusation and a separate second candidate. With no evidence, collect claims and hold; an empty shortlist is a reason to wait.",
+    "pivot": "Use earlier if a supported evil must die before Town loses vote control, but do not activate simply to confirm your role or because D2 began.",
+    "laterPriorities": [
+      "Before activation, name the intended candidates, state the evidence, and check whether Town can supply the needed votes.",
+      "Start Tribunal when faster executions or extra voting time materially help; count the available executions and keep the order explicit.",
+      "During Tribunal, direct votes to the agreed cases and stop improvising replacements from silence alone; dead roles and wills wait until the Tribunal ends."
+    ],
+    "expanded": "Your opening contribution is preparation rather than a button press. A useful candidate has a claim, a specific contradiction, and a reason their explanation fails. Have more than one case ready because you cannot use the first execution’s revealed role as feedback during the Tribunal. If Town already has an ordinary clean execution available and no second case, the extra power may add risk without solving a problem.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "mayor": {
+    "headline": "Stay hidden until your extra votes change a decision.",
+    "firstNight": "No N1 action. Record claims and identify the strongest D2 question; you cannot Reveal on D1.",
+    "reason": "An unrevealed Mayor preserves an important vote swing without immediately advertising the exact role.",
+    "targetRule": "Watch contested claims and who supplies evidence rather than who is loudest. With no information, prepare ordinary claim questions and preserve Reveal.",
+    "pivot": "Reveal on a later voting day when it secures a supported execution, prevents your own mistaken execution, or establishes needed leadership; avoid waiting past a decisive vote.",
+    "laterPriorities": [
+      "Use ordinary discussion to identify a supported evil and count the votes before revealing.",
+      "Reveal when the extra vote power changes that outcome; state the intended vote and evidence immediately.",
+      "After revealing, coordinate the remaining votes and follow-up cases, and plan around the protection and communication restrictions shown by your role card."
+    ],
+    "expanded": "Being able to reveal does not mean you should prove yourself at the earliest opportunity. First ask what the extra votes accomplish today. Preserve truthful notes even while claiming only TPow. Once revealed, your survival and voting choices become especially consequential: demand an explanation for contradictions, but do not turn your public confirmation into certainty about every other claim.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "monarch": {
+    "headline": "Hold N1 unless you have a credible Town candidate.",
+    "firstNight": "Default to holding Knight with no credible Town read. Knight tonight only if a well-supported Town candidate is likely to survive.",
+    "reason": "Knight grants permanent voting power to any faction, and its defense does not protect you immediately during the knighting night.",
+    "targetRule": "Prefer a strongly evidenced Town player with useful future votes, not merely a TPow claim. With no information, preserve the charge rather than pick a random knight.",
+    "pivot": "If a credible Town candidate exists and survival or impending vote pressure makes delay costly, knight now; do not preserve both charges until they can no longer affect voting.",
+    "laterPriorities": [
+      "Knight the best-supported living Town candidate once evidence exists; check that they are likely to remain alive.",
+      "Recount vote control before using the second charge; strengthen a reliable voter rather than rewarding agreeable chat.",
+      "Track living knights and your resulting defense, and reassess any knight whose actions contradict Town interests; knighthood does not confirm faction."
+    ],
+    "expanded": "Random N1 knighting trades uncertain defensive benefit for a permanent risk of strengthening an enemy vote. Holding is the beginner default, not a claim that waiting always wins. If you do knight, record whether the player actually received the extra vote at dawn. A dead target can leave the charge unused, and your Basic Defense arrives with the living Knight effect rather than saving you earlier that same night.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "prosecutor": {
+    "headline": "Preserve the prosecution until it solves a voting problem.",
+    "firstNight": "No N1 action. Build one supported accusation and prepare the question that could disprove it; Prosecute is a later voting-phase ability.",
+    "reason": "One mistaken Town prosecution both removes an ally and costs the remaining charge, so impatience has unusually high cost.",
+    "targetRule": "Prefer independently supported contradictions or a mechanically sound finding. With no information, gather a claim and wait; refusing an early role reveal is not sufficient evidence.",
+    "pivot": "Act earlier if a supported evil will otherwise survive a vote Town cannot win. Prefer ordinary voting when it achieves the same result without spending your charge.",
+    "laterPriorities": [
+      "Check the case and the target’s defense in chat before forcing an execution; distinguish real evidence from pressure.",
+      "Prosecute during a legal voting phase when bypassing ordinary voting materially helps; it is unavailable during Tribunal.",
+      "After the reveal, preserve the remaining charge for another supported case and remember that prosecuting a Jester makes you their revenge candidate."
+    ],
+    "expanded": "Write your intended reason before clicking: “This player said X, but independently observed Y rules that out.” If you cannot write the sentence, hold and ask a better question. Prosecution is a way to convert a strong case into an execution, not an investigative test. A player dying does not make the decision correct if the evidence never justified it.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "coroner": {
+    "headline": "Wait N1; autopsy a useful victim on D2.",
+    "firstNight": "In a normal fresh match, N1 has no eligible death record to work from. Prepare to Autopsy an overnight victim on D2, then Examine a suspect on N2.",
+    "reason": "Coroner needs a recorded killer before its night check is useful; inventing an N1 result creates an impossible history.",
+    "targetRule": "For the first Autopsy, prefer a victim of a killer still threatening Town. With no useful clue, choose a normal Coven or active killing-role victim rather than a departed Jester/Doomsayer victim.",
+    "pivot": "If no suitable body exists, hold and state why. Unusual setup, revived bodies, and disputed counterattack interactions need their own source/feedback check.",
+    "laterPriorities": [
+      "Autopsy a useful new victim during each day to expand the retained collection of recorded killers.",
+      "Examine a living suspect who could be one of those killers, prioritizing a player with a conflicting action or kill opportunity.",
+      "Report the exact killer match and role when received; on a negative result, say only that the player did not match your recorded killers."
+    ],
+    "expanded": "Your first working cycle is D2 Autopsy → N2 Examine → D3 report. Keep the Autopsy victims and Examine targets on separate lines. Earlier Autopsy records remain relevant, so a new victim adds coverage rather than replacing the old record. A killer match can identify a Town player made to kill by Shroud, so distinguish “recorded killer” from “evil faction.” A negative result never clears every possible evil.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "investigator": {
+    "headline": "Investigate an unresolved player; ask about their route.",
+    "firstNight": "Investigate one unresolved player on N1, preferably someone whose claimed action you can question on D2.",
+    "reason": "Crimes create lines of questioning: Trespassing concerns faction-crossing visits, while Murder concerns attacking that night. Neither is automatically evil.",
+    "targetRule": "Prefer an unconfirmed claimed visitor or a player with a checkable D1 statement. With no information, choose an eligible unknown away from obvious Veteran bait.",
+    "pivot": "If the only candidate is a credible key Town player with little uncertainty, investigate another unknown. Do not convert framing-sensitive results into an automatic execution.",
+    "laterPriorities": [
+      "Post the literal result with night and target, then ask a Trespassing target for their visit history or a Murder target for their action.",
+      "Investigate a fresh unresolved player whose current activity could explain a kill or contradiction; historical Murder is not checked on later nights.",
+      "Compare crimes with movement evidence, deaths, and known framing roles; preserve No Crime as a narrow result rather than a Town clear."
+    ],
+    "expanded": "For a new player the useful rule is “result first, interpretation second.” A Town visitor can have Trespassing, and a legitimate Town killer can have Murder. Enchant, Illusion, Reap, and Shroud can change what the result means. When a special interaction is disputed, do not build the whole case on it. Missing feedback because you were interrupted is not No Crime.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "lookout": {
+    "headline": "Watch a credible, likely-visited Town target.",
+    "firstNight": "Watch a credible exposed Town claim or sensible protection-call target on N1; your goal is a visitor list that can be checked tomorrow.",
+    "reason": "Watching likely traffic makes your observation more actionable than choosing an isolated random house.",
+    "targetRule": "Prefer a credible vulnerable Town leader or information role. With no useful call or role evidence, watch an active eligible unknown; avoid obvious Veteran bait and warn yourself about crowded-target risk.",
+    "pivot": "Skip a reckless call if Veteran, Crusader, or a known rampaging threat makes the location unusually dangerous; choose a less crowded useful target.",
+    "laterPriorities": [
+      "Compare the visitor list with claimed destinations and effects at that house; a contradiction is more valuable than merely finding a visitor.",
+      "Watch the credible Town target most likely to receive a kill or disruption next, while adapting to known rampage danger.",
+      "Publish useful contradictions promptly and preserve the complete list; no visible visitor does not exclude astral actions or prove that nothing happened."
+    ],
+    "expanded": "Your result answers who visibly visited the watched player, not where that player went. If the target reports a disruption, obtain the visitors’ claims before assigning the effect to one of them. Visiting a known Town target is not proof of Town faction. A busy house improves information potential but can attract lethal visitors too; no single target rule overrides explicit danger in the current match.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "psychic": {
+    "headline": "N1: put your weakest Town read in the Good pair.",
+    "firstNight": "Choose a suspicious but eligible unresolved player for the N1 Good vision; with no read, choose an unknown you can follow up on D2.",
+    "reason": "If that chosen player is later shown evil, the other name becomes a stronger Town lead, subject to result-altering effects.",
+    "targetRule": "For odd-night Good visions, prefer a credible evil candidate; for even-night Evil visions, prefer a strongly supported Town anchor. With no information, choose an eligible unknown and avoid forced certainty.",
+    "pivot": "Do not choose an obvious visiting hazard merely to optimize the pool. When no trusted anchor exists on even nights, use an unresolved player and describe the wider uncertainty.",
+    "laterPriorities": [
+      "Post the exact Good pair or Evil trio early each day, including night and chosen anchor, so Town can compare it with other evidence.",
+      "On even nights, include an independently supported Town anchor to focus scrutiny on the other two names; seek claims, not an automatic execution.",
+      "On odd nights, include a supported evil candidate where safe; revisit earlier pools when deaths or reliable findings establish identities."
+    ],
+    "expanded": "Current N1 is a two-name Good vision: at least one is Good, not both confirmed Town. N2 is a three-name Evil vision: at least one is Evil, not exactly one. Enchant, Reap, Illusion, and unusual faction setups narrow how strongly you can interpret those labels. Copy the actual message if a small-town result fails instead of inventing a normal pool.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "seer": {
+    "headline": "Compare a stronger Town read with an unresolved player.",
+    "firstNight": "Compare two eligible players on N1: one you read more strongly as Town and one unresolved player. If nobody has earned trust, compare two unknowns.",
+    "reason": "A reliable anchor makes a pair easier to interpret; two unknowns still supply a relationship Town can resolve later.",
+    "targetRule": "Prefer players with distinct, checkable claims and avoid obvious visiting hazards. With no information, select two eligible unknowns, record both, and treat the pair as unresolved.",
+    "pivot": "Do not choose a revealed or previously compared player when the client disallows it. A merely confident claim is not a confirmed anchor.",
+    "laterPriorities": [
+      "Post both targets and the exact Friends/Enemies result early, and ask for claims from a useful unresolved pair.",
+      "Use fresh eligible pairs on later nights, choosing your strongest available independent Town read as the anchor where possible.",
+      "Revisit earlier pairs after reliable role/faction evidence arrives; Friends does not prove Town and Enemies does not identify which player is evil."
+    ],
+    "expanded": "Your two selections are both visits, so check danger at both houses. Enchant, Reap, Illusion, Jester classification, and converted factions can change the relationship you see. Do not clear someone simply because a Tracker saw two visits: Catalyst, War, and Bestow/setup interactions matter. If a visit fails, preserve the actual failure and follow the client’s remaining target eligibility rather than pretending a comparison succeeded.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "sheriff": {
+    "headline": "Search an unknown; report the result without a Town clear.",
+    "firstNight": "Search one unresolved player on N1, preferably someone whose claim or behavior you can question tomorrow.",
+    "reason": "An early check produces useful pressure, but Innocent misses several evil categories and Suspicious can be framed.",
+    "targetRule": "Prefer an unconfirmed player outside obvious Veteran bait. With no information, choose an eligible unknown; quiet chat or a particular player number is not evidence.",
+    "pivot": "Switch away from a credible low-uncertainty Town claim unless a specific contradiction needs checking. Repeating an Innocent player without new cause usually adds little.",
+    "laterPriorities": [
+      "Post exact night, target, and Innocent/Suspicious result early; if interrupted, post the interruption instead.",
+      "Use a Suspicious result to obtain a claim and compare independent evidence, accounting for Enchant and Reap.",
+      "Search fresh unresolved players as the roster narrows; combine Innocent results with movement, claims, and vote behavior instead of treating them as confirmations."
+    ],
+    "expanded": "Sheriff is TI, not TP or TS. Current Innocent results can include the Necronomicon holder, Neutral Killings, Jester, and solo Apocalypse. “N1: 4 — Innocent” is accurate; “4 is confirmed Town” is not. An Innocent can still become an important suspect when other evidence conflicts. Your next target should expand useful coverage rather than repeatedly checking someone simply because you want a different result.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "spy": {
+    "headline": "Bug a likely future evil target, then spread your bugs.",
+    "firstNight": "Bug a credible exposed Town or likely attack/disruption target on N1.",
+    "reason": "Bugs persist while the recipient lives, so early placement on a useful likely survivor can pay across several nights.",
+    "targetRule": "Prefer a player likely to draw evil activity and survive it. With no role information, choose an active eligible unknown away from obvious visiting hazards.",
+    "pivot": "A likely immediate death may erase future bug value; choose a secondary valuable target if the obvious one appears doomed or dangerous to visit.",
+    "laterPriorities": [
+      "Plant on a fresh useful living player when possible rather than wasting placement on an already bugged survivor.",
+      "Report actual triggered role feedback with its house and night; combine it with Lookout or claims to investigate visitor identity.",
+      "Review all surviving bug locations each dawn and distinguish an evil role trigger from proof of a specific player number."
+    ],
+    "expanded": "The bug is an ongoing watch for qualifying evil activity, not a one-night generic visitor list. It reports role information rather than naming the visiting player. Framed or converted players can trigger it in ways that need interpretation, and no trigger is not a blanket Town clear. Keep previous placements in the log so later feedback is not mistakenly attributed only to tonight’s new target.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "tracker": {
+    "headline": "Track a player whose claimed destination can be checked.",
+    "firstNight": "Track an unresolved player on N1; prefer a claimed visitor whose route could be compared with their D2 account.",
+    "reason": "Movement contradictions are your strongest practical contribution; merely seeing a visit does not establish faction.",
+    "targetRule": "Choose an unconfirmed visitor or checkable D1 claim. With no information, track an eligible unknown while avoiding obvious Veteran bait.",
+    "pivot": "A known astral/nonvisiting role usually offers less movement information unless you are testing a specific contradiction. Do not expose yourself to an explicit hazard for a weak lead.",
+    "laterPriorities": [
+      "Record exact visible destinations, then compare them with the player’s action claim and any effects at those destinations.",
+      "Track an unresolved player whose route can explain a current death, disruption, or incompatible claim.",
+      "Use repeated consistent routes as corroboration while checking setup exceptions; report no visible visit without calling it confirmed inactivity."
+    ],
+    "expanded": "Your result answers where the tracked player visibly went, not who visited them. Astral actions can look like no visit. Multiple visits can be important but are not automatically Seer confirmation when Catalyst or other relevant setup effects exist. Ask for the target’s action before supplying every detail when testing a contradiction, while posting urgent useful information soon enough for Town to act.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "bodyguard": {
+    "headline": "Guard the most credible vulnerable Town asset.",
+    "firstNight": "Guard a credible exposed Town Power or useful information claim on N1; save Self Protect unless you expect a direct attack on yourself.",
+    "reason": "Your value is interrupting a harmful visitor and preserving a useful ally; a self-vest spends a night protecting no one else.",
+    "targetRule": "Prefer a supported Town player likely to be attacked. With no trusted claim, guard a sensible eligible unknown away from obvious Veteran bait rather than treating a loud protection call as confirmed Town.",
+    "pivot": "Self Protect when you are the likely Basic-attack target and no better guard assignment exists. Avoid a known dangerous visiting location; Guard does not stop every astral or passive threat.",
+    "laterPriorities": [
+      "Guard the best-supported vulnerable Town player who is likely to draw a direct harmful visit.",
+      "Coordinate only with a justified trusted protector if mutual coverage materially improves survival; do not assume a whispered claim is confirmed.",
+      "Reassess as attack types become known and preserve an accurate guard/vest history; a quiet night does not mean you saved or cleared the target."
+    ],
+    "expanded": "Guard intercepts one qualifying harmful visit rather than granting general Defense. Multiple attackers can still kill your target, and the intercept can kill you while protecting them. That sacrifice can be worthwhile for a valuable Town asset. Prefer a guard assignment you can explain from known roles and likely enemy incentives; do not claim that a target surviving your visit proves either their faction or a successful save.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "cleric": {
+    "headline": "Barrier the best credible Town target; save self-protection.",
+    "firstNight": "If Barrier is enabled, protect a credible vulnerable Town claim on N1. If Grace Period disables other-player Barrier, hold and preserve Self Barrier.",
+    "reason": "Repeatable protection on a valuable ally usually adds more team value than using your one self-protection without an attack reason.",
+    "targetRule": "Prefer a supported exposed Town Power, then a useful Town Investigative. With no credible claim, choose an eligible unknown away from Veteran bait; a random target is not a confirmed ally.",
+    "pivot": "Use Self Barrier when you are a plausible attack target and preserving yourself outweighs another assignment. Change course for known rampage or Unstoppable threats that Barrier cannot safely solve.",
+    "laterPriorities": [
+      "Protect the most valuable credible Town player likely to be attacked; update that choice after new claims and deaths.",
+      "Protect a threatened fellow protector when keeping the protection network alive is more valuable than stacking the obvious target.",
+      "Spend Self Barrier on a credible survival need and record only actual attacked/saved feedback, not an assumed successful heal."
+    ],
+    "expanded": "A Barrier supplies Powerful Defense, so it can stop many attacks but not Unstoppable ones. Repeatedly protecting the same good target is legal and can be correct; rotate because the threat changed, not for variety. Your visit can still expose you to Veteran, Arsonist, or rampage danger. A surviving target without attack feedback is simply alive, not a confirmed save or confirmed Town.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "crusader": {
+    "headline": "Fortify a useful secondary target, away from the crowd.",
+    "firstNight": "Fortify a credible but less crowded Town claim on N1 rather than following a mass TP/LO call.",
+    "reason": "You attack one random direct visitor regardless of faction; a crowded protection pile creates avoidable Town casualties.",
+    "targetRule": "Prefer a useful information role or protector likely to attract an evil visitor but few Town visitors. With no information, choose a low-traffic eligible unknown away from obvious Veteran bait.",
+    "pivot": "If every known target is expected to receive Town visits and you cannot coordinate safely, holding is better than a clearly reckless assignment. Fortify the main asset only when the visitor risk is understood.",
+    "laterPriorities": [
+      "Protect the useful Town target most likely to draw an evil visit without drawing several friendly visits.",
+      "Coordinate a single protection assignment with justified trusted Town when possible; explicitly avoid stacking visiting protectors on your target.",
+      "After attack feedback, compare deaths and visitor claims without assuming every attacked visitor was evil; adapt when rampage threatens the location."
+    ],
+    "expanded": "Your protective Defense and your random visitor attack are separate parts of the ability. The protected target can be Town while the visitor you kill is also Town. This makes target traffic a central decision variable, not a minor caveat. The easy rule is “valuable but not crowded,” revised when actual claims, trust, and visitor plans give you a better reason.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "oracle": {
+    "headline": "With no role information, Aegis Oracle once for reliable coverage.",
+    "firstNight": "If Aegis is enabled and you know no useful role claim, select Oracle on N1: you know at least your own role exists. If Grace Period disables Aegis, hold.",
+    "reason": "Blindly protecting an unconfirmed role can protect nobody; Oracle is certain to cover you, but spends your one Oracle selection.",
+    "targetRule": "Prefer a credible threatened role over the self-default when one is known. With no information, Oracle is the conservative fallback; record that its one use is spent.",
+    "pivot": "Skip Oracle if you have a credible vulnerable Town role worth preserving, or expect little threat to yourself and want to reserve self-coverage. Never repeat the same role on consecutive nights.",
+    "laterPriorities": [
+      "Aegis the credible threatened Town role that is both present and likely to be attacked, considering other known protection.",
+      "On the required rotation night, protect the next most useful known role rather than guessing a famous role with no evidence it exists.",
+      "Use attack feedback to improve coordination and keep the exact role-selection history; Aegis chooses roles, not numbered players."
+    ],
+    "expanded": "This default is an editorial survival tradeoff, not a claim that spending self-Aegis N1 is always best. Bodyguard or an exposed unprotected information role may offer higher team payoff when their existence is credible. The key is to make the tradeoff explicit instead of showing a list of equally weighted possibilities. Aegis is astral; do not invent a player visit or assume an enemy’s fake role claim receives the selected protection.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "trapper": {
+    "headline": "Build N1; save the first placement for a good D2 claim.",
+    "firstNight": "Build on N1. You cannot place a fresh trap before completing the building night; record whether construction actually succeeded.",
+    "reason": "Your first useful protection requires a ready trap. Accurate state tracking prevents an impossible N1 placement and a wasted N2 plan.",
+    "targetRule": "No N1 player target is needed. Use D2 claims to choose a credible valuable target for the first placement; with no credible claim, use an eligible unknown whose survival matters more than expected harmless traffic.",
+    "pivot": "If jailed, roleblocked, or otherwise prevented from building, rebuild instead of pretending a trap is ready. Avoid a placement expected to be immediately consumed by avoidable harmless visitors.",
+    "laterPriorities": [
+      "Once ready, place on a credible vulnerable Town asset likely to draw a harmful visitor.",
+      "Leave an untriggered useful trap in place; dismantle only when the old assignment has lost value enough to justify relocation delay.",
+      "After a trigger, report the exact protection or visitor-role feedback, then rebuild before trying to place again."
+    ],
+    "expanded": "Only one trap can be active. A harmless visitor can consume it and yield role information rather than a kill, so repeated rebuilding is not automatically evidence of poor play. Record “building,” “ready,” “placed,” and “triggered” separately. The trap does not identify visitor numbers merely from role names, and astral visits do not trigger it. Do not claim a universal shield against multiple attackers or rampage collateral.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "deputy": {
+    "headline": "Hold the bullet until a specific case justifies the day shot.",
+    "firstNight": "No N1 action. Prepare one D2 contradiction question and preserve your single day shot; you cannot shoot on D1.",
+    "reason": "A speculative shot can spend your only charge without resolving the game. Investigation through discussion is free.",
+    "targetRule": "Build a case from incompatible claims or independent evidence. With no information, ask for actions and wait; silence, confidence, or refusal to name an exact role immediately is not enough.",
+    "pivot": "Fire on a later legal day phase when a supported evil is worth removing now. If the evidence remains weak or expected Defense makes the shot ineffective, keep the charge.",
+    "laterPriorities": [
+      "Challenge the best specific contradiction and hear the explanation before shooting.",
+      "Use the day shot when evidence and timing justify it; check known defense and whether the target is a sensible shooting candidate.",
+      "After shooting, mark the charge spent and continue through votes and questions; a miss does not clear the target as Town."
+    ],
+    "expanded": "Deputy is TK, not TI, TP, or TS. The current shot is a day ability and its miss behavior is not the old “kill Town and die” rule. A Town target or sufficient Defense can produce a miss, and deceptive effects matter. Record the actual outcome without turning a private miss into a claimed successful kill. Holding the bullet is active risk management, not failure to use your role.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "trickster": {
+    "headline": "Mirror a credible likely attack target before considering a kill.",
+    "firstNight": "Place Magic Mirror on a credible vulnerable Town target on N1; reserve your one Self Mirror unless you are the likely attack target.",
+    "reason": "Absorbing an attack can save an ally, identify the attacking role, and create your later offensive action.",
+    "targetRule": "Prefer a supported exposed Town Power or information role likely to be attacked. With no information, choose an eligible unknown away from obvious Veteran bait rather than random Self Mirror.",
+    "pivot": "Use Self Mirror when a credible attack threat is on you. Do not expect Mirror to stop every passive, indirect, or Unstoppable attack.",
+    "laterPriorities": [
+      "While you have no stored attack, Mirror the most credible likely direct-attack target and record any absorbed attacking role.",
+      "After absorption, Unleash on a supported evil when the stored attack and collateral risk make sense; do not fire merely to clear the slot.",
+      "Once safely discharged, return to protecting likely targets; if the stored attack rampages, account for friendly visitors before selecting its destination."
+    ],
+    "expanded": "You cannot keep placing mirrors while holding an absorbed attack, so a bad speculative Unleash can waste the protection you just earned. State the attack you absorbed and distinguish it from a general evil identification. An Unleash is a harmful visit that can trigger Bodyguard or Trapper. A mirrored player surviving with no absorption feedback is not a confirmed save or a confirmed ally.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "veteran": {
+    "headline": "Quiet N1 with no attack signal: conserve Alert.",
+    "firstNight": "Default to no Alert on a quiet, low-information N1. Alert if your D1 behavior or a concrete threat makes an evil visit more plausible than friendly visits.",
+    "reason": "You have three Alerts and shoot all direct visitors, including Town; spending one blindly can remove allies instead of enemies.",
+    "targetRule": "You choose your own house, not a player target. With no information, preserve the charge; do not invite TP/LO and then shoot the responders.",
+    "pivot": "Alert tonight if a credible attack or hostile visit is expected and you have discouraged friendly visitors. Check Grace Period and roleblock risk rather than assuming Alert guarantees safety.",
+    "laterPriorities": [
+      "Use Alert on nights when an enemy visit is plausible and friendly traffic can be kept low.",
+      "After any shots, compare the count with deaths and claims without assuming every visitor was evil.",
+      "Preserve at least some defensive flexibility while the match continues, but spend remaining Alerts when a supported imminent threat makes saving them pointless."
+    ],
+    "expanded": "This is a conservative beginner default rather than a universal recommendation to skip N1. The target-selection problem is predicting who will visit you. Fake protection calls deliberately bring the wrong visitors into the danger zone. You can still contribute through discussion while quiet at night. Current Veteran can be roleblocked, so an Alert selection is not a promise that the ability resolved or that a Poisoner cannot threaten you.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "vigilante": {
+    "headline": "Load N1; shoot evidence rather than uncertainty.",
+    "firstNight": "Load on N1 by staying home. You cannot shoot tonight; at dawn check that loading actually succeeded.",
+    "reason": "A loaded bullet creates the option to remove a supported evil later. An interrupted load does not create ammunition.",
+    "targetRule": "No N1 target is needed. Prepare a D2 shortlist from conflicting claims; with no evidence, load or hold instead of treating a random shot as investigation.",
+    "pivot": "From N2, shoot when a supported evil case and expected Defense justify the Basic Attack. Hold when the target may be Town, protected, or a lethal visiting hazard.",
+    "laterPriorities": [
+      "Shoot a well-supported evil when removing them tonight matters and the attack is likely to work.",
+      "Without a justified shot, stay home to Load if a load remains available; check the client’s ammunition state.",
+      "After a shot, record success/failure and whether the gun is lost; shooting Town removes further gun use, so do not plan a second shot from outdated state."
+    ],
+    "expanded": "Current Vigilante must load and has at most three Loads; it does not simply begin with three ready shots. A shooting attempt does not load another bullet even if disrupted. Town is already paying the cost of uncertainty through discussion and votes; your gun should capitalize on stronger evidence rather than bypass it. Bodyguard, traps, control, protection, and natural Defense can make an otherwise supported target a poor shot.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "admirer": {
+    "headline": "Use the starting alignment clue to search efficiently.",
+    "firstNight": "Admire an eligible player whose claim matches your Obsession’s starting subalignment; with no such claim, choose an eligible unknown.",
+    "reason": "Finding your Obsession unlocks Care, while the alignment clue helps avoid spending nights on incompatible candidates.",
+    "targetRule": "Prefer a compatible credible Town claim. With no information, choose an unknown rather than a known Town Power, Town Outlier, or Amnesiac, which cannot be the normal starting Obsession.",
+    "pivot": "If the suspected Obsession dies before discovery, follow the new clue rather than continuing the old search. Do not treat a matching alignment claim as proof.",
+    "laterPriorities": [
+      "Before discovery, Admire the best remaining eligible candidate matching the current Obsession clue.",
+      "After discovery, spend Care when the Obsession or you face a credible attack; preserve both charges when neither is threatened.",
+      "Use a daytime Bestow on a justified trusted useful Town actor who benefits from astral visits and disruption immunity; avoid permanently upgrading an untested evil claim."
+    ],
+    "expanded": "Admirer is a search-and-support role, not the old marriage proposal. Keep the initial clue and each failed candidate in private notes. Finding the Obsession is useful evidence, but disclose carefully because it can expose another Town role. Care and Bestow solve different problems: Care is temporary survival, while Bestow permanently changes visits and disruption immunity. Do not spend either simply to make a friendly player like your claim.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "amnesiac": {
+    "headline": "Wait honestly and prepare to switch plans when you Remember.",
+    "firstNight": "No selectable N1 ability in a normal fresh match. Record that you are waiting to Remember an eligible dead Town role.",
+    "reason": "Remembering is automatic; inventing a corpse choice or an investigation obscures what the role actually does.",
+    "targetRule": "No N1 player target exists. With no information, collect claims and watch the graveyard; let actual morning feedback determine your new role.",
+    "pivot": "If you Remember, switch immediately to that role’s current legal state and opening priorities. Do not assume every death is eligible or that you choose the most attractive corpse.",
+    "laterPriorities": [
+      "Check morning role feedback and the graveyard so you recognize a successful Remember promptly.",
+      "After Remembering, use the new role’s best currently available action; account for the current night rather than replaying its N1 instruction.",
+      "Preserve your earlier Amnesiac history and explain the transition truthfully when needed; do not erase missing-action nights to look stronger."
+    ],
+    "expanded": "Your initial value is still your Town vote and ability to ask useful questions. A slow start is not an obligation to fabricate results. If the graveyard offers no eligible Town body, continue waiting and record that state. Once the role changes, the right action might be protecting, loading, building, or collecting information according to the new card; its earlier setup requirements still matter.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "retributionist": {
+    "headline": "No corpse on N1: wait, then use the best legal Town body.",
+    "firstNight": "In a normal fresh match there is no eligible corpse to Raise on N1. Prepare a truthful “no usable body” opening.",
+    "reason": "Your action depends on actual dead Town roles; a generic N1 raise would be impossible.",
+    "targetRule": "No N1 target is required without a body. On later nights prefer a corpse whose ability solves a current need, then choose its legal living target; without a useful body, hold.",
+    "pivot": "Never invent access to an evil, stoned, unavailable, or otherwise ineligible corpse. A powerful corpse is still a poor choice if its current target is speculative or dangerous.",
+    "laterPriorities": [
+      "Raise a protective Town corpse when it can preserve a credible threatened asset, or a useful investigator when it can test a decisive unresolved case.",
+      "Use a killing corpse only for a supported evil and with its attack, friendly-fire, and visiting risks understood.",
+      "Track used bodies, corpse-specific feedback, and actual destinations so later choices follow remaining eligibility rather than a copied will template."
+    ],
+    "expanded": "Rank the current job before ranking the corpse by reputation. A modest information ability with a decisive target can be more valuable than an unsupported lethal action. The corpse performs the borrowed action under its restrictions, and traffic effects can still interfere. Write the corpse role, corpse identity, intended target, and real feedback separately; do not claim a direct personal visit that your role did not make.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "socialite": {
+    "headline": "Protect a credible useful house without locking Town out.",
+    "firstNight": "If Party is enabled, Party at a credible vulnerable Town target whose expected friendly visitors are absent or safely covered by your guest list.",
+    "reason": "Blocking an enemy visit can preserve a key player, but an uncoordinated Party can also block Town protection and information.",
+    "targetRule": "Prefer a useful supported claim with low friendly traffic. With no trustworthy target or visitor plan, hold rather than blindly obstruct a mass TP/LO destination.",
+    "pivot": "Choose another house when friendly visitors need access and are not guests. Never Party at the same player on consecutive nights; a rejected-visitor message does not identify an evil.",
+    "laterPriorities": [
+      "Invite a justified trusted useful Town visitor when a permanent guest slot gives them valuable access; do not spend slots on persuasive strangers.",
+      "Party at the credible threatened house where blocking uninvited visits helps more than it disrupts Town; rotate to a different target each night.",
+      "Use actual obstruction feedback and destination claims to investigate conflicts, without naming unseen rejected players or calling every blocked visit evil."
+    ],
+    "expanded": "The host target and the invited visitors are different choices. A guest can pass your future parties, so an incorrect invitation can permanently admit an enemy. No-information holding is a deliberate exception to the usual instinct to click something every night. Party is an obstacle rather than a roleblock, has bypasses, and does not provide a complete visitor list; use its actual feedback instead of a fabricated save.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "tavern-keeper": {
+    "headline": "Drink with an unresolved suspect, not a valuable Town actor.",
+    "firstNight": "Drink with a credible unresolved suspect on N1; avoid blocking an openly useful Town night role just to test the claim.",
+    "reason": "An effective roleblock may disrupt an evil action, while blocking a real investigator or protector costs Town useful work.",
+    "targetRule": "Prefer a specific behavioral or claim concern. With no information, choose an eligible unknown away from obvious Veteran bait, while acknowledging that the random block may hit Town.",
+    "pivot": "If the only plausible target is a likely Serial Killer or a dangerous full-moon Werewolf, reassess visiting risk or hold. Do not repeat a successfully blocked Hungover target immediately.",
+    "laterPriorities": [
+      "Disrupt the supported enemy night actor whose next action most threatens Town, unless immunity or visiting danger makes the attempt ineffective.",
+      "After a successful Drink, rotate to another eligible target while Hungover prevents an immediate repeat block.",
+      "Compare roleblock feedback with claims and deaths, then ask targeted questions; a night without a kill is a lead, not proof you found the killer."
+    ],
+    "expanded": "Drink affects night actions, not day abilities, so blocking a claimed day killer does not suppress tomorrow’s shot. Some roles ignore it and some retaliate. Record the exact interruption or success feedback and the target’s reported experience without upgrading missing feedback into confirmation. When Town has a supported evil with a functioning harmful action, useful disruption is more valuable than cycling through random claim checks.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "catalyst": {
+    "headline": "Do not double an unknown killer: wait for a credible Town actor.",
+    "firstNight": "Overcharge a well-supported useful Town night actor if one exists; with no trustworthy target on N1, hold.",
+    "reason": "Overcharge can also double an enemy’s ability, including book attacks. Randomly maximizing activity is not the same as helping Town.",
+    "targetRule": "Prefer a credible investigator or protector with a useful following-night plan. With no information, preserve Town safety by holding rather than upgrading a random claim.",
+    "pivot": "Act promptly once a trusted useful candidate appears; do not wait forever for absolute certainty. Avoid upgrading a role whose doubled action is unknown or whose extra lethal action is unsupported.",
+    "laterPriorities": [
+      "Overcharge the best-supported Town actor whose additional next-night action can answer an important question or preserve a key ally.",
+      "Confirm the actual timing and role-specific effect with the recipient’s feedback before planning another charge around it.",
+      "Reassess trust and the next night’s job every day; move the boost when a different Town action has higher value rather than permanently feeding one friendly claim."
+    ],
+    "expanded": "Catalyst is an Outlier, so first check that the setup supports the role and its relevant interactions. The boost normally concerns the subsequent night, not a retroactive duplicate of the action already happening. Some roles have special effects and the detailed interaction table is incomplete. The beginner rule is to choose a trusted beneficiary and a concrete extra action, not to promise the same doubling behavior for every role.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  },
+  "pilgrim": {
+    "headline": "Use your Town vote and evidence; invent no night result.",
+    "firstNight": "No N1 ability. Record claims and prepare one precise D2 question. In an explicitly constrained Pilgrim setup, track the available Pilgrim slots.",
+    "reason": "Your contribution is social deduction and voting; claiming fake investigative results gives Town a false evidence base.",
+    "targetRule": "No night target exists. With no information, ask for consistent action histories and compare claims to known role slots; do not equate being uncounterclaimed with universal confirmation.",
+    "pivot": "If slot counts are fixed, a competing excess Pilgrim claim can be valuable evidence; in open lists, the absence of a counterclaim says much less.",
+    "laterPriorities": [
+      "Keep a claim ledger and ask the strongest unresolved contradiction question each day.",
+      "Vote with supported cases and compare the claim space with the actual known setup; preserve Town’s vote control.",
+      "Update your reads when genuine results, deaths, and actions arrive, and leave useful concise reasoning in your will rather than fabricated visits."
+    ],
+    "expanded": "Pilgrim is an Outlier with no active ability, and its existence depends on setup. You can still make other roles more effective by gathering claims, checking timelines, and stopping unsupported executions. A fake Psychic or Seer result may force discussion but also makes honest Town players reason from invented evidence; it is not the beginner default. Truthful uncertainty is preferable to a confident false mechanic.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)"
+    ],
+    "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
+  }
+}
