@@ -1,6 +1,14 @@
 export const STORAGE_KEY = 'salem-sidekick:v1';
 export const uid = () => globalThis.crypto?.randomUUID?.() || `entry-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 export function initialState() { return {schemaVersion:1,actualId:'sheriff',claimId:'sheriff',deliberateClaim:false,detail:false,expanded:[],theme:'dark',phase:'n1',recent:['sheriff'],goals:{},drafts:{public:{},private:{}},timeline:[],willOpen:false,namespace:'public',privateViewId:null}; }
+export const isTownClaim = role => Boolean(role?.alignment?.startsWith('Town'));
+export function ensureTownClaim(state,library) {
+  if(isTownClaim(library.find(r=>r.id===state.claimId)))return;
+  const actual=library.find(r=>r.id===state.actualId);
+  const preferred=library.find(r=>r.id===actual?.preferredClaimId);
+  state.claimId=(isTownClaim(preferred)?preferred:isTownClaim(actual)?actual:library.find(isTownClaim))?.id || 'sheriff';
+  state.deliberateClaim=false;
+}
 export function restoreState(raw, library) {
   const fresh=initialState(); if(!raw)return fresh;
   const value=JSON.parse(raw); if(!value || value.schemaVersion!==1 || !value.drafts || typeof value.drafts!=='object')throw new Error('Saved format is not supported');
@@ -26,6 +34,7 @@ export function restoreState(raw, library) {
     state.drafts[ns][id]={title:typeof draft.title==='string'?draft.title:'',format:draft.format==='detailed'?'detailed':'short',entries:[]};
     if(Array.isArray(draft.entries))state.drafts[ns][id].entries=draft.entries.filter(e=>e&&typeof e==='object').map(e=>({id:typeof e.id==='string'&&/^[a-zA-Z0-9-]+$/.test(e.id)?e.id:uid(),phase:e.phase==='D'?'D':'N',cycle:Math.max(1,Number(e.cycle)||1),action:String(e.action||''),target:String(e.target||''),via:String(e.via||''),result:String(e.result||''),feedback:String(e.feedback||''),notes:String(e.notes||''),guesses:Array.isArray(e.guesses)?e.guesses.slice(0,3).map(g=>({player:String(g?.player||''),role:String(g?.role||'')})):[]}));
   }
+  ensureTownClaim(state,library);
   return state;
 }
 export function getDraft(state,namespace,roleId) {
@@ -82,6 +91,7 @@ export function selectActual(state,role,library) {
   state.recent=[role.id,...state.recent.filter(x=>x!==role.id)].slice(0,5);
   if(!state.deliberateClaim && !oldDraft.entries.length && !oldDraft.title.trim()){
     const suggested=role.claim_candidates?.[0]?.role;
-    state.claimId=library.find(r=>r.id===role.preferredClaimId)?.id || library.find(r=>r.name===suggested)?.id || role.id;
+    state.claimId=library.find(r=>r.id===role.preferredClaimId&&isTownClaim(r))?.id || library.find(r=>r.name===suggested&&isTownClaim(r))?.id || role.id;
   }
+  ensureTownClaim(state,library);
 }

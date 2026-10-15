@@ -2,7 +2,7 @@
 
 The current website uses these opinionated starting policies for **all 60 base roles and four transformed states**. Each has a default action, target rule, reason, explicit pivot, and three ranked later priorities. The ranking is editorial strategy based on source-checked mechanics, not a measured optimal-win-rate claim.
 
-The will builder is replaced by [claim-specific examples and maintenance advice](CLAIM_EXAMPLES.md). All role choices remain available. The 31 opposing-role audits compare upkeep, real overlap, payoff, and exposure instead of implying that the first mechanically plausible claim is the easiest beginner claim.
+The will builder is replaced by [claim-specific examples and maintenance advice](CLAIM_EXAMPLES.md). All 64 actual role/state choices remain available; public covers are limited to the 29 Town roles. The 31 opposing-role audits compare upkeep, real overlap, payoff, and exposure instead of implying that the first mechanically plausible claim is the easiest beginner claim.
 
 ## Decisions that changed
 

@@ -63,3 +63,14 @@ test('corrupt records are rejected and unknown role IDs are recovered safely',()
 test('Markdown escapes HTML and cannot create javascript links',()=>{
  const out=markdown('<img src=x onerror=alert(1)> **Safe** [bad](javascript:alert(1)) [role](https://example.com/Role_(ToS2))');assert.doesNotMatch(out,/<img|href="javascript:/);assert.match(out,/<strong>Safe<\/strong>/);assert.match(out,/href="https:\/\/example.com\/Role_\(ToS2\)"/);
 });
+
+test('saved Coven and Neutral public claims migrate to a Town cover without losing notes',()=>{
+ for(const claimId of ['witch','conjurer','jester','death']){
+  const s=initialState();s.actualId='jinx';s.claimId=claimId;s.deliberateClaim=true;getDraft(s,'public',claimId).title='Saved history';getDraft(s,'private','jinx').title='Private history';
+  const restored=restoreState(JSON.stringify(s),library);assert.equal(restored.actualId,'jinx');assert.equal(restored.claimId,role('jinx').preferredClaimId);assert.equal(restored.deliberateClaim,false);assert.equal(restored.drafts.public[claimId].title,'Saved history');assert.equal(restored.drafts.private.jinx.title,'Private history');
+ }
+ const town=initialState();town.actualId='witch';town.claimId='oracle';town.deliberateClaim=true;assert.equal(restoreState(JSON.stringify(town),library).claimId,'oracle');
+});
+test('every actual role and state starts with a Town claim',()=>{
+ for(const r of library){const s=initialState();selectActual(s,r,library);assert.ok(role(s.claimId).alignment.startsWith('Town'),r.name);}
+});

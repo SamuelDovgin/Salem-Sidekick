@@ -4,6 +4,8 @@ Research and planning date: **2026-10-15** (America/Chicago). Status: **Compact 
 
 ## Current practical-play revision
 
+The public claim picker is now Town-only (29 roles). All 64 actual roles/states remain selectable. Old Coven/Neutral cover choices migrate to a recommended Town cover without deleting archived notes. Earlier unrestricted-claim specifications below are historical.
+
 The latest user instruction supersedes the earlier will-builder scope: use prominent **My default play**, ranked later priorities, and **claim-specific example wills with maintenance advice**. The builder is removed from the current interface; old saved notes are retained read-only. Claims compare upkeep, payoff, real support, and exposure. See [the complete audited playbook](docs/copy/PRACTICAL_PLAYBOOK.md) and [all claim examples](docs/copy/CLAIM_EXAMPLES.md). Earlier builder specifications below remain historical design context, not work to restore.
 
 ## 1. Product and accepted requirements

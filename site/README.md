@@ -15,10 +15,10 @@ Open http://127.0.0.1:4173. No application dependencies or build step are requir
 ## Included behavior
 
 - Top Town, Coven, Neutral, and All roles buttons open a filtered roster directly.
-- Searchable actual-role and unrestricted claim selectors, faction/alignment filters, aliases, recent roles, and real game icons.
+- Searchable actual-role selector for all 64 roles/states; a separate Town-only public-claim selector with 29 roles. Filters, aliases, recent actual roles, and real game icons remain available.
 - Prominent My default play, explicit pivots, ranked later actions, and full alignment labels, N1 target criteria and low-information fallbacks, dawn interpretation, D2 disclosure, later decisions, and checkable role subgoals.
 - Top-right More detail expands the same sections inline; each Why control expands its own section. Cover obligations remain inline and separate from actual-role guidance.
-- Logical claim cards explain overlap and exposure. Public alignment follows the selected cover.
+- Logical Town-claim cards explain overlap and exposure. Previously selected Coven/Neutral claims migrate to the actual role’s recommended Town cover while saved notes remain archived. Public alignment follows the selected cover.
 - Claim-specific illustrative examples, blank formats, posting timing, upkeep/payoff/exposure notes, and practical history-maintenance tips.
 - The will builder is removed. Previous stored drafts are kept in a separate read-only archive; copied examples never include those notes.
 - Browser-local persistence, corrupt-save recovery copy, in-memory storage fallback, deliberate new-match reset, dark/light themes, keyboard selectors, mobile layout, inline glossary, sources, and artwork credits.

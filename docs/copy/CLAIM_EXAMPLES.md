@@ -1,5 +1,7 @@
 # Claim-specific example wills and upkeep
 
+**Current selector scope:** public claims are limited to the 29 Town roles. All 64 roles/states remain available as actual roles. Coven/Neutral formats below are retained as own-role reference material, not selectable public covers.
+
 Current publication copy for the example section, replacing the will builder. All numbers and outcomes below are illustrative; these are not current-match findings. Genuine Town records real feedback. An opposing player deliberately authors a cover separately from their actual actions.
 
 The 29 Town claims have individually audited upkeep, payoff, exposure, posting timing, examples, and maintenance tips. Other selectable roles show their own source-checked format and clearly identify open faction disclosure, rather than pretending an evil role name is an ordinary Town cover.
