@@ -15,6 +15,12 @@ try{
  await page.goto(origin);await page.locator('#role-title').waitFor();
  check('initial Sheriff guide has TI alignment and an explicit recommended Search',await page.locator('#role-title').textContent()==='Sheriff'&&await page.locator('.role-meta').innerText().then(t=>t.includes('TI'))&&await page.locator('.recommended-play').innerText().then(t=>/search|check/i.test(t)));
  for(const [faction,count]of [['Town',29],['Coven',17],['Neutral',18],['all',64]]){await page.locator(`[data-action="choose-group"][data-faction="${faction}"]`).click();check(`${faction} shortcut opens exactly ${count} matching roles/states`,await page.locator('#faction-filter').inputValue()===faction&&await page.locator('#picker-results .role-result').count()===count);await page.keyboard.press('Escape');check(`${faction} selector returns keyboard focus`,await page.locator(`[data-action="choose-group"][data-faction="${faction}"]`).evaluate(e=>e===document.activeElement));}
+ await select('actual','jinx');
+ const crusBasics=page.locator('.claim-option [data-claim-basics="crusader"]'),psychicBasics=page.locator('.claim-option [data-claim-basics="psychic"]');
+ check('Jinx claim cards explain Crusader protection, one visitor, and the claimed promise without expansion',await crusBasics.isVisible()&&await crusBasics.innerText().then(t=>t.includes('one random direct visitor')&&t.includes('BOTH protection')&&t.includes('friendly Town')));
+ check('Psychic card explains group size and why a vision cannot identify one culprit',await psychicBasics.innerText().then(t=>t.includes('two names')&&t.includes('three names')&&t.includes('does not say which')));
+ await select('claim','crusader');check('selected claim explains what Fortify 4 means before its will',await page.locator('#will-examples>.claim-basics').innerText().then(t=>t.includes('does not mean you attacked player 4')));
+ await page.locator('#new-match').click();await page.locator('[data-action="confirm-reset"]').click();
  await select('actual','voodoo-master');
  check('Voodoo opener chooses Silence and names the Blind investigator pivot',await page.locator('.recommendation-title').innerText().then(t=>t.includes('Silence')&&t.includes('Blind')));
  check('Voodoo defaults to the lower-upkeep Cleric cover',await page.locator('[data-action="choose-claim"]').innerText().then(t=>t.includes('Cleric')&&t.includes('TP')));
@@ -33,7 +39,7 @@ try{
  // Exercise every actual role and every selected claim through the UI.
  for(const r of library){await select('actual',r.id);assert.equal(await page.locator('#role-title').textContent(),r.name);assert.equal(await page.locator('.recommendation-title').innerText(),r.playbook.headline);assert.equal(await page.locator('.ranked-priorities li').count(),3);}
  check('all 60 roles and 4 states have a specific default and three ranked next actions',true);
- for(const r of library){await select('claim',r.id);assert.equal(await page.locator('#claim-example').innerText(),r.claimProfile.example);assert.ok(await page.locator('.example-posting').innerText());}
+ for(const r of library){await select('claim',r.id);assert.equal(await page.locator('#claim-example').innerText(),r.claimProfile.example);assert.ok(await page.locator('.example-posting').innerText());assert.ok(await page.locator(`#will-examples>[data-claim-basics="${r.id}"]`).isVisible());}
  check('all 64 selectable claims have a real example, timing, and maintenance guidance',true);
  await select('actual','famine');check('transformed default recommends current Starve rather than Feed',await page.locator('.recommended-play').innerText().then(t=>/Starve|starv/i.test(t)));
  await select('actual','voodoo-master');await select('claim','cleric');

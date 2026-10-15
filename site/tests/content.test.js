@@ -31,3 +31,9 @@ test('higher-payoff role information does not erase movement or demonstration ri
 test('inactive and preparation roles retain legal opening recommendations',()=>{
  assert.match(byId.get('deputy').playbook.firstNight,/no night|No night|no N1|No N1/i);assert.match(byId.get('trapper').playbook.firstNight,/Build|build/);assert.match(byId.get('vigilante').playbook.firstNight,/Load|load/);assert.match(byId.get('berserker').playbook.firstNight,/cannot/);
 });
+
+test('every selected claim explains its ability; Town claims include a plain-language promise and example',()=>{
+ for(const r of library){const p=r.claimProfile;assert.ok(p.plainAbility?.trim()&&p.claimMeaning?.trim(),r.name);if(r.faction==='Town')assert.ok(p.simpleExample?.trim(),r.name);}
+ const crus=byId.get('crusader').claimProfile;assert.match(crus.plainAbility,/one random direct visitor/);assert.match(crus.claimMeaning,/BOTH protection/);assert.match(crus.simpleExample,/does not mean you attacked player 4/);
+ const psy=byId.get('psychic').claimProfile;assert.match(psy.plainAbility,/two names/);assert.match(psy.plainAbility,/three names/);assert.match(psy.simpleExample,/Either or both/);
+});

@@ -224,6 +224,8 @@ def build():
         state['template']['example'] = state_examples[state['id']]
     for role in roles+states:
         role['claimProfile'] = profiles.get(role['id'], {
+          'plainAbility':role['cards'][0]['compact'] if role.get('cards') else role['playbook']['firstNight'],
+          'claimMeaning':'Claiming '+role['name']+' openly means claiming this role’s actual ability and objective. In normal factions, this is not a Town cover.',
           'effort':'Open faction disclosure',
           'payoff':'This is the role’s own action history, not an ordinary Town cover. Public disclosure is a deliberate situational choice.',
           'exposure':'Under the normal-faction profile, this role name can disclose an opposing objective; it is not a quiet survival claim.',

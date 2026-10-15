@@ -6,6 +6,12 @@ The 29 Town claims have individually audited upkeep, payoff, exposure, posting t
 
 ## Jailor
 
+**What this role does:** Pick a prisoner during the day, then question them privately at night. Their normal night action is restricted by jail. From N2 you may execute, with three executions; killing Town removes further abilities. Do not repeat a prisoner consecutively.
+
+**By claiming it, you mean:** You promise a real jail conversation that your prisoner can confirm, not just a name in a will. There is no N1 execution.
+
+**For example:** “N1: Jail 4 — claimed Cleric; released” means you privately questioned player 4, who said Cleric, and chose not to execute.
+
 **TPow — Town Power; High upkeep.**
 
 **Payoff:** Real private jail conversations and executions create substantial evidence and control. A fake claim assumes a direct interaction that another player can readily confirm or deny.
@@ -39,6 +45,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)).
 
 ## Marshal
 
+**What this role does:** Reveal yourself during the day by starting a Tribunal. Players can be executed directly through nominations, normally up to two victims, with role reveals and wills delayed until it ends. You have two uses and no night ability.
+
+**By claiming it, you mean:** You promise a visible daytime event. An easy empty night log cannot substitute for demonstrating Tribunal when the situation calls for it.
+
+**For example:** “D2: Held Tribunal” means you saved a use. It does not mean a Tribunal took place or that any suspect was proven evil.
+
 **TPow — Town Power; Low upkeep.**
 
 **Payoff:** No night targets or daily investigative results are required. A real Tribunal can change the voting day, but a fake claim cannot reproduce that conspicuous public action.
@@ -71,6 +83,12 @@ The example lists two legal D3 executions, not confirmed evils or a required sch
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)).
 
 ## Mayor
+
+**What this role does:** Publicly Reveal from D2 to gain extra voting weight immediately and more on later days while alive. You have no night ability; the visible reveal and votes are the important evidence.
+
+**By claiming it, you mean:** You promise a public Reveal you can actually perform. Writing Mayor in a will does not produce the reveal or extra votes.
+
+**For example:** “D2: Remained hidden; D3: Revealed” records when your public power appeared. It contains no investigative results.
 
 **TPow — Town Power; Low upkeep.**
 
@@ -106,6 +124,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)).
 
 ## Monarch
 
+**What this role does:** At night, make someone a Knight to give them extra voting weight. You have two Knight charges. Having a living Knight gives you Basic Defense after the action resolves; a Knight can still be evil.
+
+**By claiming it, you mean:** You promise a real effect on the recipient, who may verify it. Holding a charge means no one was knighted that night.
+
+**For example:** “N2: Knight 4 — completed D3” means player 4 received the Knight effect at dawn, not that you proved 4 is Town.
+
 **TPow — Town Power; Moderate upkeep.**
 
 **Payoff:** Knighting can produce a persistent visible voting effect and help trusted allies. Quiet holds are simple initially, but the promised Knights create later verification pressure.
@@ -137,6 +161,12 @@ The example illustrates conserving charges, not a mandatory N2 start. Recipients
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)).
 
 ## Prosecutor
+
+**What this role does:** Publicly force a daytime hanging through Prosecute, bypassing normal judgment. You have two charges, at most one use per day, starting D2; prosecuting Town removes the remaining charges.
+
+**By claiming it, you mean:** You promise a visible prosecution ability. You have no night checks, and you cannot demonstrate this role merely by claiming a prosecution in text.
+
+**For example:** “D2: Held Prosecute” means you saved the ability. “D3: Prosecuted 9” needs the actual public event.
 
 **TPow — Town Power; Low upkeep.**
 
@@ -170,6 +200,12 @@ The example does not identify player 9 as evil. A false claim cannot reproduce P
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)).
 
 ## Coroner
+
+**What this role does:** First examine a dead body during the day to collect information about its killer; this is an Autopsy. Then check living people at night against the killer records you have collected.
+
+**By claiming it, you mean:** You need a real usable autopsy before the related night comparison. An ordinary N1 has no corpse record yet, so no useful killer match is expected.
+
+**For example:** “D2: Autopsy 6; N2: Examine 9 — no match” means 9 did not match your collected killer records, not that 9 is confirmed Town.
 
 **TI — Town Investigative; Moderate upkeep.**
 
@@ -205,6 +241,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)).
 
 ## Investigator
 
+**What this role does:** Visit a person and check for crimes. Murder means an attack that night; Trespassing concerns visits across factions. No Crime means no detectable crime, not guaranteed innocence.
+
+**By claiming it, you mean:** You promise crime feedback, not an exact role or a Town/evil label. Your visit and the reported crime need to fit the action history.
+
+**For example:** “N1: 4 — Trespassing” reports a crime on 4; you still need their action history to interpret it. Town players can show this too.
+
 **TI — Town Investigative; Moderate upkeep.**
 
 **Payoff:** Crime reports can create useful questions about action histories. The format is short, but explaining the distinction between Murder and Trespassing takes more care than a Sheriff entry.
@@ -237,6 +279,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)).
 
 ## Lookout
 
+**What this role does:** Watch one person’s house and learn which visible players visited that house. You learn visitor identities, not their roles. Visits described as astral are not visible to this observation.
+
+**By claiming it, you mean:** You owe the watched house and the full visitor list the game actually supplied. One known visitor is not automatically the complete list.
+
+**For example:** “Watch 4 — visitors 7, 9” means 7 and 9 visited player 4. It does not mean player 4 visited 7 and 9.
+
 **TI — Town Investigative; High upkeep.**
 
 **Payoff:** Can corroborate real visitors or expose contradictions directly. Strong apparent detail comes with a larger consistency burden than a one-target protective will.
@@ -268,6 +316,12 @@ One verified visitor helps, but a fabricated complete list has many contradictio
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)).
 
 ## Psychic
+
+**What this role does:** Visit one person and receive a group of names that includes them. Odd nights, including N1: two names with at least one appearing Good (Town). Even nights: three names with at least one appearing Evil (non-Town). The vision does not say which person fits.
+
+**By claiming it, you mean:** You owe a complete vision with the correct number of names each successful night, normally posted near day start. You cannot choose every name; only your visited player is your selection.
+
+**For example:** “N1 Good: 4, 9 (selected 4)” means “I visited 4; at least one of 4 and 9 appears Good.” Either or both could fit, and misleading effects can distort appearances.
 
 **TI — Town Investigative; High upkeep.**
 
@@ -302,6 +356,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)).
 
 ## Seer
 
+**What this role does:** Choose two eligible people and compare their apparent factions. Friends means they appear to share a faction; Enemies means they appear to differ. You normally visit both, and target-reuse restrictions apply.
+
+**By claiming it, you mean:** You owe two legal targets and one comparison. The result does not identify either person’s exact role or tell you which enemy is evil.
+
+**For example:** “4 + 9 — Enemies” means they appear to be on different sides. If 4 is independently trusted, that makes 9 more concerning; it is not proof by itself.
+
 **TI — Town Investigative; High upkeep.**
 
 **Payoff:** Friends/Enemies pairs can quickly organize a case, especially around an independently trusted anchor. The apparent payoff is high, but each pair commits to two players and a persistent target history.
@@ -334,6 +394,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Seer_(ToS2)).
 
 ## Sheriff
 
+**What this role does:** Visit one person at night and get Innocent or Suspicious. This is a limited suspicion check, not an exact-role or guaranteed-faction reveal; some enemies appear Innocent and effects can make a Town player look Suspicious.
+
+**By claiming it, you mean:** You promise a check on the person you visited and the exact result you received. A failed check gives no usable result.
+
+**For example:** “N1: 4 — Innocent” means your check found no suspicion on 4. It does not mean 4 is confirmed Town.
+
 **TI — Town Investigative; Moderate upkeep.**
 
 **Payoff:** The result vocabulary is simple, and an independently posted check can focus discussion. Repeated Innocent entries are easy to write but provide limited independent credibility.
@@ -365,6 +431,12 @@ A fake Sheriff needs both a result story and a visiting story. Repeated Innocent
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)).
 
 ## Spy
+
+**What this role does:** Put a lasting Bug on a person. It can later report certain evil visiting roles or effects involving them. Older Bugs can still give information after you place a new one.
+
+**By claiming it, you mean:** You owe a placement history and any later Bug feedback. A reported role is not the visiting player’s number.
+
+**For example:** “N1: Bug 4” records placement on 4. A trigger on that Bug during N3 belongs under N3, even though you placed it on N1.
 
 **TI — Town Investigative; High upkeep.**
 
@@ -399,6 +471,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Spy_(ToS2)).
 
 ## Tracker
 
+**What this role does:** Follow one person at night and learn where they visibly went. This follows their outgoing movement, rather than watching who came to their house. Astral actions can leave no visible visit.
+
+**By claiming it, you mean:** You promise the tracked player’s destinations and a visit of your own to that player. A successful observation with no visible movement differs from being blocked.
+
+**For example:** “N1: 4 -> 9” means you followed player 4 and saw them visit player 9.
+
 **TI — Town Investigative; High upkeep.**
 
 **Payoff:** Real destination information can verify an action account or expose a visiting contradiction. It is most convincing when recorded before the target announces where they went.
@@ -430,6 +508,12 @@ Real compatible tracking information helps. Guessing every destination is harder
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)).
 
 ## Bodyguard
+
+**What this role does:** Guard a person against one direct harmful visitor. A successful interception cancels that harmful action and counterattacks the visitor, putting you in danger. This is an interception, not a general protective shield.
+
+**By claiming it, you mean:** You promise a legal guard attempt, not a guaranteed save. Your own survival and any interception outcome must fit the feedback.
+
+**For example:** “N1: Guard 4” means you tried to intercept a harmful visit to 4. It does not mean someone actually attacked 4.
 
 **TP — Town Protective; Low upkeep.**
 
@@ -463,6 +547,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)).
 
 ## Cleric
 
+**What this role does:** Each night, visit one person and give them a protective shield for that night. The game calls this Barrier: it grants Powerful Defense, which stops Basic and Powerful attacks, but not Unstoppable attacks.
+
+**By claiming it, you mean:** You are saying you visited and protected that person. You are not saying they were attacked or that you saved them unless you received supporting feedback.
+
+**For example:** “N1: Barrier 4” means “I protected player 4 on the first night.” It does not mean “4 was attacked.”
+
 **TP — Town Protective; Low upkeep.**
 
 **Payoff:** One nightly target and few result obligations make this simpler than Psychic. Genuine save feedback can build credibility; a quiet target list supplies little independent proof.
@@ -494,6 +584,12 @@ These are illustrative cover statements, not abilities the app performs. Low upk
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)).
 
 ## Crusader
+
+**What this role does:** Visit one person, shield them against Basic and Powerful attacks (Powerful Defense), and make a Basic attack against one random direct visitor to their house. This is called Fortify. A friendly Town visitor can be hit too; other visitors can survive.
+
+**By claiming it, you mean:** You are promising BOTH protection for the resident and danger to one visitor. You do not get a complete visitor list or automatically learn whom you attacked.
+
+**For example:** “N1: Fortify 4” means “I protected player 4 and could attack one person who visited 4.” It does not mean you attacked player 4 or everyone there.
 
 **TP — Town Protective; Moderate upkeep.**
 
@@ -527,6 +623,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)).
 
 ## Oracle
 
+**What this role does:** Choose a Town ROLE, such as Sheriff, instead of choosing a numbered player. Its holders receive Powerful Defense without a normal player visit. You cannot repeat the same role on consecutive nights; choosing Oracle itself is once only.
+
+**By claiming it, you mean:** You promise protection aimed at a role category. A will naming a protected player number instead describes the wrong targeting method.
+
+**For example:** “N1: Aegis Sheriff” means you selected the Sheriff role for protection; it does not mean you learned who the Sheriff is.
+
 **TP — Town Protective; Low upkeep.**
 
 **Payoff:** Role-based entries are short and astral movement can suit a genuinely nonvisiting role. That makes writing easy while genuine protection feedback remains difficult to reproduce.
@@ -558,6 +660,12 @@ The example assumes N1 Aegis is enabled. A false Oracle supplies no actual prote
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)).
 
 ## Trapper
+
+**What this role does:** Spend a night building a trap, then place it at someone’s house on a later night. One trap can stay active. A trigger can reveal visiting roles or intercept a harmful visitor.
+
+**By claiming it, you mean:** You owe a build-before-placement history and the actual trap feedback. You do not get to place a fresh trap on ordinary N1.
+
+**For example:** “N1: Build; N2: Place on 4” means your first trap went to player 4 on the second night. Later triggers belong to their actual night.
 
 **TP — Town Protective; Moderate upkeep.**
 
@@ -594,6 +702,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)).
 
 ## Deputy
 
+**What this role does:** You have one daytime shot, available from D2. A hit can kill an eligible target; a miss can result from Town status or defense. You have no night action.
+
+**By claiming it, you mean:** You promise a real day-shot ability, not nightly checks. A claimed miss is not a public demonstration of your role.
+
+**For example:** “N1: No night ability; D2: Held shot” means you saved your one shot. It does not supply evidence about another player.
+
 **TK — Town Killing; Low upkeep.**
 
 **Payoff:** No nightly action list is needed, so writing is easy. That advantage is offset by a one-shot daytime ability other players may reasonably ask you to demonstrate.
@@ -626,6 +740,12 @@ The sample is a possible chronology, not a recommended D3 shot. Misses can invol
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)).
 
 ## Trickster
+
+**What this role does:** Put a Magic Mirror on someone to absorb a qualifying direct attack. Once you hold an absorbed attack, you can send it at a target on a later night using Unleash instead of placing another mirror.
+
+**By claiming it, you mean:** You need an actual absorption before claiming an Unleash. A mirror placement alone does not mean an attack happened.
+
+**For example:** “N1: Mirror 4 — no absorption” means you placed the mirror on 4 but did not gain an attack to fire afterward.
 
 **TK — Town Killing; Moderate upkeep.**
 
@@ -660,6 +780,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)).
 
 ## Veteran
 
+**What this role does:** Stay at home and choose whether to Alert. An Alert gives you Basic Defense and attacks all direct visitors to you with Powerful Attack, including friendly Town visitors. You have three Alerts.
+
+**By claiming it, you mean:** You promise a stay-at-home ability and an accurate Alert count. You do not visit a chosen house or automatically learn the names of everyone you shot.
+
+**For example:** “N1: Held Alert” means you did not use a charge. “N2: Alert” means visitors to YOUR house risked being shot.
+
 **TK — Town Killing; Low upkeep.**
 
 **Payoff:** No target numbers are needed, and a real Alert can punish attackers. A quiet alert history is easy to record but offers little independent proof before compatible visitor outcomes exist.
@@ -691,6 +817,12 @@ Low bookkeeping does not remove event-based verification. A genuine player shoul
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)).
 
 ## Vigilante
+
+**What this role does:** Spend a night loading your gun, then shoot someone with a Basic attack on a different night. You can load at most three times. You cannot shoot on N1; shooting Town removes access to the gun.
+
+**By claiming it, you mean:** You owe a load/shot sequence and outcomes. A story that shoots before loading, or keeps firing after losing the gun, cannot work.
+
+**For example:** “N1: Load; N2: Shoot 9 — survived” means you prepared the gun first, then attacked 9 without killing them. Survival does not identify their role.
 
 **TK — Town Killing; Moderate upkeep.**
 
@@ -725,6 +857,12 @@ The illustration assumes no Town-shot notification or lost gun. Different killin
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)).
 
 ## Admirer
+
+**What this role does:** Get a clue about one player called your Obsession and search for them at night. Finding them unlocks two protective Care uses. Separately, two daytime Bestows can grant lasting benefits such as visits that avoid normal visitor interactions and immunity to roleblocking/control.
+
+**By claiming it, you mean:** You owe a consistent clue and search history. Care requires discovery first; a claimed Bestow promises a real effect another player may check.
+
+**For example:** “Clue: TP; N1: Admire 4 — not Obsession” means 4 was not the particular player you were looking for, not that 4 is evil.
 
 **TS — Town Support; High upkeep.**
 
@@ -761,6 +899,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)).
 
 ## Amnesiac
 
+**What this role does:** Automatically become an eligible dead Town player’s true role when Remember resolves. Town Power has priority. You do not visit a corpse to choose a role each night.
+
+**By claiming it, you mean:** You promise a legal role change when the eligible death occurs, followed by the new role’s real abilities and obligations.
+
+**For example:** “D2: Remembered Sheriff” needs an eligible Sheriff death. From then on, your checks must follow Sheriff rules.
+
 **TS — Town Support; Moderate upkeep.**
 
 **Payoff:** Naturally has no N1 action before remembering, so the opening is simple. That grace period is temporary: the graveyard forces a concrete role transition and its future obligations.
@@ -795,6 +939,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)).
 
 ## Retributionist
 
+**What this role does:** Borrow the ability of an eligible dead Town player and send that body to a target. You visit the corpse; the raised body makes the visit to the living person.
+
+**By claiming it, you mean:** You need a suitable corpse and a legal borrowed action. Ordinary N1 has no usable body yet, and you cannot promise abilities from an ineligible corpse.
+
+**For example:** “N2: Sheriff 6 -> 9 — Innocent” means you used dead player 6’s Sheriff ability to check living player 9.
+
 **TS — Town Support; Moderate upkeep.**
 
 **Payoff:** No ordinary opening action is expected without a suitable corpse. Later, legal Town-corpse actions can provide genuine information or effects, especially for a role capable of reproducing them.
@@ -826,6 +976,12 @@ The example requires an eligible dead Town Sheriff. Matching a legal borrowed ac
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)).
 
 ## Socialite
+
+**What this role does:** Invite up to two guests using daytime actions, then hold a Party at someone’s house at night. Eligible uninvited visitors are turned away. This blocks incoming visits, not the resident’s own action; change houses on consecutive nights.
+
+**By claiming it, you mean:** You owe the invitations, party houses, and real rejection feedback. Guests or affected visitors may verify the effect.
+
+**For example:** “N2: Party 4 — rejected someone” means an incoming visitor to 4 was turned away. It does not tell you that visitor’s identity.
 
 **TS — Town Support; High upkeep.**
 
@@ -861,6 +1017,12 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)).
 
 ## Tavern Keeper
 
+**What this role does:** Visit someone to Drink with them and attempt to stop their night ability; this is a roleblock. Some roles are immune. After a successful block, Hangover prevents immediately blocking that person again.
+
+**By claiming it, you mean:** You promise an attempted roleblock, not Silence or protection. The target can compare your story with the effect they experienced.
+
+**For example:** “N1: Drink 4” means you tried to block 4’s ability. A quiet graveyard does not prove you blocked a killer.
+
 **TS — Town Support; Moderate upkeep.**
 
 **Payoff:** A genuine Drink creates compatible roleblock feedback and can pressure an unresolved action. It is a stronger functional fit for a role that really Drinks than for a role merely making one visit.
@@ -892,6 +1054,12 @@ A genuine block can support the story without proving Town allegiance. Do not re
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)).
 
 ## Catalyst
+
+**What this role does:** Choose someone to Overcharge, enabling extra actions on their following ability cycle. The exact benefit and timing depend on their role. This Town Outlier exists only in a compatible setup.
+
+**By claiming it, you mean:** You promise a real extra-action effect, not just a visit. Check the recipient’s ability and timing rather than inventing a universal same-night bonus.
+
+**For example:** “N1: Overcharge 4 — applied” records the application. Whether and when 4 gets extra actions needs their role’s actual rules.
 
 **Town Outlier — Town Outlier; High upkeep.**
 
@@ -925,6 +1093,12 @@ The sample intentionally avoids guessing recipient 4’s role or extra-action ti
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)).
 
 ## Pilgrim
+
+**What this role does:** You are Town with no active ability. You help by reading discussion, asking questions, voting, and comparing other people’s claims. This Town Outlier must be allowed by the setup.
+
+**By claiming it, you mean:** You promise no special night results or visits. Credibility comes from your public reasoning and a legal role slot.
+
+**For example:** “D2: 7 changed their N1 target” is a public observation, not a special ability result or proof that 7 is evil.
 
 **Town Outlier — Town Outlier; Low upkeep.**
 
