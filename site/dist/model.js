@@ -97,11 +97,16 @@ export function exportDraft(state,namespace,role,options={}) {
 }
 export function selectActual(state,role,library) {
   const oldDraft=getDraft(state,'public',state.claimId);
+  const enteringTownPower=role.alignment==='Town Power'&&state.actualId!==role.id;
   state.actualId=role.id;
   state.privateViewId=null;
   state.timeline.push({roleId:role.id,at:new Date().toISOString()});
   state.recent=[role.id,...state.recent.filter(x=>x!==role.id)].slice(0,5);
-  if(!state.deliberateClaim && !oldDraft.entries.length && !oldDraft.title.trim()){
+  if(enteringTownPower){
+    // A previous role's chosen cover is not this role's recommendation. Keep its notes.
+    state.claimId=role.preferredClaimId||role.id;
+    state.deliberateClaim=false;
+  }else if(!state.deliberateClaim && !oldDraft.entries.length && !oldDraft.title.trim()){
     const suggested=role.claim_candidates?.[0]?.role;
     state.claimId=library.find(r=>r.id===role.preferredClaimId&&isTownClaim(r))?.id || library.find(r=>r.name===suggested&&isTownClaim(r))?.id || role.id;
   }

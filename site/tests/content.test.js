@@ -63,3 +63,10 @@ test('base-role study references include readable stats, phase and charge limits
  for(const r of pack.roles){const f=r.studyGuide.facts;assert.ok(f.attack&&f.defense&&f.sourceRevision,r.name);assert.equal(f.sourceUrl,r.source_revision_url);assert.doesNotMatch(JSON.stringify(f),/\{\{|\[\[|<span|File:/);for(const a of f.abilities)assert.ok(a.name&&a.phase&&a.uses,r.name);}
  assert.equal(byId.get('jailor').studyGuide.facts.abilities.find(a=>a.name==='Execute').uses,'3');assert.match(byId.get('monarch').studyGuide.facts.defense,/Knight/);assert.equal(byId.get('pilgrim').studyGuide.facts.abilities.length,0);
 });
+
+test('Town Power recommendations explain a distinct truthful opening, reveal condition and cover exception',()=>{
+ const powers=pack.roles.filter(r=>r.alignment==='Town Power');
+ for(const field of ['opening','reason','revealWhen','coverWhen'])assert.equal(new Set(powers.map(r=>r.claimRecommendation[field])).size,5);
+ for(const r of powers){const p=r.claimRecommendation;assert.match(p.opening,/TPow/);assert.equal(r.claimOptions[0].why,p.reason);assert.equal(r.claimOptions[0].exposure,p.revealWhen);assert.deepEqual(r.claimOptions[0].strategy,p.strategy);assert.equal(r.preferredClaimId,r.id);assert.match(r.claimAudit.summary,/not the recommended start/);}
+ assert.match(byId.get('jailor').claimRecommendation.revealWhen,/protection/);assert.match(byId.get('mayor').claimRecommendation.revealWhen,/vote/);assert.match(byId.get('marshal').claimRecommendation.revealWhen,/Tribunal/);assert.match(byId.get('prosecutor').claimRecommendation.revealWhen,/ordinary voting/);assert.match(byId.get('monarch').claimRecommendation.revealWhen,/knighting/);
+});

@@ -258,7 +258,11 @@ def build():
             }]}
             role['claimOptions']=role['claimAudit']['options']
         if role['id'] in town_covers:
+            policy = town_covers[role['id']]['recommendation']
+            role['claimRecommendation'] = copy.deepcopy(policy)
             role['claimAudit']['summary'] = town_covers[role['id']]['summary']
+            role['claimOptions'][0].update(tag='Truthful TPow · recommended opening', why=policy['reason'],
+                bestWhen=policy['opening'], strategy=policy['strategy'], exposure=policy['revealWhen'])
             role['claimOptions'].extend(copy.deepcopy(town_covers[role['id']]['options']))
         if role.get('parentId'):
             role['claimAudit']=copy.deepcopy(by_id[role['parentId']]['claimAudit'])

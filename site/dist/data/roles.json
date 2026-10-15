@@ -163,20 +163,20 @@
         "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
       },
       "claimAudit": {
-        "summary": "Truthful Jailor or alignment-only TPow is the default. A temporary cover can conceal your exact power, but may mislead Town protection and votes. Keep your real history privately and abandon the cover when coordination, a counterclaim, or your public ability matters. These are situational editorial options, not measured win-rate rankings.",
+        "summary": "Recommended: Claim TPow when asked; identify yourself as Jailor when trusted coordination or protection makes that useful. Your prisoner already receives a jail interaction. A false killing-role story adds obligations without improving your questioning, and can divert protection from you. A temporary cover is an optional exception, not the recommended start. Only consider a short cover for a concrete survival reason before your identity is known, when alignment-only TPow would not meet that need. It must not obstruct jail coordination. Recommendations are editorial judgments from role mechanics, not measured win rates.",
         "options": [
           {
             "roleId": "jailor",
-            "tag": "Truthful role · recommended",
-            "why": "A documented claim gives you a testable D2 lead; N1 is a questioning night, not a killing opportunity.",
-            "exposure": "Do not execute N1. Do not repeat the same prisoner on consecutive nights. Do not rely on jail to stop every astral effect.",
+            "tag": "Truthful TPow · recommended opening",
+            "why": "Your prisoner already receives a jail interaction. A false killing-role story adds obligations without improving your questioning, and can divert protection from you.",
+            "exposure": "Disclose your Jailor identity when you need protection, must resolve a counterclaim, or can help Town act on a supported contradiction. Keep future prisoner choices and unneeded exact-role information private.",
             "strategy": [
-              "Start with the legal opening: Choose an unresolved prisoner during D1, then ask their exact role, intended action, and target reasoning on N1. You cannot execute tonight.",
-              "Choose the prisoner during the preceding day and record their exact claimed role and useful statements.",
-              "N1 permits questioning but not execution. Do not jail the same person consecutively.",
-              "Record released or executed explicitly and distinguish an attempted execution from its actual outcome."
+              "Use TPow as the normal public alignment claim; this truthfully withholds the exact role.",
+              "Keep a real prisoner log and distinguish intended jails, completed jails, claims and execution outcomes.",
+              "Ask for protection or identify yourself as Jailor when the benefit outweighs the exposure; do not automatically reveal every prisoner’s exact role.",
+              "Resolve a credible Jailor counterclaim with real evidence rather than maintaining a fake Veteran or Vigilante story."
             ],
-            "bestWhen": "You are Jailor in the normal-faction setup; report what actually happened.",
+            "bestWhen": "Claim TPow when asked; identify yourself as Jailor when trusted coordination or protection makes that useful.",
             "sourceUrls": [
               "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)"
             ],
@@ -189,7 +189,7 @@
             "roleId": "veteran",
             "tag": "Optional concealment · situational",
             "why": "Both can keep ordinary visiting claims out of their public story; jail still leaves a prisoner who can describe what happened.",
-            "bestWhen": "Your exact Jailor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "You have a concrete reason to conceal Jailor beyond a TPow claim, have claimed no alerts or visitor kills, and can still arrange necessary protection.",
             "exposure": "A prisoner can identify a real Jailor interaction. Visitor reports or an alert claim can contradict your cover.",
             "strategy": [
               "Do not invent alerts, visitor kills, or a Veteran confirmation. Reveal enough of your real jail history to resolve a counterclaim.",
@@ -210,7 +210,7 @@
             "roleId": "vigilante",
             "tag": "Optional concealment · situational",
             "why": "An early quiet night can avoid publishing your prisoner or execution plans. Jail and a Vigilante shot are different actions.",
-            "bestWhen": "Your exact Jailor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Only during an early quiet period with a concrete concealment benefit, before any claimed shot or visit would conflict with jail history.",
             "exposure": "A missing shot, visit evidence, or pressure to demonstrate can end this cover.",
             "strategy": [
               "Do not label an execution as a Vigilante shot or invent ammunition use.",
@@ -232,16 +232,16 @@
       "claimOptions": [
         {
           "roleId": "jailor",
-          "tag": "Truthful role · recommended",
-          "why": "A documented claim gives you a testable D2 lead; N1 is a questioning night, not a killing opportunity.",
-          "exposure": "Do not execute N1. Do not repeat the same prisoner on consecutive nights. Do not rely on jail to stop every astral effect.",
+          "tag": "Truthful TPow · recommended opening",
+          "why": "Your prisoner already receives a jail interaction. A false killing-role story adds obligations without improving your questioning, and can divert protection from you.",
+          "exposure": "Disclose your Jailor identity when you need protection, must resolve a counterclaim, or can help Town act on a supported contradiction. Keep future prisoner choices and unneeded exact-role information private.",
           "strategy": [
-            "Start with the legal opening: Choose an unresolved prisoner during D1, then ask their exact role, intended action, and target reasoning on N1. You cannot execute tonight.",
-            "Choose the prisoner during the preceding day and record their exact claimed role and useful statements.",
-            "N1 permits questioning but not execution. Do not jail the same person consecutively.",
-            "Record released or executed explicitly and distinguish an attempted execution from its actual outcome."
+            "Use TPow as the normal public alignment claim; this truthfully withholds the exact role.",
+            "Keep a real prisoner log and distinguish intended jails, completed jails, claims and execution outcomes.",
+            "Ask for protection or identify yourself as Jailor when the benefit outweighs the exposure; do not automatically reveal every prisoner’s exact role.",
+            "Resolve a credible Jailor counterclaim with real evidence rather than maintaining a fake Veteran or Vigilante story."
           ],
-          "bestWhen": "You are Jailor in the normal-faction setup; report what actually happened.",
+          "bestWhen": "Claim TPow when asked; identify yourself as Jailor when trusted coordination or protection makes that useful.",
           "sourceUrls": [
             "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)"
           ],
@@ -254,7 +254,7 @@
           "roleId": "veteran",
           "tag": "Optional concealment · situational",
           "why": "Both can keep ordinary visiting claims out of their public story; jail still leaves a prisoner who can describe what happened.",
-          "bestWhen": "Your exact Jailor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "You have a concrete reason to conceal Jailor beyond a TPow claim, have claimed no alerts or visitor kills, and can still arrange necessary protection.",
           "exposure": "A prisoner can identify a real Jailor interaction. Visitor reports or an alert claim can contradict your cover.",
           "strategy": [
             "Do not invent alerts, visitor kills, or a Veteran confirmation. Reveal enough of your real jail history to resolve a counterclaim.",
@@ -275,7 +275,7 @@
           "roleId": "vigilante",
           "tag": "Optional concealment · situational",
           "why": "An early quiet night can avoid publishing your prisoner or execution plans. Jail and a Vigilante shot are different actions.",
-          "bestWhen": "Your exact Jailor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Only during an early quiet period with a concrete concealment benefit, before any claimed shot or visit would conflict with jail history.",
           "exposure": "A missing shot, visit evidence, or pressure to demonstrate can end this cover.",
           "strategy": [
             "Do not label an execution as a Vigilante shot or invent ammunition use.",
@@ -314,6 +314,18 @@
         "plainAbility": "Pick a prisoner during the day, then question them privately at night. Their normal night action is restricted by jail. From N2 you may execute, with three executions; killing Town removes further abilities. Do not repeat a prisoner consecutively.",
         "claimMeaning": "You promise a real jail conversation that your prisoner can confirm, not just a name in a will. There is no N1 execution.",
         "simpleExample": "“N1: Jail 4 — claimed Cleric; released” means you privately questioned player 4, who said Cleric, and chose not to execute."
+      },
+      "claimRecommendation": {
+        "opening": "Claim TPow when asked; identify yourself as Jailor when trusted coordination or protection makes that useful.",
+        "reason": "Your prisoner already receives a jail interaction. A false killing-role story adds obligations without improving your questioning, and can divert protection from you.",
+        "revealWhen": "Disclose your Jailor identity when you need protection, must resolve a counterclaim, or can help Town act on a supported contradiction. Keep future prisoner choices and unneeded exact-role information private.",
+        "coverWhen": "Only consider a short cover for a concrete survival reason before your identity is known, when alignment-only TPow would not meet that need. It must not obstruct jail coordination.",
+        "strategy": [
+          "Use TPow as the normal public alignment claim; this truthfully withholds the exact role.",
+          "Keep a real prisoner log and distinguish intended jails, completed jails, claims and execution outcomes.",
+          "Ask for protection or identify yourself as Jailor when the benefit outweighs the exposure; do not automatically reveal every prisoner’s exact role.",
+          "Resolve a credible Jailor counterclaim with real evidence rather than maintaining a fake Veteran or Vigilante story."
+        ]
       },
       "routes": [
         {
@@ -603,20 +615,20 @@
         "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
       },
       "claimAudit": {
-        "summary": "Truthful Marshal or alignment-only TPow is the default. A temporary cover can conceal your exact power, but may mislead Town protection and votes. Keep your real history privately and abandon the cover when coordination, a counterclaim, or your public ability matters. These are situational editorial options, not measured win-rate rankings.",
+        "summary": "Recommended: Claim TPow when asked; keep Marshal concealed until a planned Tribunal will help Town. A Tribunal publicly identifies you and accelerates executions. A Deputy cover cannot demonstrate that power and adds avoidable pressure to shoot. A temporary cover is an optional exception, not the recommended start. Only consider a brief cover before Tribunal when a specific survival benefit exceeds the confusion it creates. It must not prevent allies from understanding your execution plan. Recommendations are editorial judgments from role mechanics, not measured win rates.",
         "options": [
           {
             "roleId": "marshal",
-            "tag": "Truthful role · recommended",
-            "why": "Tribunal removes the defense and judgment stages, so activating before you have cases gives coordinated evils a powerful tool.",
-            "exposure": "Do not activate just to confirm yourself. Do not expect immediate feedback after the first victim. Do not use an outdated three-execution default.",
+            "tag": "Truthful TPow · recommended opening",
+            "why": "A Tribunal publicly identifies you and accelerates executions. A Deputy cover cannot demonstrate that power and adds avoidable pressure to shoot.",
+            "exposure": "Explain supported cases and coordinate a voting plan before activating Tribunal. Use it when Town can control the nominations, not solely to prove your claim.",
             "strategy": [
-              "Start with the legal opening: No N1 ability. Prepare a short claim-and-evidence list; preserve both Tribunal charges for a voting day.",
-              "Write No night ability instead of manufacturing nightly checks.",
-              "Use a D entry for a real Tribunal and list the people actually executed.",
-              "Do not label every Tribunal victim evil: execution is an event, not an alignment result."
+              "Use a truthful TPow alignment claim while collecting claims and checking voting control.",
+              "Prepare supported cases and coordinate nominations before committing to Tribunal.",
+              "Let a useful Tribunal reveal Marshal; do not spend the charge merely to demonstrate your role.",
+              "Once revealed, explain the rapid execution plan clearly and account for delayed role and will reveals."
             ],
-            "bestWhen": "You are Marshal in the normal-faction setup; report what actually happened.",
+            "bestWhen": "Claim TPow when asked; keep Marshal concealed until a planned Tribunal will help Town.",
             "sourceUrls": [
               "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
             ],
@@ -629,7 +641,7 @@
             "roleId": "deputy",
             "tag": "Optional concealment · situational",
             "why": "A day-action cover avoids inventing nightly investigative reports while you prepare a justified Tribunal.",
-            "bestWhen": "Your exact Marshal identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Before a planned Tribunal, only if a concrete survival benefit justifies the eventual inability to demonstrate a Deputy shot.",
             "exposure": "A Deputy shot and Tribunal are visibly different. You cannot meet a demand to shoot.",
             "strategy": [
               "Use Tribunal for a supported Town advantage, never just to rescue a false Deputy story.",
@@ -650,7 +662,7 @@
             "roleId": "veteran",
             "tag": "Optional concealment · situational",
             "why": "Both can have a quiet public night history before your day power matters.",
-            "bestWhen": "Your exact Marshal identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Before Tribunal, only if no claimed alert, visitor kill or protection instruction would misdirect Town.",
             "exposure": "You cannot alert or explain visitor deaths as your kills. Tribunal exposes Marshal.",
             "strategy": [
               "Keep the cover short and avoid directing protective visitors around invented alerts.",
@@ -672,16 +684,16 @@
       "claimOptions": [
         {
           "roleId": "marshal",
-          "tag": "Truthful role · recommended",
-          "why": "Tribunal removes the defense and judgment stages, so activating before you have cases gives coordinated evils a powerful tool.",
-          "exposure": "Do not activate just to confirm yourself. Do not expect immediate feedback after the first victim. Do not use an outdated three-execution default.",
+          "tag": "Truthful TPow · recommended opening",
+          "why": "A Tribunal publicly identifies you and accelerates executions. A Deputy cover cannot demonstrate that power and adds avoidable pressure to shoot.",
+          "exposure": "Explain supported cases and coordinate a voting plan before activating Tribunal. Use it when Town can control the nominations, not solely to prove your claim.",
           "strategy": [
-            "Start with the legal opening: No N1 ability. Prepare a short claim-and-evidence list; preserve both Tribunal charges for a voting day.",
-            "Write No night ability instead of manufacturing nightly checks.",
-            "Use a D entry for a real Tribunal and list the people actually executed.",
-            "Do not label every Tribunal victim evil: execution is an event, not an alignment result."
+            "Use a truthful TPow alignment claim while collecting claims and checking voting control.",
+            "Prepare supported cases and coordinate nominations before committing to Tribunal.",
+            "Let a useful Tribunal reveal Marshal; do not spend the charge merely to demonstrate your role.",
+            "Once revealed, explain the rapid execution plan clearly and account for delayed role and will reveals."
           ],
-          "bestWhen": "You are Marshal in the normal-faction setup; report what actually happened.",
+          "bestWhen": "Claim TPow when asked; keep Marshal concealed until a planned Tribunal will help Town.",
           "sourceUrls": [
             "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
           ],
@@ -694,7 +706,7 @@
           "roleId": "deputy",
           "tag": "Optional concealment · situational",
           "why": "A day-action cover avoids inventing nightly investigative reports while you prepare a justified Tribunal.",
-          "bestWhen": "Your exact Marshal identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Before a planned Tribunal, only if a concrete survival benefit justifies the eventual inability to demonstrate a Deputy shot.",
           "exposure": "A Deputy shot and Tribunal are visibly different. You cannot meet a demand to shoot.",
           "strategy": [
             "Use Tribunal for a supported Town advantage, never just to rescue a false Deputy story.",
@@ -715,7 +727,7 @@
           "roleId": "veteran",
           "tag": "Optional concealment · situational",
           "why": "Both can have a quiet public night history before your day power matters.",
-          "bestWhen": "Your exact Marshal identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Before Tribunal, only if no claimed alert, visitor kill or protection instruction would misdirect Town.",
           "exposure": "You cannot alert or explain visitor deaths as your kills. Tribunal exposes Marshal.",
           "strategy": [
             "Keep the cover short and avoid directing protective visitors around invented alerts.",
@@ -754,6 +766,18 @@
         "plainAbility": "Reveal yourself during the day by starting a Tribunal. Players can be executed directly through nominations, normally up to two victims, with role reveals and wills delayed until it ends. You have two uses and no night ability.",
         "claimMeaning": "You promise a visible daytime event. An easy empty night log cannot substitute for demonstrating Tribunal when the situation calls for it.",
         "simpleExample": "“D2: Held Tribunal” means you saved a use. It does not mean a Tribunal took place or that any suspect was proven evil."
+      },
+      "claimRecommendation": {
+        "opening": "Claim TPow when asked; keep Marshal concealed until a planned Tribunal will help Town.",
+        "reason": "A Tribunal publicly identifies you and accelerates executions. A Deputy cover cannot demonstrate that power and adds avoidable pressure to shoot.",
+        "revealWhen": "Explain supported cases and coordinate a voting plan before activating Tribunal. Use it when Town can control the nominations, not solely to prove your claim.",
+        "coverWhen": "Only consider a brief cover before Tribunal when a specific survival benefit exceeds the confusion it creates. It must not prevent allies from understanding your execution plan.",
+        "strategy": [
+          "Use a truthful TPow alignment claim while collecting claims and checking voting control.",
+          "Prepare supported cases and coordinate nominations before committing to Tribunal.",
+          "Let a useful Tribunal reveal Marshal; do not spend the charge merely to demonstrate your role.",
+          "Once revealed, explain the rapid execution plan clearly and account for delayed role and will reveals."
+        ]
       },
       "routes": [
         {
@@ -1037,20 +1061,20 @@
         "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
       },
       "claimAudit": {
-        "summary": "Truthful Mayor or alignment-only TPow is the default. A temporary cover can conceal your exact power, but may mislead Town protection and votes. Keep your real history privately and abandon the cover when coordination, a counterclaim, or your public ability matters. These are situational editorial options, not measured win-rate rankings.",
+        "summary": "Recommended: Claim TPow when asked and keep your exact identity private until Reveal has a useful voting purpose. You can preserve the vote swing without inventing a different ability. Claiming Mayor in chat is not the public Reveal effect. A temporary cover is an optional exception, not the recommended start. Only consider a temporary cover when there is a specific reason TPow disclosure would expose you and no useful Reveal is being delayed. End it before vote control depends on your power. Recommendations are editorial judgments from role mechanics, not measured win rates.",
         "options": [
           {
             "roleId": "mayor",
-            "tag": "Truthful role · recommended",
-            "why": "An unrevealed Mayor preserves an important vote swing without immediately advertising the exact role.",
-            "exposure": "Do not assume the ToS1 fixed-vote model. Do not wait until on trial to reveal. Do not lead votes without checking evidence.",
+            "tag": "Truthful TPow · recommended opening",
+            "why": "You can preserve the vote swing without inventing a different ability. Claiming Mayor in chat is not the public Reveal effect.",
+            "exposure": "Reveal before a decisive vote when your extra influence can secure a supported execution, prevent a mistaken execution of you, or establish needed leadership. Do not wait until on trial.",
             "strategy": [
-              "Start with the legal opening: No N1 action. Record claims and identify the strongest D2 question; you cannot Reveal on D1.",
-              "Write No night ability for quiet nights; Mayor does not investigate or visit a target.",
-              "Record Reveal on the actual day it happens, never D1 in the normal setup.",
-              "Keep observational vote notes distinct from ability results."
+              "Claim TPow while unrevealed rather than automatically claiming Veteran or Vigilante.",
+              "Track claims and actual vote counts; a quiet night is normal for Mayor and needs no invented action.",
+              "Use Reveal for its voting benefit when needed, before the trial position prevents it.",
+              "After Reveal, coordinate openly as Mayor; keep reads evidence-based instead of treating extra votes as proof."
             ],
-            "bestWhen": "You are Mayor in the normal-faction setup; report what actually happened.",
+            "bestWhen": "Claim TPow when asked and keep your exact identity private until Reveal has a useful voting purpose.",
             "sourceUrls": [
               "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)"
             ],
@@ -1063,7 +1087,7 @@
             "roleId": "veteran",
             "tag": "Optional concealment · situational",
             "why": "You have no ordinary night visit to explain before revealing, so a non-visiting cover can conceal your exact power briefly.",
-            "bestWhen": "Your exact Mayor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "You are unrevealed, there is a concrete reason to hide beyond TPow, and Town does not need your Reveal or a claimed alert.",
             "exposure": "You cannot produce an alert or visitor kill. Your Reveal publicly ends this cover.",
             "strategy": [
               "Do not bait Town visitors into danger or promise an alert you cannot perform.",
@@ -1084,7 +1108,7 @@
             "roleId": "vigilante",
             "tag": "Optional concealment · situational",
             "why": "A quiet opening can buy time while you decide when vote growth will help Town.",
-            "bestWhen": "Your exact Mayor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Only before a useful Reveal is needed, with no invented shots or visits and a specific survival benefit beyond TPow disclosure.",
             "exposure": "You cannot supply a shot, and a real tracker may contradict a claimed visit.",
             "strategy": [
               "Drop the cover before it costs a needed Reveal or forces a false accusation.",
@@ -1106,16 +1130,16 @@
       "claimOptions": [
         {
           "roleId": "mayor",
-          "tag": "Truthful role · recommended",
-          "why": "An unrevealed Mayor preserves an important vote swing without immediately advertising the exact role.",
-          "exposure": "Do not assume the ToS1 fixed-vote model. Do not wait until on trial to reveal. Do not lead votes without checking evidence.",
+          "tag": "Truthful TPow · recommended opening",
+          "why": "You can preserve the vote swing without inventing a different ability. Claiming Mayor in chat is not the public Reveal effect.",
+          "exposure": "Reveal before a decisive vote when your extra influence can secure a supported execution, prevent a mistaken execution of you, or establish needed leadership. Do not wait until on trial.",
           "strategy": [
-            "Start with the legal opening: No N1 action. Record claims and identify the strongest D2 question; you cannot Reveal on D1.",
-            "Write No night ability for quiet nights; Mayor does not investigate or visit a target.",
-            "Record Reveal on the actual day it happens, never D1 in the normal setup.",
-            "Keep observational vote notes distinct from ability results."
+            "Claim TPow while unrevealed rather than automatically claiming Veteran or Vigilante.",
+            "Track claims and actual vote counts; a quiet night is normal for Mayor and needs no invented action.",
+            "Use Reveal for its voting benefit when needed, before the trial position prevents it.",
+            "After Reveal, coordinate openly as Mayor; keep reads evidence-based instead of treating extra votes as proof."
           ],
-          "bestWhen": "You are Mayor in the normal-faction setup; report what actually happened.",
+          "bestWhen": "Claim TPow when asked and keep your exact identity private until Reveal has a useful voting purpose.",
           "sourceUrls": [
             "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)"
           ],
@@ -1128,7 +1152,7 @@
           "roleId": "veteran",
           "tag": "Optional concealment · situational",
           "why": "You have no ordinary night visit to explain before revealing, so a non-visiting cover can conceal your exact power briefly.",
-          "bestWhen": "Your exact Mayor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "You are unrevealed, there is a concrete reason to hide beyond TPow, and Town does not need your Reveal or a claimed alert.",
           "exposure": "You cannot produce an alert or visitor kill. Your Reveal publicly ends this cover.",
           "strategy": [
             "Do not bait Town visitors into danger or promise an alert you cannot perform.",
@@ -1149,7 +1173,7 @@
           "roleId": "vigilante",
           "tag": "Optional concealment · situational",
           "why": "A quiet opening can buy time while you decide when vote growth will help Town.",
-          "bestWhen": "Your exact Mayor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Only before a useful Reveal is needed, with no invented shots or visits and a specific survival benefit beyond TPow disclosure.",
           "exposure": "You cannot supply a shot, and a real tracker may contradict a claimed visit.",
           "strategy": [
             "Drop the cover before it costs a needed Reveal or forces a false accusation.",
@@ -1188,6 +1212,18 @@
         "plainAbility": "Publicly Reveal from D2 to gain extra voting weight immediately and more on later days while alive. You have no night ability; the visible reveal and votes are the important evidence.",
         "claimMeaning": "You promise a public Reveal you can actually perform. Writing Mayor in a will does not produce the reveal or extra votes.",
         "simpleExample": "“D2: Remained hidden; D3: Revealed” records when your public power appeared. It contains no investigative results."
+      },
+      "claimRecommendation": {
+        "opening": "Claim TPow when asked and keep your exact identity private until Reveal has a useful voting purpose.",
+        "reason": "You can preserve the vote swing without inventing a different ability. Claiming Mayor in chat is not the public Reveal effect.",
+        "revealWhen": "Reveal before a decisive vote when your extra influence can secure a supported execution, prevent a mistaken execution of you, or establish needed leadership. Do not wait until on trial.",
+        "coverWhen": "Only consider a temporary cover when there is a specific reason TPow disclosure would expose you and no useful Reveal is being delayed. End it before vote control depends on your power.",
+        "strategy": [
+          "Claim TPow while unrevealed rather than automatically claiming Veteran or Vigilante.",
+          "Track claims and actual vote counts; a quiet night is normal for Mayor and needs no invented action.",
+          "Use Reveal for its voting benefit when needed, before the trial position prevents it.",
+          "After Reveal, coordinate openly as Mayor; keep reads evidence-based instead of treating extra votes as proof."
+        ]
       },
       "routes": [
         {
@@ -1471,20 +1507,20 @@
         "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
       },
       "claimAudit": {
-        "summary": "Truthful Monarch or alignment-only TPow is the default. A temporary cover can conceal your exact power, but may mislead Town protection and votes. Keep your real history privately and abandon the cover when coordination, a counterclaim, or your public ability matters. These are situational editorial options, not measured win-rate rankings.",
+        "summary": "Recommended: Claim TPow when asked; explain your Monarch identity and Knight history when voting or a counterclaim requires it. Knighthood changes public vote weight. A protective cover may share a destination, but cannot explain those extra votes or establish that you protected anyone. A temporary cover is an optional exception, not the recommended start. Only consider a movement-compatible cover while your identity remains hidden and keeping it hidden has a specific survival benefit. Recheck every Knight night; never invent protection or trap feedback. Recommendations are editorial judgments from role mechanics, not measured win rates.",
         "options": [
           {
             "roleId": "monarch",
-            "tag": "Truthful role · recommended",
-            "why": "Knight grants permanent voting power to any faction, and its defense does not protect you immediately during the knighting night.",
-            "exposure": "Do not knight an impressive speaker solely on confidence. Do not assume Knights are unvoteable. Do not assume a future Knight saves you tonight.",
+            "tag": "Truthful TPow · recommended opening",
+            "why": "Knighthood changes public vote weight. A protective cover may share a destination, but cannot explain those extra votes or establish that you protected anyone.",
+            "exposure": "Explain a consequential knighting, resolve a Monarch counterclaim, or share identity when it enables useful Town coordination. Separate proof of knighting from evidence of a Knight’s faction.",
             "strategy": [
-              "Start with the legal opening: Default to holding Knight with no credible Town read. Knight tonight only if a well-supported Town candidate is likely to survive.",
-              "Record each Knight attempt, its target, and whether the effect actually completed.",
-              "Do not mark a selection as completed before the night resolves.",
-              "Track the two charges from real outcomes; failed or dead-target attempts need the actual feedback."
+              "Start with truthful TPow disclosure rather than automatically claiming Cleric or Trapper.",
+              "Keep the actual Knight targets and resolution nights; holding Knight creates no protective visit.",
+              "Explain Knight history when vote control or a counterclaim makes it relevant.",
+              "Do not treat a Knight as confirmed Town, and do not use a matching destination as proof of protection."
             ],
-            "bestWhen": "You are Monarch in the normal-faction setup; report what actually happened.",
+            "bestWhen": "Claim TPow when asked; explain your Monarch identity and Knight history when voting or a counterclaim requires it.",
             "sourceUrls": [
               "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
             ],
@@ -1497,7 +1533,7 @@
             "roleId": "cleric",
             "tag": "Optional concealment · situational",
             "why": "On a night you actually Knight someone, a single-target protective story may share that destination. This is movement overlap only.",
-            "bestWhen": "Your exact Monarch identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Only on nights when your actual Knight action shares the claimed destination, with no invented protection and no unresolved vote-weight explanation.",
             "exposure": "Knighthood is a public effect; a Cleric story cannot establish that you protected anyone. A held Knight action does not supply a visit.",
             "strategy": [
               "Do not invent saves. Disclose Knight history when vote control or a contradiction makes it necessary.",
@@ -1518,7 +1554,7 @@
             "roleId": "trapper",
             "tag": "Optional concealment · situational",
             "why": "The preparation story can explain a quiet opening if you held your Knight action. Later movement must be checked night by night.",
-            "bestWhen": "Your exact Monarch identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Only while the claimed build/place schedule matches your held or completed Knight actions and no one relies on invented trap information.",
             "exposure": "A Trapper must build before placing; your knighting nights and public Knights can contradict that schedule.",
             "strategy": [
               "Never invent trap triggers, visitor roles, or protection. Stop using the cover if it requires impossible timing.",
@@ -1540,16 +1576,16 @@
       "claimOptions": [
         {
           "roleId": "monarch",
-          "tag": "Truthful role · recommended",
-          "why": "Knight grants permanent voting power to any faction, and its defense does not protect you immediately during the knighting night.",
-          "exposure": "Do not knight an impressive speaker solely on confidence. Do not assume Knights are unvoteable. Do not assume a future Knight saves you tonight.",
+          "tag": "Truthful TPow · recommended opening",
+          "why": "Knighthood changes public vote weight. A protective cover may share a destination, but cannot explain those extra votes or establish that you protected anyone.",
+          "exposure": "Explain a consequential knighting, resolve a Monarch counterclaim, or share identity when it enables useful Town coordination. Separate proof of knighting from evidence of a Knight’s faction.",
           "strategy": [
-            "Start with the legal opening: Default to holding Knight with no credible Town read. Knight tonight only if a well-supported Town candidate is likely to survive.",
-            "Record each Knight attempt, its target, and whether the effect actually completed.",
-            "Do not mark a selection as completed before the night resolves.",
-            "Track the two charges from real outcomes; failed or dead-target attempts need the actual feedback."
+            "Start with truthful TPow disclosure rather than automatically claiming Cleric or Trapper.",
+            "Keep the actual Knight targets and resolution nights; holding Knight creates no protective visit.",
+            "Explain Knight history when vote control or a counterclaim makes it relevant.",
+            "Do not treat a Knight as confirmed Town, and do not use a matching destination as proof of protection."
           ],
-          "bestWhen": "You are Monarch in the normal-faction setup; report what actually happened.",
+          "bestWhen": "Claim TPow when asked; explain your Monarch identity and Knight history when voting or a counterclaim requires it.",
           "sourceUrls": [
             "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
           ],
@@ -1562,7 +1598,7 @@
           "roleId": "cleric",
           "tag": "Optional concealment · situational",
           "why": "On a night you actually Knight someone, a single-target protective story may share that destination. This is movement overlap only.",
-          "bestWhen": "Your exact Monarch identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Only on nights when your actual Knight action shares the claimed destination, with no invented protection and no unresolved vote-weight explanation.",
           "exposure": "Knighthood is a public effect; a Cleric story cannot establish that you protected anyone. A held Knight action does not supply a visit.",
           "strategy": [
             "Do not invent saves. Disclose Knight history when vote control or a contradiction makes it necessary.",
@@ -1583,7 +1619,7 @@
           "roleId": "trapper",
           "tag": "Optional concealment · situational",
           "why": "The preparation story can explain a quiet opening if you held your Knight action. Later movement must be checked night by night.",
-          "bestWhen": "Your exact Monarch identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Only while the claimed build/place schedule matches your held or completed Knight actions and no one relies on invented trap information.",
           "exposure": "A Trapper must build before placing; your knighting nights and public Knights can contradict that schedule.",
           "strategy": [
             "Never invent trap triggers, visitor roles, or protection. Stop using the cover if it requires impossible timing.",
@@ -1622,6 +1658,18 @@
         "plainAbility": "At night, make someone a Knight to give them extra voting weight. You have two Knight charges. Having a living Knight gives you Basic Defense after the action resolves; a Knight can still be evil.",
         "claimMeaning": "You promise a real effect on the recipient, who may verify it. Holding a charge means no one was knighted that night.",
         "simpleExample": "“N2: Knight 4 — completed D3” means player 4 received the Knight effect at dawn, not that you proved 4 is Town."
+      },
+      "claimRecommendation": {
+        "opening": "Claim TPow when asked; explain your Monarch identity and Knight history when voting or a counterclaim requires it.",
+        "reason": "Knighthood changes public vote weight. A protective cover may share a destination, but cannot explain those extra votes or establish that you protected anyone.",
+        "revealWhen": "Explain a consequential knighting, resolve a Monarch counterclaim, or share identity when it enables useful Town coordination. Separate proof of knighting from evidence of a Knight’s faction.",
+        "coverWhen": "Only consider a movement-compatible cover while your identity remains hidden and keeping it hidden has a specific survival benefit. Recheck every Knight night; never invent protection or trap feedback.",
+        "strategy": [
+          "Start with truthful TPow disclosure rather than automatically claiming Cleric or Trapper.",
+          "Keep the actual Knight targets and resolution nights; holding Knight creates no protective visit.",
+          "Explain Knight history when vote control or a counterclaim makes it relevant.",
+          "Do not treat a Knight as confirmed Town, and do not use a matching destination as proof of protection."
+        ]
       },
       "routes": [
         {
@@ -1905,20 +1953,20 @@
         "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
       },
       "claimAudit": {
-        "summary": "Truthful Prosecutor or alignment-only TPow is the default. A temporary cover can conceal your exact power, but may mislead Town protection and votes. Keep your real history privately and abandon the cover when coordination, a counterclaim, or your public ability matters. These are situational editorial options, not measured win-rate rankings.",
+        "summary": "Recommended: Claim TPow when asked; keep Prosecutor concealed while building a supported case. Prosecution publicly identifies you and forces a hanging. Claiming Deputy gains no matching shot and can pressure you to spend power for the wrong reason. A temporary cover is an optional exception, not the recommended start. Only consider a brief cover for a specific survival need before Prosecute. Drop it if Town needs your real power or expects the cover’s demonstration. Recommendations are editorial judgments from role mechanics, not measured win rates.",
         "options": [
           {
             "roleId": "prosecutor",
-            "tag": "Truthful role · recommended",
-            "why": "One mistaken Town prosecution both removes an ally and costs the remaining charge, so impatience has unusually high cost.",
-            "exposure": "Do not prosecute merely to prove your role. Do not expect to use it during Tribunal. Do not use outdated Hangman-suicide advice.",
+            "tag": "Truthful TPow · recommended opening",
+            "why": "Prosecution publicly identifies you and forces a hanging. Claiming Deputy gains no matching shot and can pressure you to spend power for the wrong reason.",
+            "exposure": "Disclose your exact role if it resolves a consequential claim dispute or enables trusted coordination. Use Prosecute when a supported case cannot safely be resolved by ordinary voting.",
             "strategy": [
-              "Start with the legal opening: No N1 action. Build one supported accusation and prepare the question that could disprove it; Prosecute is a later voting-phase ability.",
-              "Write No night ability instead of an investigative or protective target.",
-              "Use D entries for prosecutions, with the actual target and outcome.",
-              "Track two total charges and at most one use per day; obey the live phase restrictions."
+              "Claim TPow as the normal opening, without promising a Deputy shot or Veteran alert.",
+              "Build a supported accusation and check whether ordinary voting already resolves it.",
+              "Prosecute when bypassing the vote helps Town; do not do it simply to prove your role or rescue a cover.",
+              "After Prosecute reveals you, coordinate as Prosecutor and preserve any remaining charge for a supported case."
             ],
-            "bestWhen": "You are Prosecutor in the normal-faction setup; report what actually happened.",
+            "bestWhen": "Claim TPow when asked; keep Prosecutor concealed while building a supported case.",
             "sourceUrls": [
               "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
             ],
@@ -1931,7 +1979,7 @@
             "roleId": "deputy",
             "tag": "Optional concealment · situational",
             "why": "Both roles can wait for evidence before spending a day action, without a nightly result history.",
-            "bestWhen": "Your exact Prosecutor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Before Prosecute, only when concealing the exact day power has a specific benefit and no one is relying on a Deputy shot.",
             "exposure": "A prosecution counts as a hanging; a Deputy shot does not. The public effects do not confirm the same role.",
             "strategy": [
               "Do not call a Prosecution a shot or use it merely to prove a cover.",
@@ -1952,7 +2000,7 @@
             "roleId": "veteran",
             "tag": "Optional concealment · situational",
             "why": "A non-visiting cover can briefly hide your day power without fabricated investigative results.",
-            "bestWhen": "Your exact Prosecutor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+            "bestWhen": "Before Prosecute, only when there is a specific concealment benefit and no claimed alert or visitor kill to maintain.",
             "exposure": "You cannot demonstrate an alert; Prosecute reveals your actual role.",
             "strategy": [
               "Never invent visitor kills or prolong the cover when Town needs your real power.",
@@ -1974,16 +2022,16 @@
       "claimOptions": [
         {
           "roleId": "prosecutor",
-          "tag": "Truthful role · recommended",
-          "why": "One mistaken Town prosecution both removes an ally and costs the remaining charge, so impatience has unusually high cost.",
-          "exposure": "Do not prosecute merely to prove your role. Do not expect to use it during Tribunal. Do not use outdated Hangman-suicide advice.",
+          "tag": "Truthful TPow · recommended opening",
+          "why": "Prosecution publicly identifies you and forces a hanging. Claiming Deputy gains no matching shot and can pressure you to spend power for the wrong reason.",
+          "exposure": "Disclose your exact role if it resolves a consequential claim dispute or enables trusted coordination. Use Prosecute when a supported case cannot safely be resolved by ordinary voting.",
           "strategy": [
-            "Start with the legal opening: No N1 action. Build one supported accusation and prepare the question that could disprove it; Prosecute is a later voting-phase ability.",
-            "Write No night ability instead of an investigative or protective target.",
-            "Use D entries for prosecutions, with the actual target and outcome.",
-            "Track two total charges and at most one use per day; obey the live phase restrictions."
+            "Claim TPow as the normal opening, without promising a Deputy shot or Veteran alert.",
+            "Build a supported accusation and check whether ordinary voting already resolves it.",
+            "Prosecute when bypassing the vote helps Town; do not do it simply to prove your role or rescue a cover.",
+            "After Prosecute reveals you, coordinate as Prosecutor and preserve any remaining charge for a supported case."
           ],
-          "bestWhen": "You are Prosecutor in the normal-faction setup; report what actually happened.",
+          "bestWhen": "Claim TPow when asked; keep Prosecutor concealed while building a supported case.",
           "sourceUrls": [
             "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
           ],
@@ -1996,7 +2044,7 @@
           "roleId": "deputy",
           "tag": "Optional concealment · situational",
           "why": "Both roles can wait for evidence before spending a day action, without a nightly result history.",
-          "bestWhen": "Your exact Prosecutor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Before Prosecute, only when concealing the exact day power has a specific benefit and no one is relying on a Deputy shot.",
           "exposure": "A prosecution counts as a hanging; a Deputy shot does not. The public effects do not confirm the same role.",
           "strategy": [
             "Do not call a Prosecution a shot or use it merely to prove a cover.",
@@ -2017,7 +2065,7 @@
           "roleId": "veteran",
           "tag": "Optional concealment · situational",
           "why": "A non-visiting cover can briefly hide your day power without fabricated investigative results.",
-          "bestWhen": "Your exact Prosecutor identity is still hidden, no one needs it to coordinate, and the cover matches your actual movement so far.",
+          "bestWhen": "Before Prosecute, only when there is a specific concealment benefit and no claimed alert or visitor kill to maintain.",
           "exposure": "You cannot demonstrate an alert; Prosecute reveals your actual role.",
           "strategy": [
             "Never invent visitor kills or prolong the cover when Town needs your real power.",
@@ -2056,6 +2104,18 @@
         "plainAbility": "Publicly force a daytime hanging through Prosecute, bypassing normal judgment. You have two charges, at most one use per day, starting D2; prosecuting Town removes the remaining charges.",
         "claimMeaning": "You promise a visible prosecution ability. You have no night checks, and you cannot demonstrate this role merely by claiming a prosecution in text.",
         "simpleExample": "“D2: Held Prosecute” means you saved the ability. “D3: Prosecuted 9” needs the actual public event."
+      },
+      "claimRecommendation": {
+        "opening": "Claim TPow when asked; keep Prosecutor concealed while building a supported case.",
+        "reason": "Prosecution publicly identifies you and forces a hanging. Claiming Deputy gains no matching shot and can pressure you to spend power for the wrong reason.",
+        "revealWhen": "Disclose your exact role if it resolves a consequential claim dispute or enables trusted coordination. Use Prosecute when a supported case cannot safely be resolved by ordinary voting.",
+        "coverWhen": "Only consider a brief cover for a specific survival need before Prosecute. Drop it if Town needs your real power or expects the cover’s demonstration.",
+        "strategy": [
+          "Claim TPow as the normal opening, without promising a Deputy shot or Veteran alert.",
+          "Build a supported accusation and check whether ordinary voting already resolves it.",
+          "Prosecute when bypassing the vote helps Town; do not do it simply to prove your role or rescue a cover.",
+          "After Prosecute reveals you, coordinate as Prosecutor and preserve any remaining charge for a supported case."
+        ]
       },
       "routes": [
         {
