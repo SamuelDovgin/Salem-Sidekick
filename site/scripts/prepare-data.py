@@ -187,6 +187,7 @@ def build():
     playbooks = {}
     for group in ['town', 'coven', 'neutral']:
         playbooks.update(json.loads((PROJECT/f'content/playbook-{group}.json').read_text()))
+    town_covers = json.loads((PROJECT/'content/town-power-covers.json').read_text())
     profiles = json.loads((PROJECT/'content/claim-profiles.json').read_text())
     relations = {}
     route_copy = {}
@@ -256,6 +257,9 @@ def build():
               'sourceUrls':profile['sourceUrls']
             }]}
             role['claimOptions']=role['claimAudit']['options']
+        if role['id'] in town_covers:
+            role['claimAudit']['summary'] = town_covers[role['id']]['summary']
+            role['claimOptions'].extend(copy.deepcopy(town_covers[role['id']]['options']))
         if role.get('parentId'):
             role['claimAudit']=copy.deepcopy(by_id[role['parentId']]['claimAudit'])
             role['claimAudit']['summary']+=' You are '+role['name']+' now: a pre-transformation cover does not explain new attacks, altered movement, or the public transformation.'
@@ -287,6 +291,33 @@ def build():
             assert all(route.get(f) for f in ['id','label','when','action','targetRule','reason','pivot','risk','sourceUrls']), (role['id'],route['id'])
             assert len(route['goals'])==len(route['laterPriorities'])==3, (role['id'],route['id'])
             assert re.fullmatch(r'[a-z0-9-]+', route['id']), (role['id'],route['id'])
+    # Study guides use the original source-reviewed dossiers and expanded mechanics.
+    study_facts = json.loads((PROJECT/'content/role-study-facts.json').read_text())
+    study_titles = ['Role and ability', 'Win condition', 'Interactions and limits',
+                    'Read the information', 'Common mistakes', 'Claim timing and disclosure',
+                    'Early, middle, and late game', 'Worked decision']
+    for role in all_roles:
+        parent = by_id[role['parentId']] if role.get('parentId') else role
+        dossier = source_text('docs/research/roles/'+parent['id']+'.md')
+        chapters = dict(re.findall(r'^## ([^\n]+)\n(.*?)(?=^## |\Z)', dossier, re.M|re.S))
+        sections = [{'title':title,'markdown':external_only_markdown(chapters[title].strip())} for title in study_titles]
+        role['studyGuide'] = {
+            'facts':copy.deepcopy(study_facts[parent['id']]) if not role.get('parentId') else None,
+            'summary':role.get('description') or parent['claimProfile']['plainAbility'],
+            'sections':sections,
+            'details':[{'title':title,'markdown':next(c['expanded'] for c in parent['cards'] if c['id'].endswith('-'+key))}
+                       for key,title in [('n1','Actions, targeting and opening restrictions'),('dawn','Feedback and evidence'),('continuation','Progression and later actions'),('mistakes','Exceptions and pitfalls')]],
+            'sourceUrls':[parent['source_url'],parent['source_revision_url']],
+            'reviewedOn':original['reviewed_on']
+        }
+        if role.get('parentId'):
+            role['studyGuide']['summary'] = role['notes']
+            role['studyGuide']['sections'] = [
+                {'title':'Current ability and objective','markdown':role['description']},
+                {'title':'What to do now','markdown':role['playbook']['expanded']},
+                {'title':'Transition and cover limits','markdown':role['claimAudit']['summary']},
+                {'title':'Win condition','markdown':chapters['Win condition'].strip()}]
+            role['studyGuide']['details'] = [{'title':parent['name']+' before transformation · '+x['title'],'markdown':x['markdown']} for x in sections]
     assert len(route_copy)==64
     assert len(playbooks)==64 and len(profiles)==29 and len(relations)==31
     assert all(len(r['playbook']['laterPriorities'])==3 and r['claimProfile']['example'] for r in roles+states)

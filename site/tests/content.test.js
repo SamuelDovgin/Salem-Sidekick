@@ -49,3 +49,17 @@ test('route and claim sources use source pages and the cover library retains off
  for(const r of library){for(const x of [...r.routes,...r.claimOptions])for(const u of x.sourceUrls)assert.match(u,/^https:\/\//,r.name);}
  assert.match(byId.get('oracle').claimProfile.example,/Aegis Sheriff/);assert.doesNotMatch(byId.get('jinx').playbook.reason,/friendly fire/);assert.match(byId.get('jinx').playbook.reason,/Coven allies.*excluded/);
 });
+
+test('study guides cover every role and state with source-linked mechanics and summarized detail',()=>{
+ for(const r of library){const g=r.studyGuide;assert.ok(g.summary&&g.reviewedOn,r.name);assert.ok(g.sections.length>=4,r.name);assert.ok(g.details.length>=4,r.name);assert.equal(g.sourceUrls.length,2);for(const section of [...g.sections,...g.details]){assert.ok(section.title&&section.markdown,r.name);assert.doesNotMatch(section.markdown,/\]\((?!https?:)/);}}
+ for(const r of pack.states){assert.match(r.studyGuide.details[0].title,/before transformation/);assert.ok(r.studyGuide.summary.includes(r.name==='Death'?'Survive':'Defense')||r.id==='pestilence');}
+});
+test('Town Power has truthful defaults plus role-specific temporary concealment options',()=>{
+ const powers=pack.roles.filter(r=>r.alignment==='Town Power');assert.equal(powers.length,5);
+ for(const r of powers){assert.equal(r.preferredClaimId,r.id);assert.equal(r.claimOptions[0].roleId,r.id);assert.equal(r.claimOptions.length,3);assert.match(r.claimAudit.summary,/temporary cover/);for(const o of r.claimOptions.slice(1)){assert.match(o.tag,/Optional concealment/);assert.ok(o.exposure&&o.strategy.length>=4);assert.ok(o.sourceUrls.includes(r.source_url));}}
+});
+
+test('base-role study references include readable stats, phase and charge limits from reviewed role records',()=>{
+ for(const r of pack.roles){const f=r.studyGuide.facts;assert.ok(f.attack&&f.defense&&f.sourceRevision,r.name);assert.equal(f.sourceUrl,r.source_revision_url);assert.doesNotMatch(JSON.stringify(f),/\{\{|\[\[|<span|File:/);for(const a of f.abilities)assert.ok(a.name&&a.phase&&a.uses,r.name);}
+ assert.equal(byId.get('jailor').studyGuide.facts.abilities.find(a=>a.name==='Execute').uses,'3');assert.match(byId.get('monarch').studyGuide.facts.defense,/Knight/);assert.equal(byId.get('pilgrim').studyGuide.facts.abilities.length,0);
+});

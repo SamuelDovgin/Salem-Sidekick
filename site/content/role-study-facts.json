@@ -1,0 +1,986 @@
+{
+  "jailor": {
+    "attack": "Powerful",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Jail",
+        "phase": "Day",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Execute",
+        "phase": "Night",
+        "uses": "3"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Jailor%20%28ToS2%29&oldid=6571",
+    "sourceRevision": 6571
+  },
+  "marshal": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Tribunal",
+        "phase": "Day",
+        "uses": "2"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Marshal%20%28ToS2%29&oldid=5387",
+    "sourceRevision": 5387
+  },
+  "mayor": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Reveal",
+        "phase": "Day",
+        "uses": "1"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Mayor%20%28ToS2%29&oldid=5492",
+    "sourceRevision": 5492
+  },
+  "monarch": {
+    "attack": "None",
+    "defense": "None; Basic (While a Knight is alive)",
+    "abilities": [
+      {
+        "name": "Knight",
+        "phase": "Night",
+        "uses": "2"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Monarch%20%28ToS2%29&oldid=6477",
+    "sourceRevision": 6477
+  },
+  "prosecutor": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Prosecute",
+        "phase": "Day",
+        "uses": "2"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Prosecutor%20%28ToS2%29&oldid=6514",
+    "sourceRevision": 6514
+  },
+  "coroner": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Autopsy",
+        "phase": "Day",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Examine",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Coroner%20%28ToS2%29&oldid=6348",
+    "sourceRevision": 6348
+  },
+  "investigator": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Investigate",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Investigator%20%28ToS2%29&oldid=5154",
+    "sourceRevision": 5154
+  },
+  "lookout": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Watch",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Lookout%20%28ToS2%29&oldid=6340",
+    "sourceRevision": 6340
+  },
+  "psychic": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Vision",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Psychic%20%28ToS2%29&oldid=6298",
+    "sourceRevision": 6298
+  },
+  "seer": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Intuit",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Gaze",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Seer%20%28ToS2%29&oldid=5395",
+    "sourceRevision": 5395
+  },
+  "sheriff": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Search",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148",
+    "sourceRevision": 5148
+  },
+  "spy": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Bug",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Spy%20%28ToS2%29&oldid=6346",
+    "sourceRevision": 6346
+  },
+  "tracker": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Track",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Tracker%20%28ToS2%29&oldid=5571",
+    "sourceRevision": 5571
+  },
+  "bodyguard": {
+    "attack": "None (Powerful from fighting an attacker with Guard)",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Guard",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Self Protect",
+        "phase": "Night",
+        "uses": "2"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Bodyguard%20%28ToS2%29&oldid=5558",
+    "sourceRevision": 5558
+  },
+  "cleric": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Barrier",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Self Barrier",
+        "phase": "Night",
+        "uses": "1"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Cleric%20%28ToS2%29&oldid=4540",
+    "sourceRevision": 4540
+  },
+  "crusader": {
+    "attack": "Basic",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Fortify",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870",
+    "sourceRevision": 3870
+  },
+  "oracle": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Aegis",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Oracle%20%28ToS2%29&oldid=5690",
+    "sourceRevision": 5690
+  },
+  "trapper": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Trap",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Dismantle",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Trapper%20%28ToS2%29&oldid=6488",
+    "sourceRevision": 6488
+  },
+  "deputy": {
+    "attack": "None (Basic when using High Noon)",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "High Noon",
+        "phase": "Day",
+        "uses": "1"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Deputy%20%28ToS2%29&oldid=6299",
+    "sourceRevision": 6299
+  },
+  "trickster": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Magic Mirror",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Self Mirror",
+        "phase": "Night",
+        "uses": "1"
+      },
+      {
+        "name": "Unleash",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Trickster%20%28ToS2%29&oldid=5398",
+    "sourceRevision": 5398
+  },
+  "veteran": {
+    "attack": "None; Powerful (While on Alert)",
+    "defense": "None; Basic (While on Alert)",
+    "abilities": [
+      {
+        "name": "Alert",
+        "phase": "Night",
+        "uses": "3"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Veteran%20%28ToS2%29&oldid=6536",
+    "sourceRevision": 6536
+  },
+  "vigilante": {
+    "attack": "Basic",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Shoot",
+        "phase": "Night",
+        "uses": "3"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Vigilante%20%28ToS2%29&oldid=5532",
+    "sourceRevision": 5532
+  },
+  "admirer": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Admire",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Care",
+        "phase": "Night",
+        "uses": "2"
+      },
+      {
+        "name": "Bestow",
+        "phase": "Day",
+        "uses": "2"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658",
+    "sourceRevision": 6658
+  },
+  "amnesiac": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Remember",
+        "phase": "Day",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Amnesiac%20%28ToS2%29&oldid=6546",
+    "sourceRevision": 6546
+  },
+  "retributionist": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Raise",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Target",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202",
+    "sourceRevision": 5202
+  },
+  "socialite": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Guest List",
+        "phase": "Day",
+        "uses": "2"
+      },
+      {
+        "name": "Party",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Socialite%20%28ToS2%29&oldid=5893",
+    "sourceRevision": 5893
+  },
+  "tavern-keeper": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Drink",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Tavern%20Keeper%20%28ToS2%29&oldid=4009",
+    "sourceRevision": 4009
+  },
+  "catalyst": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Overcharge",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Catalyst%20%28ToS2%29&oldid=6496",
+    "sourceRevision": 6496
+  },
+  "pilgrim": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Pilgrim%20%28ToS2%29&oldid=6432",
+    "sourceRevision": 6432
+  },
+  "archmage": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Retrain",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Archmage%20%28ToS2%29&oldid=5752",
+    "sourceRevision": 5752
+  },
+  "hex-master": {
+    "attack": "None (Unstoppable+ Hex Bomb)",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Hex",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "7AA2E6;\">Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232",
+    "sourceRevision": 6232
+  },
+  "witch": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Control",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Target",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Witch%20%28ToS2%29&oldid=5401",
+    "sourceRevision": 5401
+  },
+  "conjurer": {
+    "attack": "None (Powerful when Conjuring meteors)",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Conjure",
+        "phase": "Day",
+        "uses": "1"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365",
+    "sourceRevision": 6365
+  },
+  "ritualist": {
+    "attack": "None (Unstoppable when performing Blood Ritual)",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Blood Ritual",
+        "phase": "Night",
+        "uses": "2"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Ritualist%20%28ToS2%29&oldid=5403",
+    "sourceRevision": 5403
+  },
+  "jinx": {
+    "attack": "Basic",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Jinx",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984",
+    "sourceRevision": 5984
+  },
+  "dreamweaver": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Dreamweave",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Dreamweaver%20%28ToS2%29&oldid=5416",
+    "sourceRevision": 5416
+  },
+  "enchanter": {
+    "attack": "None; Basic (With the Necronomicon)",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Enchant",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Alterate",
+        "phase": "Night",
+        "uses": "2"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Enchanter%20%28ToS2%29&oldid=6673",
+    "sourceRevision": 6673
+  },
+  "illusionist": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Illusion",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "A331EF;\">Phantasm",
+        "phase": "Night",
+        "uses": "1"
+      },
+      {
+        "name": "A331EF;\">Disguise",
+        "phase": "Day/Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "7AA2E6\">Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Illusionist%20%28ToS2%29&oldid=6359",
+    "sourceRevision": 6359
+  },
+  "medusa": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Stone",
+        "phase": "Night",
+        "uses": "3"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Medusa%20%28ToS2%29&oldid=5933",
+    "sourceRevision": 5933
+  },
+  "necromancer": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Reanimate",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Target",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Necromancer%20%28ToS2%29&oldid=5465",
+    "sourceRevision": 5465
+  },
+  "poisoner": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Drink",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Smog",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Poisoner%20%28ToS2%29&oldid=6228",
+    "sourceRevision": 6228
+  },
+  "potion-master": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Barrier",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Reveal",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Potion%20Master%20%28ToS2%29&oldid=5596",
+    "sourceRevision": 5596
+  },
+  "voodoo-master": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Voodoo",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360",
+    "sourceRevision": 6360
+  },
+  "wildling": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "Sense",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Attune",
+        "phase": "Day",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Wildling%20%28ToS2%29&oldid=6347",
+    "sourceRevision": 6347
+  },
+  "covenite": {
+    "attack": "None",
+    "defense": "None",
+    "abilities": [
+      {
+        "name": "7AA2E6;\">Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Covenite%20%28ToS2%29&oldid=6354",
+    "sourceRevision": 6354
+  },
+  "cultist": {
+    "attack": "None",
+    "defense": "Basic (None after once you successfully Indoctrinate someone)",
+    "abilities": [
+      {
+        "name": "Indoctrinate",
+        "phase": "Day",
+        "uses": "1"
+      },
+      {
+        "name": "7AA2E6\">Necronomicon",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Cultist%20%28ToS2%29&oldid=6353",
+    "sourceRevision": 6353
+  },
+  "baker": {
+    "attack": "None",
+    "defense": "Basic while alone in Apocalypse; None while multiple Apocalypse-aligned players are alive",
+    "abilities": [
+      {
+        "name": "Feed",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503",
+    "sourceRevision": 6503
+  },
+  "berserker": {
+    "attack": "Basic; Powerful (After getting a kill)",
+    "defense": "Basic while alone in Apocalypse; None while multiple Apocalypse-aligned players are alive",
+    "abilities": [
+      {
+        "name": "Attack",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632",
+    "sourceRevision": 6632
+  },
+  "plaguebearer": {
+    "attack": "None",
+    "defense": "Basic while alone in Apocalypse; None while multiple Apocalypse-aligned players are alive",
+    "abilities": [
+      {
+        "name": "Infect",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579",
+    "sourceRevision": 5579
+  },
+  "soul-collector": {
+    "attack": "None",
+    "defense": "Basic while alone in Apocalypse; None while multiple Apocalypse-aligned players are alive",
+    "abilities": [
+      {
+        "name": "Reap",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562",
+    "sourceRevision": 6562
+  },
+  "doomsayer": {
+    "attack": "None",
+    "defense": "Basic before Day 3; None from Day 3; Invincible after a successful Doom",
+    "abilities": [
+      {
+        "name": "Doom",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436",
+    "sourceRevision": 6436
+  },
+  "executioner": {
+    "attack": "None",
+    "defense": "Basic (None on Day 3 onward)",
+    "abilities": [
+      {
+        "name": "Torment",
+        "phase": "Day",
+        "uses": "1 (automatic)"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Executioner%20%28ToS2%29&oldid=6370",
+    "sourceRevision": 6370
+  },
+  "jester": {
+    "attack": "None",
+    "defense": "Basic (none on Day 3 onward)",
+    "abilities": [
+      {
+        "name": "Haunt",
+        "phase": "Night",
+        "uses": "1 (effective use)"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368",
+    "sourceRevision": 6368
+  },
+  "pirate": {
+    "attack": "Basic",
+    "defense": "Basic before Day 3; None from Day 3; Invincible when all Landlubbers have perished",
+    "abilities": [
+      {
+        "name": "Scour",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Plunder",
+        "phase": "Night",
+        "uses": "3"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Pirate%20%28ToS2%29&oldid=6542",
+    "sourceRevision": 6542
+  },
+  "arsonist": {
+    "attack": "Unstoppable",
+    "defense": "Basic",
+    "abilities": [
+      {
+        "name": "Douse",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Ignite",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Arsonist%20%28ToS2%29&oldid=5504",
+    "sourceRevision": 5504
+  },
+  "serial-killer": {
+    "attack": "Basic (Powerful while at Apex Bloodlust)",
+    "defense": "Basic",
+    "abilities": [
+      {
+        "name": "Attack",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Cautious",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741",
+    "sourceRevision": 4741
+  },
+  "shroud": {
+    "attack": "Basic",
+    "defense": "Basic",
+    "abilities": [
+      {
+        "name": "Attack",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Shroud",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Shroud%20%28ToS2%29&oldid=5928",
+    "sourceRevision": 5928
+  },
+  "werewolf": {
+    "attack": "Powerful",
+    "defense": "Basic",
+    "abilities": [
+      {
+        "name": "Track Scent",
+        "phase": "Night",
+        "uses": "No fixed charge limit (On non-Full Moon nights)"
+      },
+      {
+        "name": "Attack",
+        "phase": "Night",
+        "uses": "No fixed charge limit (On Full Moon nights)"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Werewolf%20%28ToS2%29&oldid=6584",
+    "sourceRevision": 6584
+  },
+  "cursed-soul": {
+    "attack": "None",
+    "defense": "Basic (None on Day 3 onward)",
+    "abilities": [
+      {
+        "name": "Soul Swap",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Cursed%20Soul%20%28ToS2%29&oldid=5714",
+    "sourceRevision": 5714
+  },
+  "vampire": {
+    "attack": "Basic",
+    "defense": "Basic while alone in the Vampire faction; None with multiple Vampire-aligned players alive",
+    "abilities": [
+      {
+        "name": "Drain",
+        "phase": "Night",
+        "uses": "No fixed charge limit"
+      },
+      {
+        "name": "Convert",
+        "phase": "Night",
+        "uses": "3"
+      }
+    ],
+    "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Vampire%20%28ToS2%29&oldid=4747",
+    "sourceRevision": 4747
+  }
+}
