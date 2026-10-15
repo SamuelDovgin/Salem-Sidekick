@@ -14,6 +14,7 @@ Open http://127.0.0.1:4173. No application dependencies or build step are requir
 
 ## Included behavior
 
+- Top Town, Coven, Neutral, and All roles buttons open a filtered roster directly.
 - Searchable actual-role and unrestricted claim selectors, faction/alignment filters, aliases, recent roles, and real game icons.
 - Full alignment labels, N1 target criteria and low-information fallbacks, dawn interpretation, D2 disclosure, later decisions, and checkable role subgoals.
 - Top-right More detail expands the same sections inline; each Why control expands its own section. Cover obligations remain inline and separate from actual-role guidance.
@@ -30,7 +31,7 @@ This is a guide and editor. Ability eligibility and unusual interactions remain 
 
 Run `npm run prepare-data` to regenerate role assets. The script uses the workspace’s current research documents when available and otherwise the bundled `content-source/` snapshot. The bundle keeps this source repository reproducible when checked out separately. Update the canonical research first, then rebuild and review the resulting JSON.
 
-Role art is loaded from source-linked remote originals. The fixed asset map and `dist/data/icon-audit.json` record the checked sources; no generated role art is substituted. Text labels and fallback symbols remain usable during an image failure.
+Oracle’s original PNG is bundled locally with source and checksum credits; other role art uses source-linked remote originals. The fixed asset map and `dist/data/icon-audit.json` record the checked sources; no generated role art is substituted. Text labels and fallback symbols remain usable during an image failure.
 
 ## Validation
 

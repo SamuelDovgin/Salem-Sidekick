@@ -27,6 +27,8 @@ SOURCE_ICON_URLS = {
 }
 
 def icon_url(name):
+    if name == 'Oracle':
+        return './assets/roles/oracle.png'
     return SOURCE_ICON_URLS.get(name, CDN + VANILLA_NAMES.get(name, name.replace(' ', '')) + '.png')
 
 # Action tuples are (label, target type, phase). These are editing options, not
@@ -207,7 +209,7 @@ def build():
        'installedClientVersionVerified':False, 'liveGameTested':False,
        'mechanicsBasis':'Community role pages cross-checked against official announcements; disputed interactions stay qualified.',
        'strategyBasis':'Original editorial guidance; no measured success-rate claim.',
-       'icons':'Actual Vanilla role PNGs via pinned RoleIconRecolors repository; Oracle/Catalyst/Cultist original role art via source-linked Fandom image metadata. Pilgrim/Covenite use their actual faction icons. Wiki image fallbacks; no files downloaded.',
+       'icons':'Actual Vanilla role PNGs via pinned RoleIconRecolors repository; Oracle/Catalyst/Cultist original role art via source-linked Fandom image metadata. Pilgrim/Covenite use their actual faction icons. Wiki image fallbacks. Oracle original PNG is bundled locally with provenance.',
        'iconRepository':'https://github.com/AlchlcDvl/RoleIconRecolors/tree/162d3df30238f4d014cf729969119380509df7b4/Vanilla',
        'officialSources': [{'title':r.get('title','Official update'),'url':r.get('url','')} for r in sources['official']],
        'editingRules': [

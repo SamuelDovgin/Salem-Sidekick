@@ -1,6 +1,6 @@
 {
   "checkedOn": "2026-10-15",
-  "method": "HTTP HEAD; no media downloaded",
+  "method": "HTTP HEAD for remote artwork; HTTP GET and PNG signature validation for bundled Oracle artwork.",
   "records": [
     {
       "name": "Jailor",
@@ -100,9 +100,11 @@
     },
     {
       "name": "Oracle",
-      "url": "https://static.wikia.nocookie.net/town-of-salem/images/5/54/RoleIcon_Oracle_ToS2.png/revision/latest?cb=20250111024152",
+      "url": "./assets/roles/oracle.png",
       "status": 200,
-      "contentType": "image/webp"
+      "contentType": "image/png",
+      "delivery": "bundled original",
+      "sourceUrl": "https://static.wikia.nocookie.net/town-of-salem/images/5/54/RoleIcon_Oracle_ToS2.png/revision/latest?cb=20250111024152&format=original"
     },
     {
       "name": "Trapper",

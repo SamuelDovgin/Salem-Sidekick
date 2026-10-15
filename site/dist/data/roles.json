@@ -2360,7 +2360,7 @@
           "expanded": "For a truthful Town draft, include only actions/results you actually performed or received.\n\n**Fields:** Role selector; attack/save feedback; previous selected role; self-role use.\n\n**Illustrative formatting only — not live data:**\n\n```text\nN1: Aegis Sheriff — [outcome]\n```\n\nTargets a role. No consecutive same-role use; Oracle choice once. Do not invent a protected player number.\n\nKeep this below strategy. Start a new match with blank fields and no illustrative player numbers. Do not auto-fill success, a target’s role, a save, or a forged result."
         }
       ],
-      "iconUrl": "https://static.wikia.nocookie.net/town-of-salem/images/5/54/RoleIcon_Oracle_ToS2.png/revision/latest?cb=20250111024152",
+      "iconUrl": "./assets/roles/oracle.png",
       "iconFallback": "https://townofsalem.wiki.gg/images/Oracle_Icon.png?21e3be",
       "iconSource": "https://town-of-salem.fandom.com/wiki/File:RoleIcon_Oracle_ToS2.png",
       "aliases": [
@@ -9533,7 +9533,7 @@
     "liveGameTested": false,
     "mechanicsBasis": "Community role pages cross-checked against official announcements; disputed interactions stay qualified.",
     "strategyBasis": "Original editorial guidance; no measured success-rate claim.",
-    "icons": "Actual Vanilla role PNGs via pinned RoleIconRecolors repository; Oracle/Catalyst/Cultist original role art via source-linked Fandom image metadata. Pilgrim/Covenite use their actual faction icons. Wiki image fallbacks; no files downloaded.",
+    "icons": "Actual Vanilla role PNGs via pinned RoleIconRecolors repository; Oracle/Catalyst/Cultist original role art via source-linked Fandom image metadata. Pilgrim/Covenite use their actual faction icons. Wiki image fallbacks. Oracle original PNG is bundled locally with provenance.",
     "iconRepository": "https://github.com/AlchlcDvl/RoleIconRecolors/tree/162d3df30238f4d014cf729969119380509df7b4/Vanilla",
     "officialSources": [
       {
