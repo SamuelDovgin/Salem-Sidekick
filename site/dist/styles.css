@@ -44,9 +44,11 @@ html{scroll-padding-top:100px}
 
 /* Role study and temporary alignment controls */
 .hero{grid-template-columns:auto minmax(0,1fr)}
-.role-title-row{display:flex;align-items:center;gap:12px;min-width:0}
-.role-title-row h1{overflow-wrap:anywhere}
-.role-help{flex-shrink:0;border:1px solid var(--line);border-radius:50%;color:var(--accent);font-size:18px;width:34px;min-height:34px}
+.role-title-row{display:flex;align-items:center;gap:8px;min-width:0;margin:5px 0 10px}
+.role-title-row h1{min-width:0;margin:0;overflow-wrap:anywhere}
+.role-help{width:36px;min-height:36px;padding:8px;border-color:transparent;border-radius:7px;background:transparent;color:var(--muted);transition:color .15s,background .15s,border-color .15s}
+.role-help svg{width:18px;height:18px}
+.role-help:hover,.role-help:focus-visible{color:var(--accent);border-color:var(--line);background:var(--panel)}
 .alignment-shortcuts{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
 .alignment-shortcuts .button{min-height:36px;font-size:12px;padding:6px 10px}
 .alignment-shortcuts [aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-bg)}
@@ -61,6 +63,6 @@ html{scroll-padding-top:100px}
 .study-section{scroll-margin-top:110px;border-bottom:1px solid var(--line);padding-bottom:10px}
 .study-detail{padding:12px 0;border-bottom:1px solid var(--line)}
 .study-detail summary{cursor:pointer;color:var(--accent);font-weight:600}
-@media(max-width:560px){.study-dialog{padding:0 16px 18px}.study-heading h2{font-size:24px}.role-title-row{gap:8px}.role-help{width:32px;min-height:32px}}
+@media(max-width:560px){.study-dialog{padding:0 16px 18px}.study-heading h2{font-size:24px}.role-title-row{gap:6px}.role-help{width:36px;min-height:36px}}
 
 .study-facts dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px}.study-facts dt{color:var(--muted)}.study-facts dd{margin:0}.study-facts table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}.study-facts th,.study-facts td{padding:8px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.study-facts .muted{font-size:12px}.study-facts th{font-weight:600}
