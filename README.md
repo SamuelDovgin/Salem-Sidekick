@@ -8,7 +8,11 @@ The [Publish GitHub Pages workflow](.github/workflows/pages.yml) regenerates rol
 
 To preview locally, run `npm --prefix site run prepare-data`, `npm --prefix site test`, and `npm --prefix site run dev`, then open http://127.0.0.1:4173. The HTML, CSS, and JavaScript in `site/dist` are the website source; keep them committed. The role data is regenerated from the documents and `site/scripts/prepare-data.py` during each deployment.
 
-Start with [the full application plan](PLANNING.md).
+Open the [privately published Salem Sidekick](https://salem-sidekick.beigebay129.chatgpt.site).
+
+Run the site with `cd site` then `npm run dev`, and open http://127.0.0.1:4173. The app is buildless; its deployment files are in `site/dist/`. See [implementation verification](site/qa/REPORT.md).
+
+The [full application plan](PLANNING.md) and research documents below preserve the design and content basis.
 
 | Document | Purpose |
 | --- | --- |

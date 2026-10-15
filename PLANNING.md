@@ -1,6 +1,6 @@
 # Salem Sidekick — complete application plan
 
-Research and planning date: **2026-10-15** (America/Chicago). Status: **pre-implementation**. This document defines the website; no website has been built as part of this research task.
+Research and planning date: **2026-10-15** (America/Chicago). Status: **Compact website implemented** in [site/](site/README.md). This document preserves the design contract; [implementation verification](site/qa/REPORT.md) records completed checks.
 
 ## 1. Product and accepted requirements
 

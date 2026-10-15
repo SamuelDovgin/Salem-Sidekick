@@ -16,7 +16,9 @@ export function restoreState(raw, library) {
   state.deliberateClaim=Boolean(value.deliberateClaim);
   state.recent=Array.isArray(value.recent)?value.recent.filter(x=>valid.has(x)).slice(0,5):[];
   state.expanded=Array.isArray(value.expanded)?value.expanded.filter(x=>typeof x==='string'):[];
-  state.goals=value.goals && typeof value.goals==='object'?value.goals:{};
+  state.goals={};
+  for(const [id,goals] of Object.entries(value.goals && typeof value.goals==='object'?value.goals:{})){if(valid.has(id)&&Array.isArray(goals))state.goals[id]=goals.filter(x=>Number.isInteger(x)&&x>=0&&x<3);}
+  state.willOpen=Boolean(value.willOpen);
   state.timeline=Array.isArray(value.timeline)?value.timeline:[];
   state.drafts={public:{},private:{}};
   for(const ns of ['public','private'])for(const [id,draft]of Object.entries(value.drafts[ns]||{})){

@@ -5,8 +5,15 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-DEST = ROOT / 'site/dist/data/roles.json'
+PROJECT = Path(__file__).resolve().parents[1]
+ROOT = PROJECT.parent
+BUNDLE_PATH = PROJECT/'content-source/source-bundle.json'
+def source_text(relative):
+    candidate = ROOT/relative
+    if candidate.is_file():
+        return candidate.read_text()
+    return json.loads(BUNDLE_PATH.read_text())[relative]
+DEST = PROJECT / 'dist/data/roles.json'
 CDN = 'https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/'
 # Explicit mappings verified against the pinned Git tree and public source metadata.
 # Pilgrim/Covenite intentionally use their real faction icons, as the wiki does.
@@ -138,10 +145,10 @@ STATE_TEMPLATES = {
 }
 
 def build():
-    original = json.loads((ROOT/'docs/copy/ROLE_COPY.json').read_text())
-    icons = {x['role_or_state']: x for x in json.loads((ROOT/'docs/reference/ICON_MANIFEST.json').read_text())['entries']}
-    sources = json.loads((ROOT/'docs/research/SOURCE_MANIFEST.json').read_text())
-    text = (ROOT/'docs/reference/WILL_TEMPLATES.md').read_text()
+    original = json.loads(source_text('docs/copy/ROLE_COPY.json'))
+    icons = {x['role_or_state']: x for x in json.loads(source_text('docs/reference/ICON_MANIFEST.json'))['entries']}
+    sources = json.loads(source_text('docs/research/SOURCE_MANIFEST.json'))
+    text = source_text('docs/reference/WILL_TEMPLATES.md')
     templates = {}
     for name, section in re.findall(r'^## ([^\n]+)\n(.*?)(?=^## |\Z)', text, re.M|re.S):
         fields = re.search(r'\*\*Fields:\*\* (.+)', section)
@@ -176,12 +183,12 @@ def build():
         role['template'] = template
     # Glossary table is already original, curated plain-language copy.
     glossary = []
-    for line in (ROOT/'docs/reference/GLOSSARY.md').read_text().splitlines():
+    for line in source_text('docs/reference/GLOSSARY.md').splitlines():
         if line.startswith('| ') and not line.startswith('| Term') and not line.startswith('| ---'):
             term, meaning = [x.strip() for x in line.strip('|').split('|',1)]
             glossary.append({'term':term,'meaning':meaning})
-    glossary_markdown = external_only_markdown((ROOT/'docs/reference/GLOSSARY.md').read_text())
-    uncertainties_markdown = external_only_markdown((ROOT/'docs/research/UNCERTAINTIES.md').read_text())
+    glossary_markdown = external_only_markdown(source_text('docs/reference/GLOSSARY.md'))
+    uncertainties_markdown = external_only_markdown(source_text('docs/research/UNCERTAINTIES.md'))
     states = []
     for parent,(name,notes) in STATE_NOTES.items():
         parent_role = next(r for r in roles if r['name']==parent)
