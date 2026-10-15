@@ -14,7 +14,7 @@ Run the site with `cd site` then `npm run dev`, and open http://127.0.0.1:4173. 
 
 The [full application plan](PLANNING.md) and research documents below preserve the design and content basis.
 
-The current interface gives an opinionated default move and ranked follow-up priorities for every role. Claim-specific example wills and practical maintenance tips replace the will builder; previous editor notes are retained read-only. [Full practical-play audit](docs/copy/PRACTICAL_PLAYBOOK.md) · [All claim examples](docs/copy/CLAIM_EXAMPLES.md).
+The current interface offers ranked opening routes for every role, with conditions, tradeoffs, route-specific checkpoints, and follow-up priorities. Claim cards put strategy bullets first, keep role basics in a dropdown, and reveal lower-priority claims through ranked role icons. Rankings are editorial, grounded in source-checked ability constraints. [Full practical-play audit](docs/copy/PRACTICAL_PLAYBOOK.md) · [All claim examples](docs/copy/CLAIM_EXAMPLES.md) · [Ranked routes and claim strategies](docs/copy/RANKED_STRATEGIES.md).
 
 | Document | Purpose |
 | --- | --- |

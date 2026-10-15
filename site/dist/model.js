@@ -1,6 +1,9 @@
 export const STORAGE_KEY = 'salem-sidekick:v1';
 export const uid = () => globalThis.crypto?.randomUUID?.() || `entry-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-export function initialState() { return {schemaVersion:1,actualId:'sheriff',claimId:'sheriff',deliberateClaim:false,detail:false,expanded:[],theme:'dark',phase:'n1',recent:['sheriff'],goals:{},drafts:{public:{},private:{}},timeline:[],willOpen:false,namespace:'public',privateViewId:null}; }
+export function initialState() { return {schemaVersion:1,actualId:'sheriff',claimId:'sheriff',deliberateClaim:false,detail:false,expanded:[],theme:'dark',phase:'n1',routeChoices:{},routeGoals:{},recent:['sheriff'],goals:{},drafts:{public:{},private:{}},timeline:[],willOpen:false,namespace:'public',privateViewId:null}; }
+export function selectedRoute(state,role) {
+  return role.routes?.find(r=>r.id===state.routeChoices?.[role.id]) || role.routes?.[0] || {id:'default',label:'Recommended start',headline:role.playbook.headline,action:role.playbook.firstNight,reason:role.playbook.reason,targetRule:role.playbook.targetRule,pivot:role.playbook.pivot,laterPriorities:role.playbook.laterPriorities,when:'Start here with limited information.',risk:role.playbook.expanded,goals:role.opening?.goals||role.playbook.laterPriorities,sourceUrls:role.playbook.sourceUrls};
+}
 export const isTownClaim = role => Boolean(role?.alignment?.startsWith('Town'));
 export function ensureTownClaim(state,library) {
   if(isTownClaim(library.find(r=>r.id===state.claimId)))return;
@@ -26,6 +29,15 @@ export function restoreState(raw, library) {
   state.expanded=Array.isArray(value.expanded)?value.expanded.filter(x=>typeof x==='string'):[];
   state.goals={};
   for(const [id,goals] of Object.entries(value.goals && typeof value.goals==='object'?value.goals:{})){if(valid.has(id)&&Array.isArray(goals))state.goals[id]=goals.filter(x=>Number.isInteger(x)&&x>=0&&x<3);}
+  state.routeChoices={};state.routeGoals={};
+  for(const role of library){
+    const choice=value.routeChoices?.[role.id];
+    if(role.routes?.some(r=>r.id===choice))state.routeChoices[role.id]=choice;
+    for(const route of role.routes||[]){
+      const checked=value.routeGoals?.[role.id]?.[route.id];
+      if(Array.isArray(checked)){state.routeGoals[role.id]||={};state.routeGoals[role.id][route.id]=checked.filter(i=>Number.isInteger(i)&&i>=0&&i<3);}
+    }
+  }
   state.willOpen=Boolean(value.willOpen);
   state.timeline=Array.isArray(value.timeline)?value.timeline:[];
   state.drafts={public:{},private:{}};

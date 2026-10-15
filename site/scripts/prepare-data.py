@@ -188,7 +188,12 @@ def build():
     for group in ['town', 'coven', 'neutral']:
         playbooks.update(json.loads((PROJECT/f'content/playbook-{group}.json').read_text()))
     profiles = json.loads((PROJECT/'content/claim-profiles.json').read_text())
-    relations = json.loads((PROJECT/'content/claim-relations.json').read_text())
+    relations = {}
+    route_copy = {}
+    for group in ['coven','neutral']:
+        relations.update(json.loads((PROJECT/f'content/claim-strategy-{group}.json').read_text()))
+    for group in ['town','coven','neutral']:
+        route_copy.update(json.loads((PROJECT/f'content/routes-{group}.json').read_text()))
     for role in roles:
         role['playbook'] = playbooks[role['id']]
         role['claimAudit'] = relations.get(role['id'], {'summary':'Use your real role and truthful history as the normal Town starting point. Other claims remain selectable; their sample does not give you that ability.', 'options':[]})
@@ -236,6 +241,53 @@ def build():
           'expanded':role.get('description', role['playbook']['expanded']),
           'sourceUrls':[role['source_url']]
         })
+    # The ranking reflects an opening with limited information, not measured win rates.
+    all_roles = roles+states
+    by_id = {r['id']:r for r in all_roles}
+    for role in all_roles:
+        if role['faction']=='Town':
+            profile=role['claimProfile']
+            role['claimAudit']={'summary':'Use your actual '+role['name']+' role and truthful feedback. A missed action or quiet night is worth explaining accurately; another role’s sample is not an ability you possess.', 'options':[{
+              'roleId':role['id'],'tag':'Truthful role · recommended',
+              'why':role['playbook']['reason'],
+              'exposure':next(c['compact'] for c in role['cards'] if c['id'].endswith('-mistakes')),
+              'strategy':['Start with the legal opening: '+role['playbook']['firstNight'],*profile['willGuidance'][:3]],
+              'bestWhen':'You are '+role['name']+' in the normal-faction setup; report what actually happened.',
+              'sourceUrls':profile['sourceUrls']
+            }]}
+            role['claimOptions']=role['claimAudit']['options']
+        if role.get('parentId'):
+            role['claimAudit']=copy.deepcopy(by_id[role['parentId']]['claimAudit'])
+            role['claimAudit']['summary']+=' You are '+role['name']+' now: a pre-transformation cover does not explain new attacks, altered movement, or the public transformation.'
+            role['claimOptions']=role['claimAudit']['options']
+            for option in role['claimOptions']:
+                option['strategy'].append('After becoming '+role['name']+', reassess this earlier cover against your new ability and any public transformation; do not claim the old movement pattern automatically continues.')
+        assert len({o['roleId'] for o in role['claimOptions']})==len(role['claimOptions']), role['id']
+        for i,option in enumerate(role['claimOptions']):
+            claim=by_id[option['roleId']]
+            assert claim['alignment'].startswith('Town'), (role['id'], option['roleId'])
+            option.update(role=claim['name'],alignment=claim['alignment'],alignment_abbreviation=claim['alignment_abbreviation'],rank=i+1)
+            assert len(option['strategy'])>=4 and option['bestWhen'] and len(option['sourceUrls'])>=1
+        role['preferredClaimId']=role['claimOptions'][0]['roleId']
+        if role['claimAudit'].get('stateCaveat') and not role.get('parentId'):
+            role['claimAudit']['summary']+=' '+role['claimAudit']['stateCaveat']
+        content=route_copy[role['id']]
+        p=role['playbook']
+        baseline={
+          'id':'default','label':content.get('defaultLabel',p['headline'].removeprefix('Default: ')),
+          'headline':p['headline'],'when':content['defaultWhen'],'action':p['firstNight'],
+          'targetRule':p['targetRule'],'reason':p['reason'],'pivot':p['pivot'],
+          'goals':role.get('opening',{}).get('goals',p['laterPriorities']),
+          'laterPriorities':p['laterPriorities'],'risk':content['defaultRisk'],'sourceUrls':p['sourceUrls']
+        }
+        role['routes']=[baseline,*copy.deepcopy(content['alternatives'])]
+        assert len(role['routes'])>=2 and len({r['id'] for r in role['routes']})==len(role['routes']), role['id']
+        for i,route in enumerate(role['routes']):
+            route.update(rank=i+1,headline=route.get('headline',route['label']))
+            assert all(route.get(f) for f in ['id','label','when','action','targetRule','reason','pivot','risk','sourceUrls']), (role['id'],route['id'])
+            assert len(route['goals'])==len(route['laterPriorities'])==3, (role['id'],route['id'])
+            assert re.fullmatch(r'[a-z0-9-]+', route['id']), (role['id'],route['id'])
+    assert len(route_copy)==64
     assert len(playbooks)==64 and len(profiles)==29 and len(relations)==31
     assert all(len(r['playbook']['laterPriorities'])==3 and r['claimProfile']['example'] for r in roles+states)
     summary = {
@@ -245,7 +297,9 @@ def build():
        'newestNumberedOfficialPatchLocated':sources['newest_numbered_official_patch_located'],
        'installedClientVersionVerified':False, 'liveGameTested':False,
        'mechanicsBasis':'Community role pages cross-checked against official announcements; disputed interactions stay qualified.',
-       'strategyBasis':'Original editorial guidance; no measured success-rate claim.',
+       'strategyBasis':'Source-checked ability constraints with editorial beginner rankings; conditional alternatives are not measured win rates.',
+       'routeCount':sum(len(r['routes']) for r in all_roles),
+       'rankedClaimCount':sum(len(r['claimOptions']) for r in roles if r['faction']!='Town'),
        'icons':'Actual Vanilla role PNGs via pinned RoleIconRecolors repository; Oracle/Catalyst/Cultist original role art via source-linked Fandom image metadata. Pilgrim/Covenite use their actual faction icons. Wiki image fallbacks. Oracle original PNG is bundled locally with provenance.',
        'iconRepository':'https://github.com/AlchlcDvl/RoleIconRecolors/tree/162d3df30238f4d014cf729969119380509df7b4/Vanilla',
        'officialSources': [{'title':r.get('title','Official update'),'url':r.get('url','')} for r in sources['official']],
@@ -259,7 +313,7 @@ def build():
           'Role and faction transitions preserve previous action history. Advisory constraints never destroy manual client feedback.'
        ]
     }
-    summary['presentation']='Opinionated default play and ranked later priorities; claim upkeep/payoff/exposure and illustrative wills replace the will editor.'
+    summary['presentation']='Ranked conditional opening routes with saved per-role choices and checkpoints; claim strategy bullets first, collapsible role basics, lower-priority icon previews, and illustrative wills.'
     output = dict(roles=roles, states=states, glossary={'entries':glossary,'markdown':glossary_markdown}, sourceSummary=summary)
     DEST.parent.mkdir(parents=True, exist_ok=True)
     DEST.write_text(json.dumps(output, ensure_ascii=False, indent=2)+'\n')

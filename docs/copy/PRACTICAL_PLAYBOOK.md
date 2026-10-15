@@ -1,5 +1,7 @@
 # Practical playbook audit — 15 October 2026
 
+**Current extension:** [ranked opening routes and detailed claim strategies](RANKED_STRATEGIES.md) supplies conditional alternatives, source links, and bullet-point tactics for every ranked pairing. This document retains the default policies and earlier compact claim summaries.
+
 The current website uses these opinionated starting policies for **all 60 base roles and four transformed states**. Each has a default action, target rule, reason, explicit pivot, and three ranked later priorities. The ranking is editorial strategy based on source-checked mechanics, not a measured optimal-win-rate claim.
 
 The will builder is replaced by [claim-specific examples and maintenance advice](CLAIM_EXAMPLES.md). All 64 actual role/state choices remain available; public covers are limited to the 29 Town roles. The 31 opposing-role audits compare upkeep, real overlap, payoff, and exposure instead of implying that the first mechanically plausible claim is the easiest beginner claim.
@@ -801,13 +803,13 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)). Tar
 
 **My default:** Ambush planned enemy traffic; otherwise a hold can beat a random trap.
 
-Jinx a house likely to draw useful enemy visitors only after coordinating to keep Coven away. Without a useful traffic read, hold rather than trap an arbitrary house.
+Jinx a house likely to draw useful non-Coven visitors after coordinating the team’s traffic plan. Without a useful traffic read, hold rather than trap an arbitrary house.
 
-**Why:** A visitor ambush is valuable when it kills an enemy without friendly fire or surviving witnesses exposing you.
+**Why:** A visitor ambush can remove one non-Coven direct visitor, but other surviving direct visitors may learn your identity. Coven allies are normally excluded from the visitor attack.
 
 **Target rule:** Prefer a nonally house with a concrete reason for enemy traffic. An unknown house is not automatically good; an obvious crowded call can also contain dangerous visitors.
 
-**Change the plan when:** If the only likely traffic includes allies or witnesses who can expose you, choose another house or hold. Check Grace Period and the book before planning damage.
+**Change the plan when:** If the likely traffic gives no useful non-Coven victim or leaves witnesses who can expose you, choose another house or hold. Check Grace Period and the book before planning damage.
 
 1. Choose houses whose expected visitors are valuable enemies, with team traffic kept clear.
 2. After any survivor exposure, prioritize a realistic survival/kill plan rather than repeating a supposedly safe cover.

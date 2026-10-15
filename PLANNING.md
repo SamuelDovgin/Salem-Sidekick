@@ -4,6 +4,11 @@ Research and planning date: **2026-10-15** (America/Chicago). Status: **Compact 
 
 ## Current practical-play revision
 
+The current revision adds **ranked, selectable opening routes for all 64 roles/states**. The default remains first; conditional alternatives update the action, target rule, reason, pivot, tradeoff, three subgoals, and three next priorities together. A lower route can become better when its stated condition applies. These ranks are editorial beginner recommendations, not measured win rates.
+
+Claim cards now prioritize the actual-role/cover strategy. Role basics move into a keyboard-accessible dropdown. The top two researched claims stay visible; additional ranked role icons open one detailed comparison at a time. Every ranked pairing includes specific strategy bullets, a use condition, an exposure point, and mechanic sources. Town roles receive a truthful self-role card rather than a fabricated cover recommendation. Any other Town claim remains selectable but is identified as unranked when outside the researched shortlist.
+
+
 The public claim picker is now Town-only (29 roles). All 64 actual roles/states remain selectable. Old Coven/Neutral cover choices migrate to a recommended Town cover without deleting archived notes. Earlier unrestricted-claim specifications below are historical.
 
 The latest user instruction supersedes the earlier will-builder scope: use prominent **My default play**, ranked later priorities, and **claim-specific example wills with maintenance advice**. The builder is removed from the current interface; old saved notes are retained read-only. Claims compare upkeep, payoff, real support, and exposure. See [the complete audited playbook](docs/copy/PRACTICAL_PLAYBOOK.md) and [all claim examples](docs/copy/CLAIM_EXAMPLES.md). Earlier builder specifications below remain historical design context, not work to restore.

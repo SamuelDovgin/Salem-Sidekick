@@ -1,0 +1,1335 @@
+{
+  "baker": {
+    "summary": "Cleric and Psychic remain the starter choices: Cleric requires less invented information; Psychic creates more discussion influence. The lower options reuse a direct Feed destination but promise effects or results Feed never supplies. These are conditional cover choices, not equivalent ability matches.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Low upkeep · no real protection",
+        "why": "Feed is a real one-person visit, so its destination can support the travel part of a Barrier account while you quietly build living Bread recipients.",
+        "exposure": "Bread never grants a Barrier. An incompatible attack, a failed-save story, or the Famine transition can expose the missing protection.",
+        "strategy": [
+          "Use the actual Feed destination as the claimed Barrier destination so a movement report does not force you to rewrite the night.",
+          "Write N1: Barrier 4, for example; do not add saved 4 unless genuine public evidence supports that separate claim.",
+          "Choose likely surviving recipients for your Baker objective, then explain why each could reasonably have been a protection choice.",
+          "A Bread-holder dying is a warning for the cover and your progress; inspect the cause instead of claiming Barrier makes every death impossible."
+        ],
+        "bestWhen": "You want one stable nightly target line and can tolerate weak independent proof.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "More influence · invented visions",
+        "why": "A Feed recipient can be the selected player in a Psychic vision, giving you a real destination while the group report creates daytime leads.",
+        "exposure": "Feed supplies no vision. Extra names, parity, group size and later public information can contradict the invented report.",
+        "strategy": [
+          "Include the real Feed recipient as the selected target; you cannot claim a different selected visit merely because another player looks useful at dawn.",
+          "N1 Good uses two names with at least one appearing Good; N2 Evil uses three with at least one appearing Evil. Neither identifies exactly which name fits.",
+          "Publish the whole cover vision near day start and keep previous lists unchanged; assembling it after every claim is easier to challenge.",
+          "Keep Bread recipients private: several living recipients do not become confirmed Town, and Famine does not validate any prior vision."
+        ],
+        "bestWhen": "You can post promptly every morning and understand Good/Evil group logic.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Simple target log · interception risk",
+        "why": "Feed can follow the same one-player route as Guard without requiring a daily investigation report; quiet guarding nights are easy to describe.",
+        "exposure": "You cannot intercept an attacker. A visible harmful visitor, the resident dying, or an impossible interception-survival story can distinguish you.",
+        "strategy": [
+          "Claim Guard on the actual Feed destination rather than a post-dawn replacement house.",
+          "Keep a quiet entry quiet: Guard 4 does not mean you blocked an attack or killed its source.",
+          "Remember that Bodyguard is an interception role, not Cleric’s general shield; a resident surviving says little by itself.",
+          "Before defending a target death, compare the real cause and any known harmful visitor. Do not invent a sacrifice or a self-vest to repair it."
+        ],
+        "bestWhen": "Your visits fit a plausible guard route and nobody has supplied an event that demands a real interception.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "trickster",
+        "tag": "Quiet setup · later proof burden",
+        "why": "The Feed visit can resemble placing Magic Mirror on one person; a mirror that never absorbs anything can produce a quiet history.",
+        "exposure": "Bread absorbs no attack. An invented Absorb or Unleash introduces an effect and attack history Baker cannot create.",
+        "strategy": [
+          "Use Magic Mirror on the actual Feed target as the setup account, preserving the observed route.",
+          "Do not write Absorb just because the protected-looking player lived: the role needs actual absorption feedback.",
+          "Never add an Unleash before an alleged absorption, and remember that an Unleash night replaces ordinary mirror placement.",
+          "Your private aim is keeping Bread recipients alive; if they are attacked, the missing mirror effect may make this cover much weaker than the destination match suggests."
+        ],
+        "bestWhen": "A TK cover fits the deck and you can sustain a setup account without claiming a demonstration you never performed.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Active pressure · no real check",
+        "why": "A Feed destination can be the person you claim to Search, allowing a simple result vocabulary and a more active daytime account.",
+        "exposure": "You learn no Innocent or Suspicious result. Independent reports can expose the invented information even when the visit is genuine.",
+        "strategy": [
+          "Name the actual Feed recipient as the checked player; keep that choice fixed before reading the morning claims.",
+          "Use only Innocent or Suspicious, not an exact Town role. An Innocent line is not a clear on a Bread-holder.",
+          "Post the claimed check promptly and explain any missing check rather than using Baker feedback as an investigative result.",
+          "Avoid repeatedly defending every recipient as Town: Bread membership supports your transformation, not their allegiance."
+        ],
+        "bestWhen": "You prefer a simple TI format over protection claims and accept the daily posting burden.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      }
+    ],
+    "stateCaveat": "After becoming Famine, use the transformed action guide. Starve accelerates Bread loss; it does not keep supplying any claimed Town protection or vision."
+  },
+  "berserker": {
+    "summary": "Vigilante preserves the quiet-N1 timing best among the starter options; Cleric is a simple destination story only on later direct-attack nights. Coroner and Trapper offer alternative inactive openings, while Deputy is short but easily tested. No Town cover reproduces growing attacks and Rampage indefinitely.",
+    "options": [
+      {
+        "roleId": "vigilante",
+        "tag": "Quiet N1 fit · later kill mismatch",
+        "why": "Your normal N1 inactivity resembles Vigilante loading before a later shot, so you can avoid inventing an opening visit.",
+        "exposure": "Berserker kills are not Vigilante shots. Attack upgrades, Rampage, death attribution and the load/ammunition sequence can expose the difference.",
+        "strategy": [
+          "Write N1: Load as the cover, while privately recording that Berserker had no legal N1 attack.",
+          "From N2, a claimed shot must fit an actual prior Load; you cannot report a shot every night as though Vigilante has endless ready ammunition.",
+          "Keep claimed shot targets aligned with any observed direct attacks, but do not claim Berserker-labelled deaths prove you are Vigilante.",
+          "Track the cover’s Town-hit gun penalty separately from your Berserker upgrades; a Rampage is not an ordinary single-player shot."
+        ],
+        "bestWhen": "You want a TK cover with a mechanically plausible inactive N1 and can maintain the later load/shot history.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "cleric",
+        "tag": "Later visit fit · weak N1 fit",
+        "why": "A later direct attack has a single-player destination that can be described as a Barrier visit, with little writing on quiet claimed nights.",
+        "exposure": "The normal Berserker N1 is nonvisiting and no attack grants protection. Deaths, observed N1 inactivity and Rampage undermine the story.",
+        "strategy": [
+          "Do not claim an ordinary N1 Barrier visit if a movement report already establishes that you stayed home.",
+          "For later nights, preserve the actual selected attack destination instead of naming a convenient survivor after dawn.",
+          "Write only the alleged Barrier choice unless you can support additional feedback; your kill confirmation is not a saved-target message.",
+          "As the attack upgrades, expect multi-victim or distinctive deaths to defeat the simple one-house protection account."
+        ],
+        "bestWhen": "You are evaluating a later attack-night account and understand that the cover is weaker across the whole timeline.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "coroner",
+        "tag": "Inactive opener · crime-report upkeep",
+        "why": "Coroner normally has no usable N1 autopsy record, matching your inactive opening without an invented early visit.",
+        "exposure": "You receive neither autopsy evidence nor killer comparisons, and your later direct attack need not match the claimed Examine destination.",
+        "strategy": [
+          "Use N1: No usable autopsy rather than claiming to identify a killer before a legal body exists.",
+          "Record a real eligible daytime Autopsy before the cover’s first related night Examine; a role name alone cannot supply a killer record.",
+          "From N2, compare the claimed Examine destination with your real attack movement before committing the entry.",
+          "Do not turn your knowledge of a Berserker victim into a Coroner match: you know your own attack, not the borrowed investigation’s result."
+        ],
+        "bestWhen": "You can track genuine corpse timing and want a quieter N1 before taking on TI obligations.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "trapper",
+        "tag": "Build-night fit · persistent trap burden",
+        "why": "A claimed Build on N1 fits your lack of a direct visit. The later placement sequence supplies a TP story with fewer routine result lines.",
+        "exposure": "You cannot place or trigger a real trap. Later victims, visiting roles and an impossible rebuild schedule can expose the invented device.",
+        "strategy": [
+          "Open with N1: Build, not a placed trap; that preserves the one clear timing overlap.",
+          "A later Place Trap target should be compatible with any observed attack visit, but your Berserker attack creates no actual trap.",
+          "Keep only one active trap in the story and do not invent visitor-role feedback from a quiet death report.",
+          "Once later attack nights or Rampage conflict with rebuilding or leaving a trap active, the initial N1 match no longer carries the cover."
+        ],
+        "bestWhen": "A TP setup cover fits your initial inactivity and you understand the build-before-placement sequence.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "deputy",
+        "tag": "Minimal writing · immediate test risk",
+        "why": "Deputy needs no night visit or investigation, so your N1 can be described without inventing a nightly target.",
+        "exposure": "You cannot produce the daytime shot. Later observed attack visits also conflict with a role that has no night action.",
+        "strategy": [
+          "Write No night ability for N1 rather than manufacturing a check or protection target.",
+          "Explain a held shot as a decision based on insufficient evidence; do not claim a miss is public proof of Deputy.",
+          "A real shot is a visible daytime event. Berserker’s N2 kill cannot substitute for it.",
+          "Reassess immediately if someone observes you visiting or requests a justified demonstration; minimal typing does not make this a durable cover."
+        ],
+        "bestWhen": "You need a short early account and accept that a reasonable shot request can make it collapse.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
+        ]
+      }
+    ],
+    "stateCaveat": "After becoming War, a two-house Unstoppable Rampage no longer resembles a normal Vigilante shot or single-person protection visit."
+  },
+  "plaguebearer": {
+    "summary": "Cleric is the simplest direct-Infect cover. Lookout stays the second starter because actual spread can supply limited contact clues, but it is substantially harder and not a complete report. Psychic, Tracker, Bodyguard and Sheriff are lower conditional options. Seeded neighbors never count as observed visits.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Low upkeep · no real Barrier",
+        "why": "Direct Infect gives a real one-player visit that can support the route of a claimed Barrier without requiring invented daily information.",
+        "exposure": "Infection supplies no defense. A real attack, observed spread or Pestilence transformation can expose the missing protection.",
+        "strategy": [
+          "Use the actual direct Infect target as the claimed Barrier destination; passive spread is not another visit you personally made.",
+          "Keep any no-attack entry modest. A target surviving is not a real saved message and infection does not protect them.",
+          "Choose productive uninfected targets for your objective, then keep a plausible protection reason for that same route.",
+          "Separate every infection marker from your public notes; neither infected neighbors nor new carriers are confirmed Town."
+        ],
+        "bestWhen": "You want a stable one-target cover while focusing privately on the infection map.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "lookout",
+        "tag": "Partial contact clues · high upkeep",
+        "why": "Source-checked infection spread can reveal some contact relationships, which may help you reason about visitors rather than inventing every name blindly.",
+        "exposure": "Spread feedback is not a complete Lookout result. Seeded infections, outgoing spread, invisible visits and unrelated contacts can make the claimed house list wrong.",
+        "strategy": [
+          "Choose the watched house consistently with your actual direct Infect destination if observers may track your own visit.",
+          "For each name, ask whether your evidence is truly an incoming visit to that house; a carrier visiting another house is a different direction.",
+          "Never label your initial adjacent infections as N1 visitors. They began infected without needing a visit.",
+          "A real Lookout owes the game-supplied visible visitor list, not whichever infection contacts are convenient. Disclose the limitation to yourself before selecting this difficult cover."
+        ],
+        "bestWhen": "You have concrete contact evidence for a particular house and understand the difference between incoming visitors and outgoing movement.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "Broad leads · invented group reports",
+        "why": "The direct Infect target can be the selected member of a vision, keeping one genuine movement point while a group account drives discussion.",
+        "exposure": "Plague gives no Good/Evil vision and no guaranteed allegiance information about any group member.",
+        "strategy": [
+          "Include your direct Infect target as the chosen member of the claimed vision, not a passive spread recipient selected after dawn.",
+          "Maintain N1 Good/two names and N2 Evil/three names, with at least one matching the category rather than exactly one.",
+          "Post the cover list near day start and keep previous groups unchanged as roles are revealed.",
+          "Do not use spread to call someone confirmed evil or Town. Infection records contact and progress, not faction."
+        ],
+        "bestWhen": "You can manage early daily posts and strict group counts without treating infection as faction knowledge.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "tracker",
+        "tag": "Partial outgoing clues · movement risk",
+        "why": "Some transmission feedback can support a narrow inference about where an infected player traveled, giving more grounding than a completely arbitrary destination guess.",
+        "exposure": "It does not provide the full Tracker result for every chosen player. Your direct Infect route must also fit the person you claim to follow.",
+        "strategy": [
+          "Claim to follow the same person you directly Infect if your own visit is visible; following an unrelated spread contact creates another mismatch.",
+          "Distinguish X infected Y through an outgoing visit from Y visiting X; the claimed Tracker result needs the outgoing direction.",
+          "A seeded infection or lack of a new infection does not establish no visit. The target could visit an already infected person or act astrally.",
+          "Write only a legally structured destination history and recognize that a genuine Tracker would receive fuller information than your partial map."
+        ],
+        "bestWhen": "One particular outgoing contact is well supported and you can resist filling missing movement with invented certainty.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Simple guard line · no interception",
+        "why": "A direct Infect can share Guard’s ordinary visit route and avoids the daily fabricated names required by an information cover.",
+        "exposure": "You never intercept a harmful visitor. Real attack and survival evidence can disprove the claimed Guard effect.",
+        "strategy": [
+          "Use Guard on the actual Infect destination and keep passive spread contacts out of the target list.",
+          "Do not claim an interception because a player stayed alive; you received infection progress, not Bodyguard feedback.",
+          "If the resident dies, inspect the cause and known visits rather than treating all deaths as either automatic proof or automatically harmless.",
+          "After Pestilence appears, a new lethal direct effect is not retroactive evidence of guarding anyone."
+        ],
+        "bestWhen": "A simple visiting TP story is preferable to managing TI reports, with no known interception event to explain.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Simple vocabulary · no real suspicion check",
+        "why": "The direct Infect visit can double as the alleged Search route, producing a compact TI account rather than a protection story.",
+        "exposure": "Infections reveal no Innocent/Suspicious result. Confusing contact with allegiance creates unsupported accusations.",
+        "strategy": [
+          "Check the same person you directly Infect in the public account; passive carriers are not additional Search targets.",
+          "Use Innocent or Suspicious only, and remember Innocent is not a Town clear.",
+          "Do not derive Suspicious from a new infection, a busy spread branch or an infected neighbor. Those are not suspicion checks.",
+          "Keep a consistent early-posted history as other investigators and the eventual transformation put the account under pressure."
+        ],
+        "bestWhen": "You want a familiar one-person TI format and accept prompt posting and independent contradictions.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      }
+    ],
+    "stateCaveat": "As Pestilence, Spread Pestilence has a different lethal effect. Do not continue describing the actual objective as finding the last uninfected player."
+  },
+  "soul-collector": {
+    "summary": "Oracle matches astral Reap’s lack of an ordinary visit most cleanly; Sheriff can pressure a genuinely framed appearance but invents a check and a visible visit. Veteran, Coroner and setup-legal Pilgrim are progressively weaker alternatives for the nonvisiting history. Reap never supplies Town investigation or protection.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "tag": "Astral footprint · no real protection",
+        "why": "Reap is astral, so the lack of an ordinary numbered-player visit is compatible with Oracle’s role-targeted Aegis history.",
+        "exposure": "You grant no Aegis. Reap targets are player numbers, while Oracle chooses Town roles; confusing those methods exposes the claim.",
+        "strategy": [
+          "Write Aegis Sheriff or another legal Town role, not Aegis 4. The private Reap target and public role choice are different kinds of selection.",
+          "Rotate the claimed role on consecutive nights and keep the Oracle self-role choice to its one permitted use.",
+          "Do not call a marked player saved or identified. Reap adds a Soul opportunity and changes apparent investigation identity; it is not a Barrier.",
+          "At the Death announcement, answer scrutiny using the existing role-choice timeline instead of inventing a final protective effect."
+        ],
+        "bestWhen": "You want a quieter cover that does not promise a visible visit every night.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Framing interaction · visit mismatch",
+        "why": "Reap can make a marked player appear Suspicious, so some other Sheriff evidence may align with a pressure story rather than contradicting it immediately.",
+        "exposure": "You receive no Sheriff check and do not make its normal visible visit. Repeated Suspicious reports on your marked players can reveal the framing plan.",
+        "strategy": [
+          "Use only legal Innocent/Suspicious vocabulary and post a stable cover check promptly; a Reap selection is not itself a result.",
+          "Expect a Tracker or Lookout to challenge the missing normal visit to your alleged Search target.",
+          "A marked player can genuinely appear Suspicious without being evil. Do not describe the framing effect as an exact discovery.",
+          "Avoid treating every mark as a mandatory accusation: your actual gain comes from later deaths, while overfocusing exposes the connection."
+        ],
+        "bestWhen": "Public investigative evidence already supports questioning a marked player, and you understand that the apparent result is not their true faction.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "veteran",
+        "tag": "Stays home · no real Alert",
+        "why": "Astral Reap leaves no ordinary visit, which fits a stay-at-home Veteran account better than claiming to walk to a house every night.",
+        "exposure": "You cannot produce Alert attacks or a valid visitor-kill event. An unharmed confirmed direct visitor during a claimed Alert can expose the missing effect.",
+        "strategy": [
+          "Separate the private Reap target from the public home-based ability: Veteran does not Alert at another player’s house.",
+          "Keep an accurate claimed three-charge Alert count and do not write Alert automatically on every night.",
+          "Do not invent kills or visitor identities from Souls gained; a marked player can die elsewhere with no connection to your house.",
+          "A quiet stay-home account is possible but weak. If real direct visitors report surviving an Alert, the movement fit cannot repair the missing attack."
+        ],
+        "bestWhen": "You want a nonvisiting TK cover and have no public event requiring a real Alert demonstration.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "coroner",
+        "tag": "Quiet N1 · later visit problem",
+        "why": "The ordinary Coroner has no usable N1 autopsy, giving a plausible inactive opening without pretending Reap is a visible visit.",
+        "exposure": "Later Coroner Examine normally requires movement and actual corpse records, neither of which Reap supplies.",
+        "strategy": [
+          "Start with no usable N1 Autopsy; never name a killer comparison before an eligible body exists.",
+          "Record a real eligible daytime corpse before alleging the corresponding night Examine.",
+          "Do not turn the death of a marked player into a killer match. Soul gain tells you about your objective, not Coroner evidence.",
+          "Expect later movement checks to expose the missing Examine visit; the inactive first night is a limited overlap, not a full-role imitation."
+        ],
+        "bestWhen": "You need a plausible N1 and are willing to manage a much weaker later TI history.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "pilgrim",
+        "tag": "Setup-restricted · no ability proof",
+        "why": "A setup-legal Pilgrim expects no active night visit or result, fitting astral Reap’s observed inactivity without promising an effect you cannot demonstrate.",
+        "exposure": "Pilgrim must be possible in the deck. A bare no-ability claim supplies little trust and can become a convenient execution target.",
+        "strategy": [
+          "Check roledeck eligibility before selecting this claim; common Town buckets do not automatically permit every Outlier.",
+          "Use dated public observations and vote reasons rather than pretending Soul counts are Town information.",
+          "Do not add a night target or special result to make the will look busier; Pilgrim has no such ability.",
+          "When Death appears, your public reasoning needs to stand on its own because the cover cannot independently confirm you."
+        ],
+        "bestWhen": "The roledeck explicitly allows Town Outliers and you prefer an observation-based account to fabricated powers.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)"
+        ]
+      }
+    ],
+    "stateCaveat": "After becoming Death, the only immediate route is surviving the current day. There is no next Reap or ordinary nighttime ability to promise."
+  },
+  "doomsayer": {
+    "summary": "Oracle is the quieter no-visible-visit starter; Deputy is short but carries immediate demonstration risk. Veteran, Coroner and Trapper provide other conditional accounts, with increasing effect or chronology obligations. Gather claims through normal questions rather than pretending your guesses produce Town information.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "tag": "Astral footprint · role-choice history",
+        "why": "Private Doom guesses do not require an ordinary player visit, matching an Oracle-style absence of visible travel.",
+        "exposure": "You provide no Aegis. Incorrect role targeting, consecutive role reuse or unsupported saves can expose the story.",
+        "strategy": [
+          "Claim legal Town role choices such as Aegis Sheriff, not protection on a numbered player.",
+          "Rotate consecutive role choices and respect the once-only self-role option; keep Doom targets in separate private notes.",
+          "Ask claim questions with an understandable public purpose rather than demanding only the three exact roles you want to guess.",
+          "Do not treat a failed Doom set as three investigative checks or pretend you know which individual entry was wrong."
+        ],
+        "bestWhen": "You want to collect exact claims without taking on a visible nightly visit history.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "deputy",
+        "tag": "No night log · shot-demand risk",
+        "why": "Deputy has no normal night action, so an empty opening history does not require a fabricated visit while you prepare guesses.",
+        "exposure": "You cannot demonstrate a daytime shot. A held-shot story can lose credibility quickly when a strong target appears.",
+        "strategy": [
+          "Write No night ability instead of giving your three Doom selections as night checks.",
+          "A real Deputy shot is a visible daytime event; do not invent a hit or describe a claimed miss as confirmation.",
+          "Base daytime questions on a consistent public case so exact-role collection does not stand out as your only contribution.",
+          "If a justified shot request arrives, recognize the cover’s central weakness rather than adding fictitious ammunition or nighttime powers."
+        ],
+        "bestWhen": "You want the simplest early will and accept a short shelf life if Town demands proof.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "veteran",
+        "tag": "Nonvisiting cover · Alert verification risk",
+        "why": "Doom’s astral footprint is compatible with staying home, and a Veteran cover can justify having no selected-player visit list.",
+        "exposure": "You cannot create Alert attacks. Visitor survival and an implausible charge count can expose the account.",
+        "strategy": [
+          "Keep the three-player guess list entirely private; a Veteran log describes home Alerts, not targets you visited.",
+          "Track at most the legal three Alert charges and avoid writing an Alert merely to explain every quiet night.",
+          "Do not infer an Alert kill from someone dying elsewhere, and do not claim to know every visitor’s identity.",
+          "A known direct visitor surviving a claimed Alert matters more than how tidy your will looks; the cover does not give you that attack."
+        ],
+        "bestWhen": "You prefer a home-based cover and no existing event forces you to claim a visitor kill.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "coroner",
+        "tag": "Inactive opening · corpse-timing burden",
+        "why": "Coroner’s ordinary N1 lacks a usable autopsy, providing a plausible preparation night before any real TI results would be expected.",
+        "exposure": "Later autopsies and killer comparisons are entirely invented, and normal Examine movement differs from your guesses.",
+        "strategy": [
+          "Use N1: No usable autopsy and do not invent an opening killer match.",
+          "Choose a real eligible corpse during the correct day before adding a related Examine line to the cover.",
+          "A Doom guess being right or wrong says nothing about a Coroner killer comparison; keep these evidence types separate.",
+          "From later nights, watch for movement contradictions and a growing demand for an informative report; early inactivity does not sustain the cover indefinitely."
+        ],
+        "bestWhen": "You can track public corpses precisely and want a slower-starting TI cover.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "trapper",
+        "tag": "Build-first opening · missing trap effect",
+        "why": "A first-night Build is nonvisiting, fitting N1 preparation without a fabricated player destination.",
+        "exposure": "You cannot place or trigger a trap, and later claimed placement travel conflicts with continued astral guesses.",
+        "strategy": [
+          "Start with Build, never N1: Trap on 4 in an ordinary unmodified opening.",
+          "Keep one active trap and a legal build/placement sequence in the account; not every night can be a fresh placement.",
+          "Do not convert a target’s exact role claim into trap visitor-role feedback; the source of the information matters.",
+          "A verified visit or harmful action at the alleged trapped house may demand an effect you cannot supply. Treat this as a lower-ranked conditional cover."
+        ],
+        "bestWhen": "You understand the build/place chronology and accept that later trap evidence is difficult to reproduce.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "executioner": {
+    "summary": "Oracle supports a quiet survival cover while ordinary questions build a case. Sheriff gives more immediate pressure at the cost of a fabricated check and missing visit. Investigator, Tracker and Coroner are progressively more demanding ways to attach a public case to your assigned target; none changes the requirement for a qualifying execution while you live.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "tag": "Quiet survival · public case required",
+        "why": "Your lack of an ordinary night action is compatible with Oracle’s astral footprint, letting the assigned-target case rest on public reasoning rather than a fake investigation.",
+        "exposure": "No Aegis is supplied and the role itself gives no evidence against your assigned target. Obsessive focus can expose Executioner.",
+        "strategy": [
+          "Use legal role-based Aegis entries, rotating consecutive roles and limiting self-role choice, while privately keeping the assigned target separate.",
+          "Ask the target for a claim and a specific explanation. Cite what they actually said or did rather than pretending Oracle investigated them.",
+          "Seek a trial, Tribunal execution or Prosecution while you are alive; a Deputy shot or night kill does not accomplish your objective.",
+          "If the target dies another way, read the Jester conversion and check Chatterbox instead of continuing the obsolete execution case."
+        ],
+        "bestWhen": "You can question real claim or vote contradictions without needing an invented immediate guilty result.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Direct accusation · invented evidence",
+        "why": "A Sheriff cover can give Town a compact report to question alongside the assigned target’s public account.",
+        "exposure": "You did not perform an actual check or its normal visible visit. The assigned target is normally Town, so an unframed Suspicious claim may conflict with real evidence.",
+        "strategy": [
+          "Post the cover check near day start using Innocent or Suspicious, not an exact role or guaranteed faction.",
+          "An Innocent line plus a later public contradiction is lower commitment than immediately asserting a fake guaranteed evil discovery.",
+          "If you choose an invented Suspicious report, understand that it promises a normal visit and may force a direct dispute with a genuine Town target.",
+          "Keep pressure directed toward qualifying execution, not shooting the target; do not assume every method of killing them wins."
+        ],
+        "bestWhen": "You understand TI posting and can maintain a plausible check without relying entirely on a dramatic unsupported accusation.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "investigator",
+        "tag": "Crime narrative · detailed upkeep",
+        "why": "A crime-report cover can create a narrower question about an attack or cross-faction visit instead of pretending to know an exact role.",
+        "exposure": "You receive no crime check and make no natural investigative visit. Murder and Trespassing are specific mechanics, not synonyms for suspicious behavior.",
+        "strategy": [
+          "Use the cover’s crimes, not old Blood wording or a generic evil verdict: Murder concerns an attack that night and Trespassing a relevant opposing-faction visit.",
+          "Keep the alleged target and posting time stable; an Executioner target assignment is not a checked player visit.",
+          "Do not call an odd vote Murder or label a quiet target No Crime as proof of Town. Separate public reasoning from the invented ability line.",
+          "Compare the target’s exact claimed actions and independent reports, then seek a qualifying execution while preserving your own survival."
+        ],
+        "bestWhen": "A genuine public action conflict offers a concrete crime-related discussion and you understand the current Investigator.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "tracker",
+        "tag": "Specific movement dispute · observer risk",
+        "why": "A Tracker cover can focus Town on a claimed destination contradiction when the assigned target’s own account already leaves a concrete movement question.",
+        "exposure": "You learn no actual destinations and do not naturally visit the target. A second observer can disprove both your travel and the invented report.",
+        "strategy": [
+          "Describe outgoing movement from the followed player; visitors arriving at their house are Lookout information instead.",
+          "Preserve one consistent alleged follow target and result. Executioner’s assigned target is not automatic tracking evidence.",
+          "Do not turn no visible visit into guaranteed evil: many legal roles load, build, hold or act astrally.",
+          "Use an actual conflict between their story and public evidence to request a trial; a fabricated destination on its own can become a one-for-one against you."
+        ],
+        "bestWhen": "There is a supported target-history inconsistency, rather than only your desire to eliminate that player.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "coroner",
+        "tag": "Slow-start TI · actual corpse needed",
+        "why": "Coroner allows an ordinary inactive N1 before a later corpse-based case, fitting your lack of a real opening night action.",
+        "exposure": "You cannot manufacture a valid autopsy or killer match, and your assigned Town target may have no compatible connection to the death.",
+        "strategy": [
+          "Open with no usable autopsy rather than naming your assigned target as a killer on N1.",
+          "A related Examine line requires a real eligible Autopsy first. Record the corpse and day before alleging the night comparison.",
+          "Do not assume a target’s awkward defense establishes a killer match; the cover promises an actual mechanical comparison.",
+          "A slow cover risks the target dying elsewhere before trial. Reassess each day and switch fully to Jester if conversion occurs."
+        ],
+        "bestWhen": "You plan a slower case and can maintain exact public corpse chronology without inventing an N1 result.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "jester": {
+    "summary": "Deputy and Sheriff stay the two starter choices: each can become a plausibly unresolved Town claim without demanding impossible powers immediately. Lower options are ways to shape suspicion, not ways to become perfectly believed. Meet Chatterbox first, avoid looking like an obvious Jester, and prefer a trial over a day shot or night death.",
+    "options": [
+      {
+        "roleId": "deputy",
+        "tag": "Hanging setup · demonstration tension",
+        "why": "Deputy has no night action to fake, while a reluctance or inability to take a justified daytime shot can make your Town claim look unresolved.",
+        "exposure": "If Town identifies the Jester plan, it may ignore you or shoot instead. A stated miss does not prove Deputy or guarantee a hanging.",
+        "strategy": [
+          "Write No night ability and claim TK when appropriate; do not invent a nightly Deputy check.",
+          "At first, hold the supposed shot for an understandable evidence reason. Immediate absurd excuses can advertise Jester rather than a plausible fake.",
+          "When pressure grows, let the missing demonstration create doubt while offering enough coherent discussion to make a trial feel useful.",
+          "Complete the displayed Chatterbox requirement before judgment. If a real shot threatens you, steer discussion toward trial resolution because a shot does not satisfy your goal."
+        ],
+        "bestWhen": "You want minimal night writing and the lobby is willing to trial weak TK claims instead of automatically shooting them.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Hanging setup · limited report dispute",
+        "why": "A simple Innocent/Suspicious account can create a believable report conflict that makes Town evaluate you as a possible false claimant.",
+        "exposure": "An impossible or theatrical result can make the Jester objective obvious. Independent investigators may instead clear the account or encourage a different death route.",
+        "strategy": [
+          "Use a legal-looking format such as N1: Search 4 — Innocent; Jester itself did not obtain that check.",
+          "Innocent is not a Town clear. A limited disagreement or weak explanation can generate doubt without an impossible exact-role accusation.",
+          "Post near day start, then keep the same history. A modest inconsistency is easier to mistake for a real false claim than repeated rewrites.",
+          "Meet Chatterbox while discussing the report and seek a qualifying execution; dying at night over your accusation still loses."
+        ],
+        "bestWhen": "You understand one-person TI results and can post early without turning the cover into random nonsense.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "cleric",
+        "tag": "Quiet beginning · weak proof later",
+        "why": "A simple Barrier list can let you appear useful initially, then become an unresolved protection claimant when Town compares target choices.",
+        "exposure": "Jester normally made no visit and supplied no shield. A completely impossible save can expose the performance as Jester rather than persuade Town to hang.",
+        "strategy": [
+          "Use a modest Barrier target account instead of claiming a dramatic save; there is no real Jester protection feedback.",
+          "Expect movement observers to challenge a visible visit you did not make. A quiet survivor list does not independently verify the role.",
+          "Answer why each supposed protection target was chosen with a short plausible reason; let the account be imperfect without becoming deliberately impossible.",
+          "If Town never questions you, an unresolved choice can create doubt later, but keep meeting Chatterbox and avoid inviting a night kill."
+        ],
+        "bestWhen": "You want the credible-until-pressure route and understand that weak proof may need time to produce a trial.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "More discussion · high format burden",
+        "why": "An early group report creates several natural questions and can produce a disputed claim that Town considers worth trialing.",
+        "exposure": "Jester has no real vision or selected-player visit. Wrong group sizes or an obviously impossible vision can advertise Jester and make Town refuse the execution.",
+        "strategy": [
+          "Use N1 Good with two names, then N2 Evil with three; each means at least one apparent match, not exactly one.",
+          "Include a selected target in the story, remembering that Jester did not actually make the promised visit.",
+          "Post the whole group early and keep old lists. A believable dispute is more useful for your objective than claiming five names or identifying an exact evil through a vision.",
+          "Complete Chatterbox during the discussion and keep the desired outcome a trial; a noisy report can otherwise attract a shot or night attack."
+        ],
+        "bestWhen": "You know current Psychic parity and want a more active route than waiting for a quiet TK claim to be challenged.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "vigilante",
+        "tag": "Inactive N1 · delayed shot pressure",
+        "why": "A claimed N1 Load fits your lack of ordinary opening movement, then later inability to produce a justified shot can create suspicion.",
+        "exposure": "You have no gun. Impossible N1 shots, unlimited ammo or a fabricated public kill can make the Jester plan too conspicuous.",
+        "strategy": [
+          "Open with N1: Load; do not claim an opening shot, because ordinary Vigilante must load first.",
+          "A later held shot should have a plausible evidence reason rather than being an automatic refusal every night.",
+          "Do not treat someone else’s kill as your own demonstrated shot. Death attribution and independent visits can expose the gap.",
+          "Let justified demonstration pressure make you unresolved, while avoiding a demand that a real Town killer solve you by shooting instead of trial."
+        ],
+        "bestWhen": "You prefer a slower TK pressure route and can keep the load/shot sequence mechanically legal.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "veteran",
+        "tag": "Home-history fit · easily overplayed",
+        "why": "Jester’s nonvisiting opening can fit a home-based Veteran history, with suspicion emerging from implausible Alert decisions or missing proof.",
+        "exposure": "You cannot shoot visitors, and obvious fake bait can warn Town not to hang you. Real hostile visitors may kill you instead.",
+        "strategy": [
+          "Write only home-based held/Alert entries; Veteran never Alerts at another player’s numbered house.",
+          "Keep the three-charge count legal and avoid using Alert as an explanation for every unrelated death.",
+          "Do not invite a mass visit merely to look suspicious. It may identify the act as Jester or cause a nonqualifying night death.",
+          "Use ordinary claim questions and a weak defense to create trial pressure, keeping Chatterbox complete before the verdict phase."
+        ],
+        "bestWhen": "You understand the three-Alert limit and can keep the account understated rather than loudly advertising a Jester bait.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "pirate": {
+    "summary": "Cleric is the low-upkeep Scour cover; Psychic gives more influence but requires invented group reports. Sheriff, Tracker and Bodyguard are lower alternatives with different information or protection promises. Scour only identifies your assigned Landlubbers, and a later Plunder changes the consequences of the same visit.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Simple Scour account · no shield",
+        "why": "A real Scour visit can support the destination of a Barrier claim while you privately verify assigned target players.",
+        "exposure": "Scour is not protection. Plunder can kill at that same house, and a false save or exposed Landlubber objective can unravel the account.",
+        "strategy": [
+          "Use the actual Scour destination as the alleged Barrier destination; do not choose the public target after seeing who survived.",
+          "Write only the claimed action on quiet nights. Learning Landlubber is not a saved or attacked message.",
+          "When switching to Plunder, check the new death evidence against the protective story; the same destination does not mean the same effect.",
+          "Keep original-role hints separate from player confirmation. A role claimed by two people does not tell you which one is your assigned target."
+        ],
+        "bestWhen": "You want a short one-target history while verifying targets rather than inventing daily investigations.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "Discussion influence · no real vision",
+        "why": "The Scour destination can be the selected member of a claimed vision, combining a real visit with an active daytime story.",
+        "exposure": "Scour provides no Good/Evil group. Role hints, duplicate role holders and later Plunder deaths can contradict a fabricated vision history.",
+        "strategy": [
+          "Include the actual Scour target as the selected person in the cover vision, not an unrelated player selected at dawn.",
+          "Maintain N1 Good/two and N2 Evil/three, each with at least one apparent category match rather than exactly one.",
+          "Do not present your original-role hint as proof of a name in the group; the hint does not identify the correct holder by itself.",
+          "Keep Plunder nights, published visions and observed travel consistent, recognizing that none of your Pirate feedback generates a genuine vision."
+        ],
+        "bestWhen": "You can maintain early daily posts and group logic while keeping the Landlubber search private.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Simple TI line · wrong information type",
+        "why": "A Scour target can be your alleged Search target, giving a compact public check account attached to a real visit.",
+        "exposure": "Landlubber status is not Innocent or Suspicious. An assigned target can belong to either Town or an opposing faction.",
+        "strategy": [
+          "Use the actual Scour route in the claimed check history so movement evidence does not immediately contradict it.",
+          "Keep only Innocent/Suspicious wording; neither Landlubber found nor not Landlubber maps directly to either result.",
+          "Post the cover check promptly and preserve old entries instead of rewriting them when target-role hints become clearer.",
+          "A suspicious report can encourage a daytime death that helps your objective, but if based only on Landlubber status it is invented evidence, not a real Sheriff finding."
+        ],
+        "bestWhen": "You prefer one-person TI reports over vision groups and understand that Scour cannot supply those reports.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "tracker",
+        "tag": "Destination story · no tracking feedback",
+        "why": "A real Scour visit can fit the person you say you followed, and public claim comparisons may give a reason to question their movement.",
+        "exposure": "You learn no destinations from Scour. Original-role hints are not proof of what that player did tonight.",
+        "strategy": [
+          "Follow the actual Scour target in the public account, distinguishing their outgoing movement from people visiting their house.",
+          "Do not invent a destination merely because their hinted role usually visits; a role can hold, fail, redirect or act differently.",
+          "No visible visit is a limited movement statement, not proof of Town, evil or Landlubber status.",
+          "Before claiming a report about a Plunder target, consider that killing them can remove the person who would explain the action but leaves graveyard and observer evidence behind."
+        ],
+        "bestWhen": "A concrete public destination conflict already exists and you are comfortable with the higher report burden.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Quiet guard history · missing interception",
+        "why": "Scour can use the same one-person route as Guard, requiring no routine investigative result on a quiet night.",
+        "exposure": "You intercept no harmful visitor, and Plunder is itself an attack rather than a guard. Resident deaths or counterattack evidence can expose the difference.",
+        "strategy": [
+          "Claim Guard on your real Scour destination, not on a convenient surviving public role chosen after resolution.",
+          "Do not label Scour success as an interception or a save; it identifies an assigned target only.",
+          "Check the actual cause if your alleged guarded player dies. Bodyguard is not an all-purpose defense shield.",
+          "Switching to Plunder changes the action even if the route stays the same; never imply a Pirate kill demonstrated Bodyguard."
+        ],
+        "bestWhen": "You want another simple visiting TP cover and no real interception event must be explained.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "arsonist": {
+    "summary": "Cleric is the easiest active-Douse cover; Oracle is conditional on genuinely nonvisiting Clean or astral Ignite nights. Bodyguard, Psychic, Sheriff and Trickster are lower alternatives for direct Douse routes. One cover has to survive your changing movement modes, not merely fit N1.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Direct Douse fit · no real protection",
+        "why": "An active Douse is a one-person visit, allowing a short Barrier account without inventing daily investigative results.",
+        "exposure": "Douse grants no protection. Cleaning or Igniting changes your movement, and actual attack or fire evidence may contradict the cover.",
+        "strategy": [
+          "Keep the claimed Barrier destination equal to your actual direct Douse destination when travel may be observed.",
+          "Do not add passive Douse visitors as extra protection targets: those are contacts at your house, not visits you made.",
+          "A Doused target surviving is not save feedback. If they die, compare the real cause instead of claiming any chosen target must survive.",
+          "Before Clean or Ignite, check whether the claimed role would still visit. Repeating a fictional Barrier destination on a nonvisiting night creates a new weakness."
+        ],
+        "bestWhen": "You are actively Dousing and want one manageable destination line per night.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "oracle",
+        "tag": "Nonvisit mode fit · earlier Douse risk",
+        "why": "Clean and astral Ignite do not require an ordinary numbered-player visit, matching an Oracle-style absence of travel better than an active-Douse cover does.",
+        "exposure": "Direct Douse nights do not match Oracle’s astral role targeting, and neither Clean nor Ignite grants an Aegis.",
+        "strategy": [
+          "Use role choices such as Aegis Sheriff rather than Aegis 4; Oracle targets Town role categories, not player numbers.",
+          "Rotate consecutive claimed roles and limit the Oracle self-role option to its permitted use.",
+          "Keep actual Clean and Ignite nights private and do not invent protection feedback from fire deaths or surviving Doused players.",
+          "Audit earlier Douse travel before choosing this cover. A good fit tonight does not erase a visible visit from N1."
+        ],
+        "bestWhen": "Your actual recent actions are nonvisiting, with no observed direct Douse history already contradicting the account.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Simple direct route · no interception",
+        "why": "An active Douse can match the destination of a quiet Guard entry, avoiding the report volume of an information claim.",
+        "exposure": "You never intercept the attacker. Clean/Ignite nights and a resident’s incompatible death can expose the missing guard action.",
+        "strategy": [
+          "Use the real direct Douse target as the claimed Guard target; preserve the selection before the morning outcome.",
+          "Keep quiet nights quiet. Passive Dousing of a visitor to you is not Bodyguard killing an attacker at somebody else’s house.",
+          "Do not invent a vest or sacrifice outcome to repair your survival; compare actual events with what a Bodyguard could do.",
+          "Recheck the account when you Clean or Ignite, because the ordinary guard visit no longer matches those modes."
+        ],
+        "bestWhen": "You want a second simple visiting TP story and understand interception is different from a general shield.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "More influence · fabricated group results",
+        "why": "A direct Douse target can be the chosen person in a claimed vision, giving the cover one real movement anchor.",
+        "exposure": "You receive no group vision, and your nonvisiting Clean/Ignite nights cannot automatically reproduce Psychic’s selected visit.",
+        "strategy": [
+          "Include the real Douse destination as the selected vision member and keep it distinct from passive visitors to your own house.",
+          "Use N1 Good/two names and N2 Evil/three, with at least one apparent match rather than an exact identification.",
+          "Do not use the Doused set as a fake evil list; gasoline says nothing about faction.",
+          "Plan how the claimed visit history handles a later Clean or Ignite. A fabricated successful vision can add a movement contradiction on those nights."
+        ],
+        "bestWhen": "You understand parity and can post early while your current plan still makes direct visits.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Compact TI cover · no check supplied",
+        "why": "Direct Douse can share an Search destination, giving a simpler report vocabulary than a Psychic group claim.",
+        "exposure": "Dousing gives no suspicion check, and later no-visit modes conflict with an ordinary visiting Sheriff routine.",
+        "strategy": [
+          "Name the actual direct Douse target in each alleged Search entry where that movement overlap exists.",
+          "Use Innocent/Suspicious only. Neither being Doused nor passively visiting you determines the correct result.",
+          "Do not present Innocent as a Town clear or your private defense as investigative confirmation.",
+          "When you Clean or Ignite, do not keep copying a successful visiting check as though nothing changed; the cover must explain the whole history."
+        ],
+        "bestWhen": "You prefer simple early TI posts and are prepared to keep the movement and result timeline stable.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "trickster",
+        "tag": "Mirror setup story · unsupported Unleash",
+        "why": "A direct Douse route can resemble placing Magic Mirror on a player, creating a quiet setup account without routine TI reports.",
+        "exposure": "Douse absorbs no attack. A claimed Unleash needs a prior real absorption and cannot be manufactured merely from your Ignite deaths.",
+        "strategy": [
+          "Use Magic Mirror on the actual Douse destination to preserve the observed route.",
+          "Do not claim an Absorb because a person lived through the night; you know their gasoline status, not Trickster feedback.",
+          "An Unleash requires an absorbed attack and replaces mirror placement. A mass Ignite is not that one borrowed attack.",
+          "Expect Clean and Ignite to change the movement account; an initial mirror destination is only a partial fit."
+        ],
+        "bestWhen": "Your visible activity is still direct setup visits and you understand the mirror/absorption sequence.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "serial-killer": {
+    "summary": "Cleric is the lower-upkeep direct-visit fallback. Vigilante has an attractive later kill story but conflicts with N1 attacks, loading, ammo and death attribution. Bodyguard, Psychic and Investigator are lower options with specific missing effects or information. Cautious changes retaliation, not your selected attack.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Simple visit story · no Barrier",
+        "why": "A normal attack has one destination, which can match a claimed Barrier route without a daily invented information list.",
+        "exposure": "You supply no protection. The resident’s death, counterkill feedback and later Apex Rampage can expose the actual harmful effect.",
+        "strategy": [
+          "Keep the alleged Barrier destination compatible with the actual attack route rather than selecting a convenient survivor afterward.",
+          "Do not label a failed attack or surviving defended target a successful save. The feedback describes your attack, not Cleric protection.",
+          "Choose Cautious deliberately: sparing roleblockers reduces one distinctive exposure route but does not remove your ordinary attack visit.",
+          "At Apex, multiple deaths or Rampage visitors can exceed what a single protection story explains. Reassess instead of copying another quiet Barrier line."
+        ],
+        "bestWhen": "You need a compact direct-visit account and accept that the ability match is weak.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "vigilante",
+        "tag": "Later shooting story · timing mismatch",
+        "why": "A later direct attack can be described as a shot more naturally than a protection event, particularly when a target was already publicly questioned.",
+        "exposure": "Serial Killer can attack N1 while a real Vigilante must Load first. Death labels, ammo, Town-hit penalties and Rampage distinguish the roles.",
+        "strategy": [
+          "Open the cover with Load, never a normal N1 shot; a real N1 attack is therefore an immediate chronological weakness.",
+          "Track legal loading and shot opportunities rather than claiming unlimited consecutive fire.",
+          "Do not describe SK-labelled deaths or counterkills as demonstrated Vigilante shots; the public evidence matters more than the wording.",
+          "A Town-hit story needs the real gun-loss consequence, while an Apex Rampage cannot be explained as a routine one-target bullet."
+        ],
+        "bestWhen": "You understand the full load/shot timeline and no established N1 movement or kill already defeats it.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Short target log · wrong harmful effect",
+        "why": "A normal direct attack can occupy the same route as an alleged Guard visit and avoids invented group information.",
+        "exposure": "You intercept nobody and are the source of harm. Resident deaths, protection evidence and retaliation can expose that difference.",
+        "strategy": [
+          "Use the actual attack destination as the alleged guarded house if observers can trace where you went.",
+          "Do not claim an interception merely because another visitor died; SK retaliation and Apex Rampage have different causes.",
+          "A Bodyguard is not a general shield, so keep any resident-death explanation tied to the actual cause and direct harmful-visitor evidence.",
+          "Your natural defense does not demonstrate a vest or a protected counterattack. Avoid inventing extra feedback to explain survival."
+        ],
+        "bestWhen": "A straightforward visiting TP story fits your movement better than a no-visit cover.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "Public influence · invented visions",
+        "why": "One direct attack destination can be the selected member of a vision, supplying a route anchor for an active daytime cover.",
+        "exposure": "You get no real vision and may be including your own killed target. Later group logic, other investigators and kill evidence can expose the account.",
+        "strategy": [
+          "Use the actual visited player as the selected member where the claimed vision is successful; do not rewrite the selection after the death reveal.",
+          "Keep N1 Good/two and N2 Evil/three names with at least one apparent category match, not an exact culprit.",
+          "Neither surviving your Basic attack nor dying to your attack tells you whether someone should fit a Good/Evil vision.",
+          "Post old groups consistently and keep counterkill or Bloodlust knowledge private; none of it is Psychic feedback."
+        ],
+        "bestWhen": "You can maintain legal early visions and prefer daytime influence to a quiet unverified TP list.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "investigator",
+        "tag": "Crime-based discussion · no real investigation",
+        "why": "The one-player direct route can fit an alleged Investigate visit, while public attack discussions create a natural subject for a crime report.",
+        "exposure": "You receive no target crime result. Your own harmful action may produce Murder evidence against you rather than validate the claimed investigation.",
+        "strategy": [
+          "Use the actual attack destination as the alleged investigated player when movement must align.",
+          "Do not equate your kill succeeding with that target having Murder: Murder concerns an attack the checked player made, not merely a death at their house.",
+          "Use current crime wording rather than an exact role reveal or outdated Blood claim; No Crime is not a Town clear.",
+          "Compare your own action with independent Investigator or Coroner evidence before leaning on the cover. The target route alone does not hide your attack."
+        ],
+        "bestWhen": "You know the current Murder/Trespassing mechanics and accept a more demanding active report history.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "shroud": {
+    "summary": "Cleric is the straightforward direct-Attack starter; Oracle is conditional on genuinely astral Shroud behavior. Tracker can exploit a known carrier route but receives no complete report. Psychic, Vigilante and Bodyguard are lower choices. Shroud’s source-flagged visibility inconsistency prevents a blanket claim of safe invisible movement.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Direct-Attack fit · mode-dependent",
+        "why": "A direct Attack makes the one-player visit a Barrier account would require, offering a simple target history.",
+        "exposure": "You give no shield. Shroud mode, fallback travel and actual victim deaths can conflict with the protective story.",
+        "strategy": [
+          "Use the direct Attack destination as the alleged Barrier target rather than naming a different survivor after resolution.",
+          "Keep a quiet entry separate from save feedback; a failed Basic attack does not demonstrate a Barrier.",
+          "When switching to Shroud, distinguish the carrier you select from the people the carrier visits. Your old direct-visit story may no longer fit.",
+          "Treat a resident’s death as evidence to examine, not something a polished will can erase. You never supplied Cleric defense."
+        ],
+        "bestWhen": "You are using direct Attack and want the lowest report upkeep among plausible visiting covers.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "oracle",
+        "tag": "Astral-mode fit · fallback uncertainty",
+        "why": "An actually astral Shroud action can fit a cover without an ordinary numbered-player visit, unlike your direct Attack mode.",
+        "exposure": "No Aegis exists, and the source warns some fallback Shroud actions register direct movement. Earlier direct attacks remain part of the history.",
+        "strategy": [
+          "Claim role-based Aegis choices rather than a numbered carrier or victim as the protected target.",
+          "Rotate consecutive role choices and obey the one-time Oracle self-role limit.",
+          "Do not assert you are guaranteed invisible: a nonvisiting or astral carrier can cause fallback attack behavior, with source-flagged visibility uncertainty.",
+          "Check the full prior history before adopting Oracle. A later astral night does not repair an earlier observed direct Attack."
+        ],
+        "bestWhen": "You are using Shroud on a credible direct visitor and have no established movement contradiction.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "tracker",
+        "tag": "Carrier clue · incomplete report",
+        "why": "A carrier’s independently known destination can provide a grounded movement lead for a limited Tracker-style account.",
+        "exposure": "Shroud does not give a full Tracker report, and your own movement to a claimed follow target may be missing or inconsistent.",
+        "strategy": [
+          "Keep three things separate: the player you Shrouded, where that player actually visited, and your own visible movement.",
+          "A Shroud death at 7 is evidence of an attack there, not automatically proof that every claimed carrier visited 7.",
+          "A real Tracker reports the followed player’s actual outgoing destinations; do not fill unknown extra visits with convenient names.",
+          "If observers say you did not make the claimed follow visit, carrier information cannot solve that movement mismatch."
+        ],
+        "bestWhen": "A particular carrier route is well supported publicly and you understand the limits of your information.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "Direct-visit option · high upkeep",
+        "why": "On direct Attack nights, the destination can be the selected member of a vision, giving an active cover one real movement anchor.",
+        "exposure": "You obtain no vision, while Shroud-mode and fallback nights can change whether the selected visible visit fits.",
+        "strategy": [
+          "Include the actual direct Attack destination as the selected member instead of repicking it after death information appears.",
+          "Use N1 Good/two names and N2 Evil/three with at least one apparent category match, not a guaranteed culprit.",
+          "Do not use the carrier’s status or a Shroud victim as automatic Good/Evil knowledge; those are different information types.",
+          "When changing modes, recheck the whole visit history. A successful cover vision promises a visit that your actual mode may not make."
+        ],
+        "bestWhen": "You can maintain early daily group reports and your current route is a straightforward direct visit.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "vigilante",
+        "tag": "Later attack story · load mismatch",
+        "why": "A later direct Attack can be described as a shot, offering a killing-role story rather than claiming protection you never provide.",
+        "exposure": "N1 attacks, Shroud-labelled deaths, carrier attacks and ammunition rules do not reproduce Vigilante mechanics.",
+        "strategy": [
+          "The ordinary opening is N1: Load, so a visible N1 attack already weakens this cover.",
+          "Keep a legal load/shot sequence and the real Town-hit gun-loss consequence in mind; endless firing is not valid.",
+          "An attack traveling through a carrier is not an ordinary Vigilante visit to the victim, even if both produce a death.",
+          "Do not claim Shroud-attributed kills publicly confirm the role. This is a lower-ranked conditional account with substantial evidence pressure."
+        ],
+        "bestWhen": "No established N1 action defeats a loading story, and you understand how much later death evidence can contradict it.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Direct route · missing interception",
+        "why": "Your direct Attack route can share a quiet Guard destination without requiring a complex TI result.",
+        "exposure": "You do not cancel a harmful visit or counterattack its source. Shroud-carrier harm and actual deaths can contradict the claimed Guard.",
+        "strategy": [
+          "Use the direct Attack target as the alleged Guard destination while that route actually exists.",
+          "Do not turn a carrier dying elsewhere into Bodyguard interception feedback; the causes and visited houses differ.",
+          "A guarded resident’s death needs cause-specific analysis because Bodyguard is not a universal shield.",
+          "Once you use Shroud mode, reassess your personal movement and the claimed effect rather than assuming any one-target selection fits Guard."
+        ],
+        "bestWhen": "You prefer another simple visiting TP option and have no known interception event to explain.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "werewolf": {
+    "summary": "Tracker ranks first because Scent supplies genuine outgoing movement information. Cleric is lower upkeep but grants no protection; Psychic, Crusader and Veteran are more conditional. The strongest cover on an off-moon night may fail when a full-moon attack sends you to a different house.",
+    "options": [
+      {
+        "roleId": "tracker",
+        "tag": "Real movement clues · later visit conflict",
+        "why": "Track Scent gives genuine Tracker-style destination information, letting you support a report with more than a guessed visit.",
+        "exposure": "Persistent scent reports continue without revisiting the scented person. Full-moon attack movement elsewhere can contradict the ordinary Tracker visit you claim.",
+        "strategy": [
+          "For the initial scent night, report the real followed player and game-supplied destinations, distinguishing no visible visit from a failed action.",
+          "Later scent feedback is information you still receive, not proof that you visited that same player again.",
+          "Before a full-moon attack, compare your real attack house with the alleged follow destination. Correct result information does not repair a different observed visit.",
+          "Do not add guessed destinations for unscented players, and post the claimed TI report promptly rather than waiting for every role claim."
+        ],
+        "bestWhen": "You scent a useful living visitor off-moon and can manage the movement history as the moon changes.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "cleric",
+        "tag": "Simple visiting cover · no defense",
+        "why": "A direct scent or chosen attack house can share a one-player Barrier destination, requiring fewer result details than Tracker.",
+        "exposure": "Neither Scent nor Rampage grants protection. Victim deaths, visitor kills and full-moon home nights can expose the mismatch.",
+        "strategy": [
+          "Use the actual chosen visited player for the claimed Barrier route, whether the real action was off-moon Scent or an outward full-moon attack.",
+          "Do not use persistent scent reports as evidence that you protected the player. Movement knowledge and defense are different promises.",
+          "A home Rampage night has no ordinary outward Barrier visit, so it cannot simply copy the previous target line.",
+          "When Rampage creates several victims, the attack and death pattern may overwhelm a quiet protection explanation."
+        ],
+        "bestWhen": "You want a compact destination history and accept losing the credibility benefit of your genuine scent information.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "Information cover · fabricated vision",
+        "why": "A chosen Scent or outward attack destination can be the selected member of a vision, while your real movement clues may inform ordinary public reasoning.",
+        "exposure": "Scent never supplies a Good/Evil group. Home attacks and other movement changes can also contradict the selected vision visit.",
+        "strategy": [
+          "Include the actual selected visited player in the claimed vision; do not choose a passive previously scented person as tonight’s visit without checking movement.",
+          "Keep N1 Good/two and N2 Evil/three names, meaning at least one apparent match rather than identifying an exact evil.",
+          "Treat scent destinations as separate public deductions, not proof that someone belongs in a Good or Evil category.",
+          "On a full moon at home, reassess the claimed successful visit before posting. A legal-looking group does not repair a missing outbound action."
+        ],
+        "bestWhen": "You know Psychic group logic and prefer broad discussion influence over explaining exact scent information.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "crusader",
+        "tag": "Visitor danger overlap · protection missing",
+        "why": "Both roles can create danger for visitors at a chosen house, making a visitor-death event somewhat easier to discuss than with a harmless protection cover.",
+        "exposure": "Crusader protects the resident and attacks one random direct visitor; Werewolf Rampage attacks the resident and multiple visitors without granting that protection.",
+        "strategy": [
+          "Use the actual outward attack house as the alleged Fortify location only when the visible route fits.",
+          "A Crusader promises Powerful Defense for the resident. A Werewolf attack supplies no such defense and may kill that resident.",
+          "Do not claim Crusader attacks every visitor or learns all struck identities; a large Rampage death pattern is a major contradiction.",
+          "Off-moon Scent and home full-moon Rampage need their own timeline checks. A single visitor kill does not establish the entire cover."
+        ],
+        "bestWhen": "A specific visitor-danger event needs explanation and you understand why the two effects are still substantially different.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "veteran",
+        "tag": "Home-full-moon fit · earlier scent conflict",
+        "why": "A deliberate full-moon Rampage at home resembles a home-based dangerous visitor response more than an outward attack does.",
+        "exposure": "Veteran can Alert on legal nights with a three-charge limit, while Werewolf is moon-bound and may already have visible Scent visits.",
+        "strategy": [
+          "Keep the claimed effect at your own house; Veteran cannot Alert at a selected opponent’s house.",
+          "Audit all previous off-moon Scent visits before choosing a stay-home role cover.",
+          "Track a legal three-Alert history and do not claim every later home Rampage is another unlimited Alert.",
+          "Do not invent visitor identities beyond supported evidence or equate the roles’ attack and defense details. This is a narrow situational overlap."
+        ],
+        "bestWhen": "You are genuinely staying home on a full moon and no earlier observed scent or attack visit already contradicts Veteran.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "cursed-soul": {
+    "summary": "Oracle fits the initial astral Swap. Amnesiac is a conditional transition story only with the correct eligible Town-death timing. Coroner, Veteran and setup-legal Pilgrim are weaker opening accounts. After a real swap, the acquired role and unchanged faction matter more than keeping a preselected generic cover.",
+    "options": [
+      {
+        "roleId": "oracle",
+        "tag": "Initial astral fit · acquired-role change",
+        "why": "Soul Swap is astral, so the initial absence of an ordinary visible visit is compatible with Oracle’s role-targeted protection footprint.",
+        "exposure": "No Aegis is supplied, and your acquired role changes future movement and abilities. A role swap does not make you Town faction.",
+        "strategy": [
+          "Use role-based entries such as Aegis Sheriff, not the numbered person you attempted to Swap with.",
+          "Respect consecutive-role restrictions and the once-only Oracle self-role option in the account.",
+          "At dawn read the role you actually acquired, not the role you wanted. Wandering Souls selection does not guarantee the intended player.",
+          "If the acquired role is Town, its real ability may support a more specific account, but keep the unchanged faction objective separate from that role demonstration."
+        ],
+        "bestWhen": "You need an initial nonvisiting cover while waiting to learn the actual swap result.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "amnesiac",
+        "tag": "Transition explanation · strict chronology",
+        "why": "A genuine change of role can motivate a transition account, avoiding the need to pretend you always held the acquired role.",
+        "exposure": "Amnesiac must gain an eligible dead Town role at the correct time; acquiring a living player’s role, an evil role or the wrong priority does not fit.",
+        "strategy": [
+          "Check a real eligible Town death and the Remember timing before naming Amnesiac as the previous role.",
+          "A live-player Swap is not a corpse Remember. Do not claim the transition merely because any role change occurred.",
+          "After the alleged transition, follow the acquired role’s actual targets, charges and result obligations.",
+          "Never describe role acquisition as joining Town. Soul Swap leaves the Wandering Souls faction objective in place even when the ability is Town-like."
+        ],
+        "bestWhen": "The actual acquired Town role and public eligible-death chronology happen to support an Amnesiac transition.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "coroner",
+        "tag": "Quiet N1 fit · future ability mismatch",
+        "why": "Ordinary Coroner has no useful opening autopsy, giving your initial astral Swap a plausible nonvisiting-night account.",
+        "exposure": "A later role acquisition may have no Coroner ability at all. Corpse records and normal Examine visits cannot be generated by the original Swap.",
+        "strategy": [
+          "Use N1: No usable autopsy instead of claiming a killer comparison from the initial Swap.",
+          "Do not convert knowledge of somebody’s former role into autopsy evidence; current role, former role and killer record are different facts.",
+          "Read the acquired role before adding later Examine targets, because it may move or act in a way that immediately contradicts Coroner.",
+          "A real eligible Autopsy must precede any claimed comparison. This opening match is weaker than simply following an acquired Town ability when available."
+        ],
+        "bestWhen": "You need a brief opening account and can maintain exact legal corpse timing if later circumstances allow it.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "veteran",
+        "tag": "No outward visit initially · effect risk",
+        "why": "Initial astral Swap can look like staying home, avoiding an invented numbered-player visit in the first account.",
+        "exposure": "Swap does not shoot visitors and the acquired role may require visible travel. You cannot produce Veteran’s Alert effect unless you actually acquire it.",
+        "strategy": [
+          "Keep the attempted Swap target private; a Veteran cover has no outward night destination.",
+          "Do not call a swap-related death an Alert kill or claim everyone who visited you must be dead.",
+          "Maintain the legal three-Alert count if you use this account, and do not invent direct-visitor feedback.",
+          "After acquisition, reassess the actual role immediately. A visible visiting ability cannot keep passing as a stay-home Veteran merely because N1 was astral."
+        ],
+        "bestWhen": "No known initial direct visitor or later movement already contradicts a quiet home-based story.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "pilgrim",
+        "tag": "Setup-restricted · quiet opening only",
+        "why": "Pilgrim’s lack of an active ability can fit an initial invisible Swap without a fabricated result or protective effect.",
+        "exposure": "The role must be legal in the deck. An acquired role may begin visiting or demonstrating abilities that directly contradict a no-ability account.",
+        "strategy": [
+          "Check Pilgrim’s deck eligibility separately from the fact that Cursed Soul is present; one allowed Outlier does not prove every other Outlier is possible.",
+          "Record public questions and vote reasons rather than exposing role-swap knowledge as though it came from Pilgrim.",
+          "Add no fabricated protective target or night investigation: the claimed role has no active ability.",
+          "At the actual acquisition, compare new actions against the no-ability story and your unchanged Wandering Souls objective before committing further entries."
+        ],
+        "bestWhen": "Town Outliers are explicitly possible and public observation is a more sustainable initial account than inventing a power.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)"
+        ]
+      }
+    ],
+    "stateCaveat": "These ranks describe the initial Cursed Soul role. Once Soul Swap resolves, open the acquired role guide for your new ability; your faction stays Wandering Souls and its objective remains eliminating the remaining Cursed Soul role holders while a faction member survives."
+  },
+  "vampire": {
+    "summary": "Cleric keeps a direct Convert account simple; Psychic adds invented daily vision groups and more discussion influence. Bodyguard, Sheriff and Trickster are lower visiting alternatives. Conversion changes allegiance while preserving the new member’s real role ability, which is stronger evidence than a cover label by itself.",
+    "options": [
+      {
+        "roleId": "cleric",
+        "tag": "Simple direct route · no Barrier",
+        "why": "Convert or Drain visits one player, so the destination can match a concise Barrier account while you build the faction privately.",
+        "exposure": "Neither action supplies defense. Conversion effects, fallback Drain deaths and newly linked faction members can expose the difference.",
+        "strategy": [
+          "Use the actual Convert or Drain target as the alleged Barrier destination rather than a convenient survivor chosen after dawn.",
+          "Do not label a successful conversion a save. The new member retains their role but changes faction; that is not Cleric feedback.",
+          "If Convert falls back to Drain, compare the death evidence with the protective account before making a stronger claim.",
+          "Coordinate with real members without using identical fabricated target histories. A converted Town ability can demonstrate an ability without proving Town allegiance."
+        ],
+        "bestWhen": "You want a low-upkeep target history and no current attack event requires real protection.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "psychic",
+        "tag": "Discussion control · invented visions",
+        "why": "A direct Convert destination can be the selected player in a cover vision, providing one real movement point and a broader daytime narrative.",
+        "exposure": "Convert supplies no vision. Counts, parity, independent reports and the behavior of new faction members can contradict the invented group.",
+        "strategy": [
+          "Include the actual visited player as the selected member of the claimed vision.",
+          "Maintain N1 Good/two names and N2 Evil/three with at least one apparent match, not exactly one or an exact-role reveal.",
+          "Do not publish a chain of invented Good results solely to clear every converted member; their real faction has changed.",
+          "Keep successful Convert and fallback Drain consequences distinct. Neither gives permission to invent a genuine vision or change yesterday’s group."
+        ],
+        "bestWhen": "You can post early and manage group logic without treating every new member as a confirmed Town result.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "bodyguard",
+        "tag": "Short guard account · no interception",
+        "why": "A direct Convert route can be described as a one-person Guard route without routine TI result obligations.",
+        "exposure": "You cannot intercept a harmful visitor. A failed conversion becoming Drain or an attacked resident exposes a different effect.",
+        "strategy": [
+          "Use Guard on the actual Convert or Drain destination to preserve any observed movement.",
+          "A converted player living is not interception evidence, and their retained ability is not a shield you supplied.",
+          "Do not describe Bodyguard as blanket defense; analyze the specific harmful-visitor event if the resident dies.",
+          "Keep the faction’s real conversion and charge history private rather than manufacturing a sacrifice story when a linked member dies."
+        ],
+        "bestWhen": "You prefer another compact visiting TP account and no real guard event must be demonstrated.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "sheriff",
+        "tag": "Compact TI story · allegiance changes matter",
+        "why": "A direct Convert or Drain route can match an Search destination, allowing a familiar one-person result account.",
+        "exposure": "Vampire learns no suspicion check. A conversion changes apparent allegiance on later investigations, so old and new reports need their actual timing.",
+        "strategy": [
+          "Use the actual visited player in the alleged check history, not another faction member selected after dawn.",
+          "Use Innocent or Suspicious rather than an exact Town role. Learning that Convert succeeded is not a Sheriff result.",
+          "Keep report dates fixed when a player’s allegiance changes; do not rewrite an old account to match today’s faction.",
+          "Avoid clearing all your new members with invented results. Real role demonstrations can remain valid after conversion while Town allegiance does not."
+        ],
+        "bestWhen": "You can maintain prompt TI posts and understand that a formerly Town role may now belong to another faction.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      },
+      {
+        "roleId": "trickster",
+        "tag": "Mirror-placement story · missing absorption",
+        "why": "A direct Convert target can match the destination of Magic Mirror placement, giving a quiet setup narrative instead of an invented TI check.",
+        "exposure": "Vampire creates no mirror or absorbed attack. Drain cannot be called Unleash without the required earlier absorption and compatible effect.",
+        "strategy": [
+          "Use Magic Mirror on the actual Convert destination as the claimed setup visit.",
+          "Do not label a successful conversion or a surviving member an Absorb event; neither supplies that feedback.",
+          "An Unleash needs an absorbed attack from an earlier night and replaces ordinary mirror placement. A Basic Drain is not proof of that sequence.",
+          "Check retained member abilities and real attack outcomes before coordinating claims; mutually confirming a missing effect can expose multiple faction members."
+        ],
+        "bestWhen": "A TK setup story fits the deck and you understand the difference between placing a mirror and receiving an attack.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
+        ]
+      }
+    ]
+  }
+}

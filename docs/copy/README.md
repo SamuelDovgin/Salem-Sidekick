@@ -1,12 +1,12 @@
 # Salem Sidekick: complete interface copy
 
-**Current revision:** the implemented site now uses the [opinionated practical playbook](PRACTICAL_PLAYBOOK.md) and [claim examples](CLAIM_EXAMPLES.md). These supersede generic opening advice and the will-builder UI. The original paired copy below remains supporting mechanics/context.
+**Current revision:** the implemented site uses [ranked opening routes and expanded claim strategies](RANKED_STRATEGIES.md), the [practical playbook](PRACTICAL_PLAYBOOK.md), and [claim examples](CLAIM_EXAMPLES.md). Role definitions are dropdowns; the top two claims remain visible, with lower-priority role icons revealing additional comparisons. Public claims are Town-only; the actual-role roster keeps all roles/states. These supersede generic opening advice and the will-builder UI. The original paired copy below remains supporting mechanics/context.
 
 Original status: **content prepared for implementation review.** Revised 2026-10-15 after choosing Compact and requesting more specific opening guidance.
 
 Read the [three complete role examples](THREE_ROLE_REVIEW.md) and [readiness evidence](READINESS.md) first. The [structured copy pack](ROLE_COPY.json) contains the same authored text as the 60 files below. The existing [research index](../research/roles/INDEX.md) supplies supporting dossiers rather than replacing this actual interface copy.
 
-## Accepted presentation contract
+## Original presentation contract (later revisions above take precedence)
 
 - Start with the Compact layout. Quick strategy precedes claims and the smaller will builder.
 - In the top right, use **More detail**. Helper: “Expand explanations in every section.” Expanded state: **Less detail**. It expands the same role summary, N1 plan, dawn interpretation, D2 disclosure, later decisions, claim reasoning, mistakes, subgoals, and will explanation **in place**. No guide drawer, separate guide page, or duplicate encyclopedia view. Per-section “Why?” expands that section and retains the rest of the page.

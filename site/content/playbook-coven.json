@@ -86,10 +86,10 @@
   },
   "jinx": {
     "headline": "Ambush planned enemy traffic; otherwise a hold can beat a random trap.",
-    "firstNight": "Jinx a house likely to draw useful enemy visitors only after coordinating to keep Coven away. Without a useful traffic read, hold rather than trap an arbitrary house.",
-    "reason": "A visitor ambush is valuable when it kills an enemy without friendly fire or surviving witnesses exposing you.",
+    "firstNight": "Jinx a house likely to draw useful non-Coven visitors after coordinating the team’s traffic plan. Without a useful traffic read, hold rather than trap an arbitrary house.",
+    "reason": "A visitor ambush can remove one non-Coven direct visitor, but other surviving direct visitors may learn your identity. Coven allies are normally excluded from the visitor attack.",
     "targetRule": "Prefer a nonally house with a concrete reason for enemy traffic. An unknown house is not automatically good; an obvious crowded call can also contain dangerous visitors.",
-    "pivot": "If the only likely traffic includes allies or witnesses who can expose you, choose another house or hold. Check Grace Period and the book before planning damage.",
+    "pivot": "If the likely traffic gives no useful non-Coven victim or leaves witnesses who can expose you, choose another house or hold. Check Grace Period and the book before planning damage.",
     "laterPriorities": [
       "Choose houses whose expected visitors are valuable enemies, with team traffic kept clear.",
       "After any survivor exposure, prioritize a realistic survival/kill plan rather than repeating a supposedly safe cover.",

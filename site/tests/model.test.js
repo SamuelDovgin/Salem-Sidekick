@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {initialState,restoreState,getDraft,newEntry,nextDayCycle,exportDraft,selectActual} from '../dist/model.js';
+import {initialState,restoreState,getDraft,newEntry,nextDayCycle,exportDraft,selectActual,selectedRoute} from '../dist/model.js';
 import {markdown} from '../dist/markdown.js';
 const data=JSON.parse(readFileSync(new URL('../dist/data/roles.json',import.meta.url)));
 const library=[...data.roles,...data.states];const role=id=>library.find(r=>r.id===id);
@@ -73,4 +73,13 @@ test('saved Coven and Neutral public claims migrate to a Town cover without losi
 });
 test('every actual role and state starts with a Town claim',()=>{
  for(const r of library){const s=initialState();selectActual(s,r,library);assert.ok(role(s.claimId).alignment.startsWith('Town'),r.name);}
+});
+
+test('route selection and checkpoints persist per actual role without changing the public claim',()=>{
+ const s=initialState();selectActual(s,role('jester'),library);const cover=s.claimId,alternate=role('jester').routes[1];s.routeChoices.jester=alternate.id;s.routeGoals.jester={[alternate.id]:[1]};s.goals.jester=[0];
+ const restored=restoreState(JSON.stringify(s),library);assert.equal(selectedRoute(restored,role('jester')).id,alternate.id);assert.equal(restored.claimId,cover);assert.deepEqual(restored.routeGoals.jester[alternate.id],[1]);assert.deepEqual(restored.goals.jester,[0]);
+ selectActual(restored,role('oracle'),library);assert.equal(selectedRoute(restored,role('oracle')).id,'default');selectActual(restored,role('jester'),library);assert.equal(selectedRoute(restored,role('jester')).id,alternate.id);
+});
+test('unknown route selections and invalid route checkpoint indexes are discarded',()=>{
+ const s=initialState(),alt=role('jester').routes[1];s.routeChoices={jester:'not-a-route',unknown:alt.id};s.routeGoals={jester:{[alt.id]:[-1,0,3,'1'],unknown:[0]}};const restored=restoreState(JSON.stringify(s),library);assert.equal(selectedRoute(restored,role('jester')).id,'default');assert.deepEqual(restored.routeGoals.jester[alt.id],[0]);assert.equal(restored.routeGoals.jester.unknown,undefined);assert.equal(restored.routeChoices.unknown,undefined);
 });

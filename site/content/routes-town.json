@@ -1,0 +1,1031 @@
+{
+  "jailor": {
+    "defaultWhen": "Use the questioning route when nobody needs a specific defensive jail and an unresolved claim would give Town a useful D2 lead.",
+    "defaultRisk": "Jailing an ally suppresses their night action, and a dangerous prisoner can retaliate; no execution is available on N1.",
+    "alternatives": [
+      {
+        "id": "protect-prisoner",
+        "label": "Shelter a threatened low-action Townie",
+        "when": "A credible Town player is publicly threatened, has no important N1 action, and ordinary direct attacks are the concern.",
+        "action": "Select that player during D1 and explain privately that this is a defensive jail. Still record their exact claim; you cannot execute on N1.",
+        "targetRule": "Prefer a well-supported, threatened day-role claim over a protector or investigator who needs to act tonight. A loud TPow claim alone is insufficient trust.",
+        "reason": "The prisoner loses their action, but ordinary direct visitors are obstructed. Sheltering a valuable day actor can outweigh obtaining a fresh unknown claim.",
+        "pivot": "Return to questioning unresolved players when the immediate threat passes. Jail has astral and passive bypasses, and consecutive jails are restricted.",
+        "goals": [
+          "Identify a concrete threat",
+          "Check the lost night-action cost",
+          "Log the prisoner’s exact claim"
+        ],
+        "laterPriorities": [
+          "From N2, compare evidence before deciding on an execution.",
+          "Rotate to an unresolved eligible prisoner once shelter is no longer the priority.",
+          "Keep the protective explanation in the log so an uneventful night is not mistaken for proof of guilt."
+        ],
+        "risk": "The prisoner is not invulnerable, and you may protect an evil if the original Town read was weak.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      }
+    ],
+    "defaultLabel": "Question an unresolved prisoner"
+  },
+  "marshal": {
+    "defaultWhen": "Keep the ordinary preparation route when you lack two supported cases or Town can resolve the immediate case through a normal trial.",
+    "defaultRisk": "Holding preserves the charges but can miss a decisive voting window; preparation must continue during the day.",
+    "alternatives": [
+      {
+        "id": "urgent-tribunal",
+        "label": "Prepare an urgent D2 Tribunal",
+        "when": "Vote control is about to disappear or ordinary trial time cannot resolve multiple independently supported evils.",
+        "action": "N1 still has no action. Use the night to draft the candidate order and evidence; on D2, activate only after checking support and the available execution count.",
+        "targetRule": "Name the first case and a separate justified next case. Do not fill the second slot with the quietest player merely because another execution is available.",
+        "reason": "A planned Tribunal can remove threats before they act again. Preparing an earlier activation trades secrecy for time and extra execution capacity.",
+        "pivot": "If D2 evidence supports only one case and normal voting can complete it, return to the default hold. Do not demand a second execution just to use the mode.",
+        "goals": [
+          "Write the candidate order",
+          "Count likely supporting votes",
+          "Check each case independently"
+        ],
+        "laterPriorities": [
+          "State the evidence and order before activating.",
+          "Keep nominations focused while defense and judgment are skipped.",
+          "Review the delayed flips afterward before planning another Tribunal."
+        ],
+        "risk": "Evils can exploit rushed nominations; the first victim’s role and will are unavailable before the next decision.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Prepare cases and preserve Tribunal"
+  },
+  "mayor": {
+    "defaultWhen": "Stay unrevealed while ordinary Town votes can resolve cases and revealing would mainly advertise an attractive kill.",
+    "defaultRisk": "Waiting too long forfeits possible vote growth and can leave you unable to reveal once you are on trial.",
+    "alternatives": [
+      {
+        "id": "early-reveal",
+        "label": "Plan early D2 vote growth",
+        "when": "Town needs a visible coordinator, extra votes can secure a supported case, and likely survival makes future vote growth useful.",
+        "action": "There is no N1 action and no D1 Reveal. Prepare a supported D2 voting plan, then Reveal before a trial begins if the benefit justifies exposure.",
+        "targetRule": "Choose an evidence-based case and count the actual vote shortfall. A desire to look confirmed is not by itself a voting plan.",
+        "reason": "Earlier Reveal starts the increasing vote count sooner. It can be worth the exposure when additional voting days are plausible or leadership is otherwise failing.",
+        "pivot": "If a coordinated ordinary vote already solves the case and you expect to be killed after revealing, preserve the option until its votes change an outcome.",
+        "goals": [
+          "Compare immediate votes with exposure",
+          "Prepare one supported case",
+          "Reveal before anyone reaches trial"
+        ],
+        "laterPriorities": [
+          "Announce the intended vote and its evidence after Reveal.",
+          "Recount your growing vote weight at each new day.",
+          "Reassess exposed-role survival and protection restrictions instead of assuming public identity grants safety."
+        ],
+        "risk": "The public role can attract day kills or role guessers; extra vote weight does not make your reads correct.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Stay hidden until votes matter"
+  },
+  "monarch": {
+    "defaultWhen": "Hold when D1 gives you no credible Town candidate or the candidate is unlikely to live to receive knighthood.",
+    "defaultRisk": "Holding avoids strengthening an enemy but leaves you without the Basic Defense a living Knight would later provide.",
+    "alternatives": [
+      {
+        "id": "credible-early-knight",
+        "label": "Knight a credible Town candidate",
+        "when": "A candidate has concrete Town evidence, should survive tonight, and the additional future vote has useful value.",
+        "action": "Knight that eligible player on N1 if the ability is enabled. Record the intended recipient and check for the public Knight announcement at dawn.",
+        "targetRule": "Prefer evidence and likely survival over confident speech. You need a reliable future voter, not merely a player who agrees with you.",
+        "reason": "Earlier knighthood can put an extra Town vote into play sooner and provide later defense while the Knight lives. This is the conditional exception to blind N1 holding.",
+        "pivot": "If the candidate’s claim becomes doubtful or their death is likely, hold. The first knighting does not give defense early enough to save you that same night.",
+        "goals": [
+          "Identify why the candidate is Town",
+          "Check likely survival",
+          "Confirm the actual knighting"
+        ],
+        "laterPriorities": [
+          "Recount Town and opposing vote weight before the next charge.",
+          "Choose another reliable voter or reinforce one only for an explicit vote-control reason.",
+          "Reassess the Knight’s behavior; a Knight icon is not faction confirmation."
+        ],
+        "risk": "A wrong Knight permanently strengthens an enemy, and you can still die during the initial knighting night.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Hold Knight without a credible candidate"
+  },
+  "prosecutor": {
+    "defaultWhen": "Preserve charges while discussion and ordinary voting can remove the supported suspect.",
+    "defaultRisk": "An unused prosecution may become worthless after Town loses control, but a wrong Town prosecution also costs the remaining charge.",
+    "alternatives": [
+      {
+        "id": "urgent-prosecution",
+        "label": "Prepare a necessary D2 prosecution",
+        "when": "Independent evidence supports an evil who is likely to escape ordinary voting or kill again before Town can act.",
+        "action": "No N1 ability exists. Assemble the evidence and alternative explanations tonight; during a later legal voting phase, Prosecute only if ordinary voting cannot solve the problem safely.",
+        "targetRule": "Use a concrete contradictory action or supported finding, not refusal to full-claim or a nervous response. Check whether the suspected goal is a Jester hanging.",
+        "reason": "The ability bypasses a stalled vote and normal judgment. Its best early use solves a specific failure in the ordinary process rather than merely speeding up a weak read.",
+        "pivot": "If Town gains enough votes for a normal trial, use that process and retain the charge. Prosecution is unavailable during Tribunal.",
+        "goals": [
+          "Write the decisive evidence",
+          "Check Jester and framing explanations",
+          "Explain why ordinary voting fails"
+        ],
+        "laterPriorities": [
+          "Use at most the permitted prosecution that day and review the actual flip.",
+          "Preserve the second charge after a justified evil removal.",
+          "After a Town mistake, stop planning further prosecutions and contribute through truthful voting."
+        ],
+        "risk": "You reveal yourself, bypass the target’s defense, and become the sole revenge candidate if you prosecute a winning Jester.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Preserve prosecution for a supported case"
+  },
+  "coroner": {
+    "defaultWhen": "Prioritize an active enemy killer’s victim after the first useful death; N1 has no normal usable autopsy.",
+    "defaultRisk": "A record of an already departed killer adds little, and a negative Examine does not clear someone of all evil roles.",
+    "alternatives": [
+      {
+        "id": "identify-disputed-town-killer",
+        "label": "Identify a disputed Town attacker",
+        "when": "A real night kill is attributed to a Town killing ability and identifying its actor would resolve an important competing claim; no more urgent enemy-killer record is available.",
+        "action": "N1 still has no meaningful autopsy-based check. On D2, Autopsy the relevant victim and use a later Examine on a plausible surviving claimant.",
+        "targetRule": "Choose the body tied to the disputed night attack. Avoid visiting an alleged Veteran on a likely Alert and do not equate an attacking role with Town allegiance.",
+        "reason": "A killer record can answer who performed an important action, not only hunt Coven. Resolving a genuine identity dispute may give Town better evidence than an irrelevant departed-neutral record.",
+        "pivot": "Return to active enemy killers when their records become available. Treat control, Shroud, role changes, and marked untested interactions as context rather than universal guilt rules.",
+        "goals": [
+          "Record the correct victim",
+          "Name the identity question",
+          "Separate role identity from allegiance"
+        ],
+        "laterPriorities": [
+          "Accumulate later useful autopsies instead of erasing earlier records.",
+          "Examine the best-supported candidate for the remaining identity question.",
+          "Share the exact match scope and keep dangerous Town-role exposure proportionate."
+        ],
+        "risk": "The source marks some counterattack interactions untested, and revealing a real Town killer may help an enemy Witch or role guesser.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Prepare the first useful Autopsy"
+  },
+  "investigator": {
+    "defaultWhen": "Investigate an unresolved claimed visitor when its actual history can be compared with the crime result.",
+    "defaultRisk": "Murder or Trespassing can have Town explanations, while No Crime is not a Town clearance.",
+    "alternatives": [
+      {
+        "id": "test-nonvisit-story",
+        "label": "Test a disputed no-visit story",
+        "when": "Someone has made a specific no-night-action or astral-only claim that conflicts with other evidence, rather than merely being quiet.",
+        "action": "Investigate that eligible claimant on N1 and preserve the exact crime feedback. Ask for the claimed action history before treating any result as an accusation.",
+        "targetRule": "Prefer the disputed claimant only when the contradiction matters more than checking an ordinary unknown. Do not approach obvious Veteran bait for this experiment.",
+        "reason": "A crime result can create a useful question about a claimed history. The point is to compare the story with evidence, not to prove faction from a single label.",
+        "pivot": "If the account and independent evidence explain the result, investigate a fresh unknown next. Framing and forced attacks can invalidate simple crime-to-guilt shortcuts.",
+        "goals": [
+          "Record the disputed statement",
+          "Copy the exact crime result",
+          "Ask which action explains it"
+        ],
+        "laterPriorities": [
+          "Compare tonight’s Murder separately from accumulated Trespassing.",
+          "Use movement and attack reports to test the answer.",
+          "Post observations and remaining explanations instead of an automatic guilty verdict."
+        ],
+        "risk": "No Crime can fit many enemies, and a frame or Shroud may produce a crime on an honest Town role.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)",
+          "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr"
+        ]
+      }
+    ],
+    "defaultLabel": "Investigate an unresolved visitor"
+  },
+  "lookout": {
+    "defaultWhen": "Watch a credible useful exposed Town target when the destination is likely to generate interpretable and reasonably safe visitor traffic.",
+    "defaultRisk": "A crowded destination may kill you through visitor danger or rampage, and a visitor list omits astral visits.",
+    "alternatives": [
+      {
+        "id": "secondary-watch",
+        "label": "Watch a secondary valuable house",
+        "when": "The main protection call is crowded, threatened by a rampage, or already covered by a credible Lookout.",
+        "action": "Watch a different credible useful player on N1 and keep the exact visible visitor list for D2 comparisons.",
+        "targetRule": "Prefer a secondary investigator, protector, or day actor who may attract an enemy but fewer known friendly visitors. Avoid a Crusader or Veteran hazard.",
+        "reason": "Spreading observation can catch an enemy avoiding the obvious call. It also reduces dependence on one dangerous gathering point.",
+        "pivot": "Return to the primary asset if its risk changes and your observation is now needed there. With no useful alternative, watch a safe eligible unknown without pretending the choice proves anything.",
+        "goals": [
+          "Identify why the main house is risky",
+          "Pick one useful secondary target",
+          "Preserve all visible visitors"
+        ],
+        "laterPriorities": [
+          "Compare visitors with independently stated destinations.",
+          "Coordinate with genuine protection or Spy information when it answers a concrete conflict.",
+          "Move away from houses where rampage risk outweighs likely information."
+        ],
+        "risk": "The quieter house may receive no visitors, so this sacrifices likely traffic for safety and wider coverage.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
+        ]
+      },
+      {
+        "id": "brief-destination-check",
+        "label": "Hear destinations before revealing the list",
+        "when": "You already have a valid Watch result and a short delay would test a specific visit claim without endangering an immediate Town decision.",
+        "action": "Use a legal N1 Watch normally. At dawn, claim your information role when needed, ask the relevant players for destinations, then reveal the unchanged result promptly.",
+        "targetRule": "Aim the question at someone whose claimed route can be compared with your observed house. Keep the timestamped list in your will before asking.",
+        "reason": "A player who supplies an independent incompatible destination gives a clearer conflict than someone who simply echoes your published list.",
+        "pivot": "Post immediately if an urgent accusation or vote needs the result. Do not stay silent all day, hide decisive information, or fabricate a different alignment.",
+        "goals": [
+          "Save the result before questioning",
+          "Ask a specific route question",
+          "Reveal in time to inform voting"
+        ],
+        "laterPriorities": [
+          "State exactly who was visible at the watched house.",
+          "Consider astral visits and disruption before calling a missing visitor impossible.",
+          "Use later Watch targets to resolve the remaining conflict."
+        ],
+        "risk": "A long delay can look evasive and withhold useful evidence; this is a short evidence check, not a reason to suppress your will.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Watch a credible useful Town house"
+  },
+  "psychic": {
+    "defaultWhen": "Use the N1 Good vision on a plausible evil candidate when you have one; otherwise use an eligible unknown and retain the uncertainty.",
+    "defaultRisk": "A Good pair does not identify a single guaranteed Town player unless additional assumptions and evidence support the narrowing.",
+    "alternatives": [
+      {
+        "id": "safe-unknown-vision",
+        "label": "Use a safe unresolved vision target",
+        "when": "The apparent suspicious candidate is an obvious visiting hazard, already resolved, or based only on weak bait.",
+        "action": "Select a safer eligible unknown for the N1 Good vision. Record the chosen target and both names exactly, and post the genuine vision near D2 start.",
+        "targetRule": "Choose someone whose later claim you can check, away from credible Veteran or dangerous-house warnings. Do not use a known Town anchor expecting an informative Good pair.",
+        "reason": "Surviving with a valid vision and a checkable target is more useful than risking the role for a tiny theoretical improvement from an unreliable evil read.",
+        "pivot": "On even-night Evil visions, prefer a credible legal Town anchor to narrow the remaining group. Never rewrite old names after a flip.",
+        "goals": [
+          "Include the actual chosen target",
+          "Record N1 Good as two names",
+          "Keep the pair conditional"
+        ],
+        "laterPriorities": [
+          "Use later alignments and deaths to interpret prior visions.",
+          "Switch target logic for even-night Evil groups of three.",
+          "Explain disruption or a missing vision without inventing replacement names."
+        ],
+        "risk": "A neutral unknown is a weaker anchor, and framing or illusion can undermine simple faction inferences.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Use Good vision on an evil read"
+  },
+  "seer": {
+    "defaultWhen": "Compare a credible legal Town read with an unknown when that anchor is supported and has not already been compared.",
+    "defaultRisk": "A false anchor can invert the conclusion, and revealed or previously compared players may be illegal targets.",
+    "alternatives": [
+      {
+        "id": "two-claims",
+        "label": "Compare two competing unresolved claims",
+        "when": "Neither claimant deserves to be treated as Town, and the relationship between their claims would help the next discussion.",
+        "action": "Compare the two eligible players on N1, record both names and the exact Friends or Enemies result, and obtain their separate histories on D2.",
+        "targetRule": "Use two distinct unresolved players with checkable claims. Both must be legal unused targets; avoid known visiting hazards.",
+        "reason": "This creates a relationship test without pretending that a confident speaker is a confirmed anchor. It is useful when neither participant has earned that trust.",
+        "pivot": "If one later gains independent Town evidence, revisit what the old comparison implies. You normally cannot compare either player again, so build the next pair from legal unused players.",
+        "goals": [
+          "Check both players are eligible",
+          "Treat both as unresolved",
+          "Keep the exact pair result"
+        ],
+        "laterPriorities": [
+          "Ask both players to explain their roles independently.",
+          "Use deaths and genuine evidence to interpret the relation.",
+          "Build later comparisons without recycling used or publicly revealed targets."
+        ],
+        "risk": "Friends can mean two enemies share a faction, and Enemies does not tell you which individual is evil; framing and illusion remain possible.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Compare a Town read with an unknown"
+  },
+  "sheriff": {
+    "defaultWhen": "Search an unresolved player whose claim can be questioned next day rather than repeatedly checking a low-uncertainty Town read.",
+    "defaultRisk": "Innocent includes several enemy types; Suspicious can also result from framing.",
+    "alternatives": [
+      {
+        "id": "broaden-suspect-pool",
+        "label": "Search beyond the obvious killer read",
+        "when": "The loudest suspect is specifically a likely defended Neutral Killing role, or another credible investigator is already resolving that exact case.",
+        "action": "Search a different eligible unconfirmed player on N1, preferably a weakly supported Town claim that could conceal non-book Coven. Record the exact result for D2.",
+        "targetRule": "Pick a checkable unknown without known visiting danger. Do not choose by player number or assume a quiet protector claim is automatically Coven.",
+        "reason": "Sheriff is poorly suited to clearing or detecting many Neutral Killing suspects. Using the check on another live possibility can add information while discussion handles the first case.",
+        "pivot": "If your new target is Suspicious, obtain their account and check framing explanations before pushing. An Innocent result should widen the evidence base, not close the case.",
+        "goals": [
+          "Know what Sheriff can detect",
+          "Choose a different live uncertainty",
+          "Post the exact result"
+        ],
+        "laterPriorities": [
+          "Spread searches across unresolved candidates unless a concrete new reason supports a repeat.",
+          "Compare Suspicious results with claims and possible frames.",
+          "Keep behavior and independent evidence active even after Innocent checks."
+        ],
+        "risk": "This diversifies information; it does not guarantee a detectable Coven target or excuse ignoring a well-supported original suspect.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Search an unresolved claim"
+  },
+  "spy": {
+    "defaultWhen": "Bug a credible useful player likely to receive enemy activity and survive long enough for the persistent Bug to matter.",
+    "defaultRisk": "A quiet Bug gives no Town clearance, and a quickly killed target loses the continuing coverage.",
+    "alternatives": [
+      {
+        "id": "durable-secondary-bug",
+        "label": "Bug a durable secondary target",
+        "when": "The most exposed Town actor seems likely to die immediately, already has useful Bug coverage, or attracts dangerous visitor traffic.",
+        "action": "Plant the N1 Bug on a different credible useful player with a plausible chance of surviving multiple nights.",
+        "targetRule": "Choose a secondary investigator or day actor who enemies may later disrupt. Avoid visiting an obvious Veteran or other dangerous house.",
+        "reason": "Because the Bug persists until that player dies, spreading early coverage onto a surviving useful target can create more future opportunities than duplicating an obvious doomed destination.",
+        "pivot": "Add another worthwhile target on later nights rather than repeatedly replanting the same still-active Bug. Return to the main asset if a new Bug actually fills a gap.",
+        "goals": [
+          "Distinguish survival from immediate traffic",
+          "Record where the Bug was placed",
+          "Track which Bug remains active"
+        ],
+        "laterPriorities": [
+          "Report the evil-role feedback actually triggered.",
+          "Compare it with Watch and destination claims without inventing visitor names.",
+          "Replace dead-target coverage with a living useful destination."
+        ],
+        "risk": "A less exposed target may never be visited by an enemy; the route trades immediate activity for longer coverage.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)",
+          "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr"
+        ]
+      }
+    ],
+    "defaultLabel": "Bug a useful likely enemy target"
+  },
+  "tracker": {
+    "defaultWhen": "Track an unresolved claimed visitor whose destination could be compared with their independent D2 account.",
+    "defaultRisk": "A matching destination proves movement, not allegiance or ability; astral actions can appear as no direct visit.",
+    "alternatives": [
+      {
+        "id": "disputed-stayhome",
+        "label": "Test a disputed stay-home claim",
+        "when": "A player specifically claims a nonvisiting or astral-only role, and another observation gives you a concrete reason to doubt that account.",
+        "action": "Track that eligible player on N1 and record the actual direct destination or no-visit result. Compare it with their separately stated action on D2.",
+        "targetRule": "Use a checkable contradiction, not mere suspicion of a quiet player. Avoid targets whose credible Veteran claim makes your visit dangerous.",
+        "reason": "Observed movement can challenge a stay-home account more directly than a faction check. The value is a specific movement conflict, not a promise to identify the player’s role.",
+        "pivot": "If the no-visit story remains compatible, track a fresh unresolved visitor next. Control, role changes, or an explained different action can change the interpretation.",
+        "goals": [
+          "Preserve the original stay-home claim",
+          "Copy actual movement only",
+          "Ask before supplying the answer"
+        ],
+        "laterPriorities": [
+          "State the direction clearly: your tracked player visited the destination.",
+          "Use later claims to distinguish a real action from a compatible route.",
+          "Move to another unresolved visitor once this timeline is resolved."
+        ],
+        "risk": "No visit is compatible with many Town and enemy roles, so an empty result cannot validate the claim.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Track a checkable unresolved visitor"
+  },
+  "bodyguard": {
+    "defaultWhen": "Guard a credible useful likely attack target when preserving them is more valuable than spending the once-only self option.",
+    "defaultRisk": "Guard can sacrifice you, stops one harmful direct visitor, and does not provide general defense against every kind of attack.",
+    "alternatives": [
+      {
+        "id": "self-protect",
+        "label": "Self Protect under a direct threat",
+        "when": "You have a credible reason to expect a Basic Attack on yourself and no more valuable Guard assignment; the client enables the ability.",
+        "action": "Use Self Protect on N1 instead of Guard, if legal. Record the spent self charge and actual attack feedback.",
+        "targetRule": "Your target is yourself. A random fear of dying is weaker justification than an exposed role, credible threat, or deliberate enemy attention.",
+        "reason": "Keeping a useful protector alive can be worthwhile when you are the likely victim. Self Protect is a survival choice and does not counterattack the attacker.",
+        "pivot": "Return to Guard once the personal threat passes. Do not spend the option during an attack-disabled Grace Period merely to generate an entry.",
+        "goals": [
+          "Identify the personal threat",
+          "Check the self charge is available",
+          "Record the true feedback"
+        ],
+        "laterPriorities": [
+          "Guard a credible vulnerable Town asset on following nights.",
+          "Plan around one harmful direct visit rather than all attack types.",
+          "Preserve the distinction between a self defense and a successful Guard interception."
+        ],
+        "risk": "You leave another player unguarded, consume a limited resource, and receive no guaranteed attacker identity.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      },
+      {
+        "id": "secondary-guard",
+        "label": "Guard the less-covered useful player",
+        "when": "The main Town asset already has credible compatible protection, while another supported Town actor is exposed.",
+        "action": "Guard the secondary useful target on N1 when protection is enabled, after checking that the assignment does not create a known visitor hazard.",
+        "targetRule": "Prefer the uncovered actor with a plausible direct-attack threat, not a random swap solely to avoid the popular call.",
+        "reason": "Spreading protection can prevent an enemy from simply choosing the uncovered valuable house. Bodyguard works differently from a Barrier, so coordination should account for the actual protection already present.",
+        "pivot": "If the primary target has no real coverage or a more urgent threat, return there. Keep assignments private unless sharing resolves a concrete collision.",
+        "goals": [
+          "Identify the coverage gap",
+          "Avoid a hazardous destination",
+          "Write the actual Guard target"
+        ],
+        "laterPriorities": [
+          "Reassess exposure after new roles reveal.",
+          "Treat counterattack and survival feedback separately.",
+          "Do not infer a full attacker list from one interception."
+        ],
+        "risk": "The main target may still be attacked, and claimed protection may be false; avoid relying on an unverified coverage promise.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      }
+    ],
+    "defaultLabel": "Guard a credible vulnerable Town actor"
+  },
+  "cleric": {
+    "defaultWhen": "Barrier a credible vulnerable Town actor when ordinary protection is enabled; otherwise hold and preserve the self option.",
+    "defaultRisk": "A quiet target list offers no confirmation, and Barrier cannot stop Unstoppable attacks.",
+    "alternatives": [
+      {
+        "id": "self-barrier",
+        "label": "Self Barrier under a credible threat",
+        "when": "You are the plausible attack target, the once-only option is available, and keeping you alive outweighs the other protection assignment.",
+        "action": "Use Self Barrier instead of a player-targeted Barrier if the client enables it. Record that the limited self use is spent; only report a save if feedback supports one.",
+        "targetRule": "Choose yourself for a concrete survival reason. Avoid spending the charge on a quiet Grace Period night with no attack risk.",
+        "reason": "Preserving a useful healer can outweigh one night of external coverage when enemies are likely to aim at you. It is a targeted response to exposure rather than an automatic first-night ritual.",
+        "pivot": "Resume protecting other credible Town players when the immediate threat passes. Known Unstoppable threats require a different survival plan.",
+        "goals": [
+          "Explain why you may be attacked",
+          "Check the limited self option",
+          "Keep save claims tied to feedback"
+        ],
+        "laterPriorities": [
+          "Protect the most credible vulnerable Town actor next.",
+          "Keep intended target and actual protection feedback separate.",
+          "Update assignments when threats and credible claims change."
+        ],
+        "risk": "You consume your only self use and leave another house without your Barrier.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      },
+      {
+        "id": "secondary-barrier",
+        "label": "Barrier the uncovered useful claim",
+        "when": "The obvious leader already has credible coverage and another useful supported role is exposed or more likely to be attacked.",
+        "action": "Barrier the less-covered useful player on N1 if the action is enabled. Keep the destination fixed in your notes before seeing the morning deaths.",
+        "targetRule": "Prefer a genuine coverage gap over simply following the loudest TP/LO call. Avoid direct visits into credible Veteran or other dangerous-house warnings.",
+        "reason": "Distributed coverage makes the secondary useful role harder to pick off. This matters when stacking onto one house adds less value than preserving another actor.",
+        "pivot": "If the first asset’s protection was only a weak claim or their threat becomes urgent, reassess instead of blindly honoring the split.",
+        "goals": [
+          "Identify the uncovered asset",
+          "Check the visit is reasonably safe",
+          "Record the planned destination"
+        ],
+        "laterPriorities": [
+          "Change targets with an explicit threat-based reason.",
+          "Use actual attack feedback to report genuine protection.",
+          "Check a death’s attack type and interruption before deciding what failed."
+        ],
+        "risk": "The original protection claim may be false, and spreading does not guarantee either house survives.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      }
+    ],
+    "defaultLabel": "Barrier a credible vulnerable Town actor"
+  },
+  "crusader": {
+    "defaultWhen": "Fortify a credible useful lower-traffic house when the target needs protection and friendly visitor danger is limited.",
+    "defaultRisk": "You can attack one random friendly visitor, so a crowded call can harm Town even while the resident is protected.",
+    "alternatives": [
+      {
+        "id": "coordinated-main-asset",
+        "label": "Fortify the main asset with coordination",
+        "when": "A high-value Town target needs your protection and the likely friendly direct visitors can avoid that house or knowingly account for the risk.",
+        "action": "Fortify that target on N1 only when the ability is enabled. Coordinate enough to reduce friendly visits; keep target-protection feedback separate from the one visitor attack.",
+        "targetRule": "Use a supported threatened asset, not an unverified loud claim. Do not promise to choose which visitor gets attacked.",
+        "reason": "Fortify combines protection of the resident with danger to one visitor. It can be worth using on the main asset when friendly traffic has been managed, instead of automatically abandoning every busy player.",
+        "pivot": "Move to a lower-traffic useful house if coordination fails. Do not assume that merely announcing Crusader prevents all Town visits.",
+        "goals": [
+          "Identify who really needs protection",
+          "Reduce friendly direct traffic",
+          "Separate resident and visitor outcomes"
+        ],
+        "laterPriorities": [
+          "Rotate when visitor risk or protection need changes.",
+          "Report only the visitor attack feedback actually received.",
+          "Never infer the attacked visitor’s identity without independent evidence."
+        ],
+        "risk": "An unexpected friendly visitor can still be attacked, and your Basic visitor attack may not kill a defended enemy.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      },
+      {
+        "id": "hold-dangerous-traffic",
+        "label": "Hold when friendly traffic cannot be managed",
+        "when": "Every plausible valuable target is expecting essential Town visits and no safe alternative house is apparent.",
+        "action": "Hold Fortify on N1 rather than deliberately placing a random visitor attack into necessary friendly traffic. Record why you held.",
+        "targetRule": "No target is selected for this route. Use the following day to find a useful lower-traffic assignment or coordinate a safer protection plan.",
+        "reason": "An ability with friendly-fire risk can have negative value in a known crowd. A reasoned hold preserves Town visitors instead of pretending activity is always beneficial.",
+        "pivot": "Act once a worthwhile lower-risk target appears; do not turn one unsafe night into permanent inactivity.",
+        "goals": [
+          "Name the friendly-traffic risk",
+          "Record a truthful hold",
+          "Plan the next safe assignment"
+        ],
+        "laterPriorities": [
+          "Find a supported asset whose expected visitors are limited.",
+          "Coordinate before entering a crowded protection call.",
+          "Keep Fortify protection distinct from your random visitor attack."
+        ],
+        "risk": "Holding leaves the potential resident unprotected by you and may miss an enemy visitor; it is for a known bad assignment, not general fear.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      }
+    ],
+    "defaultLabel": "Fortify a useful low-traffic house"
+  },
+  "oracle": {
+    "defaultWhen": "Use the self-role fallback when Aegis is enabled, no credible threatened role is known, and spending the once-only Oracle choice is worthwhile.",
+    "defaultRisk": "The Oracle choice can be used only once; guessing a role that is absent grants no useful coverage.",
+    "alternatives": [
+      {
+        "id": "known-threatened-role",
+        "label": "Aegis a credible threatened role",
+        "when": "A useful vulnerable Town role is credibly known and preserving its holders is more urgent than covering your own role.",
+        "action": "Select that Town role for N1 Aegis if enabled, such as Seer when a credible Seer is exposed. Write the role name, not a player number.",
+        "targetRule": "Choose the exact role category with evidence of presence and danger. A claimed alignment such as TI alone does not identify which Aegis role to select.",
+        "reason": "This directs coverage toward an established Town asset while saving the one Oracle self-role choice. It is stronger than the blind self fallback when the target role is credible and exposed.",
+        "pivot": "Choose a different role next night. If the role claim collapses or the threat is Unstoppable, reassess rather than treating Aegis as universal safety.",
+        "goals": [
+          "Verify which role is actually known",
+          "Check the role differs from last night",
+          "Log Aegis by role name"
+        ],
+        "laterPriorities": [
+          "Prioritize newly exposed useful Town role categories.",
+          "Reserve Oracle for a later meaningful self threat if it remains available.",
+          "Report actual protection feedback without inventing the saved player’s identity."
+        ],
+        "risk": "The claim may be false or already protected, and Aegis does not tell you exactly who holds or was saved as that role.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+          "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      },
+      {
+        "id": "reserve-oracle",
+        "label": "Reserve the one Oracle choice",
+        "when": "No credible role is exposed, you expect little personal danger, and retaining guaranteed self-role coverage for later is worth uncertain N1 protection.",
+        "action": "If Aegis is enabled, choose a plausible allowed Town role from the actual setup instead of Oracle. If no role choice has a reasonable basis, record a deliberate hold.",
+        "targetRule": "Use roledeck evidence where available. In an open list, acknowledge that a guessed role may not exist; never describe a guess as a known protected player.",
+        "reason": "This keeps the once-only Oracle selection for a night with more personal threat. The tradeoff is explicitly accepting weaker immediate targeting information.",
+        "pivot": "If a credible threatened role appears before lock-in, prefer that concrete assignment. Spend Oracle later when it answers a real threat rather than saving it past the match.",
+        "goals": [
+          "Preserve the limited Oracle option",
+          "Use actual roledeck evidence",
+          "Admit uncertain role presence"
+        ],
+        "laterPriorities": [
+          "Use new claims to replace role guesses with informed coverage.",
+          "Never repeat the same role on consecutive nights.",
+          "Spend the saved self-role option when a credible threat justifies it."
+        ],
+        "risk": "This is lower priority because the selected role may be absent, and an unexpected N1 attack may kill you before the saved option matters.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+          "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      }
+    ],
+    "defaultLabel": "Aegis Oracle without a credible assignment"
+  },
+  "trapper": {
+    "defaultWhen": "Build on N1 and prepare to place the first trap where it can preserve a valuable player without avoidable harmless traffic.",
+    "defaultRisk": "A disrupted Build leaves no ready trap, and friendly visitors can consume the first placement.",
+    "alternatives": [
+      {
+        "id": "information-trap",
+        "label": "Plan an information-focused first trap",
+        "when": "No clear attack target emerges, but checking the role mix visiting an important house would resolve a concrete dispute.",
+        "action": "N1 is still Build; there is no alternate N1 placement. After successful construction, use D2 to plan a legal first Trap on the informative house for N2.",
+        "targetRule": "Prefer a house where known visit claims are worth checking. Coordinate unnecessary friendly visits only when safe; do not invent a trap on yourself.",
+        "reason": "When no harmful visit triggers its attack, a triggered trap can report visitor roles. Accepting that it may be spent for information can be reasonable if the information answers an important current question.",
+        "pivot": "If a credible Town asset faces an urgent direct attack, prioritize protection instead. After a trigger, build again before promising another trap.",
+        "goals": [
+          "Confirm Build actually completed",
+          "Name the visitor-role question",
+          "Distinguish a role list from identities"
+        ],
+        "laterPriorities": [
+          "Record the real trigger and role feedback.",
+          "Compare roles with visit claims without assigning unnamed roles to players automatically.",
+          "Rebuild and reassess the next target when the trap is consumed."
+        ],
+        "risk": "A harmless visitor can spend the trap, role feedback does not itself identify each visitor, and hostile traffic may trigger a different outcome.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Build before planning your first Trap"
+  },
+  "deputy": {
+    "defaultWhen": "Keep the shot while evidence is incomplete or an ordinary Town vote can resolve the same suspect.",
+    "defaultRisk": "Holding too long can forfeit an urgent removal, but firing weak evidence may waste your only shot.",
+    "alternatives": [
+      {
+        "id": "urgent-shot-plan",
+        "label": "Prepare a justified D2 shot",
+        "when": "A strongly supported enemy needs to die before another day action or cannot be removed through the available vote, and Basic Attack is likely to work.",
+        "action": "There is no N1 action or D1 shot. Use N1 to assemble the case; on D2, fire only in a permitted day phase after checking new evidence and expected defense.",
+        "targetRule": "Prefer a concrete evil contradiction over silence. Account for early Neutral Evil defense and defended killing roles that can make a shot fail.",
+        "reason": "A day shot can act before another night and solve an urgent timing problem. Its value comes from the particular threat removed, not publicly demonstrating that you have a button.",
+        "pivot": "If the suspect has likely defense or Town can vote them normally, preserve the charge. A miss is not proof that the target is Town.",
+        "goals": [
+          "Write the supported evil case",
+          "Check likely Basic-Attack failure",
+          "Identify why removal is urgent"
+        ],
+        "laterPriorities": [
+          "Use the actual outcome rather than a fabricated hit or miss story.",
+          "Reassess a miss using Town status, defense, framing, and genuine evidence.",
+          "Once the shot is spent, contribute through discussion and voting."
+        ],
+        "risk": "The shot is limited, a failed attempt need not reveal the role publicly, and framing can make simple hit-based deductions unsafe.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)",
+          "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr"
+        ]
+      }
+    ],
+    "defaultLabel": "Preserve the shot and build evidence"
+  },
+  "trickster": {
+    "defaultWhen": "Mirror a credible useful likely attack target while preserving the once-only Self Mirror for a more personal threat.",
+    "defaultRisk": "Mirror absorbs one compatible attack and cannot stop every indirect or Unstoppable threat.",
+    "alternatives": [
+      {
+        "id": "self-mirror",
+        "label": "Self Mirror when enemies may target you",
+        "when": "You are a credible likely attack target, the one self option is available, and another external assignment is less valuable.",
+        "action": "Use Self Mirror on N1 if enabled. Record whether an attack was actually absorbed and the exact attacking role feedback if supplied.",
+        "targetRule": "Choose yourself because of exposure or a concrete threat, not simply to manufacture a private result. Keep Town’s other uncovered assets in mind.",
+        "reason": "Surviving with a stored attack can preserve your future protection and give useful attacker-role evidence. This is a limited defensive resource, not an automatic free N1 defense.",
+        "pivot": "If no attack is absorbed, resume external Mirrors as appropriate. If an attack is stored, resolve the Unleash decision before promising new Mirrors.",
+        "goals": [
+          "Check the self use is available",
+          "Separate selection from absorption",
+          "Preserve the exact attack role"
+        ],
+        "laterPriorities": [
+          "Unleash only on a supported enemy with the stored attack’s risks understood.",
+          "Account for harmful-visit protection and any stored rampage.",
+          "Return to protective Mirrors after the stored attack is safely discharged."
+        ],
+        "risk": "Using the once-only self option leaves someone else uncovered; some indirect or Unstoppable attacks bypass or break Mirror.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      }
+    ],
+    "defaultLabel": "Mirror a credible vulnerable Town actor"
+  },
+  "veteran": {
+    "defaultWhen": "Conserve Alert on a quiet N1 when no concrete signal makes hostile visitors more likely than useful friendly visitors.",
+    "defaultRisk": "You remain exposed to attacks while holding, but a blind Alert can shoot Town visitors and waste one of three charges.",
+    "alternatives": [
+      {
+        "id": "credible-threat-alert",
+        "label": "Alert against a credible hostile visit",
+        "when": "Your actual D1 exposure or a concrete threat makes an enemy visit plausible, and you have not invited friendly Town visitors.",
+        "action": "Alert on N1 if the client enables it. Do not add a fake TP/LO call; record the actual shot count and feedback at dawn.",
+        "targetRule": "The selected house is your own. First consider which Town roles might reasonably visit you and discourage avoidable friendly traffic without fabricating information.",
+        "reason": "Spending an Alert is justified when likely hostile traffic gives it survival or removal value. This is a threat-based exception to conserving on a quiet night.",
+        "pivot": "If the threat disappears or necessary friendly visits are likely, hold. An Alert selection may still be roleblocked and does not grant universal protection.",
+        "goals": [
+          "Check hostility is plausible",
+          "Avoid soliciting Town visitors",
+          "Record actual shots only"
+        ],
+        "laterPriorities": [
+          "Compare shot count, deaths, and real claims.",
+          "Treat surviving visitors and missing deaths as incomplete evidence.",
+          "Spend later Alerts when imminent threats justify them instead of saving every charge indefinitely."
+        ],
+        "risk": "Alert attacks all direct visitors regardless of faction, while roleblocks, stronger attacks, and astral actions can defeat simple safety assumptions.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Conserve Alert on a quiet night"
+  },
+  "vigilante": {
+    "defaultWhen": "Load on N1, then preserve the shot unless a supported evil is a sensible Basic-Attack target.",
+    "defaultRisk": "Loading does not promise a safe future shot, and shooting Town removes further gun use.",
+    "alternatives": [
+      {
+        "id": "early-supported-shot",
+        "label": "Prepare the first supported N2 shot",
+        "when": "D2 evidence is likely to identify an evil whose removal tonight matters and who is not expected to resist or turn your visit against Town.",
+        "action": "N1 remains Load by staying home; no N1 shot exists. At dawn confirm ammunition, then use D2 to test a specific case for a possible N2 shot.",
+        "targetRule": "Prefer a well-supported vulnerable enemy over a defended Neutral Killing or a player who is merely unwilling to full-claim. Check visitor hazards and friendly protection.",
+        "reason": "An evidence-backed early shot may remove a dangerous actor before another day. Planning the threshold in advance is useful; deciding the victim before D2 evidence arrives is not.",
+        "pivot": "If the case stays uncertain, stay home to Load when another load is available or hold if already prepared. Do not treat the gun as a random investigation.",
+        "goals": [
+          "Confirm the N1 Load completed",
+          "Require a concrete supported case",
+          "Check attack and visiting risk"
+        ],
+        "laterPriorities": [
+          "Shoot only when removal and expected success justify the risk.",
+          "Record actual outcome, ammunition, and whether you still have the gun.",
+          "Return to loading or holding when another shot lacks support."
+        ],
+        "risk": "A wrongly chosen Town target costs more than one bullet, and a night spent attempting to shoot does not also load.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)",
+          "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr"
+        ]
+      }
+    ],
+    "defaultLabel": "Load first and set an evidence threshold"
+  },
+  "admirer": {
+    "defaultWhen": "Use the starting subalignment clue to search compatible candidates, keeping Bestow for a justified useful beneficiary.",
+    "defaultRisk": "A compatible claim can be false, and a blind Bestow can permanently improve an enemy.",
+    "alternatives": [
+      {
+        "id": "early-trusted-bestow",
+        "label": "Bestow an evidenced Town actor early",
+        "when": "A useful Town actor has concrete independent support and benefits from astral visits or immunity to disruption; an eligible day Bestow is available.",
+        "action": "Use the daytime Bestow on that supported actor, then continue the normal N1 Admire search among candidates matching your Obsession clue. Bestow is not a different night action.",
+        "targetRule": "Choose the beneficiary for a specific useful action they need to carry out. Your Obsession search and your Bestow target need not be the same person.",
+        "reason": "The permanent upgrade can protect repeated useful actions from direct-visit danger, roleblocking, or control. Acting early is worthwhile when the trust is real rather than only an alignment claim.",
+        "pivot": "If the candidate is only persuasive or their ability gains little, preserve Bestow. Keep searching until real feedback replaces Admire with Care.",
+        "goals": [
+          "Separate Bestow from Obsession search",
+          "Name the beneficiary’s useful action",
+          "Preserve actual discovery feedback"
+        ],
+        "laterPriorities": [
+          "After discovery, use Care for a credible threat rather than automatically spending both charges.",
+          "Keep the second Bestow for another evidenced useful beneficiary.",
+          "If the clue rerolls before discovery, stop searching from the obsolete clue."
+        ],
+        "risk": "Bestow is permanent, and upgrading the wrong player may make an enemy harder to disrupt or observe.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+        ]
+      }
+    ],
+    "defaultLabel": "Search using the Obsession alignment clue"
+  },
+  "amnesiac": {
+    "defaultWhen": "Wait truthfully for automatic Remember feedback and prepare to adopt the new role’s actual current state.",
+    "defaultRisk": "You have no selectable N1 ability and cannot choose a favorite corpse; waiting is not evidence you performed a check.",
+    "alternatives": [
+      {
+        "id": "early-claim-transition",
+        "label": "Disclose the transition timeline early",
+        "when": "Claim collection starts before you have Remembered, or a new role will otherwise make your missing early actions look inconsistent.",
+        "action": "N1 still has no selectable action. State your true Amnesiac waiting state when requested, preserve the morning feedback, and explain the later role transition when it actually occurs.",
+        "targetRule": "No player or corpse target is selected. Focus on a dated account of which nights you could not act and what role you really received.",
+        "reason": "A contemporaneous honest account makes the later change easier to follow without inventing an impossible early ability. This route prioritizes explaining the timeline over minimizing exact-role disclosure.",
+        "pivot": "After Remembering, use the new role’s legal current action immediately. A remembered setup role may still need Load, Build, or another prerequisite.",
+        "goals": [
+          "State the real waiting nights",
+          "Check actual Remember feedback",
+          "Switch to the new legal action"
+        ],
+        "laterPriorities": [
+          "Keep your original Amnesiac line in the will.",
+          "Use the received role’s present charges and prerequisites.",
+          "Give Town useful votes and questions even while no eligible role arrives."
+        ],
+        "risk": "Early disclosure may advertise a weak or changing claim; it does not publicly prove that you were Amnesiac.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Wait honestly for automatic Remember"
+  },
+  "retributionist": {
+    "defaultWhen": "Wait on a normal N1 with no usable corpse, then choose a legal Town body whose ability solves the current most important problem.",
+    "defaultRisk": "Corpse access can fail, and a powerful borrowed ability is still harmful when aimed at an unsupported or dangerous target.",
+    "alternatives": [
+      {
+        "id": "information-first-corpse",
+        "label": "Plan a decisive information-first Raise",
+        "when": "A legal investigative Town body becomes available and its result can resolve an important conflict more safely than a speculative attack.",
+        "action": "There is no alternate Raise in a normal fresh N1. After a suitable body exists, choose it and a legal living target for the borrowed investigative action.",
+        "targetRule": "Name the precise question first: a disputed destination, an unresolved crime account, or another ability-specific check. Avoid unsafe visits and respect that body’s restrictions.",
+        "reason": "A modest investigator can be the highest-value corpse when its result changes today’s case. Picking by the job avoids choosing a killing body solely because attacks feel stronger.",
+        "pivot": "If a credible Town asset faces an urgent attack, use a compatible protective body instead. If corpse competition causes failure, record that actual failure.",
+        "goals": [
+          "Check the body is truly usable",
+          "Name the information question",
+          "Log body and living target separately"
+        ],
+        "laterPriorities": [
+          "Report actual borrowed feedback with the corpse role identified.",
+          "Reassess the current job before selecting the next body.",
+          "Use lethal bodies only with supported targets and their attack restrictions understood."
+        ],
+        "risk": "Another corpse user may take priority, and an information result can remain limited or affected by its original role’s mechanics.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Wait for a useful legal Town corpse"
+  },
+  "socialite": {
+    "defaultWhen": "Party at a credible useful target only when blocking uninvited visits helps more than it obstructs necessary Town work.",
+    "defaultRisk": "A Party can block allies and permanently invited enemies retain access; rejected-visitor feedback gives no identities.",
+    "alternatives": [
+      {
+        "id": "hold-crowded-party",
+        "label": "Hold until friendly access is clear",
+        "when": "The only worthwhile house is expecting necessary Town protection or investigation and those visitors are not safely covered by your Guest List.",
+        "action": "Hold Party on N1 and keep guest slots unspent if no visitor has earned trust. Ask for enough coordination on D2 to make a later assignment useful.",
+        "targetRule": "No host is selected tonight. Identify which genuine friendly action would be blocked before deciding where the next Party should go.",
+        "reason": "Preserving Town’s necessary visits can be better than placing an obstacle merely to act. This is a deliberate route for a bad traffic situation, not an instruction to remain inactive forever.",
+        "pivot": "Party once a useful house has a reasonable friendly-access plan. Never choose the same host on consecutive nights.",
+        "goals": [
+          "Identify necessary friendly visitors",
+          "Keep untrusted guests off the list",
+          "Prepare a safe later host"
+        ],
+        "laterPriorities": [
+          "Use limited guest invitations for genuinely supported useful visitors.",
+          "Party where obstruction has a concrete protective or disruptive benefit.",
+          "Treat blocked-visit feedback as an obstacle event, not a named evil visitor."
+        ],
+        "risk": "Holding gives no protection from your Party, so reassess promptly when a defensible target becomes available.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+        ]
+      },
+      {
+        "id": "trusted-guest-plan",
+        "label": "Admit one trusted essential visitor",
+        "when": "A credible protector or other necessary Town visitor needs access to the intended Party house and is a justified permanent guest.",
+        "action": "During D1, add that player to the Guest List if the day action is available; then Party at the chosen host on N1 if enabled and the remaining traffic is acceptable.",
+        "targetRule": "Choose the guest and host separately. Invite for a specific needed visit, not to prove friendliness or because a stranger promises to protect you.",
+        "reason": "Allowing an essential trusted visitor through can make a valuable-house Party useful while still blocking uninvited direct visitors. The invitation is the key extra commitment.",
+        "pivot": "If trust is weak or several necessary uninvited Town visitors still need entry, use another house or hold. Invitations are permanent and cannot be removed.",
+        "goals": [
+          "Separate guest from host",
+          "Justify the permanent access",
+          "Check other friendly traffic"
+        ],
+        "laterPriorities": [
+          "Preserve the remaining guest slot unless another concrete access need arises.",
+          "Rotate hosts legally as threat changes.",
+          "Compare real obstruction feedback with claims without inventing rejected names."
+        ],
+        "risk": "The guest may be an enemy and will retain future access; Party has bypasses and cannot guarantee a safe host.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+        ]
+      }
+    ],
+    "defaultLabel": "Party with a safe visitor plan"
+  },
+  "tavern-keeper": {
+    "defaultWhen": "Drink with an unresolved plausible harmful actor when the disruption value outweighs blocking Town or visiting danger.",
+    "defaultRisk": "A random block can suppress Town, while some killers retaliate or ignore disruption.",
+    "alternatives": [
+      {
+        "id": "avoid-retaliation",
+        "label": "Hold against a likely retaliating killer",
+        "when": "Your only meaningful suspect is a likely uncautious Serial Killer or a full-moon Werewolf, and a direct visit would be unreasonably dangerous.",
+        "action": "Hold Drink on N1 if no safer useful disruption target exists. Record the suspected hazard and use D2 discussion to obtain a safer supported assignment.",
+        "targetRule": "No target is selected for this route. If another credible unresolved harmful actor exists, blocking that player is preferable to a purely passive night.",
+        "reason": "Tavern Keeper needs to survive to provide repeat disruption. Walking into a well-supported retaliation trap is a poor trade when the block does not safely remove the threat.",
+        "pivot": "Return to Drink when a useful eligible target appears. After a successful block, rotate while Hungover prevents an immediate repeat.",
+        "goals": [
+          "Identify the actual retaliation risk",
+          "Look for a safer useful suspect",
+          "Record a truthful hold if needed"
+        ],
+        "laterPriorities": [
+          "Prefer supported functioning enemy night actors.",
+          "Distinguish successful roleblock feedback from a missing kill.",
+          "Avoid assuming Drink disables a day shot or prosecution."
+        ],
+        "risk": "Holding allows a possible enemy action; the route requires a concrete visiting hazard rather than fear of every unknown.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Drink with a plausible unresolved enemy"
+  },
+  "catalyst": {
+    "defaultWhen": "Hold without a trusted useful beneficiary; Overcharge when you can name a concrete extra Town action that is worth enabling.",
+    "defaultRisk": "Overcharge can double enemy abilities, and the interaction table is incomplete for some role-specific effects.",
+    "alternatives": [
+      {
+        "id": "trusted-information-boost",
+        "label": "Overcharge a trusted investigator",
+        "when": "A supported investigator has two useful legal questions for the affected later night and the setup permits Catalyst.",
+        "action": "Overcharge that eligible Town actor on N1, then confirm their actual timing and role-specific feedback before planning the extra checks.",
+        "targetRule": "Prefer concrete information work with legal targets, such as two unresolved Sheriff searches. Mere confidence or a request for more actions is not enough trust.",
+        "reason": "A planned additional information action is easier to evaluate than blindly doubling an unknown ability. It can accelerate resolving claims without choosing a speculative second killing target.",
+        "pivot": "If the recipient’s faction or effect is doubtful, hold. Do not promise that every role receives identical double-action behavior.",
+        "goals": [
+          "Check the role is supported by setup",
+          "Name the extra useful checks",
+          "Confirm when the boost applies"
+        ],
+        "laterPriorities": [
+          "Compare the extra feedback with the planned ability.",
+          "Move the boost as the most valuable trusted job changes.",
+          "Avoid reapplying a boost that provides no additional effect."
+        ],
+        "risk": "A false investigator may be a book holder, turning your help into another attack; some interaction details require client feedback.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+        ]
+      }
+    ],
+    "defaultLabel": "Boost only a trusted useful actor"
+  },
+  "pilgrim": {
+    "defaultWhen": "Use the claim-ledger and evidence route in an open or uncertain setup; you have no night ability to substitute for reasoning.",
+    "defaultRisk": "Being uncounterclaimed in an open role list does not confirm Town, and invented investigative results mislead allies.",
+    "alternatives": [
+      {
+        "id": "fixed-slot-analysis",
+        "label": "Audit a fixed Pilgrim slot",
+        "when": "The roledeck explicitly restricts Pilgrim to a known number of possible slots and competing claims exceed that space.",
+        "action": "No N1 action exists. Record the actual roledeck and each competing claim, then ask for those histories and explain the slot conflict on D2.",
+        "targetRule": "Focus on genuinely incompatible slot claims. Include random or dual buckets and modifiers before saying a claim is impossible.",
+        "reason": "In a constrained list, claim arithmetic can produce a concrete contradiction without any active ability. It is stronger than treating the loudest competing claimant as automatically false.",
+        "pivot": "If the deck is open or other slots can legitimately contain Pilgrim, return to ordinary evidence gathering. A counterclaim identifies a conflict, not which individual is evil.",
+        "goals": [
+          "Count the real available slots",
+          "Record each competing claim",
+          "Keep the accusation conditional"
+        ],
+        "laterPriorities": [
+          "Compare the conflicting players’ action histories and voting.",
+          "Update slot counts after genuine reveals and deaths.",
+          "Use supported cases to preserve Town vote control."
+        ],
+        "risk": "Misreading random buckets creates false certainty; this route applies only when the displayed setup actually limits the claims.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+        ]
+      }
+    ],
+    "defaultLabel": "Build a truthful claim ledger"
+  }
+}

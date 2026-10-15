@@ -3104,13 +3104,13 @@
       "live_client_tested": false,
       "opening": {
         "action": "Jinx an eligible house to attack a visitor if the action is enabled. You do not grant Crusader-style defense to the resident.",
-        "target": "Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away. With no safe traffic plan, holding can be better than exposing yourself or killing an ally. Grace Period may disable the harmful action.",
+        "target": "Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away. With no useful traffic plan, holding can be better than exposing yourself to surviving witnesses. The normal visitor attack excludes Coven allies. Grace Period may disable the harmful action.",
         "dawn": "Record actual attack feedback and remember that surviving witnesses can expose you. Do not turn the action into a complete visitor list or claim the house owner received protection.",
         "day": "Use the cover alignment. Crusader (TP) is a conditional cover because visitor kills resemble its attack, but missing defense and surviving witness exposure can break the story.",
         "nextnight": "If exposed, revise the survival plan rather than continuing a supposed safe protective routine. If not exposed, choose a useful house using D2 traffic and avoid allied visitors; recheck whether the book changes your action.",
         "goals": [
           "Plan around visitor traffic",
-          "Avoid friendly fire and witnesses",
+          "Limit surviving witnesses",
           "Reassess the cover after actual exposure"
         ]
       },
@@ -3143,7 +3143,7 @@
           "id": "jinx-n1",
           "title": "First night: action and target",
           "compact": "Jinx an eligible house to attack a visitor if the action is enabled. You do not grant Crusader-style defense to the resident. Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away.",
-          "expanded": "Jinx an eligible house to attack a visitor if the action is enabled. You do not grant Crusader-style defense to the resident.\n\n**How to choose:** Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away. With no safe traffic plan, holding can be better than exposing yourself or killing an ally. Grace Period may disable the harmful action.\n\n**Your opening checkpoint:** Plan around visitor traffic. You do not need a perfect read of the lobby to begin; you need a legal action or a deliberate hold and an honest record of what happened."
+          "expanded": "Jinx an eligible house to attack a visitor if the action is enabled. You do not grant Crusader-style defense to the resident.\n\n**How to choose:** Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away. With no useful traffic plan, holding can be better than exposing yourself to surviving witnesses. The normal visitor attack excludes Coven allies. Grace Period may disable the harmful action.\n\n**Your opening checkpoint:** Plan around visitor traffic. You do not need a perfect read of the lobby to begin; you need a legal action or a deliberate hold and an honest record of what happened."
         },
         {
           "id": "jinx-dawn",
@@ -3178,8 +3178,8 @@
         {
           "id": "jinx-milestones",
           "title": "Your subgoals",
-          "compact": "1. Plan around visitor traffic.\n2. Avoid friendly fire and witnesses.\n3. Reassess the cover after actual exposure.",
-          "expanded": "1. Plan around visitor traffic.\n2. Avoid friendly fire and witnesses.\n3. Reassess the cover after actual exposure.\n\n- Predict useful enemy traffic without exposing yourself widely.\n- Coordinate around allied visits.\n- Reassess your cover immediately if survivors can identify you.\n\nThese checkpoints describe useful decisions, not guaranteed outcomes. A correct hold, a failed action recorded accurately, or a revised case can satisfy the learning goal even when the match goes badly."
+          "compact": "1. Plan around visitor traffic.\n2. Limit surviving witnesses.\n3. Reassess the cover after actual exposure.",
+          "expanded": "1. Plan around visitor traffic.\n2. Limit surviving witnesses.\n3. Reassess the cover after actual exposure.\n\n- Predict useful enemy traffic without exposing yourself widely.\n- Coordinate around allied visits.\n- Reassess your cover immediately if survivors can identify you.\n\nThese checkpoints describe useful decisions, not guaranteed outcomes. A correct hold, a failed action recorded accurately, or a revised case can satisfy the learning goal even when the match goes badly."
         },
         {
           "id": "jinx-will",

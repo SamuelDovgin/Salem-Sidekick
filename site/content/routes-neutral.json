@@ -1,0 +1,621 @@
+{
+  "baker": {
+    "defaultWhen": "Use the survivor-first opening when you have no reliable threat map and need dependable Bread progress.",
+    "defaultRisk": "A recipient can still die, and feeding a protected Town leader may preserve a powerful opponent for the Famine endgame. Bread supplies no protection.",
+    "alternatives": [
+      {
+        "id": "quiet-survivor",
+        "label": "Feed a quieter future opponent",
+        "when": "You can distinguish a likely survivor from the obvious protected leader, and neither is already facing execution.",
+        "action": "Feed the quieter eligible survivor instead of automatically feeding the most prominent Town claim.",
+        "targetRule": "Prefer a low-pressure player likely to survive tonight but unlikely to control the vote after transformation. With no such read, return to the default.",
+        "reason": "You need living recipients now, then those same surviving votes can become obstacles after Famine appears. This trades a little survival confidence for an easier later voting position.",
+        "pivot": "If that player becomes the likely execution or night victim, use your next Feed on another living nonrecipient rather than defending the original choice forever.",
+        "goals": [
+          "Choose a living nonrecipient",
+          "Avoid preserving an obvious vote controller unnecessarily",
+          "Keep Bread progress private"
+        ],
+        "laterPriorities": [
+          "Replace dead recipients before refreshing existing Bread.",
+          "Reach the actual living-recipient requirement at dawn.",
+          "After transformation, judge votes and Starve targets using the Famine guide."
+        ],
+        "risk": "Quiet does not mean safe or weak; this route relies on a real public read and can slow transformation if you guess wrong.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Feed likely survivors"
+  },
+  "berserker": {
+    "defaultWhen": "Use the preparation opening in normal Apocalypse: N1 has no attack, and your first legal kill unlocks the next attack tier.",
+    "defaultRisk": "A low-profile N2 target may be less strategically important. A missed Basic attack gives no kill upgrade.",
+    "alternatives": [
+      {
+        "id": "disruptor-first",
+        "label": "Plan an early disruptor removal",
+        "when": "A credible Witch, execution threat, or other dangerous opponent becomes identifiable before your first legal attack.",
+        "action": "N1 still has no attack: prepare your cover and mark the threat. From N2, attack them only if your current attack can plausibly kill through their likely protection.",
+        "targetRule": "Prioritize a dangerous, apparently unprotected opponent over a random player. A public protection magnet is a reason to defer, not a reason to pretend Basic Attack beats every shield.",
+        "reason": "Removing an opponent who can expose or stop you can be worth more than a quiet kill, provided you do not sacrifice the first upgrade to predictable defense.",
+        "pivot": "If the threat is heavily protected, get a safer first kill and revisit them with the actual upgraded attack tier.",
+        "goals": [
+          "Respect the N1 attack restriction",
+          "Identify why this opponent threatens you",
+          "Check attack tier against likely defense"
+        ],
+        "laterPriorities": [
+          "Count actual kills, not attempted attacks.",
+          "Use the first upgrade to revisit otherwise unsuitable threats.",
+          "After the third kill, switch to War and confirm two legal targets."
+        ],
+        "risk": "High-profile targets attract protection and observers. A failed attack both delays transformation and can disclose your route.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-flexible-factions-update-patch-notes-r1-5-11/"
+        ]
+      }
+    ],
+    "defaultLabel": "Prepare for the first kill"
+  },
+  "plaguebearer": {
+    "defaultWhen": "Use the visitor-first opening while there are many uninfected players and a plausible visiting target can start another spread branch.",
+    "defaultRisk": "A claimed visitor may not visit or may act astrally. Starting adjacent infections do not establish any movement.",
+    "alternatives": [
+      {
+        "id": "isolated-infection",
+        "label": "Infect a player unlikely to spread naturally",
+        "when": "A credible nonvisitor or isolated survivor is uninfected while the busy players are already connected to infected targets.",
+        "action": "Directly Infect that missing player rather than adding another speculative visitor branch.",
+        "targetRule": "Check the actual infection markers first. Choose an uninfected person who is unlikely to visit an infected house or receive infected visitors.",
+        "reason": "Transformation needs coverage of every living opponent, not the largest number of visits. An isolated uninfected survivor can become the final bottleneck.",
+        "pivot": "If many uninfected players still remain and no isolated candidate is credible, return to the visitor-first default.",
+        "goals": [
+          "Check seeded and current infections",
+          "Find a genuine missing branch",
+          "Do not invent a complete visitor report"
+        ],
+        "laterPriorities": [
+          "Recheck living uninfected players after each dawn.",
+          "Target the last missing survivors directly.",
+          "After transformation, use Spread Pestilence rather than repeating the infection buildup."
+        ],
+        "risk": "This often produces less immediate spread than a new active visitor. Use it when the coverage problem is visible, not because a player is simply quiet.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-flexible-factions-update-patch-notes-r1-5-11/"
+        ]
+      }
+    ],
+    "defaultLabel": "Start a fresh visiting branch"
+  },
+  "soul-collector": {
+    "defaultWhen": "Mark the most likely upcoming death when an exposed victim or credible execution case gives you a reasoned prediction.",
+    "defaultRisk": "A protected or unexpectedly spared target may survive. Reap is not an attack and supplies no genuine Town investigation.",
+    "alternatives": [
+      {
+        "id": "day-execution-mark",
+        "label": "Mark tomorrow’s likely execution",
+        "when": "A supported unresolved case makes a particular living player more likely to die by trial than any visible night victim.",
+        "action": "Reap that player tonight and preserve the mark; contribute ordinary public reasoning to the case tomorrow.",
+        "targetRule": "Choose someone with a concrete contradiction, competing claim, or independently reported concern. Do not manufacture a guaranteed guilty merely because you marked them.",
+        "reason": "A marked player’s qualifying death can add a Soul during the day as well as at night. A daytime case can be easier to predict than the killers’ next targets.",
+        "pivot": "If Town accepts their explanation or the case collapses, mark another plausible future death. Existing marks persist, so refreshing the same survivor is usually unnecessary.",
+        "goals": [
+          "Name the public reason they may die",
+          "Keep Reap separate from a TI result",
+          "Track the actual Soul count"
+        ],
+        "laterPriorities": [
+          "Spread marks rather than repeatedly selecting an existing one.",
+          "Do not expose yourself through exclusive focus on every marked player.",
+          "At transformation, stop planning Reap and survive Death’s current day."
+        ],
+        "risk": "Overpushing a framed target can reveal your interest, and changing investigation appearance does not prove the target is actually evil.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-balance-changes-and-bug-fixes-patch-notes-r1-5-05/"
+        ]
+      }
+    ],
+    "defaultLabel": "Mark the likely next death"
+  },
+  "doomsayer": {
+    "defaultWhen": "Use the mixed evidence-first approach when no single faction supplies three reliable eligible identities. N1 is preparation only.",
+    "defaultRisk": "Waiting for certainty can leave too few survivors. A whole-set failure does not identify which individual guess was wrong.",
+    "alternatives": [
+      {
+        "id": "public-demonstrations",
+        "label": "Build around demonstrated Town abilities",
+        "when": "Public abilities identify several living, guessable non-TI Town roles more firmly than ordinary claims do.",
+        "action": "Record those demonstrated roles on N1 if available; from N2, combine them with enough other legal supported identities and confirm the three-player set.",
+        "targetRule": "A visible Mayor reveal or genuine daytime demonstration is stronger role evidence than someone merely typing the role. Exclude TI and check the current guess menu.",
+        "reason": "Exact Town guesses are easier when the role has publicly demonstrated itself. You reduce one kind of uncertainty while still needing all three entries correct together.",
+        "pivot": "If demonstrations do not supply three living legal identities, supplement with supported Coven or eligible Neutral guesses rather than forcing three Town entries.",
+        "goals": [
+          "Separate claims from demonstrations",
+          "Keep all three targets alive and eligible",
+          "Confirm only from a legal night"
+        ],
+        "laterPriorities": [
+          "Update exact current roles after known role changes.",
+          "Replace dead or invalid targets before confirming.",
+          "Act before the living population makes a legal set impossible."
+        ],
+        "risk": "Waiting for three public reveals can be too slow, and conversion or role changes complicate the category you should enter.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)"
+        ]
+      },
+      {
+        "id": "coven-faction-set",
+        "label": "Use well-supported Coven identities",
+        "when": "Several living players have strong Coven evidence but their exact Coven roles remain unknown.",
+        "action": "Prepare those identities on N1; from N2 use the Coven faction category for supported Coven members and fill the remaining legal slots with your strongest evidence.",
+        "targetRule": "Use more than a convenient accusation: consider incompatible Town accounts, real reveals, or multiple independent reports. A suspicious Sheriff result alone is not exact Coven identification.",
+        "reason": "Coven guesses do not require the exact Coven role. That removes a precision burden without making a faction hunch reliable by itself.",
+        "pivot": "Recheck an accused player who demonstrates a different legal identity; do not keep a wrong faction guess because it made the set look tidy.",
+        "goals": [
+          "Use the correct faction input",
+          "Avoid treating Suspicious as Coven-only",
+          "Preserve evidence for all three guesses"
+        ],
+        "laterPriorities": [
+          "Watch for exposed Coven dying before your legal attempt.",
+          "Mix categories rather than insisting on a three-Coven set.",
+          "After a failed set, reconsider every uncertain entry."
+        ],
+        "risk": "Publicly pushing these players may get them executed before you can guess them. A team association or vote pattern is still an inference.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Build a reliable three-player set"
+  },
+  "executioner": {
+    "defaultWhen": "Use the quieter public-evidence case when your assigned target has not already made a strong, easily verifiable Town demonstration.",
+    "defaultRisk": "A slow case can lose the target to another killer, and your early Basic Defense ends at D3. You must still be alive for the qualifying execution.",
+    "alternatives": [
+      {
+        "id": "disputed-ti-case",
+        "label": "Take an active TI cover for earlier pressure",
+        "when": "You understand the chosen TI role, can maintain its legal history, and the target already has a public inconsistency worth questioning.",
+        "action": "N1 has no real check: prepare a specific TI cover. On D2 post its legal account early, then use the existing contradiction to request the assigned target’s full explanation.",
+        "targetRule": "Focus on the assigned target, but link pressure to something other players can assess. A fabricated Sheriff or Investigator result remains a cover claim, not something Executioner learned.",
+        "reason": "An active report can move discussion faster than a passive TP cover. It also creates a movement and result history that the lobby can challenge.",
+        "pivot": "If the target is convincingly demonstrated or you are being read as their Executioner, reassess the case instead of escalating into an impossible result. If they die outside execution, switch to Jester.",
+        "goals": [
+          "Name your cover’s actual result rules",
+          "Ask for a qualifying trial rather than a shot",
+          "Stay alive through the target’s execution"
+        ],
+        "laterPriorities": [
+          "Maintain early posting and an unchanged target history.",
+          "Use public contradictions without pretending a claim gives certainty.",
+          "After a Jester conversion, check that day’s Chatterbox requirement immediately."
+        ],
+        "risk": "This is higher upkeep than the default. Your assigned Town target normally has not been visited by you, and observers or independent checks can expose the invented investigation.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Build a public-evidence case"
+  },
+  "jester": {
+    "defaultWhen": "Use modest, plausible suspicion when Town is willing to trial weak claims. Complete the displayed Chatterbox requirement before judgment.",
+    "defaultRisk": "An obvious Jester performance can get ignored or shot. A night death, ordinary day shot, or hanging without the required quota does not win.",
+    "alternatives": [
+      {
+        "id": "credible-until-pressure",
+        "label": "Start credible; become the unresolved claim later",
+        "when": "The lobby is quick to shoot obvious Jesters or currently has a stronger execution target than you.",
+        "action": "Prepare a coherent Town cover on N1. On D2 meet Chatterbox early, answer normal questions and contribute a little useful public reasoning; allow a weak explanation or unresolved claim to become the later trial case.",
+        "targetRule": "Use a cover you actually understand. A quiet Deputy account is easier to maintain initially than an invented chain of exact investigations.",
+        "reason": "Looking somewhat useful reduces the incentive to remove you by a day shot or night attack. You can become the plausible false claim once stronger cases are resolved.",
+        "pivot": "If you become too trusted and are never considered for trial, allow a modest inconsistency rather than claiming impossible N1 powers. If a shot is threatened, make the trial route seem worth resolving.",
+        "goals": [
+          "Meet today’s quota before the trial gets urgent",
+          "Keep enough credibility to avoid being dismissed as Jester",
+          "Become unresolved rather than publicly confirmed"
+        ],
+        "laterPriorities": [
+          "Recheck Chatterbox every day, including after an Executioner conversion.",
+          "Build just enough doubt for a qualifying execution.",
+          "After the successful hanging, choose a legal Haunt target; Haunt is the reward, not a second victory requirement."
+        ],
+        "risk": "Delaying gives killers more time to remove you, and your early Basic Defense expires at D3. It is a conditional alternative, not a safer guaranteed win.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
+        ]
+      },
+      {
+        "id": "disputed-report",
+        "label": "Offer a believable but disputed TI report",
+        "when": "The lobby uses early TI posts to choose trials, and you understand the report format well enough to avoid an impossible result.",
+        "action": "Use N1 to prepare a Sheriff-style cover; there is no real Jester check. Post a legal-looking result early on D2, complete Chatterbox, and let a limited contradiction make your account questionable.",
+        "targetRule": "A routine Innocent result on an unresolved player is a lower-commitment opening than an unsupported guaranteed evil accusation. Ordinary public disagreement can create suspicion without claiming impossible knowledge.",
+        "reason": "A disputed report gives Town a concrete account to evaluate. Your objective is a plausible false-claim trial, not maintaining perfect investigative credibility forever.",
+        "pivot": "If Town identifies the performance as Jester or chooses to shoot you, offer a coherent explanation and steer toward resolving the account by trial rather than escalating the absurdity.",
+        "goals": [
+          "Use a legal result vocabulary",
+          "Do not skip Chatterbox while arguing",
+          "Keep the desired death route a trial execution"
+        ],
+        "laterPriorities": [
+          "Keep old entries unchanged so suspicion concerns the story rather than random nonsense.",
+          "Avoid starting cases that permanently remove every reason to trial you.",
+          "Use the eligible Haunt menu only after the qualifying execution."
+        ],
+        "risk": "TI upkeep is higher, and a very obvious lie may convince Town to avoid hanging you. The claim cannot force another player’s verdict.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Create modest plausible suspicion"
+  },
+  "pirate": {
+    "defaultWhen": "Use the private Scour-first approach until you know which specific players, rather than merely which original role labels, are your Landlubbers.",
+    "defaultRisk": "Scouring quietly takes time, and Basic Plunder may fail against defense. A role hint does not identify the correct holder when duplicates exist.",
+    "alternatives": [
+      {
+        "id": "conditional-cooperation",
+        "label": "Seek daytime cooperation after checking your targets",
+        "when": "Your Town Landlubber is already dead or the remaining verified target is a shared threat, and disclosure is more useful than preserving a weak Town cover.",
+        "action": "N1 still begins with Scour, not Plunder. After verified information supports cooperation, consider disclosing the Pirate objective and seeking a qualifying target’s ordinary daytime death.",
+        "targetRule": "Name only a target you actually verified or can support publicly. Explain the difference between an original-role hint and a confirmed Landlubber player.",
+        "reason": "Any death of the actual Landlubber can advance your objective. A vote can be more effective than spending Basic Plunder into known defense.",
+        "pivot": "If cooperation will expose a Town Landlubber or identify you to a dangerous remaining target, retain the Town cover and continue private verification instead.",
+        "goals": [
+          "Verify the actual player marker",
+          "Assess who benefits from disclosure",
+          "Survive until the final Landlubber dies"
+        ],
+        "laterPriorities": [
+          "Track the same target players through role changes.",
+          "Spend Plunder only when its limited charges have real expected value.",
+          "Reassess safety when your early Basic Defense ends at D3."
+        ],
+        "risk": "Claiming Pirate does not oblige Town to spare you, and a remaining Landlubber may attack you. This is an optional disclosure route, not a suggested Coven or Neutral public-will template.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Verify targets with Scour"
+  },
+  "arsonist": {
+    "defaultWhen": "Use active Douse while safe living opponents remain undoused and no current ignition would produce a decisive swing.",
+    "defaultRisk": "Each direct Douse creates movement evidence, and delaying Ignite too long lets already Doused opponents die elsewhere or execute you.",
+    "alternatives": [
+      {
+        "id": "clean-survival",
+        "label": "Clean when you are actually Doused",
+        "when": "The client says another Arsonist or a redirection Doused you, and an ignition could end your game.",
+        "action": "Choose neither Douse nor Ignite to Clean yourself tonight; keep the missing direct visit consistent with your public account.",
+        "targetRule": "This is a self-survival choice, not a selected-player target. Do not idle for cleaning value when you have no gasoline to remove.",
+        "reason": "Your own Unstoppable ignition can kill you if you are Doused. Removing that immediate danger can outweigh one more setup target.",
+        "pivot": "Once clean, return to Douse or a justified Ignite. Cleaning does not prevent you from being Doused again later.",
+        "goals": [
+          "Confirm an actual self-Douse",
+          "Leave both active modes unselected",
+          "Update the movement account"
+        ],
+        "laterPriorities": [
+          "Check your own gasoline state before every Ignite.",
+          "Track living Doused opponents rather than historical selections.",
+          "Choose ignition timing from the current vote and threat map."
+        ],
+        "risk": "Cleaning costs a setup or kill night and does not make you safe from votes or all attacks.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)"
+        ]
+      },
+      {
+        "id": "early-ignite",
+        "label": "Ignite early for a decisive removal",
+        "when": "Your existing Doused set already contains an immediate execution organizer, dangerous killer, or enough opposing votes to change the endgame.",
+        "action": "Ignite the existing Doused opponents instead of adding another direct Douse. This is exceptional on the opening night and requires actual existing coverage.",
+        "targetRule": "Count living Doused players you actually know about and check that you are clean. New visitors passively Doused tonight do not burn in the same ignition.",
+        "reason": "A smaller well-timed ignition can save your position; perfect coverage is useless if you die before using it.",
+        "pivot": "If the visible Doused set does not justify the action, keep building rather than treating an early ignition as inherently stronger.",
+        "goals": [
+          "Count real living coverage",
+          "Check that you are not Doused",
+          "Identify the vote or threat swing"
+        ],
+        "laterPriorities": [
+          "Recheck which threats survived the resolution.",
+          "Rebuild coverage only where it changes the next decision.",
+          "Keep direct Douse and astral Ignite nights distinct in your cover history."
+        ],
+        "risk": "You may burn a small set and leave yourself without leverage. Passive Douses are not a complete visitor list, and unseen Douses belonging to another Arsonist complicate certainty.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Build living Douse coverage"
+  },
+  "serial-killer": {
+    "defaultWhen": "Use Cautious on for a controlled opening attack when avoiding an exposed roleblocker counterkill is worth more than a possible bonus kill.",
+    "defaultRisk": "You give up possible extra kills from non-Cautious retaliation. Failed kills still interrupt Bloodlust progress.",
+    "alternatives": [
+      {
+        "id": "counterkill-pressure",
+        "label": "Turn Cautious off for counterkill potential",
+        "when": "A blocker is likely to target you and the extra kill is worth the public exposure and protective-counterattack risk.",
+        "action": "Disable Cautious, then choose your ordinary attack target if attacks are enabled. Turning Cautious off does not replace that selected attack.",
+        "targetRule": "Keep the main attack aimed at a plausibly killable opponent. Evaluate the suspected blocker separately; protection on them may make retaliation dangerous.",
+        "reason": "A successful counterkill can add Bloodlust progress and remove a disruptor. The distinctive death and destroyed will can also direct attention toward you.",
+        "pivot": "Return to Cautious when preserving a plausible identity matters more than the expected extra kill, or when the blocker has credible protection.",
+        "goals": [
+          "Check the actual Cautious setting",
+          "Keep the main target deliberate",
+          "Weigh exposure against a bonus kill"
+        ],
+        "laterPriorities": [
+          "Count actual kills and the client’s current Bloodlust state.",
+          "Use Apex traffic only when the current attack tier is active.",
+          "Reassess known blockers, protection and observers each night."
+        ],
+        "risk": "Retaliation is not a guaranteed safe kill. Source descriptions disagree about its exact power; do not base this route on defeating a particular shield or Invincible role.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Keywords_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Controlled attack with Cautious on"
+  },
+  "shroud": {
+    "defaultWhen": "Use a direct Attack when you lack a reliable visiting read and want control over the intended victim.",
+    "defaultRisk": "Your visible direct visit is easier to trace. Basic Attack still fails against suitable defense or protection.",
+    "alternatives": [
+      {
+        "id": "known-carrier",
+        "label": "Shroud a credible useful visitor",
+        "when": "A known visiting role has predictable useful destinations; a credible multi-visitor offers especially strong potential.",
+        "action": "Select Shroud on that visitor, aiming to send attacks through their actual direct visits rather than choosing the final victim yourself.",
+        "targetRule": "Prefer a credible direct visitor, not Oracle or another astral-only action. A Seer can visit more than one house, but a role claim alone does not guarantee what they do tonight.",
+        "reason": "One carrier can reach destinations you would rather avoid visiting directly and may produce more than one attack. That upside depends on the carrier actually making the expected visits.",
+        "pivot": "If the carrier holds, is blocked, acts astrally, or changes destination, reassess from feedback; the ability can fall back to attacking the carrier.",
+        "goals": [
+          "Identify a real direct-visit route",
+          "Keep carrier and final victims separate",
+          "Avoid assuming guaranteed astral safety"
+        ],
+        "laterPriorities": [
+          "Compare actual deaths and movement reports.",
+          "Change carriers when their route is no longer useful.",
+          "Return to direct Attack when predictability matters more than speculative reach."
+        ],
+        "risk": "Shroud visibility and fallback behavior remain inconsistent in the source. A carrier may be protected, nonvisiting, redirected, or sent to an unhelpful target.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Control a direct attack"
+  },
+  "werewolf": {
+    "defaultWhen": "Use persistent Scent off-moon and a chosen traffic house on-moon when your movement and attack route are reasonably safe.",
+    "defaultRisk": "An attractive traffic house may also be protected. Scent information does not make later attack-night movement fit a Tracker cover automatically.",
+    "alternatives": [
+      {
+        "id": "home-rampage",
+        "label": "Stay home on a full moon",
+        "when": "You expect useful hostile visitors at your own house and an outward visit would face a more serious known danger.",
+        "action": "On a full moon, choose no outward attack target and Rampage at home. Off-moon this option is not an attack: continue an eligible Scent action if useful.",
+        "targetRule": "Use an actual reason to expect visitors, such as an existing threat to inspect or attack you. Do not create a generic TP/LO request that mainly attracts friendly Town visitors into the attack.",
+        "reason": "Home Rampage trades certainty about the resident you attack for the chance to remove visitors while keeping no outward visit.",
+        "pivot": "If nobody has a reason to visit you, a useful external traffic house usually has more immediate value. Recheck the actual moon indicator.",
+        "goals": [
+          "Confirm a full moon and enabled attack",
+          "Recognize that holding still attacks visitors",
+          "Keep the no-outward-visit history accurate"
+        ],
+        "laterPriorities": [
+          "Use real surviving Scent information for later choices.",
+          "Reassess whether your house will still attract useful visitors.",
+          "Count votes as well as potential Rampage kills."
+        ],
+        "risk": "Nobody may visit, and an outward-target opportunity is lost. Staying home is not harmless and does not grant Invincible Defense.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)"
+        ]
+      }
+    ],
+    "defaultLabel": "Scent off-moon; attack traffic on-moon"
+  },
+  "cursed-soul": {
+    "defaultWhen": "Choose a useful eligible role to acquire when a reliable claim exists; otherwise choose an eligible unknown and read the actual swap result.",
+    "defaultRisk": "In the normal Wandering Souls faction, selection does not guarantee that player’s role. No selection is an automatic random Swap, not a safe hold.",
+    "alternatives": [
+      {
+        "id": "acquire-directed-kill",
+        "label": "Seek an ability that can remove Cursed Souls",
+        "when": "A credible eligible killing-role claim exists and acquiring its ability would help eliminate the remaining Cursed Soul role holders.",
+        "action": "Attempt Soul Swap with that eligible role holder. At dawn, check the actual new role and use its legal ability rules toward the unchanged Wandering Souls objective.",
+        "targetRule": "Avoid known Swap-immune targets. Distinguish the player you selected, the actual swap outcome, and whoever currently holds the Cursed Soul role.",
+        "reason": "A useful acquired ability can pursue your faction’s objective directly. Role acquisition does not make you join that role’s usual faction.",
+        "pivot": "If randomness gives you a different role, follow that real card rather than the desired one. If another swap changes the Cursed Soul holder, update before attacking.",
+        "goals": [
+          "Separate role from faction",
+          "Read the resolved swap rather than the selection",
+          "Find the current Cursed Soul holders"
+        ],
+        "laterPriorities": [
+          "Use acquired abilities only on their legal timings.",
+          "Recheck chained swaps before eliminating a stale target.",
+          "Ensure a Wandering Souls member survives when the final Cursed Soul dies."
+        ],
+        "risk": "Your selected acquisition may not occur, and immediately exposing your faction can invite a day shot. A former holder is not automatically the current Cursed Soul.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-balance-changes-and-bug-fixes-patch-notes-r1-5-05/"
+        ]
+      }
+    ],
+    "defaultLabel": "Acquire a useful eligible role"
+  },
+  "vampire": {
+    "defaultWhen": "Use Convert while charges remain and an apparently undefended Town player offers a useful ally and retained ability.",
+    "defaultRisk": "A non-Town or defended target falls back to Drain. Gaining an ally also changes your solo defense and detection situation.",
+    "alternatives": [
+      {
+        "id": "remove-immediate-threat",
+        "label": "Drain an immediate threat instead",
+        "when": "A known opponent threatens your survival now, conversion is unavailable or unsuitable, and a Basic attack can plausibly kill them.",
+        "action": "Choose Drain on that opponent if attacks are enabled instead of spending a Convert charge on a low-confidence candidate.",
+        "targetRule": "Prefer an apparently undefended exposed threat. Do not attack a known Basic-Defense opponent merely because conversion would fail on them too.",
+        "reason": "Growing your faction is normally valuable, but removing an immediate danger can preserve your ability to convert later and protect existing members.",
+        "pivot": "If the threat is protected or not immediately dangerous, seek a better Convert target. During Grace Period an attack may be unavailable even when Convert remains possible.",
+        "goals": [
+          "Check remaining Convert charges",
+          "Verify Drain is enabled",
+          "Compare one kill with one useful ally"
+        ],
+        "laterPriorities": [
+          "Coordinate retained abilities and votes with real faction members.",
+          "Track shared conversion resources rather than assuming a replacement Vampire refreshes them.",
+          "Avoid exposing the whole faction through an unnecessary linked claim."
+        ],
+        "risk": "A kill forfeits a potential ally and may fail against defense. Do not treat Drain as a universally better opening than Convert.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+        ]
+      }
+    ],
+    "defaultLabel": "Convert a useful Town ally"
+  },
+  "famine": {
+    "defaultWhen": "As an already transformed Famine, prioritize surviving the vote and accelerating starvation on a useful living Bread-holder.",
+    "defaultRisk": "Invincible Defense does not prevent trial execution. An irrelevant target may waste the extra Bread reduction while a dangerous recipient organizes your hanging.",
+    "alternatives": [
+      {
+        "id": "earlier-vote-removal",
+        "label": "Finish a Bread countdown for a vote swing",
+        "when": "A lower-influence Bread-holder is close enough to starvation that accelerating them can remove a needed opposing vote sooner than targeting the main organizer.",
+        "action": "Use Starve on that near-expiry Bread-holder while keeping the main organizer under daytime scrutiny.",
+        "targetRule": "Choose an actual living opposing Bread-holder with supported remaining-food information. Compare the immediate vote effect with pressuring the loudest opponent.",
+        "reason": "The default prioritizes the player organizing your execution. An earlier certain vote reduction can matter more when one fewer opponent changes who can be nominated tomorrow.",
+        "pivot": "If no immediate starvation or vote swing is supported, return to the dangerous Bread-holder default instead of chasing an imagined countdown advantage.",
+        "goals": [
+          "Use current Bread information",
+          "Count the vote change from an earlier death",
+          "Keep the transformed Starve rules"
+        ],
+        "laterPriorities": [
+          "Recount surviving opposing votes after starvation resolves.",
+          "Return pressure to the remaining execution organizer.",
+          "Survive each day so passive Famine continues."
+        ],
+        "risk": "A guessed countdown can be wrong. Removing a weaker voter may leave the strongest organizer alive for another day.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)#Famine"
+        ]
+      }
+    ],
+    "defaultLabel": "Survive and Starve Bread-holders"
+  },
+  "war": {
+    "defaultWhen": "As War, use two different meaningful opposing houses when both add value. The transformation has already happened.",
+    "defaultRisk": "Huge night power does not protect against a daytime execution. Reusing an unhelpful target or ignoring visitor traffic can waste the second selection.",
+    "alternatives": [
+      {
+        "id": "split-traffic-threat",
+        "label": "Split one threat and one visitor hub",
+        "when": "A direct execution organizer and a separate busy house offer more combined value than simply taking the two loudest players.",
+        "action": "Confirm Rampage at the known immediate threat and a distinct useful house expected to receive opposing visitors.",
+        "targetRule": "Count unique opponents you may remove; visitors shared by both houses do not become two different players. Do not choose an ally in a setup that actually provides allies.",
+        "reason": "One selection removes a known danger while the other uses the Rampage attribute for broader reach. Unstoppable attacks still do not overcome every form of Invincible Defense.",
+        "pivot": "If the visitor prediction is weak, prefer a second concrete opposing vote. Confirm both selections rather than assuming the second is automatic.",
+        "goals": [
+          "Confirm two distinct useful houses",
+          "Separate guaranteed residents from speculative visitors",
+          "Preserve daytime survival"
+        ],
+        "laterPriorities": [
+          "Recount opposing voters after resolution.",
+          "Reassess known Invincible opponents and special win threats.",
+          "Use the next two targets to close the actual endgame."
+        ],
+        "risk": "Traffic is a prediction, and an attractive house may be empty of visitors. A complicated night plan cannot replace surviving today.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)#War"
+        ]
+      }
+    ],
+    "defaultLabel": "Attack two distinct opposing houses"
+  },
+  "pestilence": {
+    "defaultWhen": "As Pestilence, directly remove the opponent most likely to coordinate your execution while passive stack pressure develops.",
+    "defaultRisk": "You still lose to a qualifying daytime execution. Do not confuse current Pestilence stacks with the pretransformation infection-coverage goal.",
+    "alternatives": [
+      {
+        "id": "break-vote-bloc",
+        "label": "Break a known opposing vote bloc",
+        "when": "An organized group has the decisive voting numbers, while the loudest individual is not the only reason you are threatened.",
+        "action": "Use Spread Pestilence on a key opposing bloc member whose removal changes the next voting threshold, rather than automatically choosing the loudest speaker.",
+        "targetRule": "Count actual surviving coordinated votes and select a meaningful member not already expected to die from passive stacks. Do not treat every quiet player as part of the same team.",
+        "reason": "A coalition can continue organizing your execution after one speaker dies. This route chooses by the bloc’s remaining numbers rather than individual prominence.",
+        "pivot": "If the bloc association is only a hunch or one active organizer is clearly the immediate danger, use the default direct threat removal instead.",
+        "goals": [
+          "Use Spread Pestilence rather than Infect",
+          "Count real opposing votes",
+          "Avoid duplicating a likely passive death"
+        ],
+        "laterPriorities": [
+          "Recount blocs after each death resolution.",
+          "Recheck which opponent can still assemble an execution majority.",
+          "Stay alive through the day so ongoing Pestilence remains lethal."
+        ],
+        "risk": "Team or coalition membership is often uncertain. A mathematically attractive night removal does not prevent your execution earlier in the same day.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)#Pestilence"
+        ]
+      }
+    ],
+    "defaultLabel": "Remove the execution organizer"
+  },
+  "death": {
+    "defaultWhen": "As Death, the transformation day is the decisive phase: survive it with a stable account and checkable answers.",
+    "defaultRisk": "Invincible Defense does not prevent being executed. There is no additional Reap target or ordinary night setup that fixes a losing vote today.",
+    "alternatives": [
+      {
+        "id": "resolve-strongest-accusation",
+        "label": "Answer the strongest case directly",
+        "when": "One concrete contradiction or competing account is concentrating votes on you.",
+        "action": "Identify the exact accusation, give the shortest consistent timeline that addresses it, and point to facts the lobby can check now. Preserve your previous claim rather than inventing a new night ability.",
+        "targetRule": "Your target is the decisive public objection, not a player to Reap. Compare your existing movement and claim history with the accusation.",
+        "reason": "Fixing one checkable misunderstanding can cost the opposing majority its strongest reason to execute you. Adding several unsupported stories increases the chance of a new contradiction.",
+        "pivot": "If the evidence truly exposes you, assess the actual vote coalition and any other supported urgent case; do not promise another night result that Death cannot produce.",
+        "goals": [
+          "Recognize the current-day deadline",
+          "Address one concrete claim conflict",
+          "Keep the public timeline unchanged"
+        ],
+        "laterPriorities": [
+          "Track nominations and remaining opposing votes during this day.",
+          "Use discussion to preserve survival rather than to plan Reap.",
+          "Remain in the game through the end-of-day resolution."
+        ],
+        "risk": "A sound explanation may still fail against a coordinated majority. The transformation announcement makes Town especially likely to compare every claim.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)#Death"
+        ]
+      }
+    ],
+    "defaultLabel": "Survive the transformation day"
+  }
+}

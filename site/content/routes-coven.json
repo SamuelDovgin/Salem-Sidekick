@@ -1,0 +1,776 @@
+{
+  "archmage": {
+    "defaultWhen": "The book attack is enabled and no specific team problem justifies giving up the kill.",
+    "defaultRisk": "A direct attack can hit protection or a visitor trap. Retrain changes real abilities and can break an ally’s established cover.",
+    "alternatives": [
+      {
+        "id": "retrain-for-a-plan",
+        "label": "Retrain for a specific team need",
+        "when": "The current composition cannot solve a named obstacle, or an ally has agreed that replacing their ability is worth losing this ordinary kill.",
+        "action": "Use Retrain on yourself or an agreeing ally; choose an available legal Coven role that solves that problem.",
+        "targetRule": "Name the missing utility first. Another ally can receive only an eligible Common Coven role; self-Retrain has broader valid choices.",
+        "reason": "A deliberate role change can add lasting utility, while a random replacement can remove the very ability the team needed.",
+        "pivot": "If the desired role is unavailable, the ally declines, or a useful kill matters more tonight, return to the attack plan.",
+        "goals": [
+          "Agree which ability the team needs",
+          "Check the offered replacement is legal",
+          "Record which role will actually act next night"
+        ],
+        "laterPriorities": [
+          "Verify the role change actually resolved",
+          "Build the next team plan around the replacement",
+          "Update the public cover when future movement changes"
+        ],
+        "risk": "Retrain and the ordinary book attack are alternative actions. Do not promise both; do not silently replace an ally’s useful role.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "hex-master": {
+    "defaultWhen": "You are Hexing without the book and can mark a living opponent the team expects to leave alive.",
+    "defaultRisk": "Every death can change the completion count. A successful mark on tonight’s kill usually contributes less lasting progress.",
+    "alternatives": [
+      {
+        "id": "astral-book-kill",
+        "label": "Use the astral book attack",
+        "when": "You hold the book and the team needs a kill more than slow progress on surviving Hex targets.",
+        "action": "Choose the best reachable enemy for the combined Hex and book attack.",
+        "targetRule": "An exposed useful enemy with direct-visit protection can be attractive because this attack is astral; Powerful Defense can still stop its Basic damage.",
+        "reason": "Astral targeting avoids ordinary visitor interception, so it can solve a kill route a direct attacker cannot safely use.",
+        "pivot": "If the target survives and remains Hexed, update the live count; do not count an attack attempt as a guaranteed kill.",
+        "goals": [
+          "Confirm you hold the book",
+          "Separate defense from visit interception",
+          "Recount living unhexed enemies"
+        ],
+        "laterPriorities": [
+          "Use astral access against suitable protected houses",
+          "Preserve survival if the Hex Bomb is near",
+          "Reassess the remaining unhexed player after each death"
+        ],
+        "risk": "The action no longer looks like an ordinary visiting Cleric or Psychic. Astral does not mean stronger attack or immunity to every investigation.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "witch": {
+    "defaultWhen": "You lack a confirmed role to exploit, so information plus a safe nonally destination has the best general value.",
+    "defaultRisk": "The controlled player knows Control happened. Hangover blocks consecutive Control, and the second selection is their destination, not a second personal visit.",
+    "alternatives": [
+      {
+        "id": "redirect-protection",
+        "label": "Redirect a known protector",
+        "when": "You have reliable reason to think an enemy has useful targeted protection and want to divert it from the team’s intended victim.",
+        "action": "Control that protector toward an eligible ally or another destination the team wants protected.",
+        "targetRule": "Keep the controlled player as your first selection. Pick the second destination for the actual protective ability, including restrictions and visitor danger.",
+        "reason": "This can both strip the enemy’s intended protection and use the displaced protection for Coven.",
+        "pivot": "Change the plan if they are Hungover, immune, out of uses, or the redirected action did not resolve.",
+        "goals": [
+          "Identify the actual protective ability",
+          "Coordinate the team kill destination",
+          "Keep first target and redirected destination separate"
+        ],
+        "laterPriorities": [
+          "Rotate around Hangover",
+          "Use learned roles to choose valuable redirections",
+          "Do not expose extra role knowledge in a cover will"
+        ],
+        "risk": "Some abilities cannot be forced and special-button behavior differs. A protected ally is not automatically saved; the controlled player can report being Witched.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)"
+        ]
+      },
+      {
+        "id": "redirect-danger",
+        "label": "Exploit a known dangerous visitor",
+        "when": "You know an enemy’s usable attack or other consequential visit, and have a specific destination where it benefits Coven.",
+        "action": "Control that enemy toward a useful nonally; coordinate a Jinx trap only if that visitor and house create a sensible ambush.",
+        "targetRule": "Never direct a dangerous action into an ally for convenience. Check that the first target can actually perform the action tonight.",
+        "reason": "A known ability is more valuable than random redirection because you can predict what the forced destination changes.",
+        "pivot": "If the target cannot act, is immune, or is Hungover, choose a different eligible actor rather than repeating the same Control.",
+        "goals": [
+          "Check action and charge availability",
+          "Choose a safe destination for Coven",
+          "Record success versus mere selection"
+        ],
+        "laterPriorities": [
+          "Exploit confirmed role knowledge",
+          "Share genuine stolen feedback privately",
+          "Reassess book damage against the first target"
+        ],
+        "risk": "A Werewolf or Serial Killer interaction can be lethal. Your personal footprint is still the first selected player; do not claim two Seer visits.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "conjurer": {
+    "defaultWhen": "You do not hold the book. There is no separate night ability, so your meaningful choice is the later Meteor timing.",
+    "defaultRisk": "Meteor has one use, a distinctive public death event, and no D1 use. It cannot demonstrate a Deputy shot.",
+    "alternatives": [
+      {
+        "id": "book-night-kill",
+        "label": "Take an enabled book kill",
+        "when": "You actually hold the Necronomicon and the team has assigned you its night attack.",
+        "action": "Coordinate a Basic attack on one useful nonally while retaining the unused day Meteor.",
+        "targetRule": "Choose a reachable enemy rather than a likely direct-visit trap. Grace Period can make an N1 attack unavailable.",
+        "reason": "Using the book supplies real night kill value without spending the separate one-use day resource.",
+        "pivot": "If the night action is disabled, hold it; reassess the Meteor at the next legal day window instead.",
+        "goals": [
+          "Confirm book ownership",
+          "Agree the target with Coven",
+          "Keep the day charge separate"
+        ],
+        "laterPriorities": [
+          "Use Meteor when it changes the day outcome",
+          "Avoid duplicating an inevitable execution",
+          "Update a nonvisiting cover before later visible attacks"
+        ],
+        "risk": "A night book kill is a direct visit. You cannot retroactively present Meteor as a normal Deputy shot or count night protection as daytime safety.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "ritualist": {
+    "defaultWhen": "There is no well-supported exact legal role, so preserve both scarce Ritual attempts.",
+    "defaultRisk": "Wrong guesses still spend a charge. TI and Illuminated players are ineligible, and an alignment such as TP is not an exact role.",
+    "alternatives": [
+      {
+        "id": "supported-ritual",
+        "label": "Spend a supported Ritual",
+        "when": "A valuable non-TI target has a reliable exact role and is not currently Illuminated.",
+        "action": "Use Blood Ritual with that exact role after checking eligibility and the team’s plan.",
+        "targetRule": "Prefer a verified or strongly supported exposed enemy. Do not substitute a role-family guess or stale role information after a possible change.",
+        "reason": "A correct legal Ritual is an astral Unstoppable attack, which can solve protection a Basic book attack cannot.",
+        "pivot": "If Illumination or uncertainty appears, keep the attempt and use a different legal plan.",
+        "goals": [
+          "Verify exact role rather than alignment",
+          "Check Illumination",
+          "Record remaining attempts"
+        ],
+        "laterPriorities": [
+          "Spend only on supported eligible enemies",
+          "Recheck role changes before reusing information",
+          "Keep the unused book alternative distinct"
+        ],
+        "risk": "Even a correct guess cannot kill Invincible Defense. A wrong guess creates no usable result and still costs a charge.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-instead",
+        "label": "Use the book instead of guessing",
+        "when": "You hold the book but lack a good legal Ritual guess, or a Basic attack is sufficient.",
+        "action": "Select the ordinary book attack against a useful reachable enemy.",
+        "targetRule": "Check direct-visit protection and choose a target whose death helps the team; do not guess just to use the more unusual button.",
+        "reason": "A coordinated Basic attack can advance Coven while preserving both Ritual attempts for better role information.",
+        "pivot": "If a high-confidence protected legal target emerges, compare an actual Ritual before submitting the final action.",
+        "goals": [
+          "Choose one actual night mode",
+          "Check the direct destination",
+          "Preserve the Ritual count"
+        ],
+        "laterPriorities": [
+          "Reserve Rituals for exact-role opportunities",
+          "Track book ownership and visit evidence",
+          "Reassess the cover when switching from astral to direct action"
+        ],
+        "risk": "The book attack is an alternative to Blood Ritual and creates a normal visit. Do not claim both resolved that night.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "jinx": {
+    "defaultWhen": "You can predict useful enemy visitor traffic without creating a crowd of surviving witnesses; otherwise a nonbook hold is reasonable.",
+    "defaultRisk": "The passive attack hits one eligible non-Coven direct visitor, not every visitor, and surviving direct visitors can identify you. Normal Coven allies are excluded; Town Traitor is an exception.",
+    "alternatives": [
+      {
+        "id": "controlled-visitor",
+        "label": "Coordinate one predictable visitor",
+        "when": "A Witch knows a useful eligible enemy visitor and can legally redirect them into your chosen house.",
+        "action": "Agree a house and a controlled enemy visitor, then Jinx that house without adding unnecessary allied or public traffic.",
+        "targetRule": "Choose a non-Coven resident and a visitor worth attacking. Both players must have a legal, working action; do not treat a control attempt as certainty.",
+        "reason": "One planned enemy visitor can be a better ambush than hoping a crowded protection call contains the right target.",
+        "pivot": "If the Witch target is Hungover, immune, protected, or cannot make the visit, choose a different route or hold.",
+        "goals": [
+          "Agree on the same house",
+          "Check the expected visitor can move",
+          "Plan for a witness who survives"
+        ],
+        "laterPriorities": [
+          "Prefer predicted enemy traffic over random houses",
+          "Reassess immediately after identity exposure",
+          "Coordinate the book and remaining visitor value"
+        ],
+        "risk": "The visitor can survive Basic damage and identify you. Coven visitors are normally spared by the passive attack, but their presence does not make the cover believable.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-with-ambush",
+        "label": "Prioritize the book’s direct kill",
+        "when": "You hold the book and a useful target kill matters even if no visitor ambush occurs.",
+        "action": "Attack the chosen nonally with the book; treat the possible visitor attack as an additional conditional benefit.",
+        "targetRule": "Pick a reachable enemy first. Add visitor value only when there is evidence, rather than sacrificing the important kill for speculative traffic.",
+        "reason": "Late in a game, a reliable direct kill can matter more than an ambush that nobody visits.",
+        "pivot": "If direct protection makes the kill poor or surviving witnesses will decide the next vote, compare another target with the team.",
+        "goals": [
+          "Separate direct and visitor attacks",
+          "Check direct interception risks",
+          "Plan the next day if identified"
+        ],
+        "laterPriorities": [
+          "Use actual kill feedback to update the plan",
+          "Avoid calling the resident protected",
+          "Spend survival and vote control deliberately after exposure"
+        ],
+        "risk": "Book attacks can trigger direct protective retaliation. A Jinx death label or witness is not explained away by calling yourself Crusader.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "dreamweaver": {
+    "defaultWhen": "A useful Town target seems relatively unlikely to receive a Town visit on the following night.",
+    "defaultRisk": "Dreamwoven is a pending effect, not immediate Insomnia. A later Town cure, your death, or Retrain can remove the disruption.",
+    "alternatives": [
+      {
+        "id": "deny-the-cure",
+        "label": "Coordinate denial of a likely cure",
+        "when": "The team has access control or communication disruption that can meaningfully reduce a particular target’s next-night cure.",
+        "action": "Dreamweave that useful Town target, then coordinate the next night’s Smog or an appropriate Silence plan to make the cure harder.",
+        "targetRule": "Use a target whose lost ability matters. Confirm that any Smog does not obstruct the team’s own important visit plan.",
+        "reason": "The delayed payoff is more achievable when the team plans around the following night rather than simply marking a busy public hub.",
+        "pivot": "If a Town astral cure or visible cure removes the pending state, record that failure and choose a new plan.",
+        "goals": [
+          "Track the pending night",
+          "Agree how to reduce cure traffic",
+          "Distinguish Dreamwoven from Insomniac"
+        ],
+        "laterPriorities": [
+          "Check actual cure or progression",
+          "Avoid duplicating disruption on an already disabled enemy",
+          "Stay alive if persistent Insomnia matters"
+        ],
+        "risk": "Smog does not block every astral Town action. Silence hides communication rather than physically preventing a cure.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-pressure",
+        "label": "Make the book kill",
+        "when": "You hold the book and removing a reachable enemy now has more value than selecting only for delayed Insomnia.",
+        "action": "Choose the combined book attack and Dreamweave target for immediate kill value.",
+        "targetRule": "Avoid an ally and weigh actual defense. Retain earlier pending targets in private notes instead of assuming they disappeared.",
+        "reason": "A dead enemy no longer contributes abilities or votes; the delayed effect should not distract from the team’s enabled kill.",
+        "pivot": "If damage fails, keep the real pending effect and its potential cure separate from the unsuccessful kill.",
+        "goals": [
+          "Confirm the direct attack is enabled",
+          "Check enemy defense and traffic",
+          "Keep previous pending states"
+        ],
+        "laterPriorities": [
+          "Prioritize live threats with the book",
+          "Track survivors who may still progress",
+          "Do not invent an immediate roleblock result"
+        ],
+        "risk": "The direct attack can expose your visit and the distinctive dream effect still does not supply the protection promised by a TP cover.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "enchanter": {
+    "defaultWhen": "A plausible investigation target exists and you have no specific coordinated death forgery to justify spending Alterate.",
+    "defaultRisk": "A frame needs a detection channel to matter. It does not rewrite Tracker, Lookout, Spy, or Coroner observations.",
+    "alternatives": [
+      {
+        "id": "coordinated-alterate",
+        "label": "Forge a planned death",
+        "when": "The team expects a particular victim to die and a coherent false role, faction, and will would change Town’s next decision.",
+        "action": "Use Alterate with an internally consistent public story tied to the agreed victim.",
+        "targetRule": "Choose a credible victim with a realistic death plan. Check that the forged claims and results fit earlier public events.",
+        "reason": "Deleting or replacing a real information trail can be worth a scarce forgery charge when it causes a concrete misleading inference.",
+        "pivot": "If the kill is unlikely or a Medusa mark will take priority, preserve the charge instead.",
+        "goals": [
+          "Agree the likely death",
+          "Check the false will against public facts",
+          "Track the two-charge budget"
+        ],
+        "laterPriorities": [
+          "Keep later public claims consistent with the forgery",
+          "Expect unaffected observers to challenge it",
+          "Avoid spending charges on speculative survivors"
+        ],
+        "risk": "A charge can be wasted if the victim lives. Stone Gaze can supersede the displayed forgery, and Coven knowledge is not the same as Town’s view.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-and-frame",
+        "label": "Use the book to make the death happen",
+        "when": "You hold the book and a direct kill or attack-plus-forgery plan is more valuable than a frame alone.",
+        "action": "Choose a reachable enemy for the book attack; add Alterate only if a remaining charge has a useful coherent purpose.",
+        "targetRule": "Choose for kill value and actual defense before choosing the false death story.",
+        "reason": "An enabled attack can turn a death forgery from a guess into a more concrete team plan.",
+        "pivot": "If protection or an obstacle prevents the death, retain that actual outcome rather than presenting the intended forgery as completed.",
+        "goals": [
+          "Choose the useful kill",
+          "Check whether a forgery charge is worth spending",
+          "Separate intended and actual death information"
+        ],
+        "laterPriorities": [
+          "Reconcile forged evidence with later claims",
+          "Do not dismiss unaffected observations as Enchant",
+          "Recheck book ownership and remaining charges"
+        ],
+        "risk": "Book damage is Basic and can fail. An invented personal investigation is still invented even if the target was genuinely Enchanted.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "illusionist": {
+    "defaultWhen": "One ally is carrying out the team’s most exposed important action, usually the active book holder.",
+    "defaultRisk": "Illusion is astral and hides from some investigations; current rules do not let it bypass Bodyguard, Trapper, or Deputy.",
+    "alternatives": [
+      {
+        "id": "broad-phantasm",
+        "label": "Spend Phantasm on broad detection pressure",
+        "when": "Several Coven members face meaningful detection pressure tonight and one Illusion cannot cover the important risk.",
+        "action": "Use the single Phantasm charge for the eligible faction-wide Illusions.",
+        "targetRule": "Name the allies and detection channels this protects. A lone vague worry is a reason to keep the charge.",
+        "reason": "The scarce teamwide ability is worth spending when it covers several real risks at once.",
+        "pivot": "If only one important ally is threatened, return to ordinary Illusion and preserve Phantasm.",
+        "goals": [
+          "Count concrete detection risks",
+          "Check the one-use charge",
+          "Keep the actual book attacker coordinated"
+        ],
+        "laterPriorities": [
+          "Exploit the protected information window",
+          "Remember unaffected observers and protective counters",
+          "Keep Disguise consistent with the public cover"
+        ],
+        "risk": "Phantasm excludes Town Traitors. Illusion does not make an ally safe from every form of observation or direct protective retaliation.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-direct",
+        "label": "Attack with the book instead",
+        "when": "You hold the book and the team needs your direct kill more than an Illusion that night.",
+        "action": "Choose the actual book attack against a useful nonally and verify the final selected mode.",
+        "targetRule": "Avoid direct-visit traps; choose a target whose removal matters.",
+        "reason": "An important kill can outweigh concealment, but it changes your own movement and the cover you can sustain.",
+        "pivot": "If you decide to Illusion instead, actively select that mode; do not assume canceling one automatically restores the other.",
+        "goals": [
+          "Submit one intended ability",
+          "Check the direct target",
+          "Reassess any no-visit cover"
+        ],
+        "laterPriorities": [
+          "Switch back to Illusion when another ally attacks",
+          "Expect direct visit evidence after book nights",
+          "Keep the chosen death Disguise coherent"
+        ],
+        "risk": "Illusion and the ordinary book attack are alternative actions. A direct attack is not covered by claiming an astral Oracle history.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "medusa": {
+    "defaultWhen": "The team has a credible kill plan and hiding that victim’s role or will has useful information value.",
+    "defaultRisk": "Stone Gaze is a permanent mark, not an immediate kill. You have three active charges and already start Stoned yourself.",
+    "alternatives": [
+      {
+        "id": "future-mark",
+        "label": "Mark an important future victim",
+        "when": "Tonight’s agreed kill is unlikely to land, but a different informative enemy is likely to die later.",
+        "action": "Place one persistent Stone mark on that future victim after agreeing why hiding their later information matters.",
+        "targetRule": "Prefer a useful information holder expected to die eventually; do not re-mark an existing target.",
+        "reason": "A permanent mark can still pay off on a later death, so the target need not die the night you visit.",
+        "pivot": "If the player is likely to survive indefinitely or the charge has no foreseeable information value, keep it.",
+        "goals": [
+          "Confirm the target is not already marked",
+          "Name the information you want hidden",
+          "Track the charge and persistence"
+        ],
+        "laterPriorities": [
+          "Coordinate a later meaningful kill",
+          "Avoid duplicate marks",
+          "Distinguish a marked survivor from a completed concealment"
+        ],
+        "risk": "You grant no protection and do not learn a living target’s role simply by marking them. Later death or observer evidence may connect the visit.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
+        ]
+      },
+      {
+        "id": "bank-charges",
+        "label": "Hold when no useful death plan exists",
+        "when": "You have no credible victim or no reason that concealment would help the team.",
+        "action": "Save the active Stone charge and help plan the team’s next informative kill.",
+        "targetRule": "Do not select a random house just to create a visiting will line. If you hold the book and can attack, compare that real kill separately.",
+        "reason": "A limited charge kept for a meaningful death is worth more than one spent without a useful consequence.",
+        "pivot": "Once a useful likely death emerges, choose a fresh mark or a coordinated book attack.",
+        "goals": [
+          "Keep an accurate charge count",
+          "Prepare a cover consistent with holding",
+          "Identify which enemy information is dangerous"
+        ],
+        "laterPriorities": [
+          "Spend marks for actual information denial",
+          "Keep prior marks in the plan",
+          "Reassess after book ownership changes"
+        ],
+        "risk": "Holding produces no direct visit. Do not write a performed Barrier or Psychic target as though matching movement has been established.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "necromancer": {
+    "defaultWhen": "A normal fresh N1 has no usable corpse and you are not making a book attack.",
+    "defaultRisk": "Retributionist overlap only works with a corpse and destination that Town Retributionist could legally use. Dead evil or Stoned bodies break that overlap.",
+    "alternatives": [
+      {
+        "id": "book-instead-of-corpse",
+        "label": "Use the book’s direct attack",
+        "when": "You hold the book and no available corpse action offers greater immediate value.",
+        "action": "Choose a useful nonally for the ordinary book attack rather than inventing a corpse action.",
+        "targetRule": "Check direct-visit protection. On N1, a direct attack can be useful even though the graveyard is empty.",
+        "reason": "The book supplies immediate kill value when your ordinary ability has no resource to use.",
+        "pivot": "When a useful corpse becomes available, compare that ability against the book attack for the next night.",
+        "goals": [
+          "Confirm which night mode is selected",
+          "Keep the empty graveyard chronology honest",
+          "Record the direct target separately"
+        ],
+        "laterPriorities": [
+          "Use eligible Town corpses for a sustained Ret cover",
+          "Reassess before using evil or Stoned corpses",
+          "Keep each corpse’s actual uses and availability"
+        ],
+        "risk": "You cannot perform an ordinary book attack and Reanimate in the same night. A visible living-player attack does not match an empty Ret night.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "poisoner": {
+    "defaultWhen": "A useful enemy night actor can be Drunk and there is no coordinated reason to block access to a different house.",
+    "defaultRisk": "Hangover prevents a consecutive roleblock. Immune targets still act, and an uncautious Serial Killer can retaliate.",
+    "alternatives": [
+      {
+        "id": "smog-access",
+        "label": "Smog a specific access route",
+        "when": "Stopping incoming visits at a house helps the team more than blocking the resident’s own action.",
+        "action": "Smog that house after coordinating every planned allied visit and the intended enemy visit to deny.",
+        "targetRule": "A Dreamwoven target awaiting a cure or a house receiving known protective traffic can be useful. The resident’s own action is not roleblocked by Smog.",
+        "reason": "Access denial can prevent a cure or protection route that ordinary Drink would leave open.",
+        "pivot": "If an essential allied action is blocked too, change the house or use Drink instead.",
+        "goals": [
+          "Name the incoming visit to deny",
+          "Clear the plan with allies",
+          "Keep Smog distinct from Drink"
+        ],
+        "laterPriorities": [
+          "Track obstacles without inventing visitor identities",
+          "Coordinate the next needed kill or cure denial",
+          "Change routes as enemy traffic adapts"
+        ],
+        "risk": "Smog can obstruct Coven visits, including interactions that otherwise look astral; Ritual is a documented exception. It is not a complete Socialite guest-list system.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-block-kill",
+        "label": "Combine book damage with a roleblock",
+        "when": "You hold the book and an enabled enemy kill is the highest-value action.",
+        "action": "Use the book attack on a useful nonally; the action also attempts to roleblock that resident.",
+        "targetRule": "Pick an enemy whose death or stopped action matters, checking actual immunity and defense.",
+        "reason": "This can remove a target and interrupt their action rather than spending the night on access denial.",
+        "pivot": "If damage fails, preserve the distinction between the blocked action, immunity, and the failed kill.",
+        "goals": [
+          "Confirm the book action",
+          "Check defense and roleblock immunity",
+          "Keep Smog off the same-night plan"
+        ],
+        "laterPriorities": [
+          "Rotate around Hangover and immunity",
+          "Use Drink when another ally should attack",
+          "Avoid treating no Coven death as proof a blocked target is the killer"
+        ],
+        "risk": "You cannot use ordinary Smog and the book attack together. Retaliation and direct protection can still matter.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "potion-master": {
+    "defaultWhen": "No ally faces a concrete immediate threat, so one unresolved useful enemy role is worth Revealing.",
+    "defaultRisk": "Reveal grants Illumination, which temporarily stops Ritualist from using that information for a Ritual. Knowing a role does not grant its action history.",
+    "alternatives": [
+      {
+        "id": "barrier-important-ally",
+        "label": "Barrier an ally under real threat",
+        "when": "Keeping a valuable ally alive now matters more than one extra role reveal.",
+        "action": "Use Barrier on that ally and record genuine attack/save feedback.",
+        "targetRule": "Prefer an ally with concrete danger and important remaining utility, not a random recipient. Self-Barrier is possible outside its documented endgame restriction.",
+        "reason": "A real Powerful Barrier can preserve an important teammate and genuinely support part of a Cleric story.",
+        "pivot": "If the threat disappears or would bypass Powerful Defense, compare Reveal or the team’s book plan.",
+        "goals": [
+          "Choose the threatened ally",
+          "Know what Powerful Defense can stop",
+          "Keep actual feedback separate from a guessed save"
+        ],
+        "laterPriorities": [
+          "Protect important remaining utility",
+          "Return to Reveal when no concrete threat exists",
+          "Do not imply every potion night supplied Barrier"
+        ],
+        "risk": "Barrier cannot stop Unstoppable damage. Repeated self-protection does not match a Cleric’s single self-Barrier allowance.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)"
+        ]
+      },
+      {
+        "id": "harmful-book",
+        "label": "Use the Harmful Potion",
+        "when": "You hold the book and the team needs your enabled kill more than protection or information.",
+        "action": "Select the Harmful Potion against a useful nonally.",
+        "targetRule": "Check the destination’s actual defense and direct-visit dangers; do not target an ally or assume Reveal and Barrier also resolve.",
+        "reason": "An enemy removed now may matter more than a role learned or an ally protected without a threat.",
+        "pivot": "If another ally should carry the kill, coordinate that plan and select one genuinely useful utility potion instead.",
+        "goals": [
+          "Confirm the selected potion",
+          "Choose a reachable useful enemy",
+          "Keep mode history accurate"
+        ],
+        "laterPriorities": [
+          "Switch potions for real team needs",
+          "Account for book nights in the cover",
+          "Preserve verified role information without leaking it as impossible TI results"
+        ],
+        "risk": "One selected potion is one action. A kill night is not also a genuine Cleric save or Sheriff investigation.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "voodoo-master": {
+    "defaultWhen": "You lack a reliable investigative target and a useful nonally is likely to contribute to the next day’s discussion.",
+    "defaultRisk": "Silence suppresses communication, not the night ability. The same player cannot receive any doll on consecutive nights.",
+    "alternatives": [
+      {
+        "id": "blind-information",
+        "label": "Blind a known information role",
+        "when": "A credible enemy investigator or other feedback-dependent player is likely to produce consequential results tonight.",
+        "action": "Choose Blind on that player to suppress that night’s visible feedback and results.",
+        "targetRule": "Prefer a supported useful information role over an unknown chatty player; check the previous night’s target regardless of doll mode.",
+        "reason": "Denying a real report can be more valuable than Silence when you know where the information will come from.",
+        "pivot": "If the target has no useful feedback to deny, is your previous target, or is acting in a way Blind will not stop, return to another legal disruption.",
+        "goals": [
+          "Identify the result you want to deny",
+          "Check the last targeted player",
+          "Record Blind rather than roleblock"
+        ],
+        "laterPriorities": [
+          "Rotate to useful fresh information targets",
+          "Coordinate day pressure around missing reports",
+          "With the book, plan damage plus the selected effect"
+        ],
+        "risk": "Blind does not stop the player from acting. A protection or attack can still resolve even when the recipient sees no result.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)"
+        ]
+      },
+      {
+        "id": "deafen-coordination",
+        "label": "Deafen a coordination-dependent opponent",
+        "when": "An enemy needs to receive claims or whispers to coordinate the next day, and preventing their replies is less valuable than denying incoming information.",
+        "action": "Choose Deafen on that player and let the team plan around the disrupted communication channel.",
+        "targetRule": "Use an organizer or player relying on private coordination; they must be a different player from your last doll target.",
+        "reason": "Deafen can isolate a coordinator from new discussion while they remain able to speak.",
+        "pivot": "If the objective is to stop public reporting use Silence; if it is to deny night results use Blind instead.",
+        "goals": [
+          "Name the incoming communication to deny",
+          "Remember the target can still speak",
+          "Check the consecutive-player rule"
+        ],
+        "laterPriorities": [
+          "Choose the doll for the next specific obstacle",
+          "Avoid treating Deafened speech as proof the effect failed",
+          "Reassess book damage and target legality"
+        ],
+        "risk": "Deafen does not mute the player or roleblock them. It is narrower than a complete communication shutdown.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "wildling": {
+    "defaultWhen": "A useful enemy’s outgoing action is likely to provide a clear, limited Tracker-style report.",
+    "defaultRisk": "Sense shows visible movement, not every astral action, and also gives extra information a Tracker cover must keep private.",
+    "alternatives": [
+      {
+        "id": "lookout-channel",
+        "label": "Build a real Lookout account",
+        "when": "Incoming traffic at a useful house is more informative than following its resident’s destination.",
+        "action": "Sense that house and keep only the visible visitor-identity channel in the public Lookout account.",
+        "targetRule": "Choose a house likely to receive strategically useful visits without knowingly entering a lethal traffic trap. Do not select yourself as though normal Lookout permits self-Watch.",
+        "reason": "Real visitor observations give more support than invented protective claims when the traffic channel is the valuable one.",
+        "pivot": "If useful evidence mainly concerns outgoing movement, keep the Tracker route instead; do not blend both roles’ outputs in one will.",
+        "goals": [
+          "Separate visitors from destinations",
+          "Choose a legal Lookout-shaped target",
+          "Keep whisper knowledge private"
+        ],
+        "laterPriorities": [
+          "Report only the visible visitor channel",
+          "Do not infer exact roles from visitor identity",
+          "Reassess if the book attacks the same watched target"
+        ],
+        "risk": "A missing name is not proof nobody visited astrally. Book damage and private whisper knowledge can expose information beyond the claimed role.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)"
+        ]
+      },
+      {
+        "id": "book-sense-kill",
+        "label": "Kill while retaining Sense",
+        "when": "You hold the book and the team wants a direct attack more than observation of a survivor.",
+        "action": "Attack and Sense the same useful nonally target; retain the actual movement feedback.",
+        "targetRule": "Choose a valuable reachable enemy, recognizing the book forbids an allied target and removes the option to observe a different house at the same time.",
+        "reason": "You retain real information while performing the team kill, so the night is not observation-only.",
+        "pivot": "If the direct visit is too dangerous or a different observation is essential, coordinate book ownership before assuming both actions can split.",
+        "goals": [
+          "Confirm the combined target",
+          "Separate the kill from the observed channel",
+          "Check direct protection"
+        ],
+        "laterPriorities": [
+          "Keep only the cover’s permitted information",
+          "Use surviving traffic to refine later choices",
+          "Expect death details to challenge a quiet observation story"
+        ],
+        "risk": "Sense and the book attack share a target. An accurate report does not turn the associated attack into a Town ability.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "covenite": {
+    "defaultWhen": "Another ally is already using the book effectively and you have no independent night ability.",
+    "defaultRisk": "An empty night has no natural effect evidence. A low-writing claim can still require public proof later.",
+    "alternatives": [
+      {
+        "id": "carry-team-book",
+        "label": "Carry the team’s book",
+        "when": "Giving you the book frees a stronger ally’s utility, and the team accepts the direct attacker’s exposure risk.",
+        "action": "Coordinate book ownership and attack a useful nonally if the kill is enabled.",
+        "targetRule": "Choose a reachable enemy while useful allies spend their own actions on utility. Never assume you have the book simply because this is your preferred route.",
+        "reason": "Using the otherwise idle Covenite for the ordinary kill can preserve the team’s more valuable specialist actions.",
+        "pivot": "If another book holder has a specific superior attack route, let that plan take priority and remain available for later.",
+        "goals": [
+          "Agree who actually holds the book",
+          "Coordinate a useful target",
+          "Keep utility allies free to act"
+        ],
+        "laterPriorities": [
+          "Take book work when it preserves better utility",
+          "Reassess traps and defense before attacks",
+          "Update the public footprint after each action"
+        ],
+        "risk": "Being expendable does not make a bad attack good. Book ownership and direct traffic still constrain the plan.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)"
+        ]
+      },
+      {
+        "id": "early-public-pressure",
+        "label": "Trade cover longevity for early pressure",
+        "when": "The team needs a plausible public case or a deliberate trade more urgently than your long-term quiet survival.",
+        "action": "Prepare a restrained TI cover before the night, using coordinated real team knowledge only where the claimed role and movement could explain it.",
+        "targetRule": "Choose one interpretable unresolved enemy. Do not invent an impossible N1 visit while you actually stayed home.",
+        "reason": "A less valuable specialist can sometimes take the social risk of a contested case, leaving stronger allies a safer path.",
+        "pivot": "If there is no supported story or the case would expose several teammates, keep the lower-pressure cover instead.",
+        "goals": [
+          "Agree the intended social trade",
+          "Check the claimed visit footprint",
+          "Post a coherent limited report early"
+        ],
+        "laterPriorities": [
+          "Reassess when the target’s role becomes known",
+          "Do not leak secret role information as a magical result",
+          "Keep the next book action consistent with the actual plan"
+        ],
+        "risk": "This is a riskier discussion route, not a new Covenite ability. A fabricated result can cause an immediate execution and is not evidence-based confirmation.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)"
+        ]
+      }
+    ]
+  },
+  "cultist": {
+    "defaultWhen": "You are not attacking with the book and lack a useful supported Town recruit worth spending the one conversion on.",
+    "defaultRisk": "Indoctrinate is a daytime action, changes faction without replacing the recruit’s role, and removes your Basic Defense once successful.",
+    "alternatives": [
+      {
+        "id": "book-before-recruit",
+        "label": "Carry the book while preserving conversion",
+        "when": "You actually hold the book and a useful enabled kill advances Coven more than remaining idle tonight.",
+        "action": "Attack a useful nonally; retain Indoctrinate for the next legal day opportunity with a worthwhile Town recruit.",
+        "targetRule": "Pick for reachable kill value and avoid destroying the only useful intended recruit without considering the trade.",
+        "reason": "The ordinary night kill and the scarce day conversion solve different problems; keeping the charge does not require wasting an available attack.",
+        "pivot": "When a supported valuable Town recruit emerges, reassess conversion before the day vote or ability window closes.",
+        "goals": [
+          "Verify book ownership and kill availability",
+          "Keep the recruit list separate from the kill target",
+          "Track whether Basic Defense remains"
+        ],
+        "laterPriorities": [
+          "Recruit useful Town ability or vote value",
+          "Plan around losing your initial defense",
+          "Keep the recruit’s real role and new faction separate"
+        ],
+        "risk": "A surviving attack before conversion is not proof of a Town protective role. The direct book visit also breaks an Oracle-shaped no-visit story.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)"
+        ]
+      }
+    ]
+  }
+}
