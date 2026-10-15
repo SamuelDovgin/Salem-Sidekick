@@ -1,0 +1,59 @@
+# Marshal
+
+Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5387. No live-client test is claimed.
+
+## Role and ability
+
+Two day Tribunals reveal you and allow immediate executions on nomination, normally up to two victims. Reveals and wills are delayed until it ends.
+
+## Win condition
+
+Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+
+The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+
+## Beginner priorities
+
+1. Have a clear evidence-supported voting plan before activating.
+2. Explain the intended targets to allies.
+3. Count votes and avoid handing rapid executions to an opposing bloc.
+
+## Early, middle, and late game
+
+These are recommendations, not forced actions:
+
+- **Early:** Collect evidence rather than Tribunaling solely to reveal.
+- **Middle:** Prepare a coherent two-target plan before activation.
+- **Late:** Check whether an opposing voting bloc would control the accelerated executions.
+
+## Claim timing and disclosure
+
+Keep exact identity concealed where useful until the public ability’s benefit warrants revealing.
+
+## Read the information
+
+A Tribunal is a public demonstration, not proof your targets are evil. Lack of intermediate flips makes the second execution particularly risky.
+
+## Common mistakes
+
+Do not activate just to confirm yourself. Do not expect immediate feedback after the first victim. Do not use an outdated three-execution default.
+
+## Interactions and limits
+
+Jesters and Executioners interact with Tribunal deaths; modifiers can change trial capacity. Your bonus vote is tied to the active Tribunal.
+
+## Worked decision
+
+Two supported contradictions exist and allies can coordinate: plan both nominations before starting the Tribunal.
+
+## Wills and cover reasoning
+
+Use the [Marshal entry format](../../reference/WILL_TEMPLATES.md#marshal). Examples are user-entered formatting, not actual results. For Town roles, read the [cover-profile table](../FAKE_CLAIM_LOGIC.md#town-cover-profiles); for opposing roles, read the [complete role-to-claim matrix](../FAKE_CLAIM_LOGIC.md#role-to-claim-matrix).
+
+## Sources and deeper context
+
+Mechanics: [Marshal role article](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)) · [reviewed revision](https://townofsalem.wiki.gg/w/index.php?title=Marshal%20%28ToS2%29&oldid=5387).
+
+Shared chapters: [evidence and claim mechanics](../MECHANICS.md) · [logical claim framework](../FAKE_CLAIM_LOGIC.md) · [known uncertainties](../UNCERTAINTIES.md).
+
+The source supports mechanics, not a measured claim success rate. Priorities and the worked decision above are recommendations inferred from those mechanics.

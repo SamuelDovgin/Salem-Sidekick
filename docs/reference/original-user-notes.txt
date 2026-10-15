@@ -1,0 +1,438 @@
+
+can you find websites for town of salem 2 where you can click your role and it gets you up to speed and helps you fake claim or quick notes about the role.. im sure other epopel avhe tmade this before right?
+
+Worked for 1m 10s
+okay well then can you come up with a reusable simple beginner guide... where it shows possible claims,,,, or what you should prioritize iwth your ability (use on ti or tpow) or what you should be looking for or who you should full claim to and tips like this... can you plan out how the one page website would look.. and in the future we can make it more interactive where you can poetnetially add simple things like you found someone visited someone or for investigator you found someone sus or what not and what to do with that informaiton.. but i want it to be similar cards and use the iconography from the town of salem 2 wiki.. and really be a quick guide that explaisn the role and general tips and tricks in a reusable way
+
+Worked for 2m 5s
+Salem Sidekick — One-Page Beginner Strategy Guide
+I'd build this as a compact, role-based strategy companion for Town of Salem 2. The goal is that you can select any role and understand how to play it in about 15–30 seconds, without needing to read the wiki during a match.
+
+The most important difference from an ordinary role guide is that it should answer what you should actually do, not just explain what your ability does.
+
+1. Overall website concept
+Salem Sidekick
+Town of Salem 2 • Quick Strategy Guide
+Vanilla ToS2
+
+Search your role... Sheriff, Wildling, Cleric
+
+Town
+
+Coven
+
+Neutral
+
+SELECT YOUR ROLE
+
+"Town Of Salem Sheriff" Sticker for Sale by mythicalsm0sh | Redbubble
+Sheriff
+
+Steam Community :: Guide :: The Investigator Role in Town of Salem 2: A Basic Guide
+Investigator
+
+Town of Salem 2 (ToS 2) - Role  (w/ Names) Tier List (Community Rankings) - TierMaker
+Tracker
+
+Cross shield icon, SVG and PNG | Game-icons.net
+Cleric
+
+Illustrative layout, not a working website yet. The finished version would use a consistent set of original ToS2 role icons.
+Town of Salem 2 (ToS 2) - Role  (w/ Names) Tier List (Community Rankings) - TierMaker
+Investigator
+Town Investigative (TI)
+
+Check players for Murder, Trespassing, or No Crime.
+
+Who to target
+
+1. Suspicious or conflicting claims
+
+2. Unverified players
+
+3. Players with useful visit histories
+
+What to claim
+
+Day 1: TI
+
+Day 2+: Share results and your will
+
+Full claim: Usually safe
+
+What to look for
+
+Murder: An attack that night
+
+Trespassing: Opposing-faction visit
+
+No Crime: Not a clearance
+
+Avoid mistakes
+
+Town can have crimes.
+
+Evidence can be altered.
+
+Question suspects before pushing.
+
+Beginner tip
+
+A Trespassing result doesn't automatically mean evil. Ask who the player visited, then compare their answer with other claims and investigative results.
+
+The example uses the current Investigator crime mechanics, not the older blood-only version. 
+
+Town of Salem Wiki
+This is the general visual style I'd choose: dark fantasy inspiration, familiar game iconography, restrained Town/Coven/Neutral accents, and simple cards rather than enormous paragraphs.
+
+2. Every role gets the same reusable card system
+Card
+
+Question it answers
+
+Role in 10 seconds
+
+What do I do and what is my win condition?
+
+Night priorities
+
+Who should I target first, second, and third?
+
+Claim strategy
+
+What alignment should I claim, when should I full claim, and to whom?
+
+What to look for
+
+What results, visits, claims, or contradictions matter?
+
+Results → Actions
+
+Should I post information, question someone, push them, or wait?
+
+Common mistakes
+
+What should I absolutely avoid?
+
+Fake claim options
+
+If I'm evil, which roles can I believably pretend to be?
+
+Copyable will
+
+What should I write in my last will each night?
+
+Not every role needs every card. A Cleric benefits more from protection priorities; a Wildling benefits more from fake claims and information use; a Jester needs a completely different strategy for achieving its win condition.
+
+Design rule: Each card should have no more than three primary recommendations visible by default. Advanced exceptions can expand underneath.
+
+3. How the cards should change depending on the role
+The layout stays consistent, but the advice needs to be specific to the selected role.
+
+Steam Community :: Guide :: Awakening Guide [OUTDATED]
+Tracker — Town Investigative
+
+Target: Unverified players, especially those whose claimed actions can be checked.
+
+Look for: Visits contradicting a will or someone visiting a player who died that night.
+
+Claim: TI, then Tracker with your results.
+
+Remember: No visit does not prove a player was inactive or evil; astral abilities can be invisible to tracking. 
+
+Town of Salem Wiki
+
+Shield - Free miscellaneous icons
+Cleric — Town Protective
+
+Target: Early game, valuable TI claims; later, threatened or confirmed TPow and other important Town roles.
+
+Look for: Who is likely to be attacked and whether a protection chain is worthwhile.
+
+Claim: TP publicly when pressured; full claim privately to trusted Town when useful.
+
+Remember: Avoid protecting a Veteran who may alert, and save your self-barrier for danger. 
+
+Town of Salem Wiki
+
+Buy cheap Town of Salem 2 CD Key 🏷️ Best Price | GG.deals
+Wildling — Coven Utility
+
+Target: Players whose movements or visitors could reveal Town's important roles.
+
+Fake claims: Tracker or Lookout are especially compatible with your Sense information.
+
+Look for: Real visits you can incorporate into a believable investigative will, and information useful to Coven.
+
+Remember: Your fake claim must match your alleged visits. The wiki also flags a planned Wildling ability update, so this card needs regular verification. 
+
+Town of Salem Wiki
+
+This is the level of specificity I want: concrete decisions instead of generic tips like "help your team."
+
+4. A dedicated claim strategy card
+I think this is one of the most valuable parts for a beginner.
+
+Every role gets a Claim Strategy section that distinguishes an alignment claim from revealing the exact role.
+
+Role category
+
+General beginner approach
+
+Town Investigative
+
+Share results early. Exact role is generally safer to reveal because Ritualist and Doomsayer cannot guess TI roles.
+
+Town Protective
+
+Claim TP when needed; avoid unnecessarily revealing your exact role or protection target.
+
+Town Power
+
+Preserve your identity until revealing offers a clear advantage, or you're forced to defend yourself.
+
+Town Killing
+
+Claim TK initially when appropriate; avoid broadcasting limited-use or dangerous abilities.
+
+Town Support
+
+Claim TS as needed; decide exact disclosure by the ability and current threat.
+
+Coven
+
+Choose a believable Town claim with actions and a will you can maintain. Never claim Coven to untrusted players.
+
+Neutral
+
+Prioritize your specific win condition. Claim advice varies substantially by role.
+
+These are defaults rather than hard rules. In particular, even a strong Town Investigative claim can make you a priority target for ordinary night attacks. 
+
+Town of Salem Wiki
++2
+
+Each role's card would also answer three separate questions: What should I claim during VFA? When should I full claim? Who should I tell privately?
+
+We should also distinguish a mechanically confirmed Town player from someone who is merely persuasive or claims TPow.
+
+5. Fake claims should be linked to their own role guides
+For an evil role, I'd add a small "Best Fake Claims" section.
+
+Wildling — Fake Claims
+Suggestions for the current Sense ability
+
+Tracker
+
+Strong fit
+
+You receive real information about your target's visits.
+
+Risk: Your stated targets and reported results must stay consistent.
+
+Lookout
+
+Strong fit
+
+You can see visitors to your target, allowing plausible Lookout results.
+
+Risk: False or incomplete visitor reports can expose you.
+
+Sheriff
+
+Fallback
+
+You can fabricate simple innocent results, but this wastes much of the information your ability supplies.
+Clicking Tracker should display the real Tracker guide in a small preview, so you can learn how to act like that role, what its will should look like, and which claims could contradict you.
+
+This creates two useful perspectives on every Town role: "How do I play this?" and "What would someone faking this need to know?"
+
+6. Make the results actionable, without turning it into a complicated tracker
+For the first version, these would be static "If you see X, consider Y" cards. Later, we make them interactive.
+
+Investigator — Interpret results
+What did you find?
+
+Murder
+
+Trespassing
+
+No Crime
+Meaning: Your target attacked someone that night. This is not proof they are evil.
+
+Next move: Ask for their claim, check for a plausible Town attack or framing, and compare with the deaths that night.
+
+Example of the eventual interactive result helper, using current Investigator mechanics. 
+
+Town of Salem Wiki
+This would be particularly helpful for confusing roles, including Investigator, Psychic, Seer, Lookout, Tracker, Spy, and Coroner.
+
+Instead of telling you someone is definitely evil, the website should indicate whether the result is proof, a strong contradiction, or just a lead.
+
+7. How I would structure the future notes system
+Eventually we could have a lightweight 15-player notebook with player number, claim, known visits, and status. It should be optional and not get in the way of the quick guide.
+
+For example, you could enter:
+
+Match Notes — Concept
+
+My role
+Target player
+They visited
+Suggested interpretation
+
+Player #4 visited #9. Compare that visit against #4's claim and whether #9 was attacked or died. The visit alone does not establish guilt.
+
+For version two, the website would remember these entries locally in your browser during the match, suggest follow-up questions, and optionally generate your will. No account should be required.
+
+8. A few implementation decisions I'd make now
+Start with vanilla Town of Salem 2, all current playable roles, sorted into Town, Coven, and Neutral, with alignment filters.
+
+Use the exact game's role icons, not generic fantasy illustrations. The wiki has a dedicated 
+image category
+ containing ToS2 role artwork. We should collect the files once, optimize them, and review the game-art rights and attribution requirements before publishing.
+
+Keep everything on one page. Role selection switches the content without navigating or reloading.
+
+Include a copy-will control for each role with a short, correct template, not a huge prewritten essay.
+
+Support fast searching and keyboard navigation. Ideally, type part of a role name and press Enter.
+
+Keep mechanics separate from strategic advice. Mechanics can be verified against the wiki; strategy should be labeled as a recommendation.
+
+Support game modes eventually. This matters because the March 2026 Flexible Factions update permits unusual faction assignments, and BetterTOS2 has different role mechanics. We shouldn't accidentally mix their guides. 
+
+Town of Salem Town of Salem
+
+9. Development plan
+Version 1 — Quick Guide
+
+Complete role database, icon picker, night priorities, claiming advice, fake-claim suggestions, common mistakes, and copyable wills. Static, very fast, and easy to maintain.
+
+Version 2 — Result Interpreter
+
+Select the ability result you received and get conditional advice, likely explanations, contradictions, and suggested questions to ask in chat.
+
+Version 3 — Match Assistant
+
+Optional 15-player tracker that connects night results, claims, deaths, and inconsistencies, then helps you decide what to investigate next.
+
+The most important architectural choice is to store each role's guide as structured content, not hard-code individual pages. That way, we can improve a recommendation or update an ability without redesigning anything.
+
+For the first version, I'd prioritize making every role genuinely useful within 15 seconds of selecting it. A beginner should immediately know who to target tonight, what to say tomorrow, which fake claims are believable, and which conclusions they should avoid jumping to. Everything more sophisticated can grow around that foundation.
+
+copy will and selectable different wills based on what you wanna claim would be perfect as well... just setting up like N1 and for sepcific roles for d2 like really simple example where you replace numbers right
+
+Worked for 1m 1s
+Exactly. I think a selectable, automatically formatted Will Builder should be one of the main features of Salem Sidekick, especially for beginners playing Coven and needing to fake a Town role.
+
+You shouldn't have to memorize will formats. Just select the role you're claiming, enter player numbers and results, and copy the will directly into Town of Salem 2.
+
+Interactive Will Builder — Example
+Here's a small preview of how it could work.
+
+Will Builder
+Demo
+Role you're claiming
+Night 1 (N1)
+
+Track
+
+Target #
+4
+Visited #
+9
+Night 2 (N2)
+
+Track
+
+Target #
+e.g. 4
+Visited #
+e.g. 9 or NV
+Live Will Preview
+
+Tracker
+N1: #4 → #9
+
+Demo only: the entries are user-supplied, not verified game results. The final version would support every current role and additional nights.
+How the finished system should behave
+I would give each role one or more predefined will templates, with input fields that change automatically.
+
+Selected claim
+
+Automatically generated example
+
+Sheriff
+
+N1: 4 - Innocent
+
+Tracker
+
+N1: 4 → 9
+
+Lookout
+
+N1: 4 - Visited by 9
+
+Cleric
+
+N1: Protected 4
+
+Tavern Keeper
+
+N1: Roleblocked 9
+
+Coroner
+
+D2: Autopsied 6
+
+Socialite
+
+D2: Guest-listed 7
+
+Prosecutor
+
+D2: Prosecuted 9
+
+For example, Coroner has a Day autopsy ability as well as a Night examination ability, while Socialite has a Day guest-list ability. Their builders should show both types of entries when applicable, rather than forcing everything into Night entries. 
+
+Fandom
++2
+
+Even better: link it to your actual role
+Imagine you're playing Wildling.
+
+Actual role: Wildling
+
+Choose a cover role
+
+Tracker
+
+Strong fake claim
+
+Use real movement information
+Lookout
+
+Strong fake claim
+
+Use observed visitor information
+Choosing either claim would automatically open its Will Builder and show the corresponding fake-claim strategy.
+
+The website would still keep your actual role's strategy visible, but generate a will for your claimed role.
+
+I'd also add three small quality-of-life features:
+
+Add next night: Automatically adds N3, N4, etc., without making you recreate your will.
+
+Quick result buttons: For example, Sheriff gets Innocent/Suspicious; Tracker gets player number/No Visit.
+
+Copy short or detailed will: Short for quick chat posts and detailed for your in-game last will.
+
+And importantly, it should preserve the numbers and notes you've already entered when switching between sections.
+
+This should be part of Version 1, not a later feature. I envision the final page having just three main areas: Role Strategy, Claims & Fake Claims, and Will Builder. That keeps the guide fast enough to use during an actual game while giving beginners a concrete plan for what to do and what to say.
+
+
+
+

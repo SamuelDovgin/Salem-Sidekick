@@ -1,0 +1,29 @@
+{
+  "scope": "Prepared content only; no app, client, or novice usability test",
+  "base_roles": 60,
+  "town_roles": 29,
+  "coven_roles": 17,
+  "neutral_roles": 14,
+  "compact_expanded_pairs": 540,
+  "copy_variants": 1080,
+  "role_specific_subgoals": 180,
+  "named_claim_options_with_alignment_reason_and_exposure": 64,
+  "regression_content_checks": {
+    "Deputy is TK": true,
+    "Sheriff is TI": true,
+    "Deputy no N1 ability": true,
+    "Deputy miss not a clear": true,
+    "Sheriff Innocent not confirmed": true,
+    "Trapper starts Build": true,
+    "Vigilante starts Load": true,
+    "Coroner no initial autopsy": true,
+    "Poisoner modes and rotation": true,
+    "Poisoner TS cover": true,
+    "Baker living recipients": true,
+    "Baker TP cover": true,
+    "Weak Seer cover remains available": true,
+    "Illusionist official correction": true,
+    "Four transformed states explained": true
+  },
+  "issues": []
+}

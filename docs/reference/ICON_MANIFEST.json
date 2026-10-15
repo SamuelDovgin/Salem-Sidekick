@@ -1,0 +1,1546 @@
+{
+  "research_date": "2026-10-15",
+  "wiki_text_license": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "text": "Creative Commons Attribution-ShareAlike 4.0 License"
+  },
+  "note": "Wiki text license does not establish a license for game artwork. No image files downloaded. Faction-icon fallbacks are intentional for Pilgrim/Covenite.",
+  "entries": [
+    {
+      "role_or_state": "Jailor",
+      "file_title": "File:Jailor Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Jailor_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Jailor_Icon.png?5e8ae1",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Jailor_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 313602,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:38:02Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jailor Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Marshal",
+      "file_title": "File:Marshal Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Marshal_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Marshal_Icon.png?13bf0c",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Marshal_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 318484,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:38:38Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Marshal Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Mayor",
+      "file_title": "File:Mayor Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Mayor_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Mayor_Icon.png?466b73",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Mayor_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 304639,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:38:59Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mayor Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Monarch",
+      "file_title": "File:Monarch Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Monarch_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Monarch_Icon.png?13f122",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Monarch_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 337010,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:39:18Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Monarch Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Prosecutor",
+      "file_title": "File:Prosecutor Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Prosecutor_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Prosecutor_Icon.png?bc8a04",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Prosecutor_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 325557,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:39:43Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Prosecutor Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Coroner",
+      "file_title": "File:Coroner Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Coroner_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Coroner_Icon.png?e18151",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Coroner_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 324232,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T20:27:45Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Coroner Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Investigator",
+      "file_title": "File:Investigator Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Investigator_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Investigator_Icon.png?63005a",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Investigator_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 321920,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:35:41Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Investigator Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Lookout",
+      "file_title": "File:Lookout Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Lookout_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Lookout_Icon.png?f46629",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Lookout_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 312004,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:37:28Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lookout Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Psychic",
+      "file_title": "File:Psychic Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Psychic_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Psychic_Icon.png?3eeaa7",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Psychic_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 340877,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:38:18Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Psychic Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Seer",
+      "file_title": "File:Seer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Seer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Seer_Icon.png?ec9dc0",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Seer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 331934,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:42:01Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Seer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Sheriff",
+      "file_title": "File:Sheriff Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Sheriff_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Sheriff_Icon.png?a4bbb7",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Sheriff_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 334471,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:42:26Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Sheriff Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Spy",
+      "file_title": "File:Spy Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Spy_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Spy_Icon.png?c4ddbb",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Spy_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 337967,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:42:46Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Spy Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Tracker",
+      "file_title": "File:Tracker Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Tracker_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Tracker_Icon.png?563876",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Tracker_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 316673,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:43:05Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Tracker Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Bodyguard",
+      "file_title": "File:Bodyguard Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Bodyguard_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Bodyguard_Icon.png?63f49a",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Bodyguard_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 336951,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:44:31Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bodyguard Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Cleric",
+      "file_title": "File:Cleric Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Cleric_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Cleric_Icon.png?38727e",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Cleric_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 57332,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:44:57Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cleric Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Crusader",
+      "file_title": "File:Crusader Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Crusader_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Crusader_Icon.png?603042",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Crusader_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 344183,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:45:19Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Crusader Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Oracle",
+      "file_title": "File:Oracle Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Oracle_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Oracle_Icon.png?21e3be",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Oracle_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 62314,
+      "metadata": {
+        "DateTime": {
+          "value": "2025-06-27T08:43:35Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Oracle Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Trapper",
+      "file_title": "File:Trapper Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Trapper_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Trapper_Icon.png?ff7d40",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Trapper_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 311707,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:45:43Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Trapper Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Deputy",
+      "file_title": "File:Deputy Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Deputy_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Deputy_Icon.png?c17fd4",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Deputy_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 323000,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:46:59Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Deputy Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Trickster",
+      "file_title": "File:Trickster Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Trickster_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Trickster_Icon.png?b17489",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Trickster_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 340768,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:47:24Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Trickster Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Veteran",
+      "file_title": "File:Veteran Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Veteran_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Veteran_Icon.png?df7e86",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Veteran_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 321585,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:47:46Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Veteran Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Vigilante",
+      "file_title": "File:Vigilante Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Vigilante_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Vigilante_Icon.png?4c79a4",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Vigilante_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 322369,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:48:08Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vigilante Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Admirer",
+      "file_title": "File:Admirer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Admirer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Admirer_Icon.png?d71d07",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Admirer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 343834,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:49:26Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Admirer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Amnesiac",
+      "file_title": "File:Amnesiac Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Amnesiac_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Amnesiac_Icon.png?7e836f",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Amnesiac_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 319141,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:49:56Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Amnesiac Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Retributionist",
+      "file_title": "File:Retributionist Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Retributionist_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Retributionist_Icon.png?ba8dac",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Retributionist_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 322019,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:50:26Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Retributionist Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Socialite",
+      "file_title": "File:Socialite Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Socialite_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Socialite_Icon.png?21d8db",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Socialite_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 312456,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:50:50Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Socialite Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Tavern Keeper",
+      "file_title": "File:Tavern Keeper Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Tavern_Keeper_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Tavern_Keeper_Icon.png?3484f0",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Tavern_Keeper_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 332155,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:51:18Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Tavern Keeper Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Catalyst",
+      "file_title": "File:Catalyst Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Catalyst_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Catalyst_Icon.png?25cd47",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Catalyst_Icon.png",
+      "width": 512,
+      "height": 512,
+      "size_bytes": 85609,
+      "metadata": {
+        "DateTime": {
+          "value": "2025-06-27T09:00:18Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Catalyst Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Pilgrim",
+      "file_title": "File:Town Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Town_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Town_Icon.png?c23071",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Town_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 46829,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T21:48:46Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Town Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Archmage",
+      "file_title": "File:Coven Leader Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Coven_Leader_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Archmage_Icon.png?737679",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Archmage_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 312081,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:41:27Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Archmage Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Hex Master",
+      "file_title": "File:Hex Master Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Hex_Master_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Hex_Master_Icon.png?fcea63",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Hex_Master_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 315991,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:41:47Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hex Master Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Witch",
+      "file_title": "File:Witch Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Witch_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Witch_Icon.png?35eb8f",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Witch_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 323110,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:42:07Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Witch Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Conjurer",
+      "file_title": "File:Conjurer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Conjurer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Conjurer_Icon.png?d4746e",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Conjurer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 295956,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:43:10Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Conjurer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Ritualist",
+      "file_title": "File:Ritualist Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Ritualist_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Ritualist_Icon.png?4ea26f",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Ritualist_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 329811,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:43:51Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ritualist Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Jinx",
+      "file_title": "File:Jinx Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Jinx_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Jinx_Icon.png?f0bf53",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Jinx_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 319123,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:43:30Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jinx Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Dreamweaver",
+      "file_title": "File:Dreamweaver Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Dreamweaver_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Dreamweaver_Icon.png?3295a6",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Dreamweaver_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 296466,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:44:48Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Dreamweaver Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Enchanter",
+      "file_title": "File:Enchanter Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Enchanter_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Enchanter_Icon.png?bb7386",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Enchanter_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 304868,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:45:13Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Enchanter Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Illusionist",
+      "file_title": "File:Illusionist Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Illusionist_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Illusionist_Icon.png?bbdadc",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Illusionist_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 321681,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:45:45Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Illusionist Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Medusa",
+      "file_title": "File:Medusa Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Medusa_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Medusa_Icon.png?bcbb0a",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Medusa_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 337255,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:46:08Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Medusa Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Necromancer",
+      "file_title": "File:Necromancer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Necromancer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Necromancer_Icon.png?42fd18",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Necromancer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 369290,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:47:26Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Necromancer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Poisoner",
+      "file_title": "File:Poisoner Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Poisoner_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Poisoner_Icon.png?636d32",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Poisoner_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 340714,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:47:47Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Poisoner Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Potion Master",
+      "file_title": "File:Potion Master Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Potion_Master_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Potion_Master_Icon.png?338a7b",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Potion_Master_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 347612,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:48:18Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Potion Master Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Voodoo Master",
+      "file_title": "File:Voodoo Master Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Voodoo_Master_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Voodoo_Master_Icon.png?adfed7",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Voodoo_Master_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 318892,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:48:40Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Voodoo Master Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Wildling",
+      "file_title": "File:Wildling Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Wildling_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Wildling_Icon.png?3587ef",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Wildling_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 330611,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:49:04Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wildling Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Covenite",
+      "file_title": "File:Coven Faction Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Coven_Faction_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Coven_Faction_Icon.png?8cb3af",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Coven_Faction_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 64809,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-25T22:14:42Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Coven Faction Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Cultist",
+      "file_title": "File:Cultist Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Cultist_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Cultist_Icon.png?8464ac",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Cultist_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 77260,
+      "metadata": {
+        "DateTime": {
+          "value": "2025-06-27T08:50:20Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cultist Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Baker",
+      "file_title": "File:Baker Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Baker_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Baker_Icon.png?cfed69",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Baker_Icon.png",
+      "width": 233,
+      "height": 229,
+      "size_bytes": 31133,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-12-26T15:59:16Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Baker Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Berserker",
+      "file_title": "File:Berserker Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Berserker_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Berserker_Icon.png?74f3f7",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Berserker_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 348633,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:54:59Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Berserker Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Plaguebearer",
+      "file_title": "File:Plaguebearer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Plaguebearer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Plaguebearer_Icon.png?11f86c",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Plaguebearer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 332056,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:55:43Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Plaguebearer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Soul Collector",
+      "file_title": "File:Soul Collector Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Soul_Collector_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Soul_Collector_Icon.png?465af0",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Soul_Collector_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 332699,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:56:39Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Soul Collector Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Doomsayer",
+      "file_title": "File:Doomsayer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Doomsayer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Doomsayer_Icon.png?d57acb",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Doomsayer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 351992,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:50:27Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Doomsayer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Executioner",
+      "file_title": "File:Executioner Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Executioner_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Executioner_Icon.png?4f211b",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Executioner_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 314535,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:50:49Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Executioner Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Jester",
+      "file_title": "File:Jester Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Jester_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Jester_Icon.png?bfd5d6",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Jester_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 317644,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:51:10Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jester Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Pirate",
+      "file_title": "File:Pirate Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Pirate_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Pirate_Icon.png?ad084d",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Pirate_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 324605,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:51:28Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pirate Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Arsonist",
+      "file_title": "File:Arsonist Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Arsonist_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Arsonist_Icon.png?638bf3",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Arsonist_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 317092,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:52:22Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Arsonist Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Serial Killer",
+      "file_title": "File:Serial Killer Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Serial_Killer_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Serial_Killer_Icon.png?150e2f",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Serial_Killer_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 305577,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:52:46Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Serial Killer Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Shroud",
+      "file_title": "File:Shroud Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Shroud_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Shroud_Icon.png?d89827",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Shroud_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 305037,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:53:05Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Shroud Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Werewolf",
+      "file_title": "File:Werewolf Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Werewolf_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Werewolf_Icon.png?cc8c48",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Werewolf_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 335085,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:53:24Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Werewolf Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Cursed Soul",
+      "file_title": "File:Cursed Soul Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Cursed_Soul_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Cursed_Soul_Icon.png?e7a8c9",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Cursed_Soul_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 328362,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:58:58Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cursed Soul Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Vampire",
+      "file_title": "File:Vampire Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Vampire_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Vampire_Icon.png?97d199",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Vampire_Icon.png",
+      "width": 283,
+      "height": 305,
+      "size_bytes": 350172,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:58:33Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vampire Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Famine",
+      "file_title": "File:Famine Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Famine_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Famine_Icon.png?93416d",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Famine_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 308108,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:54:38Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Famine Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "War",
+      "file_title": "File:War Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:War_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/War_Icon.png?68deef",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:War_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 338622,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:55:18Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "War Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Pestilence",
+      "file_title": "File:Pestilence Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Pestilence_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Pestilence_Icon.png?255501",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Pestilence_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 79910,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:56:05Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pestilence Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    },
+    {
+      "role_or_state": "Death",
+      "file_title": "File:Death Icon.png",
+      "file_page": "https://townofsalem.wiki.gg/wiki/File:Death_Icon.png",
+      "asset_url": "https://townofsalem.wiki.gg/images/Death_Icon.png?e046d2",
+      "description_url": "https://townofsalem.wiki.gg/wiki/File:Death_Icon.png",
+      "width": 256,
+      "height": 256,
+      "size_bytes": 321908,
+      "metadata": {
+        "DateTime": {
+          "value": "2024-08-26T12:56:59Z",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Death Icon",
+          "source": "mediawiki-metadata"
+        }
+      },
+      "accessed_on": "2026-10-15",
+      "downloaded": false,
+      "redistribution_permission": "Not established by image discovery; preserve attribution and review game-art terms."
+    }
+  ]
+}
