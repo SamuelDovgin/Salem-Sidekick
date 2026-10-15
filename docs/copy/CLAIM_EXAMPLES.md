@@ -2021,4 +2021,3 @@ Death
 Death: survive the day after the public transformation so the end-of-day Apocalypse can occur. Vote pressure, not ordinary night defense, becomes the central threat. Keep private soul counts out of a cover will.
 
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)).
-

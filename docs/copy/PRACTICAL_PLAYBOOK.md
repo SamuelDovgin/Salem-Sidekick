@@ -1611,4 +1611,3 @@ Death has no useful night action to queue. Invincible Defense does not make a ha
 - **Sheriff (TI) — More influence · more upkeep.** Reap’s framing effect can align with some suspicious-looking evidence. Exposure: A real Sheriff normally visits; your astral Reap does not reproduce that, and you receive no genuine check.
 
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)). Target and priority choices above are editorial recommendations.
-
