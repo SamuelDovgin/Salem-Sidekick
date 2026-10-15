@@ -1,0 +1,390 @@
+{
+  "checkedOn": "2026-10-15",
+  "method": "HTTP HEAD; no media downloaded",
+  "records": [
+    {
+      "name": "Jailor",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jailor.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Marshal",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Marshal.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Mayor",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Mayor.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Monarch",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Monarch.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Prosecutor",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Prosecutor.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Coroner",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Coroner.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Investigator",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Investigator.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Lookout",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Lookout.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Psychic",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Psychic.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Seer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Seer.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Sheriff",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Sheriff.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Spy",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Spy.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Tracker",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Tracker.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Bodyguard",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Bodyguard.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Cleric",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Cleric.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Crusader",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Crusader.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Oracle",
+      "url": "https://static.wikia.nocookie.net/town-of-salem/images/5/54/RoleIcon_Oracle_ToS2.png/revision/latest?cb=20250111024152",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "name": "Trapper",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Trapper.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Deputy",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Deputy.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Trickster",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Trickster.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Veteran",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Veteran.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Vigilante",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Vigilante.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Admirer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Admirer.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Amnesiac",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Amnesiac.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Retributionist",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Retributionist.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Socialite",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Socialite.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Tavern Keeper",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/TavernKeeper.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Catalyst",
+      "url": "https://static.wikia.nocookie.net/town-of-salem/images/1/1c/RoleIcon_Catalyst_ToS2.png/revision/latest?cb=20250711031054",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "name": "Pilgrim",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Town.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Archmage",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/CovenLeader.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Hex Master",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/HexMaster.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Witch",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Witch.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Conjurer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Conjurer.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Ritualist",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Ritualist.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Jinx",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jinx.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Dreamweaver",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Dreamweaver.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Enchanter",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Enchanter.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Illusionist",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Illusionist.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Medusa",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Medusa.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Necromancer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Necromancer.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Poisoner",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Poisoner.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Potion Master",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/PotionMaster.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Voodoo Master",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/VoodooMaster.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Wildling",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Wildling.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Covenite",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Coven.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Cultist",
+      "url": "https://static.wikia.nocookie.net/town-of-salem/images/f/f1/RoleIcon_Cultist_ToS2.png/revision/latest?cb=20250711030513",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "name": "Baker",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Baker.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Berserker",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Berserker.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Plaguebearer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Plaguebearer.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Soul Collector",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/SoulCollector.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Doomsayer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Doomsayer.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Executioner",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Executioner.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Jester",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jester.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Pirate",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Pirate.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Arsonist",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Arsonist.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Serial Killer",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/SerialKiller.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Shroud",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Shroud.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Werewolf",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Werewolf.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Cursed Soul",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/CursedSoul_Vanilla.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Vampire",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Vampire.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Famine",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Famine.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "War",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/War.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Pestilence",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Pestilence.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "name": "Death",
+      "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Death.png",
+      "status": 200,
+      "contentType": "image/png"
+    }
+  ]
+}

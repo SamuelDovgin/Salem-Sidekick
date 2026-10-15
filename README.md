@@ -1,6 +1,12 @@
 # Salem Sidekick
 
-Research and planning for a single-page Town of Salem 2 beginner companion. **Website implementation has not started.** Research date: 2026-10-15.
+A single-page Town of Salem 2 beginner companion with role guides and a will builder. Research date: 2026-10-15.
+
+[Open Salem Sidekick](https://SamuelDovgin.github.io/Salem-Sidekick/).
+
+The [Publish GitHub Pages workflow](.github/workflows/pages.yml) regenerates role data, runs the model/content tests, and publishes `site/dist` on every push to `main`. Pull requests run the build and tests without publishing. You can also republish from **Actions → Publish GitHub Pages → Run workflow**. GitHub Pages uses **GitHub Actions** as its publishing source.
+
+To preview locally, run `npm --prefix site run prepare-data`, `npm --prefix site test`, and `npm --prefix site run dev`, then open http://127.0.0.1:4173. The HTML, CSS, and JavaScript in `site/dist` are the website source; keep them committed. The role data is regenerated from the documents and `site/scripts/prepare-data.py` during each deployment.
 
 Start with [the full application plan](PLANNING.md).
 
