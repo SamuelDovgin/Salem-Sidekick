@@ -4,6 +4,8 @@ Research and planning date: **2026-10-15** (America/Chicago). Status: **Compact 
 
 ## Current practical-play revision
 
+The route choices now sit beside the first-night heading as numbered inline buttons. Lower-priority claims appear as inline rank/icon/name buttons beside their label; tapping a selected comparison closes it. On narrow screens, choice rows wrap within a bounded vertical scroller. Role pickers open on the non-editable title, and 16px search/select controls avoid the small-text iOS focus zoom without disabling user page zoom.
+
 The current revision adds **ranked, selectable opening routes for all 64 roles/states**. The default remains first; conditional alternatives update the action, target rule, reason, pivot, tradeoff, three subgoals, and three next priorities together. A lower route can become better when its stated condition applies. These ranks are editorial beginner recommendations, not measured win rates.
 
 Claim cards now prioritize the actual-role/cover strategy. Role basics move into a keyboard-accessible dropdown. The top two researched claims stay visible; additional ranked role icons open one detailed comparison at a time. Every ranked pairing includes specific strategy bullets, a use condition, an exposure point, and mechanic sources. Town roles receive a truthful self-role card rather than a fabricated cover recommendation. Any other Town claim remains selectable but is identified as unranked when outside the researched shortlist.
