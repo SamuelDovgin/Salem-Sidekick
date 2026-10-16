@@ -5,14 +5,18 @@
       "id": "jailor",
       "name": "Jailor",
       "scope": "Town claim + actual role",
-      "resolution": "A released prisoner gives no execution result. Jailor cannot execute on N1; on later nights, surviving an attempted execution differs from release or never being jailed.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "resolution": "A released prisoner gives no execution result. Jailor cannot execute on N1; on later nights, surviving an attempted execution differs from release or never being jailed. The jail confirmation and Execute-selection line are different events. Selecting Execute is not a completed kill; verify the prisoner’s actual fate instead of inventing a private success sentence.",
+      "exactMessageCount": 4,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)",
       "sourceSha256": "2e9245553aca855047788bd88aafafb25f5d695cd63a396f8c6cbad1e250fc79",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_208",
+        "./message-sources.html#GUI_ROLE_TARGETING_9_TARGET2",
+        "./message-sources.html#GAME_209",
+        "./message-sources.html#GAME_214"
+      ],
+      "installedStringCount": 4
     },
     {
       "id": "marshal",
@@ -20,12 +24,14 @@
       "scope": "Town claim + actual role",
       "resolution": "Holding Tribunal gives no private result. A claimed Tribunal must match the public daytime trial sequence; a quiet night has no Marshal action to report.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)",
       "sourceSha256": "371a61925f93cf9e876fb2a4280953584e55e4f5ae83f6f5d58cf0e845e35462",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:MarshalMessages"
-      ]
+        "./message-sources.html#GAME_391",
+        "./message-sources.html#GUI_GAME_TRIBUNAL_TRIALS_REMAINING_PLURAL"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "mayor",
@@ -33,12 +39,14 @@
       "scope": "Town claim + actual role",
       "resolution": "Before Reveal, a quiet night supplies no role result. Typing a Mayor claim does not trigger the public reveal or extra votes.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)",
       "sourceSha256": "2d62bcc8e12d7c16a63c374c0b0a94fa0a7bcd2484851c9302350e090f0aeb77",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:MayorMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_198",
+        "./message-sources.html#GAME_417"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "monarch",
@@ -46,12 +54,14 @@
       "scope": "Town claim + actual role",
       "resolution": "A held, roleblocked or obstructed Knight is not a completed Knight. Check the next-day Knight announcement/status; an existing knight dying is separate feedback.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)",
       "sourceSha256": "e864aa871888935362928e389795b8663343532011f0eece8bbb32711d0f538f",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:MonarchMessages"
-      ]
+        "./message-sources.html#GAME_299",
+        "./message-sources.html#GAME_300"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "prosecutor",
@@ -59,12 +69,13 @@
       "scope": "Town claim + actual role",
       "resolution": "Holding Prosecute gives no ability result. A real prosecution has a public daytime resolution; it cannot be supplied by a private night claim.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)",
       "sourceSha256": "07fa1cd45e4330cd6f16d2a45329dbce0a57b15a15e12e1496a55f1b9302fc1f",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:ProsecutorMessages"
-      ]
+        "./message-sources.html#GUI_GAME_KILLED_BY_REASON_33"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "coroner",
@@ -72,12 +83,14 @@
       "scope": "Town claim + actual role",
       "resolution": "Without an Autopsy, do not invent a killer comparison. An unblocked no-match is a result; an interrupted Examine is no result. Autopsy and Examine refer to different players. The role page says Enchant/Illusion do not change this result; Keywords conflicts on Illusion, so that interaction is not presented as settled.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)",
       "sourceSha256": "75cf66844fd185d254d88b422074f17d38da3c57f5dc5997e5dca3dcbf6b0b61",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:CoronerMessages"
-      ]
+        "./message-sources.html#GAME_71",
+        "./message-sources.html#GAME_70"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "investigator",
@@ -85,12 +98,14 @@
       "scope": "Town claim + actual role",
       "resolution": "No Crime is a completed investigation result, not silence. Roleblock, obstacle or suppressed feedback is no result. Murder means an attack that night, not necessarily a kill.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)",
       "sourceSha256": "074035b0dab429a51e3067eb59bc1949859e48ae11d8388d508fd8f3271af3db",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:InvestigatorMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_56",
+        "./message-sources.html#GAME_55"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "lookout",
@@ -98,12 +113,14 @@
       "scope": "Town claim + actual role",
       "resolution": "No visible visitors is a usable observation only after a completed Watch. Astral traffic is absent from the list; an interrupted or suppressed Watch is not an empty list.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)",
       "sourceSha256": "31f62fa92378d884352e5caaa2f8141c014fdb4759e06c56ae0337cbaa4014a5",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_95",
+        "./message-sources.html#GAME_298"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "psychic",
@@ -111,12 +128,14 @@
       "scope": "Town claim + actual role",
       "resolution": "Odd nights give Good pairs; even nights give Evil trios. No vision is not an all-good/all-evil group. Late-game failure-message triggers remain uncertain in the source.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)",
       "sourceSha256": "12b3994c1ce2ea3086055dd2a28aca79f08c63eb338f9207470e7640e080969c",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_86",
+        "./message-sources.html#GAME_89"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "seer",
@@ -124,12 +143,13 @@
       "scope": "Town claim + actual role",
       "resolution": "Friends or Enemies compares apparent factions, not exact roles. Both selected players must be recorded. An interrupted comparison supplies neither Friends nor Enemies.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)",
       "sourceSha256": "aeac341abf93933eab7d6a261cd391de229d87cb088d4a2d322aff4fb28bab98",
       "messageSourceUrls": [
-        "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
-      ]
+        "./message-sources.html#GAME_58"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "sheriff",
@@ -137,25 +157,29 @@
       "scope": "Town claim + actual role",
       "resolution": "Innocent and Suspicious are actual results. Roleblock, obstacle or suppressed feedback is not Innocent; Innocent does not establish a Town role.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)",
       "sourceSha256": "68a946e6689cdc6377352fb2148ed86681e5624cffe3bb61d8a94595585ca520",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148"
-      ]
+        "./message-sources.html#GAME_2",
+        "./message-sources.html#GAME_1"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "spy",
       "name": "Spy",
       "scope": "Town claim + actual role",
       "resolution": "A quiet Bug is not proof that the player is Town. Existing Bugs can keep reporting later visits; an interrupted new placement does not establish a new Bug.",
-      "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 2,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)",
       "sourceSha256": "e7fa6c178ea8fc10596ad16991fa82b2003d3ba310a43b21e364bc58e98bb771",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:SpyMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_374",
+        "./message-sources.html#GAME_395"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "tracker",
@@ -163,12 +187,14 @@
       "scope": "Town claim + actual role",
       "resolution": "No visible visit can mean staying home or astral activity. It is a successful observation only if Track resolved; a failed Track is not a stay-home result.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)",
       "sourceSha256": "d2a38cdd83a18d3e129ccb0a7e9ec42358a07fca89fad7b196591915431eb5b8",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:TrackerMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_373",
+        "./message-sources.html#GAME_90"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "bodyguard",
@@ -176,12 +202,15 @@
       "scope": "Town claim + actual role",
       "resolution": "No interception reported is not a save. Self Protect stays home, has two uses and grants Basic Defense; it does not fight an attacker or Guard another player.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)",
       "sourceSha256": "de2ddc3f4c28101b61aa7b28331c616d53ca20eaea482f3a79701f8e4a8fc4ab",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_82",
+        "./message-sources.html#GAME_29",
+        "./message-sources.html#GAME_80"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "cleric",
@@ -189,26 +218,31 @@
       "scope": "Town claim + actual role",
       "resolution": "An unblocked quiet night normally gives no attack/save notice. A prevented Barrier is a failure, not a save. Quiet Self Barrier still spends its once-per-game use.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
       "sourceSha256": "75b29aab2ac86e9c5f50f3a4b8ee7e3727f436afacb13379cc2d3906aaebfe63",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric"
-      ]
+        "./message-sources.html#GAME_61",
+        "./message-sources.html#GAME_31"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "crusader",
       "name": "Crusader",
       "scope": "Town claim + actual role",
       "resolution": "Separate target-attack feedback from your own visitor-attack feedback. A quiet Fortify is not a save, and a visitor attack is not proof that visitor died.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 4,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)",
       "sourceSha256": "2df0847b88cd16aad9de004407c28eb2e852004d9e5cecb1b79820c557237a6d",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870",
-        "https://town-of-salem.fandom.com/wiki/Template:CrusaderMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_61",
+        "./message-sources.html#GAME_307",
+        "./message-sources.html#GUI_GAME_KILLED_BY_REASON_15",
+        "./message-sources.html#GAME_32"
+      ],
+      "installedStringCount": 4
     },
     {
       "id": "oracle",
@@ -216,12 +250,14 @@
       "scope": "Town claim + actual role",
       "resolution": "No attack feedback does not confirm that the selected role exists. Aegis Oracle is the once-per-game self-role choice; target roles, not player numbers, and do not repeat a role consecutively.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
       "sourceSha256": "dc2154acf46b81be0037268b1a3e4ab408f53d1e93b0ad87c158efae2fceb7d9",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:OracleMessages"
-      ]
+        "./message-sources.html#GAME_63",
+        "./message-sources.html#GAME_31"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "trapper",
@@ -229,12 +265,15 @@
       "scope": "Town claim + actual role",
       "resolution": "Build is preparation, not a visit or save. A quiet placed Trap can persist into later nights. A harmful trigger is not the same as a complete non-harmful visitor-role list.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)",
       "sourceSha256": "462997b83d2aecfb39605d58e3fbbeb705bd1b25c2b52e0656e449627e2f3f1f",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_199",
+        "./message-sources.html#GAME_290",
+        "./message-sources.html#GAME_30"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "deputy",
@@ -242,13 +281,14 @@
       "scope": "Town claim + actual role",
       "resolution": "A miss is private to the Deputy and spends the single shot. No public animation does not disprove a miss; a held shot is not a missed shot.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)",
       "sourceSha256": "114f9ce0b623fcac0f89533515d0d0933ba5336561b457d70290292c4ef01d51",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Deputy%20%28ToS2%29&oldid=6299",
-        "https://town-of-salem.fandom.com/wiki/Template:DeputyMessages"
-      ]
+        "./message-sources.html#CINE_ROLE_DEPUTY_SHOOTS",
+        "./message-sources.html#GAME_14"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "trickster",
@@ -256,12 +296,14 @@
       "scope": "Town claim + actual role",
       "resolution": "No absorption is not a save. Self Mirror has one use. An absorbed attack must be stored before Unleash; while stored, another ordinary Mirror placement is unavailable.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)",
       "sourceSha256": "200100906d5180317bca007122c68e2a739a5f7d0545243baeba16519d612b4a",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:TricksterMessages"
-      ]
+        "./message-sources.html#GAME_205",
+        "./message-sources.html#GAME_38"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "veteran",
@@ -269,12 +311,14 @@
       "scope": "Town claim + actual role",
       "resolution": "A quiet Alert still spends a charge. No Alert cannot produce Alert shots. You learn how many visitors you shot, not a complete named visitor list or guaranteed kill count.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)",
       "sourceSha256": "9064ef3b17cf5ebedb5dc86ca047cb0ee364bdf897f79a9d6c2e02c9036cd611",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:VeteranMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_67",
+        "./message-sources.html#GAME_34"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "vigilante",
@@ -282,12 +326,14 @@
       "scope": "Town claim + actual role",
       "resolution": "Load or hold nights are not shots. A surviving target is not automatically a missed visit; preserve defense/failure feedback and any Town-hit penalty separately.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)",
       "sourceSha256": "3894b74af8e453ddf60e79a07e7de2a8090fc0a5421024a9512ecde0e2cdc887",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:VigilanteMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_404",
+        "./message-sources.html#GAME_291"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "admirer",
@@ -295,13 +341,15 @@
       "scope": "Town claim + actual role",
       "resolution": "A negative Admire is a result; a prevented Admire is not. Care protects you and the found Obsession, while Bestow is a separate daytime effect, not a marriage proposal.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)",
       "sourceSha256": "2e5c8cd031484a2bca0f9eeed8a3ebc8111199cb492a666a38ee3a8a4ecf6bdb",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658",
-        "https://town-of-salem.fandom.com/wiki/Template:AdmirerMessages"
-      ]
+        "./message-sources.html#GAME_362",
+        "./message-sources.html#GAME_286",
+        "./message-sources.html#GAME_285"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "amnesiac",
@@ -309,38 +357,46 @@
       "scope": "Town claim + actual role",
       "resolution": "No eligible role to Remember means no transformation yet. Remember is automatic; it is not a chosen night visit, an investigation, or a current public role announcement.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)",
       "sourceSha256": "b3b9be46942afd4d455388c2eb0c79a06d7953948d478e5053060f1904048455",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:AmnesiacMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_258"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "retributionist",
       "name": "Retributionist",
       "scope": "Town claim + actual role",
       "resolution": "A missing/contested corpse is a failure, not a negative investigation. You are roleblock-immune; the corpse ability and its destination still determine other restrictions and feedback.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 3,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)",
       "sourceSha256": "d9a1af0a7707461954e581a76b70726d2b67a8a05b5e314d4468d871ce6a2f57",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_62",
+        "./message-sources.html#GAME_301",
+        "./message-sources.html#GAME_61"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "socialite",
       "name": "Socialite",
       "scope": "Town claim + actual role",
       "resolution": "No rejection reported does not prove no one visited. Guests and permitted bypasses can enter; a rejection notice does not name the rejected visitors. You are roleblock-immune.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 4,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)",
       "sourceSha256": "f9a131f17fd325c3d7afe4f094b9e948eedb4b3763c5d43c7cc563253fbd99d2",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages"
-      ]
+        "./message-sources.html#GAME_403",
+        "./message-sources.html#GAME_54",
+        "./message-sources.html#GAME_25",
+        "./message-sources.html#GAME_26"
+      ],
+      "installedStringCount": 4
     },
     {
       "id": "tavern-keeper",
@@ -348,13 +404,15 @@
       "scope": "Town claim + actual role",
       "resolution": "A visit alone does not prove roleblock success. Immunity, Hungover, jail or an obstacle can change the account. You are roleblock-immune; an uncautious Serial Killer can retaliate.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)",
       "sourceSha256": "c3698b4ba85f9f0722df459c05d0f9ac19e3875fe13d5c5d10815f96de44894d",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Tavern%20Keeper%20%28ToS2%29&oldid=4009",
-        "https://town-of-salem.fandom.com/wiki/Template:TavernKeeperMessages/ToS2"
-      ]
+        "./message-sources.html#GUI_GAME_KILLED_BY_REASON_28",
+        "./message-sources.html#GAME_3",
+        "./message-sources.html#GAME_133"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "catalyst",
@@ -362,12 +420,14 @@
       "scope": "Town claim + actual role",
       "resolution": "No visible second action does not alone prove failure: the recipient needs a compatible ability and correct cycle. Do not promise extra charges or a doubled effect for every role.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)",
       "sourceSha256": "9158b5bdc68e61e63be96805651a2c39374242b240e0e9242809b698603cfa9c",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:CatalystMessages"
-      ]
+        "./message-sources.html#GAME_445",
+        "./message-sources.html#GAME_446"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "pilgrim",
@@ -378,7 +438,8 @@
       "wordingCoverage": "No unique ability message: Pilgrim has no active ability. Incoming attacks, protection and failures use their own effect notices.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)",
       "sourceSha256": "b52b138a22fbc1ac8e59895a16110aa03da6fb853cdd49a11d8280e77751c78c",
-      "messageSourceUrls": []
+      "messageSourceUrls": [],
+      "installedStringCount": 0
     },
     {
       "id": "archmage",
@@ -386,12 +447,13 @@
       "scope": "Actual role",
       "resolution": "Retrain and the book attack are alternative modes. An interrupted Retrain does not establish a new role; check the ally’s changed role card rather than inventing investigative feedback.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)",
       "sourceSha256": "034bfdd5d105ae4a71e575a75856d6c58656d2018552e6a94a95cf3ad5da089b",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:ArchmageMessages"
-      ]
+        "./message-sources.html#GAME_396"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "hex-master",
@@ -399,25 +461,29 @@
       "scope": "Actual role",
       "resolution": "A quiet Hex is not a kill or a protective save. A failed visit is not a new Hex. The book’s astral attack and the final Hex Bomb are distinct from ordinary Hex placement.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)",
       "sourceSha256": "9309afeb7a1b0592bea807fa37b12aabb1713627ffb23e5de4a93e36262a6d27",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232"
-      ]
+        "./message-sources.html#GUI_HEXMASTER_CINEMATIC_TEXT"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "witch",
       "name": "Witch",
       "scope": "Actual role",
-      "resolution": "Use the controlled role’s actual feedback, including failures. A control/immunity notice alone does not prove the forced action succeeded; your observed visit is to the first target.",
-      "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "resolution": "If Control succeeds, use the controlled role’s actual result, not one universal Witch success sentence. A prevented Control gives no completed forced action. The first-target role reveal is Coven knowledge; stolen ability feedback and failure messages must be tracked separately.",
+      "exactMessageCount": 3,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)",
       "sourceSha256": "43d3a6332f1845fe82f4ce74ec420918dcd82435add6279db074ce5b8cdd7a1b",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:WitchMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_333",
+        "./message-sources.html#GAME_136",
+        "./message-sources.html#GAME_12"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "conjurer",
@@ -425,13 +491,14 @@
       "scope": "Actual role",
       "resolution": "Holding Meteor gives no daytime kill. A defended Meteor differs from a death and still has public evidence; a nighttime book attack is a separate action.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)",
       "sourceSha256": "a5bb853690673d8a6e6986aa572f7804ac01884f84adc0a997636f9453965ae3",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365",
-        "https://town-of-salem.fandom.com/wiki/Template:ConjurerMessages"
-      ]
+        "./message-sources.html#CINE_CONJURER_BIG_TEXT",
+        "./message-sources.html#GAME_211"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "ritualist",
@@ -439,13 +506,14 @@
       "scope": "Actual role",
       "resolution": "A wrong role guess spends an attempt and gives no failure message. That silence is different from a correct-guess notice; it does not reveal the target’s actual role. A correct guess can still leave an Invincible target alive.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)",
       "sourceSha256": "3a5b96503d375d7f8d7b8cd989959c15950be4ae5861a22da90c473a34228787",
       "messageSourceUrls": [
-        "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/",
-        "https://town-of-salem.fandom.com/wiki/Template:RitualistMessages"
-      ]
+        "./message-sources.html#GAME_223",
+        "./message-sources.html#GAME_94"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "jinx",
@@ -453,14 +521,15 @@
       "scope": "Actual role",
       "resolution": "No visitor-attack feedback is not an empty named visitor list. Attack feedback without a Jinx death can leave a surviving witness who knows your identity.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)",
       "sourceSha256": "c24fc5ca308b619ed9aa92a1b63c742ea0e35ee2811f05ee74c2c32c9229ce5b",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Jinx",
-        "https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984",
-        "https://town-of-salem.fandom.com/wiki/Template:JinxMessages"
-      ]
+        "./message-sources.html#GAME_92",
+        "./message-sources.html#GUI_GAME_KILLED_BY_REASON_17",
+        "./message-sources.html#GAME_213"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "dreamweaver",
@@ -468,12 +537,14 @@
       "scope": "Actual role",
       "resolution": "A selected target is not confirmed Insomnia. A qualifying Town visit on the following night can cure Dreamweave before Insomnia; prevention and later recovery are separate states.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)",
       "sourceSha256": "7421a2e9e0d85271673a23f2faeb7a95b31b70b4e879c13aedee5e2c6783408d",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:DreamweaverMessages"
-      ]
+        "./message-sources.html#GAME_266",
+        "./message-sources.html#GAME_267"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "enchanter",
@@ -484,7 +555,8 @@
       "wordingCoverage": "The wiki’s Enchanter message template lists no messages. Enchant/Alterate effects are explained here; no unsourced success sentence is supplied.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)",
       "sourceSha256": "63a2688b12f67b6537b2ce14dc467829be4cae1c368dfc8064edfafcd087fb39",
-      "messageSourceUrls": []
+      "messageSourceUrls": [],
+      "installedStringCount": 0
     },
     {
       "id": "illusionist",
@@ -492,12 +564,13 @@
       "scope": "Actual role",
       "resolution": "Illusion changes appearances, not real abilities. A quiet night gives no new Town investigation; Phantasm and death Disguise are separate modes. Do not claim every investigator is fooled.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)",
       "sourceSha256": "d72baecc118e4485c913e03a97cd54d4e128628241639601347917c0cc3bf6ef",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:IllusionistMessages"
-      ]
+        "./message-sources.html#GUI_FACTION_ROLECHOICE_TARGETING_GENERIC"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "medusa",
@@ -505,25 +578,28 @@
       "scope": "Actual role",
       "resolution": "Stone is a persistent mark, not a kill/save result. Holding makes no ordinary Stone visit. During Grace Period N1, a visible Stone visit cannot support an unavailable TP visit.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
       "sourceSha256": "90054e1d896c43d20262f0512ca055b7d9b8f7053b634424ecf3da61d333d9c9",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:MedusaMessages/ToS2"
-      ]
+        "./message-sources.html#GUI_GAME_WHO_DIED_VICTIM_ROLE_STONED"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "necromancer",
       "name": "Necromancer",
       "scope": "Actual role",
       "resolution": "An unusable or contested corpse is not a successful result. You are roleblock-immune, but corpse availability, ability restrictions and destination failures still matter.",
-      "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 2,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)",
       "sourceSha256": "1292cf6a557707bbcc0c32d52c9d2961414e0b922dbc25794ce9f17b03472c6b",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:NecromancerMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_301",
+        "./message-sources.html#GAME_61"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "poisoner",
@@ -531,39 +607,47 @@
       "scope": "Actual role",
       "resolution": "No Smog rejection reported is not proof of an empty house. Drink is a separate roleblock mode. You are roleblock-immune; Smog and a book attack cannot be used together.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)",
       "sourceSha256": "80c7d115e2878bdc01930d4812f1cc4f1f868dee729e90bc89d285975b5eb51c",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_3",
+        "./message-sources.html#GAME_54"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "potion-master",
       "name": "Potion Master",
       "scope": "Actual role",
       "resolution": "A quiet Heal is not save feedback. Self Heal uses the same protection mode, cannot be used in a 1v1, and is not a visit to another player. Reveal is a role result, not a visitor list.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 4,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)",
       "sourceSha256": "6c17f5a40ee27df5155c10df728808c57aa03bc0f83315408dce6a0e182e842c",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:PotionMasterMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_31",
+        "./message-sources.html#GAME_321",
+        "./message-sources.html#GAME_136",
+        "./message-sources.html#GAME_61"
+      ],
+      "installedStringCount": 4
     },
     {
       "id": "voodoo-master",
       "name": "Voodoo Master",
       "scope": "Actual role",
       "resolution": "Silence, Deafen and Blind suppress different things. No victim report does not establish failure. Sources disagree on a Blind notice, so no exact Blind line is promised.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 3,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)",
       "sourceSha256": "d6845b0e9906d19b2ddecd506d87c02b76a085509cef0dcda3f6455f674300c6",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360",
-        "https://town-of-salem.fandom.com/wiki/Template:VoodooMasterMessages"
-      ]
+        "./message-sources.html#GAME_6",
+        "./message-sources.html#GAME_44",
+        "./message-sources.html#GAME_46"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "wildling",
@@ -571,12 +655,14 @@
       "scope": "Actual role",
       "resolution": "An empty travel result can hide astral movement. Sense is not an exact-role reveal or Spy-style effect log; public whispers you hear are separate from the nightly travel report.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)",
       "sourceSha256": "bc2f7eef3e4aca86dd53bc31fba112798c2b52af14bbac6439e45aad9e612cf9",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:WildlingMessages"
-      ]
+        "./message-sources.html#GAME_90",
+        "./message-sources.html#GAME_95"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "covenite",
@@ -587,20 +673,22 @@
       "wordingCoverage": "No unique Covenite ability message: without the Necronomicon there is no personal night ability; book attacks use shared Coven/attack feedback.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)",
       "sourceSha256": "da737921ba0191953e89160df83971b317480d41abf8da0bda248065d9340caa",
-      "messageSourceUrls": []
+      "messageSourceUrls": [],
+      "installedStringCount": 0
     },
     {
       "id": "cultist",
       "name": "Cultist",
       "scope": "Actual role",
       "resolution": "A button selection is not a confirmed conversion. Check the joined faction/team state; Indoctrinate preserves the target’s role and abilities. A book attack is a different action.",
-      "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "exactMessageCount": 1,
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)",
       "sourceSha256": "ccced54492c779fa6e59871e1805d4eac326b93d9d5b7baeb108a5e97c5f2148",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:CultistMessages"
-      ]
+        "./message-sources.html#GAME_37"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "baker",
@@ -611,7 +699,8 @@
       "wordingCoverage": "The wiki’s Baker message template lists no messages. Feed/Bread state is explained here; no unsourced Feed success sentence is supplied.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
       "sourceSha256": "6af0f546f2b7c7b3f24e31eaa12d0a8d0cc39e848b7f200c09670baa4726a288",
-      "messageSourceUrls": []
+      "messageSourceUrls": [],
+      "installedStringCount": 0
     },
     {
       "id": "berserker",
@@ -619,12 +708,13 @@
       "scope": "Actual role",
       "resolution": "Early restricted nights or a held attack do not produce kills. Track actual kills and rampage victims separately; transformation needs the real threshold, not merely selected targets.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
       "sourceSha256": "09cd8a71e6a8b2a1c59b38e22229ceb4d180c23b93f55556896112a09e0d0622",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:BerserkerMessages"
-      ]
+        "./message-sources.html#GAME_225"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "plaguebearer",
@@ -632,12 +722,13 @@
       "scope": "Actual role",
       "resolution": "Starting infection and an already infected contact are not new spread. A prevented direct Infect adds no new target; distinguish it from spread through contacts already infected.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
       "sourceSha256": "ad3e2b3fefd9cc393e3bc549f7ec52fc1d3c34eefa9e99b8e389abcf96056d4b",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:PlaguebearerMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_18"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "soul-collector",
@@ -645,12 +736,14 @@
       "scope": "Actual role",
       "resolution": "A quiet Reap is not a kill. A soul can come from the role’s permitted passive/death conditions; do not claim every Reap immediately awards one or gives a Town result.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
       "sourceSha256": "49e88ebc87c12ea88769d6b91f732f7075503f0e5a963ac9354a00d218e87f7a",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:SoulCollectorMessages"
-      ]
+        "./message-sources.html#GAME_302",
+        "./message-sources.html#GAME_229"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "doomsayer",
@@ -658,13 +751,16 @@
       "scope": "Actual role",
       "resolution": "A failed set means at least one guess is wrong; it does not identify which. Do not replace a failure with three negative role checks. Doom is not defeated by an ordinary roleblock/control story.",
       "exactMessageCount": 4,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
       "sourceSha256": "7f9de4c589537920e97bddc64b4f59a597e5783658816e50ec15da5ecb2b069c",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436",
-        "https://town-of-salem.fandom.com/wiki/Template:DoomsayerMessages"
-      ]
+        "./message-sources.html#GAME_221",
+        "./message-sources.html#GAME_222",
+        "./message-sources.html#GAME_378",
+        "./message-sources.html#GAME_379"
+      ],
+      "installedStringCount": 4
     },
     {
       "id": "executioner",
@@ -672,12 +768,14 @@
       "scope": "Actual role",
       "resolution": "A non-trial target death changes you into Jester privately. It is not an Executioner win or a public Jester revenge event; update the role and its later requirements.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
       "sourceSha256": "fbcc54d6183d54788802b1645e1c37a082762d51777e1f3f43629f101b3870b1",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:ExecutionerMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_19",
+        "./message-sources.html#GAME_227"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "jester",
@@ -685,13 +783,15 @@
       "scope": "Actual role",
       "resolution": "Missing Chatterbox can invalidate revenge even after hanging. A night death is not the qualifying win; a Haunt requires the actual revenge state, not a fabricated visitor result.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
       "sourceSha256": "2b6e440d8343c71e4d907aaa6998d7b46494114b1b349f1924eacfa7f0e7ce8c",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368",
-        "https://town-of-salem.fandom.com/wiki/Template:JesterMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_194",
+        "./message-sources.html#GAME_416",
+        "./message-sources.html#GAME_415"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "pirate",
@@ -699,12 +799,15 @@
       "scope": "Actual role",
       "resolution": "Scour is a Landlubber check; Plunder is a separate attack. A failed attack is not a negative Scour, and a Landlubber dying to another cause can still advance the objective. No old duels.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
       "sourceSha256": "156d3914829cc03122881c2ef5e0b8e7012e0061dc0961d0dadd27e4c7fd421e",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_409",
+        "./message-sources.html#GAME_411",
+        "./message-sources.html#GAME_410"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "arsonist",
@@ -712,12 +815,15 @@
       "scope": "Actual role",
       "resolution": "A quiet Douse gives no Cleric save feedback. Clean stays home; Ignite is astral. Being Doused by another Arsonist and passive Dousing visitors are separate from a direct Douse destination.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
       "sourceSha256": "6c1cdbc9f1bffd8c06aaf2b0550c9fd971cf952108e043a40bd0525c2ddcb344",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_292",
+        "./message-sources.html#GAME_127",
+        "./message-sources.html#GAME_128"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "serial-killer",
@@ -725,13 +831,15 @@
       "scope": "Actual role",
       "resolution": "Cautious changes roleblock retaliation, not your target’s identity. Attack feedback without a death can mean defense; an uncautious retaliatory death is not an ordinary selected-target kill.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
       "sourceSha256": "0198214bc6e23c54a43f5b0cc80a9b88bfb6041b07027e924117341aee8656ff",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741",
-        "https://town-of-salem.fandom.com/wiki/Template:SerialKillerMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_4",
+        "./message-sources.html#GAME_324",
+        "./message-sources.html#GAME_325"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "shroud",
@@ -739,12 +847,14 @@
       "scope": "Actual role",
       "resolution": "A shrouded player staying home can redirect the outcome to an attack on that player. A shrouded visit is not proof of a willing attack; preserve mode and actual destination feedback.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
       "sourceSha256": "003ee16be3dadca8c320d154ec9cbf10a44e1e71dd72deceff554980dbb31f49",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:ShroudMessages"
-      ]
+        "./message-sources.html#GAME_294",
+        "./message-sources.html#GAME_385"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "werewolf",
@@ -752,12 +862,14 @@
       "scope": "Actual role",
       "resolution": "Non-Full Moon Scent is not an attack. Existing scents can still report when you are jailed. Staying home on a Full Moon can rampage at home; do not invent an outward visit.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
       "sourceSha256": "6ae755157ab2868f5321d3d68a686e84539e0cff4885ef00ee5e9f0b2a86e02c",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:WerewolfMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_113",
+        "./message-sources.html#GAME_190"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "cursed-soul",
@@ -765,13 +877,15 @@
       "scope": "Actual role",
       "resolution": "A failed or redirected Soul Swap does not prove the chosen player changed roles. Roles swap while factions remain; check the resulting role card instead of assigning a new allegiance.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
       "sourceSha256": "834b1253b09868caa7a934f829c2c7dfd03294f77cb4d29c7a0f8b7326b6947e",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Cursed%20Soul%20%28ToS2%29&oldid=5714",
-        "https://town-of-salem.fandom.com/wiki/Template:CursedSoulMessages"
-      ]
+        "./message-sources.html#GAME_304",
+        "./message-sources.html#GAME_346",
+        "./message-sources.html#GAME_345"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "vampire",
@@ -779,12 +893,13 @@
       "scope": "Actual role",
       "resolution": "An ineligible/defended Convert switches to Drain; during Grace Period that fallback can fail altogether. A surviving target is not confirmed conversion, and conversion preserves their role.",
       "exactMessageCount": 1,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
       "sourceSha256": "c3ba9c3331edaa9117590a709ff153290a71462a9f8a343adbbc7276429b99c1",
       "messageSourceUrls": [
-        "https://town-of-salem.fandom.com/wiki/Template:VampireMessages/ToS2"
-      ]
+        "./message-sources.html#GUI_GAME_KILLED_BY_REASON_14"
+      ],
+      "installedStringCount": 1
     },
     {
       "id": "famine",
@@ -792,13 +907,14 @@
       "scope": "Actual role",
       "resolution": "Starve reduces Bread; it is not a protective visit or ordinary attack. No immediate death does not prove Starve failed. The famine countdown is separate from your selected nightly target.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
       "sourceSha256": "6af0f546f2b7c7b3f24e31eaa12d0a8d0cc39e848b7f200c09670baa4726a288",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503",
-        "https://town-of-salem.fandom.com/wiki/Template:FamineMessages"
-      ]
+        "./message-sources.html#GAME_220",
+        "./message-sources.html#GAME_293"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "war",
@@ -806,13 +922,14 @@
       "scope": "Actual role",
       "resolution": "Quiet or survived targets do not justify reverting to Berserker’s old limits. War is roleblock/obstacle-immune and can select two houses; Witch redirects only the first visit.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
       "sourceSha256": "09cd8a71e6a8b2a1c59b38e22229ceb4d180c23b93f55556896112a09e0d0622",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632",
-        "https://town-of-salem.fandom.com/wiki/Template:WarMessages"
-      ]
+        "./message-sources.html#GAME_262",
+        "./message-sources.html#GAME_103"
+      ],
+      "installedStringCount": 2
     },
     {
       "id": "pestilence",
@@ -820,13 +937,15 @@
       "scope": "Actual role",
       "resolution": "Pestilence stacks are not ordinary attacks. A failed-looking survival can mean the lethal threshold was not reached. Roleblock, jail and obstacles do not stop its immune/passive effects.",
       "exactMessageCount": 3,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
       "sourceSha256": "ad3e2b3fefd9cc393e3bc549f7ec52fc1d3c34eefa9e99b8e389abcf96056d4b",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579",
-        "https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2"
-      ]
+        "./message-sources.html#GAME_228",
+        "./message-sources.html#GAME_110",
+        "./message-sources.html#GAME_116"
+      ],
+      "installedStringCount": 3
     },
     {
       "id": "death",
@@ -834,13 +953,14 @@
       "scope": "Actual role",
       "resolution": "There is no normal night action/result to invent. The decisive condition is surviving the daytime execution deadline; ordinary roleblock or control does not cancel Armageddon.",
       "exactMessageCount": 2,
-      "wordingCoverage": "Source-documented lines for the labeled audiences; remaining feedback meaning is paraphrased.",
+      "wordingCoverage": "Installed R1.5.14 English strings verified; trigger and recipient explanations are source-checked, not live-game tested.",
       "sourceUrl": "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
       "sourceSha256": "49e88ebc87c12ea88769d6b91f732f7075503f0e5a963ac9354a00d218e87f7a",
       "messageSourceUrls": [
-        "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562",
-        "https://town-of-salem.fandom.com/wiki/Template:DeathMessages"
-      ]
+        "./message-sources.html#GUI_GAME_KILLED_BY_REASON_31",
+        "./message-sources.html#GAME_230"
+      ],
+      "installedStringCount": 2
     }
   ],
   "baseSourcePagesRefetched": 60,
@@ -857,6 +977,9 @@
       "baker",
       "enchanter"
     ],
-    "liveClientVerified": false
+    "liveClientVerified": false,
+    "installedClientVersion": "R1.5.14",
+    "installedClientBuild": "24079984",
+    "installedStringCount": 133
   }
 }

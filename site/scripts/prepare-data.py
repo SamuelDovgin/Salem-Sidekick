@@ -347,14 +347,14 @@ def build():
         for field in ['glance','youSee','theySee','claimCheck','outcomeNote']:
             assert guide[field].strip(), (role['id'],field)
         assert bool(guide.get('reportTemplate')) == role['alignment'].startswith('Town')
-        assert all(m['kind']=='documented' and m['sourceUrl'].startswith('https://') and m['audience'] and m['when'] for m in guide['messages'])
+        assert all(m['kind']=='documented' and (m['sourceUrl'].startswith('https://') or (m.get('clientEvidence') and m['sourceUrl'].startswith('./message-sources.html#'))) and m['audience'] and m['when'] for m in guide['messages'])
         guide['basis']='Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples.'
         assert guide['feedbackAudit']['reviewedOn']=='2026-10-16' and len(guide['feedbackAudit']['sourceSha256'])==64
         assert all(m['viewpoint'] in ['self','other','public','team'] and m['screenLabel'] for m in guide['messages'])
         role['feedbackGuide']=guide
         lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck'], '**Quiet / failed:** '+guide['outcomeNote']]
         for message in guide['messages']:
-            label='Older wiki wording' if message.get('legacyWording') else 'Documented excerpt' if message.get('excerpt') else 'Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented English'
+            label='Client English · '+message['clientEvidence']['version'] if message.get('clientEvidence') else 'Older wiki wording' if message.get('legacyWording') else 'Documented excerpt' if message.get('excerpt') else 'Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented English'
             lines.append('**'+label+' · '+message['audience']+':** `'+message.get('copyText',message['text'])+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
         for message in guide['messages']:
             if message.get('copyText'):
@@ -375,7 +375,7 @@ def build():
        'reviewedOn': original['reviewed_on'], 'ruleset':original['default_context'],
        'baseRoleCount':60, 'transformedStateCount':4,
        'newestNumberedOfficialPatchLocated':sources['newest_numbered_official_patch_located'],
-       'installedClientVersionVerified':False, 'liveGameTested':False,
+       'installedClientVersionVerified':True, 'installedEnglishStringBuild':'24079984', 'installedEnglishStringVersion':'R1.5.14', 'liveGameTested':False,
        'mechanicsBasis':'Community role pages cross-checked against official announcements; disputed interactions stay qualified.',
        'strategyBasis':'Source-checked ability constraints with editorial beginner rankings; conditional alternatives are not measured win rates.',
        'routeCount':sum(len(r['routes']) for r in all_roles),

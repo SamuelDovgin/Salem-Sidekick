@@ -1,91 +1,91 @@
-# Message coverage and remaining gaps
+# Current message coverage and remaining limits
 
-Reviewed 16 October 2026. A profile with a quote is not the same as every outcome having complete, current actor-side wording. The app documents messages from source material; no installed-client capture is claimed.
+Reviewed 16 October 2026 after the installed-English research. **The earlier Jailor/Crusader/Witch research recommendation has been acted on.** See [the research outcomes](ROLE_FEEDBACK.md) and [primary evidence](CLIENT_MESSAGE_EVIDENCE.json).
 
-- 64 role/state profiles have audience explanations, claim limits and role-specific quiet/failure notes.
-- 60 profiles have at least one documented line/excerpt (120 total).
-- 42 profiles have at least one acting-player quote. Three further profiles have Coven-team wording visible to the actor and their team.
-- 22 profiles lack a personal actor-side quote. Some have only public/recipient feedback or no personal ability, so this is a coverage distinction rather than 22 known missing game messages.
-- Five entries are explicitly excerpts. Three target-based lines across Shroud/Werewolf retain a local older-wording label.
-- Four profiles have no quote: Pilgrim has no active ability; Covenite has no unique ability without the book; Baker and Enchanter templates list no messages. Shared incoming effects still apply.
+- 64 profiles have audience explanations, claim limits and quiet/failure notes.
+- 133 displayed message lines across 60 profiles are checked against installed R1.5.14 English strings (Steam build 24079984).
+- 45 profiles have personal actor-side wording; two further profiles have team wording. Nineteen lack a personal actor-side quote, which is not proof that nineteen missing private messages should exist.
+- The earlier partial Coroner, Ritualist, Dreamweaver, Crusader and War quotes have complete installed-string counterparts. The displayed Shroud/Werewolf notices no longer depend on generic older wiki wording.
+- The four profiles without unique quotes remain Pilgrim, Covenite, Baker and Enchanter. Pilgrim/Covenite have no ordinary personal ability notice; Baker/Enchanter wiki templates list no messages. Shared incoming effects still apply.
 
-## Highest-value evidence gaps
+## What remains unproven
 
-1. **Current named actor feedback:** Jailor jail/execution outcomes; Crusader’s own target-attack and visitor-attack feedback; Witch’s own role/control feedback. Existing recipient/public lines do not establish these.
-2. **Mode-specific results:** Potion Master Reveal; Necromancer/Retributionist inherited feedback; individual Spy Bug events. Current explanations cover the meaning, but the quote set is not an exhaustive dictionary.
-3. **Current captures for older wording:** Shroud’s two destination/fallback notices and Werewolf’s Rampage visitor line. The publisher changed target references to player names; the wiki templates retain older forms. Do not synthesize a complete replacement sentence.
-4. **Disputed messages/interactions:** Psychic late-game no-vision triggers and Voodoo Blind’s inconsistent source trigger, plus Coroner’s disputed Illusion interaction. These remain qualified.
-5. **Presentation-only quote limits:** Coroner’s positive Examine and Dreamweaver’s first warning are excerpts; Ritualist’s correct-guess phrase is an excerpt because the official notes do not print the complete sentence. Other known documented outcomes, including Investigator Trespassing, are explained without reproducing the full message dictionary. Per-source quotation limits are retained.
+1. **Live delivery and unusual resolution:** a string in the client does not prove which server event sends it under every modifier, immunity or competing-protection case. No actual match was run. This is distinct from inability to research the wording.
+2. **Every possible role/mode variant:** Witch and corpse-users inherit another role’s feedback. The app explains the mechanism and supplies a Cleric example; it does not print every role-specific Reveal clue or every corpse-result combination.
+3. **Poisoner Smog actor notice:** the installed table has explicit Party rejection lines, but wording alone does not prove that Smog sends those same keys. They are shown under Socialite, not silently copied to Poisoner. Smog mechanics and recipient Unknown Obstacle remain documented.
+4. **Psychic late-game failure triggers and Coroner deception conflicts:** English text is available, but conflicting trigger/interaction explanations still need better behavioral evidence. Keep actual feedback and manual interpretation rather than hard deductions.
+5. **Cultist team-conversion sentence:** one wiki sentence was not found in this installed table and its copyable card was retired. The recipient notice is verified; team/faction knowledge remains explained without inventing a matching chat sentence.
+6. **Build scope:** the evidence is R1.5.14 / 24079984. A later update or language can differ. Screen colors, message position, suppression and the game’s copy/paste limits were not captured.
 
-Primary naming-change evidence: [official R1.5.00](https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/). Source retrieval evidence: [message manifest](MESSAGE_SOURCE_MANIFEST.json). Role-by-role sources: [feedback audit](ROLE_FEEDBACK_AUDIT.md). Separate mechanics uncertainties: [uncertainty register](UNCERTAINTIES.md).
+The absence of a special private success line is not a reason to fill a role with targeting confirmations or public events labeled as private results. For Jailor, selection, actual imprisonment and the prisoner’s fate remain distinct. For Crusader, target attack and visitor attack remain distinct. For Witch, faction role knowledge and borrowed ability feedback remain distinct.
 
 ## All-role audience matrix
 
-Counts below distinguish who actually receives the quoted line. A zero is not proof that the game has no such message. Team messages include the actor when they are on the named team. Partial and older wording may overlap an audience column.
+Counts describe the recipient of a displayed installed-string quote, not an exhaustive count of the game’s messages. Every listed quote is complete apart from explicit player/role/count placeholders.
 
-| Role | You | Your team | Other player | Everyone | Excerpts | Older wording |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Jailor | 0 | 0 | 2 | 0 | 0 | 0 |
-| Marshal | 1 | 0 | 0 | 1 | 0 | 0 |
-| Mayor | 1 | 0 | 0 | 1 | 0 | 0 |
-| Monarch | 1 | 0 | 0 | 1 | 0 | 0 |
-| Prosecutor | 0 | 0 | 0 | 1 | 0 | 0 |
-| Coroner | 2 | 0 | 0 | 0 | 1 | 0 |
-| Investigator | 2 | 0 | 0 | 0 | 0 | 0 |
-| Lookout | 2 | 0 | 0 | 0 | 0 | 0 |
-| Psychic | 2 | 0 | 0 | 0 | 0 | 0 |
-| Seer | 1 | 0 | 0 | 0 | 0 | 0 |
-| Sheriff | 2 | 0 | 0 | 0 | 0 | 0 |
-| Spy | 1 | 0 | 0 | 0 | 0 | 0 |
-| Tracker | 2 | 0 | 0 | 0 | 0 | 0 |
-| Bodyguard | 2 | 0 | 1 | 0 | 0 | 0 |
-| Cleric | 1 | 0 | 1 | 0 | 0 | 0 |
-| Crusader | 0 | 0 | 1 | 1 | 1 | 0 |
-| Oracle | 1 | 0 | 1 | 0 | 0 | 0 |
-| Trapper | 2 | 0 | 1 | 0 | 0 | 0 |
-| Deputy | 1 | 0 | 0 | 1 | 0 | 0 |
-| Trickster | 1 | 0 | 1 | 0 | 0 | 0 |
-| Veteran | 2 | 0 | 0 | 0 | 0 | 0 |
-| Vigilante | 2 | 0 | 0 | 0 | 0 | 0 |
-| Admirer | 3 | 0 | 0 | 0 | 0 | 0 |
-| Amnesiac | 1 | 0 | 0 | 0 | 0 | 0 |
-| Retributionist | 2 | 0 | 0 | 0 | 0 | 0 |
-| Socialite | 1 | 0 | 1 | 0 | 0 | 0 |
-| Tavern Keeper | 1 | 0 | 1 | 1 | 0 | 0 |
-| Catalyst | 0 | 0 | 2 | 0 | 0 | 0 |
-| Pilgrim | 0 | 0 | 0 | 0 | 0 | 0 |
-| Archmage | 0 | 1 | 0 | 0 | 0 | 0 |
-| Hex Master | 0 | 0 | 0 | 1 | 0 | 0 |
-| Witch | 0 | 0 | 1 | 0 | 0 | 0 |
-| Conjurer | 0 | 0 | 0 | 2 | 0 | 0 |
-| Ritualist | 1 | 0 | 1 | 0 | 1 | 0 |
-| Jinx | 1 | 0 | 1 | 1 | 0 | 0 |
-| Dreamweaver | 0 | 0 | 2 | 0 | 1 | 0 |
-| Enchanter | 0 | 0 | 0 | 0 | 0 | 0 |
-| Illusionist | 0 | 1 | 0 | 0 | 0 | 0 |
-| Medusa | 0 | 0 | 0 | 1 | 0 | 0 |
-| Necromancer | 1 | 0 | 0 | 0 | 0 | 0 |
-| Poisoner | 0 | 0 | 2 | 0 | 0 | 0 |
-| Potion Master | 1 | 0 | 1 | 0 | 0 | 0 |
-| Voodoo Master | 0 | 0 | 2 | 0 | 0 | 0 |
-| Wildling | 2 | 0 | 0 | 0 | 0 | 0 |
-| Covenite | 0 | 0 | 0 | 0 | 0 | 0 |
-| Cultist | 0 | 1 | 1 | 0 | 0 | 0 |
-| Baker | 0 | 0 | 0 | 0 | 0 | 0 |
-| Berserker | 1 | 0 | 0 | 0 | 0 | 0 |
-| Plaguebearer | 1 | 0 | 0 | 0 | 0 | 0 |
-| Soul Collector | 2 | 0 | 0 | 0 | 0 | 0 |
-| Doomsayer | 2 | 0 | 1 | 1 | 0 | 0 |
-| Executioner | 1 | 0 | 0 | 1 | 0 | 0 |
-| Jester | 1 | 0 | 0 | 2 | 0 | 0 |
-| Pirate | 3 | 0 | 0 | 0 | 0 | 0 |
-| Arsonist | 3 | 0 | 0 | 0 | 0 | 0 |
-| Serial Killer | 3 | 0 | 0 | 0 | 0 | 0 |
-| Shroud | 2 | 0 | 0 | 0 | 0 | 2 |
-| Werewolf | 2 | 0 | 0 | 0 | 0 | 1 |
-| Cursed Soul | 1 | 0 | 1 | 1 | 0 | 0 |
-| Vampire | 0 | 0 | 0 | 1 | 0 | 0 |
-| Famine | 0 | 0 | 1 | 1 | 0 | 0 |
-| War | 0 | 0 | 1 | 1 | 1 | 0 |
-| Pestilence | 1 | 0 | 1 | 1 | 0 | 0 |
-| Death | 0 | 0 | 0 | 2 | 0 | 0 |
+| Role | You | Your team | Other player | Everyone |
+| --- | ---: | ---: | ---: | ---: |
+| Jailor | 2 | 0 | 2 | 0 |
+| Marshal | 1 | 0 | 0 | 1 |
+| Mayor | 1 | 0 | 0 | 1 |
+| Monarch | 1 | 0 | 0 | 1 |
+| Prosecutor | 0 | 0 | 0 | 1 |
+| Coroner | 2 | 0 | 0 | 0 |
+| Investigator | 2 | 0 | 0 | 0 |
+| Lookout | 2 | 0 | 0 | 0 |
+| Psychic | 2 | 0 | 0 | 0 |
+| Seer | 1 | 0 | 0 | 0 |
+| Sheriff | 2 | 0 | 0 | 0 |
+| Spy | 2 | 0 | 0 | 0 |
+| Tracker | 2 | 0 | 0 | 0 |
+| Bodyguard | 2 | 0 | 1 | 0 |
+| Cleric | 1 | 0 | 1 | 0 |
+| Crusader | 2 | 0 | 1 | 1 |
+| Oracle | 1 | 0 | 1 | 0 |
+| Trapper | 2 | 0 | 1 | 0 |
+| Deputy | 1 | 0 | 0 | 1 |
+| Trickster | 1 | 0 | 1 | 0 |
+| Veteran | 2 | 0 | 0 | 0 |
+| Vigilante | 2 | 0 | 0 | 0 |
+| Admirer | 3 | 0 | 0 | 0 |
+| Amnesiac | 1 | 0 | 0 | 0 |
+| Retributionist | 3 | 0 | 0 | 0 |
+| Socialite | 3 | 0 | 1 | 0 |
+| Tavern Keeper | 1 | 0 | 1 | 1 |
+| Catalyst | 0 | 0 | 2 | 0 |
+| Pilgrim | 0 | 0 | 0 | 0 |
+| Archmage | 0 | 1 | 0 | 0 |
+| Hex Master | 0 | 0 | 0 | 1 |
+| Witch | 2 | 0 | 1 | 0 |
+| Conjurer | 0 | 0 | 0 | 2 |
+| Ritualist | 1 | 0 | 1 | 0 |
+| Jinx | 1 | 0 | 1 | 1 |
+| Dreamweaver | 0 | 0 | 2 | 0 |
+| Enchanter | 0 | 0 | 0 | 0 |
+| Illusionist | 0 | 1 | 0 | 0 |
+| Medusa | 0 | 0 | 0 | 1 |
+| Necromancer | 2 | 0 | 0 | 0 |
+| Poisoner | 0 | 0 | 2 | 0 |
+| Potion Master | 3 | 0 | 1 | 0 |
+| Voodoo Master | 0 | 0 | 3 | 0 |
+| Wildling | 2 | 0 | 0 | 0 |
+| Covenite | 0 | 0 | 0 | 0 |
+| Cultist | 0 | 0 | 1 | 0 |
+| Baker | 0 | 0 | 0 | 0 |
+| Berserker | 1 | 0 | 0 | 0 |
+| Plaguebearer | 1 | 0 | 0 | 0 |
+| Soul Collector | 2 | 0 | 0 | 0 |
+| Doomsayer | 2 | 0 | 1 | 1 |
+| Executioner | 1 | 0 | 0 | 1 |
+| Jester | 1 | 0 | 0 | 2 |
+| Pirate | 3 | 0 | 0 | 0 |
+| Arsonist | 3 | 0 | 0 | 0 |
+| Serial Killer | 3 | 0 | 0 | 0 |
+| Shroud | 2 | 0 | 0 | 0 |
+| Werewolf | 2 | 0 | 0 | 0 |
+| Cursed Soul | 1 | 0 | 1 | 1 |
+| Vampire | 0 | 0 | 0 | 1 |
+| Famine | 0 | 0 | 1 | 1 |
+| War | 0 | 0 | 1 | 1 |
+| Pestilence | 1 | 0 | 1 | 1 |
+| Death | 0 | 0 | 0 | 2 |

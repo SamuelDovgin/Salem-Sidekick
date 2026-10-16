@@ -1,6 +1,6 @@
 export function escapeHTML(value=''){return String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function inline(text){
-  const token=/\[([^\]]+)\]\((https?:\/\/[^\s]+)\)|\*\*([^*]+)\*\*|`([^`]+)`/g;
+  const token=/\[([^\]]+)\]\((https?:\/\/[^\s]+|\.\/message-sources\.html#[A-Z0-9_]+)\)|\*\*([^*]+)\*\*|`([^`]+)`/g;
   let out='',last=0;
   for(const m of text.matchAll(token)){
     out+=escapeHTML(text.slice(last,m.index));

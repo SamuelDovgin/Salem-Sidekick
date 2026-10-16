@@ -1,0 +1,1097 @@
+{
+  "entries": [
+    {
+      "roleId": "jailor",
+      "key": "GAME_209",
+      "rawSha256": "364cf5a837f9404a4022d1707498598147725cd4b11c57584a83d204bf3c6490",
+      "resolvedSha256": "a6ca9f71abe4d2df8adf7b0b7c69dd54776d4579ae454af4256ac41cca885f11",
+      "variables": {}
+    },
+    {
+      "roleId": "jailor",
+      "key": "GAME_214",
+      "rawSha256": "624b81df456e6ffcfb8650fb24989ed088d7d1fa6e762b137d0e1b2ae127e617",
+      "resolvedSha256": "1796d9a12afce968e503e8af5ba9baa2c5668dcd505be291e9a1e708f7f9be04",
+      "variables": {}
+    },
+    {
+      "roleId": "marshal",
+      "key": "GAME_391",
+      "rawSha256": "d9a88163e1ca81f40de0261be39f774bfb743533ad14d18e21e9a7d687824931",
+      "resolvedSha256": "e9abdc4ac21db37ce63e0adce4718ffd78f4f417b9b39462b8b4dac40a770c80",
+      "variables": {}
+    },
+    {
+      "roleId": "marshal",
+      "key": "GUI_GAME_TRIBUNAL_TRIALS_REMAINING_PLURAL",
+      "rawSha256": "cd43f533c2316ac5bd5d79207f1ba70b3afa6764c8939c55c86e1284a3f6fd2d",
+      "resolvedSha256": "170cd40e828b706169149adbd75786de248b74165d2cee022e000e9f1e34d71c",
+      "variables": {}
+    },
+    {
+      "roleId": "mayor",
+      "key": "GAME_198",
+      "rawSha256": "515a175280902db5da8ad12b203c9c42e7b06b9b02af68b5796424a5a57b54d1",
+      "resolvedSha256": "6fb44e25c30878e8dbdcee6c6e9e19265b51019cf98cf6391ddbecbe9061a111",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "mayor",
+      "key": "GAME_417",
+      "rawSha256": "1f8f38e9e257744387fc1ec6bcba4f87f92101fdfdb2c7a771ca4bcbf1ebedb4",
+      "resolvedSha256": "1f8f38e9e257744387fc1ec6bcba4f87f92101fdfdb2c7a771ca4bcbf1ebedb4",
+      "variables": {}
+    },
+    {
+      "roleId": "monarch",
+      "key": "GAME_299",
+      "rawSha256": "dd163aeb379a98beec6c10473ee81d5db3029b3b721520e1261e2e7419793a1a",
+      "resolvedSha256": "2a58b84c31f5b922bf64cd4e99e65b934a20369b631de0c82d1a8cd6c084477b",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "monarch",
+      "key": "GAME_300",
+      "rawSha256": "d04bbd9fbb5342960153d504beccaf072b3650ec8255c3e808f82319f8db06bf",
+      "resolvedSha256": "0fb4e0c8eda9b84e9e6a020c04328fabbc76aff9a7e3f6054d313585dcaf1160",
+      "variables": {}
+    },
+    {
+      "roleId": "prosecutor",
+      "key": "GUI_GAME_KILLED_BY_REASON_33",
+      "rawSha256": "0dee54a88283e1e194ab227a85c8129a18915bb49662c257b2adae1244618b97",
+      "resolvedSha256": "0dee54a88283e1e194ab227a85c8129a18915bb49662c257b2adae1244618b97",
+      "variables": {}
+    },
+    {
+      "roleId": "coroner",
+      "key": "GAME_71",
+      "rawSha256": "3631f241b0bcef8e64418b19687d91de11995d174a7253e3e1e1c8e4e476ff44",
+      "resolvedSha256": "0c5222e6dcd9228c4d8d73e7600daadb9f2803ad175c21ad7a1a9774c491e835",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "coroner",
+      "key": "GAME_70",
+      "rawSha256": "045bd12f0b3a5b0a695fc18f197ed04f0fe1e3f27f21d66b3ef5853b572d1698",
+      "resolvedSha256": "388a8b8819c1180d03b77e33945b6f2f3dba586c99046ddb97aa8f48e77d70bb",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "investigator",
+      "key": "GAME_56",
+      "rawSha256": "6ab6a78515d032a7ec3bf9f50cf67f08eebe9dc4d2c5e822510ea5911bc48437",
+      "resolvedSha256": "128d6ffa557fe9964574869f01d310e0ae114e0e4544e86c3e9dc55d5c8caef8",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "investigator",
+      "key": "GAME_55",
+      "rawSha256": "3b364f1feb6dc38c19be9db5fd385087aaec9fec11b818f4eb9abcaeb11a03bd",
+      "resolvedSha256": "961c37677be6f9fcc5213df9b08430f1e8ba16113e1465e51bdbf81412fe84d3",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "lookout",
+      "key": "GAME_95",
+      "rawSha256": "39c7dd3d8f63da9625e43b2fadb3bcc26121a027691c47622f4e3fbaca3c9a37",
+      "resolvedSha256": "7d2f90f53fc767c44f493d6650fb19dc2f763dac1f4b75a7318414d148295d03",
+      "variables": {
+        "name": "[visitor]",
+        "name2": "[watched player]"
+      }
+    },
+    {
+      "roleId": "lookout",
+      "key": "GAME_298",
+      "rawSha256": "3add457b1cbedf1a4e3312199d72c69c6450ab3088d1aefe4d21fd8b2c4be380",
+      "resolvedSha256": "df6e82f7b482f6cb9152cef66998feac110cc3db5b91c94a066b6f4b4a604e4d",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "psychic",
+      "key": "GAME_86",
+      "rawSha256": "2ff2b7123c673873c29ad2f85b97eecc47b3b620aff36d32965fd908595f0ae8",
+      "resolvedSha256": "4915f5f61ea9bb05f42d461c0248ad27c71c447bb85b6caed117ba5547b3d4a8",
+      "variables": {
+        "name": "[player1]",
+        "name2": "[player2]"
+      }
+    },
+    {
+      "roleId": "psychic",
+      "key": "GAME_89",
+      "rawSha256": "ea788ddf2db737d76f9b530165edaea0e3bb9018e6fd1c16736642d18ce192ec",
+      "resolvedSha256": "79d94505ccb60d4c98928ba8624da0adce7c868eaeb667e4cfa6a13ba4813356",
+      "variables": {
+        "name": "[player1]",
+        "name2": "[player2]",
+        "name3": "[player3]"
+      }
+    },
+    {
+      "roleId": "seer",
+      "key": "GAME_58",
+      "rawSha256": "6157928cf7f2e515228a8ad281d7cb2a696aed5681036c2cb92d07abc25c5a5d",
+      "resolvedSha256": "32aad4eaad31dbef1e65360295ac8d5112e88055b1e74a3cec855ebf0590e926",
+      "variables": {
+        "name": "[player1]",
+        "name2": "[player2]"
+      }
+    },
+    {
+      "roleId": "sheriff",
+      "key": "GAME_2",
+      "rawSha256": "900a1a5243232762c34507651228ad9ca8fe06d50b9e56701f5be9ce48b7b51c",
+      "resolvedSha256": "e4e639c3dae3794689aefc1c169042a07fa7eb3903f13db3ff408553b412f1c2",
+      "variables": {
+        "name": "[Player]"
+      }
+    },
+    {
+      "roleId": "sheriff",
+      "key": "GAME_1",
+      "rawSha256": "518e0e457531fd2e373f2e9ab9adb9b8e9693284a968775285181722d46ffcae",
+      "resolvedSha256": "22930d2e71ab30620d11eb123cb7f3c43ffd707ddf7d7160372c191ed811cda6",
+      "variables": {
+        "name": "[Player]"
+      }
+    },
+    {
+      "roleId": "spy",
+      "key": "GAME_374",
+      "rawSha256": "51b11f09ddc41b798276d9cba399614662e96fd1ae252de9c21e13cbb422f3a5",
+      "resolvedSha256": "db63b542eaa031b7de1c73626c6a52cca119bc4f7e5a50fd840c501aabb38742",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "tracker",
+      "key": "GAME_373",
+      "rawSha256": "7519da310c4ff542778d1bdb800edcef685b69165c7ec8b3070b1d6cb7817b1b",
+      "resolvedSha256": "80f77b5e04495400596b7bcd065d2bf30cc19d2bf0ade3e192eaf9788b926cd2",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "tracker",
+      "key": "GAME_90",
+      "rawSha256": "682801edbce702fcba41dcc4be04d0060dadafeb17d2617af25908e7023b2e37",
+      "resolvedSha256": "e62e0cc7e2c0450423bbb9748cd1a36b4d53aebfae708acd669756644e489474",
+      "variables": {
+        "name2": "[tracked player]",
+        "name": "[destination]"
+      }
+    },
+    {
+      "roleId": "bodyguard",
+      "key": "GAME_82",
+      "rawSha256": "c5306251ad08714a8362195c616189b9839a47cd9715dd5eb73d94eb58efd126",
+      "resolvedSha256": "bff1ec4357132e2f0629334c1052c354aa78a5dce9aaf90128f69f359fd4aa7b",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "bodyguard",
+      "key": "GAME_29",
+      "rawSha256": "c0648fc793e4805963108a718d98e0458c5720b14f7209e6bf04e889cae85f19",
+      "resolvedSha256": "eeda3b79d954b8b9906e9dbda990bd5d5d1073e33cfe36939f98207f47a35699",
+      "variables": {}
+    },
+    {
+      "roleId": "bodyguard",
+      "key": "GAME_80",
+      "rawSha256": "757bfaa9a636448a3eded96326f19a9e8d422a02d38c6c3fa4fcc92cb0d30d7a",
+      "resolvedSha256": "f37efd1f4a2b30e6689b0aa4f47a682c8ef07b47dbf6ddf4b60e335a97c077a8",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "cleric",
+      "key": "GAME_61",
+      "rawSha256": "091d445b294eef58b047c76ffdb5e97e47eeb92dce4b4ab8b60102d3cfbd4f46",
+      "resolvedSha256": "3244ef89dd026120bee2c411ac3e1e4a4db1bdb3a90785faaa9efb1c198ddd27",
+      "variables": {
+        "name": "[player name]"
+      }
+    },
+    {
+      "roleId": "cleric",
+      "key": "GAME_31",
+      "rawSha256": "e987efd24717509be2592e82f59ee929a10e89571de64e143625b9e54df5d470",
+      "resolvedSha256": "1d14f6b3885043af997f32c55854339ed32955884bc9a634d55c852859a52118",
+      "variables": {}
+    },
+    {
+      "roleId": "crusader",
+      "key": "GUI_GAME_KILLED_BY_REASON_15",
+      "rawSha256": "f7e03122586eae42130d8afcd5a54b6b2879ce7885d8921ac7dd96601631e70e",
+      "resolvedSha256": "b34bde92cf155cf814318aea6ce54ab92995aaf16935952ca2ed0dadbf4d5682",
+      "variables": {}
+    },
+    {
+      "roleId": "crusader",
+      "key": "GAME_32",
+      "rawSha256": "e13713d831d7249d763f429027e480457c04ee221ac297adb89389ab52d0b852",
+      "resolvedSha256": "0d05336ba3ad8c87e1019e215cc094b05628969d7e4d5547d3cdf04fc7fdb3d8",
+      "variables": {}
+    },
+    {
+      "roleId": "oracle",
+      "key": "GAME_63",
+      "rawSha256": "ef860dd71e7ded17238f3f7c2219e2d9784ee42ce292eb44874814fd489d2358",
+      "resolvedSha256": "ef860dd71e7ded17238f3f7c2219e2d9784ee42ce292eb44874814fd489d2358",
+      "variables": {}
+    },
+    {
+      "roleId": "oracle",
+      "key": "GAME_31",
+      "rawSha256": "e987efd24717509be2592e82f59ee929a10e89571de64e143625b9e54df5d470",
+      "resolvedSha256": "1d14f6b3885043af997f32c55854339ed32955884bc9a634d55c852859a52118",
+      "variables": {}
+    },
+    {
+      "roleId": "trapper",
+      "key": "GAME_199",
+      "rawSha256": "7354b98016a86c00afbf3e76891c0b8b636346e257aa72f3b1caaaa23b6124c3",
+      "resolvedSha256": "5ca0e1c3fa30db611b6ab5d51eb1591f6591c98463740b9ab3b383ed4dce21f3",
+      "variables": {}
+    },
+    {
+      "roleId": "trapper",
+      "key": "GAME_290",
+      "rawSha256": "612aabfc021dcc066a63f3d38ddd4058dde3f46cd46c282d795e5d48ead4693d",
+      "resolvedSha256": "1e4814ff79166deaf5f6d817338a244815045bb636884ee52bdb587c55e12060",
+      "variables": {}
+    },
+    {
+      "roleId": "trapper",
+      "key": "GAME_30",
+      "rawSha256": "6f77615c75f9735d89faf3d610df2201aab653c41c972e3407dbef88e9314d81",
+      "resolvedSha256": "9cea6b10bf116caec9ce04f48b4cdae3d2fe3cffa96a1f68de0d70e83786118e",
+      "variables": {}
+    },
+    {
+      "roleId": "deputy",
+      "key": "CINE_ROLE_DEPUTY_SHOOTS",
+      "rawSha256": "addec7e0603cdf76a5aff0e4474cb6dfa67bf1d7fd200e648d13797e4cd9e68a",
+      "resolvedSha256": "0c045367b6eed74c39c15ce78efbcb26afe512b7e8598ee0268e8d2f8c6bbdc0",
+      "variables": {}
+    },
+    {
+      "roleId": "deputy",
+      "key": "GAME_14",
+      "rawSha256": "69729bb3707425f34f03f98458e62e6162225cd3b87c931849efeff2f293afab",
+      "resolvedSha256": "7af69a4457bcb030ec824033150f8cef6cad6728c80adab4d34e445466b6ad5f",
+      "variables": {}
+    },
+    {
+      "roleId": "trickster",
+      "key": "GAME_205",
+      "rawSha256": "cda205f0c6c7a1bfb4f66b435702170d9be40db4d0fafd25bf4d647788358f67",
+      "resolvedSha256": "052b7649583c34c16fb55662583d980e3b1f3467dc7fd448ba2ffe94511079b1",
+      "variables": {}
+    },
+    {
+      "roleId": "trickster",
+      "key": "GAME_38",
+      "rawSha256": "321f4be24aa8274d3b4590cf0c5833f613536c166ebae59b49c4365866507fbe",
+      "resolvedSha256": "9c8133f9ddc4150f7f2330bc6c08118feb7ec09f4b1d6d5b6197a29a4accf71a",
+      "variables": {}
+    },
+    {
+      "roleId": "veteran",
+      "key": "GAME_67",
+      "rawSha256": "1cbe782eac4792ea2faeb8ac58d52fccc0231731e602f1bb1e6a5c1b3da585f2",
+      "resolvedSha256": "1cbe782eac4792ea2faeb8ac58d52fccc0231731e602f1bb1e6a5c1b3da585f2",
+      "variables": {}
+    },
+    {
+      "roleId": "veteran",
+      "key": "GAME_34",
+      "rawSha256": "101519324355d90b4837d8e9ffd0ef6953b66fefa555313cb89750f1ac7dcb5f",
+      "resolvedSha256": "cbda8706e23669e410133460f1eeb2275176dd1bc8d257489fa30e7e89a7d183",
+      "variables": {}
+    },
+    {
+      "roleId": "vigilante",
+      "key": "GAME_404",
+      "rawSha256": "1c1fee6984e0b06cdda725310085112945129cce2ac5efa263feed16169360a3",
+      "resolvedSha256": "3f3d02947563d28afd32276670a6413bee612f6e9f35b2c2a2e5797b736bd8f7",
+      "variables": {}
+    },
+    {
+      "roleId": "vigilante",
+      "key": "GAME_291",
+      "rawSha256": "bd9fe9caea11986669d122c7b34b52ec7a455eb4703e8a2a848328ba6040c6c9",
+      "resolvedSha256": "bd9fe9caea11986669d122c7b34b52ec7a455eb4703e8a2a848328ba6040c6c9",
+      "variables": {}
+    },
+    {
+      "roleId": "admirer",
+      "key": "GAME_362",
+      "rawSha256": "0590a625434c590fd0d5e72195f3eb4079326127c12b85b22f2fe8b7f28ebe2e",
+      "resolvedSha256": "c9b62bd939de4d5963adb9cb369bb108a35098461720225ec292b6d5d0589a39",
+      "variables": {}
+    },
+    {
+      "roleId": "admirer",
+      "key": "GAME_286",
+      "rawSha256": "e7819aaef7e3d007cf05778664c3efe2c7b277c34137fe6c46ff2c4241593d3c",
+      "resolvedSha256": "eb342775e73de1cd3a621db20f5e621c661a91b5e71bcaba7cfc9fb7f30345b0",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "admirer",
+      "key": "GAME_285",
+      "rawSha256": "69bf395367517d36f55812b31fbb5505d7c8bbe81416abffc537dc402cc75ed4",
+      "resolvedSha256": "da148f913987e5bb2c09bb53bffc31cead0374be6434664940cafa643da4ec74",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "amnesiac",
+      "key": "GAME_258",
+      "rawSha256": "a6e0c874732dfd52a595ef0782f7213dd586d9e8300abb94270910d94a4064d0",
+      "resolvedSha256": "3921fa2a228744dd109503c26202eefb254decff58403ab40eae378d8a5c8ef4",
+      "variables": {}
+    },
+    {
+      "roleId": "retributionist",
+      "key": "GAME_62",
+      "rawSha256": "c514a97ab6828e2ae07399d38aefa23eaaf1210f377b41b9e133e34ce6947a14",
+      "resolvedSha256": "a3d6692929aa761de266e86e6b8de1a233b1d711adf004590c3182ae3674c675",
+      "variables": {}
+    },
+    {
+      "roleId": "retributionist",
+      "key": "GAME_301",
+      "rawSha256": "501aa1aa86b42f338047bebeafcf8f88ce863638d67c4f482c6ec55c087a0ea9",
+      "resolvedSha256": "aaacaf80d7b9b4c73be44821f1f58eb362e8183b0f0d2d7d03507213d1e48310",
+      "variables": {}
+    },
+    {
+      "roleId": "socialite",
+      "key": "GAME_403",
+      "rawSha256": "8736db407bf55221dfdabb0f69c6a8b1412e2a0faee20b01cf3e0271a2417e0a",
+      "resolvedSha256": "e23ebb915e2febac1adb78bd00bf8a41b9017e3af2f98be16a404e8fd824c45c",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "socialite",
+      "key": "GAME_54",
+      "rawSha256": "897bdb9afe5f28a775f4099af14fcd6f739985a5e7cc0fd84cf31a57f4088f92",
+      "resolvedSha256": "b755468bd849ea216c42311b0a11cf761522a69e6aa6cbbfca1e35aacca0bbcf",
+      "variables": {}
+    },
+    {
+      "roleId": "tavern-keeper",
+      "key": "GUI_GAME_KILLED_BY_REASON_28",
+      "rawSha256": "e4ee7e1e396875841dfe9eb4128adf8e933a9fd8d94b3cca10edfe72bc646ae3",
+      "resolvedSha256": "52b9833697b432c44d2c1d8f11ae03cf763a42bdd950f93626cc4f5840fca134",
+      "variables": {}
+    },
+    {
+      "roleId": "tavern-keeper",
+      "key": "GAME_3",
+      "rawSha256": "315b3121e58d68052f95e97acbb7cdbdea1f4037145c5514fffc11df320b26a1",
+      "resolvedSha256": "48dcc27d02b3c1b4d3d085a32d8fffa3f99e0b6f202d0c06d7f5fcc4a1f0712d",
+      "variables": {}
+    },
+    {
+      "roleId": "tavern-keeper",
+      "key": "GAME_133",
+      "rawSha256": "ab4ae8bebae6551352f917b576a2ae62e5a637a568b4e33b87b08efb0538ab16",
+      "resolvedSha256": "f7c95c658dbcf14bc92adfaf6dd68d178d72b53db7db6a059c010b252ea220bd",
+      "variables": {}
+    },
+    {
+      "roleId": "catalyst",
+      "key": "GAME_445",
+      "rawSha256": "4d671739f4b3f176e2933f5b1bb1c6b49a50aaa7e45c20b0c910fdcf5fc68b9d",
+      "resolvedSha256": "4d671739f4b3f176e2933f5b1bb1c6b49a50aaa7e45c20b0c910fdcf5fc68b9d",
+      "variables": {}
+    },
+    {
+      "roleId": "catalyst",
+      "key": "GAME_446",
+      "rawSha256": "e8799320ef47400f782b1f6ea2f912dd096c2fc375f0cbf0e0f5aa86dd9de9f6",
+      "resolvedSha256": "e8799320ef47400f782b1f6ea2f912dd096c2fc375f0cbf0e0f5aa86dd9de9f6",
+      "variables": {}
+    },
+    {
+      "roleId": "archmage",
+      "key": "GAME_396",
+      "rawSha256": "f6784f0dcf32b8999985173488dc8ff11efd2c004ba316f565eda2e0f906f1f2",
+      "resolvedSha256": "b8130000724c704a5f605332e9f8b7b70c2b5025d3eca08452b8633b061997ed",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "hex-master",
+      "key": "GUI_HEXMASTER_CINEMATIC_TEXT",
+      "rawSha256": "ed2027a3ba6bbc92c5bccb45349b58b8de9a5e48f16332f64fed98582babce48",
+      "resolvedSha256": "2d4c45a27f489a84ce3d3992859dbf104bb2266b0c1cc9d4766018c7f069c81f",
+      "variables": {}
+    },
+    {
+      "roleId": "witch",
+      "key": "GAME_12",
+      "rawSha256": "244a3c0b51e6f75b474c78b311576cc0826bd4c175677672b622d1bfe30b82ae",
+      "resolvedSha256": "460426761b5941fceb26e9b8d63fc38258864054f43bfdf793f0e2ad219d7ec1",
+      "variables": {}
+    },
+    {
+      "roleId": "conjurer",
+      "key": "CINE_CONJURER_BIG_TEXT",
+      "rawSha256": "2447c90551612df3203c6088ebefb9b202402ffeba22f652b49391f0d0e77c1a",
+      "resolvedSha256": "2e921a9e33c42d1d039b051d4ff0505113a019a19a0c01702cb5a8d3c69703ef",
+      "variables": {
+        "name": "[Player]"
+      }
+    },
+    {
+      "roleId": "conjurer",
+      "key": "GAME_211",
+      "rawSha256": "23489399f10a07cbc722b56c2a872edca6e6490fbbadb33911ae4f2e3f3c9d7b",
+      "resolvedSha256": "c69d8bc20c451e579ff3951b4f2a5e074efecd2336b25eebd48ac9431684b060",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "ritualist",
+      "key": "GAME_223",
+      "rawSha256": "9d7cc3d51e378081dbb85a096ae7b79cc5c220305c53c12fb136d1c48d45691c",
+      "resolvedSha256": "5ef3cd28581bfdacd51625f89f8905c9aeb6bfb0167013cab322726e8ec76f14",
+      "variables": {}
+    },
+    {
+      "roleId": "ritualist",
+      "key": "GAME_94",
+      "rawSha256": "5ce9c3cb8342f7dda8da108161947da67f4972808759ce9ac72a79e41a9836d4",
+      "resolvedSha256": "a26adf77c129d9aa090f43dab0c802de813938d566fd50e162a934fc49914545",
+      "variables": {}
+    },
+    {
+      "roleId": "jinx",
+      "key": "GAME_92",
+      "rawSha256": "6bbffd0075f4c1222dfe3bcf9bffbf57e30a339edcf63eb73980668710c736b7",
+      "resolvedSha256": "6994a1fa2a2942ace327a5088545ee58af56c6ea185c84fed9aaabb59cbe76b7",
+      "variables": {
+        "name": "[Jinx name]",
+        "name2": "[target name]"
+      }
+    },
+    {
+      "roleId": "jinx",
+      "key": "GUI_GAME_KILLED_BY_REASON_17",
+      "rawSha256": "f402232a7a7c615e96a934ac1b5e1e23118321d7bc6b0d78698043414348e8e0",
+      "resolvedSha256": "83a32d08a465f47712d3be49774ff4d0c61fe02410c0efc470d566f41ba6a278",
+      "variables": {}
+    },
+    {
+      "roleId": "jinx",
+      "key": "GAME_213",
+      "rawSha256": "3af3f7d0d7a37db5f1dc368e5194b95d3d2b1b3e167150307e240c63eba9d6ed",
+      "resolvedSha256": "dbbfd2a053cb9840c3a9b1a55bd2402ae9f2a20f5b5995c35f47fba6ebd7c3b7",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "dreamweaver",
+      "key": "GAME_266",
+      "rawSha256": "e25e776827633850ced2667024c4c54726adbd2d3874b44bc188cfae5792555a",
+      "resolvedSha256": "95fea9fc9c424281b7575cbc0eab34fa2cddf622f20d23aea09af65a1d7305d8",
+      "variables": {}
+    },
+    {
+      "roleId": "dreamweaver",
+      "key": "GAME_267",
+      "rawSha256": "778b204281880483e6b5d15fa92635d199134c1132ec80e3d937e90fd2cd85b6",
+      "resolvedSha256": "e0fb0a0081f9ea3610f05aad8956334fa489dc71cb3b39ef1cef8e00c869d73e",
+      "variables": {}
+    },
+    {
+      "roleId": "illusionist",
+      "key": "GUI_FACTION_ROLECHOICE_TARGETING_GENERIC",
+      "rawSha256": "af202400b9358fef4afade4f1f24413774f8ff972d25050bb4a1ad5f136fcd50",
+      "resolvedSha256": "eb9aee6efe8db2d2c598515c1188fca030ee6aa7a4fdd58cc1b03ca72e65fa4e",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "medusa",
+      "key": "GUI_GAME_WHO_DIED_VICTIM_ROLE_STONED",
+      "rawSha256": "db0a1556424393844a74efaaa5bb23c794e7dce297b62c657d4cf7b5af313468",
+      "resolvedSha256": "496e3867a8c0653e4b603a43b8368ad46621a9dc9cc17295ab94f0fc6bc55c04",
+      "variables": {
+        "role": "Stoned"
+      }
+    },
+    {
+      "roleId": "necromancer",
+      "key": "GAME_301",
+      "rawSha256": "501aa1aa86b42f338047bebeafcf8f88ce863638d67c4f482c6ec55c087a0ea9",
+      "resolvedSha256": "aaacaf80d7b9b4c73be44821f1f58eb362e8183b0f0d2d7d03507213d1e48310",
+      "variables": {}
+    },
+    {
+      "roleId": "poisoner",
+      "key": "GAME_3",
+      "rawSha256": "315b3121e58d68052f95e97acbb7cdbdea1f4037145c5514fffc11df320b26a1",
+      "resolvedSha256": "48dcc27d02b3c1b4d3d085a32d8fffa3f99e0b6f202d0c06d7f5fcc4a1f0712d",
+      "variables": {}
+    },
+    {
+      "roleId": "poisoner",
+      "key": "GAME_54",
+      "rawSha256": "897bdb9afe5f28a775f4099af14fcd6f739985a5e7cc0fd84cf31a57f4088f92",
+      "resolvedSha256": "b755468bd849ea216c42311b0a11cf761522a69e6aa6cbbfca1e35aacca0bbcf",
+      "variables": {}
+    },
+    {
+      "roleId": "potion-master",
+      "key": "GAME_31",
+      "rawSha256": "e987efd24717509be2592e82f59ee929a10e89571de64e143625b9e54df5d470",
+      "resolvedSha256": "1d14f6b3885043af997f32c55854339ed32955884bc9a634d55c852859a52118",
+      "variables": {}
+    },
+    {
+      "roleId": "potion-master",
+      "key": "GAME_321",
+      "rawSha256": "416f895c858c43e40a82cf796bb4b1c10132fee047bf1b6f8be9934743547d24",
+      "resolvedSha256": "416f895c858c43e40a82cf796bb4b1c10132fee047bf1b6f8be9934743547d24",
+      "variables": {}
+    },
+    {
+      "roleId": "voodoo-master",
+      "key": "GAME_6",
+      "rawSha256": "914dd0be6f7054befaa411e2d6a4c60175a7b8d21ef4cb5d4ce7ae1d0a64bb6e",
+      "resolvedSha256": "adc18fb386f56038a9dded7673dd8f946f9cd3c76c98928dccff639f2a9e344b",
+      "variables": {}
+    },
+    {
+      "roleId": "voodoo-master",
+      "key": "GAME_44",
+      "rawSha256": "1c786189c33025c79b07827d80b0fc870fe04eb4547c6b12eb0250181b4cbb3a",
+      "resolvedSha256": "bf421a20ca9b10015539afbd0ad84c94dff5f1d141a8d8822e1d2ada77b44733",
+      "variables": {}
+    },
+    {
+      "roleId": "wildling",
+      "key": "GAME_90",
+      "rawSha256": "682801edbce702fcba41dcc4be04d0060dadafeb17d2617af25908e7023b2e37",
+      "resolvedSha256": "58457cfabbbded334b57607f4ff0892c8bd4010cdac9da294edff9a455462a08",
+      "variables": {
+        "name2": "[sensed player]",
+        "name": "[destination]"
+      }
+    },
+    {
+      "roleId": "wildling",
+      "key": "GAME_95",
+      "rawSha256": "39c7dd3d8f63da9625e43b2fadb3bcc26121a027691c47622f4e3fbaca3c9a37",
+      "resolvedSha256": "18af4291e28685ebb04e5115804b1f7d0a7a290bd41ed32b7ce2410ebebd0cbd",
+      "variables": {
+        "name": "[visitor]",
+        "name2": "[sensed player]"
+      }
+    },
+    {
+      "roleId": "cultist",
+      "key": "GAME_37",
+      "rawSha256": "fff899003aa96d74d1a38d2a5cb43a3e76f3c1439c61c8aff9476d4ee973ec85",
+      "resolvedSha256": "31061d7390fbeca7dea8e23f2834ec5371f39b37c4cf536e6f889937a0cabea3",
+      "variables": {}
+    },
+    {
+      "roleId": "berserker",
+      "key": "GAME_225",
+      "rawSha256": "02c2aa284620906a8145affe2f4d89935992627e2d659651c20f7b7c7690d4d8",
+      "resolvedSha256": "738c5a117a8ca545e233be58427851c983c0fd77e428ff33d16131b5371ad84f",
+      "variables": {}
+    },
+    {
+      "roleId": "plaguebearer",
+      "key": "GAME_18",
+      "rawSha256": "3fbe5a6794db05d1876f4df709e287b055e9aa63dfd94e94e26184e4f1335ad6",
+      "resolvedSha256": "4b607a304c01e5b137082a6615497dedbe30c86778360426d8602224c0ba7052",
+      "variables": {
+        "name": "[spread source]",
+        "name2": "[newly infected player]"
+      }
+    },
+    {
+      "roleId": "soul-collector",
+      "key": "GAME_302",
+      "rawSha256": "cff7a5e6257776613827cbfd420c698dd48802f08d30b7afeb72cedc5c13f8f7",
+      "resolvedSha256": "cff7a5e6257776613827cbfd420c698dd48802f08d30b7afeb72cedc5c13f8f7",
+      "variables": {}
+    },
+    {
+      "roleId": "soul-collector",
+      "key": "GAME_229",
+      "rawSha256": "3274de59575fe6eee1cf08afb211e3d64d15e5db85db8be907f778695c940072",
+      "resolvedSha256": "489ca98ab6f26b9fedd186aa666888e275bb25f2a1347ff6b344b0031abcd4be",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "doomsayer",
+      "key": "GAME_221",
+      "rawSha256": "92e1c6615cf762e5e9d536c2596500e4f84545026c93a01d9698d73251f6092b",
+      "resolvedSha256": "92e1c6615cf762e5e9d536c2596500e4f84545026c93a01d9698d73251f6092b",
+      "variables": {}
+    },
+    {
+      "roleId": "doomsayer",
+      "key": "GAME_222",
+      "rawSha256": "69beee1cab8ba0a50384b9649ffa867815538696abb7471d39ced0d2e9ad72e4",
+      "resolvedSha256": "69beee1cab8ba0a50384b9649ffa867815538696abb7471d39ced0d2e9ad72e4",
+      "variables": {}
+    },
+    {
+      "roleId": "doomsayer",
+      "key": "GAME_378",
+      "rawSha256": "92775142f18856d043cf6c25ea1b2efddced6c0015bef72d37d0360ae55b7c77",
+      "resolvedSha256": "e8d759a34f3765b893068b2fc51591cc8013d8a4d69455c4b90446281322b25a",
+      "variables": {}
+    },
+    {
+      "roleId": "doomsayer",
+      "key": "GAME_379",
+      "rawSha256": "c7767486ca324374861322d9e0e456795e74686207471edeadd456e5a879c0f1",
+      "resolvedSha256": "99604f1a4a02c7630fe6f329679bcb666693343a85a67bc4d1d39d3c7a34442a",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "executioner",
+      "key": "GAME_19",
+      "rawSha256": "bc76fe7ee2b2e517733043dc22a89f5e04db59567115184df0d7f9c4458e234f",
+      "resolvedSha256": "0e62e00cd70b5b448a912009476b011f1f823deceeff4b0c8a9f25d2f29c7c8f",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "executioner",
+      "key": "GAME_227",
+      "rawSha256": "72db3da66c38eb832456e7e73465a02016299b5871d9dfbf129d6965879bea01",
+      "resolvedSha256": "443acaa5453db3eb35878a8a31c0dfeea185e161103139f4f758a96e547d73c8",
+      "variables": {}
+    },
+    {
+      "roleId": "jester",
+      "key": "GAME_194",
+      "rawSha256": "684d4af84c72f0e20b28a7613231622e9c80a5ccbe7ba661f00fb49188b4bcf3",
+      "resolvedSha256": "d2595cfc93ce3cda06a13099ff7d66cdc5a56d61c669c496983b3e0d958029b0",
+      "variables": {}
+    },
+    {
+      "roleId": "jester",
+      "key": "GAME_416",
+      "rawSha256": "09d18dffcad45e6283f4640465de7b4d1a197484c303cc74e517e4a149710417",
+      "resolvedSha256": "1a71ad8ff2397a4b4803335f87ff85f21a2205af6231343f231b365a3eddf4c9",
+      "variables": {}
+    },
+    {
+      "roleId": "jester",
+      "key": "GAME_415",
+      "rawSha256": "ac0d5a51cd2c72195c64bbb9133c8f40e23994420a785a49de3c187ed9fab0b0",
+      "resolvedSha256": "81e66053a906fa4c472895e38a61b0020b61fdc26d0ae8d4ea107d47d1619135",
+      "variables": {}
+    },
+    {
+      "roleId": "pirate",
+      "key": "GAME_409",
+      "rawSha256": "83f209a21b5779b86264f955a08d85fbf898f01045c0f5fdbf00bd218110fd1e",
+      "resolvedSha256": "26a4fe6a39291221577f26b7df217b2a9f27b98ddb2f2b076f31198a90fe1795",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "pirate",
+      "key": "GAME_411",
+      "rawSha256": "c5055c133b4352f62992e56bb78c6cef5cda366d695c0abdd239c10b212edb99",
+      "resolvedSha256": "53d9a53bc9869e9c818bfb10fb157e97bc6d29008f04cd796371abbc1ab166ac",
+      "variables": {
+        "name": "[player]"
+      }
+    },
+    {
+      "roleId": "pirate",
+      "key": "GAME_410",
+      "rawSha256": "74ccad1bde0d7b5ffa250feffc218d72c643d76d8c5f52005bee78be4438fe19",
+      "resolvedSha256": "9b82b61e876bab611bd8eaddaf67a29f95669715e76c2253dae857a05b5ba4d8",
+      "variables": {}
+    },
+    {
+      "roleId": "arsonist",
+      "key": "GAME_292",
+      "rawSha256": "6a3727956ce06a71179d09bca2260cb952311587f41ebb002d61ddcbafd99de6",
+      "resolvedSha256": "9492ba2f58ad91a09a9b3ba5148aee1c0e92e9e4b6920eac7874b1fa28517844",
+      "variables": {}
+    },
+    {
+      "roleId": "arsonist",
+      "key": "GAME_127",
+      "rawSha256": "057b5645937e9007ef0d23bf922aff04450ef32935026bbd0ea413bc21dfe465",
+      "resolvedSha256": "214796df8f4f56654f94c01645a030a0270a1876f1dc05f7f652bd9df8dce7c7",
+      "variables": {}
+    },
+    {
+      "roleId": "arsonist",
+      "key": "GAME_128",
+      "rawSha256": "566d885f903f65e5d6720f0da832518c29af9ba55139c92393950614ee5ee655",
+      "resolvedSha256": "566d885f903f65e5d6720f0da832518c29af9ba55139c92393950614ee5ee655",
+      "variables": {}
+    },
+    {
+      "roleId": "serial-killer",
+      "key": "GAME_4",
+      "rawSha256": "4f297cd1417d59bd144834b9197743fb32dcd8f9006b0969e867e7ef9f8b4fc1",
+      "resolvedSha256": "4f297cd1417d59bd144834b9197743fb32dcd8f9006b0969e867e7ef9f8b4fc1",
+      "variables": {}
+    },
+    {
+      "roleId": "serial-killer",
+      "key": "GAME_324",
+      "rawSha256": "db614667468f22a6c90d0b82369708287325a7ebcf3245fdd0d9dfc0662d7847",
+      "resolvedSha256": "db614667468f22a6c90d0b82369708287325a7ebcf3245fdd0d9dfc0662d7847",
+      "variables": {}
+    },
+    {
+      "roleId": "serial-killer",
+      "key": "GAME_325",
+      "rawSha256": "a10fa3798847f124a665654816a6cd99391af882fa654f5983b8614c451ed247",
+      "resolvedSha256": "a10fa3798847f124a665654816a6cd99391af882fa654f5983b8614c451ed247",
+      "variables": {}
+    },
+    {
+      "roleId": "shroud",
+      "key": "GAME_294",
+      "rawSha256": "313d05c0886f498769d8c3017f5a05065c554bd22b5275013a90a4f8e966b7df",
+      "resolvedSha256": "ad40714cc8f196affbccd4c39aa980c3944f1a4eada364a2f7f7802a1c2c3ab4",
+      "variables": {
+        "name": "[destination]",
+        "name2": "[shrouded player]"
+      }
+    },
+    {
+      "roleId": "shroud",
+      "key": "GAME_385",
+      "rawSha256": "72ad4d99700325dfa20da3540c5c1fc0df0790aa6b6430a090f1a0f916137738",
+      "resolvedSha256": "6bdf13e43fb85cdcca08b8e0e7ec84984b36f60ab4e8a114c50ac7bde51e803e",
+      "variables": {
+        "name": "[shrouded player]"
+      }
+    },
+    {
+      "roleId": "werewolf",
+      "key": "GAME_113",
+      "rawSha256": "02837dd372b06d317f65d0dd823ae8a25f7d0ec00d9d663bbfea579244b59a0d",
+      "resolvedSha256": "97d2ac5f653bdacda139230f2aa860314253127ca561c18d9febb2f5e67a0780",
+      "variables": {
+        "name": "[visitor]",
+        "name2": "[rampage destination]"
+      }
+    },
+    {
+      "roleId": "werewolf",
+      "key": "GAME_190",
+      "rawSha256": "beb600c9b55588002385f2dd526d0bc9524f8a7cd773101b141cb6d22cfd7c96",
+      "resolvedSha256": "82f399aed0910d5fe2e06c9aad338644f1066ed2ed96e295efa811946a707733",
+      "variables": {}
+    },
+    {
+      "roleId": "cursed-soul",
+      "key": "GAME_304",
+      "rawSha256": "cdc9a0bf0e845a7b9a776cf2f51b389d09e16131d4d0c2a4421c031df8f575b2",
+      "resolvedSha256": "7caf0ffa6764287e760db39113d7ca74c75a26da0c28bbc2c8d263e5e347b87e",
+      "variables": {
+        "name": "[Player]"
+      }
+    },
+    {
+      "roleId": "cursed-soul",
+      "key": "GAME_346",
+      "rawSha256": "73fb069c6a05bd3a9aeebb2f4e4f57f572368032941208fd286c84eaf1f9d9a0",
+      "resolvedSha256": "73fb069c6a05bd3a9aeebb2f4e4f57f572368032941208fd286c84eaf1f9d9a0",
+      "variables": {}
+    },
+    {
+      "roleId": "cursed-soul",
+      "key": "GAME_345",
+      "rawSha256": "0252588a1f707f89f572fb99af933cb35beb38e304e57aa275357633f71f3e2e",
+      "resolvedSha256": "f6f4799cd8fc0eeeaa273704a41ca5a0da3d7d80efdb78862144631d98a2be1b",
+      "variables": {}
+    },
+    {
+      "roleId": "vampire",
+      "key": "GUI_GAME_KILLED_BY_REASON_14",
+      "rawSha256": "146964df559feafe6b05d128d4faf38da4a6e59120e17a0209aaf9b58846764e",
+      "resolvedSha256": "8150572075103ed6c2f9ac25588275ed44834ab42526c58b27c0b2277f6d9134",
+      "variables": {}
+    },
+    {
+      "roleId": "famine",
+      "key": "GAME_220",
+      "rawSha256": "519e924c53da0107ea030063c51eeaf564ee9f00b42b0b23039b7eab27206160",
+      "resolvedSha256": "c6043c32ffef0754d5b35768033457fe1f4956ecc617140379ecf18969f821e0",
+      "variables": {}
+    },
+    {
+      "roleId": "famine",
+      "key": "GAME_293",
+      "rawSha256": "ba7d9bf3aff8257becccbfaad029232ceafe725486ff3ec685a732a70a585159",
+      "resolvedSha256": "ba7d9bf3aff8257becccbfaad029232ceafe725486ff3ec685a732a70a585159",
+      "variables": {}
+    },
+    {
+      "roleId": "war",
+      "key": "GAME_262",
+      "rawSha256": "e69de80e9490b12aa4f343720ed98e38a279ddaed494859ecb57acf0f542fc0e",
+      "resolvedSha256": "0219342f8a315201615343efd93bc2bdb8256271b00113f754e13898a49f0d36",
+      "variables": {}
+    },
+    {
+      "roleId": "war",
+      "key": "GAME_103",
+      "rawSha256": "e2067237a67086e44a785d3b407921c9ce8cb577b5adb73c60ca8c29457553b5",
+      "resolvedSha256": "971b46b1b2acd46139d07cafbd42797780f45f8abd0813a1db9e010a36457ead",
+      "variables": {}
+    },
+    {
+      "roleId": "pestilence",
+      "key": "GAME_228",
+      "rawSha256": "7258e89a7a45ed1a384688a551b37c512113c09d8c779ba00624fcf8ba3d47f3",
+      "resolvedSha256": "2db2ec0aa39526154862db13b77d8fbb8db4ff4f605c72f9d274d5b9ffd09d79",
+      "variables": {}
+    },
+    {
+      "roleId": "pestilence",
+      "key": "GAME_110",
+      "rawSha256": "f7f1acf281c83ee9b2622671b0fe7d080bd8dafd0d811ba74d8b6ebfe132abdd",
+      "resolvedSha256": "b29a461af5f9a3af19189c181b126110efddcb8a03d573fd26cfe04a2b65de7e",
+      "variables": {}
+    },
+    {
+      "roleId": "pestilence",
+      "key": "GAME_116",
+      "rawSha256": "7d0f2292f4183a2ee4c4078c97c12a6ed883e79be9190d48a7235a07745ee91d",
+      "resolvedSha256": "7d0f2292f4183a2ee4c4078c97c12a6ed883e79be9190d48a7235a07745ee91d",
+      "variables": {}
+    },
+    {
+      "roleId": "death",
+      "key": "GUI_GAME_KILLED_BY_REASON_31",
+      "rawSha256": "4f06c71cf01a2b1bd1ba89a21fa13b1b6b2f636afe22814de74de032b7c3f8fd",
+      "resolvedSha256": "fde5203a8a3abec7b44be0d6294bfcedc28f2181f06ab53b1b05649493eff591",
+      "variables": {}
+    },
+    {
+      "roleId": "death",
+      "key": "GAME_230",
+      "rawSha256": "aa592945535c22147c9bfc87761d242623d00a7c887632c7b073b09190598401",
+      "resolvedSha256": "42be78a1b4b63cfdbe0e6b85c2f14b14e932d52a3983027d6ff1d76526f3c826",
+      "variables": {}
+    },
+    {
+      "roleId": "jailor",
+      "key": "GAME_208",
+      "rawSha256": "a481c46844d6978503b3528cd013d0d0ab3fa8620e241cadf4ddcb266dd42412",
+      "resolvedSha256": "52b32e409a3406742090ed342e452515b12c5b7b587c1b3649ea9cbae673fa5f",
+      "variables": {
+        "name": "[prisoner]"
+      }
+    },
+    {
+      "roleId": "jailor",
+      "key": "GUI_ROLE_TARGETING_9_TARGET2",
+      "rawSha256": "d4587d46df3ebfd2550ab5f1130e806d96bea2f741c27d228a740c9a7e450c79",
+      "resolvedSha256": "cd90094ae4199368f7caffb04c2065922da7f158a787cfdf1b755a7175b67773",
+      "variables": {
+        "target2": "[prisoner]"
+      }
+    },
+    {
+      "roleId": "crusader",
+      "key": "GAME_61",
+      "rawSha256": "091d445b294eef58b047c76ffdb5e97e47eeb92dce4b4ab8b60102d3cfbd4f46",
+      "resolvedSha256": "8ae73588fefde2d0dff29dc2bad30f7b82abb4797b23ad826ff20ffd2c0d3097",
+      "variables": {
+        "name": "[protected player]"
+      }
+    },
+    {
+      "roleId": "crusader",
+      "key": "GAME_307",
+      "rawSha256": "12c804a5187540f07f69fef3a811263940d8c452faa52c59163642e0760e5d46",
+      "resolvedSha256": "69abe9234f29b3e8af54746f1117447bce31e8cf6d1970e06d1d7d72bc4b6b99",
+      "variables": {
+        "name": "[protected player]"
+      }
+    },
+    {
+      "roleId": "witch",
+      "key": "GAME_333",
+      "rawSha256": "b2b8065036f515178da94ad06e780807d0bd073f3fec898d2e9472d388f9398d",
+      "resolvedSha256": "d0252567beada90e80f6138c8dc9ead86e115591b0d7194f7ae760196a96ca2e",
+      "variables": {
+        "name": "[controlled player]"
+      }
+    },
+    {
+      "roleId": "witch",
+      "key": "GAME_136",
+      "rawSha256": "0f7737631ecf0e3e07dd0240356f17e6a465ba581e72164bbb7c58e84571074f",
+      "resolvedSha256": "65f8014781769dd295250a958f448388e6d72c28a129b0fcc6cf84ed98c0ccca",
+      "variables": {
+        "name": "[controlled player]",
+        "role": "Cleric"
+      }
+    },
+    {
+      "roleId": "spy",
+      "key": "GAME_395",
+      "rawSha256": "7afe81b873e23b3d44ada89c0afcd0de1945fc779a0cbd2c9da0a0c83487ae0e",
+      "resolvedSha256": "8726036ff353ba1c5bc940d873b64262523ba939a5875925350b74f1b8f44227",
+      "variables": {
+        "name": "[bugged player]"
+      }
+    },
+    {
+      "roleId": "potion-master",
+      "key": "GAME_136",
+      "rawSha256": "0f7737631ecf0e3e07dd0240356f17e6a465ba581e72164bbb7c58e84571074f",
+      "resolvedSha256": "8cbbb809fbf369416b6585588ff8e4af514bd943b64093d509b7c11ba31ac33c",
+      "variables": {
+        "name": "[revealed player]",
+        "role": "Cleric"
+      }
+    },
+    {
+      "roleId": "potion-master",
+      "key": "GAME_61",
+      "rawSha256": "091d445b294eef58b047c76ffdb5e97e47eeb92dce4b4ab8b60102d3cfbd4f46",
+      "resolvedSha256": "93ea0e205ba6dbe6867e5fbd707ca50f8f27f9f4c73ea693fb7df2a7c602cb79",
+      "variables": {
+        "name": "[healed player]"
+      }
+    },
+    {
+      "roleId": "socialite",
+      "key": "GAME_25",
+      "rawSha256": "28fbadd8b1bac725ca05c2adb59183d01e3de21bf02e1f1f55b18bc8d8a230c4",
+      "resolvedSha256": "8f3566b4c717a073611e52c6070b4660470153c668668058bba226560e6977d3",
+      "variables": {}
+    },
+    {
+      "roleId": "socialite",
+      "key": "GAME_26",
+      "rawSha256": "0acf1b96318ac7c53446d67746a45fb2e1b2e14f9c2cca1efebb165498dd50bb",
+      "resolvedSha256": "df9b47cd9e0e0887fe58f683d8cb0cf40741b52290c9f536cf090af40edf686a",
+      "variables": {}
+    },
+    {
+      "roleId": "retributionist",
+      "key": "GAME_61",
+      "rawSha256": "091d445b294eef58b047c76ffdb5e97e47eeb92dce4b4ab8b60102d3cfbd4f46",
+      "resolvedSha256": "d9490a4ef578a8edd76c3f9d03e9a5f3b7e99aa56b53bd62c69aea7f8d3df5b4",
+      "variables": {
+        "name": "[living destination]"
+      }
+    },
+    {
+      "roleId": "necromancer",
+      "key": "GAME_61",
+      "rawSha256": "091d445b294eef58b047c76ffdb5e97e47eeb92dce4b4ab8b60102d3cfbd4f46",
+      "resolvedSha256": "d9490a4ef578a8edd76c3f9d03e9a5f3b7e99aa56b53bd62c69aea7f8d3df5b4",
+      "variables": {
+        "name": "[living destination]"
+      }
+    },
+    {
+      "roleId": "voodoo-master",
+      "key": "GAME_46",
+      "rawSha256": "19f77b8d879314dae48869e1755170d41133951a7500b934b4489f24bd32cb01",
+      "resolvedSha256": "75997d8373dea2761df54b344ee300dab9b47973e43c276e22ea57475249b338",
+      "variables": {}
+    }
+  ],
+  "keywordNames": {
+    "1": "Basic Attack",
+    "2": "Powerful Attack",
+    "3": "Unstoppable Attack",
+    "7": "Invincible Defense",
+    "9": "Plague",
+    "11": "Shroud",
+    "14": "Jail",
+    "15": "Rampage",
+    "16": "Control",
+    "17": "Trap",
+    "18": "Douse",
+    "21": "Necronomicon",
+    "25": "Silence",
+    "28": "Insomnia",
+    "29": "Knight",
+    "31": "Roleblock",
+    "32": "Barrier",
+    "37": "Obsession",
+    "38": "Torment",
+    "39": "Good",
+    "50": "Defense",
+    "58": "Vision",
+    "62": "Bug",
+    "64": "Execute",
+    "69": "Alert",
+    "74": "Retrain",
+    "80": "Doom",
+    "85": "Convert",
+    "88": "Care",
+    "92": "Magic Mirror",
+    "108": "Murder",
+    "113": "Party",
+    "114": "Tribunal",
+    "115": "Trespassing",
+    "120": "Guest List",
+    "121": "Crime",
+    "122": "Unknown Obstacle",
+    "127": "Load",
+    "129": "Chatterbox",
+    "131": "Landlubber",
+    "138": "Deafen",
+    "139": "Blind"
+  }
+}

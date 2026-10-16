@@ -94,7 +94,7 @@ test('route and claim sources use source pages and the cover library retains off
 });
 
 test('study guides cover every role and state with source-linked mechanics and summarized detail',()=>{
- for(const r of library){const g=r.studyGuide;assert.ok(g.summary&&g.reviewedOn,r.name);assert.ok(g.sections.length>=4,r.name);assert.ok(g.details.length>=4,r.name);assert.equal(g.sourceUrls.length,2);for(const section of [...g.sections,...g.details]){assert.ok(section.title&&section.markdown,r.name);assert.doesNotMatch(section.markdown,/\]\((?!https?:)/);}}
+ for(const r of library){const g=r.studyGuide;assert.ok(g.summary&&g.reviewedOn,r.name);assert.ok(g.sections.length>=4,r.name);assert.ok(g.details.length>=4,r.name);assert.equal(g.sourceUrls.length,2);for(const section of [...g.sections,...g.details]){assert.ok(section.title&&section.markdown,r.name);assert.doesNotMatch(section.markdown,/\]\((?!https?:|\.\/message-sources\.html#[A-Z0-9_]+\))/);}}
  for(const r of pack.states){assert.match(r.studyGuide.details[0].title,/before transformation/);assert.ok(r.studyGuide.summary.includes(r.name==='Death'?'Survive':'Defense')||r.id==='pestilence');}
 });
 test('Town Power has truthful defaults plus role-specific temporary concealment options',()=>{

@@ -68,7 +68,7 @@ try{
  await page.locator('[data-action="phase"][data-phase="n1"]').click();
  await page.evaluate(()=>location.hash='ritualist');await page.waitForFunction(()=>document.querySelector('#role-title')?.textContent==='Ritualist');
  await page.locator('[data-action="study-role"]').click();const excerpt=page.locator('#study-content [data-action="copy-feedback-message"]').first();
- check('partial quotes explicitly say Copy excerpt',await excerpt.innerText()==='Copy excerpt');await excerpt.click();check('excerpt copy does not invent the rest of the sentence',await page.evaluate(()=>navigator.clipboard.readText())==='You guessed correctly');await page.keyboard.press('Escape');
+ check('verified full Ritualist line uses Copy wording',await excerpt.innerText()==='Copy wording');await excerpt.click();check('Ritualist copies the complete installed line',await page.evaluate(()=>navigator.clipboard.readText())==="You successfully guessed @[player number]'s role.");await page.keyboard.press('Escape');
  if(axePath)await page.addScriptTag({path:axePath});
  for(const width of [1360,320])for(const theme of ['dark','light']){
   await page.setViewportSize({width,height:1000});

@@ -2,6 +2,10 @@
 
 Reviewed 16 October 2026 against baseline `0a9eca6`, with corrections applied in this working checkout. Scope is the current website, its generated role data, source references and retained copy documentation. This does not claim a new live-game mechanics experiment or an exhaustive current-client message dictionary.
 
+## Follow-up: actor-message research
+
+The later installed-English pass verified 133 displayed lines and implemented the main Jailor/Crusader/Witch recommendation, plus mode-specific corrections. The current message authority is [the client research](../research/ROLE_FEEDBACK.md); [the gap matrix](../research/MESSAGE_GAPS.md) now separates wording that has been resolved from live-delivery limits. Counts and page measurements below describe the preceding website-audit baseline.
+
 ## Result
 
 The core role → plan → result → claim → will flow passes the functional audit. The highest remaining value is **complete actor-side evidence for important claim outcomes**, followed by **containing the page growth caused by global More detail**. The default compact spacing is retained.
@@ -35,7 +39,7 @@ The contrast change follows [WCAG contrast guidance](https://www.w3.org/WAI/WCAG
 
 The first research targets should be current Jailor and Crusader actor feedback, Witch’s own result wording, mode-specific Potion Master/Spy/corpse-user feedback, and current captures for older Shroud/Werewolf lines. Some documented messages are deliberately excerpts. Psychic’s late-game failure triggers, Voodoo Blind’s inconsistent trigger and Coroner’s Illusion interaction remain qualified. Pilgrim/Covenite have no unique personal ability notice; Baker/Enchanter templates list no messages. No absent sentence was invented.
 
-## Remaining improvements ranked S–F
+## S–F priorities at the website-audit baseline
 
 These are design/editorial judgments based on this audit and the requested condensed layout, not measured win-rate improvements. Larger flow changes below remain recommendations.
 
