@@ -353,6 +353,9 @@ def build():
         lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck']]
         for message in guide['messages']:
             lines.append('**Documented '+('excerpt' if message.get('excerpt') else 'English')+' · '+message['audience']+':** `'+message['text']+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
+        for message in guide['messages']:
+            if message.get('selfNote'):
+                lines.append('**Self Barrier · your screen:** '+message['selfNote'])
         for case in guide.get('claimScenarios',[]):
             assert all(case[key].strip() for key in ['id','title','screen','report','meaning'])
             lines.append('**'+case['title']+' · '+role['name']+'’s screen:** '+case['screen']+'\n\n**Authored claim report:** `'+case['report']+'`\n\n'+case['meaning'])
