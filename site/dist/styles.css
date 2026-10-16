@@ -240,8 +240,6 @@ html{scroll-padding-top:0}
 .game-message .feedback-label{margin:0}
 .feedback-claim-check{font-size:11px;line-height:1.65;color:var(--muted);margin:10px 0}
 @media(max-width:560px){.feedback-meaning>div{grid-template-columns:1fr;gap:2px}.game-message figcaption{align-items:flex-start}}
-.message-actions{display:inline-flex;gap:9px;align-items:center;flex-shrink:0}
-.message-actions .text-button{font-size:10px;min-height:24px}
 @media(max-width:560px){.game-message figcaption{flex-wrap:wrap}}
 
 
@@ -256,3 +254,7 @@ html{scroll-padding-top:0}
 .feedback-notes>summary{cursor:pointer;padding:5px 0}
 .feedback-notes .feedback-meaning{margin-top:8px}
 .feedback-compact .feedback-report{margin-top:8px;padding:8px 10px}
+
+.message-copy-line{margin:6px 0;line-height:1.65}
+.game-message .message-copy-line blockquote{display:inline;margin:0}
+.message-copy-line>.text-button{margin-left:8px;min-height:28px;font-size:10px;white-space:nowrap;vertical-align:middle}
