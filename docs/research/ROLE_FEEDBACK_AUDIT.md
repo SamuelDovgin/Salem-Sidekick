@@ -1,108 +1,76 @@
 # Role-by-role feedback audit
 
-Reviewed 16 October 2026. All 60 base-role source pages were retrieved again, one at a time, and matched the prior reviewed text. The four transformed states were checked in their parent articles. This is source research and app verification, not a live-game capture.
+Reviewed 16 October 2026. All 60 base-role mechanics articles and four transformed states retain their source review. This follow-up retrieved all 65 individual ToS2 message templates and checked documented lines against role mechanics and relevant official patch notes.
 
-Each actor/other-player explanation has an adjacent copy control, explicitly distinguished from game quotes. Every entry has an explicit audience, a role-specific quiet/failure note, and a recorded source fingerprint in `site/content/feedback-audit.json`. All 29 Town claims keep one blank report format. Authored player placeholders use @ mentions; role targets such as Oracle Aegis remain role names. No exhaustive outcome-report list was restored.
+**120 source-documented lines/excerpts across 60 profiles**, up from 24 across 19. Quotes establish the wording for their stated audience only. They are wiki/publisher documentation, not live-client captures. All 29 Town claims keep one blank chat format. Copy controls remain adjacent to the text, with @ mention placeholders for players and ordinary placeholders for roles.
 
-## Main fixes
+The four profiles without quotes explain why: Pilgrim has no ability; Covenite has no unique ability without the Necronomicon; Baker and Enchanter message templates list no messages. Shared incoming attack/protection/failure feedback still applies. Source fingerprints, selected-line fingerprints, revisions where returned and exclusions are in [MESSAGE_SOURCE_MANIFEST.json](MESSAGE_SOURCE_MANIFEST.json).
 
-- Bodyguard has two Self Protect uses; self-defense is different from an interception.
-- Deputy misses are private and spend the shot; successful events do not identify the numbered Deputy.
-- Ritualist wrong guesses give no failure message; Doomsayer failed sets do.
-- Oracle selects a role astrally and normally does not get a numbered protection recipient.
-- Trickster absorption, stored attack, Self Mirror and Unleash remain distinct.
-- Veteran reports shots, not a complete named visitor list or guaranteed kills.
-- Coroner deception references conflict on Illusion; the note identifies this rather than treating either account as a guaranteed fake-claim excuse.
-- Psychic late-game failure triggers, Voodoo Blind notice wording and Retributionist generic-target wording remain explicitly qualified.
+Version-sensitive Shroud/Werewolf target wording is marked as older wiki wording. The named Seer example and Ritualist correct-guess excerpt come from official notes. Voodoo Blind’s inconsistent trigger, obsolete Pirate duels, old Vampire cap/youngest rules, and stale Berserker first-upgrade text are excluded. Late-game Psychic failure triggers remain uncertain. No unavailable complete sentence was reconstructed as a quote.
 
-## Wording coverage
-
-24 source-attested excerpts across 19 profiles are labeled by recipient. Other feedback is paraphrased meaning, not invented game quotations. A quoted public event does not establish a verified actor-side message. Each row below records the scope of the source wording available.
-
-## Town claims and actual roles
-
-| Role | Resolution | Source wording | Reviewed source |
-| --- | --- | --- | --- |
-| Jailor | A released prisoner gives no execution result. Jailor cannot execute on N1; on later nights, surviving an attempted execution differs from release or never being jailed. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)) |
-| Marshal | Holding Tribunal gives no private result. A claimed Tribunal must match the public daytime trial sequence; a quiet night has no Marshal action to report. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)) |
-| Mayor | Before Reveal, a quiet night supplies no role result. Typing a Mayor claim does not trigger the public reveal or extra votes. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)) |
-| Monarch | A held, roleblocked or obstructed Knight is not a completed Knight. Check the next-day Knight announcement/status; an existing knight dying is separate feedback. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)) |
-| Prosecutor | Holding Prosecute gives no ability result. A real prosecution has a public daytime resolution; it cannot be supplied by a private night claim. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)) |
-| Coroner | Without an Autopsy, do not invent a killer comparison. An unblocked no-match is a result; an interrupted Examine is no result. Autopsy and Examine refer to different players. The role page says Enchant/Illusion do not change this result; Keywords conflicts on Illusion, so that interaction is not presented as settled. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)) |
-| Investigator | No Crime is a completed investigation result, not silence. Roleblock, obstacle or suppressed feedback is no result. Murder means an attack that night, not necessarily a kill. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)) |
-| Lookout | No visible visitors is a usable observation only after a completed Watch. Astral traffic is absent from the list; an interrupted or suppressed Watch is not an empty list. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)) |
-| Psychic | Odd nights give Good pairs; even nights give Evil trios. No vision is not an all-good/all-evil group. Late-game failure-message triggers remain uncertain in the source. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)) |
-| Seer | Friends or Enemies compares apparent factions, not exact roles. Both selected players must be recorded. An interrupted comparison supplies neither Friends nor Enemies. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Seer_(ToS2)) |
-| Sheriff | Innocent and Suspicious are actual results. Roleblock, obstacle or suppressed feedback is not Innocent; Innocent does not establish a Town role. | 2 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)) |
-| Spy | A quiet Bug is not proof that the player is Town. Existing Bugs can keep reporting later visits; an interrupted new placement does not establish a new Bug. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Spy_(ToS2)) |
-| Tracker | No visible visit can mean staying home or astral activity. It is a successful observation only if Track resolved; a failed Track is not a stay-home result. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)) |
-| Bodyguard | No interception reported is not a save. Self Protect stays home, has two uses and grants Basic Defense; it does not fight an attacker or Guard another player. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)) |
-| Cleric | An unblocked quiet night normally gives no attack/save notice. A prevented Barrier is a failure, not a save. Quiet Self Barrier still spends its once-per-game use. | 2 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)) |
-| Crusader | Separate target-attack feedback from your own visitor-attack feedback. A quiet Fortify is not a save, and a visitor attack is not proof that visitor died. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)) |
-| Oracle | No attack feedback does not confirm that the selected role exists. Aegis Oracle is the once-per-game self-role choice; target roles, not player numbers, and do not repeat a role consecutively. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)) |
-| Trapper | Build is preparation, not a visit or save. A quiet placed Trap can persist into later nights. A harmful trigger is not the same as a complete non-harmful visitor-role list. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)) |
-| Deputy | A miss is private to the Deputy and spends the single shot. No public animation does not disprove a miss; a held shot is not a missed shot. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)) |
-| Trickster | No absorption is not a save. Self Mirror has one use. An absorbed attack must be stored before Unleash; while stored, another ordinary Mirror placement is unavailable. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)) |
-| Veteran | A quiet Alert still spends a charge. No Alert cannot produce Alert shots. You learn how many visitors you shot, not a complete named visitor list or guaranteed kill count. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)) |
-| Vigilante | Load or hold nights are not shots. A surviving target is not automatically a missed visit; preserve defense/failure feedback and any Town-hit penalty separately. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)) |
-| Admirer | A negative Admire is a result; a prevented Admire is not. Care protects you and the found Obsession, while Bestow is a separate daytime effect, not a marriage proposal. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)) |
-| Amnesiac | No eligible role to Remember means no transformation yet. Remember is automatic; it is not a chosen night visit, an investigation, or a current public role announcement. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)) |
-| Retributionist | A missing/contested corpse is a failure, not a negative investigation. You are roleblock-immune; the corpse ability and its destination still determine other restrictions and feedback. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)) |
-| Socialite | No rejection reported does not prove no one visited. Guests and permitted bypasses can enter; a rejection notice does not name the rejected visitors. You are roleblock-immune. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)) |
-| Tavern Keeper | A visit alone does not prove roleblock success. Immunity, Hungover, jail or an obstacle can change the account. You are roleblock-immune; an uncautious Serial Killer can retaliate. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)) |
-| Catalyst | No visible second action does not alone prove failure: the recipient needs a compatible ability and correct cycle. Do not promise extra charges or a doubled effect for every role. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)) |
-| Pilgrim | A quiet night is normal: there is no Pilgrim ability to succeed, fail or produce a result. Messages about attacks or interference come from other roles. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)) |
-
-## Coven actual roles
-
-| Role | Resolution | Source wording | Reviewed source |
-| --- | --- | --- | --- |
-| Archmage | Retrain and the book attack are alternative modes. An interrupted Retrain does not establish a new role; check the ally’s changed role card rather than inventing investigative feedback. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)) |
-| Hex Master | A quiet Hex is not a kill or a protective save. A failed visit is not a new Hex. The book’s astral attack and the final Hex Bomb are distinct from ordinary Hex placement. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)) |
-| Witch | Use the controlled role’s actual feedback, including failures. A control/immunity notice alone does not prove the forced action succeeded; your observed visit is to the first target. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Witch_(ToS2)) |
-| Conjurer | Holding Meteor gives no daytime kill. A defended Meteor differs from a death and still has public evidence; a nighttime book attack is a separate action. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)) |
-| Ritualist | A wrong role guess spends an attempt and gives no failure message. That silence is different from a correct-guess notice; it does not reveal the target’s actual role. A correct guess can still leave an Invincible target alive. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)) |
-| Jinx | No visitor-attack feedback is not an empty named visitor list. Attack feedback without a Jinx death can leave a surviving witness who knows your identity. | 2 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)) |
-| Dreamweaver | A selected target is not confirmed Insomnia. A qualifying Town visit on the following night can cure Dreamweave before Insomnia; prevention and later recovery are separate states. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)) |
-| Enchanter | A quiet Enchant supplies no true-role reveal. Alterate only changes death information if the player dies while it applies; an unused-looking result does not justify inventing a death. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)) |
-| Illusionist | Illusion changes appearances, not real abilities. A quiet night gives no new Town investigation; Phantasm and death Disguise are separate modes. Do not claim every investigator is fooled. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)) |
-| Medusa | Stone is a persistent mark, not a kill/save result. Holding makes no ordinary Stone visit. During Grace Period N1, a visible Stone visit cannot support an unavailable TP visit. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)) |
-| Necromancer | An unusable or contested corpse is not a successful result. You are roleblock-immune, but corpse availability, ability restrictions and destination failures still matter. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)) |
-| Poisoner | No Smog rejection reported is not proof of an empty house. Drink is a separate roleblock mode. You are roleblock-immune; Smog and a book attack cannot be used together. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)) |
-| Potion Master | A quiet Heal is not save feedback. Self Heal uses the same protection mode, cannot be used in a 1v1, and is not a visit to another player. Reveal is a role result, not a visitor list. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)) |
-| Voodoo Master | Silence, Deafen and Blind suppress different things. No victim report does not establish failure. Sources disagree on a Blind notice, so no exact Blind line is promised. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)) |
-| Wildling | An empty travel result can hide astral movement. Sense is not an exact-role reveal or Spy-style effect log; public whispers you hear are separate from the nightly travel report. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)) |
-| Covenite | Without the book, a quiet night is normal and creates no Covenite action result. With the book, distinguish an attack attempt from an actual death. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)) |
-| Cultist | A button selection is not a confirmed conversion. Check the joined faction/team state; Indoctrinate preserves the target’s role and abilities. A book attack is a different action. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)) |
-
-## Neutral base roles
-
-| Role | Resolution | Source wording | Reviewed source |
-| --- | --- | --- | --- |
-| Baker | Starting Bread is not a new Feed. A failed Feed adds no new recipient. Bread is not protection, and transformation/deaths must be separated from earlier feeding visits. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Baker_(ToS2)) |
-| Berserker | Early restricted nights or a held attack do not produce kills. Track actual kills and rampage victims separately; transformation needs the real threshold, not merely selected targets. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)) |
-| Plaguebearer | Starting infection and an already infected contact are not new spread. A prevented direct Infect adds no new target; distinguish it from spread through contacts already infected. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)) |
-| Soul Collector | A quiet Reap is not a kill. A soul can come from the role’s permitted passive/death conditions; do not claim every Reap immediately awards one or gives a Town result. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)) |
-| Doomsayer | A failed set means at least one guess is wrong; it does not identify which. Do not replace a failure with three negative role checks. Doom is not defeated by an ordinary roleblock/control story. | 2 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)) |
-| Executioner | A non-trial target death changes you into Jester privately. It is not an Executioner win or a public Jester revenge event; update the role and its later requirements. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)) |
-| Jester | Missing Chatterbox can invalidate revenge even after hanging. A night death is not the qualifying win; a Haunt requires the actual revenge state, not a fabricated visitor result. | 2 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Jester_(ToS2)) |
-| Pirate | Scour is a Landlubber check; Plunder is a separate attack. A failed attack is not a negative Scour, and a Landlubber dying to another cause can still advance the objective. No old duels. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)) |
-| Arsonist | A quiet Douse gives no Cleric save feedback. Clean stays home; Ignite is astral. Being Doused by another Arsonist and passive Dousing visitors are separate from a direct Douse destination. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)) |
-| Serial Killer | Cautious changes roleblock retaliation, not your target’s identity. Attack feedback without a death can mean defense; an uncautious retaliatory death is not an ordinary selected-target kill. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)) |
-| Shroud | A shrouded player staying home can redirect the outcome to an attack on that player. A shrouded visit is not proof of a willing attack; preserve mode and actual destination feedback. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)) |
-| Werewolf | Non-Full Moon Scent is not an attack. Existing scents can still report when you are jailed. Staying home on a Full Moon can rampage at home; do not invent an outward visit. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)) |
-| Cursed Soul | A failed or redirected Soul Swap does not prove the chosen player changed roles. Roles swap while factions remain; check the resulting role card instead of assigning a new allegiance. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)) |
-| Vampire | An ineligible/defended Convert switches to Drain; during Grace Period that fallback can fail altogether. A surviving target is not confirmed conversion, and conversion preserves their role. | Meaning only; exact quote unverified | [Role article](https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)) |
-
-## Transformed states
-
-| Role | Resolution | Source wording | Reviewed source |
-| --- | --- | --- | --- |
-| Famine | Starve reduces Bread; it is not a protective visit or ordinary attack. No immediate death does not prove Starve failed. The famine countdown is separate from your selected nightly target. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Baker_(ToS2)) |
-| War | Quiet or survived targets do not justify reverting to Berserker’s old limits. War is roleblock/obstacle-immune and can select two houses; Witch redirects only the first visit. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)) |
-| Pestilence | Pestilence stacks are not ordinary attacks. A failed-looking survival can mean the lethal threshold was not reached. Roleblock, jail and obstacles do not stop its immune/passive effects. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)) |
-| Death | There is no normal night action/result to invent. The decisive condition is surviving the daytime execution deadline; ordinary roleblock or control does not cancel Armageddon. | 1 excerpt(s); remaining meaning paraphrased | [Role article](https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)) |
-
-## Validation
-
-51 content/unit tests and the existing 125-check browser suite passed. Every actual role/state also passed a dedicated desktop/320px feedback traversal: 256 explanation copies and 48 documented/adapted message copies, source labels, outcome notes, comparison isolation and clipboard fallback. The 40-transition claim-position regression passed with maximum drift 0.484375px. See ROLE_FEEDBACK.md for the source and wording limits.
+| Role | Source wording coverage | Reviewed message sources |
+| --- | --- | --- |
+| Jailor | 2 line(s)/excerpt(s): THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2) |
+| Marshal | 2 line(s)/excerpt(s): EVERYONE, YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:MarshalMessages) |
+| Mayor | 2 line(s)/excerpt(s): EVERYONE, YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:MayorMessages/ToS2) |
+| Monarch | 2 line(s)/excerpt(s): EVERYONE, YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:MonarchMessages) |
+| Prosecutor | 1 line(s)/excerpt(s): EVERYONE | [Source 1](https://town-of-salem.fandom.com/wiki/Template:ProsecutorMessages) |
+| Coroner | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:CoronerMessages) |
+| Investigator | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:InvestigatorMessages/ToS2) |
+| Lookout | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2) |
+| Psychic | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2) |
+| Seer | 1 line(s)/excerpt(s): YOU | [Source 1](https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/) |
+| Sheriff | 2 line(s)/excerpt(s): YOU | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148) |
+| Spy | 1 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:SpyMessages/ToS2) |
+| Tracker | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:TrackerMessages/ToS2) |
+| Bodyguard | 3 line(s)/excerpt(s): YOU, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2) |
+| Cleric | 2 line(s)/excerpt(s): YOU, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric) |
+| Crusader | 2 line(s)/excerpt(s): EVERYONE, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:CrusaderMessages/ToS2) |
+| Oracle | 2 line(s)/excerpt(s): YOU, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:OracleMessages) |
+| Trapper | 3 line(s)/excerpt(s): YOU, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2) |
+| Deputy | 2 line(s)/excerpt(s): EVERYONE, YOU | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Deputy%20%28ToS2%29&oldid=6299) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:DeputyMessages) |
+| Trickster | 2 line(s)/excerpt(s): YOU, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:TricksterMessages) |
+| Veteran | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:VeteranMessages/ToS2) |
+| Vigilante | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:VigilanteMessages/ToS2) |
+| Admirer | 3 line(s)/excerpt(s): YOU | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:AdmirerMessages) |
+| Amnesiac | 1 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:AmnesiacMessages/ToS2) |
+| Retributionist | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2) |
+| Socialite | 2 line(s)/excerpt(s): YOU, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages) |
+| Tavern Keeper | 3 line(s)/excerpt(s): EVERYONE, THEM, YOU | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Tavern%20Keeper%20%28ToS2%29&oldid=4009) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:TavernKeeperMessages/ToS2) |
+| Catalyst | 2 line(s)/excerpt(s): THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:CatalystMessages) |
+| Pilgrim | No unique ability message: Pilgrim has no active ability. Incoming attacks, protection and failures use their own effect notices. | [Source 1](https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/) |
+| Archmage | 1 line(s)/excerpt(s): YOUR TEAM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:ArchmageMessages) |
+| Hex Master | 1 line(s)/excerpt(s): EVERYONE | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232) |
+| Witch | 1 line(s)/excerpt(s): THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:WitchMessages/ToS2) |
+| Conjurer | 2 line(s)/excerpt(s): EVERYONE | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:ConjurerMessages) |
+| Ritualist | 2 line(s)/excerpt(s): YOU, THEM | [Source 1](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:RitualistMessages) |
+| Jinx | 3 line(s)/excerpt(s): THEM, EVERYONE, YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Jinx) · [Source 2](https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984) · [Source 3](https://town-of-salem.fandom.com/wiki/Template:JinxMessages) |
+| Dreamweaver | 2 line(s)/excerpt(s): THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:DreamweaverMessages) |
+| Enchanter | The wiki’s Enchanter message template lists no messages. Enchant/Alterate effects are explained here; no unsourced success sentence is supplied. | [Source 1](https://town-of-salem.fandom.com/wiki/Template:EnchanterMessages) |
+| Illusionist | 1 line(s)/excerpt(s): YOUR TEAM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:IllusionistMessages) |
+| Medusa | 1 line(s)/excerpt(s): EVERYONE | [Source 1](https://town-of-salem.fandom.com/wiki/Template:MedusaMessages/ToS2) |
+| Necromancer | 1 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:NecromancerMessages/ToS2) |
+| Poisoner | 2 line(s)/excerpt(s): THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2) |
+| Potion Master | 2 line(s)/excerpt(s): THEM, YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:PotionMasterMessages/ToS2) |
+| Voodoo Master | 2 line(s)/excerpt(s): THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:VoodooMasterMessages) |
+| Wildling | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:WildlingMessages) |
+| Covenite | No unique Covenite ability message: without the Necronomicon there is no personal night ability; book attacks use shared Coven/attack feedback. | [Source 1](https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/) |
+| Cultist | 2 line(s)/excerpt(s): YOUR TEAM, THEM | [Source 1](https://town-of-salem.fandom.com/wiki/Template:CultistMessages) |
+| Baker | The wiki’s Baker message template lists no messages. Feed/Bread state is explained here; no unsourced Feed success sentence is supplied. | [Source 1](https://town-of-salem.fandom.com/wiki/Template:BakerMessages) |
+| Berserker | 1 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:BerserkerMessages) |
+| Plaguebearer | 1 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:PlaguebearerMessages/ToS2) |
+| Soul Collector | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:SoulCollectorMessages) |
+| Doomsayer | 4 line(s)/excerpt(s): YOU, THEM, EVERYONE | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:DoomsayerMessages) |
+| Executioner | 2 line(s)/excerpt(s): YOU, EVERYONE | [Source 1](https://town-of-salem.fandom.com/wiki/Template:ExecutionerMessages/ToS2) |
+| Jester | 3 line(s)/excerpt(s): EVERYONE, YOU | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:JesterMessages/ToS2) |
+| Pirate | 3 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2) |
+| Arsonist | 3 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2) |
+| Serial Killer | 3 line(s)/excerpt(s): YOU | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:SerialKillerMessages/ToS2) |
+| Shroud | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:ShroudMessages) |
+| Werewolf | 2 line(s)/excerpt(s): YOU | [Source 1](https://town-of-salem.fandom.com/wiki/Template:WerewolfMessages/ToS2) |
+| Cursed Soul | 3 line(s)/excerpt(s): EVERYONE, YOU, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Cursed%20Soul%20%28ToS2%29&oldid=5714) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:CursedSoulMessages) |
+| Vampire | 1 line(s)/excerpt(s): EVERYONE | [Source 1](https://town-of-salem.fandom.com/wiki/Template:VampireMessages/ToS2) |
+| Famine | 2 line(s)/excerpt(s): EVERYONE, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:FamineMessages) |
+| War | 2 line(s)/excerpt(s): EVERYONE, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:WarMessages) |
+| Pestilence | 3 line(s)/excerpt(s): EVERYONE, YOU, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2) |
+| Death | 2 line(s)/excerpt(s): EVERYONE | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:DeathMessages) |

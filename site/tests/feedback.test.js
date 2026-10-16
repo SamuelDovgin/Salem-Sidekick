@@ -19,7 +19,7 @@ test('only the 29 Town profiles have authored chat formats, with explicit placeh
 test('documented message excerpts have recipients, triggers and bounded per-source quotations',()=>{
  const budgets=new Map();let count=0;
  for(const role of roles)for(const m of role.feedbackGuide.messages){count++;assert.equal(m.kind,'documented');assert.ok(m.audience&&m.when);assert.match(m.sourceUrl,/^https:\/\//);assert.equal(m.namesNormalized,m.text.includes('['));assert.doesNotMatch(m.text,/%(?:name|Player)|\{\{|<[^>]+>/);const url=new URL(m.sourceUrl);url.hash='';const source=url.toString();budgets.set(source,(budgets.get(source)||0)+m.text.split(/\s+/).length);}
- assert.equal(count,24);for(const [source,words]of budgets)assert.ok(words<=25,source+': '+words);
+ assert.equal(count,120);for(const [source,words]of budgets)assert.ok(words<=25,source+': '+words);
 });
 test('Jinx witness wording names the Jinx and destination without granting a visitor list',()=>{
  const f=byId.get('jinx').feedbackGuide;assert.equal(f.messages[0].text,'You saw the Jinx [Jinx name] visit [target name]!');assert.match(f.messages[0].audience,/co-visitor/);assert.match(f.youSee,/does not give you every visitor/);assert.match(f.theySee,/attacked visitor is not a safe exception/);assert.match(f.claimCheck,/Crusader.*witness/);
@@ -28,7 +28,7 @@ test('shared Barrier feedback does not identify its source or turn quiet nights 
  const cleric=byId.get('cleric').feedbackGuide;assert.equal(cleric.messages[1].text,'You were attacked, but a Barrier protected you!');assert.match(cleric.messages[1].audience,/recipient/);assert.match(cleric.theySee,/quiet target is not evidence/);assert.match(cleric.claimCheck,/Other Barrier abilities/);assert.match(byId.get('oracle').feedbackGuide.theySee,/astral.*Tracker.*Lookout/);
 });
 test('current feedback excludes stale Pirate/Admirer mechanics and disputed Blind notice',()=>{
- assert.deepEqual(byId.get('pirate').feedbackGuide.messages,[]);assert.doesNotMatch(byId.get('admirer').feedbackGuide.reportTemplate,/propos|accept|reject/i);assert.ok(byId.get('voodoo-master').feedbackGuide.messages.every(m=>!m.text.includes('Blinded')));assert.match(byId.get('voodoo-master').feedbackGuide.claimCheck,/inconsistent/);assert.deepEqual(byId.get('psychic').feedbackGuide.messages,[]);
+ assert.equal(byId.get('pirate').feedbackGuide.messages.length,3);assert.ok(byId.get('pirate').feedbackGuide.messages.every(m=>/Landlubber/.test(m.text)));assert.doesNotMatch(byId.get('admirer').feedbackGuide.reportTemplate,/propos|accept|reject/i);assert.ok(byId.get('voodoo-master').feedbackGuide.messages.every(m=>!m.text.includes('Blinded')));assert.match(byId.get('voodoo-master').feedbackGuide.claimCheck,/inconsistent/);assert.equal(byId.get('psychic').feedbackGuide.messages.length,2);
 });
 
 test('Cleric marks whose screen and explains Self Barrier without inventing another quote',()=>{
@@ -41,8 +41,23 @@ test('each role and transformed state has a separate source-linked feedback audi
  for(const row of audit.roles){const f=byId.get(row.id).feedbackGuide;assert.equal(row.resolution,f.outcomeNote);assert.equal(row.sourceSha256,f.feedbackAudit.sourceSha256);assert.match(row.sourceSha256,/^[a-f0-9]{64}$/);assert.equal(row.sourceUrl,f.feedbackAudit.sourceUrl);assert.equal(row.exactMessageCount,f.messages.length);assert.equal(f.feedbackAudit.reviewedOn,'2026-10-16');assert.ok(byId.get(row.id).studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.outcomeNote));}
 });
 test('every quoted message has an explicit acting-player, recipient or public audience',()=>{
- for(const r of roles)for(const m of r.feedbackGuide.messages){assert.ok(['self','other','public'].includes(m.viewpoint));assert.match(m.screenLabel,/^(YOU|THEM|EVERYONE) · /);if(m.copyText?.includes('@[')){assert.ok(m.copyHint.includes('@4'));assert.doesNotMatch(m.copyText,/(?<!@)\[(?:Player|player name|Jinx name|target name)\]/);}}
- assert.equal(byId.get('deputy').feedbackGuide.messages[0].viewpoint,'public');assert.equal(byId.get('voodoo-master').feedbackGuide.messages[0].viewpoint,'other');assert.equal(byId.get('retributionist').feedbackGuide.messages[0].legacyWording,true);
+ for(const r of roles)for(const m of r.feedbackGuide.messages){assert.ok(['self','other','public','team'].includes(m.viewpoint));assert.match(m.screenLabel,/^(YOU|THEM|EVERYONE|YOUR TEAM) · /);if(m.copyText?.includes('@[')){assert.ok(m.copyHint.includes('@4'));assert.doesNotMatch(m.copyText,/(?<!@)\[(?:Player|player name|Jinx name|target name)\]/);}}
+ assert.equal(byId.get('deputy').feedbackGuide.messages[0].viewpoint,'public');assert.equal(byId.get('voodoo-master').feedbackGuide.messages[0].viewpoint,'other');assert.equal(byId.get('retributionist').feedbackGuide.messages[0].text,'The corpse you targeted is missing');
+});
+
+test('template research covers every profile without manufacturing messages for passive roles',()=>{
+ const manifest=JSON.parse(readFileSync(new URL('../../docs/research/MESSAGE_SOURCE_MANIFEST.json',import.meta.url)));
+ assert.equal(manifest.templates.length,65);assert.ok(manifest.templates.every(t=>t.status==='retrieved'&&/^[a-f0-9]{64}$/.test(t.sha256)));
+ assert.equal(roles.filter(r=>r.feedbackGuide.messages.length).length,60);
+ assert.deepEqual(roles.filter(r=>!r.feedbackGuide.messages.length).map(r=>r.id).sort(),['baker','covenite','enchanter','pilgrim']);
+ for(const r of roles.filter(r=>!r.feedbackGuide.messages.length))assert.match(r.feedbackGuide.messageAvailability,/no (?:active ability|personal night ability|messages|unique)/i);
+ for(const line of manifest.selectedLines){const m=byId.get(line.roleId).feedbackGuide.messages.find(m=>m.sourceUrl===line.sourceUrl&&m.sourceLineSha256===line.sourceLineSha256);assert.ok(m,line.roleId);assert.equal(Boolean(m.excerpt),line.excerpt);}
+ for(const rid of ['archmage','illusionist','cultist'])assert.equal(byId.get(rid).feedbackGuide.messages[0].viewpoint,'team');
+ assert.ok(byId.get('seer').feedbackGuide.messages[0].sourceUrl.includes('townofsalem.io'));
+ assert.equal(byId.get('ritualist').feedbackGuide.messages[0].excerpt,true);
+ assert.ok(byId.get('shroud').feedbackGuide.messages.every(m=>m.legacyWording));
+ assert.equal(byId.get('werewolf').feedbackGuide.messages[0].legacyWording,true);
+ for(const m of byId.get('oracle').feedbackGuide.messages)assert.doesNotMatch(m.copyText||m.text,/@/);
 });
 test('quiet/failure notes preserve role-specific visibility and immunity distinctions',()=>{
  const f=id=>byId.get(id).feedbackGuide;assert.match(f('ritualist').outcomeNote,/wrong role guess.*no failure message/i);assert.match(f('deputy').outcomeNote,/miss is private.*spends/i);assert.match(f('bodyguard').outcomeNote,/Self Protect.*two uses.*Basic Defense/);assert.match(f('oracle').outcomeNote,/target roles, not player numbers/);assert.match(f('trickster').outcomeNote,/stored before Unleash/);assert.match(f('veteran').outcomeNote,/how many.*not a complete named/);assert.match(f('plaguebearer').outcomeNote,/prevented direct Infect/);assert.match(f('war').outcomeNote,/roleblock\/obstacle-immune/);assert.match(f('pestilence').outcomeNote,/not ordinary attacks/);assert.match(f('death').outcomeNote,/no normal night action/);

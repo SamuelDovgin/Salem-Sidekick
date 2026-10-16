@@ -350,11 +350,11 @@ def build():
         assert all(m['kind']=='documented' and m['sourceUrl'].startswith('https://') and m['audience'] and m['when'] for m in guide['messages'])
         guide['basis']='Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples.'
         assert guide['feedbackAudit']['reviewedOn']=='2026-10-16' and len(guide['feedbackAudit']['sourceSha256'])==64
-        assert all(m['viewpoint'] in ['self','other','public'] and m['screenLabel'] for m in guide['messages'])
+        assert all(m['viewpoint'] in ['self','other','public','team'] and m['screenLabel'] for m in guide['messages'])
         role['feedbackGuide']=guide
         lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck'], '**Quiet / failed:** '+guide['outcomeNote']]
         for message in guide['messages']:
-            label='Source wording · version uncertain' if message.get('legacyWording') else 'Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented '+('excerpt' if message.get('excerpt') else 'English')
+            label='Older wiki wording' if message.get('legacyWording') else 'Documented excerpt' if message.get('excerpt') else 'Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented English'
             lines.append('**'+label+' · '+message['audience']+':** `'+message.get('copyText',message['text'])+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
         for message in guide['messages']:
             if message.get('copyText'):
@@ -363,6 +363,8 @@ def build():
                 lines.append(message['wordingNote'])
             if message.get('selfNote'):
                 lines.append('**Self Barrier · your screen:** '+message['selfNote'])
+        if guide.get('messageAvailability'):
+            lines.append(guide['messageAvailability'])
         if guide.get('reportTemplate'):
             lines.append('**Chat format · replace brackets:**\n\n```\n'+guide['reportTemplate']+'\n```')
         role['studyGuide']['sections'].append({'title':'What you and others see','markdown':'\n\n'.join(lines)})

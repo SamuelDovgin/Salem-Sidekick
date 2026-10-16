@@ -1,0 +1,1217 @@
+{
+  "retrievedOn": "2026-10-16",
+  "method": "Public MediaWiki API action=parse, prop=wikitext|revid. SHA-256 hashes identify retrieved source wikitext; full tables are not republished.",
+  "api": "https://town-of-salem.fandom.com/api.php",
+  "templates": [
+    {
+      "title": "Template:AdmirerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:AdmirerMessages",
+      "status": "retrieved",
+      "sha256": "c1c5619c5fdf56babef109e6ec164a0b461058eeffacb446de8537ecb9317331",
+      "revid": 586910,
+      "chars": 1919
+    },
+    {
+      "title": "Template:AmnesiacMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:AmnesiacMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "67c4e775c235ed12fa15a8a064218ddba9c9a547194e20589067794dc0937103",
+      "revid": 586912,
+      "chars": 390
+    },
+    {
+      "title": "Template:ArchmageMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ArchmageMessages",
+      "status": "retrieved",
+      "sha256": "9362ba223d12899bb6aad57fd68d9c6a224bc17492c2ffdb9d853aac779f4f0f",
+      "revid": 587239,
+      "chars": 774
+    },
+    {
+      "title": "Template:ArsonistMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "8d370e4fdf70c6aa4e7711db11bcd68e617a5a30331c2a3ce91c1ecc2001631f",
+      "revid": 586913,
+      "chars": 1270
+    },
+    {
+      "title": "Template:BakerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:BakerMessages",
+      "status": "retrieved",
+      "sha256": "4997efd7f8b539a9eb4326b985c67d035e02e2f4eed320683fffa7bcb475be68",
+      "revid": 586891,
+      "chars": 171
+    },
+    {
+      "title": "Template:BerserkerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:BerserkerMessages",
+      "status": "retrieved",
+      "sha256": "64f4ac40ca1f6a0c8226af582155b7cfdf30b729f04652af4e17925920a384f6",
+      "revid": 586914,
+      "chars": 1368
+    },
+    {
+      "title": "Template:BodyguardMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "6c3d0ffad55b7179b536d197071dc2ff6807d0258b98ddf813d0ca524333b90d",
+      "revid": 586920,
+      "chars": 1540
+    },
+    {
+      "title": "Template:CatalystMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:CatalystMessages",
+      "status": "retrieved",
+      "sha256": "9ff577e9144c36248b2b96f7cff5ec71b0ff114d552fc5dd704d67eaaf2ea3be",
+      "revid": 586893,
+      "chars": 629
+    },
+    {
+      "title": "Template:ClericMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ClericMessages",
+      "status": "retrieved",
+      "sha256": "39a877077970419299e2e95ac297e5eeddc99fb62b1f4fb150e5f8a41756a525",
+      "revid": 586903,
+      "chars": 1038
+    },
+    {
+      "title": "Template:ConjurerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ConjurerMessages",
+      "status": "retrieved",
+      "sha256": "dadc395e02fff7bd918d7abfb76f150a0681a5b56118dbfa02a6c45e81a1d019",
+      "revid": 586750,
+      "chars": 981
+    },
+    {
+      "title": "Template:CoronerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:CoronerMessages",
+      "status": "retrieved",
+      "sha256": "653fe281dfdbaf2c55cac3763a2b0e8b9f35c996240615f2f16e7caae853a04b",
+      "revid": 586918,
+      "chars": 993
+    },
+    {
+      "title": "Template:CrusaderMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:CrusaderMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "3ecba0b855a1ced09a738495461d17fd7b134befc8fda712787b2dae906ff421",
+      "revid": 586917,
+      "chars": 1356
+    },
+    {
+      "title": "Template:CultistMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:CultistMessages",
+      "status": "retrieved",
+      "sha256": "256d7b6e29a03bc7c704ee662354374307ad6cdfdca167c9fcce10219541b7a4",
+      "revid": 586896,
+      "chars": 722
+    },
+    {
+      "title": "Template:CursedSoulMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:CursedSoulMessages",
+      "status": "retrieved",
+      "sha256": "c643705dc14a840db0d3ffd55a4df5e74d4411775aed20b110d8b921d946c048",
+      "revid": 600694,
+      "chars": 1011
+    },
+    {
+      "title": "Template:DeathMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:DeathMessages",
+      "status": "retrieved",
+      "sha256": "40618871edb537c44229c7a6137eadaf2eedfb333dc86c839ac2cd5b0c89be08",
+      "revid": 586971,
+      "chars": 480
+    },
+    {
+      "title": "Template:DeputyMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:DeputyMessages",
+      "status": "retrieved",
+      "sha256": "bcbf2b48fbfe6908b7b4aedc145414592f31be12075fc3ded86e6cf079254568",
+      "revid": 586749,
+      "chars": 917
+    },
+    {
+      "title": "Template:DoomsayerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:DoomsayerMessages",
+      "status": "retrieved",
+      "sha256": "2a90336e65bf259d913900da8b0111f8c039e5e9dcad9afe88fc6769bc22a05f",
+      "revid": 586919,
+      "chars": 1848
+    },
+    {
+      "title": "Template:DreamweaverMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:DreamweaverMessages",
+      "status": "retrieved",
+      "sha256": "a3c56b99b8a49550130de40cd8ffed7b61034b3e9e8764c4f1218809f4a81e18",
+      "revid": 586709,
+      "chars": 1848
+    },
+    {
+      "title": "Template:EnchanterMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:EnchanterMessages",
+      "status": "retrieved",
+      "sha256": "42de0566fa2afc478810e3980b83ed76b5cccb9df98dcb13cee610d35faf3b82",
+      "revid": 586901,
+      "chars": 168
+    },
+    {
+      "title": "Template:ExecutionerMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ExecutionerMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "145070a8db98c1453a8b9c177b4b71fd77bac42193c80d4a79cad1509267384c",
+      "revid": 606495,
+      "chars": 1298
+    },
+    {
+      "title": "Template:FamineMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:FamineMessages",
+      "status": "retrieved",
+      "sha256": "59eb6e041b00825bb2d3cd44a66677a5d90094c91e54c472736ea98cb62f19fe",
+      "revid": 586915,
+      "chars": 903
+    },
+    {
+      "title": "Template:GhostGameMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:GhostGameMessages",
+      "status": "retrieved",
+      "sha256": "8d4116a7ca0a6060670ad6ceef22a0c612b3252e7d3964fd4ffb50dfe82c2a93",
+      "revid": 587191,
+      "chars": 4078
+    },
+    {
+      "title": "Template:HexMasterMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:HexMasterMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "4997efd7f8b539a9eb4326b985c67d035e02e2f4eed320683fffa7bcb475be68",
+      "revid": 579447,
+      "chars": 171
+    },
+    {
+      "title": "Template:IllusionistMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:IllusionistMessages",
+      "status": "retrieved",
+      "sha256": "5a3e100c5ef81b25d2814d080ce59c6334bd81f468457c2a47a7cfce739a93d2",
+      "revid": 586902,
+      "chars": 416
+    },
+    {
+      "title": "Template:InvestigatorMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:InvestigatorMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "3c53c42fa4216c4ecf850b0eb2378d3a9fd33a083c0ed83e39f826c692c3cde2",
+      "revid": null,
+      "chars": 1233
+    },
+    {
+      "title": "Template:JailorMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "517904468fbafd1936197be7c6f85937dc30166c6ce343a0967b7ec2c428534c",
+      "revid": 586922,
+      "chars": 2540
+    },
+    {
+      "title": "Template:JesterMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:JesterMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "20831299f11d471876fa5ca4607d6b8063b38cca74659e97630d6df9be5ef1d0",
+      "revid": 606504,
+      "chars": 1853
+    },
+    {
+      "title": "Template:JinxMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:JinxMessages",
+      "status": "retrieved",
+      "sha256": "1117d9a2dcb54b9b703cb69663722a4b691544874fa62cd050f1e373c2adf5a2",
+      "revid": 586924,
+      "chars": 981
+    },
+    {
+      "title": "Template:LookoutMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "844ba8db8fe39e39ad183491fcd9c6f3f6aa17a5d509fb3efd63f8cde8e6e28b",
+      "revid": 586923,
+      "chars": 552
+    },
+    {
+      "title": "Template:MarshalMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:MarshalMessages",
+      "status": "retrieved",
+      "sha256": "a363945c7590e863f37ed5cbb6fe2b3b62d906a9c36f0dfb8111836264b2e03b",
+      "revid": 586925,
+      "chars": 937
+    },
+    {
+      "title": "Template:MayorMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:MayorMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "bdf11ffe5e884c4f346c350556bb6c676297ea67c15160575971519c3390752b",
+      "revid": 586926,
+      "chars": 685
+    },
+    {
+      "title": "Template:MedusaMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:MedusaMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "6ac825ba1baaa13bb85c76f58330c5798d14334c4102fbae880a56a72d0cb014",
+      "revid": 586894,
+      "chars": 593
+    },
+    {
+      "title": "Template:MonarchMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:MonarchMessages",
+      "status": "retrieved",
+      "sha256": "1f1b41ea9a3fef3a42b743dbe1d05bf2f0ec02472d8e71c3784a01ed93b1a303",
+      "revid": 586927,
+      "chars": 571
+    },
+    {
+      "title": "Template:NecromancerMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:NecromancerMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "44ecaee6c17399f876380bfb2c908491f95c9106c8c84fb349d4b16a5f5e25bb",
+      "revid": 586906,
+      "chars": 461
+    },
+    {
+      "title": "Template:OracleMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:OracleMessages",
+      "status": "retrieved",
+      "sha256": "c405093478d599782d704a24913517ce570f2467fd1995176d6555a136471ad2",
+      "revid": null,
+      "chars": 923
+    },
+    {
+      "title": "Template:PestilenceMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "be33aa0d48ed014b921f4d622d1b849c423925e2b41ad355aed62b1ecf5d8f65",
+      "revid": 586928,
+      "chars": 1219
+    },
+    {
+      "title": "Template:PirateMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "0d526f4dfc7379fedc2d602630e972a67c30ebb1c52062c23128b04e7d8af4a2",
+      "revid": 586929,
+      "chars": 2042
+    },
+    {
+      "title": "Template:PlaguebearerMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:PlaguebearerMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "a99a70749a39cdd8c0c32f2ac1d27b5ca41ab7a7db685fbbb96a10d938168efe",
+      "revid": 586930,
+      "chars": 388
+    },
+    {
+      "title": "Template:PoisonerMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "61f65e50e2d13b1729c460ce19c20d25fd58e01b1227b3ddaa3ac2d0abce7512",
+      "revid": 586931,
+      "chars": 1769
+    },
+    {
+      "title": "Template:PotionMasterMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:PotionMasterMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "5b0c489bc1c13a014e54bd50d73f255ef5160e215b1c8927fdcd9781ca2b56bf",
+      "revid": 586937,
+      "chars": 1169
+    },
+    {
+      "title": "Template:ProsecutorMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ProsecutorMessages",
+      "status": "retrieved",
+      "sha256": "59320f105ea777952a2c24a75a9e24b3dbe23b25b5cbe491aa88fc5268513585",
+      "revid": 586933,
+      "chars": 341
+    },
+    {
+      "title": "Template:PsychicMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "76e022dc4c684f40d2a4179aa082a933c6f2028828c0748ac61308d164741510",
+      "revid": null,
+      "chars": 1396
+    },
+    {
+      "title": "Template:RetributionistMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "e73000a937415f086863de9eca13cab7f8082c7444899a493713c2ef0afce975",
+      "revid": 586939,
+      "chars": 717
+    },
+    {
+      "title": "Template:Reworked/ReplacedMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:Reworked/ReplacedMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "bb8b4fd85a1b68e05beb2454c4efe0f88bb601425e52a7826103aa2a02e5a0aa",
+      "revid": 587158,
+      "chars": 4815
+    },
+    {
+      "title": "Template:RitualistMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:RitualistMessages",
+      "status": "retrieved",
+      "sha256": "5fb1ad4f4781a4f85bc370bcdd15213bb9f10b594404842fcae63a3bd4cb09d1",
+      "revid": 586940,
+      "chars": 565
+    },
+    {
+      "title": "Template:SeerMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SeerMessages",
+      "status": "retrieved",
+      "sha256": "346d843c3cb2886d152ea25ed28103f7ba23f096ebe5259ea8f4cc9444ef8c49",
+      "revid": null,
+      "chars": 1028
+    },
+    {
+      "title": "Template:SerialKillerMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SerialKillerMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "f99d262aa327c888fd91ffbe764a4bc21f045a033e525568fc1ac4441f892da6",
+      "revid": 586942,
+      "chars": 1363
+    },
+    {
+      "title": "Template:SheriffMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SheriffMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "0324973dc7d88c0a9758c5e69146da6c347685008c16f4148ec80cd15c4f947b",
+      "revid": 586943,
+      "chars": 1064
+    },
+    {
+      "title": "Template:ShroudMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:ShroudMessages",
+      "status": "retrieved",
+      "sha256": "81ff8e9471d18b04e6ef07253354813c4a971cb719d56a79c86d699cec2c5c04",
+      "revid": 586934,
+      "chars": 1081
+    },
+    {
+      "title": "Template:SocialiteMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages",
+      "status": "retrieved",
+      "sha256": "faebca5c85fe0ab7988f4d0bdb34cfde6b83cd78aea3b9c55a8e2674b8c8d80b",
+      "revid": 586944,
+      "chars": 845
+    },
+    {
+      "title": "Template:SoulCollectorMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SoulCollectorMessages",
+      "status": "retrieved",
+      "sha256": "198dbbbaad86993b919ff76b34e816ab869dcb19a8806a7b721e91d6dea3f605",
+      "revid": 586907,
+      "chars": 659
+    },
+    {
+      "title": "Template:SpyAbilityMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SpyAbilityMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "81c630f3bb3636bbfa358ee5e5eceaa3f1c6497ad34e75a22836ff27e2b31609",
+      "revid": 587026,
+      "chars": 3294
+    },
+    {
+      "title": "Template:SpyMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:SpyMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "c2b749269457fd75d7a71f447536ec5ff06dbbed6aeb6dcb3392c9a69fff5f34",
+      "revid": 586909,
+      "chars": 847
+    },
+    {
+      "title": "Template:TavernKeeperMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:TavernKeeperMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "6768ed372ed75493987506209feed6323f81e797a61de0c77d6ac8dc6c8072f6",
+      "revid": 586898,
+      "chars": 1500
+    },
+    {
+      "title": "Template:TrackerMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:TrackerMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "7388d86b88b9865eb4b0c7aba44510acf3eb1f9cf8d19727092712d50d92d934",
+      "revid": null,
+      "chars": 535
+    },
+    {
+      "title": "Template:TrapperMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "a3773d8b09edf5790f4178cc1c6be2fff8f8d23b2db36e938cbd1aeb9291c122",
+      "revid": 586946,
+      "chars": 2085
+    },
+    {
+      "title": "Template:TricksterMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:TricksterMessages",
+      "status": "retrieved",
+      "sha256": "b88687db7ab3c3f225768bd446e2815eb95ac8a105d2d43fd7a762f07dc0bbf0",
+      "revid": null,
+      "chars": 1749
+    },
+    {
+      "title": "Template:VampireMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:VampireMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "41d577dcee638899e43ee38597b24ca8cd1be600690e890f4c464eaaef361344",
+      "revid": 586949,
+      "chars": 1167
+    },
+    {
+      "title": "Template:VeteranMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:VeteranMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "e8c66626aa43fc3d737c1b112370cd32eb8de94aaae67334b89de30b8087b0ce",
+      "revid": 586948,
+      "chars": 1385
+    },
+    {
+      "title": "Template:VigilanteMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:VigilanteMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "01ed612cea010dd305d77ccb4a57848c4dd948391d3222f86c5101f5cddda172",
+      "revid": 586950,
+      "chars": 1525
+    },
+    {
+      "title": "Template:VoodooMasterMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:VoodooMasterMessages",
+      "status": "retrieved",
+      "sha256": "4ec83b93a889c1cf57e90b7e7b6f5286392dd786d1714316feaae4ec585b613e",
+      "revid": 586890,
+      "chars": 1922
+    },
+    {
+      "title": "Template:WarMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:WarMessages",
+      "status": "retrieved",
+      "sha256": "fe748249826665ad761f3fe19c4f1ea47ea125d508ba856974cabc7c4a43fef2",
+      "revid": 586951,
+      "chars": 878
+    },
+    {
+      "title": "Template:WerewolfMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:WerewolfMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "165d1d7721b147bea4d39c2c0a4ab58705fa2650b05b7044e9b5d9e6e4b13fbb",
+      "revid": 586952,
+      "chars": 1474
+    },
+    {
+      "title": "Template:WildlingMessages",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:WildlingMessages",
+      "status": "retrieved",
+      "sha256": "2a7a86fbe431994eb3cdb113a785d4325624b84ddc6a34b22064cd22514ea48d",
+      "revid": 586935,
+      "chars": 1297
+    },
+    {
+      "title": "Template:WitchMessages/ToS2",
+      "url": "https://town-of-salem.fandom.com/wiki/Template:WitchMessages/ToS2",
+      "status": "retrieved",
+      "sha256": "2a318cc23bec7dd63b2f28030167adbbbf78222b3cabf8eb2493d6aa64c8047d",
+      "revid": 586936,
+      "chars": 1371
+    }
+  ],
+  "selectedLines": [
+    {
+      "roleId": "jailor",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "1c1d7fc53fd43573116bb42a6485a5bd4659d3ecd9bcfe7e08e72061fb9d1757",
+      "excerpt": false
+    },
+    {
+      "roleId": "jailor",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2",
+      "sourceLineIndex": 4,
+      "sourceLineSha256": "1796d9a12afce968e503e8af5ba9baa2c5668dcd505be291e9a1e708f7f9be04",
+      "excerpt": false
+    },
+    {
+      "roleId": "marshal",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MarshalMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "9b38525afae51996d8b190dcb22ae3a20dfd791243669cba419951bf524271b1",
+      "excerpt": false
+    },
+    {
+      "roleId": "marshal",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MarshalMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "0ca0d49462feab1b27af297b70fbce3daff513f7411ea8e993450f2f89252d38",
+      "excerpt": false
+    },
+    {
+      "roleId": "mayor",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MayorMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "02a71250eb372b784a9982f412482c16113896d64f45963ef5029664a07f03e1",
+      "excerpt": false
+    },
+    {
+      "roleId": "mayor",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MayorMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "1f8f38e9e257744387fc1ec6bcba4f87f92101fdfdb2c7a771ca4bcbf1ebedb4",
+      "excerpt": false
+    },
+    {
+      "roleId": "monarch",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MonarchMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "7b369e4ac0e8f542789f515cae035142618068c0e8bd8e93118d04af1ae3de33",
+      "excerpt": false
+    },
+    {
+      "roleId": "monarch",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MonarchMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "0fb4e0c8eda9b84e9e6a020c04328fabbc76aff9a7e3f6054d313585dcaf1160",
+      "excerpt": false
+    },
+    {
+      "roleId": "prosecutor",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ProsecutorMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "e8b6e8887ea4db6b245ca2e705a9cf4b3e63c71e5b294eb3b4d41bb2f7216b1b",
+      "excerpt": false
+    },
+    {
+      "roleId": "coroner",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CoronerMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "72422e0cdbaf2affb01ec4fc6b50e358f6a8b76c72094a687d15e935aa78c70d",
+      "excerpt": false
+    },
+    {
+      "roleId": "coroner",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CoronerMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "99a9dedee257326d4c4a765f6eb992179cbfef74e5d41547d256eddb21cac749",
+      "excerpt": true
+    },
+    {
+      "roleId": "investigator",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:InvestigatorMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "a9c07ee9c01cb6047c2f2a32fe6bd5fa4569fd2d7e61525c8e8ca4f144533fbb",
+      "excerpt": false
+    },
+    {
+      "roleId": "investigator",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:InvestigatorMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "ec958ca926eb1b4bea9cf1573db799960bcd09eda0e56f9f92005059dced0786",
+      "excerpt": false
+    },
+    {
+      "roleId": "lookout",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "0bab940ff7f99b05886a45997e6e9cf32226c5be60c32ff723efeae118bc5db7",
+      "excerpt": false
+    },
+    {
+      "roleId": "lookout",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "ac9cfcf0c38f3ee210c6d11f9cc12c6243f95f6d0c4e5489b7db3ed1aa6e9ee2",
+      "excerpt": false
+    },
+    {
+      "roleId": "psychic",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "100449d2cde309cacbc6cac14993eb8b4d9ad20be8802f5163721b0db40f14f7",
+      "excerpt": false
+    },
+    {
+      "roleId": "psychic",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "4804d424a19e82cdba5c9976922e99651465785dda07f8189a7884317a5b5ec0",
+      "excerpt": false
+    },
+    {
+      "roleId": "spy",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SpyMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "dafbc3d77ea137a1b3b5e45959bca575f533e64cd3818fe5f07654b3d46593e8",
+      "excerpt": false
+    },
+    {
+      "roleId": "tracker",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TrackerMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "9036e2cbbf1f21feba4afe142692f7e60107480969f79a330622ec608ce25985",
+      "excerpt": false
+    },
+    {
+      "roleId": "tracker",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TrackerMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "adb0d686c8ef131ba9f21894d3388690902100997a166a60d52696a5d526835e",
+      "excerpt": false
+    },
+    {
+      "roleId": "bodyguard",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "10fe9a291d0339adbf667c1d5833ab6d7359a48ddaf6c22ac8d96e9392ffddce",
+      "excerpt": false
+    },
+    {
+      "roleId": "bodyguard",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "05f681769d652e4f19aee4feb26ef5966b1ab6f43feb03e45f0e8b0dccf4d0e8",
+      "excerpt": false
+    },
+    {
+      "roleId": "bodyguard",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "8157efa4bffbb35b2d1f0873fa67a4170d85da8cb23217c41eca32d2cc67e4fc",
+      "excerpt": false
+    },
+    {
+      "roleId": "crusader",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CrusaderMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "8acdd03c7d7b2c71625aff5d943ab69789d0245b55a7f1f16cef277e30ac5b11",
+      "excerpt": false
+    },
+    {
+      "roleId": "oracle",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:OracleMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "0777ca6eaba3b992caca59efafb39b3797929d63c9711a9bebbabc94c484b212",
+      "excerpt": false
+    },
+    {
+      "roleId": "oracle",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:OracleMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "69a24e3bc0f181669d447cd18032dfc70b7d72600d81392c9c453792e0d7d546",
+      "excerpt": false
+    },
+    {
+      "roleId": "trapper",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "5ca0e1c3fa30db611b6ab5d51eb1591f6591c98463740b9ab3b383ed4dce21f3",
+      "excerpt": false
+    },
+    {
+      "roleId": "trapper",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "cad4df69d7a785bd725560bea15b0fcb74f60d9ba1023218c752d713cf5df251",
+      "excerpt": false
+    },
+    {
+      "roleId": "trapper",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2",
+      "sourceLineIndex": 4,
+      "sourceLineSha256": "e20e98bd4e6d2080981a73af3e725e876bd10f98bd17860d9f780bfac44ec044",
+      "excerpt": false
+    },
+    {
+      "roleId": "deputy",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:DeputyMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "c96276b853108c84128a1f9fb2a80cb374c33e10ef4e78a66578fe496e3c12a1",
+      "excerpt": false
+    },
+    {
+      "roleId": "trickster",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TricksterMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "0fc7ba9518401b11ce4b20b095816305f0aa340c93423c631ed8d23393d80956",
+      "excerpt": false
+    },
+    {
+      "roleId": "trickster",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TricksterMessages",
+      "sourceLineIndex": 3,
+      "sourceLineSha256": "d6f67bd22075f58f035844337723f9865ab67a43236260610f3f0eab3c1f38ea",
+      "excerpt": false
+    },
+    {
+      "roleId": "veteran",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:VeteranMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "378257aa5caeef4f86cc0d78d33128f3c507df437bd0f3ed67b7cdf10f7bc4cc",
+      "excerpt": false
+    },
+    {
+      "roleId": "veteran",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:VeteranMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "6a6cc99204599b8bf3ea3bcd9c71a35c9760755b93e39c67b72cf13547a06048",
+      "excerpt": false
+    },
+    {
+      "roleId": "vigilante",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:VigilanteMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "c15a5da63eacfa09da6a4b9206a019c1b4ef8091c7fec6520bf49134fc40f9c2",
+      "excerpt": false
+    },
+    {
+      "roleId": "vigilante",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:VigilanteMessages/ToS2",
+      "sourceLineIndex": 3,
+      "sourceLineSha256": "bd9fe9caea11986669d122c7b34b52ec7a455eb4703e8a2a848328ba6040c6c9",
+      "excerpt": false
+    },
+    {
+      "roleId": "admirer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:AdmirerMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "b04eeacb49fb4b68f8ba72ec2c56a4cc8c4c8a2c91a682062df7569bb3e6da22",
+      "excerpt": false
+    },
+    {
+      "roleId": "admirer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:AdmirerMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "955b63a32abe6da8510b87b15aa806b132986bb6866b4db1b1d49316d10bfc55",
+      "excerpt": false
+    },
+    {
+      "roleId": "amnesiac",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:AmnesiacMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "675d2d3ce09f8fb2eed623fa78f0956e02d0aebf4504bd85bc7a39f9889df31a",
+      "excerpt": false
+    },
+    {
+      "roleId": "retributionist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "a6e52f2d2cae53122ef34320e96cde8d4158ca8c29e14c73eccf9cfbd606b8ad",
+      "excerpt": false
+    },
+    {
+      "roleId": "retributionist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "0f39e8abd88387172a4a4869ba7fde1192f35d993cca01dbee5047a77d67ea5e",
+      "excerpt": false
+    },
+    {
+      "roleId": "socialite",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "aa5d4eca1aafeb93bbc49bce64becea6c4f8cbb123d140549fa3b07c11d296db",
+      "excerpt": false
+    },
+    {
+      "roleId": "socialite",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "b755468bd849ea216c42311b0a11cf761522a69e6aa6cbbfca1e35aacca0bbcf",
+      "excerpt": false
+    },
+    {
+      "roleId": "tavern-keeper",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TavernKeeperMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "8de59e5b679e3623a2fd005441027cf0766cbaa8d497f512cad8ea6b2ebd7d57",
+      "excerpt": false
+    },
+    {
+      "roleId": "tavern-keeper",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:TavernKeeperMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "402594ed9e60479c7ec00be2d84c3e71c6afe445e2a11df0c89fe74efbf98dc4",
+      "excerpt": false
+    },
+    {
+      "roleId": "catalyst",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CatalystMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "4d671739f4b3f176e2933f5b1bb1c6b49a50aaa7e45c20b0c910fdcf5fc68b9d",
+      "excerpt": false
+    },
+    {
+      "roleId": "catalyst",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CatalystMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "0fac6329ec9fd94897c46f5a64d93c386805ec177dd2b36f71392aefd4385e2f",
+      "excerpt": false
+    },
+    {
+      "roleId": "archmage",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ArchmageMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "225945fef3a817205da78d456405b416443da792e6d80658c640a6e074522f06",
+      "excerpt": false
+    },
+    {
+      "roleId": "witch",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:WitchMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "0e471a79b18b14c8888f83dd2f1d3f35cb1d839aaff0d00f9b0769d2b8534867",
+      "excerpt": false
+    },
+    {
+      "roleId": "conjurer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ConjurerMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "3e6a9b1efb01911230e38f40c9f14951496813f0f642e106301185c110b75e11",
+      "excerpt": false
+    },
+    {
+      "roleId": "ritualist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:RitualistMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "72432b0538594bfc93a60945acf5d5d51bdf5eacd333e84ac0f2aa2ab695bbbf",
+      "excerpt": false
+    },
+    {
+      "roleId": "jinx",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:JinxMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "c100a8192f050208ab5449391b7c40b6782891aea8a334c16a8134a747d72126",
+      "excerpt": false
+    },
+    {
+      "roleId": "dreamweaver",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:DreamweaverMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "607589cdb4283d1b2558a9c0c99497b6513bbc9357e830dfc5b0c8dd785eebce",
+      "excerpt": true
+    },
+    {
+      "roleId": "dreamweaver",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:DreamweaverMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "b065e6d91e7d967bc621f83ff006e222c34fd8eaafa1561fdadead8285033b9e",
+      "excerpt": false
+    },
+    {
+      "roleId": "illusionist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:IllusionistMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "2089d9280888e9e340ad4ce1b2111ca99c42fe7ad2b3f1d035ae63c97854814e",
+      "excerpt": false
+    },
+    {
+      "roleId": "medusa",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:MedusaMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "7685eb33a35eb57b912c71c752e5e1b61b09ab2a48cb1986c5620ac33a8f4b87",
+      "excerpt": false
+    },
+    {
+      "roleId": "necromancer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:NecromancerMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "0f39e8abd88387172a4a4869ba7fde1192f35d993cca01dbee5047a77d67ea5e",
+      "excerpt": false
+    },
+    {
+      "roleId": "poisoner",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "0440e8817ac38fd0781c19ce6e006d3bfd49ad22ab83644c193a84604b623a24",
+      "excerpt": false
+    },
+    {
+      "roleId": "poisoner",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "b755468bd849ea216c42311b0a11cf761522a69e6aa6cbbfca1e35aacca0bbcf",
+      "excerpt": false
+    },
+    {
+      "roleId": "potion-master",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PotionMasterMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "69a24e3bc0f181669d447cd18032dfc70b7d72600d81392c9c453792e0d7d546",
+      "excerpt": false
+    },
+    {
+      "roleId": "potion-master",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PotionMasterMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "416f895c858c43e40a82cf796bb4b1c10132fee047bf1b6f8be9934743547d24",
+      "excerpt": false
+    },
+    {
+      "roleId": "voodoo-master",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:VoodooMasterMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "e5ef32c3e1fba110f0e7dc84cdf284115bd973655a1c2407328f9c3508497eb9",
+      "excerpt": false
+    },
+    {
+      "roleId": "wildling",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:WildlingMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "adb0d686c8ef131ba9f21894d3388690902100997a166a60d52696a5d526835e",
+      "excerpt": false
+    },
+    {
+      "roleId": "wildling",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:WildlingMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "0bab940ff7f99b05886a45997e6e9cf32226c5be60c32ff723efeae118bc5db7",
+      "excerpt": false
+    },
+    {
+      "roleId": "cultist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CultistMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "51fdd60306b1c1f310d15614b27adcabc8aab05f77e6d3bb91112941bb8f3837",
+      "excerpt": false
+    },
+    {
+      "roleId": "cultist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CultistMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "b136141b2233961ba0542ed59937e54825348db251d7556f254e86a22237830f",
+      "excerpt": false
+    },
+    {
+      "roleId": "berserker",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:BerserkerMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "738c5a117a8ca545e233be58427851c983c0fd77e428ff33d16131b5371ad84f",
+      "excerpt": false
+    },
+    {
+      "roleId": "plaguebearer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PlaguebearerMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "f98902b6c35d9e443e336bf2a9497e4de23f15ad48581b9c6f7f2d6b989d969b",
+      "excerpt": false
+    },
+    {
+      "roleId": "soul-collector",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SoulCollectorMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "9bd1391467c6212a220d3dafe64ede64ef53443cc3ff3f7fcd9ae93c945d779d",
+      "excerpt": false
+    },
+    {
+      "roleId": "soul-collector",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SoulCollectorMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "486f312c4b30ec04eadc1f87bff879effa88cf07ef8688ce5467fab93dbb35ed",
+      "excerpt": false
+    },
+    {
+      "roleId": "doomsayer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:DoomsayerMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "e8d759a34f3765b893068b2fc51591cc8013d8a4d69455c4b90446281322b25a",
+      "excerpt": false
+    },
+    {
+      "roleId": "doomsayer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:DoomsayerMessages",
+      "sourceLineIndex": 3,
+      "sourceLineSha256": "3bcea94832bb21a8324044b2b084620023e753abfe9bad20fb4933edd9ac2d11",
+      "excerpt": false
+    },
+    {
+      "roleId": "executioner",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ExecutionerMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "aef9acede0515ccf3de5d74e34a9c7a5d65c23d40f5442ea400b7e6672d55c16",
+      "excerpt": false
+    },
+    {
+      "roleId": "executioner",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ExecutionerMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "443acaa5453db3eb35878a8a31c0dfeea185e161103139f4f758a96e547d73c8",
+      "excerpt": false
+    },
+    {
+      "roleId": "jester",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:JesterMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "81e66053a906fa4c472895e38a61b0020b61fdc26d0ae8d4ea107d47d1619135",
+      "excerpt": false
+    },
+    {
+      "roleId": "pirate",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "8f423978fa23401c47e0fb919dc2bf047de4c40f8e806ffc450cdbd696b47615",
+      "excerpt": false
+    },
+    {
+      "roleId": "pirate",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "24e7261963a85fa868fa831adf2cc4617427e7f3a7a6ab9ecffda8f9b892a22f",
+      "excerpt": false
+    },
+    {
+      "roleId": "pirate",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2",
+      "sourceLineIndex": 3,
+      "sourceLineSha256": "99df3b1269ad2e618716578b80628a73f8dab967e8ea36d6a4625e5ce74154f1",
+      "excerpt": false
+    },
+    {
+      "roleId": "arsonist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "3cc8e53717c1b4429dfd6a804d92483ac8fd08b9d059d9e0712b70b7b797b8cd",
+      "excerpt": false
+    },
+    {
+      "roleId": "arsonist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "214796df8f4f56654f94c01645a030a0270a1876f1dc05f7f652bd9df8dce7c7",
+      "excerpt": false
+    },
+    {
+      "roleId": "arsonist",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "566d885f903f65e5d6720f0da832518c29af9ba55139c92393950614ee5ee655",
+      "excerpt": false
+    },
+    {
+      "roleId": "serial-killer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SerialKillerMessages/ToS2",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "db614667468f22a6c90d0b82369708287325a7ebcf3245fdd0d9dfc0662d7847",
+      "excerpt": false
+    },
+    {
+      "roleId": "serial-killer",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:SerialKillerMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "a10fa3798847f124a665654816a6cd99391af882fa654f5983b8614c451ed247",
+      "excerpt": false
+    },
+    {
+      "roleId": "shroud",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ShroudMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "4d12cd8a014b113e02b7c51d451ad33f4c95b84862404d9b3d0b02f14de366b6",
+      "excerpt": false
+    },
+    {
+      "roleId": "shroud",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:ShroudMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "59bdbb1aad4a9460af1bc09c3188cd4fe21a66e7b0e6ca5d4040878f1633b1d8",
+      "excerpt": false
+    },
+    {
+      "roleId": "werewolf",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:WerewolfMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "c9837674c42a573db2ee2223d46c35cd41031f34a7c71e70cba958a4df4cc41b",
+      "excerpt": false
+    },
+    {
+      "roleId": "werewolf",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:WerewolfMessages/ToS2",
+      "sourceLineIndex": 3,
+      "sourceLineSha256": "82f399aed0910d5fe2e06c9aad338644f1066ed2ed96e295efa811946a707733",
+      "excerpt": false
+    },
+    {
+      "roleId": "cursed-soul",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CursedSoulMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "73fb069c6a05bd3a9aeebb2f4e4f57f572368032941208fd286c84eaf1f9d9a0",
+      "excerpt": false
+    },
+    {
+      "roleId": "cursed-soul",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:CursedSoulMessages",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "f6f4799cd8fc0eeeaa273704a41ca5a0da3d7d80efdb78862144631d98a2be1b",
+      "excerpt": false
+    },
+    {
+      "roleId": "vampire",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:VampireMessages/ToS2",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "c4eda9f0342eab13c5bcb88fd658070f33e19f44b275b4fa3219cbd6675f1f37",
+      "excerpt": false
+    },
+    {
+      "roleId": "famine",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:FamineMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "d714a84e1d7f8883132e277b193d40f675fb74ce36ff4374319bc14cf54896ec",
+      "excerpt": false
+    },
+    {
+      "roleId": "war",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:WarMessages",
+      "sourceLineIndex": 2,
+      "sourceLineSha256": "d7f7a5cc1eaf2e03b1f626637a432cd7bd614cdd3ecb67fbb9542bafd1cddc38",
+      "excerpt": false
+    },
+    {
+      "roleId": "pestilence",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2",
+      "sourceLineIndex": 1,
+      "sourceLineSha256": "d7b4e73e83b14f97db555f10a460996b1fdde4aa64c212a42303dd79c071aaa3",
+      "excerpt": false
+    },
+    {
+      "roleId": "pestilence",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2",
+      "sourceLineIndex": 3,
+      "sourceLineSha256": "86c2f33d4edc34d648d046ba19eb16a5c72678ac0fb1bb10b9f974750313c0fe",
+      "excerpt": false
+    },
+    {
+      "roleId": "death",
+      "sourceUrl": "https://town-of-salem.fandom.com/wiki/Template:DeathMessages",
+      "sourceLineIndex": 0,
+      "sourceLineSha256": "ccc583e18f361b7e10f6be4577d1c301c9022663bcfb6479a593dd07e41784fe",
+      "excerpt": false
+    }
+  ],
+  "excluded": [
+    "Reworked/Replaced role mechanics and Ghost Game wager messages.",
+    "Vampire youngest-player and four-player-cap mechanics.",
+    "Berserker first-kill nightly-attack claim, which conflicts with current upgrade order.",
+    "Voodoo Blind trigger: template description says Silence.",
+    "Psychic late-game failure triggers are not established consistently.",
+    "Generic “your target” forms superseded by official R1.5.00 names; named Seer example sourced directly to publisher."
+  ],
+  "verification": {
+    "unitTestsPassed": 52,
+    "browserProfiles": 64,
+    "viewportWidths": [
+      1360,
+      320
+    ],
+    "messageClipboardChecks": 240,
+    "meaningClipboardChecks": 256,
+    "sourcePageFingerprintsMatched": 65,
+    "selectedTemplateLinesMatched": 95,
+    "comparisonClaimIsolationPassed": true,
+    "manualCopyFallbackPassed": true,
+    "liveClientCaptured": false
+  }
+}
