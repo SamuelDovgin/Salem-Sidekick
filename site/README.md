@@ -1,6 +1,6 @@
 # Salem Sidekick
 
-A complete, buildless Town of Salem 2 companion. The Compact layout puts role-specific opening decisions and subgoals before claim comparisons and example wills. All 60 base roles and four transformed states share the same components.
+A complete, buildless Town of Salem 2 companion. The Compact layout puts role-specific opening decisions and subgoals before claim comparisons and example wills. All 60 base roles and four transformed states share the same components. Cards use the original compact text sizes and padding; priority warnings, named routes, and section navigation stay visible without the expanded spacing.
 
 ## Run locally
 

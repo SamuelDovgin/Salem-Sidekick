@@ -32,7 +32,7 @@ lines = [
     '| Rank | Improvement | Why it earns the space | Local result |',
     '| --- | --- | --- | --- |',
     '| 1 | Put one role-specific “Must know” beside the action | Prevents an illegal action, lost charge, false clearance, failed objective, or fatal cover contradiction before it happens. | Applied to all 64 roles/states; fuller pitfalls expand in place. |',
-    '| 2 | Make sections easy to find and the advice readable | A player should not search a long page to find their claim or example. | Persistent Play / Good to know / Claims / Will example navigation, larger main text, clearer headings and spacing. |',
+    '| 2 | Make sections easy to find and the advice readable | A player should not search a long page to find their claim or example. | Persistent Play / Good to know / Claims / Will example navigation, clear headings, and compact text and spacing. |',
     '| 3 | Promote one useful secondary rule and ability timing | Important interactions and charges were mostly behind a small question mark. | A visible “Good to know” note and phase/use reference for every base role; current-state notes for transformations. |',
     '| 4 | Give opening routes readable names | Numbers 2 and 3 require guessing or tapping before learning what the choices mean. | All route names visible, recommended route labeled, alternative use condition shown on selection. |',
     '| 5 | Keep actual role and public claim visible together | A persistent deliberate cover can differ from the newly selected role. | Public claim shown in the role header with a direct link to its comparison; actual-role cautions stay tied to the actual role. |',
