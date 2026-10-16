@@ -12,13 +12,14 @@
     ],
     "example": "Cleric\nN1: Barrier 4\nN2: Barrier 7",
     "blank": "Cleric\nN1: Barrier [player] — [actual feedback, if any]",
-    "expanded": "These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
+    "expanded": "If Grace Period is active, Cleric cannot Barrier another player on N1. Do not use an N1 Barrier example under that setup. These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
     ],
     "plainAbility": "Each night, visit one person and give them a protective shield for that night. The game calls this Barrier: it grants Powerful Defense, which stops Basic and Powerful attacks, but not Unstoppable attacks.",
     "claimMeaning": "You are saying you visited and protected that person. You are not saying they were attacked or that you saved them unless you received supporting feedback.",
-    "simpleExample": "“N1: Barrier 4” means “I protected player 4 on the first night.” It does not mean “4 was attacked.”"
+    "simpleExample": "When Barrier is enabled, ‘N1: Barrier 4’ means ‘I protected player 4 on the first night.’ It does not mean ‘4 was attacked.’",
+    "setupWarning": "If Grace Period is active, Cleric cannot Barrier another player on N1. Check the game's Night 1 notice before claiming an N1 Barrier."
   },
   "psychic": {
     "effort": "High upkeep",

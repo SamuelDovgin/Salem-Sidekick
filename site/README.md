@@ -22,8 +22,10 @@ Open http://127.0.0.1:4173. No application dependencies or build step are requir
 - Top-right More detail expands the same sections inline; each Why control expands its own section. Cover obligations remain inline and separate from actual-role guidance.
 - The top two Town-claim cards explain the pairing through specific strategy bullets and exposure. Additional ranked claims toggle inline from labeled real-role icons beside their heading, and ability definitions stay in compact dropdowns. Narrow choice rows wrap within a short vertically scrollable area. Previously selected Coven/Neutral claims migrate to the actual role’s recommended Town cover while saved notes remain archived. Public alignment follows the selected cover.
 - Claim-specific illustrative examples, blank formats, posting timing, upkeep/payoff/exposure notes, and practical history-maintenance tips.
+- Every first-night plan shows a Grace Period setup check after the recommended action. Claim comparisons and copyable will examples also flag role-specific restrictions such as Cleric being unable to Barrier another player on N1.
 - The will builder is removed. Previous stored drafts are kept in a separate read-only archive; copied examples never include those notes.
 - Role dialogs initially focus their non-editable title; search is opt-in and uses 16px text to avoid iOS focus zoom.
+- All native dialogs close when the user clicks the backdrop outside the dialog surface; clicking inside the dialog keeps it open.
 - Browser-local persistence, corrupt-save recovery copy, in-memory storage fallback, deliberate new-match reset, dark/light themes, keyboard selectors, mobile layout, inline glossary, sources, and artwork credits.
 
 This is a practical guide with examples. Ability eligibility and unusual interactions remain advisory; it does not claim to simulate hidden game state or establish player guilt. Examples use clearly labeled fictional numbers and outcomes.
