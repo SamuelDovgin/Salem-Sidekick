@@ -356,9 +356,6 @@ def build():
         for message in guide['messages']:
             if message.get('selfNote'):
                 lines.append('**Self Barrier · your screen:** '+message['selfNote'])
-        for case in guide.get('claimScenarios',[]):
-            assert all(case[key].strip() for key in ['id','title','screen','report','meaning'])
-            lines.append('**'+case['title']+' · '+role['name']+'’s screen:** '+case['screen']+'\n\n**Authored claim report:** `'+case['report']+'`\n\n'+case['meaning'])
         if guide.get('reportTemplate'):
             lines.append('**Chat format · replace brackets:**\n\n```\n'+guide['reportTemplate']+'\n```')
         role['studyGuide']['sections'].append({'title':'What you and others see','markdown':'\n\n'.join(lines)})

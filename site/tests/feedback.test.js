@@ -31,14 +31,7 @@ test('current feedback excludes stale Pirate/Admirer mechanics and disputed Blin
  assert.deepEqual(byId.get('pirate').feedbackGuide.messages,[]);assert.doesNotMatch(byId.get('admirer').feedbackGuide.reportTemplate,/propos|accept|reject/i);assert.ok(byId.get('voodoo-master').feedbackGuide.messages.every(m=>!m.text.includes('Blinded')));assert.match(byId.get('voodoo-master').feedbackGuide.claimCheck,/inconsistent/);assert.deepEqual(byId.get('psychic').feedbackGuide.messages,[]);
 });
 
-test('Cleric claim scripts distinguish own attack notice, quiet nights and prevented actions',()=>{
- const f=byId.get('cleric').feedbackGuide;assert.equal(f.messages[0].text,'[player name] was attacked last night!');assert.match(f.messages[0].audience,/Acting Cleric/);assert.equal(f.messages[0].namesNormalized,true);assert.match(f.messages[1].when,/their screen/);
- assert.deepEqual(f.claimScenarios,authored.cleric.claimScenarios);const cases=Object.fromEntries(f.claimScenarios.map(c=>[c.id,c]));assert.equal(Object.keys(cases).length,6);
- assert.match(cases.attacked.screen,/no attacker identity.*Bodyguard or Trapper/);assert.match(cases.quiet.screen,/no special attack\/save message/);assert.match(cases.quiet.report,/no attack feedback/);assert.match(cases.prevented.screen,/Unknown Obstacle.*prevents.*fixed in R1.5.03/);assert.match(cases.death.screen,/Unstoppable.*Powerful Defense/);
- for(const c of f.claimScenarios){assert.match(c.report,/^Cleric N\[night\]:/);assert.ok(c.meaning);assert.doesNotMatch(c.report,/You were attacked, but a Barrier/);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(c.report));}
-});
-
 test('Cleric marks whose screen and explains Self Barrier without inventing another quote',()=>{
  const f=byId.get('cleric').feedbackGuide;assert.equal(f.compactFeedback,true);assert.equal(f.messages[0].viewpoint,'self');assert.equal(f.messages[0].screenLabel,'YOU · As Cleric');assert.equal(f.messages[1].viewpoint,'other');assert.equal(f.messages[1].screenLabel,'THEM · Protected player');assert.match(f.messages[0].when,/normal save/);assert.match(f.messages[1].selfNote,/YOUR screen.*attacked and protected.*Once per game.*stay home/);
- const cases=Object.fromEntries(f.claimScenarios.map(c=>[c.id,c]));assert.equal(cases['self-saved'].report,'Cleric N[night]: Self Barrier — attacked and protected.');assert.match(cases['self-quiet'].report,/Self Barrier.*no attack feedback/);assert.match(cases['self-quiet'].meaning,/does not refund/);assert.equal(f.messages.length,2);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.messages[1].selfNote));
+ assert.equal(f.messages.length,2);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.messages[1].selfNote));
 });

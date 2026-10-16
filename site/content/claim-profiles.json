@@ -12,7 +12,7 @@
       "Check the graveyard before posting: a dead target is a red flag, not automatic proof. An interrupted action or Unstoppable attack can explain death; an unblocked ordinary lethal attack conflicts with a genuine Barrier. Keep the original target rather than rewriting history."
     ],
     "example": "Cleric\nN2: Barrier 4\nN3: Barrier 7",
-    "blank": "Cleric\nN[night]: Barrier [player] — [actual feedback, if any]",
+    "blank": "Cleric\nN[night]: Barrier [player] - [actual feedback, if any]",
     "expanded": "If Grace Period is active, Cleric cannot Barrier another player on N1. Do not use an N1 Barrier example under that setup. These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
@@ -54,8 +54,8 @@
       "Record roleblock or another interruption instead of converting no result into Innocent.",
       "Keep a reason for each target: a disputed claim or an unresolved vote is more useful than pretending silence proves evil."
     ],
-    "example": "Sheriff\nN1: 4 — Innocent\nN2: 7 — no result; roleblocked",
-    "blank": "Sheriff\nN1: [player] — [Innocent / Suspicious / failed]",
+    "example": "Sheriff\nN1: 4 - Innocent\nN2: 7 - no result; roleblocked",
+    "blank": "Sheriff\nN1: [player] - [Innocent / Suspicious / failed]",
     "expanded": "A fake Sheriff needs both a result story and a visiting story. Repeated Innocent results create little independent value; correctly reporting a framed target does not establish your faction.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
@@ -75,8 +75,8 @@
       "Trespassing concerns opposing-faction visiting history, so Town can show it too; do not invent it for an action that never directly visits.",
       "Log a failed investigation separately from No Crime and keep your selected target consistent."
     ],
-    "example": "Investigator\nN1: 4 — Trespassing\nN2: 7 — No Crime",
-    "blank": "Investigator\nN1: [player] — [exact crime feedback / failed]",
+    "example": "Investigator\nN1: 4 - Trespassing\nN2: 7 - No Crime",
+    "blank": "Investigator\nN1: [player] - [exact crime feedback / failed]",
     "expanded": "This cover needs a coherent crime and movement story. Neither No Crime nor crime-positive feedback establishes faction. Do not build an accusation around uncertain Jailor-execution interactions.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)"
@@ -96,8 +96,8 @@
       "Do not normally watch yourself or claim that absence proves no astral action occurred.",
       "Do not fill a list solely from morning claims and call it an independent discovery."
     ],
-    "example": "Lookout\nN1: Watch 4 — visitors 7, 9\nN2: Watch 11 — no visible visitors",
-    "blank": "Lookout\nN1: Watch [house] — [visible visitors / none / failed]",
+    "example": "Lookout\nN1: Watch 4 - visitors 7, 9\nN2: Watch 11 - no visible visitors",
+    "blank": "Lookout\nN1: Watch [house] - [visible visitors / none / failed]",
     "expanded": "One verified visitor helps, but a fabricated complete list has many contradiction points. Partial knowledge from another ability must not be promoted into exhaustive Lookout observation.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
@@ -138,8 +138,8 @@
       "Do not turn Enemies into both evil or Friends into confirmed Town.",
       "Check whether your actual movement can support two personal visits before selecting this as a cover."
     ],
-    "example": "Seer\nN1: 4 + 9 — Enemies\nN2: 2 + 11 — Friends",
-    "blank": "Seer\nN1: [eligible player] + [eligible player] — [Friends / Enemies / failed]",
+    "example": "Seer\nN1: 4 + 9 - Enemies\nN2: 2 + 11 - Friends",
+    "blank": "Seer\nN1: [eligible player] + [eligible player] - [Friends / Enemies / failed]",
     "expanded": "Knowing two factions through another ability can help invent a result without reproducing two Seer visits. Extra actions or astral effects need specific explanations, not automatic guilt.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)"
@@ -159,8 +159,8 @@
       "Label the trigger night explicitly, even when the Bug was placed several nights earlier.",
       "No trigger and a failed Bug attempt are different outcomes; do not use either to clear a player."
     ],
-    "example": "Spy\nN1: Bug 4 — no trigger\nN2: Bug 7 — no trigger",
-    "blank": "Spy\nN1: Bug [player] — [actual feedback]\nN[later]: Bug on [player] — [reported role/effect]",
+    "example": "Spy\nN1: Bug 4 - no trigger\nN2: Bug 7 - no trigger",
+    "blank": "Spy\nN1: Bug [player] - [actual feedback]\nN[later]: Bug on [player] - [reported role/effect]",
     "expanded": "Older Bugs create continuing obligations. Preserve literal feedback at uncertain interaction edges. A teammate’s real information still needs a plausible Bug history before it supports this cover.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)"
@@ -180,8 +180,8 @@
       "Use Match or No match within that collection; No match is not confirmed Town.",
       "Preserve a failed examination as a failure and avoid invented framing excuses for results those effects do not alter."
     ],
-    "example": "Coroner\nN1: No autopsy available\nD2: Autopsy 6 — killer role Poisoner\nN2: Examine 9 — no match",
-    "blank": "Coroner\nD[day]: Autopsy [corpse] — [killer role]\nN[night]: Examine [player] — [match / no match / failed]",
+    "example": "Coroner\nN1: No autopsy available\nD2: Autopsy 6 - killer role Poisoner\nN2: Examine 9 - no match",
+    "blank": "Coroner\nD[day]: Autopsy [corpse] - [killer role]\nN[night]: Examine [player] - [match / no match / failed]",
     "expanded": "The example requires an actual corpse 6 killed by Poisoner. Killer-role transitions and Shroud need specific explanations. Empty autopsies delay verification pressure; they do not remove it.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
@@ -202,8 +202,8 @@
       "Keep the destination aligned with any actual observed movement.",
       "Do not erase a dead guard target automatically: astral bypass or additional attacks can explain some deaths; ordinary unblocked interception claims must still fit the evidence."
     ],
-    "example": "Bodyguard\nN2: Guard 4\nN3: Self Protect — use 1",
-    "blank": "Bodyguard\nN[night]: Guard [player] — [actual feedback, if any]",
+    "example": "Bodyguard\nN2: Guard 4\nN3: Self Protect - use 1",
+    "blank": "Bodyguard\nN[night]: Guard [player] - [actual feedback, if any]",
     "expanded": "Low upkeep describes writing effort. Repeated alleged interceptions with no compatible harm or attacker evidence require explanation. A real Bodyguard can survive with suitable protection; survival alone is not disproof.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
@@ -225,8 +225,8 @@
       "Record at most the actual visitor attack rather than pretending you hit every visitor.",
       "Avoid promising to sit on a crowded TP/LO call without acknowledging the risk to friendly visitors."
     ],
-    "example": "Crusader\nN2: Fortify 4\nN3: Fortify 7 — no attack feedback",
-    "blank": "Crusader\nN[night]: Fortify [player] — [protection feedback]; [visitor-attack feedback]",
+    "example": "Crusader\nN2: Fortify 4\nN3: Fortify 7 - no attack feedback",
+    "blank": "Crusader\nN[night]: Fortify [player] - [protection feedback]; [visitor-attack feedback]",
     "expanded": "A Jinx-like attack reproduces no Crusader protection. Quiet Fortify entries are not proof. Keep the preselected destination instead of choosing a convenient surviving house after dawn.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"
@@ -248,7 +248,7 @@
       "No visible visit does not confirm a save or Town alignment. Keep actual attack/save feedback separate from a role merely surviving."
     ],
     "example": "Oracle\nN2: Aegis Sheriff\nN3: Aegis Seer",
-    "blank": "Oracle\nN[night]: Aegis [role] — [actual feedback / unavailable]",
+    "blank": "Oracle\nN[night]: Aegis [role] - [actual feedback / unavailable]",
     "expanded": "The example starts on N2. Aegis is astral, but a fake Oracle claim does not grant protection or conceal the real role's visits. Recheck the whole movement history before accepting a direct book attack or another visiting action.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
@@ -271,7 +271,7 @@
       "If it triggers, copy reported roles and the actual protection outcome; do not invent visitor numbers.",
       "Track triggered, dismantled, and rebuilt states separately so your next placement is legally timed."
     ],
-    "example": "Trapper\nN1: Build\nN2: Place on 4\nN3: Trap on 4 — no trigger reported",
+    "example": "Trapper\nN1: Build\nN2: Place on 4\nN3: Trap on 4 - no trigger reported",
     "blank": "Trapper\nN1: Build\nN2: Place on [player]\nN[later]: [trap state / actual trigger roles]",
     "expanded": "The example assumes building and placement succeeded. An active trap does not create a new nightly visit. Empty early entries delay verification pressure rather than eliminating it.",
     "sourceUrls": [
@@ -292,8 +292,8 @@
       "Do not describe a private miss as a public demonstration of your identity.",
       "After spending the shot, keep contributing with evidence and votes rather than adding imaginary night actions."
     ],
-    "example": "Deputy\nN1: No night ability\nD2: Held shot — insufficient evidence\nD3: Shot 9 — Miss",
-    "blank": "Deputy\nD[day]: [held / shot player — actual outcome]",
+    "example": "Deputy\nN1: No night ability\nD2: Held shot - insufficient evidence\nD3: Shot 9 - Miss",
+    "blank": "Deputy\nD[day]: [held / shot player - actual outcome]",
     "expanded": "The sample is a possible chronology, not a recommended D3 shot. Misses can involve defense. Low typing comes with high demonstration pressure; a miss does not confirm either player.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
@@ -313,8 +313,8 @@
       "Do not add another Mirror night while the stored attack remains unused.",
       "Keep your one Self Mirror separate from ordinary mirrors and preserve failures instead of inventing an absorption."
     ],
-    "example": "Trickster\nN1: Mirror 4 — no absorption\nN2: Mirror 7 — no absorption",
-    "blank": "Trickster\nN1: Mirror [player] — [actual feedback]\nN[later]: Unleash [stored role] on [player] — [outcome]",
+    "example": "Trickster\nN1: Mirror 4 - no absorption\nN2: Mirror 7 - no absorption",
+    "blank": "Trickster\nN1: Mirror [player] - [actual feedback]\nN[later]: Unleash [stored role] on [player] - [outcome]",
     "expanded": "Quiet mirrors are easy to write. Real absorption feedback and later attack attribution are harder to reproduce. A genuine Unleash can endanger friendly visitors at the chosen house.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
@@ -334,8 +334,8 @@
       "If roleblocked or otherwise interrupted, preserve that fact rather than treating the selected Alert as successful.",
       "Do not rewrite a quiet night to Alert only after learning someone claims a visit."
     ],
-    "example": "Veteran\nN1: No Alert\nN2: Alert — no visitor shots reported",
-    "blank": "Veteran\nN1: [Alert / No Alert] — [actual feedback]",
+    "example": "Veteran\nN1: No Alert\nN2: Alert - no visitor shots reported",
+    "blank": "Veteran\nN1: [Alert / No Alert] - [actual feedback]",
     "expanded": "Low bookkeeping does not remove event-based verification. A genuine player should conserve Alerts when appropriate and avoid friendly casualties. A convenient invented Alert can conflict with independent visits.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
@@ -355,8 +355,8 @@
       "A shot without a death is not a confirmed evil: defense or disruption can matter.",
       "After the game reports a Town shot and removes the gun, stop claiming new loads or shots."
     ],
-    "example": "Vigilante\nN1: Load — loaded\nN2: Shoot 9 — target survived\nN3: Load — loaded",
-    "blank": "Vigilante\nN1: Load — [outcome]\nN2: [Load / Shoot player — actual outcome]",
+    "example": "Vigilante\nN1: Load - loaded\nN2: Shoot 9 - target survived\nN3: Load - loaded",
+    "blank": "Vigilante\nN1: Load - [outcome]\nN2: [Load / Shoot player - actual outcome]",
     "expanded": "The illustration assumes no Town-shot notification or lost gun. Different killing sources cannot freely substitute for Vigilante evidence. Holding remains mechanically possible but can grow socially weak.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
@@ -376,8 +376,8 @@
       "Record daytime Bestows with a D label; they are not nighttime Admire actions, and only two are available.",
       "Do not treat not-Obsession as a faction clear or fabricate an engagement or proposal."
     ],
-    "example": "Admirer\nObsession clue: TP\nN1: Admire 4 — not Obsession\nD2: Bestow 7",
-    "blank": "Admirer\nClue: [subalignment]\nN1: Admire [player] — [result]\nD[day]: Bestow [player]",
+    "example": "Admirer\nObsession clue: TP\nN1: Admire 4 - not Obsession\nD2: Bestow 7",
+    "blank": "Admirer\nClue: [subalignment]\nN1: Admire [player] - [result]\nD[day]: Bestow [player]",
     "expanded": "The example assumes a legal available Bestow. A false Admirer cannot supply its lasting effects. Keep discovery and reassignment history consistent rather than changing the Obsession after public claims.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)"
@@ -397,7 +397,7 @@
       "Mark the transition day and new role before logging its later actions.",
       "Do not pretend hidden or altered graveyard art necessarily prevents genuine Remember from finding the true role."
     ],
-    "example": "Amnesiac -> Sheriff\nN1: Waiting to remember\nD2: Remembered Sheriff\nN2: 9 — Innocent",
+    "example": "Amnesiac -> Sheriff\nN1: Waiting to remember\nD2: Remembered Sheriff\nN2: 9 - Innocent",
     "blank": "Amnesiac\nD[day]: Remembered [actual role]\nN[next]: [new-role action and feedback]",
     "expanded": "The example requires an eligible Sheriff death and actual transition. A fake claim must maintain both histories and may inherit demanding public-power obligations instead of an easy result role.",
     "sourceUrls": [
@@ -418,8 +418,8 @@
       "Your own visit goes to the corpse; the zombie goes to the living target. Keep that direction clear.",
       "Track corpse contention and failures without inventing results; normal Town Retributionist cannot use Stoned corpses or protect itself."
     ],
-    "example": "Retributionist\nN1: No usable corpse\nN2: Sheriff 6 -> 9 — Innocent",
-    "blank": "Retributionist\nN[night]: [corpse and role] -> [living target] — [borrowed feedback / failed]",
+    "example": "Retributionist\nN1: No usable corpse\nN2: Sheriff 6 -> 9 - Innocent",
+    "blank": "Retributionist\nN[night]: [corpse and role] -> [living target] - [borrowed feedback / failed]",
     "expanded": "The example requires an eligible dead Town Sheriff. Matching a legal borrowed action supports the story; unsuitable corpses or later book attacks can break that fit.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)"
@@ -439,8 +439,8 @@
       "Write rejected someone only when the game reports it; that feedback does not identify who was rejected.",
       "Party blocks incoming visits rather than roleblocking the resident; do not equate these different effects."
     ],
-    "example": "Socialite\nD2: Invite 7\nN2: Party 4 — rejected someone\nN3: Party 9 — no rejection reported",
-    "blank": "Socialite\nD[day]: Invite [player]\nN[night]: Party [house] — [actual feedback]",
+    "example": "Socialite\nD2: Invite 7\nN2: Party 4 - rejected someone\nN3: Party 9 - no rejection reported",
+    "blank": "Socialite\nD[day]: Invite [player]\nN[night]: Party [house] - [actual feedback]",
     "expanded": "The sample omits N1 and assumes legal availability. Smog resembles only part of Party behavior. Guests and immunity differences can expose a false story even when destinations match.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)"
@@ -460,8 +460,8 @@
       "Separate failed or immune interactions from successful disruption.",
       "Remember that visiting some killers is dangerous; a fake target story also needs to fit where you actually went."
     ],
-    "example": "Tavern Keeper\nN1: Drink 4\nN2: Drink 7 — failed; Unknown Obstacle",
-    "blank": "Tavern Keeper\nN1: Drink [player] — [actual feedback / failed]",
+    "example": "Tavern Keeper\nN1: Drink 4\nN2: Drink 7 - failed; Unknown Obstacle",
+    "blank": "Tavern Keeper\nN1: Drink [player] - [actual feedback / failed]",
     "expanded": "A genuine block can support the story without proving Town allegiance. Do not relabel Silence as a roleblock or rewrite targets after hearing reports. Roleblock immunity does not bypass Party obstacles.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)"
@@ -481,8 +481,8 @@
       "Record released or executed explicitly and distinguish an attempted execution from its actual outcome.",
       "Track the three executions and any loss of abilities; absence of night kills alone does not identify your prisoner as the killer."
     ],
-    "example": "Jailor\nN1: Jail 4 — claimed Cleric; released\nN2: Jail 7 — claimed Sheriff; released",
-    "blank": "Jailor\nN1: Jail [player] — claimed [role]; released\nN[later]: [release / execution and actual outcome]",
+    "example": "Jailor\nN1: Jail 4 - claimed Cleric; released\nN2: Jail 7 - claimed Sheriff; released",
+    "blank": "Jailor\nN1: Jail [player] - claimed [role]; released\nN[later]: [release / execution and actual outcome]",
     "expanded": "A well-written will cannot replace the private jail event. Execution should follow evidence, not demonstration pressure. Suitable protection and dangerous prisoners also complicate attempted execution outcomes.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)"
@@ -502,8 +502,8 @@
       "Do not label every Tribunal victim evil: execution is an event, not an alignment result.",
       "Track charges and avoid claiming D1 use or repeated same-day uses."
     ],
-    "example": "Marshal\nN1: No night ability\nD2: Held Tribunal — no supported multi-target case\nD3: Tribunal — 4, 9 executed",
-    "blank": "Marshal\nD[day]: [held / Tribunal — actual executed players]",
+    "example": "Marshal\nN1: No night ability\nD2: Held Tribunal - no supported multi-target case\nD3: Tribunal - 4, 9 executed",
+    "blank": "Marshal\nD[day]: [held / Tribunal - actual executed players]",
     "expanded": "The example lists two legal D3 executions, not confirmed evils or a required schedule. Minimal typing leaves severe public-demonstration pressure. Conversion can separate role demonstration from faction.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
@@ -544,8 +544,8 @@
       "Track the two charges from real outcomes; failed or dead-target attempts need the actual feedback.",
       "Keep who is still a living Knight separate from the original list, and do not claim instant defensive benefits before resolution."
     ],
-    "example": "Monarch\nN1: Held Knight — no trusted recipient\nN2: Knight 4 — completed D3",
-    "blank": "Monarch\nN[night]: [held / Knight player — actual outcome]",
+    "example": "Monarch\nN1: Held Knight - no trusted recipient\nN2: Knight 4 - completed D3",
+    "blank": "Monarch\nN[night]: [held / Knight player - actual outcome]",
     "expanded": "The example illustrates conserving charges, not a mandatory N2 start. Recipients can verify Knight effects, while real Monarchs must assess allegiance before handing out permanent vote weight.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
@@ -565,8 +565,8 @@
       "Track two total charges and at most one use per day; obey the live phase restrictions.",
       "After a Town prosecution, preserve the actual penalty and remaining ability state rather than copying an outdated rule."
     ],
-    "example": "Prosecutor\nN1: No night ability\nD2: Held Prosecute — insufficient evidence\nD3: Prosecuted 9",
-    "blank": "Prosecutor\nD[day]: [held / Prosecuted player — actual outcome]",
+    "example": "Prosecutor\nN1: No night ability\nD2: Held Prosecute - insufficient evidence\nD3: Prosecuted 9",
+    "blank": "Prosecutor\nD[day]: [held / Prosecuted player - actual outcome]",
     "expanded": "The example does not identify player 9 as evil. A false claim cannot reproduce Prosecute. For the real role, a supported hold beats spending merely to demonstrate identity.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
@@ -586,8 +586,8 @@
       "Keep observed extra actions separate from merely applying the charge.",
       "Check setup eligibility and Unique-role conflicts before using this as a cover."
     ],
-    "example": "Catalyst\nN1: Overcharge 4 — applied\nD2: Asked 4 to confirm affected cycle",
-    "blank": "Catalyst\nN[night]: Overcharge [player] — [actual feedback]\nExpected cycle: [confirmed timing]",
+    "example": "Catalyst\nN1: Overcharge 4 - applied\nD2: Asked 4 to confirm affected cycle",
+    "blank": "Catalyst\nN[night]: Overcharge [player] - [actual feedback]\nExpected cycle: [confirmed timing]",
     "expanded": "The sample intentionally avoids guessing recipient 4’s role or extra-action timing. A false Catalyst cannot supply the effect. Keep advanced timing conditional until the specific interaction is verified.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)"

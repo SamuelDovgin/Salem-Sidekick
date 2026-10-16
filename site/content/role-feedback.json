@@ -11,7 +11,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Jailor N[night]: jailed [player] — [released / executed / execution failed].",
+    "reportTemplate": "Jailor N[night]: jailed [player] - [released / executed / execution failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "marshal": {
@@ -26,7 +26,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Marshal D[day]: Tribunal [called / held] — [public trial outcomes].",
+    "reportTemplate": "Marshal D[day]: Tribunal [called / held] - [public trial outcomes].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "mayor": {
@@ -56,7 +56,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Monarch N[night]: Knight [player] — [confirmed / failed]; living knights: [players].",
+    "reportTemplate": "Monarch N[night]: Knight [player] - [confirmed / failed]; living knights: [players].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "prosecutor": {
@@ -71,7 +71,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Prosecutor D[day]: prosecuted [player] — [public outcome].",
+    "reportTemplate": "Prosecutor D[day]: prosecuted [player] - [public outcome].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "coroner": {
@@ -86,7 +86,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Coroner D[day]: Autopsy [corpse]. N[night]: Examine [player] — [match / no match / failed].",
+    "reportTemplate": "Coroner D[day]: Autopsy [corpse]. N[night]: Examine [player] - [match / no match / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "investigator": {
@@ -101,7 +101,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Investigator N[night]: [player] — [Murder / Trespassing / both / No Crime / failed].",
+    "reportTemplate": "Investigator N[night]: [player] - [Murder / Trespassing / both / No Crime / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "lookout": {
@@ -116,7 +116,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Lookout N[night]: watched [house] — visitors [players / none visible / failed].",
+    "reportTemplate": "Lookout N[night]: watched [house] - visitors [players / none visible / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "psychic": {
@@ -131,7 +131,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Psychic N[night]: [Good: player, player / Evil: player, player, player] — selected [player]; [failure if any].",
+    "reportTemplate": "Psychic N[night]: [Good: player, player / Evil: player, player, player] - selected [player]; [failure if any].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "seer": {
@@ -146,7 +146,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Seer N[night]: [player] + [player] — [Friends / Enemies / failed].",
+    "reportTemplate": "Seer N[night]: [player] + [player] - [Friends / Enemies / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "sheriff": {
@@ -180,7 +180,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Sheriff N[night]: [player] — [Innocent / Suspicious / failed].",
+    "reportTemplate": "Sheriff N[night]: [player] - [Innocent / Suspicious / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "spy": {
@@ -195,7 +195,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Spy N[night]: Bug [player] — [untriggered / exact reported event / failed].",
+    "reportTemplate": "Spy N[night]: Bug [player] - [untriggered / exact reported event / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "tracker": {
@@ -210,7 +210,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Tracker N[night]: tracked [player] — visited [destinations / nobody visible / failed].",
+    "reportTemplate": "Tracker N[night]: tracked [player] - visited [destinations / nobody visible / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "bodyguard": {
@@ -225,7 +225,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Bodyguard N[night]: Guard [player] — [no interception reported / intercepted attack / failed].",
+    "reportTemplate": "Bodyguard N[night]: Guard [player] - [no interception reported / intercepted attack / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "cleric": {
@@ -267,52 +267,8 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Cleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].",
+    "reportTemplate": "Cleric N[night]: Barrier [player] - [no attack reported / attack reported / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
-    "claimScenarios": [
-      {
-        "id": "attacked",
-        "title": "Target attacked",
-        "screen": "The named-player notice confirms an attack, with no attacker identity. Bodyguard or Trapper may resolve first.",
-        "report": "Cleric N[night]: Barrier [player] — got attack feedback.",
-        "meaning": "Report attack feedback; the notice alone does not prove your Barrier stopped the attack."
-      },
-      {
-        "id": "quiet",
-        "title": "Quiet night",
-        "screen": "Normally no special attack/save message appears. Surviving alone is not save feedback.",
-        "report": "Cleric N[night]: Barrier [player] — no attack feedback.",
-        "meaning": "Say “No attack notification; I had Barrier on [player].”"
-      },
-      {
-        "id": "prevented",
-        "title": "Action prevented",
-        "screen": "A roleblock, jail or obstacle is a failure, not a quiet success. Unknown Obstacle prevents remote attack feedback (fixed in R1.5.03).",
-        "report": "Cleric N[night]: tried Barrier [player] — [failure shown].",
-        "meaning": "Name the failure you are claiming; do not also report a completed normal visit."
-      },
-      {
-        "id": "death",
-        "title": "Target died",
-        "screen": "Unstoppable attacks overcome Barrier’s Powerful Defense. Death alone does not establish that the action was prevented.",
-        "report": "Cleric N[night]: Barrier [player] — [attack feedback, if any]; target died.",
-        "meaning": "Check the death evidence; do not invent a message naming the attacker or attack strength."
-      },
-      {
-        "id": "self-saved",
-        "title": "Self Barrier · attacked & protected",
-        "screen": "You are the protected recipient: the Barrier notice above applies to your own screen.",
-        "report": "Cleric N[night]: Self Barrier — attacked and protected.",
-        "meaning": "Uses your once-per-game Self Barrier. This is a stay-home action, not a visit to another player."
-      },
-      {
-        "id": "self-quiet",
-        "title": "Self Barrier · quiet",
-        "screen": "Normally no special save notice if nobody attacks you.",
-        "report": "Cleric N[night]: Self Barrier — no attack feedback.",
-        "meaning": "Still record Self Barrier as used; a quiet night does not refund it."
-      }
-    ],
     "compactFeedback": true
   },
   "crusader": {
@@ -338,7 +294,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Crusader N[night]: Fortify [player] — target [attack/no attack reported]; visitor [attack/no attack reported].",
+    "reportTemplate": "Crusader N[night]: Fortify [player] - target [attack/no attack reported]; visitor [attack/no attack reported].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "oracle": {
@@ -353,7 +309,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Oracle N[night]: Aegis [Town role] — [no attack reported / attack reported / failed].",
+    "reportTemplate": "Oracle N[night]: Aegis [Town role] - [no attack reported / attack reported / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "trapper": {
@@ -383,7 +339,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Deputy D[day]: shot [player] — [public hit / defense or miss / other shown outcome].",
+    "reportTemplate": "Deputy D[day]: shot [player] - [public hit / defense or miss / other shown outcome].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "trickster": {
@@ -398,7 +354,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Trickster N[night]: [Mirror player / Self Mirror / Unleash player] — [no absorption / reported attacker role / actual outcome].",
+    "reportTemplate": "Trickster N[night]: [Mirror player / Self Mirror / Unleash player] - [no absorption / reported attacker role / actual outcome].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "veteran": {
@@ -413,7 +369,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Veteran N[night]: [Alert / no Alert] — [actual attack feedback or none].",
+    "reportTemplate": "Veteran N[night]: [Alert / no Alert] - [actual attack feedback or none].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "vigilante": {
@@ -428,7 +384,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Vigilante N[night]: [Load / hold / shoot player] — [actual hit / defense / failure feedback].",
+    "reportTemplate": "Vigilante N[night]: [Load / hold / shoot player] - [actual hit / defense / failure feedback].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "admirer": {
@@ -453,7 +409,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Admirer N[night]: Admire [player] — [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].",
+    "reportTemplate": "Admirer N[night]: Admire [player] - [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "amnesiac": {
@@ -468,7 +424,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Amnesiac D[day]: [no role remembered / remembered role] — first available action [if any].",
+    "reportTemplate": "Amnesiac D[day]: [no role remembered / remembered role] - first available action [if any].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "retributionist": {
@@ -493,7 +449,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Retributionist N[night]: [Town corpse] → [destination] — [actual ability result / corpse unavailable / failed].",
+    "reportTemplate": "Retributionist N[night]: [Town corpse] → [destination] - [actual ability result / corpse unavailable / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "socialite": {
@@ -508,7 +464,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Socialite D[day]: invited [player]. N[night]: [Party / no Party] — [rejection reported / none / failed].",
+    "reportTemplate": "Socialite D[day]: invited [player]. N[night]: [Party / no Party] - [rejection reported / none / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "tavern-keeper": {
@@ -523,7 +479,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Tavern Keeper N[night]: Drink [player] — [completed / immune / failed / actual feedback].",
+    "reportTemplate": "Tavern Keeper N[night]: Drink [player] - [completed / immune / failed / actual feedback].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "catalyst": {
@@ -538,7 +494,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Catalyst [phase]: Overcharge [player] — [recipient-confirmed effect / failed / unconfirmed].",
+    "reportTemplate": "Catalyst [phase]: Overcharge [player] - [recipient-confirmed effect / failed / unconfirmed].",
     "mechanicsSourceAccessedOn": "2026-10-15"
   },
   "pilgrim": {

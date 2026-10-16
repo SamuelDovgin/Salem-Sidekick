@@ -244,14 +244,6 @@ html{scroll-padding-top:0}
 .message-actions .text-button{font-size:10px;min-height:24px}
 @media(max-width:560px){.game-message figcaption{flex-wrap:wrap}}
 
-.feedback-scenarios{margin:12px 0}
-.feedback-scenarios>h4{font-size:12px;margin:0 0 4px}
-.feedback-scenario{border-bottom:1px solid var(--line);font-size:12px}
-.feedback-scenario>summary{padding:9px 0;cursor:pointer;font-weight:550;line-height:1.5}
-.feedback-scenario-body{padding:0 0 9px}
-.feedback-scenario-body>p{font-size:11px;line-height:1.65;margin:0 0 8px}
-.feedback-scenario-body .card-heading{margin:6px 0;flex-wrap:wrap;gap:6px;font-size:10px}
-.feedback-scenario-body .text-button{font-size:10px;min-height:28px}
 
 .message-caption{display:grid;gap:3px;min-width:0}
 .message-audience{display:inline-flex;gap:6px;align-items:center;font-size:11px;letter-spacing:.3px;color:var(--accent)}
@@ -260,8 +252,6 @@ html{scroll-padding-top:0}
 .game-message .message-self-note,.claim-option .game-message .message-self-note{display:grid;gap:4px;border-top:1px solid var(--line);margin-top:8px;padding-top:7px;font-size:11px;line-height:1.6}
 .message-self-note strong{display:flex;align-items:center;gap:6px;color:var(--accent);font-size:10px}
 .feedback-key-point{font-size:11px;color:var(--muted);line-height:1.6;margin:7px 0}
-.feedback-compact .feedback-scenario-body{padding:8px 0}
-.feedback-compact .feedback-scenario-body .card-heading{margin:0 0 4px;font-size:11px}
 .feedback-notes{margin:12px 0;font-size:11px;color:var(--muted);line-height:1.65}
 .feedback-notes>summary{cursor:pointer;padding:5px 0}
 .feedback-notes .feedback-meaning{margin-top:8px}

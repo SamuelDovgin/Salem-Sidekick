@@ -305,8 +305,8 @@
           "Record released or executed explicitly and distinguish an attempted execution from its actual outcome.",
           "Track the three executions and any loss of abilities; absence of night kills alone does not identify your prisoner as the killer."
         ],
-        "example": "Jailor\nN1: Jail 4 — claimed Cleric; released\nN2: Jail 7 — claimed Sheriff; released",
-        "blank": "Jailor\nN1: Jail [player] — claimed [role]; released\nN[later]: [release / execution and actual outcome]",
+        "example": "Jailor\nN1: Jail 4 - claimed Cleric; released\nN2: Jail 7 - claimed Sheriff; released",
+        "blank": "Jailor\nN1: Jail [player] - claimed [role]; released\nN[later]: [release / execution and actual outcome]",
         "expanded": "A well-written will cannot replace the private jail event. Execution should follow evidence, not demonstration pressure. Suitable protection and dangerous prisoners also complicate attempted execution outcomes.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)"
@@ -435,7 +435,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** The jail interface and private prisoner chat identify whom you jailed. An execution attempt and its actual outcome must be recorded separately.\n\n**They see · meaning:** The prisoner gets a jail notice and can speak to the anonymous Jailor. A death from execution is public later; jailing alone does not publicly reveal your identity.\n\n**Claim check:** A prisoner can confirm the jail, but not automatically the Jailor’s player name. Keep the same prisoner, conversation and execution outcome.\n\n**Chat format · replace brackets:**\n\n```\nJailor N[night]: jailed [player] — [released / executed / execution failed].\n```"
+            "markdown": "**You see · meaning:** The jail interface and private prisoner chat identify whom you jailed. An execution attempt and its actual outcome must be recorded separately.\n\n**They see · meaning:** The prisoner gets a jail notice and can speak to the anonymous Jailor. A death from execution is public later; jailing alone does not publicly reveal your identity.\n\n**Claim check:** A prisoner can confirm the jail, but not automatically the Jailor’s player name. Keep the same prisoner, conversation and execution outcome.\n\n**Chat format · replace brackets:**\n\n```\nJailor N[night]: jailed [player] - [released / executed / execution failed].\n```"
           }
         ],
         "details": [
@@ -489,7 +489,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Jailor N[night]: jailed [player] — [released / executed / execution failed].",
+        "reportTemplate": "Jailor N[night]: jailed [player] - [released / executed / execution failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -792,8 +792,8 @@
           "Do not label every Tribunal victim evil: execution is an event, not an alignment result.",
           "Track charges and avoid claiming D1 use or repeated same-day uses."
         ],
-        "example": "Marshal\nN1: No night ability\nD2: Held Tribunal — no supported multi-target case\nD3: Tribunal — 4, 9 executed",
-        "blank": "Marshal\nD[day]: [held / Tribunal — actual executed players]",
+        "example": "Marshal\nN1: No night ability\nD2: Held Tribunal - no supported multi-target case\nD3: Tribunal - 4, 9 executed",
+        "blank": "Marshal\nD[day]: [held / Tribunal - actual executed players]",
         "expanded": "The example lists two legal D3 executions, not confirmed evils or a required schedule. Minimal typing leaves severe public-demonstration pressure. Conversion can separate role demonstration from faction.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
@@ -916,7 +916,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Your daytime control starts a Tribunal when permitted. The public trial sequence supplies the outcome; you receive no investigative check for merely being Marshal.\n\n**They see · meaning:** Everyone sees the Tribunal and its trial/voting changes. They can check whether the public event you claim actually happened.\n\n**Claim check:** A private will line cannot substitute for a real Tribunal. Report the day and executions that everyone can verify.\n\n**Chat format · replace brackets:**\n\n```\nMarshal D[day]: Tribunal [called / held] — [public trial outcomes].\n```"
+            "markdown": "**You see · meaning:** Your daytime control starts a Tribunal when permitted. The public trial sequence supplies the outcome; you receive no investigative check for merely being Marshal.\n\n**They see · meaning:** Everyone sees the Tribunal and its trial/voting changes. They can check whether the public event you claim actually happened.\n\n**Claim check:** A private will line cannot substitute for a real Tribunal. Report the day and executions that everyone can verify.\n\n**Chat format · replace brackets:**\n\n```\nMarshal D[day]: Tribunal [called / held] - [public trial outcomes].\n```"
           }
         ],
         "details": [
@@ -970,7 +970,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Marshal D[day]: Tribunal [called / held] — [public trial outcomes].",
+        "reportTemplate": "Marshal D[day]: Tribunal [called / held] - [public trial outcomes].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -1754,8 +1754,8 @@
           "Track the two charges from real outcomes; failed or dead-target attempts need the actual feedback.",
           "Keep who is still a living Knight separate from the original list, and do not claim instant defensive benefits before resolution."
         ],
-        "example": "Monarch\nN1: Held Knight — no trusted recipient\nN2: Knight 4 — completed D3",
-        "blank": "Monarch\nN[night]: [held / Knight player — actual outcome]",
+        "example": "Monarch\nN1: Held Knight - no trusted recipient\nN2: Knight 4 - completed D3",
+        "blank": "Monarch\nN[night]: [held / Knight player - actual outcome]",
         "expanded": "The example illustrates conserving charges, not a mandatory N2 start. Recipients can verify Knight effects, while real Monarchs must assess allegiance before handing out permanent vote weight.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
@@ -1878,7 +1878,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Use the resulting knight status and actual action feedback to track successful Knights. A selection click alone is not proof a Knight resolved.\n\n**They see · meaning:** A successful recipient gets the Knighted effect and extra vote. The effect demonstrates knighting, rather than giving them a routine investigative report on you.\n\n**Claim check:** A recipient’s effect and voting power can test this claim. Do not promise a successful Knight after an interrupted action.\n\n**Chat format · replace brackets:**\n\n```\nMonarch N[night]: Knight [player] — [confirmed / failed]; living knights: [players].\n```"
+            "markdown": "**You see · meaning:** Use the resulting knight status and actual action feedback to track successful Knights. A selection click alone is not proof a Knight resolved.\n\n**They see · meaning:** A successful recipient gets the Knighted effect and extra vote. The effect demonstrates knighting, rather than giving them a routine investigative report on you.\n\n**Claim check:** A recipient’s effect and voting power can test this claim. Do not promise a successful Knight after an interrupted action.\n\n**Chat format · replace brackets:**\n\n```\nMonarch N[night]: Knight [player] - [confirmed / failed]; living knights: [players].\n```"
           }
         ],
         "details": [
@@ -1932,7 +1932,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Monarch N[night]: Knight [player] — [confirmed / failed]; living knights: [players].",
+        "reportTemplate": "Monarch N[night]: Knight [player] - [confirmed / failed]; living knights: [players].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -2235,8 +2235,8 @@
           "Track two total charges and at most one use per day; obey the live phase restrictions.",
           "After a Town prosecution, preserve the actual penalty and remaining ability state rather than copying an outdated rule."
         ],
-        "example": "Prosecutor\nN1: No night ability\nD2: Held Prosecute — insufficient evidence\nD3: Prosecuted 9",
-        "blank": "Prosecutor\nD[day]: [held / Prosecuted player — actual outcome]",
+        "example": "Prosecutor\nN1: No night ability\nD2: Held Prosecute - insufficient evidence\nD3: Prosecuted 9",
+        "blank": "Prosecutor\nD[day]: [held / Prosecuted player - actual outcome]",
         "expanded": "The example does not identify player 9 as evil. A false claim cannot reproduce Prosecute. For the real role, a supported hold beats spending merely to demonstrate identity.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
@@ -2359,7 +2359,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** The daytime prosecution control and its public resolution supply your evidence. There is no normal nightly investigation.\n\n**They see · meaning:** Everyone sees who is prosecuted and the resulting execution. Applicable Town penalties and remaining uses affect what can happen next.\n\n**Claim check:** Use the actual day, defendant and outcome. A written claim cannot create the public prosecution event.\n\n**Chat format · replace brackets:**\n\n```\nProsecutor D[day]: prosecuted [player] — [public outcome].\n```"
+            "markdown": "**You see · meaning:** The daytime prosecution control and its public resolution supply your evidence. There is no normal nightly investigation.\n\n**They see · meaning:** Everyone sees who is prosecuted and the resulting execution. Applicable Town penalties and remaining uses affect what can happen next.\n\n**Claim check:** Use the actual day, defendant and outcome. A written claim cannot create the public prosecution event.\n\n**Chat format · replace brackets:**\n\n```\nProsecutor D[day]: prosecuted [player] - [public outcome].\n```"
           }
         ],
         "details": [
@@ -2413,7 +2413,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Prosecutor D[day]: prosecuted [player] — [public outcome].",
+        "reportTemplate": "Prosecutor D[day]: prosecuted [player] - [public outcome].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -2640,8 +2640,8 @@
           "Use Match or No match within that collection; No match is not confirmed Town.",
           "Preserve a failed examination as a failure and avoid invented framing excuses for results those effects do not alter."
         ],
-        "example": "Coroner\nN1: No autopsy available\nD2: Autopsy 6 — killer role Poisoner\nN2: Examine 9 — no match",
-        "blank": "Coroner\nD[day]: Autopsy [corpse] — [killer role]\nN[night]: Examine [player] — [match / no match / failed]",
+        "example": "Coroner\nN1: No autopsy available\nD2: Autopsy 6 - killer role Poisoner\nN2: Examine 9 - no match",
+        "blank": "Coroner\nD[day]: Autopsy [corpse] - [killer role]\nN[night]: Examine [player] - [match / no match / failed]",
         "expanded": "The example requires an actual corpse 6 killed by Poisoner. Killer-role transitions and Shroud need specific explanations. Empty autopsies delay verification pressure; they do not remove it.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
@@ -2757,7 +2757,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Autopsy establishes the relevant killer information. A later Examine gives a match or no-match against that autopsied killer; preserve the corpse and suspect separately.\n\n**They see · meaning:** The suspect does not receive your private comparison result. An observer may still see an ordinary Examine visit.\n\n**Claim check:** A killer match is not a universal evil check. State which corpse supplied the comparison, and record no autopsy or a failed Examine honestly.\n\n**Chat format · replace brackets:**\n\n```\nCoroner D[day]: Autopsy [corpse]. N[night]: Examine [player] — [match / no match / failed].\n```"
+            "markdown": "**You see · meaning:** Autopsy establishes the relevant killer information. A later Examine gives a match or no-match against that autopsied killer; preserve the corpse and suspect separately.\n\n**They see · meaning:** The suspect does not receive your private comparison result. An observer may still see an ordinary Examine visit.\n\n**Claim check:** A killer match is not a universal evil check. State which corpse supplied the comparison, and record no autopsy or a failed Examine honestly.\n\n**Chat format · replace brackets:**\n\n```\nCoroner D[day]: Autopsy [corpse]. N[night]: Examine [player] - [match / no match / failed].\n```"
           }
         ],
         "details": [
@@ -2811,7 +2811,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Coroner D[day]: Autopsy [corpse]. N[night]: Examine [player] — [match / no match / failed].",
+        "reportTemplate": "Coroner D[day]: Autopsy [corpse]. N[night]: Examine [player] - [match / no match / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -3035,8 +3035,8 @@
           "Trespassing concerns opposing-faction visiting history, so Town can show it too; do not invent it for an action that never directly visits.",
           "Log a failed investigation separately from No Crime and keep your selected target consistent."
         ],
-        "example": "Investigator\nN1: 4 — Trespassing\nN2: 7 — No Crime",
-        "blank": "Investigator\nN1: [player] — [exact crime feedback / failed]",
+        "example": "Investigator\nN1: 4 - Trespassing\nN2: 7 - No Crime",
+        "blank": "Investigator\nN1: [player] - [exact crime feedback / failed]",
         "expanded": "This cover needs a coherent crime and movement story. Neither No Crime nor crime-positive feedback establishes faction. Do not build an accusation around uncertain Jailor-execution interactions.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)"
@@ -3148,7 +3148,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** The report concerns Murder on the checked night and Trespassing history. A failure or missing result is separate from No Crime.\n\n**They see · meaning:** Your subject does not receive a normal notice listing the crimes you found. Direct movement can still be observed by other roles.\n\n**Claim check:** Murder means an attack, not necessarily a death; Trespassing is not just tonight’s destination. Framing and concealment can alter the report.\n\n**Chat format · replace brackets:**\n\n```\nInvestigator N[night]: [player] — [Murder / Trespassing / both / No Crime / failed].\n```"
+            "markdown": "**You see · meaning:** The report concerns Murder on the checked night and Trespassing history. A failure or missing result is separate from No Crime.\n\n**They see · meaning:** Your subject does not receive a normal notice listing the crimes you found. Direct movement can still be observed by other roles.\n\n**Claim check:** Murder means an attack, not necessarily a death; Trespassing is not just tonight’s destination. Framing and concealment can alter the report.\n\n**Chat format · replace brackets:**\n\n```\nInvestigator N[night]: [player] - [Murder / Trespassing / both / No Crime / failed].\n```"
           }
         ],
         "details": [
@@ -3202,7 +3202,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Investigator N[night]: [player] — [Murder / Trespassing / both / No Crime / failed].",
+        "reportTemplate": "Investigator N[night]: [player] - [Murder / Trespassing / both / No Crime / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -3423,8 +3423,8 @@
           "Do not normally watch yourself or claim that absence proves no astral action occurred.",
           "Do not fill a list solely from morning claims and call it an independent discovery."
         ],
-        "example": "Lookout\nN1: Watch 4 — visitors 7, 9\nN2: Watch 11 — no visible visitors",
-        "blank": "Lookout\nN1: Watch [house] — [visible visitors / none / failed]",
+        "example": "Lookout\nN1: Watch 4 - visitors 7, 9\nN2: Watch 11 - no visible visitors",
+        "blank": "Lookout\nN1: Watch [house] - [visible visitors / none / failed]",
         "expanded": "One verified visitor helps, but a fabricated complete list has many contradiction points. Partial knowledge from another ability must not be promoted into exhaustive Lookout observation.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
@@ -3560,7 +3560,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A successful Watch lists observable players visiting the watched house, or no visible visitors. It does not list their destinations elsewhere.\n\n**They see · meaning:** The watched player and visitors do not receive your Lookout report. Astral or camouflaged movement can be absent from what you see.\n\n**Claim check:** Use the watched house and visible visitor list. No visible visitors does not prove that no astral ability affected the house.\n\n**Chat format · replace brackets:**\n\n```\nLookout N[night]: watched [house] — visitors [players / none visible / failed].\n```"
+            "markdown": "**You see · meaning:** A successful Watch lists observable players visiting the watched house, or no visible visitors. It does not list their destinations elsewhere.\n\n**They see · meaning:** The watched player and visitors do not receive your Lookout report. Astral or camouflaged movement can be absent from what you see.\n\n**Claim check:** Use the watched house and visible visitor list. No visible visitors does not prove that no astral ability affected the house.\n\n**Chat format · replace brackets:**\n\n```\nLookout N[night]: watched [house] - visitors [players / none visible / failed].\n```"
           }
         ],
         "details": [
@@ -3614,7 +3614,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Lookout N[night]: watched [house] — visitors [players / none visible / failed].",
+        "reportTemplate": "Lookout N[night]: watched [house] - visitors [players / none visible / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -3950,7 +3950,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A normal odd-night Good vision contains two players; an even-night Evil vision contains three. Keep the selected player in the group and retain any failed or unavailable result.\n\n**They see · meaning:** The selected player does not normally get a Psychic vision notice. Ordinary direct movement can still be seen by an observer.\n\n**Claim check:** The group guarantees at least one apparent Good or Evil player, not exactly one. Keep both/all three names; a secret exact-role read is not a Psychic result.\n\n**Chat format · replace brackets:**\n\n```\nPsychic N[night]: [Good: player, player / Evil: player, player, player] — selected [player]; [failure if any].\n```"
+            "markdown": "**You see · meaning:** A normal odd-night Good vision contains two players; an even-night Evil vision contains three. Keep the selected player in the group and retain any failed or unavailable result.\n\n**They see · meaning:** The selected player does not normally get a Psychic vision notice. Ordinary direct movement can still be seen by an observer.\n\n**Claim check:** The group guarantees at least one apparent Good or Evil player, not exactly one. Keep both/all three names; a secret exact-role read is not a Psychic result.\n\n**Chat format · replace brackets:**\n\n```\nPsychic N[night]: [Good: player, player / Evil: player, player, player] - selected [player]; [failure if any].\n```"
           }
         ],
         "details": [
@@ -4004,7 +4004,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Psychic N[night]: [Good: player, player / Evil: player, player, player] — selected [player]; [failure if any].",
+        "reportTemplate": "Psychic N[night]: [Good: player, player / Evil: player, player, player] - selected [player]; [failure if any].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -4224,8 +4224,8 @@
           "Do not turn Enemies into both evil or Friends into confirmed Town.",
           "Check whether your actual movement can support two personal visits before selecting this as a cover."
         ],
-        "example": "Seer\nN1: 4 + 9 — Enemies\nN2: 2 + 11 — Friends",
-        "blank": "Seer\nN1: [eligible player] + [eligible player] — [Friends / Enemies / failed]",
+        "example": "Seer\nN1: 4 + 9 - Enemies\nN2: 2 + 11 - Friends",
+        "blank": "Seer\nN1: [eligible player] + [eligible player] - [Friends / Enemies / failed]",
         "expanded": "Knowing two factions through another ability can help invent a result without reproducing two Seer visits. Extra actions or astral effects need specific explanations, not automatic guilt.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)"
@@ -4341,7 +4341,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A successful comparison returns Friends or Enemies for the chosen pair. A prevented action or invalid target is not a normal comparison result.\n\n**They see · meaning:** Neither target receives your private comparison. Your two ordinary visits may be observed, subject to movement-changing effects.\n\n**Claim check:** Friends does not necessarily mean two Townies, and Enemies does not identify which person is evil. Preserve the exact pair and any failure.\n\n**Chat format · replace brackets:**\n\n```\nSeer N[night]: [player] + [player] — [Friends / Enemies / failed].\n```"
+            "markdown": "**You see · meaning:** A successful comparison returns Friends or Enemies for the chosen pair. A prevented action or invalid target is not a normal comparison result.\n\n**They see · meaning:** Neither target receives your private comparison. Your two ordinary visits may be observed, subject to movement-changing effects.\n\n**Claim check:** Friends does not necessarily mean two Townies, and Enemies does not identify which person is evil. Preserve the exact pair and any failure.\n\n**Chat format · replace brackets:**\n\n```\nSeer N[night]: [player] + [player] - [Friends / Enemies / failed].\n```"
           }
         ],
         "details": [
@@ -4395,7 +4395,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Seer N[night]: [player] + [player] — [Friends / Enemies / failed].",
+        "reportTemplate": "Seer N[night]: [player] + [player] - [Friends / Enemies / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -4616,8 +4616,8 @@
           "Record roleblock or another interruption instead of converting no result into Innocent.",
           "Keep a reason for each target: a disputed claim or an unresolved vote is more useful than pretending silence proves evil."
         ],
-        "example": "Sheriff\nN1: 4 — Innocent\nN2: 7 — no result; roleblocked",
-        "blank": "Sheriff\nN1: [player] — [Innocent / Suspicious / failed]",
+        "example": "Sheriff\nN1: 4 - Innocent\nN2: 7 - no result; roleblocked",
+        "blank": "Sheriff\nN1: [player] - [Innocent / Suspicious / failed]",
         "expanded": "A fake Sheriff needs both a result story and a visiting story. Repeated Innocent results create little independent value; correctly reporting a framed target does not establish your faction.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
@@ -4728,7 +4728,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A successful Search reports Innocent or Suspicious. That is an appearance check; it does not identify the actual role or faction in every case.\n\n**They see · meaning:** Your subject gets no routine Sheriff result notice. An observer may still see the direct Search visit.\n\n**Claim check:** Keep the exact target and result. Innocent can include protected Coven appearances and Neutral Killings; an interrupted check is not Innocent.\n\n**Documented English · You:** `You cannot find any evidence of wrongdoing. [Player] seems innocent.`\n\nA successful Search returns an Innocent appearance. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148)\n\n**Documented English · You:** `[Player] seems suspicious!`\n\nA successful Search returns a Suspicious appearance. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148)\n\n**Chat format · replace brackets:**\n\n```\nSheriff N[night]: [player] — [Innocent / Suspicious / failed].\n```"
+            "markdown": "**You see · meaning:** A successful Search reports Innocent or Suspicious. That is an appearance check; it does not identify the actual role or faction in every case.\n\n**They see · meaning:** Your subject gets no routine Sheriff result notice. An observer may still see the direct Search visit.\n\n**Claim check:** Keep the exact target and result. Innocent can include protected Coven appearances and Neutral Killings; an interrupted check is not Innocent.\n\n**Documented English · You:** `You cannot find any evidence of wrongdoing. [Player] seems innocent.`\n\nA successful Search returns an Innocent appearance. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148)\n\n**Documented English · You:** `[Player] seems suspicious!`\n\nA successful Search returns a Suspicious appearance. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148)\n\n**Chat format · replace brackets:**\n\n```\nSheriff N[night]: [player] - [Innocent / Suspicious / failed].\n```"
           }
         ],
         "details": [
@@ -4801,7 +4801,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Sheriff N[night]: [player] — [Innocent / Suspicious / failed].",
+        "reportTemplate": "Sheriff N[night]: [player] - [Innocent / Suspicious / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -5023,8 +5023,8 @@
           "Label the trigger night explicitly, even when the Bug was placed several nights earlier.",
           "No trigger and a failed Bug attempt are different outcomes; do not use either to clear a player."
         ],
-        "example": "Spy\nN1: Bug 4 — no trigger\nN2: Bug 7 — no trigger",
-        "blank": "Spy\nN1: Bug [player] — [actual feedback]\nN[later]: Bug on [player] — [reported role/effect]",
+        "example": "Spy\nN1: Bug 4 - no trigger\nN2: Bug 7 - no trigger",
+        "blank": "Spy\nN1: Bug [player] - [actual feedback]\nN[later]: Bug on [player] - [reported role/effect]",
         "expanded": "Older Bugs create continuing obligations. Preserve literal feedback at uncertain interaction edges. A teammate’s real information still needs a plausible Bug history before it supports this cover.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)"
@@ -5136,7 +5136,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A placed bug waits for a qualifying event. Its trigger can identify evil activity or a role; an untriggered bug is not a clean bill of health.\n\n**They see · meaning:** The bug report is private to you. It is not a universal visitor list delivered to the bugged player.\n\n**Claim check:** Name the bug location and the actual reported activity. Do not turn a role label into a player number without separate evidence.\n\n**Chat format · replace brackets:**\n\n```\nSpy N[night]: Bug [player] — [untriggered / exact reported event / failed].\n```"
+            "markdown": "**You see · meaning:** A placed bug waits for a qualifying event. Its trigger can identify evil activity or a role; an untriggered bug is not a clean bill of health.\n\n**They see · meaning:** The bug report is private to you. It is not a universal visitor list delivered to the bugged player.\n\n**Claim check:** Name the bug location and the actual reported activity. Do not turn a role label into a player number without separate evidence.\n\n**Chat format · replace brackets:**\n\n```\nSpy N[night]: Bug [player] - [untriggered / exact reported event / failed].\n```"
           }
         ],
         "details": [
@@ -5190,7 +5190,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Spy N[night]: Bug [player] — [untriggered / exact reported event / failed].",
+        "reportTemplate": "Spy N[night]: Bug [player] - [untriggered / exact reported event / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -5523,7 +5523,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A successful Track reports the subject’s observable destinations, or no visible visit. Some abilities can generate multiple destinations.\n\n**They see · meaning:** Your subject and their destinations do not normally get a message naming you as their Tracker. Your own direct visit can still be observed.\n\n**Claim check:** An astral action can return no visible visit. A destination report is not a Lookout list of everyone at that house.\n\n**Chat format · replace brackets:**\n\n```\nTracker N[night]: tracked [player] — visited [destinations / nobody visible / failed].\n```"
+            "markdown": "**You see · meaning:** A successful Track reports the subject’s observable destinations, or no visible visit. Some abilities can generate multiple destinations.\n\n**They see · meaning:** Your subject and their destinations do not normally get a message naming you as their Tracker. Your own direct visit can still be observed.\n\n**Claim check:** An astral action can return no visible visit. A destination report is not a Lookout list of everyone at that house.\n\n**Chat format · replace brackets:**\n\n```\nTracker N[night]: tracked [player] - visited [destinations / nobody visible / failed].\n```"
           }
         ],
         "details": [
@@ -5577,7 +5577,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Tracker N[night]: tracked [player] — visited [destinations / nobody visible / failed].",
+        "reportTemplate": "Tracker N[night]: tracked [player] - visited [destinations / nobody visible / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -5803,8 +5803,8 @@
           "Keep the destination aligned with any actual observed movement.",
           "Do not erase a dead guard target automatically: astral bypass or additional attacks can explain some deaths; ordinary unblocked interception claims must still fit the evidence."
         ],
-        "example": "Bodyguard\nN2: Guard 4\nN3: Self Protect — use 1",
-        "blank": "Bodyguard\nN[night]: Guard [player] — [actual feedback, if any]",
+        "example": "Bodyguard\nN2: Guard 4\nN3: Self Protect - use 1",
+        "blank": "Bodyguard\nN[night]: Guard [player] - [actual feedback, if any]",
         "expanded": "Low upkeep describes writing effort. Repeated alleged interceptions with no compatible harm or attacker evidence require explanation. A real Bodyguard can survive with suitable protection; survival alone is not disproof.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
@@ -5957,7 +5957,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A successful Guard can intercept an eligible direct attack and fight the attacker. A quiet target list supplies no save confirmation by itself.\n\n**They see · meaning:** A saved target can receive protection feedback. The attacker and any resulting deaths create other evidence; a quiet night does not prove an interception.\n\n**Claim check:** Keep Guard distinct from the one Self Protect. Do not claim a fight solely because the chosen target survived.\n\n**Chat format · replace brackets:**\n\n```\nBodyguard N[night]: Guard [player] — [no interception reported / intercepted attack / failed].\n```"
+            "markdown": "**You see · meaning:** A successful Guard can intercept an eligible direct attack and fight the attacker. A quiet target list supplies no save confirmation by itself.\n\n**They see · meaning:** A saved target can receive protection feedback. The attacker and any resulting deaths create other evidence; a quiet night does not prove an interception.\n\n**Claim check:** Keep Guard distinct from the one Self Protect. Do not claim a fight solely because the chosen target survived.\n\n**Chat format · replace brackets:**\n\n```\nBodyguard N[night]: Guard [player] - [no interception reported / intercepted attack / failed].\n```"
           }
         ],
         "details": [
@@ -6011,7 +6011,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Bodyguard N[night]: Guard [player] — [no interception reported / intercepted attack / failed].",
+        "reportTemplate": "Bodyguard N[night]: Guard [player] - [no interception reported / intercepted attack / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -6237,7 +6237,7 @@
           "Check the graveyard before posting: a dead target is a red flag, not automatic proof. An interrupted action or Unstoppable attack can explain death; an unblocked ordinary lethal attack conflicts with a genuine Barrier. Keep the original target rather than rewriting history."
         ],
         "example": "Cleric\nN2: Barrier 4\nN3: Barrier 7",
-        "blank": "Cleric\nN[night]: Barrier [player] — [actual feedback, if any]",
+        "blank": "Cleric\nN[night]: Barrier [player] - [actual feedback, if any]",
         "expanded": "If Grace Period is active, Cleric cannot Barrier another player on N1. Do not use an N1 Barrier example under that setup. These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
@@ -6390,7 +6390,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** You see the named-player attack notice when your protected target is attacked. A quiet night normally gives no special attack/save notice.\n\n**They see · meaning:** They see the Barrier notice when attacked and Barrier-protected. With Self Barrier, you are the recipient. A quiet target is not evidence of a save.\n\n**Claim check:** Other Barrier abilities share the recipient notice. Attack feedback does not give exclusive save credit: Bodyguard or Trapper may resolve first. No ordinary other-player Barrier visit during Grace Period N1.\n\n**Documented English · Acting Cleric · your claimed screen:** `[player name] was attacked last night!`\n\nYou Barrier another player and they are attacked: this is your notice in a normal save. They see the separate Barrier notice below.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Documented English · Attacked, protected recipient:** `You were attacked, but a Barrier protected you!`\n\nThey were attacked and a Barrier protected them. This appears on their screen.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Self Barrier · your screen:** Self Barrier: this same notice applies to YOUR screen if you are attacked and protected. Once per game; you stay home.\n\n**Target attacked · Cleric’s screen:** The named-player notice confirms an attack, with no attacker identity. Bodyguard or Trapper may resolve first.\n\n**Authored claim report:** `Cleric N[night]: Barrier [player] — got attack feedback.`\n\nReport attack feedback; the notice alone does not prove your Barrier stopped the attack.\n\n**Quiet night · Cleric’s screen:** Normally no special attack/save message appears. Surviving alone is not save feedback.\n\n**Authored claim report:** `Cleric N[night]: Barrier [player] — no attack feedback.`\n\nSay “No attack notification; I had Barrier on [player].”\n\n**Action prevented · Cleric’s screen:** A roleblock, jail or obstacle is a failure, not a quiet success. Unknown Obstacle prevents remote attack feedback (fixed in R1.5.03).\n\n**Authored claim report:** `Cleric N[night]: tried Barrier [player] — [failure shown].`\n\nName the failure you are claiming; do not also report a completed normal visit.\n\n**Target died · Cleric’s screen:** Unstoppable attacks overcome Barrier’s Powerful Defense. Death alone does not establish that the action was prevented.\n\n**Authored claim report:** `Cleric N[night]: Barrier [player] — [attack feedback, if any]; target died.`\n\nCheck the death evidence; do not invent a message naming the attacker or attack strength.\n\n**Self Barrier · attacked & protected · Cleric’s screen:** You are the protected recipient: the Barrier notice above applies to your own screen.\n\n**Authored claim report:** `Cleric N[night]: Self Barrier — attacked and protected.`\n\nUses your once-per-game Self Barrier. This is a stay-home action, not a visit to another player.\n\n**Self Barrier · quiet · Cleric’s screen:** Normally no special save notice if nobody attacks you.\n\n**Authored claim report:** `Cleric N[night]: Self Barrier — no attack feedback.`\n\nStill record Self Barrier as used; a quiet night does not refund it.\n\n**Chat format · replace brackets:**\n\n```\nCleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].\n```"
+            "markdown": "**You see · meaning:** You see the named-player attack notice when your protected target is attacked. A quiet night normally gives no special attack/save notice.\n\n**They see · meaning:** They see the Barrier notice when attacked and Barrier-protected. With Self Barrier, you are the recipient. A quiet target is not evidence of a save.\n\n**Claim check:** Other Barrier abilities share the recipient notice. Attack feedback does not give exclusive save credit: Bodyguard or Trapper may resolve first. No ordinary other-player Barrier visit during Grace Period N1.\n\n**Documented English · Acting Cleric · your claimed screen:** `[player name] was attacked last night!`\n\nYou Barrier another player and they are attacked: this is your notice in a normal save. They see the separate Barrier notice below.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Documented English · Attacked, protected recipient:** `You were attacked, but a Barrier protected you!`\n\nThey were attacked and a Barrier protected them. This appears on their screen.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Self Barrier · your screen:** Self Barrier: this same notice applies to YOUR screen if you are attacked and protected. Once per game; you stay home.\n\n**Chat format · replace brackets:**\n\n```\nCleric N[night]: Barrier [player] - [no attack reported / attack reported / failed].\n```"
           }
         ],
         "details": [
@@ -6471,52 +6471,8 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Cleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].",
+        "reportTemplate": "Cleric N[night]: Barrier [player] - [no attack reported / attack reported / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
-        "claimScenarios": [
-          {
-            "id": "attacked",
-            "title": "Target attacked",
-            "screen": "The named-player notice confirms an attack, with no attacker identity. Bodyguard or Trapper may resolve first.",
-            "report": "Cleric N[night]: Barrier [player] — got attack feedback.",
-            "meaning": "Report attack feedback; the notice alone does not prove your Barrier stopped the attack."
-          },
-          {
-            "id": "quiet",
-            "title": "Quiet night",
-            "screen": "Normally no special attack/save message appears. Surviving alone is not save feedback.",
-            "report": "Cleric N[night]: Barrier [player] — no attack feedback.",
-            "meaning": "Say “No attack notification; I had Barrier on [player].”"
-          },
-          {
-            "id": "prevented",
-            "title": "Action prevented",
-            "screen": "A roleblock, jail or obstacle is a failure, not a quiet success. Unknown Obstacle prevents remote attack feedback (fixed in R1.5.03).",
-            "report": "Cleric N[night]: tried Barrier [player] — [failure shown].",
-            "meaning": "Name the failure you are claiming; do not also report a completed normal visit."
-          },
-          {
-            "id": "death",
-            "title": "Target died",
-            "screen": "Unstoppable attacks overcome Barrier’s Powerful Defense. Death alone does not establish that the action was prevented.",
-            "report": "Cleric N[night]: Barrier [player] — [attack feedback, if any]; target died.",
-            "meaning": "Check the death evidence; do not invent a message naming the attacker or attack strength."
-          },
-          {
-            "id": "self-saved",
-            "title": "Self Barrier · attacked & protected",
-            "screen": "You are the protected recipient: the Barrier notice above applies to your own screen.",
-            "report": "Cleric N[night]: Self Barrier — attacked and protected.",
-            "meaning": "Uses your once-per-game Self Barrier. This is a stay-home action, not a visit to another player."
-          },
-          {
-            "id": "self-quiet",
-            "title": "Self Barrier · quiet",
-            "screen": "Normally no special save notice if nobody attacks you.",
-            "report": "Cleric N[night]: Self Barrier — no attack feedback.",
-            "meaning": "Still record Self Barrier as used; a quiet night does not refund it."
-          }
-        ],
         "compactFeedback": true,
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -6739,8 +6695,8 @@
           "Record at most the actual visitor attack rather than pretending you hit every visitor.",
           "Avoid promising to sit on a crowded TP/LO call without acknowledging the risk to friendly visitors."
         ],
-        "example": "Crusader\nN2: Fortify 4\nN3: Fortify 7 — no attack feedback",
-        "blank": "Crusader\nN[night]: Fortify [player] — [protection feedback]; [visitor-attack feedback]",
+        "example": "Crusader\nN2: Fortify 4\nN3: Fortify 7 - no attack feedback",
+        "blank": "Crusader\nN[night]: Fortify [player] - [protection feedback]; [visitor-attack feedback]",
         "expanded": "A Jinx-like attack reproduces no Crusader protection. Quiet Fortify entries are not proof. Keep the preselected destination instead of choosing a convenient surviving house after dawn.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"
@@ -6888,7 +6844,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** You can receive feedback that your protected target was attacked and that you attacked a visitor. These are different events, not the same player.\n\n**They see · meaning:** The protected resident can receive protection feedback. A visitor can be attacked, and a resulting public death can identify Crusader as the cause.\n\n**Claim check:** Fortify protects the resident and may attack one random direct visitor. Do not say you attacked the resident or choose a visitor identity that you were never given.\n\n**Documented excerpt · Everyone:** `they were killed by a Crusader`\n\nA player dies to the Crusader attack, if the cause is not hidden. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870)\n\n**Chat format · replace brackets:**\n\n```\nCrusader N[night]: Fortify [player] — target [attack/no attack reported]; visitor [attack/no attack reported].\n```"
+            "markdown": "**You see · meaning:** You can receive feedback that your protected target was attacked and that you attacked a visitor. These are different events, not the same player.\n\n**They see · meaning:** The protected resident can receive protection feedback. A visitor can be attacked, and a resulting public death can identify Crusader as the cause.\n\n**Claim check:** Fortify protects the resident and may attack one random direct visitor. Do not say you attacked the resident or choose a visitor identity that you were never given.\n\n**Documented excerpt · Everyone:** `they were killed by a Crusader`\n\nA player dies to the Crusader attack, if the cause is not hidden. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870)\n\n**Chat format · replace brackets:**\n\n```\nCrusader N[night]: Fortify [player] - target [attack/no attack reported]; visitor [attack/no attack reported].\n```"
           }
         ],
         "details": [
@@ -6953,7 +6909,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Crusader N[night]: Fortify [player] — target [attack/no attack reported]; visitor [attack/no attack reported].",
+        "reportTemplate": "Crusader N[night]: Fortify [player] - target [attack/no attack reported]; visitor [attack/no attack reported].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -7177,7 +7133,7 @@
           "No visible visit does not confirm a save or Town alignment. Keep actual attack/save feedback separate from a role merely surviving."
         ],
         "example": "Oracle\nN2: Aegis Sheriff\nN3: Aegis Seer",
-        "blank": "Oracle\nN[night]: Aegis [role] — [actual feedback / unavailable]",
+        "blank": "Oracle\nN[night]: Aegis [role] - [actual feedback / unavailable]",
         "expanded": "The example starts on N2. Aegis is astral, but a fake Oracle claim does not grant protection or conceal the real role's visits. Recheck the whole movement history before accepting a direct book attack or another visiting action.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
@@ -7329,7 +7285,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Aegis targets a Town role, not a player number. Use actual attack feedback for protected role-holders; an enabled choice or a survivor alone is not save confirmation.\n\n**They see · meaning:** An attacked and protected recipient can see a Barrier message. Aegis is astral, so Tracker and Lookout do not see an ordinary Oracle visit; other players’ visits stay visible.\n\n**Claim check:** Name the selected Town role and follow consecutive-role/self-role restrictions. A generic Barrier notice does not prove an Oracle identity or hide your real role’s direct travel.\n\n**Chat format · replace brackets:**\n\n```\nOracle N[night]: Aegis [Town role] — [no attack reported / attack reported / failed].\n```"
+            "markdown": "**You see · meaning:** Aegis targets a Town role, not a player number. Use actual attack feedback for protected role-holders; an enabled choice or a survivor alone is not save confirmation.\n\n**They see · meaning:** An attacked and protected recipient can see a Barrier message. Aegis is astral, so Tracker and Lookout do not see an ordinary Oracle visit; other players’ visits stay visible.\n\n**Claim check:** Name the selected Town role and follow consecutive-role/self-role restrictions. A generic Barrier notice does not prove an Oracle identity or hide your real role’s direct travel.\n\n**Chat format · replace brackets:**\n\n```\nOracle N[night]: Aegis [Town role] - [no attack reported / attack reported / failed].\n```"
           }
         ],
         "details": [
@@ -7383,7 +7339,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Oracle N[night]: Aegis [Town role] — [no attack reported / attack reported / failed].",
+        "reportTemplate": "Oracle N[night]: Aegis [Town role] - [no attack reported / attack reported / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -7615,7 +7571,7 @@
           "If it triggers, copy reported roles and the actual protection outcome; do not invent visitor numbers.",
           "Track triggered, dismantled, and rebuilt states separately so your next placement is legally timed."
         ],
-        "example": "Trapper\nN1: Build\nN2: Place on 4\nN3: Trap on 4 — no trigger reported",
+        "example": "Trapper\nN1: Build\nN2: Place on 4\nN3: Trap on 4 - no trigger reported",
         "blank": "Trapper\nN1: Build\nN2: Place on [player]\nN[later]: [trap state / actual trigger roles]",
         "expanded": "The example assumes building and placement succeeded. An active trap does not create a new nightly visit. Empty early entries delay verification pressure rather than eliminating it.",
         "sourceUrls": [
@@ -8015,8 +7971,8 @@
           "Do not describe a private miss as a public demonstration of your identity.",
           "After spending the shot, keep contributing with evidence and votes rather than adding imaginary night actions."
         ],
-        "example": "Deputy\nN1: No night ability\nD2: Held shot — insufficient evidence\nD3: Shot 9 — Miss",
-        "blank": "Deputy\nD[day]: [held / shot player — actual outcome]",
+        "example": "Deputy\nN1: No night ability\nD2: Held shot - insufficient evidence\nD3: Shot 9 - Miss",
+        "blank": "Deputy\nD[day]: [held / shot player - actual outcome]",
         "expanded": "The sample is a possible chronology, not a recommended D3 shot. Misses can involve defense. Low typing comes with high demonstration pressure; a miss does not confirm either player.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
@@ -8128,7 +8084,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Your shot resolves in public, including any miss/defense outcome. The public event and any applicable penalty determine what you can do next.\n\n**They see · meaning:** Everyone can see the shot event and its target/outcome. A shot does not give you a hidden nightly result to post later.\n\n**Claim check:** An unperformed shot cannot be supplied by a copied will. Report the public target and outcome; check the current shot control and eligibility.\n\n**Chat format · replace brackets:**\n\n```\nDeputy D[day]: shot [player] — [public hit / defense or miss / other shown outcome].\n```"
+            "markdown": "**You see · meaning:** Your shot resolves in public, including any miss/defense outcome. The public event and any applicable penalty determine what you can do next.\n\n**They see · meaning:** Everyone can see the shot event and its target/outcome. A shot does not give you a hidden nightly result to post later.\n\n**Claim check:** An unperformed shot cannot be supplied by a copied will. Report the public target and outcome; check the current shot control and eligibility.\n\n**Chat format · replace brackets:**\n\n```\nDeputy D[day]: shot [player] - [public hit / defense or miss / other shown outcome].\n```"
           }
         ],
         "details": [
@@ -8182,7 +8138,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Deputy D[day]: shot [player] — [public hit / defense or miss / other shown outcome].",
+        "reportTemplate": "Deputy D[day]: shot [player] - [public hit / defense or miss / other shown outcome].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -8410,8 +8366,8 @@
           "Do not add another Mirror night while the stored attack remains unused.",
           "Keep your one Self Mirror separate from ordinary mirrors and preserve failures instead of inventing an absorption."
         ],
-        "example": "Trickster\nN1: Mirror 4 — no absorption\nN2: Mirror 7 — no absorption",
-        "blank": "Trickster\nN1: Mirror [player] — [actual feedback]\nN[later]: Unleash [stored role] on [player] — [outcome]",
+        "example": "Trickster\nN1: Mirror 4 - no absorption\nN2: Mirror 7 - no absorption",
+        "blank": "Trickster\nN1: Mirror [player] - [actual feedback]\nN[later]: Unleash [stored role] on [player] - [outcome]",
         "expanded": "Quiet mirrors are easy to write. Real absorption feedback and later attack attribution are harder to reproduce. A genuine Unleash can endanger friendly visitors at the chosen house.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
@@ -8533,7 +8489,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A Magic Mirror can absorb one qualifying direct attack and tell you the stored attacker role. Unstoppable attacks shatter it rather than supplying a normal stored attack.\n\n**They see · meaning:** Other players can receive attack/protection evidence from the event. An Unleash can use the absorbed role’s death label, rather than a generic Trickster kill label.\n\n**Claim check:** Do not claim an absorption because the target survived. Record the supplied attacker role, keep the stored state, and separate Mirror from Unleash.\n\n**Chat format · replace brackets:**\n\n```\nTrickster N[night]: [Mirror player / Self Mirror / Unleash player] — [no absorption / reported attacker role / actual outcome].\n```"
+            "markdown": "**You see · meaning:** A Magic Mirror can absorb one qualifying direct attack and tell you the stored attacker role. Unstoppable attacks shatter it rather than supplying a normal stored attack.\n\n**They see · meaning:** Other players can receive attack/protection evidence from the event. An Unleash can use the absorbed role’s death label, rather than a generic Trickster kill label.\n\n**Claim check:** Do not claim an absorption because the target survived. Record the supplied attacker role, keep the stored state, and separate Mirror from Unleash.\n\n**Chat format · replace brackets:**\n\n```\nTrickster N[night]: [Mirror player / Self Mirror / Unleash player] - [no absorption / reported attacker role / actual outcome].\n```"
           }
         ],
         "details": [
@@ -8587,7 +8543,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Trickster N[night]: [Mirror player / Self Mirror / Unleash player] — [no absorption / reported attacker role / actual outcome].",
+        "reportTemplate": "Trickster N[night]: [Mirror player / Self Mirror / Unleash player] - [no absorption / reported attacker role / actual outcome].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -8809,8 +8765,8 @@
           "If roleblocked or otherwise interrupted, preserve that fact rather than treating the selected Alert as successful.",
           "Do not rewrite a quiet night to Alert only after learning someone claims a visit."
         ],
-        "example": "Veteran\nN1: No Alert\nN2: Alert — no visitor shots reported",
-        "blank": "Veteran\nN1: [Alert / No Alert] — [actual feedback]",
+        "example": "Veteran\nN1: No Alert\nN2: Alert - no visitor shots reported",
+        "blank": "Veteran\nN1: [Alert / No Alert] - [actual feedback]",
         "expanded": "Low bookkeeping does not remove event-based verification. A genuine player should conserve Alerts when appropriate and avoid friendly casualties. A convenient invented Alert can conflict with independent visits.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
@@ -8921,7 +8877,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Alert and resulting attack feedback concern visitors to your own house. An Alert alone is not a complete list of visitors or guaranteed kills.\n\n**They see · meaning:** Direct visitors can be attacked, and public deaths can identify Veteran as the cause. Astral visits and survival effects can change the outcome.\n\n**Claim check:** Keep the Alert night and actual attacks separate. Do not invent names for every visitor or claim a normal visit while staying home.\n\n**Chat format · replace brackets:**\n\n```\nVeteran N[night]: [Alert / no Alert] — [actual attack feedback or none].\n```"
+            "markdown": "**You see · meaning:** Alert and resulting attack feedback concern visitors to your own house. An Alert alone is not a complete list of visitors or guaranteed kills.\n\n**They see · meaning:** Direct visitors can be attacked, and public deaths can identify Veteran as the cause. Astral visits and survival effects can change the outcome.\n\n**Claim check:** Keep the Alert night and actual attacks separate. Do not invent names for every visitor or claim a normal visit while staying home.\n\n**Chat format · replace brackets:**\n\n```\nVeteran N[night]: [Alert / no Alert] - [actual attack feedback or none].\n```"
           }
         ],
         "details": [
@@ -8975,7 +8931,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Veteran N[night]: [Alert / no Alert] — [actual attack feedback or none].",
+        "reportTemplate": "Veteran N[night]: [Alert / no Alert] - [actual attack feedback or none].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -9198,8 +9154,8 @@
           "A shot without a death is not a confirmed evil: defense or disruption can matter.",
           "After the game reports a Town shot and removes the gun, stop claiming new loads or shots."
         ],
-        "example": "Vigilante\nN1: Load — loaded\nN2: Shoot 9 — target survived\nN3: Load — loaded",
-        "blank": "Vigilante\nN1: Load — [outcome]\nN2: [Load / Shoot player — actual outcome]",
+        "example": "Vigilante\nN1: Load - loaded\nN2: Shoot 9 - target survived\nN3: Load - loaded",
+        "blank": "Vigilante\nN1: Load - [outcome]\nN2: [Load / Shoot player - actual outcome]",
         "expanded": "The illustration assumes no Town-shot notification or lost gun. Different killing sources cannot freely substitute for Vigilante evidence. Holding remains mechanically possible but can grow socially weak.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
@@ -9311,7 +9267,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Load before shooting. Later shot feedback and any guilt/penalty are actual outcomes, not an alignment result inferred from whether somebody died.\n\n**They see · meaning:** The target can receive an attack notice and public deaths can expose a Vigilante shot. Surviving a shot does not by itself tell you their faction.\n\n**Claim check:** Preserve the bullet spent and outcome. Do not write an N1 shot while still loading, or label defense as a precise role.\n\n**Chat format · replace brackets:**\n\n```\nVigilante N[night]: [Load / hold / shoot player] — [actual hit / defense / failure feedback].\n```"
+            "markdown": "**You see · meaning:** Load before shooting. Later shot feedback and any guilt/penalty are actual outcomes, not an alignment result inferred from whether somebody died.\n\n**They see · meaning:** The target can receive an attack notice and public deaths can expose a Vigilante shot. Surviving a shot does not by itself tell you their faction.\n\n**Claim check:** Preserve the bullet spent and outcome. Do not write an N1 shot while still loading, or label defense as a precise role.\n\n**Chat format · replace brackets:**\n\n```\nVigilante N[night]: [Load / hold / shoot player] - [actual hit / defense / failure feedback].\n```"
           }
         ],
         "details": [
@@ -9365,7 +9321,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Vigilante N[night]: [Load / hold / shoot player] — [actual hit / defense / failure feedback].",
+        "reportTemplate": "Vigilante N[night]: [Load / hold / shoot player] - [actual hit / defense / failure feedback].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -9594,8 +9550,8 @@
           "Record daytime Bestows with a D label; they are not nighttime Admire actions, and only two are available.",
           "Do not treat not-Obsession as a faction clear or fabricate an engagement or proposal."
         ],
-        "example": "Admirer\nObsession clue: TP\nN1: Admire 4 — not Obsession\nD2: Bestow 7",
-        "blank": "Admirer\nClue: [subalignment]\nN1: Admire [player] — [result]\nD[day]: Bestow [player]",
+        "example": "Admirer\nObsession clue: TP\nN1: Admire 4 - not Obsession\nD2: Bestow 7",
+        "blank": "Admirer\nClue: [subalignment]\nN1: Admire [player] - [result]\nD[day]: Bestow [player]",
         "expanded": "The example assumes a legal available Bestow. A false Admirer cannot supply its lasting effects. Keep discovery and reassignment history consistent rather than changing the Obsession after public claims.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)"
@@ -9717,7 +9673,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** You begin with an Obsession subalignment clue. Admire tests a player; finding the Obsession unlocks limited Care. No valid Obsession can produce a distinct notice.\n\n**They see · meaning:** Care can give the Obsession Barrier feedback when attacked. Bestow grants lasting astral visits plus roleblock/control immunity; the recipient can check their effects and later ability behavior.\n\n**Claim check:** Use the current Obsession/Care/Bestow model. Do not invent old public proposals, acceptance/rejection scenes, or mutual exact-role reveals.\n\n**Documented English · You:** `There are no valid targets for your secret Obsession.`\n\nNo eligible secret Obsession remains. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658)\n\n**Chat format · replace brackets:**\n\n```\nAdmirer N[night]: Admire [player] — [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].\n```"
+            "markdown": "**You see · meaning:** You begin with an Obsession subalignment clue. Admire tests a player; finding the Obsession unlocks limited Care. No valid Obsession can produce a distinct notice.\n\n**They see · meaning:** Care can give the Obsession Barrier feedback when attacked. Bestow grants lasting astral visits plus roleblock/control immunity; the recipient can check their effects and later ability behavior.\n\n**Claim check:** Use the current Obsession/Care/Bestow model. Do not invent old public proposals, acceptance/rejection scenes, or mutual exact-role reveals.\n\n**Documented English · You:** `There are no valid targets for your secret Obsession.`\n\nNo eligible secret Obsession remains. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658)\n\n**Chat format · replace brackets:**\n\n```\nAdmirer N[night]: Admire [player] - [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].\n```"
           }
         ],
         "details": [
@@ -9781,7 +9737,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Admirer N[night]: Admire [player] — [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].",
+        "reportTemplate": "Admirer N[night]: Admire [player] - [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -10003,7 +9959,7 @@
           "Mark the transition day and new role before logging its later actions.",
           "Do not pretend hidden or altered graveyard art necessarily prevents genuine Remember from finding the true role."
         ],
-        "example": "Amnesiac -> Sheriff\nN1: Waiting to remember\nD2: Remembered Sheriff\nN2: 9 — Innocent",
+        "example": "Amnesiac -> Sheriff\nN1: Waiting to remember\nD2: Remembered Sheriff\nN2: 9 - Innocent",
         "blank": "Amnesiac\nD[day]: Remembered [actual role]\nN[next]: [new-role action and feedback]",
         "expanded": "The example requires an eligible Sheriff death and actual transition. A fake claim must maintain both histories and may inherit demanding public-power obligations instead of an easy result role.",
         "sourceUrls": [
@@ -10115,7 +10071,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** When Remember resolves, the new Town role and its controls replace Amnesiac. Record the change when it happens rather than predicting a role before resolution.\n\n**They see · meaning:** Other players do not automatically receive your complete private remembered-role history. Graveyard deaths and later role demonstrations can test your account.\n\n**Claim check:** Record the starting role and actual remembered role separately. Hidden or altered corpses and unique-role priority can affect what you obtain.\n\n**Chat format · replace brackets:**\n\n```\nAmnesiac D[day]: [no role remembered / remembered role] — first available action [if any].\n```"
+            "markdown": "**You see · meaning:** When Remember resolves, the new Town role and its controls replace Amnesiac. Record the change when it happens rather than predicting a role before resolution.\n\n**They see · meaning:** Other players do not automatically receive your complete private remembered-role history. Graveyard deaths and later role demonstrations can test your account.\n\n**Claim check:** Record the starting role and actual remembered role separately. Hidden or altered corpses and unique-role priority can affect what you obtain.\n\n**Chat format · replace brackets:**\n\n```\nAmnesiac D[day]: [no role remembered / remembered role] - first available action [if any].\n```"
           }
         ],
         "details": [
@@ -10169,7 +10125,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Amnesiac D[day]: [no role remembered / remembered role] — first available action [if any].",
+        "reportTemplate": "Amnesiac D[day]: [no role remembered / remembered role] - first available action [if any].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -10392,8 +10348,8 @@
           "Your own visit goes to the corpse; the zombie goes to the living target. Keep that direction clear.",
           "Track corpse contention and failures without inventing results; normal Town Retributionist cannot use Stoned corpses or protect itself."
         ],
-        "example": "Retributionist\nN1: No usable corpse\nN2: Sheriff 6 -> 9 — Innocent",
-        "blank": "Retributionist\nN[night]: [corpse and role] -> [living target] — [borrowed feedback / failed]",
+        "example": "Retributionist\nN1: No usable corpse\nN2: Sheriff 6 -> 9 - Innocent",
+        "blank": "Retributionist\nN[night]: [corpse and role] -> [living target] - [borrowed feedback / failed]",
         "expanded": "The example requires an eligible dead Town Sheriff. Matching a legal borrowed action supports the story; unsuitable corpses or later book attacks can break that fit.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)"
@@ -10509,7 +10465,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Select a usable Town corpse and its destination. You can receive that corpse ability’s result or a corpse-use failure; preserve which body supplied it.\n\n**They see · meaning:** Recipients may see the reanimated ability’s ordinary effect. That alone does not prove which living corpse-user produced it.\n\n**Claim check:** A body being taken or unavailable is not an Innocent/no-match result. Keep body, destination, actual result and the Town-only corpse pool consistent.\n\n**Documented English · You:** `Your target's corpse is missing!`\n\nThe chosen corpse is unavailable. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202)\n\n**Chat format · replace brackets:**\n\n```\nRetributionist N[night]: [Town corpse] → [destination] — [actual ability result / corpse unavailable / failed].\n```"
+            "markdown": "**You see · meaning:** Select a usable Town corpse and its destination. You can receive that corpse ability’s result or a corpse-use failure; preserve which body supplied it.\n\n**They see · meaning:** Recipients may see the reanimated ability’s ordinary effect. That alone does not prove which living corpse-user produced it.\n\n**Claim check:** A body being taken or unavailable is not an Innocent/no-match result. Keep body, destination, actual result and the Town-only corpse pool consistent.\n\n**Documented English · You:** `Your target's corpse is missing!`\n\nThe chosen corpse is unavailable. [Message source](https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202)\n\n**Chat format · replace brackets:**\n\n```\nRetributionist N[night]: [Town corpse] → [destination] - [actual ability result / corpse unavailable / failed].\n```"
           }
         ],
         "details": [
@@ -10573,7 +10529,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Retributionist N[night]: [Town corpse] → [destination] — [actual ability result / corpse unavailable / failed].",
+        "reportTemplate": "Retributionist N[night]: [Town corpse] → [destination] - [actual ability result / corpse unavailable / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -10797,8 +10753,8 @@
           "Write rejected someone only when the game reports it; that feedback does not identify who was rejected.",
           "Party blocks incoming visits rather than roleblocking the resident; do not equate these different effects."
         ],
-        "example": "Socialite\nD2: Invite 7\nN2: Party 4 — rejected someone\nN3: Party 9 — no rejection reported",
-        "blank": "Socialite\nD[day]: Invite [player]\nN[night]: Party [house] — [actual feedback]",
+        "example": "Socialite\nD2: Invite 7\nN2: Party 4 - rejected someone\nN3: Party 9 - no rejection reported",
+        "blank": "Socialite\nD[day]: Invite [player]\nN[night]: Party [house] - [actual feedback]",
         "expanded": "The sample omits N1 and assumes legal availability. Smog resembles only part of Party behavior. Guests and immunity differences can expose a false story even when destinations match.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)"
@@ -10941,7 +10897,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Invitations and the Guest List determine who is admitted. A Party can tell you that someone was rejected, rather than furnishing a Lookout report.\n\n**They see · meaning:** Eligible uninvited visitors can get obstacle/failure feedback. Invited, astral and Party-immune actions do not all behave identically.\n\n**Claim check:** Record the invitation/Party and whether rejection was reported. Do not identify every rejected player from a simple rejection notification.\n\n**Chat format · replace brackets:**\n\n```\nSocialite D[day]: invited [player]. N[night]: [Party / no Party] — [rejection reported / none / failed].\n```"
+            "markdown": "**You see · meaning:** Invitations and the Guest List determine who is admitted. A Party can tell you that someone was rejected, rather than furnishing a Lookout report.\n\n**They see · meaning:** Eligible uninvited visitors can get obstacle/failure feedback. Invited, astral and Party-immune actions do not all behave identically.\n\n**Claim check:** Record the invitation/Party and whether rejection was reported. Do not identify every rejected player from a simple rejection notification.\n\n**Chat format · replace brackets:**\n\n```\nSocialite D[day]: invited [player]. N[night]: [Party / no Party] - [rejection reported / none / failed].\n```"
           }
         ],
         "details": [
@@ -10995,7 +10951,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Socialite D[day]: invited [player]. N[night]: [Party / no Party] — [rejection reported / none / failed].",
+        "reportTemplate": "Socialite D[day]: invited [player]. N[night]: [Party / no Party] - [rejection reported / none / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -11218,8 +11174,8 @@
           "Separate failed or immune interactions from successful disruption.",
           "Remember that visiting some killers is dangerous; a fake target story also needs to fit where you actually went."
         ],
-        "example": "Tavern Keeper\nN1: Drink 4\nN2: Drink 7 — failed; Unknown Obstacle",
-        "blank": "Tavern Keeper\nN1: Drink [player] — [actual feedback / failed]",
+        "example": "Tavern Keeper\nN1: Drink 4\nN2: Drink 7 - failed; Unknown Obstacle",
+        "blank": "Tavern Keeper\nN1: Drink [player] - [actual feedback / failed]",
         "expanded": "A genuine block can support the story without proving Town allegiance. Do not relabel Silence as a roleblock or rewrite targets after hearing reports. Roleblock immunity does not bypass Party obstacles.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)"
@@ -11330,7 +11286,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** A completed Drink is distinct from an interrupted visit. Immunity and retaliation can change the result; a visit alone does not prove the target was roleblocked.\n\n**They see · meaning:** A target may receive a drink or roleblock/immunity notice. An uncautious Serial Killer can retaliate and leave a distinctive death explanation.\n\n**Claim check:** Keep Hangover and roleblock immunity in mind. Do not turn a failure to block into an exact-role identification.\n\n**Chat format · replace brackets:**\n\n```\nTavern Keeper N[night]: Drink [player] — [completed / immune / failed / actual feedback].\n```"
+            "markdown": "**You see · meaning:** A completed Drink is distinct from an interrupted visit. Immunity and retaliation can change the result; a visit alone does not prove the target was roleblocked.\n\n**They see · meaning:** A target may receive a drink or roleblock/immunity notice. An uncautious Serial Killer can retaliate and leave a distinctive death explanation.\n\n**Claim check:** Keep Hangover and roleblock immunity in mind. Do not turn a failure to block into an exact-role identification.\n\n**Chat format · replace brackets:**\n\n```\nTavern Keeper N[night]: Drink [player] - [completed / immune / failed / actual feedback].\n```"
           }
         ],
         "details": [
@@ -11384,7 +11340,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Tavern Keeper N[night]: Drink [player] — [completed / immune / failed / actual feedback].",
+        "reportTemplate": "Tavern Keeper N[night]: Drink [player] - [completed / immune / failed / actual feedback].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
@@ -11603,8 +11559,8 @@
           "Keep observed extra actions separate from merely applying the charge.",
           "Check setup eligibility and Unique-role conflicts before using this as a cover."
         ],
-        "example": "Catalyst\nN1: Overcharge 4 — applied\nD2: Asked 4 to confirm affected cycle",
-        "blank": "Catalyst\nN[night]: Overcharge [player] — [actual feedback]\nExpected cycle: [confirmed timing]",
+        "example": "Catalyst\nN1: Overcharge 4 - applied\nD2: Asked 4 to confirm affected cycle",
+        "blank": "Catalyst\nN[night]: Overcharge [player] - [actual feedback]\nExpected cycle: [confirmed timing]",
         "expanded": "The sample intentionally avoids guessing recipient 4’s role or extra-action timing. A false Catalyst cannot supply the effect. Keep advanced timing conditional until the specific interaction is verified.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)"
@@ -11716,7 +11672,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Your targeting and action feedback establish what you attempted. The recipient’s compatible ability determines how an extra action becomes available.\n\n**They see · meaning:** The affected player can observe an Overcharge effect and additional permitted ability use. Timing and limitations depend on the ability and setup.\n\n**Claim check:** Coordinate the recipient’s expected extra action instead of claiming a particular result for them. Extra destinations are not exclusive proof of Seer.\n\n**Chat format · replace brackets:**\n\n```\nCatalyst [phase]: Overcharge [player] — [recipient-confirmed effect / failed / unconfirmed].\n```"
+            "markdown": "**You see · meaning:** Your targeting and action feedback establish what you attempted. The recipient’s compatible ability determines how an extra action becomes available.\n\n**They see · meaning:** The affected player can observe an Overcharge effect and additional permitted ability use. Timing and limitations depend on the ability and setup.\n\n**Claim check:** Coordinate the recipient’s expected extra action instead of claiming a particular result for them. Extra destinations are not exclusive proof of Seer.\n\n**Chat format · replace brackets:**\n\n```\nCatalyst [phase]: Overcharge [player] - [recipient-confirmed effect / failed / unconfirmed].\n```"
           }
         ],
         "details": [
@@ -11770,7 +11726,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Catalyst [phase]: Overcharge [player] — [recipient-confirmed effect / failed / unconfirmed].",
+        "reportTemplate": "Catalyst [phase]: Overcharge [player] - [recipient-confirmed effect / failed / unconfirmed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
