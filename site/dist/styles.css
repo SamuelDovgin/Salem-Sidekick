@@ -171,3 +171,18 @@ html{scroll-padding-top:0}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .claim-option .claim-mechanic{padding:6px 9px;border-left:2px solid var(--accent);color:var(--ink);font-size:12px;line-height:1.6;margin:8px 0}
+
+/* One active claim, with an optional second card for comparison. */
+.claim-choice-bar{border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:8px 10px;margin:0 0 10px;min-width:0}
+.claim-choice-bar .inline-claim-header>.eyebrow{flex:0 0 auto;font-size:9px}
+.claim-compare-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:7px}
+.claim-compare-controls .button{min-height:30px;font-size:11px;padding:4px 8px}
+.claim-compare-controls label{font-size:11px;color:var(--muted)}
+#comparison-claim{font-size:16px;line-height:1.5;min-height:34px;padding:3px 8px;color:var(--ink);background:var(--bg);border:1px solid var(--line);max-width:100%;min-width:0}
+.claim-card-label{margin-bottom:8px;color:var(--accent)}
+.comparison-claim .claim-card-label{color:var(--muted)}
+.claim-grid{align-items:start}
+.claim-grid.one-option .claim-strategy{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:22px}
+.claim-grid.comparing .claim-strategy{grid-template-columns:1fr}
+@media(max-width:760px){.claim-grid.one-option .claim-strategy{grid-template-columns:1fr}}
+@media(max-width:560px){.claim-choice-bar .inline-claim-header{display:block}.claim-choice-bar .inline-claim-header>.eyebrow{display:block;margin-bottom:5px}.claim-compare-controls{gap:6px}#comparison-claim{flex:1;max-width:100%}.claim-compare-controls label{margin-left:auto}}
