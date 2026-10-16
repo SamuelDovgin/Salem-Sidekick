@@ -30,7 +30,7 @@ Jinx an eligible house to attack a visitor if the action is enabled. You do not 
 
 Jinx an eligible house to attack a visitor if the action is enabled. You do not grant Crusader-style defense to the resident.
 
-**How to choose:** Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away. With no safe traffic plan, holding can be better than exposing yourself or killing an ally. Grace Period may disable the harmful action.
+**How to choose:** Choose a nonally house likely to draw useful enemy visitors, while coordinating to keep Coven away. With no useful traffic plan, holding can be better than exposing yourself to surviving witnesses. The normal visitor attack excludes Coven allies. Grace Period may disable the harmful action.
 
 **Your opening checkpoint:** Plan around visitor traffic. You do not need a perfect read of the lobby to begin; you need a legal action or a deliberate hold and an honest record of what happened.
 
@@ -117,13 +117,13 @@ A counterexample is a reason to narrow your conclusion. If an unresolved interac
 **Compact copy**
 
 1. Plan around visitor traffic.
-2. Avoid friendly fire and witnesses.
+2. Limit surviving witnesses.
 3. Reassess the cover after actual exposure.
 
 **Expanded copy — same section**
 
 1. Plan around visitor traffic.
-2. Avoid friendly fire and witnesses.
+2. Limit surviving witnesses.
 3. Reassess the cover after actual exposure.
 
 - Predict useful enemy traffic without exposing yourself widely.

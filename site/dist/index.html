@@ -6,21 +6,21 @@
 <meta name="description" content="A compact Town of Salem 2 companion. Understand your role, plan your first night, choose a logical claim, and keep a clear will.">
 <title>Salem Sidekick — Your next move, made clear</title>
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="./styles.css?v=20261016-all-role-feedback">
-<script type="module" src="./app.js?v=20261016-all-role-feedback"></script>
+<link rel="stylesheet" href="./styles.css?v=20261016-site-audit">
+<script type="module" src="./app.js?v=20261016-site-audit"></script>
 </head>
 <body>
-<a class="skip-link" href="#strategy">Skip to strategy</a>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header"><div class="header-inner">
 <a class="brand" href="./" aria-label="Salem Sidekick home"><span class="brand-mark" aria-hidden="true">☾</span><span>Salem <em>Sidekick</em><small>A LITTLE CLARITY IN THE CHAOS</small></span></a>
-<div class="header-actions"><button id="detail-toggle" class="button detail-button" aria-expanded="false" title="Expand explanations in every section"></button><button id="theme-toggle" class="icon-button" aria-label="Switch to light theme" title="Change theme"></button><button id="new-match" class="button quiet">New match</button></div>
+<div class="header-actions"><button id="detail-toggle" data-library-control disabled class="button detail-button" aria-expanded="false" title="Expand explanations in every section"></button><button id="theme-toggle" data-library-control disabled class="icon-button" aria-label="Switch to light theme" title="Change theme"></button><button id="new-match" data-library-control disabled class="button quiet">New match</button></div>
 </div></header>
-<main class="main-shell" id="main">
-<div class="context-bar"><span><span class="status-dot"></span> VANILLA <span class="context-divider">/</span> TEXT CHAT <span class="context-divider">/</span> NORMAL FACTIONS</span><button class="text-button" data-action="toggle-setup" aria-expanded="false">Setup notes <span aria-hidden="true">↗</span></button></div>
+<main class="main-shell" id="main" tabindex="-1">
+<div class="context-bar"><span><span class="status-dot"></span> VANILLA <span class="context-divider">/</span> TEXT CHAT <span class="context-divider">/</span> NORMAL FACTIONS</span><button class="text-button" data-action="toggle-setup" data-library-control disabled aria-expanded="false">Setup notes <span aria-hidden="true">↗</span></button></div>
 <div id="setup-note" class="notice" hidden>Follow your current role card and enabled controls. Grace Period, conversion, and other modifiers can change these instructions. N1 means first night; D2 is the day after it. An unavailable action is a reason to check your starting state, not invent a result.</div>
 <div id="app"><div class="loading">Opening your field notes…</div></div>
 <noscript><div class="notice">Enable JavaScript to use the role guide, claim comparisons, and will examples.</div></noscript>
-<footer class="site-footer"><span>Made for your next good decision.</span><span>Local choices · No account needed in the app</span><div><button class="text-button mobile-reset" data-action="open-reset">New match</button><button class="text-button" data-action="glossary">Terms</button><button class="text-button" data-action="sources">Sources & credits</button></div></footer>
+<footer class="site-footer"><span>Made for your next good decision.</span><span id="save-state" role="status">Local choices · No account needed in the app</span><div><button class="text-button mobile-reset" data-action="open-reset" data-library-control disabled>New match</button><button class="text-button" data-action="glossary" data-library-control disabled>Game terms</button><button class="text-button" data-action="sources" data-library-control disabled>Sources & credits</button></div></footer>
 <section id="reference-area" hidden tabindex="-1"></section>
 </main>
 <dialog id="role-picker" class="picker-dialog" aria-labelledby="picker-title"><div class="picker-heading"><div><span class="eyebrow" id="picker-eyebrow">THE FULL ROLE LIBRARY</span><h2 id="picker-title" tabindex="-1">Choose your actual role</h2></div><button class="icon-button" data-action="close-picker" aria-label="Close role selector">✕</button></div><p id="picker-help" class="muted"></p><div class="picker-search"><label for="role-search" class="sr-only">Search roles or alignments</label><input id="role-search" type="search" autofocus placeholder="Search name, alias, or alignment…" autocomplete="off"></div><div class="picker-toolbar"><details id="picker-advanced"><summary>Filters <span id="filter-context"></span></summary><div class="picker-filters"><label><span class="sr-only">Faction filter</span><select id="faction-filter"><option value="all">All factions</option><option value="Town">Town</option><option value="Coven">Coven</option><option value="Neutral">Neutral</option></select></label><button class="text-button" id="clear-filters">Clear filters</button></div><div id="alignment-shortcuts" class="alignment-shortcuts" role="group" aria-label="Alignment filter"></div></details><span id="picker-count" role="status"></span></div><div id="recent-roles"></div><div id="picker-results" class="picker-results"></div></dialog>

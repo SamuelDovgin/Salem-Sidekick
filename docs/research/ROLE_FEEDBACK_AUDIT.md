@@ -74,3 +74,5 @@ Version-sensitive Shroud/Werewolf target wording is marked as older wiki wording
 | War | 2 line(s)/excerpt(s): EVERYONE, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:WarMessages) |
 | Pestilence | 3 line(s)/excerpt(s): EVERYONE, YOU, THEM | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2) |
 | Death | 2 line(s)/excerpt(s): EVERYONE | [Source 1](https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562) · [Source 2](https://town-of-salem.fandom.com/wiki/Template:DeathMessages) |
+
+Audience coverage is not an exhaustive outcome dictionary. See [the remaining message gaps and all-role audience matrix](MESSAGE_GAPS.md).

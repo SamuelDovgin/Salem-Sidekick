@@ -1,6 +1,6 @@
 # Salem Sidekick: complete interface copy
 
-**Current revision:** the implemented site uses [ranked opening routes and expanded claim strategies](RANKED_STRATEGIES.md), the [practical playbook](PRACTICAL_PLAYBOOK.md), and [claim examples](CLAIM_EXAMPLES.md). Role definitions are dropdowns; the top two claims remain visible, with lower-priority role icons revealing additional comparisons. Public claims are Town-only; the actual-role roster keeps all roles/states. These supersede generic opening advice and the will-builder UI. The original paired copy below remains supporting mechanics/context.
+**Current revision:** the implemented site uses [ranked opening routes and expanded claim strategies](RANKED_STRATEGIES.md), the [practical playbook](PRACTICAL_PLAYBOOK.md), and [claim examples](CLAIM_EXAMPLES.md). Role definitions are dropdowns. All ranked claim icons select one active card; Compare 2 adds one optional comparison. Public claims are Town-only; the actual-role roster keeps all roles/states. These supersede generic opening advice and the will-builder UI. The original paired copy below remains supporting mechanics/context.
 
 Original status: **content prepared for implementation review.** Revised 2026-10-15 after choosing Compact and requesting more specific opening guidance.
 

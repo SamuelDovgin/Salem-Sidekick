@@ -1,0 +1,1813 @@
+{
+  "reviewedOn": "2026-10-16",
+  "baselineCommit": "0a9eca6",
+  "unitTestsPassed": 52,
+  "endToEndChecksPassed": 125,
+  "claimPositionTransitions": 40,
+  "maximumClaimControlDriftPx": 0.484375,
+  "structuralAudit": {
+    "roleLayoutStates": 512,
+    "accessibilityStates": 56,
+    "regressionChecks": 149,
+    "issues": 0,
+    "runtimeErrors": 0,
+    "externalLinks": 197
+  },
+  "accessibility": {
+    "tool": "axe-core 4.14.0",
+    "states": 56,
+    "violations": 0,
+    "manualReviewRuleCounts": {
+      "aria-prohibited-attr": 40,
+      "color-contrast": 54
+    },
+    "scope": "WCAG 2 A/AA, 2.1 AA and 2.2 AA rules. Canonical scroll position. Incomplete checks remain manual review; no conformance certification."
+  },
+  "pageMetrics": [
+    {
+      "width": 1360,
+      "detail": false,
+      "medianHeight": 2752.5,
+      "medianButtons": 39.0,
+      "heightRange": [
+        2566,
+        3272
+      ]
+    },
+    {
+      "width": 1360,
+      "detail": true,
+      "medianHeight": 5784.0,
+      "medianButtons": 47.0,
+      "heightRange": [
+        5019,
+        6289
+      ]
+    },
+    {
+      "width": 320,
+      "detail": false,
+      "medianHeight": 5055.0,
+      "medianButtons": 39.0,
+      "heightRange": [
+        4390,
+        6041
+      ]
+    },
+    {
+      "width": 320,
+      "detail": true,
+      "medianHeight": 10522.5,
+      "medianButtons": 47.0,
+      "heightRange": [
+        9074,
+        11549
+      ]
+    }
+  ],
+  "externalLinks": {
+    "uniqueRequestTargets": 386,
+    "statusCounts": {
+      "200": 182,
+      "403": 108,
+      "429": 96
+    },
+    "confirmedMissing": 0,
+    "limitedHosts": [
+      "town-of-salem.fandom.com",
+      "townofsalem.wiki.gg"
+    ],
+    "results": [
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Admirer.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Admirer.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Amnesiac.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Amnesiac.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Arsonist.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Arsonist.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Baker.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Baker.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Berserker.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Berserker.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Bodyguard.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Bodyguard.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Cleric.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Cleric.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Conjurer.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Conjurer.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Coroner.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Coroner.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Coven.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Coven.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/CovenLeader.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/CovenLeader.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Crusader.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Crusader.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/CursedSoul_Vanilla.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/CursedSoul_Vanilla.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Death.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Death.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Deputy.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Deputy.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Doomsayer.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Doomsayer.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Dreamweaver.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Dreamweaver.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Enchanter.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Enchanter.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Executioner.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Executioner.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Famine.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Famine.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/HexMaster.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/HexMaster.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Illusionist.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Illusionist.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Investigator.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Investigator.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jailor.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jailor.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jester.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jester.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jinx.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Jinx.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Lookout.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Lookout.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Marshal.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Marshal.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Mayor.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Mayor.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Medusa.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Medusa.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Monarch.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Monarch.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Necromancer.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Necromancer.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Pestilence.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Pestilence.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Pirate.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Pirate.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Plaguebearer.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Plaguebearer.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Poisoner.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Poisoner.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/PotionMaster.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/PotionMaster.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Prosecutor.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Prosecutor.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Psychic.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Psychic.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Retributionist.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Retributionist.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Ritualist.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Ritualist.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Seer.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Seer.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/SerialKiller.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/SerialKiller.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Sheriff.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Sheriff.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Shroud.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Shroud.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Socialite.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Socialite.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/SoulCollector.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/SoulCollector.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Spy.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Spy.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/TavernKeeper.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/TavernKeeper.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Town.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Town.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Tracker.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Tracker.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Trapper.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Trapper.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Trickster.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Trickster.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Vampire.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Vampire.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Veteran.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Veteran.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Vigilante.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Vigilante.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/VoodooMaster.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/VoodooMaster.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/War.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/War.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Werewolf.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Werewolf.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Wildling.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Wildling.png"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Witch.png",
+        "status": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/AlchlcDvl/RoleIconRecolors@162d3df30238f4d014cf729969119380509df7b4/Vanilla/Witch.png"
+      },
+      {
+        "url": "https://github.com/AlchlcDvl/RoleIconRecolors/tree/162d3df30238f4d014cf729969119380509df7b4/Vanilla",
+        "status": 200,
+        "finalUrl": "https://github.com/AlchlcDvl/RoleIconRecolors/tree/162d3df30238f4d014cf729969119380509df7b4/Vanilla"
+      },
+      {
+        "url": "https://static.wikia.nocookie.net/town-of-salem/images/1/1c/RoleIcon_Catalyst_ToS2.png/revision/latest?cb=20250711031054",
+        "status": 200,
+        "finalUrl": "https://static.wikia.nocookie.net/town-of-salem/images/1/1c/RoleIcon_Catalyst_ToS2.png/revision/latest?cb=20250711031054"
+      },
+      {
+        "url": "https://static.wikia.nocookie.net/town-of-salem/images/f/f1/RoleIcon_Cultist_ToS2.png/revision/latest?cb=20250711030513",
+        "status": 200,
+        "finalUrl": "https://static.wikia.nocookie.net/town-of-salem/images/f/f1/RoleIcon_Cultist_ToS2.png/revision/latest?cb=20250711030513"
+      },
+      {
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785321795774432",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/2140510/announcements/detail/4473858302400266647"
+      },
+      {
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891512068",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/2140510/announcements/detail/535477547601758036"
+      },
+      {
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1810503566584385",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/2140510/announcements/detail/515221043692961894"
+      },
+      {
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314342813",
+        "status": 200,
+        "finalUrl": "https://steamcommunity.com/games/2140510/announcements/detail/668373055181947217"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/File:RoleIcon_Catalyst_ToS2.png",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/File:RoleIcon_Cultist_ToS2.png",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/File:RoleIcon_Oracle_ToS2.png",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:AdmirerMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:AmnesiacMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:AmnesiacMessages/ToS2"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:ArchmageMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:ArchmageMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:ArsonistMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:BakerMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:BakerMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:BerserkerMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:BerserkerMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:BodyguardMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:CatalystMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:ConjurerMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:CoronerMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:CrusaderMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:CultistMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:CursedSoulMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:DeathMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:DeputyMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:DoomsayerMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:DreamweaverMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:EnchanterMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:ExecutionerMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:FamineMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:IllusionistMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:InvestigatorMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:JailorMessages/ToS2"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:JesterMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:JinxMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:LookoutMessages/ToS2"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:MarshalMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:MayorMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:MedusaMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:MonarchMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:MonarchMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:NecromancerMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:OracleMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:PestilenceMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:PirateMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:PlaguebearerMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:PoisonerMessages/ToS2"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:PotionMasterMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:ProsecutorMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:PsychicMessages/ToS2"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:RetributionistMessages/ToS2"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:RitualistMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:RitualistMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:SerialKillerMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:ShroudMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:SocialiteMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:SoulCollectorMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:SpyMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:TavernKeeperMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:TrackerMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:TrapperMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:TricksterMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:VampireMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:VeteranMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:VigilanteMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:VoodooMasterMessages",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:VoodooMasterMessages"
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:WarMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:WerewolfMessages/ToS2",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:WildlingMessages",
+        "status": 403
+      },
+      {
+        "url": "https://town-of-salem.fandom.com/wiki/Template:WitchMessages/ToS2",
+        "status": 200,
+        "finalUrl": "https://town-of-salem.fandom.com/wiki/Template:WitchMessages/ToS2"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Admirer_Icon.png?d71d07",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Admirer_Icon.png?d71d07"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Amnesiac_Icon.png?7e836f",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Amnesiac_Icon.png?7e836f"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Archmage_Icon.png?737679",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Archmage_Icon.png?737679"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Arsonist_Icon.png?638bf3",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Arsonist_Icon.png?638bf3"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Baker_Icon.png?cfed69",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Baker_Icon.png?cfed69"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Berserker_Icon.png?74f3f7",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Berserker_Icon.png?74f3f7"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Bodyguard_Icon.png?63f49a",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Bodyguard_Icon.png?63f49a"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Catalyst_Icon.png?25cd47",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Catalyst_Icon.png?25cd47"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Cleric_Icon.png?38727e",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Cleric_Icon.png?38727e"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Conjurer_Icon.png?d4746e",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Conjurer_Icon.png?d4746e"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Coroner_Icon.png?e18151",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Coroner_Icon.png?e18151"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Coven_Faction_Icon.png?8cb3af",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Coven_Faction_Icon.png?8cb3af"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Crusader_Icon.png?603042",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Crusader_Icon.png?603042"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Cultist_Icon.png?8464ac",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Cultist_Icon.png?8464ac"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Cursed_Soul_Icon.png?e7a8c9",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Cursed_Soul_Icon.png?e7a8c9"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Death_Icon.png?e046d2",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Death_Icon.png?e046d2"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Deputy_Icon.png?c17fd4",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Deputy_Icon.png?c17fd4"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Doomsayer_Icon.png?d57acb",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Doomsayer_Icon.png?d57acb"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Dreamweaver_Icon.png?3295a6",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Dreamweaver_Icon.png?3295a6"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Enchanter_Icon.png?bb7386",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Enchanter_Icon.png?bb7386"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Executioner_Icon.png?4f211b",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Executioner_Icon.png?4f211b"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Famine_Icon.png?93416d",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Famine_Icon.png?93416d"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Hex_Master_Icon.png?fcea63",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Hex_Master_Icon.png?fcea63"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Illusionist_Icon.png?bbdadc",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Illusionist_Icon.png?bbdadc"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Investigator_Icon.png?63005a",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Investigator_Icon.png?63005a"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Jailor_Icon.png?5e8ae1",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Jailor_Icon.png?5e8ae1"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Jester_Icon.png?bfd5d6",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Jester_Icon.png?bfd5d6"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Jinx_Icon.png?f0bf53",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Jinx_Icon.png?f0bf53"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Lookout_Icon.png?f46629",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Lookout_Icon.png?f46629"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Marshal_Icon.png?13bf0c",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Marshal_Icon.png?13bf0c"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Mayor_Icon.png?466b73",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Mayor_Icon.png?466b73"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Medusa_Icon.png?bcbb0a",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Medusa_Icon.png?bcbb0a"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Monarch_Icon.png?13f122",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Monarch_Icon.png?13f122"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Necromancer_Icon.png?42fd18",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Necromancer_Icon.png?42fd18"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Oracle_Icon.png?21e3be",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Oracle_Icon.png?21e3be"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Pestilence_Icon.png?255501",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Pestilence_Icon.png?255501"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Pirate_Icon.png?ad084d",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Pirate_Icon.png?ad084d"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Plaguebearer_Icon.png?11f86c",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Plaguebearer_Icon.png?11f86c"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Poisoner_Icon.png?636d32",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Poisoner_Icon.png?636d32"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Potion_Master_Icon.png?338a7b",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Potion_Master_Icon.png?338a7b"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Prosecutor_Icon.png?bc8a04",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Prosecutor_Icon.png?bc8a04"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Psychic_Icon.png?3eeaa7",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Psychic_Icon.png?3eeaa7"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Retributionist_Icon.png?ba8dac",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Retributionist_Icon.png?ba8dac"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Ritualist_Icon.png?4ea26f",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Ritualist_Icon.png?4ea26f"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Seer_Icon.png?ec9dc0",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Seer_Icon.png?ec9dc0"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Serial_Killer_Icon.png?150e2f",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Serial_Killer_Icon.png?150e2f"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Sheriff_Icon.png?a4bbb7",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Sheriff_Icon.png?a4bbb7"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Shroud_Icon.png?d89827",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Shroud_Icon.png?d89827"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Socialite_Icon.png?21d8db",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Socialite_Icon.png?21d8db"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Soul_Collector_Icon.png?465af0",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Soul_Collector_Icon.png?465af0"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Spy_Icon.png?c4ddbb",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Spy_Icon.png?c4ddbb"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Tavern_Keeper_Icon.png?3484f0",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Tavern_Keeper_Icon.png?3484f0"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Town_Icon.png?c23071",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Town_Icon.png?c23071"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Tracker_Icon.png?563876",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Tracker_Icon.png?563876"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Trapper_Icon.png?ff7d40",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Trapper_Icon.png?ff7d40"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Trickster_Icon.png?b17489",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Trickster_Icon.png?b17489"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Vampire_Icon.png?97d199",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Vampire_Icon.png?97d199"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Veteran_Icon.png?df7e86",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Veteran_Icon.png?df7e86"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Vigilante_Icon.png?4c79a4",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Vigilante_Icon.png?4c79a4"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Voodoo_Master_Icon.png?adfed7",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Voodoo_Master_Icon.png?adfed7"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/War_Icon.png?68deef",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/War_Icon.png?68deef"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Werewolf_Icon.png?cc8c48",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Werewolf_Icon.png?cc8c48"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Wildling_Icon.png?3587ef",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Wildling_Icon.png?3587ef"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/images/Witch_Icon.png?35eb8f",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/images/Witch_Icon.png?35eb8f"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Amnesiac%20%28ToS2%29&oldid=6546",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Archmage%20%28ToS2%29&oldid=5752",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Arsonist%20%28ToS2%29&oldid=5504",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Bodyguard%20%28ToS2%29&oldid=5558",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Catalyst%20%28ToS2%29&oldid=6496",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Cleric%20%28ToS2%29&oldid=4540",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Coroner%20%28ToS2%29&oldid=6348",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Covenite%20%28ToS2%29&oldid=6354",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Cultist%20%28ToS2%29&oldid=6353",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Cursed%20Soul%20%28ToS2%29&oldid=5714",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Deputy%20%28ToS2%29&oldid=6299",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Dreamweaver%20%28ToS2%29&oldid=5416",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Enchanter%20%28ToS2%29&oldid=6673",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Executioner%20%28ToS2%29&oldid=6370",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Illusionist%20%28ToS2%29&oldid=6359",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Investigator%20%28ToS2%29&oldid=5154",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Jailor%20%28ToS2%29&oldid=6571",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Lookout%20%28ToS2%29&oldid=6340",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Marshal%20%28ToS2%29&oldid=5387",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Mayor%20%28ToS2%29&oldid=5492",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Medusa%20%28ToS2%29&oldid=5933",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Monarch%20%28ToS2%29&oldid=6477",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Necromancer%20%28ToS2%29&oldid=5465",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Oracle%20%28ToS2%29&oldid=5690",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Pilgrim%20%28ToS2%29&oldid=6432",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Pirate%20%28ToS2%29&oldid=6542",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Poisoner%20%28ToS2%29&oldid=6228",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Potion%20Master%20%28ToS2%29&oldid=5596",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Prosecutor%20%28ToS2%29&oldid=6514",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Psychic%20%28ToS2%29&oldid=6298",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Ritualist%20%28ToS2%29&oldid=5403",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Seer%20%28ToS2%29&oldid=5395",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Shroud%20%28ToS2%29&oldid=5928",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Socialite%20%28ToS2%29&oldid=5893",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Spy%20%28ToS2%29&oldid=6346",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Tavern%20Keeper%20%28ToS2%29&oldid=4009",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Tracker%20%28ToS2%29&oldid=5571",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Trapper%20%28ToS2%29&oldid=6488",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Trickster%20%28ToS2%29&oldid=5398",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Vampire%20%28ToS2%29&oldid=4747",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Veteran%20%28ToS2%29&oldid=6536",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Vigilante%20%28ToS2%29&oldid=5532",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Werewolf%20%28ToS2%29&oldid=6584",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Wildling%20%28ToS2%29&oldid=6347",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/w/index.php?title=Witch%20%28ToS2%29&oldid=5401",
+        "status": 403
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Actions_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Actions_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Admirer_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Amnesiac_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Archmage_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Arsonist_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Baker_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Berserker_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Bodyguard_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Catalyst_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Cleric_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Conjurer_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Coroner_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Covenite_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Crusader_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Cultist_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Cursed_Soul_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Deputy_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Doomsayer_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Dreamweaver_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Enchanter_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/Executioner_%28ToS2%29"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Admirer_Icon.png",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/File:Admirer_Icon.png"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Amnesiac_Icon.png",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/File:Amnesiac_Icon.png"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Arsonist_Icon.png",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/File:Arsonist_Icon.png"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Baker_Icon.png",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/File:Baker_Icon.png"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Berserker_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Bodyguard_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Cleric_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Conjurer_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Coroner_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Coven_Faction_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Coven_Leader_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Crusader_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Cursed_Soul_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Death_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Deputy_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Doomsayer_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Dreamweaver_Icon.png",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/File:Dreamweaver_Icon.png"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Enchanter_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Executioner_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Famine_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Hex_Master_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Illusionist_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Investigator_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Jailor_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Jester_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Jinx_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Lookout_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Marshal_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Mayor_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Medusa_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Monarch_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Necromancer_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Pestilence_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Pirate_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Plaguebearer_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Poisoner_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Potion_Master_Icon.png",
+        "status": 200,
+        "finalUrl": "https://townofsalem.wiki.gg/wiki/File:Potion_Master_Icon.png"
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Prosecutor_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Psychic_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Retributionist_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Ritualist_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Seer_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Serial_Killer_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Sheriff_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Shroud_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Socialite_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Soul_Collector_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Spy_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Tavern_Keeper_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Town_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Tracker_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Trapper_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Trickster_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Vampire_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Veteran_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Vigilante_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Voodoo_Master_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:War_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Werewolf_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Wildling_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/File:Witch_Icon.png",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Keywords_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)",
+        "status": 429
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-balance-changes-and-bug-fixes-patch-notes-r1-5-05/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-balance-changes-and-bug-fixes-patch-notes-r1-5-05/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-13/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-13/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-flexible-factions-update-patch-notes-r1-5-11/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-flexible-factions-update-patch-notes-r1-5-11/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-hotfix-patch-notes-r1-5-12/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-hotfix-patch-notes-r1-5-12/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-introducing-voice-chat-mode-%F0%9F%93%9C%F0%9F%8E%89%F0%9F%94%8A-patch-notes-r1-5-14/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-introducing-voice-chat-mode-%F0%9F%93%9C%F0%9F%8E%89%F0%9F%94%8A-patch-notes-r1-5-14/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/"
+      },
+      {
+        "url": "https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/"
+      },
+      {
+        "url": "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr",
+        "status": 200,
+        "finalUrl": "https://www.townofsalem2.com/news/nn2khtionvzvslwh2lcs8nmh64t8hr"
+      }
+    ]
+  },
+  "staticAuditAdaptation": "Metadata/favicon/local assets/module paths validated. The archive checker requires a Markdown site-router, but this JSON-driven app has no Markdown document routes. Its skip link now targets the permanent main landmark; all dynamic fragments are validated in the browser. No redundant Markdown router added.",
+  "liveClientTested": false,
+  "realMobileSafariTested": false,
+  "screenReaderTested": false
+}
