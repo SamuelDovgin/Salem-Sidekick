@@ -1,0 +1,579 @@
+{
+  "cleric": {
+    "example": "Cleric\nN1: No Barrier - Grace Period\nN2: Barrier @4 - no attack feedback\nN3: Barrier @7 - attack reported on @7\nN4: Tried Barrier @9 - roleblocked; no protection\nN5: Barrier @11 - attack reported; target died to an Unstoppable attack\nN6: Self Barrier - attacked and protected; self use spent\nN7: Tried Barrier @12 - Unknown Obstacle; no protection",
+    "blank": "Cleric\nN1: [Grace Period: no Barrier / if enabled: action and actual feedback]\nN2: Barrier @[player number] / Self Barrier / hold - [actual feedback]\nN3: Barrier @[player number] / Self Barrier / hold - [actual feedback]\nN4: Barrier @[player number] / Self Barrier / hold - [actual feedback]\nN5: Barrier @[player number] / Self Barrier / hold - [actual feedback]\nN6: Barrier @[player number] / Self Barrier / hold - [actual feedback]\nN7: Barrier @[player number] / Self Barrier / hold - [actual feedback]",
+    "note": "Quiet Self Barrier is another possible outcome and still spends the only self use. Attack feedback alone does not prove your Barrier stopped the attack.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "psychic": {
+    "example": "Psychic\nN1 Good: @4, @9 (selected @4)\nN2 Evil: @2, @7, @11 (selected @7)\nN3 Good: @6, @12 (selected @6)\nN4: Tried vision on @10 - roleblocked; no vision\nN5 Good: @3, @14 (selected @14)\nN6: Tried vision on @8 - Unknown Obstacle; no vision\nN7 Good: @5, @13 (selected @5)",
+    "blank": "Psychic\nN1 Good: @[selected player number], @[other player number] - [actual vision / failure shown]\nN2 Evil: @[selected player number], @[other player number], @[other player number] - [actual vision / failure shown]\nN3 Good: @[selected player number], @[other player number] - [actual vision / failure shown]\nN4 Evil: @[selected player number], @[other player number], @[other player number] - [actual vision / failure shown]\nN5 Good: @[selected player number], @[other player number] - [actual vision / failure shown]\nN6 Evil: @[selected player number], @[other player number], @[other player number] - [actual vision / failure shown]\nN7 Good: @[selected player number], @[other player number] - [actual vision / failure shown]",
+    "note": "Odd nights use a Good pair; even nights use an Evil trio. A prevented vision has no group. Late-game special feedback should be copied as received.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "sheriff": {
+    "example": "Sheriff\nN1: Search @4 - Innocent\nN2: Search @7 - Suspicious\nN3: Tried Search @9 - roleblocked; no result\nN4: Tried Search @11 - target jailed; no result\nN5: Tried Search @12 - Unknown Obstacle; no result\nN6: Search @14 - Innocent\nN7: Held Search - no target selected",
+    "blank": "Sheriff\nN1: Search @[player number] - [Innocent / Suspicious / failure shown / held]\nN2: Search @[player number] - [Innocent / Suspicious / failure shown / held]\nN3: Search @[player number] - [Innocent / Suspicious / failure shown / held]\nN4: Search @[player number] - [Innocent / Suspicious / failure shown / held]\nN5: Search @[player number] - [Innocent / Suspicious / failure shown / held]\nN6: Search @[player number] - [Innocent / Suspicious / failure shown / held]\nN7: Search @[player number] - [Innocent / Suspicious / failure shown / held]",
+    "note": "",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "investigator": {
+    "example": "Investigator\nN1: Investigate @4 - No Crime\nN2: Investigate @7 - Trespassing\nN3: Investigate @9 - Murder\nN4: Investigate @11 - Murder and Trespassing\nN5: Tried Investigate @12 - roleblocked; no result\nN6: Tried Investigate @14 - Unknown Obstacle; no result\nN7: Held investigation - no target selected",
+    "blank": "Investigator\nN1: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]\nN2: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]\nN3: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]\nN4: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]\nN5: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]\nN6: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]\nN7: Investigate @[player number] - [No Crime / Murder / Trespassing / both / failure shown / held]",
+    "note": "",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "lookout": {
+    "example": "Lookout\nN1: Watch @4 - visitors @7, @9\nN2: Watch @11 - no visible visitors\nN3: Watch @6 - visitor @12\nN4: Tried Watch @8 - roleblocked; no result\nN5: Tried Watch @10 - target jailed; no result\nN6: Tried Watch @14 - Unknown Obstacle; no result\nN7: Held Watch - no target selected",
+    "blank": "Lookout\nN1: Watch @[house player number] - [visible visitors / none visible / failure shown / held]\nN2: Watch @[house player number] - [visible visitors / none visible / failure shown / held]\nN3: Watch @[house player number] - [visible visitors / none visible / failure shown / held]\nN4: Watch @[house player number] - [visible visitors / none visible / failure shown / held]\nN5: Watch @[house player number] - [visible visitors / none visible / failure shown / held]\nN6: Watch @[house player number] - [visible visitors / none visible / failure shown / held]\nN7: Watch @[house player number] - [visible visitors / none visible / failure shown / held]",
+    "note": "No visible visitors is a completed observation; it excludes astral traffic. A prevented Watch gives no list.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "tracker": {
+    "example": "Tracker\nN1: Track @4 -> @9\nN2: Track @7 -> no visible visit\nN3: Track @11 -> @2, @6\nN4: Tried Track @8 - roleblocked; no result\nN5: Tried Track @10 - target jailed; no result\nN6: Tried Track @14 - Unknown Obstacle; no result\nN7: Held Track - no target selected",
+    "blank": "Tracker\nN1: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]\nN2: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]\nN3: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]\nN4: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]\nN5: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]\nN6: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]\nN7: Track @[tracked player number] -> [visible destinations / no visible visit / failure shown / held]",
+    "note": "",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "seer": {
+    "example": "Seer\nN1: @4 + @9 - Enemies\nN2: @2 + @11 - Friends\nN3: Tried @6 + @12 - roleblocked; no comparison\nN4: Tried @3 + @14 - Unknown Obstacle; no comparison\nN5: @5 + @13 - Enemies\nN6: Held - reviewed earlier pairs\nN7: Held - no new legal pair chosen",
+    "blank": "Seer\nN1: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]\nN2: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]\nN3: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]\nN4: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]\nN5: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]\nN6: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]\nN7: @[eligible player number] + @[eligible player number] - [Friends / Enemies / failure shown / held]",
+    "note": "Each illustrated attempted pair uses fresh numbers. Follow the live client restrictions; a failed comparison is neither Friends nor Enemies.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "spy": {
+    "example": "Spy\nN1: Bug @4 - no trigger\nN2: Bug @7 - @4 Bug reported a Jinx visit\nN3: Tried Bug @9 - Unknown Obstacle; placement failed\nN4: Bug @11 - no trigger\nN5: Held new Bug - @7 Bug reported a Voodoo Master visit\nN6: Tried Bug @12 - roleblocked; placement failed\nN7: Held new Bug - no trigger from existing Bugs",
+    "blank": "Spy\nN1: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]\nN2: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]\nN3: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]\nN4: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]\nN5: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]\nN6: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]\nN7: [new Bug @[player number] / hold] - [placement feedback]; existing Bug @[house player number]: [reported role / no trigger]",
+    "note": "Later triggers can come from old Bugs. The house number names the bugged resident, not the evil visitor.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "coroner": {
+    "example": "Coroner\nN1: No Autopsy available - no Examine\nD2: Autopsy @6 - killer role Poisoner\nN2: Examine @9 - no match\nD3: Autopsy @8 - killer role Serial Killer\nN3: Examine @11 - match to an autopsied killer\nN4: Tried Examine @12 - roleblocked; no result\nN5: Tried Examine @14 - Unknown Obstacle; no result\nN6: Examine @4 - no match\nN7: Held Examine - no new target selected",
+    "blank": "Coroner\nN1: [no Autopsy available / actual enabled action]\nD2: [Autopsy @[corpse player number] - killer role(s) / no new Autopsy]\nN2: Examine @[player number] - [match / no match / failure shown / held]\nD3: [Autopsy @[corpse player number] - killer role(s) / no new Autopsy]\nN3: Examine @[player number] - [match / no match / failure shown / held]\nD4: [Autopsy @[corpse player number] - killer role(s) / no new Autopsy]\nN4: Examine @[player number] - [match / no match / failure shown / held]\nD5: [Autopsy @[corpse player number] - killer role(s) / no new Autopsy]\nN5: Examine @[player number] - [match / no match / failure shown / held]\nD6: [Autopsy @[corpse player number] - killer role(s) / no new Autopsy]\nN6: Examine @[player number] - [match / no match / failure shown / held]\nD7: [Autopsy @[corpse player number] - killer role(s) / no new Autopsy]\nN7: Examine @[player number] - [match / no match / failure shown / held]",
+    "note": "Autopsies accumulate. Matching uses your collected killer records; no match is not a Town clear.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "bodyguard": {
+    "example": "Bodyguard\nN1: No Guard - Grace Period\nN2: Guard @4 - no interception reported\nN3: Tried Guard @7 - roleblocked; no interception\nN4: Self Protect - attacked and survived; self use 1/2\nN5: Self Protect - no attack feedback; self use 2/2\nN6: Tried Guard @9 - Unknown Obstacle; no interception\nN7: Guard @11 - fought a harmful visitor; killed while guarding",
+    "blank": "Bodyguard\nN1: [Grace Period: no Guard / if enabled: action and actual feedback]\nN2: [Guard @[player number] / Self Protect / hold] - [actual feedback]\nN3: [Guard @[player number] / Self Protect / hold] - [actual feedback]\nN4: [Guard @[player number] / Self Protect / hold] - [actual feedback]\nN5: [Guard @[player number] / Self Protect / hold] - [actual feedback]\nN6: [Guard @[player number] / Self Protect / hold] - [actual feedback]\nN7: [Guard @[player number] / Self Protect / hold] - [actual feedback]",
+    "note": "A fatal interception ends your entries. A surviving interception requires real supporting survival/protection feedback; it is not guaranteed by selecting Guard.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "crusader": {
+    "example": "Crusader\nN1: No Fortify - Grace Period\nN2: Fortify @4 - no target-attack or visitor-attack feedback\nN3: Fortify @7 - target attacked; no visitor attack reported\nN4: Fortify @9 - attacked a visitor; identity not given\nN5: Fortify @11 - target attacked; attacked a visitor\nN6: Tried Fortify @12 - roleblocked; no protection or visitor attack\nN7: Tried Fortify @14 - Unknown Obstacle; no action",
+    "blank": "Crusader\nN1: [Grace Period: no Fortify / if enabled: action and actual feedback]\nN2: Fortify @[player number] - [target-attack feedback]; [visitor-attack feedback / failure shown]\nN3: Fortify @[player number] - [target-attack feedback]; [visitor-attack feedback / failure shown]\nN4: Fortify @[player number] - [target-attack feedback]; [visitor-attack feedback / failure shown]\nN5: Fortify @[player number] - [target-attack feedback]; [visitor-attack feedback / failure shown]\nN6: Fortify @[player number] - [target-attack feedback]; [visitor-attack feedback / failure shown]\nN7: Fortify @[player number] - [target-attack feedback]; [visitor-attack feedback / failure shown]",
+    "note": "Protection and visitor attacks are separate notices. Neither the visitor identity nor a kill is supplied by the attack notice.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "oracle": {
+    "example": "Oracle\nN1: No Aegis - Grace Period\nN2: Aegis Sheriff - no protection feedback\nN3: Aegis Seer - Aegis protection reported\nN4: Tried Aegis Cleric - roleblocked; no protection\nN5: Aegis Oracle - self-role use spent; no protection feedback\nN6: Aegis Lookout - Aegis protection reported\nN7: Held Aegis - no role selected",
+    "blank": "Oracle\nN1: [Grace Period: no Aegis / if enabled: chosen Town role and actual feedback]\nN2: Aegis [Town role] / hold - [actual feedback]\nN3: Aegis [Town role] / hold - [actual feedback]\nN4: Aegis [Town role] / hold - [actual feedback]\nN5: Aegis [Town role] / hold - [actual feedback]\nN6: Aegis [Town role] / hold - [actual feedback]\nN7: Aegis [Town role] / hold - [actual feedback]",
+    "note": "The Aegis notice does not identify a player or protected role. Rotate consecutive role choices; Oracle is a once-only self-role choice. Visits are astral.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+      "https://townofsalem.wiki.gg/wiki/Actions_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "trapper": {
+    "example": "Trapper\nN1: Build - Trap ready\nN2: Place on @4 - Trap remains active\nN3: Trap on @4 triggered - visitor roles Cleric, Sheriff\nN4: Build - Trap ready again\nN5: Place on @7 - no trigger reported\nN6: Dismantle @7 Trap - rebuilt for next night\nN7: Place on @9 - harmful visitor intercepted",
+    "blank": "Trapper\nN1: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]\nN2: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]\nN3: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]\nN4: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]\nN5: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]\nN6: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]\nN7: [Build / place on @[player number] / active Trap / Dismantle] - [actual state and feedback]",
+    "note": "A triggered Trap needs a build night before another placement. A failed build stays unready; a failed placement establishes no new trapped house.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "deputy": {
+    "example": "Deputy\nN1: No night ability\nD2: Held shot - insufficient evidence\nN2: No night ability\nD3: Shot @9 - Miss; only shot spent\nN3: No night ability\nN4: No night ability\nN5: No night ability\nN6: No night ability\nN7: No night ability",
+    "blank": "Deputy\nN1: No night ability\nD2: [held / High Noon @[player number] - actual outcome / shot already spent]\nN2: No night ability\nD3: [held / High Noon @[player number] - actual outcome / shot already spent]\nN3: No night ability\nD4: [held / High Noon @[player number] - actual outcome / shot already spent]\nN4: No night ability\nD5: [held / High Noon @[player number] - actual outcome / shot already spent]\nN5: No night ability\nD6: [held / High Noon @[player number] - actual outcome / shot already spent]\nN6: No night ability\nD7: [held / High Noon @[player number] - actual outcome / shot already spent]\nN7: No night ability",
+    "note": "Alternative for the same single shot: a hit records the actual public outcome. A miss is private and still spends it; these cannot be two shots in one ordinary game.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "trickster": {
+    "example": "Trickster\nN1: Held Mirror - checked N1 restrictions\nN2: Mirror @4 - no absorption\nN3: Mirror @7 - absorbed a Vigilante attack\nN4: Held stored Vigilante attack - no new Mirror\nN5: Unleash @9 - target survived; stored attack spent\nN6: Self Mirror - no absorption; self use spent\nN7: Tried Mirror @11 - roleblocked; no absorption",
+    "blank": "Trickster\nN1: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]\nN2: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]\nN3: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]\nN4: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]\nN5: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]\nN6: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]\nN7: [Mirror @[player number] / Self Mirror / stored attack held / Unleash @[player number]] - [actual feedback]",
+    "note": "Other possible outcomes include a lethal Unleash or a shattered Mirror. Use only the reported attacker role, and never add a Mirror while an absorbed attack is still stored.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "veteran": {
+    "example": "Veteran\nN1: No Alert - held charge\nN2: Alert - no visitor shots reported; use 1/3\nN3: No Alert\nN4: Alert - shot 1 visitor; use 2/3\nN5: No Alert\nN6: Alert - shot 2 visitors; use 3/3\nN7: No Alert - no charges left",
+    "blank": "Veteran\nN1: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3\nN2: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3\nN3: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3\nN4: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3\nN5: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3\nN6: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3\nN7: [Alert / No Alert / prevented] - [reported shot count]; [uses spent]/3",
+    "note": "A shot count supplies neither identities nor a guaranteed kill count. Preserve an interrupted Alert instead of inventing shots or guessing whether its charge was spent.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "vigilante": {
+    "example": "Vigilante\nN1: Load - loaded\nN2: Shoot @9 - defense feedback; target survived\nN3: Load - loaded\nN4: Shoot @11 - target died; non-Town reveal\nN5: Load - loaded\nN6: Shoot @12 - target died; Town reveal; gun lost\nN7: No shot - gun lost",
+    "blank": "Vigilante\nN1: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3\nN2: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3\nN3: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3\nN4: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3\nN5: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3\nN6: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3\nN7: [Load / Shoot @[player number] / hold / gun lost] - [actual feedback]; [loads used]/3",
+    "note": "Load and Shoot use separate nights. Failed loading does not supply a bullet; a Town-hit penalty ends further shooting.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "admirer": {
+    "example": "Admirer\nObsession clue: TP\nN1: Admire @4 - not Obsession\nD2: Bestow @7 - use 1/2\nN2: Tried Admire @9 - roleblocked; no result\nN3: Admire @11 - found Obsession\nD4: Bestow @11 - use 2/2\nN4: Care - no attack feedback; Care use 1/2\nN5: Held Care - one use left\nN6: Care - Obsession attacked; Care use 2/2\nN7: No Care - both uses spent",
+    "blank": "Admirer\nObsession clue: [subalignment]\nN1: [Admire @[player number] / Care / hold] - [actual feedback]\nD2: [Bestow @[player number] - actual outcome / hold]; [Bestow uses spent]/2\nN2: [Admire @[player number] / Care / hold] - [actual feedback]\nD3: [Bestow @[player number] - actual outcome / hold]; [Bestow uses spent]/2\nN3: [Admire @[player number] / Care / hold] - [actual feedback]\nD4: [Bestow @[player number] - actual outcome / hold]; [Bestow uses spent]/2\nN4: [Admire @[player number] / Care / hold] - [actual feedback]\nD5: [Bestow @[player number] - actual outcome / hold]; [Bestow uses spent]/2\nN5: [Admire @[player number] / Care / hold] - [actual feedback]\nD6: [Bestow @[player number] - actual outcome / hold]; [Bestow uses spent]/2\nN6: [Admire @[player number] / Care / hold] - [actual feedback]\nD7: [Bestow @[player number] - actual outcome / hold]; [Bestow uses spent]/2\nN7: [Admire @[player number] / Care / hold] - [actual feedback]",
+    "note": "Care unlocks after finding the Obsession. A quiet Care still spends a use. An Obsession dying before discovery is a different case from dying after discovery.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "amnesiac": {
+    "example": "Amnesiac\nN1: Waiting to remember - no night ability\nD2: Remembered Sheriff\nN2: Sheriff - Search @9 - Innocent\nN3: Sheriff - Search @7 - Suspicious\nN4: Sheriff - tried Search @11; roleblocked; no result\nN5: Sheriff - Search @12 - Innocent\nN6: Sheriff - tried Search @14; Unknown Obstacle; no result\nN7: Sheriff - held Search",
+    "blank": "Amnesiac\nRemembered D[day]: [new role / not yet remembered]\nN1: [waiting / current role action, target and actual feedback]\nN2: [waiting / current role action, target and actual feedback]\nN3: [waiting / current role action, target and actual feedback]\nN4: [waiting / current role action, target and actual feedback]\nN5: [waiting / current role action, target and actual feedback]\nN6: [waiting / current role action, target and actual feedback]\nN7: [waiting / current role action, target and actual feedback]",
+    "note": "This branch remembers Sheriff once. If you remember another role, use that role's actions from the transition onward; do not continue an Amnesiac night power.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "retributionist": {
+    "example": "Retributionist\nN1: No usable corpse\nN2: Sheriff @6 -> @9 - Innocent\nN3: Tried Sheriff @6 -> @11 - corpse missing; no result\nN4: Cleric @8 -> @4 - no attack feedback\nN5: Cleric @8 -> @7 - attack reported on @7\nN6: Tried Sheriff @6 -> @12 - destination jailed; no result\nN7: Sheriff @6 -> @14 - Suspicious",
+    "blank": "Retributionist\nN1: [no usable corpse / actual legal corpse action]\nN2: @[corpse player number] [true corpse role] -> @[living target number] - [borrowed feedback / failure shown / held]\nN3: @[corpse player number] [true corpse role] -> @[living target number] - [borrowed feedback / failure shown / held]\nN4: @[corpse player number] [true corpse role] -> @[living target number] - [borrowed feedback / failure shown / held]\nN5: @[corpse player number] [true corpse role] -> @[living target number] - [borrowed feedback / failure shown / held]\nN6: @[corpse player number] [true corpse role] -> @[living target number] - [borrowed feedback / failure shown / held]\nN7: @[corpse player number] [true corpse role] -> @[living target number] - [borrowed feedback / failure shown / held]",
+    "note": "The sample requires those legal Town corpses. You visit the corpse; the raised body visits its destination. You are roleblock/control immune, and cannot use normal self-protection.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "socialite": {
+    "example": "Socialite\nN1: Held Party - no house selected\nD2: Invite @7 - guest 1/2\nN2: Party @4 - rejected someone\nD3: Invite @9 - guest 2/2\nN3: Party @11 - no uninvited visitors\nN4: Tried Party @6 - Unknown Obstacle; no Party\nN5: Party @12 - rejected someone\nN6: Held Party\nN7: Party @14 - no uninvited visitors",
+    "blank": "Socialite\nN1: [Party @[house player number] / hold] - [rejection feedback / failure shown]\nD2: [Invite @[player number] / hold]; [manual guests added]/2\nN2: [Party @[house player number] / hold] - [rejection feedback / failure shown]\nD3: [Invite @[player number] / hold]; [manual guests added]/2\nN3: [Party @[house player number] / hold] - [rejection feedback / failure shown]\nD4: [Invite @[player number] / hold]; [manual guests added]/2\nN4: [Party @[house player number] / hold] - [rejection feedback / failure shown]\nD5: [Invite @[player number] / hold]; [manual guests added]/2\nN5: [Party @[house player number] / hold] - [rejection feedback / failure shown]\nD6: [Invite @[player number] / hold]; [manual guests added]/2\nN6: [Party @[house player number] / hold] - [rejection feedback / failure shown]\nD7: [Invite @[player number] / hold]; [manual guests added]/2\nN7: [Party @[house player number] / hold] - [rejection feedback / failure shown]",
+    "note": "No consecutive repeat house; only two manual invitations, at most one per day. The role is roleblock/control immune; an obstacle is a different failure.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "tavern-keeper": {
+    "example": "Tavern Keeper\nN1: Drink @4 - visit completed; no special result\nN2: Tried Drink @7 - Unknown Obstacle\nN3: Drink @9 - roleblock-immune feedback\nN4: Held Drink\nN5: Drink @11 - visit completed\nN6: Tried Drink @12 - target jailed\nN7: Drink @14 - visit completed",
+    "blank": "Tavern Keeper\nN1: Drink @[player number] / hold - [actual feedback]\nN2: Drink @[player number] / hold - [actual feedback]\nN3: Drink @[player number] / hold - [actual feedback]\nN4: Drink @[player number] / hold - [actual feedback]\nN5: Drink @[player number] / hold - [actual feedback]\nN6: Drink @[player number] / hold - [actual feedback]\nN7: Drink @[player number] / hold - [actual feedback]",
+    "note": "A completed visit does not identify a killer. Rotate targets after successful blocks because of Hangover. Serial Killer retaliation is a dangerous separate outcome.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "catalyst": {
+    "example": "Catalyst\nN1: Overcharge @4 - application completed\nD2: @4 reported extra-action availability - recipient report\nN2: Tried Overcharge @7 - roleblocked; no application\nN3: Tried Overcharge @9 - Unknown Obstacle\nN4: Overcharge @11 - application completed\nN5: Held Overcharge\nN6: Overcharge @12 - application completed\nN7: Tried Overcharge @14 - target jailed",
+    "blank": "Catalyst\nN1: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]\nN2: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]\nN3: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]\nN4: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]\nN5: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]\nN6: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]\nN7: Overcharge @[player number] / hold - [application feedback]; affected cycle: [confirmed timing]",
+    "note": "Applying Overcharge and receiving a report of extra actions are different evidence. Do not promise a universal same-night effect.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "pilgrim": {
+    "example": "Pilgrim\nN1: No night ability\nD2: @4 claimed TP - public claim\nN2: No night ability\nD3: @7 changed their claimed N1 target - public contradiction\nN3: No night ability\nD4: Voted @7 based on that contradiction\nN4: No night ability\nD5: @9 posted a different account - needs comparison\nN5: No night ability\nN6: No night ability\nN7: No night ability",
+    "blank": "Pilgrim\nN1: No night ability\nD2: [public claim, vote or observation - why it matters]\nN2: No night ability\nD3: [public claim, vote or observation - why it matters]\nN3: No night ability\nD4: [public claim, vote or observation - why it matters]\nN4: No night ability\nD5: [public claim, vote or observation - why it matters]\nN5: No night ability\nD6: [public claim, vote or observation - why it matters]\nN6: No night ability\nD7: [public claim, vote or observation - why it matters]\nN7: No night ability",
+    "note": "Day notes are observations and reasoning, not role results.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "jailor": {
+    "example": "Jailor\nN1: Jail @4 - claimed Cleric; released\nN2: Jail @7 - claimed Sheriff; released\nN3: Jail @9 - selected Execute; prisoner died; non-Town reveal\nN4: Jail @11 - selected Execute; prisoner survived\nN5: Jail @12 - claimed Lookout; released\nN6: Jail @14 - selected Execute; prisoner died; Town reveal; abilities lost\nN7: No jail - abilities lost",
+    "blank": "Jailor\nN1: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]\nN2: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]\nN3: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]\nN4: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]\nN5: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]\nN6: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]\nN7: [Jail @[prisoner number] / no prisoner] - claimed [role]; [released / Execute selected]; [actual outcome]",
+    "note": "There is no N1 execution. The three selected executions here are separate from their outcomes; the Town execution ends further abilities. A survived attempt is not a release.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "marshal": {
+    "example": "Marshal\nN1: No night ability\nD2: Held Tribunal\nN2: No night ability\nD3: Tribunal - @4, @9 executed; use 1/2\nN3: No night ability\nD4: Held Tribunal\nN4: No night ability\nD5: Tribunal - @7 executed; use 2/2\nN5: No night ability\nN6: No night ability\nN7: No night ability",
+    "blank": "Marshal\nN1: No night ability\nD2: [held / Tribunal - actual executions]; [uses spent]/2\nN2: No night ability\nD3: [held / Tribunal - actual executions]; [uses spent]/2\nN3: No night ability\nD4: [held / Tribunal - actual executions]; [uses spent]/2\nN4: No night ability\nD5: [held / Tribunal - actual executions]; [uses spent]/2\nN5: No night ability\nD6: [held / Tribunal - actual executions]; [uses spent]/2\nN6: No night ability\nD7: [held / Tribunal - actual executions]; [uses spent]/2\nN7: No night ability",
+    "note": "Tribunals are public day events, at most one per day and two total in this baseline. List actual executions without treating the event as an alignment check.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "mayor": {
+    "example": "Mayor\nN1: No night ability\nD2: Remained hidden\nN2: No night ability\nD3: Revealed - public event\nN3: No night ability\nD4: Voted @9 - public vote\nN4: No night ability\nD5: Voted @11 - public vote\nN5: No night ability\nN6: No night ability\nN7: No night ability",
+    "blank": "Mayor\nN1: No night ability\nD2: [hidden / Reveal / public vote note]\nN2: No night ability\nD3: [hidden / Reveal / public vote note]\nN3: No night ability\nD4: [hidden / Reveal / public vote note]\nN4: No night ability\nD5: [hidden / Reveal / public vote note]\nN5: No night ability\nD6: [hidden / Reveal / public vote note]\nN6: No night ability\nD7: [hidden / Reveal / public vote note]\nN7: No night ability",
+    "note": "Reveal is a one-time public day action. Later votes are observations, not fresh Reveal uses or night investigations.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "monarch": {
+    "example": "Monarch\nN1: Held Knight - no trusted recipient\nN2: Knight @4 - completed D3; use 1/2\nN3: Held Knight\nN4: Knight @7 - completed D5; use 2/2\nN5: No new Knight - both uses spent\nN6: No new Knight - @4 died; @7 still living\nN7: No new Knight - @7 still living",
+    "blank": "Monarch\nLiving Knights: [player numbers]\nN1: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2\nN2: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2\nN3: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2\nN4: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2\nN5: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2\nN6: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2\nN7: [held / Knight @[player number] - attempted/completed/failed]; [actual uses spent]/2",
+    "note": "A failed Knight is another possible branch: preserve the actual feedback and charge state. Do not assume a selected target was knighted or that its allegiance is Town.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "prosecutor": {
+    "example": "Prosecutor\nN1: No night ability\nD2: Held Prosecute\nN2: No night ability\nD3: Prosecuted @9 - non-Town reveal; use 1/2\nN3: No night ability\nD4: Held Prosecute\nN4: No night ability\nD5: Prosecuted @11 - Town reveal; remaining ability lost\nN5: No night ability\nN6: No night ability\nN7: No night ability",
+    "blank": "Prosecutor\nN1: No night ability\nD2: [held / Prosecute @[player number] - actual outcome / ability lost]; [charge state]\nN2: No night ability\nD3: [held / Prosecute @[player number] - actual outcome / ability lost]; [charge state]\nN3: No night ability\nD4: [held / Prosecute @[player number] - actual outcome / ability lost]; [charge state]\nN4: No night ability\nD5: [held / Prosecute @[player number] - actual outcome / ability lost]; [charge state]\nN5: No night ability\nD6: [held / Prosecute @[player number] - actual outcome / ability lost]; [charge state]\nN6: No night ability\nD7: [held / Prosecute @[player number] - actual outcome / ability lost]; [charge state]\nN7: No night ability",
+    "note": "Prosecutions must match public day events. At most one per day; a Town prosecution removes the remaining ability.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)"
+    ],
+    "scope": "public-claim"
+  },
+  "archmage": {
+    "example": "Archmage\nN1: Held Retrain - kept current team roles\nN2: Retrain ally @3 -> Poisoner - accepted\nN3: Retrain ally @5 -> Illusionist - declined; no role change\nN4: Book attack @9 - target survived\nN5: Book attack @11 - target died\nN6: Tried Book attack @12 - Unknown Obstacle\nN7: Held - kept current role",
+    "blank": "Archmage\nBook: [holder / night gained or lost]\nN1: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]\nN2: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]\nN3: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]\nN4: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]\nN5: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]\nN6: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]\nN7: [Retrain @[ally number] -> eligible role / Book attack @[player number] / hold] - [actual outcome]",
+    "note": "Retrain and book attacks are alternative actions. Check availability and the recipient role card; an accepted role change is not an investigative reveal.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "hex-master": {
+    "example": "Hex Master\nN1: Hex @4 - applied\nN2: Tried Hex @7 - Unknown Obstacle; no new Hex\nN3: Hex @9 - applied\nN4: Hex @11 - applied\nN5: Book Hex/attack @12 - attack failed; record actual Hex state\nN6: Book Hex/attack @14 - target died\nN7: Held - checked remaining living unhexed opponents",
+    "blank": "Hex Master\nBook: [state]\nLiving Hex marks: [player numbers]\nN1: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]\nN2: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]\nN3: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]\nN4: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]\nN5: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]\nN6: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]\nN7: [Hex / Book Hex/attack] @[player number] / hold - [Hex state and attack feedback]",
+    "note": "A placed Hex, book attack and final Hex Bomb are different events. Do not mark a failed selection as a completed Hex or promise a Bomb before its conditions hold.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "witch": {
+    "example": "Witch\nN1: Control @4 -> @7 - @4 revealed Cleric; no Barrier during Grace Period\nN2: Control @9 -> @11 - @9 revealed Sheriff; stolen result on @11: Innocent\nN3: Tried Control @12 -> @14 - Control prevented; no stolen result\nN4: Control @7 -> @4 - role revealed; no ability feedback received\nN5: Tried Control @11 -> @9 - Unknown Obstacle; no Control\nN6: Held Control\nN7: Control @14 -> @12 - @14 revealed Cleric; target-attack feedback received",
+    "blank": "Witch\nBook: [state]\nN1: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]\nN2: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]\nN3: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]\nN4: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]\nN5: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]\nN6: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]\nN7: Control @[controlled player number] -> @[destination number] / hold - [role reveal]; [borrowed result / failure shown]",
+    "note": "Revealed roles become Coven knowledge. Borrowed result feedback belongs to Witch. Only the first player is your ordinary visit; the second is the directed destination.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "conjurer": {
+    "example": "Conjurer\nN1: No book - no night attack\nD2: Held Meteor\nN2: No book - no night attack\nD3: Meteor @9 - target died; only Meteor spent\nN3: No book - no night attack\nN4: Gained book; attack @11 - target survived\nN5: Book attack @12 - target died\nN6: Tried Book attack @14 - Unknown Obstacle\nN7: Held Book attack",
+    "blank": "Conjurer\nBook: [holder / night gained or lost]\nN1: [no book / Book attack @[player number] / hold] - [actual outcome]\nD2: [Meteor @[player number] - actual outcome / held / Meteor already spent]\nN2: [no book / Book attack @[player number] / hold] - [actual outcome]\nD3: [Meteor @[player number] - actual outcome / held / Meteor already spent]\nN3: [no book / Book attack @[player number] / hold] - [actual outcome]\nD4: [Meteor @[player number] - actual outcome / held / Meteor already spent]\nN4: [no book / Book attack @[player number] / hold] - [actual outcome]\nD5: [Meteor @[player number] - actual outcome / held / Meteor already spent]\nN5: [no book / Book attack @[player number] / hold] - [actual outcome]\nD6: [Meteor @[player number] - actual outcome / held / Meteor already spent]\nN6: [no book / Book attack @[player number] / hold] - [actual outcome]\nD7: [Meteor @[player number] - actual outcome / held / Meteor already spent]\nN7: [no book / Book attack @[player number] / hold] - [actual outcome]",
+    "note": "Alternative Meteor outcome: target survives a defended attack; the single day use is still spent. Meteor and a later book attack are separate abilities.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "ritualist": {
+    "example": "Ritualist\nN1: Held Ritual - Grace Period\nN2: Ritual @4 as Cleric - no result received; attempt 1/2 spent\nN3: Held Ritual - no supported exact-role guess\nN4: Ritual @7 as Vigilante - correct-guess notice; target died; attempt 2/2 spent\nN5: No Ritual attempts left; no book\nN6: Gained book; attack @9 - target survived\nN7: Book attack @11 - target died",
+    "blank": "Ritualist\nBook: [state]\nN1: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2\nN2: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2\nN3: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2\nN4: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2\nN5: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2\nN6: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2\nN7: [Ritual @[eligible player number] as exact role / Book attack @[player number] / hold] - [actual feedback]; [Ritual attempts spent]/2",
+    "note": "A wrong guess can be silent and still spend an attempt. Do not guess TIs or Illuminated players. A correct guess does not defeat Invincible Defense.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "jinx": {
+    "example": "Jinx\nN1: Held Jinx - Grace Period\nN2: Jinx @4 - no visitor attack reported\nN3: Jinx @7 - attacked a visitor; identity not given\nN4: Tried Jinx @9 - Unknown Obstacle\nN5: Jinx @11 - visitor attacked; no matching visitor death\nN6: Gained book; Jinx @12 - resident attack and visitor attack recorded separately\nN7: Held Jinx",
+    "blank": "Jinx\nBook: [state]\nN1: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]\nN2: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]\nN3: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]\nN4: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]\nN5: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]\nN6: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]\nN7: Jinx @[house player number] / hold - [visitor-attack feedback]; [book resident-attack outcome]",
+    "note": "A visitor who survives can know you are Jinx. The notice names your identity and the house; it does not give you a full visitor list.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "dreamweaver": {
+    "example": "Dreamweaver\nN1: Dreamweave @4 - applied\nN2: Dreamweave @7 - applied; @4 later reported cured by Town visit\nN3: Tried Dreamweave @9 - Unknown Obstacle\nN4: Dreamweave @11 - applied\nN5: Held - kept prior Dreamweave states separate\nN6: Gained book; attack @12 - target survived\nN7: Book attack @14 - target died",
+    "blank": "Dreamweaver\nBook: [state]\nN1: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]\nN2: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]\nN3: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]\nN4: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]\nN5: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]\nN6: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]\nN7: [Dreamweave / Book attack] @[player number] / hold - [application/attack feedback]; earlier effects: [known state]",
+    "note": "Applied Dreamweave is not immediate Insomnia. Label a victim's report as their report; do not invent private state feedback. Death/retraining can clear effects.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "enchanter": {
+    "example": "Enchanter\nN1: Enchant @4 - action completed; no true-role reveal\nN2: Alterate @7 as Town Sheriff with replacement will - target survived; use 1/2 spent\nN3: Enchant @9 - action completed\nN4: Alterate @11 as Town Cleric with replacement will - target died; forgery shown; use 2/2 spent\nN5: Tried Enchant @12 - roleblocked\nN6: Gained book; attack @14 - target survived\nN7: Held - no new action",
+    "blank": "Enchanter\nBook: [state]\nAlterate uses: [spent]/2\nN1: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]\nN2: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]\nN3: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]\nN4: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]\nN5: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]\nN6: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]\nN7: [Enchant @[player number] / Alterate @[player number] as role and faction / Book attack / hold] - [actual outcome]",
+    "note": "Alterate requires the death timing to match; a surviving target does not establish a successful forgery. Keep the replacement will and two-use count privately.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "illusionist": {
+    "example": "Illusionist\nN1: Illusion ally @3 - no special feedback\nN2: Phantasm - team-wide use spent\nN3: Illusion ally @5 - no special feedback\nD4: Disguise set to Town Sheriff\nN4: Tried Illusion ally @3 - roleblocked\nN5: Gained book; attack @9 - target survived; no Illusion that night\nN6: Book attack @11 - target died\nN7: Held - retained Disguise setting",
+    "blank": "Illusionist\nBook: [state]\nDisguise: [shown role and faction]\nPhantasm: [unused / spent]\nN1: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]\nN2: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]\nN3: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]\nN4: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]\nN5: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]\nN6: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]\nN7: [Illusion @[ally number] / Phantasm / Book attack @[player number] / hold] - [actual outcome]",
+    "note": "Disguise changes shown death information. Illusion and Phantasm do not give real Town abilities or a universal investigator-proof result.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "medusa": {
+    "example": "Medusa\nN1: Held Stone - Grace Period; maintaining TP cover\nN2: Stone @4 - mark applied; charge 1/3\nN3: Stone @7 - mark applied; charge 2/3\nN4: Held Stone - one charge left\nN5: Stone @9 - mark applied; charge 3/3\nN6: No Stone charges; no book\nN7: Gained book; attack @11 - target survived; record actual mark state",
+    "blank": "Medusa\nBook: [state]\nStone marks: [self and other marked players]\nN1: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3\nN2: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3\nN3: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3\nN4: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3\nN5: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3\nN6: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3\nN7: [Stone @[player number] / Book action @[player number] / hold] - [mark state and attack outcome]; [Stone charges spent]/3",
+    "note": "The example spends three ordinary Stone charges. For a failed Stone, preserve actual charge feedback. Stoned is a persistent mark and grants no protection.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "necromancer": {
+    "example": "Necromancer\nN1: No usable corpse\nN2: Sheriff @6 -> @9 - Innocent\nN3: Tried Sheriff @6 -> @11 - corpse missing; no result\nN4: Cleric @8 -> @4 - attack reported on @4\nN5: Serial Killer @10 -> @7 - attack outcome recorded; evil corpse use spent\nN6: Gained book; attack @12 - target survived; no reanimation\nN7: Book attack @14 - target died",
+    "blank": "Necromancer\nBook: [state]\nUsed evil corpses: [player numbers]\nN1: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]\nN2: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]\nN3: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]\nN4: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]\nN5: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]\nN6: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]\nN7: [eligible corpse @[player number] (true role) -> @[destination number] / Book attack / hold] - [actual feedback]",
+    "note": "The example requires those eligible corpses. Each suitable evil corpse has one use; Town corpses differ. Roleblock immunity does not remove corpse/destination restrictions.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "poisoner": {
+    "example": "Poisoner\nN1: Drink @4 - visit completed\nN2: Smog @7 - application attempted; no named visitor list\nN3: Tried Drink @9 - Unknown Obstacle\nN4: Drink @11 - roleblock-immune feedback\nN5: Smog @12 - no confirmed rejection report\nN6: Gained book; attack/Drink @14 - target survived\nN7: Held - no Smog or book attack",
+    "blank": "Poisoner\nBook: [state]\nN1: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]\nN2: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]\nN3: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]\nN4: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]\nN5: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]\nN6: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]\nN7: [Drink / Smog / Book attack-Drink] @[player number] / hold - [actual feedback]",
+    "note": "Drink, Smog and book attack modes must stay distinct. Smog cannot accompany the normal book attack. You are roleblock immune; Smog feedback is not a Socialite quote.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "potion-master": {
+    "example": "Potion Master\nN1: Reveal @4 - Cleric clue received; illuminated\nN2: Barrier ally @3 - no attack feedback\nN3: Barrier ally @5 - attack reported on @5\nN4: Tried Reveal @7 - roleblocked; no reveal\nN5: Self Barrier - attacked and protected\nN6: Gained book; Harmful potion @9 - target survived\nN7: Harmful potion @11 - target died",
+    "blank": "Potion Master\nBook: [state]\nN1: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]\nN2: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]\nN3: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]\nN4: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]\nN5: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]\nN6: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]\nN7: [Reveal / Barrier / Harmful potion] @[player number] / self Barrier / hold - [actual feedback]",
+    "note": "Reveal clues and Barrier attack feedback are different modes. Self Heal is unavailable in a 1v1; ordinary Quiet Barrier is not a save.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "voodoo-master": {
+    "example": "Voodoo Master\nN1: Silence @4 - doll applied\nN2: Deafen @7 - doll applied\nN3: Blind @9 - doll applied\nN4: Tried Silence @11 - roleblocked; no doll applied\nN5: Tried Deafen @12 - Unknown Obstacle\nN6: Gained book; Blind/attack @14 - target survived\nN7: Silence/attack @4 - target died",
+    "blank": "Voodoo Master\nBook: [state]\nN1: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]\nN2: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]\nN3: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]\nN4: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]\nN5: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]\nN6: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]\nN7: [Silence / Deafen / Blind] @[player number] / hold - [actual feedback and book outcome]",
+    "note": "Do not repeat a target on consecutive nights, even when changing doll. A missing victim report is not itself proof of failure.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "wildling": {
+    "example": "Wildling\nN1: Sense @4 - went to @9; visitors @7\nN2: Sense @11 - no visible visit; no visible visitors\nN3: Sense @6 - went to @2, @12; visitors @3\nN4: Tried Sense @8 - roleblocked; no result\nN5: Tried Sense @10 - Unknown Obstacle\nN6: Gained book; Sense/attack @14 - travel report and attack outcome separate\nN7: Held Sense - whisper notes kept separate",
+    "blank": "Wildling\nBook: [state]\nN1: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]\nN2: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]\nN3: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]\nN4: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]\nN5: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]\nN6: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]\nN7: Sense @[player number] / hold - destinations: [actual list]; visitors: [actual list]; [book attack outcome]",
+    "note": "Outgoing destinations and incoming visitors are different lists. Keep overheard text whispers separate from night information; astral travel is absent.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "covenite": {
+    "example": "Covenite\nN1: No book - no role action\nN2: No book - no role action\nN3: Gained book; attack @4 - target survived\nN4: Book attack @7 - target died\nN5: Tried Book attack @9 - roleblocked\nN6: Tried Book attack @11 - Unknown Obstacle\nN7: Held book attack",
+    "blank": "Covenite\nBook: [holder / night gained or lost]\nN1: [no book / Book attack @[player number] / hold] - [actual outcome]\nN2: [no book / Book attack @[player number] / hold] - [actual outcome]\nN3: [no book / Book attack @[player number] / hold] - [actual outcome]\nN4: [no book / Book attack @[player number] / hold] - [actual outcome]\nN5: [no book / Book attack @[player number] / hold] - [actual outcome]\nN6: [no book / Book attack @[player number] / hold] - [actual outcome]\nN7: [no book / Book attack @[player number] / hold] - [actual outcome]",
+    "note": "Without the book there is no special Covenite action. Team information is not a private investigation.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "cultist": {
+    "example": "Cultist\nN1: No book - no night role action\nD2: Held Indoctrinate\nN2: No book - no night role action\nD3: Indoctrinate @4 - joined Coven; retained Cleric role; only use spent\nN3: No book - no night role action\nN4: Gained book; attack @7 - target survived\nN5: Book attack @9 - target died\nN6: Tried Book attack @11 - Unknown Obstacle\nN7: Held book attack",
+    "blank": "Cultist\nBook: [state]\nIndoctrinate: [unused / actual outcome]\nN1: [no book / Book attack @[player number] / hold] - [actual outcome]\nD2: [Indoctrinate @[player number] - actual outcome / held / use spent]\nN2: [no book / Book attack @[player number] / hold] - [actual outcome]\nD3: [Indoctrinate @[player number] - actual outcome / held / use spent]\nN3: [no book / Book attack @[player number] / hold] - [actual outcome]\nD4: [Indoctrinate @[player number] - actual outcome / held / use spent]\nN4: [no book / Book attack @[player number] / hold] - [actual outcome]\nD5: [Indoctrinate @[player number] - actual outcome / held / use spent]\nN5: [no book / Book attack @[player number] / hold] - [actual outcome]\nD6: [Indoctrinate @[player number] - actual outcome / held / use spent]\nN6: [no book / Book attack @[player number] / hold] - [actual outcome]\nD7: [Indoctrinate @[player number] - actual outcome / held / use spent]\nN7: [no book / Book attack @[player number] / hold] - [actual outcome]",
+    "note": "Indoctrinate is a single day ability. Record faction change separately from retained role. A failed conversion must not be logged as a recruited teammate.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "baker": {
+    "example": "Baker\nN1: Feed @4 - Bread given\nN2: Tried Feed @7 - roleblocked; no new recipient\nN3: Feed @9 - Bread given\nN4: Feed @11 - Bread given; three other recipients living\nD5: Became Famine\nN5: Starve @4 - Bread reduced; record actual state\nN6: Starve @9 - Bread reduced; record actual state\nN7: Starve @11 - Bread reduced; record actual state",
+    "blank": "Baker\nLiving Bread recipients: [player numbers]\nTransformation: [not yet / D# became Famine]\nN1: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]\nN2: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]\nN3: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]\nN4: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]\nN5: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]\nN6: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]\nN7: [Feed @[player number] / if transformed: Starve @[player number] / hold] - [actual feedback]",
+    "note": "Transformation depends on living Bread recipients, with a reduced-population exception. Feed becomes Starve only after the role actually changes.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "berserker": {
+    "example": "Berserker\nN1: No attack available\nN2: Attack @4 - target died; kill 1; Powerful unlocked\nN3: Attack @7 - target survived; kill count unchanged\nN4: Attack @9 - target died; kill 2; Rampage unlocked\nN5: Attack @11 - target died; kill 3\nD6: Became War\nN6: War Rampages @12, @14 - actual victims recorded\nN7: War Rampage @8 - actual victims recorded",
+    "blank": "Berserker\nKills: [actual count]\nTransformation: [not yet / D# became War]\nN1: [no normal Berserker attack / actual setup exception]\nN2: [Attack @[player number] / if War: up to two Rampage targets / hold] - [actual kills and progression]\nN3: [Attack @[player number] / if War: up to two Rampage targets / hold] - [actual kills and progression]\nN4: [Attack @[player number] / if War: up to two Rampage targets / hold] - [actual kills and progression]\nN5: [Attack @[player number] / if War: up to two Rampage targets / hold] - [actual kills and progression]\nN6: [Attack @[player number] / if War: up to two Rampage targets / hold] - [actual kills and progression]\nN7: [Attack @[player number] / if War: up to two Rampage targets / hold] - [actual kills and progression]",
+    "note": "Count actual kills, not attempts. War is a new state with different targeting; preserve the transition day.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "plaguebearer": {
+    "example": "Plaguebearer\nSeeded infections: @2, @15\nN1: Infect @4 - infection applied\nN2: Infect @7 - infection applied; propagation recorded separately\nN3: Tried Infect @9 - Unknown Obstacle; no direct new infection\nN4: Infect @11 - all living opponents now infected\nD5: Became Pestilence\nN5: Spread Pestilence @4 - stack state recorded\nN6: Spread Pestilence @7 - stack state recorded\nN7: Spread Pestilence @11 - stack state recorded",
+    "blank": "Plaguebearer\nSeeded infections: [actual neighbors]\nInfections: [known state]\nTransformation: [not yet / D# became Pestilence]\nN1: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]\nN2: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]\nN3: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]\nN4: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]\nN5: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]\nN6: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]\nN7: [Infect @[player number] / if Pestilence: Spread @[player number] / hold] - [direct outcome]; [propagation/stack state]",
+    "note": "This branch assumes all other living opponents became infected through contact by N4. Do not infer that four chosen targets alone complete infection.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "soul-collector": {
+    "example": "Soul Collector\nN1: Reap @4 - no marked death; soul total 1\nN2: Reap @7 - marked player died; soul total 3\nN3: Reap @9 - no marked death; soul total 4\nN4: Reap @11 - marked player died; soul total 6\nN5: Reap @12 - no marked death; soul total 7\nD6: Became Death; survived day; Apocalypse resolved\nN6: Not reached - game ended D6\nN7: Not reached - game ended D6",
+    "blank": "Soul Collector\nSoul total: [actual count]/7\nTransformation: [not yet / D# became Death]\nN1: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]\nN2: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]\nN3: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]\nN4: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]\nN5: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]\nN6: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]\nN7: [Reap @[player number] / if Death: no ordinary night action] - [actual soul feedback or game end]",
+    "note": "The soul totals are one illustrative branch, not a promised schedule. Use the actual client counter. Death ends Reap; never invent nights after the game ends.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "doomsayer": {
+    "example": "Doomsayer\nN1: Guesses cannot be confirmed - gathered public claims\nN2: Doom @4 Cleric, @7 Coven Killing, @9 Vigilante - at least one guess wrong\nN3: Held Doom - compared public claims\nN4: Doom @4 Cleric, @11 Coven Utility, @12 Trapper - at least one guess wrong\nN5: Held Doom - no reliable complete set\nN6: Held Doom - reviewed new evidence\nN7: Doom @4 Cleric, @11 Coven Utility, @14 Bodyguard - all three correct; win confirmed",
+    "blank": "Doomsayer\nN1: [cannot confirm Doom / public notes only]\nN2: [Doom: @[player 1] [legal guess], @[player 2] [legal guess], @[player 3] [legal guess] / hold] - [actual set feedback]\nN3: [Doom: @[player 1] [legal guess], @[player 2] [legal guess], @[player 3] [legal guess] / hold] - [actual set feedback]\nN4: [Doom: @[player 1] [legal guess], @[player 2] [legal guess], @[player 3] [legal guess] / hold] - [actual set feedback]\nN5: [Doom: @[player 1] [legal guess], @[player 2] [legal guess], @[player 3] [legal guess] / hold] - [actual set feedback]\nN6: [Doom: @[player 1] [legal guess], @[player 2] [legal guess], @[player 3] [legal guess] / hold] - [actual set feedback]\nN7: [Doom: @[player 1] [legal guess], @[player 2] [legal guess], @[player 3] [legal guess] / hold] - [actual set feedback]",
+    "note": "A failed set does not identify the wrong guess. Success does not mean the three victims die immediately that same night; follow the actual Doom timing.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "executioner": {
+    "example": "Executioner\nTarget: @4\nN1: No night ability\nD2: Target not hanged - objective pending\nN2: No night ability\nN3: Target @4 died at night\nD4: Became Jester; Chatterbox completed\nN4: No ordinary night ability\nD5: Chatterbox completed; not hanged\nN5: No ordinary night ability\nD6: Chatterbox completed; not hanged\nN6: No ordinary night ability\nD7: Chatterbox completed; hanged\nN7: Haunt eligible voter @9 - actual revenge outcome recorded",
+    "blank": "Executioner\nAssigned target: @[player number]\nTransition: [none / D# became Jester]\nN1: [no action / after role change: actual action]\nD2: [target outcome / Jester quota and hanging]\nN2: [no action / after role change: actual action]\nD3: [target outcome / Jester quota and hanging]\nN3: [no action / after role change: actual action]\nD4: [target outcome / Jester quota and hanging]\nN4: [no action / after role change: actual action]\nD5: [target outcome / Jester quota and hanging]\nN5: [no action / after role change: actual action]\nD6: [target outcome / Jester quota and hanging]\nN6: [no action / after role change: actual action]\nD7: [target outcome / Jester quota and hanging]\nN7: [no action / after role change: actual action]",
+    "note": "This branch fails the original hanging objective and becomes Jester. The alternative Executioner win requires the assigned target to be hanged while you are alive.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "jester": {
+    "example": "Jester\nN1: No night ability; no D1 Chatterbox quota\nD2: Chatterbox completed; not hanged\nN2: No ordinary night ability\nD3: Chatterbox incomplete; not hanged\nN3: No ordinary night ability\nD4: Chatterbox completed; not hanged\nN4: No ordinary night ability\nD5: Chatterbox completed; not hanged\nN5: No ordinary night ability\nD6: Chatterbox completed; not hanged\nN6: No ordinary night ability\nD7: Chatterbox completed; hanged\nN7: Haunt eligible voter @9 - actual revenge outcome recorded",
+    "blank": "Jester\nN1: [no action / available Haunt @[voter number] - result]\nD2: Quota [progress]; [hanging/death state]\nN2: [no action / available Haunt @[voter number] - result]\nD3: Quota [progress]; [hanging/death state]\nN3: [no action / available Haunt @[voter number] - result]\nD4: Quota [progress]; [hanging/death state]\nN4: [no action / available Haunt @[voter number] - result]\nD5: Quota [progress]; [hanging/death state]\nN5: [no action / available Haunt @[voter number] - result]\nD6: Quota [progress]; [hanging/death state]\nN6: [no action / available Haunt @[voter number] - result]\nD7: Quota [progress]; [hanging/death state]\nN7: [no action / available Haunt @[voter number] - result]",
+    "note": "Revenge depends on the qualifying hanging and the actual Chatterbox state for that day. A night death or failed quota is a separate branch.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "pirate": {
+    "example": "Pirate\nN1: Scour @4 - not a Landlubber\nN2: Scour @7 - Landlubber\nN3: Plunder @7 - target died; use 1/3\nN4: Tried Scour @9 - Unknown Obstacle; no status\nN5: Scour @11 - Landlubber\nN6: Plunder @11 - target survived; use 2/3\nN7: Held Plunder - one use left; third Landlubber unresolved",
+    "blank": "Pirate\nLandlubbers: [actual known targets/deaths]\nN1: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3\nN2: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3\nN3: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3\nN4: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3\nN5: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3\nN6: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3\nN7: [Scour / Plunder] @[player number] / hold - [actual status/attack outcome]; [Plunders spent]/3",
+    "note": "Scour and Plunder are different actions. A non-Landlubber kill removes remaining Plunders. Assigned target deaths from others can also advance the objective; there are no duels.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "arsonist": {
+    "example": "Arsonist\nN1: Douse @4 - applied; passive visitor Douses kept separate\nN2: Douse @7 - applied; became Doused myself\nN3: Clean self - stayed home; gasoline cleared\nN4: Tried Douse @9 - roleblocked; no direct Douse\nN5: Douse @11 - applied\nN6: Ignite - astral; actual fire deaths @4, @11\nN7: Douse @12 - applied",
+    "blank": "Arsonist\nDoused players: [actual markers]\nSelf Doused: [yes/no]\nN1: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]\nN2: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]\nN3: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]\nN4: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]\nN5: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]\nN6: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]\nN7: [Douse @[player number] / Clean self / Ignite / hold] - [actual outcome]; passive Douses: [actual players]",
+    "note": "Ignite may leave some Doused players alive. Record the actual remaining markers; do not treat passive visitors as destinations you visited.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "serial-killer": {
+    "example": "Serial Killer\nN1: No attack - Grace Period; Cautious on\nN2: Attack @4 - target died; Cautious on\nN3: Attack @7 - defense feedback; target survived\nN4: Tried Attack @9 - Unknown Obstacle\nN5: Attack @11 - target died; actual Bloodlust state recorded\nN6: Attack @12 - Cautious off; retaliatory victim recorded separately\nN7: Held selected attack - Cautious on",
+    "blank": "Serial Killer\nN1: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]\nN2: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]\nN3: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]\nN4: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]\nN5: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]\nN6: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]\nN7: [Attack @[player number] / hold]; Cautious [on/off] - [actual feedback]; [Bloodlust/retaliation]",
+    "note": "Roleblock immunity does not bypass obstacles. Retaliation and Bloodlust progression must use the real feedback rather than an assumed selected-target kill.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "shroud": {
+    "example": "Shroud\nN1: Held - Grace Period\nN2: Direct Attack @4 - target survived\nN3: Shroud @7 - destination @9 reported; attack outcome recorded\nN4: Shroud @11 - stayed home; fallback attacked @11\nN5: Tried Direct Attack @12 - Unknown Obstacle\nN6: Direct Attack @14 - target died\nN7: Held - no new action",
+    "blank": "Shroud\nN1: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]\nN2: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]\nN3: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]\nN4: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]\nN5: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]\nN6: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]\nN7: [Direct Attack / Shroud] @[player number] / hold - [actual destinations/fallback and attack outcome]",
+    "note": "Only record destination information actually supplied. Shrouding someone does not prove they willingly attacked; fallback is a different route.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "werewolf": {
+    "example": "Werewolf\nN1: Scent @4 - went to @9\nN2: Full Moon attack @7 - actual Rampage outcome; @4 scent went to @11\nN3: Scent @12 - no visible visit; old @4 scent reported separately\nN4: Full Moon - stayed home; home Rampage outcome recorded\nN5: Full Moon attack @14 - target survived; old scents recorded\nN6: Full Moon attack @8 - actual Rampage outcome\nN7: Full Moon - stayed home; old scents recorded",
+    "blank": "Werewolf\nN1: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]\nN2: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]\nN3: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]\nN4: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]\nN5: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]\nN6: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]\nN7: [non-Full Moon: Scent @[player number] / Full Moon: attack @[player number] or stay home] - [actual feedback]; old scents: [destinations]",
+    "note": "Baseline Full Moons are N2, N4 and every night thereafter. Persistent scent feedback does not mean you revisited that player.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "cursed-soul": {
+    "example": "Cursed Soul\nFaction: Wandering Souls\nN1: Held Soul Swap - kept Cursed Soul\nN2: Tried Soul Swap @4 - Unknown Obstacle; no role change\nN3: Soul Swap @7 - acquired Sheriff; faction unchanged\nN4: Sheriff - Search @9 - Innocent\nN5: Sheriff - Search @11 - Suspicious\nN6: Sheriff - tried Search @12; roleblocked; no result\nN7: Sheriff - held Search",
+    "blank": "Cursed Soul\nFaction: [actual faction]\nRole transitions: [night, old role -> actual new role]\nN1: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]\nN2: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]\nN3: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]\nN4: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]\nN5: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]\nN6: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]\nN7: [current role action / Soul Swap @[player number] / hold] - [actual outcome and resulting role]",
+    "note": "This branch swaps into Sheriff only once. Keep faction and role history separate. If the acquired role differs, use that role's legal actions after the swap.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "vampire": {
+    "example": "Vampire\nN1: Held - checked Grace Period restrictions\nN2: Convert @4 - conversion confirmed; retained Cleric; use 1/3\nN3: Drain @7 - target survived\nN4: Convert @9 - ineligible; fallback Drain outcome recorded\nN5: Drain @11 - target died\nN6: Tried Drain @12 - Unknown Obstacle\nN7: Held - checked actual remaining Convert charges",
+    "blank": "Vampire\nConverted faction members: [players and retained roles]\nConvert charges: [actual remaining]/3\nN1: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]\nN2: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]\nN3: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]\nN4: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]\nN5: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]\nN6: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]\nN7: [Convert / Drain] @[player number] / hold - [actual conversion or attack outcome]; [actual charges left]",
+    "note": "Convert can become Drain on an ineligible/defended target. Do not infer recruitment from survival or assume the resulting role changed.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "famine": {
+    "example": "Famine\nN1: Baker - Feed @4 - Bread given\nN2: Baker - Feed @7 - Bread given\nN3: Baker - Feed @9 - Bread given; all three recipients alive\nD4: Became Famine\nN4: Starve @4 - actual Bread state recorded\nN5: Starve @7 - actual Bread state recorded\nN6: Starve @9 - actual Bread state recorded\nN7: Held Starve - reviewed living Bread recipients",
+    "blank": "Famine\nFrom Baker; transformed D[day]\nLiving Bread recipients: [actual players]\nN1: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]\nN2: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]\nN3: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]\nN4: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]\nN5: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]\nN6: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]\nN7: [prior Baker action / after transformation: Starve @[living Bread recipient] / hold] - [actual Bread state]",
+    "note": "The example assumes the game continues. Earlier Feed lines belong to Baker; Famine uses Starve, and no immediate death is promised.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "war": {
+    "example": "War\nN1: Berserker - no attack available\nN2: Berserker - attack @4 - kill 1\nN3: Berserker - attack @7 - kill 2\nN4: Berserker - attack @9 - kill 3\nD5: Became War\nN5: Rampages @11, @12 - actual victims recorded\nN6: Rampage @14 - actual victims recorded\nN7: Held Rampage - reviewed surviving opposition",
+    "blank": "War\nFrom Berserker; transformed D[day]\nActual kill progression: [history]\nN1: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]\nN2: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]\nN3: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]\nN4: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]\nN5: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]\nN6: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]\nN7: [prior Berserker action / after War: Rampage @[target 1] and optional @[target 2] / hold] - [actual victims]",
+    "note": "Transformation follows actual kill progression. Up to two distinct Rampage houses after becoming War; no invented pre-transformation two-target attack.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "pestilence": {
+    "example": "Pestilence\nSeeded infections: @2, @15\nN1: Plaguebearer - Infect @4\nN2: Plaguebearer - Infect @7; contact spread kept separately\nN3: Plaguebearer - Infect @9; all living opponents now infected\nD4: Became Pestilence\nN4: Spread Pestilence @4 - actual stacks/outcome recorded\nN5: Spread Pestilence @7 - actual stacks/outcome recorded\nN6: Spread Pestilence @9 - actual stacks/outcome recorded\nN7: Held Spread - reviewed actual living stack state",
+    "blank": "Pestilence\nFrom Plaguebearer; transformed D[day]\nActual stack state: [players and stacks]\nN1: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]\nN2: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]\nN3: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]\nN4: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]\nN5: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]\nN6: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]\nN7: [prior Plaguebearer action / after transformation: Spread Pestilence @[player number] / hold] - [actual stacks and outcome]",
+    "note": "This branch needs sufficient actual contact spread before D4. Post-transformation stacks are different from earlier infections; there is no old ToS1 passive Rampage to invent.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)"
+    ],
+    "scope": "private-actual"
+  },
+  "death": {
+    "example": "Death\nN1: Soul Collector - Reap @4; soul total 1\nN2: Soul Collector - Reap @7; marked player died; soul total 3\nN3: Soul Collector - Reap @9; soul total 4\nN4: Soul Collector - Reap @11; marked player died; soul total 6\nN5: Soul Collector - Reap @12; soul total 7\nD6: Became Death; survived day; Apocalypse resolved\nN6: Not reached - game ended D6\nN7: Not reached - game ended D6",
+    "blank": "Death\nFrom Soul Collector; transformed D[day]\nEnd-of-day outcome: [actual result]\nN1: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]\nN2: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]\nN3: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]\nN4: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]\nN5: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]\nN6: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]\nN7: [prior Soul Collector action and actual soul count / after Death: no ordinary night action; actual game end]",
+    "note": "These N1-N5 entries belong to the former Soul Collector. Death has no ordinary Reap. N6/N7 are explicitly unreached, not extra post-victory actions.",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)"
+    ],
+    "scope": "private-actual"
+  }
+}

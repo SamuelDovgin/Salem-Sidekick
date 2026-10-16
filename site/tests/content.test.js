@@ -47,12 +47,12 @@ test('Medusa N1 advice checks the TP cover before recommending an observable Sto
  assert.match(cover.exposure,/observed N1 Stone visit/);
  for(const id of ['cleric','bodyguard','crusader','oracle']){
   const p=byId.get(id).claimProfile;
-  assert.doesNotMatch(p.example,/\nN1:/,id);
+  assert.match(p.example,/\nN1: No (?:Barrier|Guard|Fortify|Aegis) - Grace Period/,id);
   assert.ok(p.openingConstraint.sourceUrls.length,id);
  }
 });
 test('protective examples do not manufacture saves and tips keep death exceptions',()=>{
- const cleric=byId.get('cleric').claimProfile;assert.equal(cleric.example,'Cleric\nN2: Barrier @4\nN3: Barrier @7');assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
+ const cleric=byId.get('cleric').claimProfile;assert.match(cleric.example,/N2: Barrier @4 - no attack feedback/);assert.match(cleric.example,/N3: Barrier @7 - attack reported on @7/);assert.match(cleric.example,/N5: Barrier @11 - attack reported; target died to an Unstoppable attack/);assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
 });
 test('Oracle advice foregrounds astral observation and Arsonist movement modes',()=>{
  const oracle=byId.get('oracle'),arsonist=byId.get('arsonist'),cover=arsonist.claimOptions.find(c=>c.roleId==='oracle');

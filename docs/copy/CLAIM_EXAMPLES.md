@@ -1,5 +1,7 @@
 # Claim-specific example wills and upkeep
 
+**Current full-will formats:** [All 64 N1-N7 example/blank wills](../copy/FULL_WILLS.md) supersede the shorter formatting examples below. Role-policy and mechanics references below remain background material.
+
 **Current selector scope:** public claims are limited to the 29 Town roles. All 64 roles/states remain available as actual roles. Coven/Neutral formats below are retained as own-role reference material, not selectable public covers.
 
 Current publication copy for the example section, replacing the will builder. All numbers and outcomes below are illustrative; these are not current-match findings. Genuine Town records real feedback. An opposing player deliberately authors a cover separately from their actual actions.

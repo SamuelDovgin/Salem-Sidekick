@@ -59,7 +59,7 @@ try{
  await page.evaluate(()=>location.hash='%E0%A4%A');await page.waitForTimeout(30);
  check('malformed later URL preserves the current role',await page.locator('#role-title').innerText()==='Cleric');
  check('normal browser storage has a visible persistence status',await page.locator('#save-state').innerText()==='Choices kept on this browser');
- check('blank format is the emphasized copy action',await page.locator('[data-action="copy-blank"]').evaluate(e=>e.classList.contains('copy-primary'))&&!await page.locator('[data-action="copy-example"]').evaluate(e=>e.classList.contains('copy-primary')));
+ check('blank format is the emphasized copy action',await page.locator('#will-examples [data-action="copy-blank"]').evaluate(e=>e.classList.contains('copy-primary'))&&!await page.locator('#will-examples [data-action="copy-example"]').evaluate(e=>e.classList.contains('copy-primary')));
  check('truthful Town history uses a recording heading',await page.locator('.example-tips>h3').innerText()==='How to record your results');
  check('glossary control describes game terms',await page.locator('.site-footer [data-action="glossary"]').innerText()==='Game terms');
  await page.evaluate(()=>{const original=Element.prototype.scrollIntoView;window.__phaseScroll=[];Element.prototype.scrollIntoView=function(options){window.__phaseScroll.push(options);return original.call(this,options);};});

@@ -1,5 +1,7 @@
 # Complete will-template reference
 
+**Current full-will formats:** [All 64 N1-N7 example/blank wills](../copy/FULL_WILLS.md) supersede the shorter formatting examples below. Role-policy and mechanics references below remain background material.
+
 Research date: 2026-10-15. These are original **formatting examples**, not fabricated live results or exact client quotations. Numbers are illustrative and must never be prefilled into a new match.
 
 ## Shared editing and export rules

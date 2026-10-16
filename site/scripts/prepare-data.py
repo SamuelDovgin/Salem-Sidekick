@@ -189,6 +189,7 @@ def build():
         playbooks.update(json.loads((PROJECT/f'content/playbook-{group}.json').read_text()))
     town_covers = json.loads((PROJECT/'content/town-power-covers.json').read_text())
     profiles = json.loads((PROJECT/'content/claim-profiles.json').read_text())
+    wills = json.loads((PROJECT/'content/will-examples.json').read_text())
     opening_constraints = json.loads((PROJECT/'content/claim-opening-constraints.json').read_text())
     assert set(opening_constraints) == {'cleric','bodyguard','crusader','oracle','trapper'}
     for role_id, constraint in opening_constraints.items():
@@ -247,6 +248,18 @@ def build():
           'expanded':role.get('description', role['playbook']['expanded']),
           'sourceUrls':[role['source_url']]
         })
+    # Full examples and blank skeletons are authored separately from claim policy.
+    # They include day events without pretending those abilities act at night.
+    assert set(wills) == {r['id'] for r in roles+states}
+    for role in roles+states:
+        will = copy.deepcopy(wills[role['id']])
+        assert will['scope'] == ('public-claim' if role['faction']=='Town' else 'private-actual')
+        for field in ['example', 'blank']:
+            assert will[field].startswith(role['name']+'\n'), role['id']
+            assert re.findall(r'^N([1-7])(?: (?:Good|Evil))?:', will[field], re.M) == list('1234567'), (role['id'],field)
+            assert not re.search(r'[\u2013\u2014_]',will[field]), (role['id'],field)
+        role['willGuide'] = will
+        role['claimProfile'].update(example=will['example'], blank=will['blank'])
     # The ranking reflects an opening with limited information, not measured win rates.
     all_roles = roles+states
     by_id = {r['id']:r for r in all_roles}
@@ -368,6 +381,14 @@ def build():
         if guide.get('reportTemplate'):
             lines.append('**Chat format · replace brackets:**\n\n```\n'+guide['reportTemplate']+'\n```')
         role['studyGuide']['sections'].append({'title':'What you and others see','markdown':'\n\n'.join(lines)})
+    for role in all_roles:
+        will = role['willGuide']
+        role['studyGuide']['sections'].append({
+            'title':'Full will - N1-N7', 'kind':'will-formats',
+            'markdown':('Private actual-role history. ' if will['scope']=='private-actual' else 'Role history format. ')+
+                'Illustrative examples, not client messages.\n\n```\n'+will['example']+'\n```\n\n'+will['note']+
+                '\n\n**Blank will**\n\n```\n'+will['blank']+'\n```'
+        })
     assert len(playbooks)==64 and len(profiles)==29 and len(relations)==31
     assert all(len(r['playbook']['laterPriorities'])==3 and r['claimProfile']['example'] for r in roles+states)
     summary = {

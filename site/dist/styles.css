@@ -266,3 +266,21 @@ html{scroll-padding-top:0}
 
 .feedback-copy-meaning{display:inline-flex;vertical-align:middle;margin-left:4px;min-width:26px;min-height:26px;justify-content:center}
 .feedback-copy-meaning svg{width:14px;height:14px}
+
+/* Full will examples stay separate from the one-line chat format. */
+.will-case-note,.private-will-note{font-size:11px;line-height:1.65;color:var(--muted);margin:9px 0}
+.private-will-note strong{color:var(--ink)}
+.blank-will{margin:10px 0;font-size:11px;color:var(--muted)}
+.blank-will>summary{cursor:pointer;min-height:28px;line-height:28px}
+.blank-will .example-code{margin-top:6px}
+.study-section .will-formats{min-width:0}
+.will-formats>.feedback-label{font-size:10px;line-height:1.6;color:var(--muted);margin:8px 0}
+
+.claim-vote-notes{border-top:1px solid var(--line);margin-top:14px;padding-top:12px}
+.claim-vote-notes .card-heading{align-items:center;margin-bottom:5px}
+.claim-vote-notes h3{font-size:12px;margin:0}
+.claim-vote-notes .button{font-size:10px;min-height:30px;padding:5px 9px}
+.claim-vote-notes p,.notes-preview{font-size:11px;line-height:1.6;color:var(--muted);margin:5px 0}
+.notes-preview>summary{cursor:pointer;min-height:28px;line-height:28px}
+.notes-preview .example-code{margin-top:6px}
+.claim-vote-notes .notes-hint{font-size:10px}
