@@ -6390,7 +6390,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** Attack feedback can tell you the protected target was attacked. It is not an automatic kill result or proof your Barrier was the protection that ultimately resolved.\n\n**They see · meaning:** An attacked and Barrier-protected player can receive a Barrier notice. A blocked attacker may receive a defense notice. A quiet target is not evidence of a save.\n\n**Claim check:** Barrier feedback can also come from other Barrier abilities. Keep target, attack feedback and actual outcome separate; Grace Period can disable N1 protection.\n\n**Documented English · Attacked, protected recipient:** `You were attacked, but a Barrier protected you!`\n\nA Barrier prevents the attack; this wording does not identify which Barrier role supplied it. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Chat format · replace brackets:**\n\n```\nCleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].\n```"
+            "markdown": "**You see · meaning:** The Cleric receives an attack notice naming the protected player when that target is attacked. On an ordinary unblocked night with no attack, there is no special save notice: selecting Barrier is not itself an attack result. The notice does not identify the attacker or prove your Barrier alone caused survival.\n\n**They see · meaning:** The attacked, Barrier-protected recipient can receive the quoted Barrier notice. That is their message, not the visiting Cleric’s message about them. A blocked attacker may receive a defense notice. A quiet target is not evidence of a save.\n\n**Claim check:** Speak from the Cleric’s screen: an attack notice, no attack feedback, or the actual failure are different accounts. Other Barrier abilities produce the same recipient notice, and another protector may resolve the attack first. During Grace Period N1, do not claim an ordinary Barrier visit to another player.\n\n**Documented English · Acting Cleric · your claimed screen:** `[player name] was attacked last night!`\n\nAt night resolution when the protected target is attacked; another protector resolving first can still produce this notice. The player mention is replaced here. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Documented English · Attacked, protected recipient:** `You were attacked, but a Barrier protected you!`\n\nThe attacked recipient sees this when a Barrier protects them. Do not describe this as your own notice about someone you visited; it can be your own screen only if you were the attacked, protected player. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Target attacked · attack notice received · Cleric’s screen:** The Cleric sees the named-player attack notice above. You can report receiving attack feedback; it gives no attacker identity. Bodyguard or Trapper may have handled the attack first, so this is not exclusive credit for a save.\n\n**Authored claim report:** `Cleric N[night]: Barrier [player] — got attack feedback.`\n\nThis claim says you received an attack notification about that target. It does not say the recipient’s Barrier message appeared on your screen.\n\n**Quiet night · no attack notice · Cleric’s screen:** Normally no special attack/save message appears for the target. There is no sourced “nothing happened” message to quote. The target surviving alone does not turn this into a save.\n\n**Authored claim report:** `Cleric N[night]: Barrier [player] — no attack feedback.`\n\nIf asked what you saw: “No attack notification; I had Barrier on [player].” You are claiming an uneventful protection attempt, not a confirmed save.\n\n**Action prevented · roleblock, jail or obstacle · Cleric’s screen:** Use the failure notice that actually applies, rather than a quiet-success account. An Unknown Obstacle prevents the normal remote attack feedback; the old bug that revealed it anyway was fixed in R1.5.03. Exact failure wording is not quoted here.\n\n**Authored claim report:** `Cleric N[night]: tried Barrier [player] — [failure shown].`\n\nIf claiming roleblocked, say “I tried to Barrier [player], but I was roleblocked.” Do not also claim an ordinary completed visit or normal target-attack feedback.\n\n**Target died · check the cause · Cleric’s screen:** An Unstoppable attack can defeat Barrier’s Powerful Defense. A death does not by itself prove the action was prevented. This is not a separate guaranteed “Barrier failed” message; keep any actual attack notice and the death outcome separate.\n\n**Authored claim report:** `Cleric N[night]: Barrier [player] — [attack feedback, if any]; target died.`\n\nIf arguing an Unstoppable attack, check the death evidence before giving that explanation. Do not invent a notification naming the attacker or its attack strength.\n\n**Chat format · replace brackets:**\n\n```\nCleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].\n```"
           }
         ],
         "details": [
@@ -6434,13 +6434,22 @@
       },
       "feedbackGuide": {
         "glance": "An attacked recipient can see a Barrier message; it does not name you as Cleric.",
-        "youSee": "Attack feedback can tell you the protected target was attacked. It is not an automatic kill result or proof your Barrier was the protection that ultimately resolved.",
-        "theySee": "An attacked and Barrier-protected player can receive a Barrier notice. A blocked attacker may receive a defense notice. A quiet target is not evidence of a save.",
-        "claimCheck": "Barrier feedback can also come from other Barrier abilities. Keep target, attack feedback and actual outcome separate; Grace Period can disable N1 protection.",
+        "youSee": "The Cleric receives an attack notice naming the protected player when that target is attacked. On an ordinary unblocked night with no attack, there is no special save notice: selecting Barrier is not itself an attack result. The notice does not identify the attacker or prove your Barrier alone caused survival.",
+        "theySee": "The attacked, Barrier-protected recipient can receive the quoted Barrier notice. That is their message, not the visiting Cleric’s message about them. A blocked attacker may receive a defense notice. A quiet target is not evidence of a save.",
+        "claimCheck": "Speak from the Cleric’s screen: an attack notice, no attack feedback, or the actual failure are different accounts. Other Barrier abilities produce the same recipient notice, and another protector may resolve the attack first. During Grace Period N1, do not claim an ordinary Barrier visit to another player.",
         "messages": [
           {
+            "audience": "Acting Cleric · your claimed screen",
+            "when": "At night resolution when the protected target is attacked; another protector resolving first can still produce this notice. The player mention is replaced here",
+            "text": "[player name] was attacked last night!",
+            "kind": "documented",
+            "sourceUrl": "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric",
+            "namesNormalized": true,
+            "sourceAccessedOn": "2026-10-16"
+          },
+          {
             "audience": "Attacked, protected recipient",
-            "when": "A Barrier prevents the attack; this wording does not identify which Barrier role supplied it",
+            "when": "The attacked recipient sees this when a Barrier protects them. Do not describe this as your own notice about someone you visited; it can be your own screen only if you were the attacked, protected player",
             "text": "You were attacked, but a Barrier protected you!",
             "kind": "documented",
             "sourceUrl": "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric",
@@ -6451,12 +6460,44 @@
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
           "https://townofsalem.wiki.gg/w/index.php?title=Cleric%20%28ToS2%29&oldid=4540",
-          "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric"
+          "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric",
+          "https://www.townofsalem.io/town-of-salem-2-season-5-patch-notes-r1-5-00/",
+          "https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/"
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
         "reportTemplate": "Cleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
+        "claimScenarios": [
+          {
+            "id": "attacked",
+            "title": "Target attacked · attack notice received",
+            "screen": "The Cleric sees the named-player attack notice above. You can report receiving attack feedback; it gives no attacker identity. Bodyguard or Trapper may have handled the attack first, so this is not exclusive credit for a save.",
+            "report": "Cleric N[night]: Barrier [player] — got attack feedback.",
+            "meaning": "This claim says you received an attack notification about that target. It does not say the recipient’s Barrier message appeared on your screen."
+          },
+          {
+            "id": "quiet",
+            "title": "Quiet night · no attack notice",
+            "screen": "Normally no special attack/save message appears for the target. There is no sourced “nothing happened” message to quote. The target surviving alone does not turn this into a save.",
+            "report": "Cleric N[night]: Barrier [player] — no attack feedback.",
+            "meaning": "If asked what you saw: “No attack notification; I had Barrier on [player].” You are claiming an uneventful protection attempt, not a confirmed save."
+          },
+          {
+            "id": "prevented",
+            "title": "Action prevented · roleblock, jail or obstacle",
+            "screen": "Use the failure notice that actually applies, rather than a quiet-success account. An Unknown Obstacle prevents the normal remote attack feedback; the old bug that revealed it anyway was fixed in R1.5.03. Exact failure wording is not quoted here.",
+            "report": "Cleric N[night]: tried Barrier [player] — [failure shown].",
+            "meaning": "If claiming roleblocked, say “I tried to Barrier [player], but I was roleblocked.” Do not also claim an ordinary completed visit or normal target-attack feedback."
+          },
+          {
+            "id": "death",
+            "title": "Target died · check the cause",
+            "screen": "An Unstoppable attack can defeat Barrier’s Powerful Defense. A death does not by itself prove the action was prevented. This is not a separate guaranteed “Barrier failed” message; keep any actual attack notice and the death outcome separate.",
+            "report": "Cleric N[night]: Barrier [player] — [attack feedback, if any]; target died.",
+            "meaning": "If arguing an Unstoppable attack, check the death evidence before giving that explanation. Do not invent a notification naming the attacker or its attack strength."
+          }
+        ],
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."
       }
     },

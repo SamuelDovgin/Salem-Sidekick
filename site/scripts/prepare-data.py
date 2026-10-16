@@ -353,6 +353,9 @@ def build():
         lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck']]
         for message in guide['messages']:
             lines.append('**Documented '+('excerpt' if message.get('excerpt') else 'English')+' · '+message['audience']+':** `'+message['text']+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
+        for case in guide.get('claimScenarios',[]):
+            assert all(case[key].strip() for key in ['id','title','screen','report','meaning'])
+            lines.append('**'+case['title']+' · '+role['name']+'’s screen:** '+case['screen']+'\n\n**Authored claim report:** `'+case['report']+'`\n\n'+case['meaning'])
         if guide.get('reportTemplate'):
             lines.append('**Chat format · replace brackets:**\n\n```\n'+guide['reportTemplate']+'\n```')
         role['studyGuide']['sections'].append({'title':'What you and others see','markdown':'\n\n'.join(lines)})
