@@ -2,7 +2,7 @@
 
 Reviewed 16 October 2026 against commit `c5c3bd8`. This is a review and recommendation document; application code and behavior had not been changed at the audit baseline.
 
-The first four recommendations are now implemented; see [the before/after follow-up](CONTROL_SPACE_BEFORE_AFTER.md) for the changes, measured benefits, and validation.
+The first four recommendations are now implemented; see [the before/after follow-up](CONTROL_SPACE_BEFORE_AFTER.md) for the changes, measured benefits, and validation. The full set is also ranked in the [S–F value tier list](CONTROL_SPACE_TIERS.md).
 
 ## Recommendation
 
