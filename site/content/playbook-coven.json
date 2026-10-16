@@ -153,19 +153,21 @@
     "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
   },
   "medusa": {
-    "headline": "Stonemark the planned victim when hiding that death has value.",
-    "firstNight": "Coordinate a Stonemark on the team’s likely nonally kill when denying the role/will is useful. Hold a charge if there is no credible death plan.",
-    "reason": "Three active charges should remove useful information, not be spent nightly on people who will probably remain alive indefinitely.",
-    "targetRule": "Use the agreed victim, avoiding waste on an already marked player. With no coordinated or likely kill, preserve the charge and prepare the cover.",
-    "pivot": "If a persistent mark on a useful future victim offers more value than tonight’s uncertain kill, mark that player instead. The book changes the action by adding an attack.",
+    "headline": "TP cover on N1: hold if Grace Period is active or unchecked.",
+    "firstNight": "Keeping a TP cover? If Grace Period is active or you have not checked the N1 notice, stay home and do not Stone a player. Only visit after confirming your exact claimed role could legally explain that N1 movement, or deliberately choosing a compatible cover before acting.",
+    "reason": "Stone is a direct, non-harmful visit and can still be available while Town protection is disabled. Being allowed to Stone does not make that visit compatible with a TP cover.",
+    "targetRule": "With a TP cover during Grace Period, select no Stone target on N1. Otherwise, mark a fresh useful information holder only when your cover can explain the visit and hiding their eventual death information helps Coven.",
+    "pivot": "If Grace Period is confirmed off and your exact cover can visit, consider a coordinated mark. A Trapper still needs to build before placing and Oracle is astral; switching to another TP name does not automatically fix movement.",
     "laterPriorities": [
       "Hide an informative enemy death when the team can make the kill happen.",
       "Track persistent marks and remaining charges so you do not duplicate work.",
       "After the book arrives, plan the attack and concealment together while checking observer exposure."
     ],
-    "expanded": "A mark is not an immediate kill or a protective effect. Consider what Town loses if the victim’s information disappears. A Cleric cover is simple paperwork but no real save is supplied. Old advice about staying home to petrify visitors does not describe this role.",
+    "expanded": "Example: you are Medusa, claim Cleric/TP, and see the Grace Period notice. Hold Stone on N1. A Tracker or Lookout can observe a Stone visit, but a Cleric could not have made a Barrier visit that night. This is a cover-consistency recommendation, not a rule that Stone itself is disabled or every role must skip N1. A legal nonvisiting action is separate. With Grace Period off and a cover that can legally visit, a useful Stone mark may be reasonable. Stone neither kills by itself nor grants protection; track all three charges and permanent marks.",
     "sourceUrls": [
-      "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
+      "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
+      "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/",
+      "https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/"
     ],
     "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
   },

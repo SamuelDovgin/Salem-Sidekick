@@ -1,0 +1,32 @@
+{
+  "cleric": {
+    "condition": "grace-period",
+    "title": "Grace Period + Cleric cover: no N1 visit",
+    "body": "If Grace Period is active, Cleric cannot Barrier another player on N1. To keep this cover, stay home instead of making a visible visit with your real role. A legal nonvisiting ability is a separate choice. If Grace Period is off, this specific N1 restriction does not apply.",
+    "sourceUrls": ["https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/", "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"]
+  },
+  "bodyguard": {
+    "condition": "grace-period",
+    "title": "Grace Period + Bodyguard cover: no N1 visit",
+    "body": "If Grace Period is active, Bodyguard cannot make a protective visit on N1. To keep this cover, stay home instead of making a visible visit with your real role. A legal nonvisiting ability is a separate choice. If Grace Period is off, this specific N1 restriction does not apply.",
+    "sourceUrls": ["https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/", "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"]
+  },
+  "crusader": {
+    "condition": "grace-period",
+    "title": "Grace Period + Crusader cover: no N1 visit",
+    "body": "If Grace Period is active, Crusader cannot Fortify another player on N1. To keep this cover, stay home instead of making a visible visit with your real role. A legal nonvisiting ability is a separate choice. If Grace Period is off, this specific N1 restriction does not apply.",
+    "sourceUrls": ["https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/", "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"]
+  },
+  "oracle": {
+    "condition": "normal-visible-visit",
+    "title": "Oracle cover cannot explain a normal visible visit",
+    "body": "Aegis is astral: Oracle does not make an ordinary visible visit to a numbered player. Grace Period also disables N1 Aegis. Keeping this cover means avoiding real actions that create an incompatible visible visit; it does not require skipping a legal nonvisiting ability.",
+    "sourceUrls": ["https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/", "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"]
+  },
+  "trapper": {
+    "condition": "build-before-place",
+    "title": "Trapper cover: build at home before placement",
+    "body": "A fresh Trapper normally builds on N1 and cannot place a trap on another player yet. A visible N1 visit is not explained by that build, even when Grace Period is off. Check enabled controls before claiming construction succeeded; do not invent an N1 placement.",
+    "sourceUrls": ["https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)"]
+  }
+}

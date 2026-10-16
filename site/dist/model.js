@@ -5,6 +5,10 @@ export function selectedRoute(state,role) {
   return role.routes?.find(r=>r.id===state.routeChoices?.[role.id]) || role.routes?.[0] || {id:'default',label:'Recommended start',headline:role.playbook.headline,action:role.playbook.firstNight,reason:role.playbook.reason,targetRule:role.playbook.targetRule,pivot:role.playbook.pivot,laterPriorities:role.playbook.laterPriorities,when:'Start here with limited information.',risk:role.playbook.expanded,goals:role.opening?.goals||role.playbook.laterPriorities,sourceUrls:role.playbook.sourceUrls};
 }
 export const isTownClaim = role => Boolean(role?.alignment?.startsWith('Town'));
+export function openingClaimRisk(actual,claim) {
+  if(!actual||!claim||actual.parentId||actual.id===claim.id)return null;
+  return claim.claimProfile?.openingConstraint || null;
+}
 export function ensureTownClaim(state,library) {
   if(isTownClaim(library.find(r=>r.id===state.claimId)))return;
   const actual=library.find(r=>r.id===state.actualId);
@@ -96,19 +100,16 @@ export function exportDraft(state,namespace,role,options={}) {
   return {text:[heading,...rows].join('\n'),included:rows.length,omitted:entries.filter(x=>!options.entryId||x.e.id===options.entryId).length-rows.length};
 }
 export function selectActual(state,role,library) {
-  const oldDraft=getDraft(state,'public',state.claimId);
-  const enteringTownPower=role.alignment==='Town Power'&&state.actualId!==role.id;
+  const changingRole=state.actualId!==role.id;
   state.actualId=role.id;
   state.privateViewId=null;
   state.timeline.push({roleId:role.id,at:new Date().toISOString()});
   state.recent=[role.id,...state.recent.filter(x=>x!==role.id)].slice(0,5);
-  if(enteringTownPower){
-    // A previous role's chosen cover is not this role's recommendation. Keep its notes.
-    state.claimId=role.preferredClaimId||role.id;
-    state.deliberateClaim=false;
-  }else if(!state.deliberateClaim && !oldDraft.entries.length && !oldDraft.title.trim()){
+  if(changingRole){
+    // Start each different role with its recommendation. Saved drafts stay intact.
     const suggested=role.claim_candidates?.[0]?.role;
     state.claimId=library.find(r=>r.id===role.preferredClaimId&&isTownClaim(r))?.id || library.find(r=>r.name===suggested&&isTownClaim(r))?.id || role.id;
+    state.deliberateClaim=false;
   }
   ensureTownClaim(state,library);
 }

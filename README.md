@@ -14,7 +14,7 @@ Run the site with `cd site` then `npm run dev`, and open http://127.0.0.1:4173. 
 
 The [full application plan](PLANNING.md) and research documents below preserve the design and content basis.
 
-The question mark beside each role title opens a source-linked study guide with ability timing, charges, combat stats, interactions, examples, and expandable detail. Alignment shortcuts in the top role picker reset after selection or dismissal. Town Power has optional temporary covers while retaining truthful defaults.
+The **Role guide** button beside each role title opens a source-linked study guide with ability timing, charges, combat stats, interactions, examples, and expandable detail. Every role and transformed state also has a visible **Must know** beside its action and a **Good to know** note with a quick ability reference. Persistent section navigation links Play, Good to know, Claims, and Will example. See the [ranked flow review and all-role priorities](docs/design/FLOW_PRIORITY_AUDIT.md). Alignment shortcuts in the top role picker reset after selection or dismissal. Town Power has optional temporary covers while retaining truthful defaults.
 
 The current interface offers ranked opening routes for every role, with conditions, tradeoffs, route-specific checkpoints, and follow-up priorities. Claim cards put strategy bullets first, keep role basics in a dropdown, and reveal lower-priority claims through ranked role icons. Rankings are editorial, grounded in source-checked ability constraints. [Full practical-play audit](docs/copy/PRACTICAL_PLAYBOOK.md) · [All claim examples](docs/copy/CLAIM_EXAMPLES.md) · [Ranked routes and claim strategies](docs/copy/RANKED_STRATEGIES.md).
 

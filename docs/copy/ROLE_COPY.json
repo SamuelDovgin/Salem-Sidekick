@@ -3523,7 +3523,7 @@
       "strategy_basis": "editorial inference, not measured success rates",
       "live_client_tested": false,
       "opening": {
-        "action": "Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target.",
+        "action": "If Grace Period is active or unchecked and you are claiming TP, hold Stone on N1. A Stone Gaze is a direct, non-harmful visit; an enabled Medusa action does not make the claimed protective visit legal.",
         "target": "Prefer a target whose later hidden death information helps the team, and coordinate with likely kills. With no concrete plan, holding a charge is reasonable. The mark persists; you do not need to spend one nightly by habit.",
         "dawn": "Record the applied mark or failure and remaining charges. A mark does not kill the target immediately; the book adds a distinct attack effect.",
         "day": "Use the selected cover alignment. Do not follow old stay-home-and-petrify-visitors advice or claim your mark is a Town save.",
@@ -3562,8 +3562,8 @@
         {
           "id": "medusa-n1",
           "title": "First night: action and target",
-          "compact": "Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target. Prefer a target whose later hidden death information helps the team, and coordinate with likely kills.",
-          "expanded": "Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target.\n\n**How to choose:** Prefer a target whose later hidden death information helps the team, and coordinate with likely kills. With no concrete plan, holding a charge is reasonable. The mark persists; you do not need to spend one nightly by habit.\n\n**Your opening checkpoint:** Choose a useful concealment target. You do not need a perfect read of the lobby to begin; you need a legal action or a deliberate hold and an honest record of what happened."
+          "compact": "If Grace Period is active or unchecked and you are claiming TP, hold Stone on N1. A Stone Gaze is a direct, non-harmful visit; an enabled Medusa action does not make the claimed protective visit legal. Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target. Prefer a target whose later hidden death information helps the team, and coordinate with likely kills.",
+          "expanded": "If Grace Period is active or unchecked and you are claiming TP, hold Stone on N1. A Stone Gaze is a direct, non-harmful visit; an enabled Medusa action does not make the claimed protective visit legal.\n\nStonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target.\n\n**How to choose:** Prefer a target whose later hidden death information helps the team, and coordinate with likely kills. With no concrete plan, holding a charge is reasonable. The mark persists; you do not need to spend one nightly by habit.\n\n**Your opening checkpoint:** Choose a useful concealment target. You do not need a perfect read of the lobby to begin; you need a legal action or a deliberate hold and an honest record of what happened."
         },
         {
           "id": "medusa-dawn",
@@ -3592,8 +3592,8 @@
         {
           "id": "medusa-mistakes",
           "title": "Mistakes and important interactions",
-          "compact": "Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.",
-          "expanded": "Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.\n\n**Important interaction:** Necromancer can use Stoned bodies; normal Town Retributionist cannot. Amnesiac can remember underlying roles.\n\n**Worked decision:** A useful opponent is expected to die: Stone can suppress their public will, but surviving targets remain marked for later.\n\nA counterexample is a reason to narrow your conclusion. If an unresolved interaction matters to this decision, use the source note and the actual client feedback rather than turning it into a hard clearance or accusation."
+          "compact": "Do not Stone on N1 while keeping a TP cover during Grace Period. Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.",
+          "expanded": "Do not Stone on N1 while keeping a TP cover during Grace Period. Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.\n\n**Important interaction:** Necromancer can use Stoned bodies; normal Town Retributionist cannot. Amnesiac can remember underlying roles.\n\n**Worked decision:** A useful opponent is expected to die: Stone can suppress their public will, but surviving targets remain marked for later.\n\nA counterexample is a reason to narrow your conclusion. If an unresolved interaction matters to this decision, use the source note and the actual client feedback rather than turning it into a hard clearance or accusation."
         },
         {
           "id": "medusa-milestones",

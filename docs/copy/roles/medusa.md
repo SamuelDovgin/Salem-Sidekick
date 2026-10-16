@@ -24,9 +24,11 @@ Baseline: vanilla ToS2 text chat, normal faction assignments. An eligible target
 
 **Compact copy**
 
-Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target. Prefer a target whose later hidden death information helps the team, and coordinate with likely kills.
+If Grace Period is active or unchecked and you are claiming TP, hold Stone on N1. A Stone Gaze is a direct, non-harmful visit; an enabled Medusa action does not make the claimed protective visit legal. Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target. Prefer a target whose later hidden death information helps the team, and coordinate with likely kills.
 
 **Expanded copy — same section**
+
+If Grace Period is active or unchecked and you are claiming TP, hold Stone on N1. A Stone Gaze is a direct, non-harmful visit; an enabled Medusa action does not make the claimed protective visit legal.
 
 Stonemark an eligible player if doing so has a useful concealment purpose. You have three active-use charges; starting self-Stone is not an extra chosen target.
 
@@ -100,11 +102,11 @@ These are starting explanations, not a whitelist. Choose any role from the full 
 
 **Compact copy**
 
-Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.
+Do not Stone on N1 while keeping a TP cover during Grace Period. Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.
 
 **Expanded copy — same section**
 
-Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.
+Do not Stone on N1 while keeping a TP cover during Grace Period. Do not use the old stay-home visitor-petrification ability. Do not assume Stone kills. Do not assume hidden bodies prevent every role from learning their truth.
 
 **Important interaction:** Necromancer can use Stoned bodies; normal Town Retributionist cannot. Amnesiac can remember underlying roles.
 

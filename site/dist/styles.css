@@ -39,6 +39,8 @@ html{scroll-padding-top:100px}
 .claim-icon-list .inline-claim-choice{display:flex;align-items:center;gap:5px;min-width:0;min-height:34px;padding:4px 7px;flex:0 0 auto;max-width:100%;background:var(--bg)}
 .claim-icon-list .inline-claim-choice>.image-wrap>.role-image{width:24px;height:24px}.claim-icon-list .inline-claim-choice .image-fallback{width:24px;height:24px;font-size:10px}.claim-icon-list .inline-claim-choice .rank-number{width:16px;height:16px;font-size:8px}.claim-icon-list .inline-claim-choice .choice-name{font-size:10px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:14ch}.claim-icon-list .inline-claim-choice.chosen{background:var(--accent-bg);border-color:var(--accent)}
 #claim-preview:not([hidden]){margin-top:12px}.other-claims{padding:8px 12px}.picker-search input,.picker-filters select{font-size:16px}
+/* Keep search autofocus from triggering small-input zoom on mobile Safari. */
+#role-search,#role-picker select{font-size:16px;line-height:1.5}
 @media(max-width:760px){.route-heading{gap:7px}.route-heading>.eyebrow{font-size:8px}.other-claims-label{display:block}.other-claims-label small{display:block}.inline-claim-header{gap:8px}}
 @media(max-width:560px){.route-heading{gap:6px}.route-heading .route-options{justify-content:flex-start}.route-heading>.eyebrow{font-size:8px;letter-spacing:.8px}.route-options .inline-route-choice{min-width:30px;min-height:34px;padding:5px 7px}.other-claims{padding:8px}.other-claims-label{font-size:11px;max-width:105px}.other-claims-label small{font-size:9px}.inline-claim-header .claim-icon-list{justify-content:flex-start}.claim-icon-list .inline-claim-choice{padding:4px 5px;min-height:34px}.claim-icon-list .inline-claim-choice .choice-name{max-width:11ch;font-size:10px}.picker-filters select{font-size:16px;max-width:100%}}
 
@@ -67,3 +69,177 @@ html{scroll-padding-top:100px}
 
 .study-facts dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px}.study-facts dt{color:var(--muted)}.study-facts dd{margin:0}.study-facts table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}.study-facts th,.study-facts td{padding:8px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.study-facts .muted{font-size:12px}.study-facts th{font-weight:600}
 .claim-setup-warning,.modifier-note{margin:10px 0 0;padding:9px 11px;border:1px solid var(--gold);border-left-width:3px;border-radius:7px;background:var(--gold-bg);color:var(--ink);font-size:12px;line-height:1.6}.claim-setup-warning strong,.modifier-note strong{color:var(--gold)}
+
+/* Match-time hierarchy: action, essential limit, then supporting knowledge. */
+:root{--header-height:89px;--guide-nav-height:60px}
+body{font-size:15px}
+.role-description{font-size:14px;line-height:1.65;max-width:760px}
+.role-meta{font-size:12px}
+.role-title-row{flex-wrap:wrap;gap:10px 18px}
+.role-help{width:auto;min-height:36px;padding:7px 10px;border:1px solid var(--line);background:var(--panel);font-size:12px;color:var(--ink)}
+.role-help svg{width:16px;height:16px;color:var(--accent)}
+.public-story{display:flex;align-items:center;gap:7px 10px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:12px 0 0}
+.public-story strong{font-weight:550;color:var(--ink)}
+.public-story .text-button{font-size:12px;min-height:32px;color:var(--accent)}
+.public-story svg{width:13px;height:13px}
+.role-description:not(.card-content)>p{display:inline;margin:0}
+.state-callout{font-size:13px;line-height:1.6}
+.page-nav{position:sticky;top:var(--header-height);z-index:8;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:7px 0;margin:0 0 22px}
+.page-nav button{display:flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:5px;background:transparent;color:var(--muted);font-size:13px;line-height:1.4;padding:8px;min-height:42px}
+.page-nav button:hover,.page-nav button:focus-visible{background:var(--raised);color:var(--ink)}
+.page-nav button>span{font-size:10px;display:grid;place-items:center;width:19px;height:19px;border:1px solid var(--line);border-radius:50%;flex-shrink:0;color:var(--accent)}
+html{scroll-padding-top:0}
+.card,#strategy,#good-to-know,#claims,#will-examples,[id$="-mistakes"]{scroll-margin-top:calc(var(--header-height) + var(--guide-nav-height) + 16px)}
+.section-head h2{font-size:18px;font-weight:600}
+.card-heading h3{font-size:15px;font-weight:600}
+.card-heading .text-button{font-size:12px;min-height:32px}
+.eyebrow{font-size:10px;letter-spacing:1.1px}
+.card-content{font-size:14px;line-height:1.7}
+.card-content h4{font-size:15px}
+.strategy-top{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);align-items:start;gap:16px}
+.recommended-play{padding:21px 23px}
+.recommended-play>.card-heading>.eyebrow{font-size:10px}
+.recommendation-title{font-size:24px;line-height:1.35;margin-bottom:14px}
+.recommended-action{font-size:15px;line-height:1.7}
+.must-know{padding:14px 15px;margin:17px 0;background:var(--gold-bg);border-left:3px solid var(--gold);border-radius:0 6px 6px 0}
+.must-know>.card-heading{margin-bottom:5px}
+.must-know .eyebrow{display:flex;align-items:center;gap:7px;color:var(--gold)}
+.must-know .eyebrow svg{width:15px;height:15px}
+.must-know h4{font-size:15px;line-height:1.4;font-weight:650;margin:0 0 7px}
+.must-know p{font-size:14px;line-height:1.65;margin-bottom:0;color:var(--ink)}
+.must-know .full-pitfalls{margin-top:13px;border-top:1px solid var(--line);padding-top:12px}
+.must-know .full-pitfalls p{margin-bottom:10px;color:var(--muted)}
+.opening-cover-warning{padding:15px;margin:0 0 18px;border:1px solid var(--gold);border-left-width:4px;border-radius:7px;background:var(--gold-bg)}
+.opening-cover-warning>.eyebrow{color:var(--gold);display:block;line-height:1.6}
+.opening-cover-warning h3{font-size:18px;line-height:1.4;margin:8px 0}
+.opening-cover-warning p{font-size:14px;line-height:1.7;color:var(--ink);margin:0}
+.recommended-play:has(.opening-cover-warning) .must-know{background:var(--panel);border-left-color:var(--line)}
+.plan-targeting{font-size:14px}
+.plan-targeting .pivot-note{border-left:0;padding-left:0}
+.recommended-play .modifier-note{font-size:12px;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;padding:12px 0 0;color:var(--muted)}
+.recommended-play .modifier-note strong{color:var(--ink)}
+.plan-tradeoff{font-size:13px;line-height:1.65;color:var(--muted);margin:12px 0}
+.plan-tradeoff strong{color:var(--ink);font-weight:550}
+.plan-reasoning{margin-top:15px;padding-top:15px;border-top:1px solid var(--line)}
+.recommended-play .route-heading{display:block;margin:18px 0 0;padding-top:14px;border-top:1px solid var(--line)}
+.route-heading>.eyebrow{display:block;white-space:normal;margin-bottom:9px}
+.recommended-play .route-heading .route-options{display:grid;grid-template-columns:minmax(0,1fr);max-height:none;overflow:visible;padding:0;gap:6px}
+.recommended-play .route-options .inline-route-choice{justify-content:flex-start;align-items:center;gap:10px;text-align:left;min-height:44px;padding:9px 11px;white-space:normal;font-size:13px}
+.recommended-play .route-options .route-number{display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;width:23px;height:23px;font-size:11px;flex-shrink:0}
+.recommended-play .route-options .inline-route-choice .route-name{font-size:13px;line-height:1.5;min-width:0;flex:1;overflow-wrap:anywhere}
+.route-name small{font-size:10px;font-weight:650;color:var(--accent);display:block}
+.recommendation-basis{font-size:11px;line-height:1.6}
+.good-to-know{padding:21px 22px;background:var(--panel)}
+.good-to-know>.eyebrow{color:var(--accent)}
+.good-to-know h3{font-size:19px;line-height:1.4;margin:10px 0}
+.good-to-know>p{font-size:14px;color:var(--muted);line-height:1.75}
+.quick-facts{border-top:1px solid var(--line);margin-top:19px;padding-top:16px}
+.quick-facts h4{font-size:13px;margin:0 0 12px;font-weight:600}
+.quick-facts dl{margin:0;display:grid;gap:13px}
+.quick-facts dl>div{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 14px;align-items:baseline}
+.quick-facts dt{font-size:13px;color:var(--ink);font-weight:550}
+.quick-facts dd{font-size:12px;color:var(--muted);margin:0}
+.good-to-know .facts-note{font-size:12px;color:var(--muted);line-height:1.6;margin:14px 0 0}
+.reference-link{font-size:12px;display:inline-flex;align-items:center;gap:8px;min-height:38px;margin-top:12px}
+.reference-link svg{width:14px;height:14px}
+.phase-sequence-heading{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;margin:27px 0 0}
+.phase-sequence-heading>span:last-child{font-size:12px;color:var(--muted)}
+.observations-grid{gap:16px}
+.phase-tabs button{font-size:12px;min-height:35px;padding:6px 10px}
+.strategy-later{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:16px;margin-top:16px;align-items:start}
+.strategy-later .ranked-priorities{margin:0}
+.strategy-later .ranked-priorities .card:not(.expanded) ol{grid-template-columns:1fr;gap:13px}
+.goals-list{gap:13px}
+.goals-list label{font-size:14px;line-height:1.6;min-height:32px}
+.goals-list input{width:17px;height:17px}
+.goals-footer{font-size:12px;line-height:1.6}
+.claims-heading{margin-top:34px}
+.claims-help{font-size:13px;line-height:1.7}
+.claim-option{padding:18px}
+.claim-option-top h3{font-size:17px}
+.claim-option .fit-label{font-size:12px;line-height:1.5}
+.claim-option .claim-upkeep{font-size:11px}
+.claim-option p,.claim-option .claim-strategy-intro,.claim-strategy,.claim-option p.claim-when,.claim-payoff p{font-size:14px;line-height:1.7}
+.claim-strategy{gap:10px}
+.claim-basics>summary,.claim-payoff,.cover-guide>summary{font-size:13px;min-height:40px}
+.claim-basics-body p{font-size:14px}
+.claim-option .use-claim{font-size:12px;min-height:38px;flex-shrink:0}
+.claim-advice{font-size:14px}
+.other-claims-label{font-size:13px}
+.other-claims-label small{font-size:11px}
+.claim-icon-list .inline-claim-choice{min-height:40px;padding:6px 8px}
+.claim-icon-list .inline-claim-choice .choice-name{font-size:12px}
+.inline-claim-header .claim-icon-list{max-height:96px}
+.other-claims-label{max-width:150px}
+.example-section{padding:21px 23px;margin-top:30px}
+.example-section>.section-head h2{font-size:18px;flex-wrap:wrap}
+.example-code{font-size:14px}
+.example-posting,.example-tips ul{font-size:14px}
+.example-tips h3{font-size:15px}
+.example-section .copy-primary{background:var(--panel);border-color:var(--line);color:var(--muted)}
+.example-section .copy-actions .button{font-size:12px;min-height:40px;padding:8px 11px}
+.example-section [data-action="copy-blank"]{background:var(--accent-bg);border-color:var(--accent);color:var(--ink)}
+.role-result{min-height:64px}
+.role-result strong{font-size:14px;line-height:1.4;overflow-wrap:anywhere}
+.role-result small{font-size:11px;line-height:1.5}
+.strategy-sources{font-size:12px}
+.source-footnote{font-size:12px;line-height:1.7}
+@media(max-width:760px){
+  .strategy-top,.strategy-later{grid-template-columns:1fr}
+  .role-description,.card-content,.recommended-play .card-content,.ranked-priorities .card-content{font-size:14px}
+  .recommended-play,.good-to-know,.example-section{padding:18px}
+  .recommendation-title{font-size:22px}
+  .recommended-action{font-size:15px}
+  .good-to-know h3{font-size:18px}
+  .good-to-know .quick-facts dl{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .good-to-know .quick-facts dl>div{display:block}
+  .good-to-know .quick-facts dd{margin-top:5px}
+  .page-nav button{font-size:12px;gap:5px;padding:7px 4px}
+  .claim-option-top{flex-wrap:wrap;gap:8px}
+  .claim-option-top .claim-option-info{flex-basis:calc(100% - 85px)}
+  .claim-option-top .use-claim{margin-left:auto;font-size:12px;padding:7px 10px}
+  .claim-option-top h3{font-size:16px}
+  .claims-heading{align-items:flex-start;flex-wrap:wrap}
+}
+@media(max-width:560px){
+  .hero{gap:8px 12px;margin-bottom:20px;align-items:start}
+  .hero>div{display:contents}
+  .hero>.image-wrap{grid-column:1;grid-row:1/3}
+  .hero>div>.eyebrow,.hero .role-title-row{grid-column:2}
+  .hero .role-meta,.hero .role-description,.hero .public-story{grid-column:1/-1}
+  .hero-art{width:58px;height:58px;margin-top:0}
+  .hero h1{font-size:38px}
+  .hero .role-title-row{gap:9px;margin-bottom:9px}
+  .hero .role-help{width:auto;min-height:36px;font-size:12px;padding:6px 9px}
+  .hero .role-description{font-size:14px}
+  .role-group-button{font-size:12px;min-height:40px}
+  .role-group-count{display:none}
+  .public-story{font-size:12px}
+  .page-nav{gap:2px;margin-bottom:18px}
+  .page-nav button{font-size:12px;flex-direction:column;gap:4px;line-height:1.3;min-height:55px;padding:5px 2px}
+  .page-nav button>span{width:17px;height:17px;font-size:9px}
+  #strategy>.section-head{flex-wrap:wrap;margin-top:15px;gap:12px}
+  #strategy>.section-head h2{font-size:18px}
+  .phase-tabs{width:100%}
+  .phase-tabs button{flex:1;font-size:12px}
+  .card-heading h3{font-size:15px}
+  .must-know{padding:12px;margin:15px 0}
+  .must-know h4{font-size:15px}
+  .card-content pre{font-size:12px}
+  .good-to-know .quick-facts dl{grid-template-columns:1fr}
+  .good-to-know .quick-facts dl>div{display:flex}
+  .good-to-know .quick-facts dd{margin-top:0}
+  .other-claims-label{font-size:12px;max-width:100px}
+  .other-claims-label small{font-size:10px}
+  .claim-icon-list .inline-claim-choice .choice-name{font-size:12px;max-width:12ch}
+  .claim-icon-list .inline-claim-choice{min-height:40px}
+  .claim-selector .button{font-size:13px;min-height:40px}
+  .picker-results{grid-template-columns:1fr}
+  .role-result{gap:10px;padding:10px 12px}
+  .role-result strong{font-size:15px}
+  .role-result small{font-size:12px}
+  .role-result img{width:36px;height:36px}
+  .example-section>.section-head h2{font-size:17px}
+  .example-tips ul{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}

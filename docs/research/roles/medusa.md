@@ -28,6 +28,8 @@ These are recommendations, not forced actions:
 
 ## Claim timing and disclosure
 
+If Grace Period is active or unchecked and you are claiming TP, hold Stone on N1. A Stone Gaze is a direct, non-harmful visit; an enabled Medusa action does not make the claimed protective visit legal. Check the N1 notice before the action, not after a witness reports the visit.
+
 A visiting cover fits movement better than an inherently nonvisiting one while gazing. Claiming a hidden role is conditional, not automatically safe.
 
 ## Read the information
@@ -44,7 +46,7 @@ Necromancer can use Stoned bodies; normal Town Retributionist cannot. Amnesiac c
 
 ## Worked decision
 
-A useful opponent is expected to die: Stone can suppress their public will, but surviving targets remain marked for later.
+You claim TP/Cleric and see the Grace Period notice: hold Stone on N1. A Tracker following you or a Lookout watching the recipient could see a Stone visit that a Cleric could not legally make that night. With Grace Period off and a cover that can actually visit, a coordinated useful mark may be reasonable.
 
 ## Wills and cover reasoning
 
@@ -53,6 +55,8 @@ Use the [Medusa entry format](../../reference/WILL_TEMPLATES.md#medusa). Example
 ## Sources and deeper context
 
 Mechanics: [Medusa role article](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)) · [reviewed revision](https://townofsalem.wiki.gg/w/index.php?title=Medusa%20%28ToS2%29&oldid=5933).
+
+The [official R1.5.01 Grace Period changes](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/) disable protective abilities on N1. The [R1.5.03 update](https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/) adds the N1 notification. Holding Stone to preserve a TP cover is an editorial inference from those restrictions and Stone's direct visit.
 
 Shared chapters: [evidence and claim mechanics](../MECHANICS.md) · [logical claim framework](../FAKE_CLAIM_LOGIC.md) · [known uncertainties](../UNCERTAINTIES.md).
 

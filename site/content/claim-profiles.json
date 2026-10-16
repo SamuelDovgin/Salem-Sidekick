@@ -5,13 +5,14 @@
     "exposure": "You promise Powerful Defense without necessarily supplying it. Claimed saves, movement checks, a second Self Barrier, or an incompatible protected-player death can expose the story.",
     "posting": "Answer TP during alignment claims. Give the full role and existing history when pressed or explaining protection; quiet nights need no invented dawn announcement.",
     "willGuidance": [
+      "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
       "Choose a plausible valuable recipient before night resolves; keep the number consistent with your actual observed visit.",
       "Write Barrier 4, not saved 4, unless the actual feedback supports a save.",
       "Use Self Barrier at most once. Do not promise a private protection plan to everyone.",
       "Check the graveyard before posting: a dead target is a red flag, not automatic proof. An interrupted action or Unstoppable attack can explain death; an unblocked ordinary lethal attack conflicts with a genuine Barrier. Keep the original target rather than rewriting history."
     ],
-    "example": "Cleric\nN1: Barrier 4\nN2: Barrier 7",
-    "blank": "Cleric\nN1: Barrier [player] — [actual feedback, if any]",
+    "example": "Cleric\nN2: Barrier 4\nN3: Barrier 7",
+    "blank": "Cleric\nN[night]: Barrier [player] — [actual feedback, if any]",
     "expanded": "If Grace Period is active, Cleric cannot Barrier another player on N1. Do not use an N1 Barrier example under that setup. These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
@@ -19,7 +20,7 @@
     "plainAbility": "Each night, visit one person and give them a protective shield for that night. The game calls this Barrier: it grants Powerful Defense, which stops Basic and Powerful attacks, but not Unstoppable attacks.",
     "claimMeaning": "You are saying you visited and protected that person. You are not saying they were attacked or that you saved them unless you received supporting feedback.",
     "simpleExample": "When Barrier is enabled, ‘N1: Barrier 4’ means ‘I protected player 4 on the first night.’ It does not mean ‘4 was attacked.’",
-    "setupWarning": "If Grace Period is active, Cleric cannot Barrier another player on N1. Check the game's Night 1 notice before claiming an N1 Barrier."
+    "setupWarning": "If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability."
   },
   "psychic": {
     "effort": "High upkeep",
@@ -195,20 +196,22 @@
     "exposure": "You promise interception of a direct harmful visitor and a counterattack. Fake saves, incompatible survivals, or more than two self-protections are harder to explain than quiet guards.",
     "posting": "Answer TP under alignment claims. Full-claim when protection coordination, a save, or a contradiction makes the exact ability relevant; keep unnecessary future targets private.",
     "willGuidance": [
+      "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
       "Write Guard and the selected player even when nothing was reported; choosing a target is not a save.",
       "Use Self Protect at most twice and remember it supplies Basic Defense rather than a normal guard on another player.",
       "Keep the destination aligned with any actual observed movement.",
       "Do not erase a dead guard target automatically: astral bypass or additional attacks can explain some deaths; ordinary unblocked interception claims must still fit the evidence."
     ],
-    "example": "Bodyguard\nN1: Guard 4\nN2: Self Protect — use 1",
-    "blank": "Bodyguard\nN1: Guard [player] — [actual feedback, if any]",
+    "example": "Bodyguard\nN2: Guard 4\nN3: Self Protect — use 1",
+    "blank": "Bodyguard\nN[night]: Guard [player] — [actual feedback, if any]",
     "expanded": "Low upkeep describes writing effort. Repeated alleged interceptions with no compatible harm or attacker evidence require explanation. A real Bodyguard can survive with suitable protection; survival alone is not disproof.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)"
     ],
     "plainAbility": "Guard a person against one direct harmful visitor. A successful interception cancels that harmful action and counterattacks the visitor, putting you in danger. This is an interception, not a general protective shield.",
     "claimMeaning": "You promise a legal guard attempt, not a guaranteed save. Your own survival and any interception outcome must fit the feedback.",
-    "simpleExample": "“N1: Guard 4” means you tried to intercept a harmful visit to 4. It does not mean someone actually attacked 4."
+    "simpleExample": "“N1: Guard 4” means you tried to intercept a harmful visit to 4. It does not mean someone actually attacked 4.",
+    "setupWarning": "If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability."
   },
   "crusader": {
     "effort": "Moderate upkeep",
@@ -216,20 +219,22 @@
     "exposure": "You promise Powerful protection and an attack on one random direct visitor. An invented attacker identity, incompatible death label, or unsupported saved claim can unravel the account.",
     "posting": "Answer TP during alignment claims. Coordinate enough to reduce friendly visitor risk, and reveal Crusader when its dangerous protection explains an actual event or requires cooperation.",
     "willGuidance": [
+      "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
       "Write the fortified player, with protection feedback and visitor-attack feedback kept separate.",
       "Do not claim to know which visitor was struck unless the game or independent evidence supplies it.",
       "Record at most the actual visitor attack rather than pretending you hit every visitor.",
       "Avoid promising to sit on a crowded TP/LO call without acknowledging the risk to friendly visitors."
     ],
-    "example": "Crusader\nN1: Fortify 4\nN2: Fortify 7 — no attack feedback",
-    "blank": "Crusader\nN1: Fortify [player] — [protection feedback]; [visitor-attack feedback]",
+    "example": "Crusader\nN2: Fortify 4\nN3: Fortify 7 — no attack feedback",
+    "blank": "Crusader\nN[night]: Fortify [player] — [protection feedback]; [visitor-attack feedback]",
     "expanded": "A Jinx-like attack reproduces no Crusader protection. Quiet Fortify entries are not proof. Keep the preselected destination instead of choosing a convenient surviving house after dawn.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)"
     ],
     "plainAbility": "Visit one person, shield them against Basic and Powerful attacks (Powerful Defense), and make a Basic attack against one random direct visitor to their house. This is called Fortify. A friendly Town visitor can be hit too; other visitors can survive.",
     "claimMeaning": "You are promising BOTH protection for the resident and danger to one visitor. You do not get a complete visitor list or automatically learn whom you attacked.",
-    "simpleExample": "“N1: Fortify 4” means “I protected player 4 and could attack one person who visited 4.” It does not mean you attacked player 4 or everyone there."
+    "simpleExample": "“N1: Fortify 4” means “I protected player 4 and could attack one person who visited 4.” It does not mean you attacked player 4 or everyone there.",
+    "setupWarning": "If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability."
   },
   "oracle": {
     "effort": "Low upkeep",
@@ -237,20 +242,22 @@
     "exposure": "You protect a role rather than visiting a numbered player. Repeated consecutive role choices, extra Oracle selections, or a visible direct visit can expose the story.",
     "posting": "Answer TP under alignment claims. Give exact role choices when the history is needed; do not describe a random numbered player as though you directly protected them.",
     "willGuidance": [
+      "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
       "Write Aegis Sheriff, for example, rather than Barrier 4.",
       "Choose a different role on consecutive nights and use the Oracle self-role option only once.",
       "If Grace Period disables N1 Aegis, write unavailable rather than a fictitious protection.",
       "Do not claim a save just because a player with the chosen role survived; use actual feedback and avoid inventing their exact identity."
     ],
-    "example": "Oracle\nN1: Aegis Sheriff\nN2: Aegis Seer",
-    "blank": "Oracle\nN1: Aegis [role] — [actual feedback / unavailable]",
+    "example": "Oracle\nN2: Aegis Sheriff\nN3: Aegis Seer",
+    "blank": "Oracle\nN[night]: Aegis [role] — [actual feedback / unavailable]",
     "expanded": "The example assumes N1 Aegis is enabled. A false Oracle supplies no actual protection. Later book attacks can break a formerly good astral movement fit.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
     ],
     "plainAbility": "Choose a Town ROLE, such as Sheriff, instead of choosing a numbered player. Its holders receive Powerful Defense without a normal player visit. You cannot repeat the same role on consecutive nights; choosing Oracle itself is once only.",
     "claimMeaning": "You promise protection aimed at a role category. A will naming a protected player number instead describes the wrong targeting method.",
-    "simpleExample": "“N1: Aegis Sheriff” means you selected the Sheriff role for protection; it does not mean you learned who the Sheriff is."
+    "simpleExample": "“N1: Aegis Sheriff” means you selected the Sheriff role for protection; it does not mean you learned who the Sheriff is.",
+    "setupWarning": "If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability."
   },
   "trapper": {
     "effort": "Moderate upkeep",

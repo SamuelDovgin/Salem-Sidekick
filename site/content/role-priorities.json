@@ -1,0 +1,646 @@
+{
+  "jailor": {
+    "mustKnow": {
+      "title": "Execution starts on N2",
+      "body": "Choose the prisoner during the day. You cannot execute on N1, and executing Town removes your remaining abilities."
+    },
+    "goodToKnow": {
+      "title": "A quiet jail night is a lead",
+      "body": "No kill while someone is jailed does not prove they are the killer. Jail also has exceptions to its protection and visit blocking."
+    }
+  },
+  "marshal": {
+    "mustKnow": {
+      "title": "You cannot check the first flip",
+      "body": "Tribunal delays roles and wills until it ends. Have evidence for the next execution before committing; activating only to prove yourself wastes its value."
+    },
+    "goodToKnow": {
+      "title": "Hanging objectives still matter",
+      "body": "Tribunal deaths can satisfy Jester or Executioner objectives. Check the setup before relying on the normal two-victim limit."
+    }
+  },
+  "mayor": {
+    "mustKnow": {
+      "title": "Reveal before you reach trial",
+      "body": "Reveal when the extra vote changes the outcome. Waiting until you are on trial can leave you unable to use it."
+    },
+    "goodToKnow": {
+      "title": "Your vote strength grows",
+      "body": "This is not the old fixed-vote model: revealing adds a vote, with further growth on later days while alive. Public identity also exposes you to guessers."
+    }
+  },
+  "monarch": {
+    "mustKnow": {
+      "title": "Knighthood does not prove loyalty",
+      "body": "A Knight can be evil. Spend the two charges on evidence, because the extra vote can strengthen the opposing faction."
+    },
+    "goodToKnow": {
+      "title": "Defense follows a living Knight",
+      "body": "Your Basic Defense depends on a living Knight after knighting resolves. Selecting a future Knight is not protection you already have."
+    }
+  },
+  "prosecutor": {
+    "mustKnow": {
+      "title": "Prosecution bypasses the normal trial",
+      "body": "Use supported evidence, not a demonstration of your role. Prosecuting Town removes your remaining charges."
+    },
+    "goodToKnow": {
+      "title": "It counts as a hanging",
+      "body": "Jester and Executioner objectives can be fulfilled by Prosecution. You cannot use it during Tribunal, and normally only one Prosecution is allowed per day."
+    }
+  },
+  "coroner": {
+    "mustKnow": {
+      "title": "Autopsy before a meaningful check",
+      "body": "Examine compares against collected killer records. Without a suitable autopsy, do not write a meaningful N1 examination."
+    },
+    "goodToKnow": {
+      "title": "No match is a limited result",
+      "body": "No match means no match to your collected records, not innocent. A Shrouded Town player can also produce killer evidence without voluntary evil action."
+    }
+  },
+  "investigator": {
+    "mustKnow": {
+      "title": "No Crime does not clear faction",
+      "body": "Record the exact crimes shown. Town attacks or visits across factions can produce crime; a result is not an automatic guilty verdict."
+    },
+    "goodToKnow": {
+      "title": "The two crimes mean different things",
+      "body": "Murder concerns an attack that night. Trespassing concerns opposing-faction visiting history. Keep those findings separate in your post."
+    }
+  },
+  "lookout": {
+    "mustKnow": {
+      "title": "Visitors are not destinations",
+      "body": "Your report lists visible visitors to the house you watched. It does not tell you where those players went elsewhere or which visitor killed."
+    },
+    "goodToKnow": {
+      "title": "Astral visitors stay out of the list",
+      "body": "No visible visitors does not rule out astral effects. Avoid exposing protective identities when the observation does not require it."
+    }
+  },
+  "psychic": {
+    "mustKnow": {
+      "title": "Odd: two Good · even: three Evil",
+      "body": "Odd-night visions contain at least one Good among two names; even-night visions contain at least one Evil among three. Include your selected target."
+    },
+    "goodToKnow": {
+      "title": "At least one does not mean exactly one",
+      "body": "The vision gives a group condition. It does not select a single culprit, and framing or concealment can affect the classifications."
+    }
+  },
+  "seer": {
+    "mustKnow": {
+      "title": "Friends does not mean two Town",
+      "body": "Friends is apparent faction compatibility; Enemies is a mismatch. Neither result alone tells you which player is evil."
+    },
+    "goodToKnow": {
+      "title": "Your target pool changes",
+      "body": "Previously compared and revealed players have targeting restrictions. You normally visit both targets, so keep the exact pair and any failed action in your history."
+    }
+  },
+  "sheriff": {
+    "mustKnow": {
+      "title": "Innocent is not a confirmed ally",
+      "body": "An Innocent result leaves many evils possible. A Suspicious result can also come from framing; post the literal result before interpreting it."
+    },
+    "goodToKnow": {
+      "title": "Some dangerous roles look Innocent",
+      "body": "Neutral Killings and the Necronomicon holder can evade a clean guilt check. Combine the result with claims, votes, and other evidence."
+    }
+  },
+  "spy": {
+    "mustKnow": {
+      "title": "Bugs persist after placement",
+      "body": "Separate the night you placed a bug from a later trigger. This role does not provide the old global Coven visit log."
+    },
+    "goodToKnow": {
+      "title": "A role report is not a player number",
+      "body": "Bug feedback can identify an evil visiting role without naming its owner. No trigger is not universal proof that the target was safe."
+    }
+  },
+  "tracker": {
+    "mustKnow": {
+      "title": "No visible visit is not no action",
+      "body": "Report every visible destination. Astral actions can appear as no visit, and visiting a death does not by itself identify the killer."
+    },
+    "goodToKnow": {
+      "title": "Extra visits have several explanations",
+      "body": "A two-visit result does not prove Seer or Town. Catalyst, changed visibility, and corpse-using abilities can complicate a simple movement deduction."
+    }
+  },
+  "bodyguard": {
+    "mustKnow": {
+      "title": "Guard intercepts one harmful visitor",
+      "body": "You do not grant a normal barrier or stop every attack. A successful interception can kill you, and astral attacks can bypass it."
+    },
+    "goodToKnow": {
+      "title": "Protection can preserve the protector",
+      "body": "A barrier can save you during the counterattack. Merely guarding someone, or dying for them, does not establish their faction."
+    }
+  },
+  "cleric": {
+    "mustKnow": {
+      "title": "Check N1 Barrier availability",
+      "body": "Grace Period prevents Barrier on another player on N1. Record an unavailable action honestly; choosing a target is not evidence you saved them."
+    },
+    "goodToKnow": {
+      "title": "Powerful Defense has a ceiling",
+      "body": "Unstoppable attacks bypass Barrier. You have one Self Barrier, and your visit can still expose you to a Veteran or rampage."
+    }
+  },
+  "crusader": {
+    "mustKnow": {
+      "title": "Your attack can kill a friendly visitor",
+      "body": "Fortify protects the target but attacks one random direct visitor. Avoid joining a crowded protection call without coordination."
+    },
+    "goodToKnow": {
+      "title": "It does not attack every visitor",
+      "body": "A surviving visitor is not a unique-role identification. Astral visitors avoid retaliation, and defense can explain a failed kill."
+    }
+  },
+  "oracle": {
+    "mustKnow": {
+      "title": "Choose a role, not a player",
+      "body": "Aegis protects holders of the chosen Town role. Do not repeat a role on consecutive nights; selecting Oracle itself is available only once."
+    },
+    "goodToKnow": {
+      "title": "Aegis is astral",
+      "body": "Aegis can reach through jail without a normal visit. Record the role selected; a save does not necessarily identify the protected player's number."
+    }
+  },
+  "trapper": {
+    "mustKnow": {
+      "title": "Build before you place",
+      "body": "An ordinary N1 is Build, not placement. Keep only one active trap and track dismantling or rebuilding before claiming another placement."
+    },
+    "goodToKnow": {
+      "title": "Feedback can outlive the placement night",
+      "body": "A later trigger can come from an earlier trap. Report the roles shown without assigning them to player numbers you did not learn."
+    }
+  },
+  "deputy": {
+    "mustKnow": {
+      "title": "One shot; a miss does not clear",
+      "body": "Your day shot starts on D2. A miss can reflect Town status or defense and does not publicly demonstrate the ability."
+    },
+    "goodToKnow": {
+      "title": "Old suicide advice no longer applies",
+      "body": "Do not use the older shoot-Town-and-die rule. Framing and protection can affect eligibility, so choose from evidence rather than using the shot as a test."
+    }
+  },
+  "trickster": {
+    "mustKnow": {
+      "title": "Absorb first, Unleash later",
+      "body": "An empty Mirror attempt is not an attack result. Spend the stored attack before trying to Mirror again."
+    },
+    "goodToKnow": {
+      "title": "The stored attack keeps its dangers",
+      "body": "Unleashing a rampage can hurt allied visitors and use the absorbed role's death label. Unstoppable attacks shatter mirrors rather than supplying a normal absorption."
+    }
+  },
+  "veteran": {
+    "mustKnow": {
+      "title": "Alert also shoots friendly visitors",
+      "body": "You have three Alerts. Do not make a protection/Lookout call as the beginner default and then kill the Town players who answer it."
+    },
+    "goodToKnow": {
+      "title": "A quiet Alert can still be real",
+      "body": "No kills does not disprove Alert. Roleblocks can prevent it, astral visitors bypass it, and protection can keep a direct visitor alive."
+    }
+  },
+  "vigilante": {
+    "mustKnow": {
+      "title": "Load before you shoot",
+      "body": "Spend a night at home to load before shooting on a later night. You cannot shoot on ordinary N1; shooting Town removes access to the gun."
+    },
+    "goodToKnow": {
+      "title": "A failed shot has several explanations",
+      "body": "Defense is not the only possible explanation for failure. Control can redirect the shot, and roleblocking can prevent a load."
+    }
+  },
+  "admirer": {
+    "mustKnow": {
+      "title": "Find the Obsession before Care",
+      "body": "You cannot use Care before finding your Obsession. The old marriage and proposal templates do not describe this role."
+    },
+    "goodToKnow": {
+      "title": "Bestow changes later visit evidence",
+      "body": "Day Bestow grants lasting astral visits plus roleblock and control immunity. Later missing visits can reflect that change rather than a false claim."
+    }
+  },
+  "amnesiac": {
+    "mustKnow": {
+      "title": "Remember is automatic",
+      "body": "You do not choose a night remember target. Track the actual transition to an eligible dead Town role instead of inventing a visit."
+    },
+    "goodToKnow": {
+      "title": "Keep the role timeline",
+      "body": "Town Power has remembering priority. Hidden or altered deaths need not prevent Remember, and multiple Amnesiacs cannot all take the same Unique role."
+    }
+  },
+  "retributionist": {
+    "mustKnow": {
+      "title": "Use a body your role permits",
+      "body": "A normal Town Retributionist cannot use Stoned bodies or self-protect through a corpse. Do not claim an action from an unsuitable body."
+    },
+    "goodToKnow": {
+      "title": "You and the corpse visit differently",
+      "body": "You visit the corpse; the corpse visits the destination. Necromancer has corpse-use priority, so a missing action need not mean the original body was invalid."
+    }
+  },
+  "socialite": {
+    "mustKnow": {
+      "title": "Rejection does not name every visitor",
+      "body": "Record whether someone was rejected, not identities you did not receive. You cannot Party at the same house on consecutive nights."
+    },
+    "goodToKnow": {
+      "title": "An obstacle is not a roleblock",
+      "body": "Party rejects uninvited eligible visitors. Astral and Party-immune actions differ, and Poisoner's Smog is not the same mechanic."
+    }
+  },
+  "tavern-keeper": {
+    "mustKnow": {
+      "title": "Hangover prevents a repeat block",
+      "body": "A successful Drink leaves Hangover. Do not claim a continuous roleblock lock or treat no kill after one block as proof of the killer."
+    },
+    "goodToKnow": {
+      "title": "Some targets can retaliate",
+      "body": "An uncautious Serial Killer or Full Moon Werewolf can be dangerous to block. Drink does not stop daytime abilities."
+    }
+  },
+  "catalyst": {
+    "mustKnow": {
+      "title": "Check setup and action timing",
+      "body": "Catalyst is a Unique Outlier and needs a compatible setup. Confirm the current role's Overcharge timing rather than assuming every ability gains an immediate extra use."
+    },
+    "goodToKnow": {
+      "title": "Extra actions change movement evidence",
+      "body": "Additional visits can be a legitimate Overcharge effect. They do not automatically identify a Seer or another specific role."
+    }
+  },
+  "pilgrim": {
+    "mustKnow": {
+      "title": "There is no hidden night result",
+      "body": "Pilgrim has no active ability. Keep social reads separate from mechanical claims, and check that the setup permits this Outlier."
+    },
+    "goodToKnow": {
+      "title": "Votes and records are your contribution",
+      "body": "Organize claims and contradictions, ask useful questions, and count votes. Having no night button does not make silence useful."
+    }
+  },
+  "archmage": {
+    "mustKnow": {
+      "title": "Retrain and book attack compete",
+      "body": "Do not plan ordinary Retrain and an independent Necronomicon attack on the same night. Role availability and ally retraining have restrictions."
+    },
+    "goodToKnow": {
+      "title": "A new role needs a new action history",
+      "body": "Retraining changes role, not automatically faction. Recheck your cover's movement and demonstration requirements after a role change."
+    }
+  },
+  "hex-master": {
+    "mustKnow": {
+      "title": "The book changes your movement",
+      "body": "Book Hex and its Basic Attack become astral. A cover promising a normal visible visit can contradict your real action."
+    },
+    "goodToKnow": {
+      "title": "Hex progress is not a completed bomb",
+      "body": "Bomb completion has its own trigger and requires the Hex Master to remain active under its conditions. Keep progression private and separate from ordinary attack results."
+    }
+  },
+  "witch": {
+    "mustKnow": {
+      "title": "Two targets are not two visits",
+      "body": "Control normally visits the first player, not both selected numbers. A Seer story is not naturally supported by selecting two targets."
+    },
+    "goodToKnow": {
+      "title": "Role knowledge is narrower than a history",
+      "body": "Learning a role does not give every result another investigator would see. Immunity, Hangover, charges, and Illumination can limit the next Control or Ritualist follow-up."
+    }
+  },
+  "conjurer": {
+    "mustKnow": {
+      "title": "Night protection is not day protection",
+      "body": "Check the target's actual daytime defenses before spending the one Meteor. Do not assume last night's barrier still applies."
+    },
+    "goodToKnow": {
+      "title": "The cinematic does not name you",
+      "body": "The Meteor publicly shows that the ability happened, not which living player used it. A public-reveal Town cover still needs a demonstration you cannot normally give."
+    }
+  },
+  "ritualist": {
+    "mustKnow": {
+      "title": "Check eligibility before guessing",
+      "body": "Blood Ritual has two attempts. Town Investigatives and Illuminated targets are normally ineligible; a Potion Master reveal is not an immediate guaranteed ritual."
+    },
+    "goodToKnow": {
+      "title": "A wrong guess gives no replacement role",
+      "body": "Failure spends an attempt without identifying the correct role. Ordinary book attacks and Blood Ritual are alternative actions."
+    }
+  },
+  "jinx": {
+    "mustKnow": {
+      "title": "A surviving visitor can expose you",
+      "body": "You attack one non-Coven direct visitor; other direct visitors can learn your identity. A crowded call increases exposure as well as opportunity."
+    },
+    "goodToKnow": {
+      "title": "Jinx does not supply a Lookout list",
+      "body": "Attacking one visitor does not reveal the full visitor set. Astral visitors evade the passive attack, and book attacks add separate interception risks."
+    }
+  },
+  "dreamweaver": {
+    "mustKnow": {
+      "title": "A cure can prevent Insomnia",
+      "body": "Dreamwoven Town targets can be cured by a Town visit on the following night. Do not treat every applied status as permanent disruption."
+    },
+    "goodToKnow": {
+      "title": "Your continued role matters",
+      "body": "Death or retraining of the Dreamweaver normally clears its effects. A cure does not prove the cured player's permanent faction loyalty."
+    }
+  },
+  "enchanter": {
+    "mustKnow": {
+      "title": "Alterate needs the target to die",
+      "body": "You have two Alterates, and a survivor wastes the use. Coordinate death timing before committing the rewritten role, faction, and will."
+    },
+    "goodToKnow": {
+      "title": "Framing cannot rewrite every observation",
+      "body": "Do not expect Enchant to manufacture movement that observers directly verify. Coroner, Tracker, Lookout, and Spy resist this kind of information alteration."
+    }
+  },
+  "illusionist": {
+    "mustKnow": {
+      "title": "Illusion is astral; book attacks are direct",
+      "body": "Your ordinary book attack replaces the protection choice. Changing action mode can break a cover based on having no visible visit."
+    },
+    "goodToKnow": {
+      "title": "Appearance is not permanent allegiance",
+      "body": "Illusion does not fool every ability, and Reap can override it. Disguise changes shown death information, so graveyard role counts can mislead."
+    }
+  },
+  "medusa": {
+    "mustKnow": {
+      "title": "Stone is a visible visit, even without a kill",
+      "body": "Stone is non-harmful, so it can still be available while protection is disabled. If keeping a TP cover during Grace Period, hold N1 instead: an observer can see a visit your claimed protection could not make."
+    },
+    "goodToKnow": {
+      "title": "A permanent mark is not protection",
+      "body": "Stone hides a marked player's role and will when they later die. It does not protect or immediately kill them. You have three active charges; there is no need to spend one every night."
+    }
+  },
+  "necromancer": {
+    "mustKnow": {
+      "title": "A Ret cover has a smaller body pool",
+      "body": "Stoned or evil corpses and self-protection can contradict a normal Town Retributionist claim. Ordinary reanimation and book attack are alternatives."
+    },
+    "goodToKnow": {
+      "title": "Corpse-use priority can explain a failure",
+      "body": "Necromancer acts ahead of Retributionist for corpse use. Some day-role bodies resolve at an appropriate later transition rather than as an ordinary night ability."
+    }
+  },
+  "poisoner": {
+    "mustKnow": {
+      "title": "Drink and Smog are different stories",
+      "body": "Drink roleblocks; Smog obstructs visits to a house. A Tavern Keeper cover fits ordinary Drink, not an invented repeat block through Hangover."
+    },
+    "goodToKnow": {
+      "title": "The book constrains the choice",
+      "body": "A direct book attack also roleblocks but cannot normally accompany Smog. Recheck your cover when changing from Drink to a different action mode."
+    }
+  },
+  "potion-master": {
+    "mustKnow": {
+      "title": "Choose one potion mode",
+      "body": "Barrier, Reveal, and a book-enabled Harmful Potion are choices. Do not claim you healed, revealed, and attacked at once."
+    },
+    "goodToKnow": {
+      "title": "Reveal does not grant every result",
+      "body": "Role knowledge does not supply actions, crimes, or a Seer's two-visit pattern. Reveal also applies Illumination, which restricts Ritualist follow-up."
+    }
+  },
+  "voodoo-master": {
+    "mustKnow": {
+      "title": "Changing dolls does not reset targeting",
+      "body": "You cannot target the same player on consecutive nights, even with a different doll. Plan the next target before choosing Silence, Deafen, or Blind."
+    },
+    "goodToKnow": {
+      "title": "Missing feedback is not failed action",
+      "body": "Blindness and daytime communication effects do different jobs. A silenced player's lack of a public claim is not voluntary refusal."
+    }
+  },
+  "wildling": {
+    "mustKnow": {
+      "title": "Keep the two directions separate",
+      "body": "Sense supplies destinations and visitors, but Tracker reports only destinations and Lookout only visitors. Whispers are not a result either cover receives."
+    },
+    "goodToKnow": {
+      "title": "The book ties your attack to Sense",
+      "body": "Book attacks retain Sense but attack that same target. Astral actions evade Sense, so your movement information is not exhaustive."
+    }
+  },
+  "covenite": {
+    "mustKnow": {
+      "title": "No special ability does not mean no obligations",
+      "body": "Your cover still needs plausible actions and demonstrations. Check that the setup allows this Outlier, and coordinate with Coven rather than inventing a natural ability."
+    },
+    "goodToKnow": {
+      "title": "Receiving the book changes the story",
+      "body": "A quiet no-visit cover may stop fitting once you make direct book attacks. Teammate information can support a story but cannot create its promised public ability."
+    }
+  },
+  "cultist": {
+    "mustKnow": {
+      "title": "Conversion changes faction, not the role",
+      "body": "Your one day Indoctrinate can turn eligible Town into your faction while retaining their ability. Prior Town confirmation no longer establishes current loyalty."
+    },
+    "goodToKnow": {
+      "title": "Converted allies are not ordinary Town Traitors",
+      "body": "Converted players can receive the Necronomicon. Recheck faction assumptions and book coordination after conversion."
+    }
+  },
+  "baker": {
+    "mustKnow": {
+      "title": "Count other living Bread holders",
+      "body": "Your starting Bread is not an ordinary recipient, and dead recipients do not count toward the normal transformation threshold. Prefer players likely to survive."
+    },
+    "goodToKnow": {
+      "title": "Transformation changes your job",
+      "body": "After becoming Famine, use the transformed plan rather than feeding again. The public transformation announcement does not identify which player transformed."
+    }
+  },
+  "berserker": {
+    "mustKnow": {
+      "title": "No N1 attack; kills drive progression",
+      "body": "Begin attacking after N1. Selecting a victim is not a kill: confirm each upgrade before using the stronger attack or Rampage rules."
+    },
+    "goodToKnow": {
+      "title": "Rampage changes collateral risk",
+      "body": "The second kill adds Rampage and the third enables War. Once upgraded, account for visitors as well as the selected house."
+    }
+  },
+  "plaguebearer": {
+    "mustKnow": {
+      "title": "Infection is not a clean visitor log",
+      "body": "Starting neighbor infections are not N1 visitors. Repeated contact with an already infected player need not create a fresh event."
+    },
+    "goodToKnow": {
+      "title": "Switch plans when Pestilence arrives",
+      "body": "Infect all living opponents to transform, then use the stack-based Pestilence plan. Astral contact normally does not spread infection."
+    }
+  },
+  "soul-collector": {
+    "mustKnow": {
+      "title": "Reap does not kill the target",
+      "body": "Reap is astral, frames the target, and supplies extra souls when they die. Do not count an attempted Reap as a kill or a normal visit."
+    },
+    "goodToKnow": {
+      "title": "Death makes daytime survival urgent",
+      "body": "Seven souls transform you into Death. At that point surviving the public day matters more than continuing the earlier soul-collection plan."
+    }
+  },
+  "doomsayer": {
+    "mustKnow": {
+      "title": "All three guesses must be right",
+      "body": "Guess from N2 and respect target restrictions, including TI immunity. A failed set does not tell you which guess was wrong."
+    },
+    "goodToKnow": {
+      "title": "Winning precedes the delayed deaths",
+      "body": "Correct guesses Doom the victims for later death; their eventual deaths are not required to count the win. Exact Outlier eligibility remains disputed in the reviewed sources."
+    }
+  },
+  "executioner": {
+    "mustKnow": {
+      "title": "Your target must be hanged while you live",
+      "body": "A night kill or ordinary day shot is not your win. Keep the assigned target and your own survival central to the plan."
+    },
+    "goodToKnow": {
+      "title": "A transition changes the requirements",
+      "body": "Prosecution or Tribunal can satisfy the hanging objective. If another death turns you into Jester, follow Jester's participation requirement."
+    }
+  },
+  "jester": {
+    "mustKnow": {
+      "title": "Meet Chatterbox and get hanged",
+      "body": "Suspicion alone is not enough. Complete the daily text participation requirement; whispers, Last Words, and being shot do not substitute for it."
+    },
+    "goodToKnow": {
+      "title": "The hanging route affects revenge",
+      "body": "Normal trials, Prosecution, and Tribunal have different revenge eligibility. Early Neutral Evil defense also expires; do not plan around it lasting forever."
+    }
+  },
+  "pirate": {
+    "mustKnow": {
+      "title": "Scour first; no ordinary N1 Plunder",
+      "body": "This role no longer uses the old duel minigame. A non-Landlubber kill removes your remaining Plunders, so identify targets before spending them."
+    },
+    "goodToKnow": {
+      "title": "Other deaths can advance your objective",
+      "body": "Survive until all three Landlubbers die. Their identity belongs to the player, so a role change need not remove them from your target list."
+    }
+  },
+  "arsonist": {
+    "mustKnow": {
+      "title": "Check your own gasoline before Ignite",
+      "body": "Track direct douses, passive visitor douses, and your self-doused state separately. Taking no action can clean you; do not forget this before burning."
+    },
+    "goodToKnow": {
+      "title": "Passive douses concern visitors to you",
+      "body": "They do not form a Lookout report on another house. Astral visitors avoid passive dousing, and same-night fresh visitors are not guaranteed immediate burns."
+    }
+  },
+  "serial-killer": {
+    "mustKnow": {
+      "title": "Choose Cautious deliberately",
+      "body": "Cautious suppresses retaliation against disruptors. Ordinary roleblocking does not simply stop your role, so align that setting with the cover you are maintaining."
+    },
+    "goodToKnow": {
+      "title": "An attack is not guaranteed progression",
+      "body": "Target defense can reset Bloodlust progress. Track confirmed outcomes before planning a Powerful Rampage; exact retaliation interactions stay in the deeper rules."
+    }
+  },
+  "shroud": {
+    "mustKnow": {
+      "title": "The Shrouded target may not visit",
+      "body": "If the selected player makes no direct visit, the fallback attacks that player. Do not assume every Shroud action is invisible or hits someone else."
+    },
+    "goodToKnow": {
+      "title": "A harmful visitor may be innocent",
+      "body": "Shroud can make a Town player's direct visit carry an attack and trigger guards or traps. A death gives only limited movement information."
+    }
+  },
+  "werewolf": {
+    "mustKnow": {
+      "title": "Use the actual Full Moon indicator",
+      "body": "Scent nights and Rampage nights do different jobs. Do not follow an assumed moon schedule or forget danger to visitors when staying home."
+    },
+    "goodToKnow": {
+      "title": "Scent reports can persist without a new visit",
+      "body": "An old scent can keep returning destinations. A fresh Tracker story about that player can conflict with your real attack elsewhere."
+    }
+  },
+  "cursed-soul": {
+    "mustKnow": {
+      "title": "Soul Swap does not swap faction",
+      "body": "After a successful swap, update the actual role and available actions. Your old role's template and the old faction-stealing objective do not apply."
+    },
+    "goodToKnow": {
+      "title": "The objective follows the faction profile",
+      "body": "Default Wandering Souls seeks to eliminate every Cursed Soul role while a faction member survives. An old known role is not proof of a player's current role."
+    }
+  },
+  "vampire": {
+    "mustKnow": {
+      "title": "A real Town ability can belong to your faction",
+      "body": "Conversion retains the target's role while changing allegiance. Do not apply static Town-confirmation logic after a conversion."
+    },
+    "goodToKnow": {
+      "title": "Killing Vampire may not end the faction",
+      "body": "Converted teammates can inherit Vampire. Defended or non-Town targets do not automatically convert, and the old youngest-biter system does not apply."
+    }
+  },
+  "famine": {
+    "dawn": "Record your Starve target, actual Bread changes and reported starvation deaths. Recount living opponents and their votes; do not continue a Baker Feed checklist.",
+    "mustKnow": {
+      "title": "You are using Starve now",
+      "body": "Stop following Baker's Feed opening. Target a living opponent with Bread to accelerate its loss, and plan to survive the vote."
+    },
+    "goodToKnow": {
+      "title": "Bread delays starvation",
+      "body": "Transformation starts the starvation process; it does not instantly eliminate every opponent. Invincible Defense does not prevent hanging."
+    }
+  },
+  "war": {
+    "dawn": "Record both chosen Rampage targets and the deaths actually shown. Recount surviving votes before deciding your next two targets; an attempted attack is not a confirmed kill.",
+    "mustKnow": {
+      "title": "Use the transformed two-target plan",
+      "body": "War can select up to two useful distinct Rampage targets with Unstoppable attacks. Do not fall back to Berserker's one-target buildup."
+    },
+    "goodToKnow": {
+      "title": "Your main remaining danger is the vote",
+      "body": "Invincible Defense does not prevent hanging. Count surviving votes while choosing attacks instead of treating transformation as an automatic win."
+    }
+  },
+  "pestilence": {
+    "dawn": "Record your actual Spread Pestilence action, reported stacks and deaths. Keep this stack-based state separate from the earlier Plaguebearer infection history.",
+    "mustKnow": {
+      "title": "Pestilence uses stacks, not the old rampage",
+      "body": "Use Spread Pestilence rather than continuing the Plaguebearer infection checklist. Three stacks are lethal while the effect is active."
+    },
+    "goodToKnow": {
+      "title": "Spread is not a conventional harmful attack",
+      "body": "Its action can force maximum stacks. Keep that mechanic separate from the old Town of Salem 1 passive-rampage model and reassess your cover."
+    }
+  },
+  "death": {
+    "dawn": "After the public transformation, count who can vote against you and answer the current accusations. Surviving this day is the immediate objective; do not plan another Reap.",
+    "mustKnow": {
+      "title": "Survive this day",
+      "body": "After the public transformation, daytime survival is the urgent decision. Do not keep following Soul Collector's night progression plan."
+    },
+    "goodToKnow": {
+      "title": "The Apocalypse resolves at the end of day",
+      "body": "Vote pressure is the central threat. Keep the cover consistent and private soul counts out of your public will."
+    }
+  }
+}

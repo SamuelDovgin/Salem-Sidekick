@@ -252,7 +252,7 @@
     ]
   },
   "medusa": {
-    "summary": "Cleric is the lower-upkeep direct-visit cover. Psychic can influence discussion but requires a legal vision every morning. A Stonemark is neither a Barrier nor a genuine vision, and book/death information can expose both stories.",
+    "summary": "Cleric is a low-upkeep cover only when the action and setup fit. During Grace Period, hold N1 rather than Stone while claiming TP. Psychic can fit a legal direct visit but requires an invented vision and early daily upkeep. Neither cover supplies the ability it claims.",
     "options": [
       {
         "roleId": "cleric",
@@ -260,8 +260,8 @@
         "alignment": "Town Protective",
         "alignment_abbreviation": "TP",
         "tag": "Low upkeep · weak independent proof",
-        "why": "A selected player can match a reported Barrier destination.",
-        "exposure": "Stonemark does not protect them, and a later book kill changes the consequences."
+        "why": "A direct Stone destination can match a Barrier destination only on a night when Cleric could actually make that visit.",
+        "exposure": "During Grace Period, an observed N1 Stone visit contradicts the usual Cleric protective-visit story. Stone also grants no defense, and later Stoned deaths can expose the mismatch."
       },
       {
         "roleId": "psychic",

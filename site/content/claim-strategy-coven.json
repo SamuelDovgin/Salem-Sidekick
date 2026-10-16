@@ -817,23 +817,25 @@
     ]
   },
   "medusa": {
-    "summary": "Cleric is the lower-upkeep direct-visit cover. Psychic can influence discussion but requires a legal vision every morning. A Stonemark is neither a Barrier nor a genuine vision, and book/death information can expose both stories.",
+    "summary": "Cleric is a low-upkeep cover only when the action and setup fit. During Grace Period, hold N1 rather than Stone while claiming TP. Psychic can fit a legal direct visit but requires an invented vision and early daily upkeep. Neither cover supplies the ability it claims.",
     "options": [
       {
         "roleId": "cleric",
         "tag": "Low upkeep · direct visit only",
-        "why": "Your active Stone or direct book destination can match one claimed Barrier destination.",
-        "exposure": "Stone grants no defense; a Stoned death or missing visit on a held night can expose the mismatch.",
-        "bestWhen": "You are actively visiting and want minimal daily result invention.",
+        "why": "A direct Stone destination can match a Barrier destination only on a night when Cleric could actually make that visit.",
+        "exposure": "During Grace Period, an observed N1 Stone visit contradicts the usual Cleric protective-visit story. Stone also grants no defense, and later Stoned deaths can expose the mismatch.",
+        "bestWhen": "Grace Period is confirmed off for an N1 visit, or it is a later night with a legal Barrier target. During Grace Period, keep the cover with an N1 hold.",
         "strategy": [
-          "Keep the claimed Barrier destination equal to the player actually Stoned or directly attacked that night.",
+          "N1 with Grace Period active or unchecked: stay home and do not Stone another player while keeping a TP cover. An enabled Medusa button does not make a Cleric visit legal.",
+          "On a night when a Barrier visit is legal, keep the claimed destination consistent with actual observed movement; matching movement still supplies no real protection.",
           "A held charge means you did not make that normal visit. Do not write an invented completed Barrier merely to fill N1.",
           "Answer TP and avoid saved messages without real supporting feedback; a permanent mark is not protective.",
           "The true role and will you can read after a Stoned death are private actual-role information. Cleric cannot mechanically reveal them."
         ],
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
-          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
+          "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
         ]
       },
       {

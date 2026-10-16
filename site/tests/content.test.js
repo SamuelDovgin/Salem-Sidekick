@@ -3,6 +3,24 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const pack=JSON.parse(readFileSync(new URL('../dist/data/roles.json',import.meta.url)));
 const library=[...pack.roles,...pack.states],byId=new Map(library.map(r=>[r.id,r]));
+test('all 64 current roles have distinct sourced visibility priorities, including transformed feedback',()=>{
+ const authored=JSON.parse(readFileSync(new URL('../content/role-priorities.json',import.meta.url)));
+ assert.deepEqual(Object.keys(authored).sort(),library.map(r=>r.id).sort());
+ for(const r of library){
+  const p=r.priorityGuide;
+  for(const key of ['mustKnow','goodToKnow']){
+   assert.deepEqual(p[key],authored[r.id][key],r.name);
+   assert.ok(p[key].title.trim()&&p[key].body.trim(),r.name);
+   assert.ok(p[key].body.split(/\s+/).length<=65,r.name+': keep quick guidance scannable');
+  }
+  assert.deepEqual(p.sourceUrls,r.studyGuide.sourceUrls,r.name);
+  if(r.parentId){assert.ok(p.dawn?.trim(),r.name);assert.notDeepEqual(p.mustKnow,byId.get(r.parentId).priorityGuide.mustKnow,r.name);}
+ }
+ assert.equal(new Set(library.map(r=>r.priorityGuide.mustKnow.title)).size,64);
+ assert.match(byId.get('cleric').priorityGuide.mustKnow.body,/Grace Period/);
+ assert.match(byId.get('arsonist').priorityGuide.mustKnow.body,/self-doused/);
+ assert.match(byId.get('death').priorityGuide.dawn,/Surviving this day/);
+});
 test('every base role and state has an opinion, targeting fallback, pivot and ranked priorities',()=>{
  assert.equal(library.length,64);assert.equal(new Set(library.map(r=>r.playbook.headline)).size,64);
  for(const r of library){for(const f of ['headline','firstNight','reason','targetRule','pivot','expanded'])assert.ok(r.playbook[f]?.trim(),`${r.name}: ${f}`);assert.equal(r.playbook.laterPriorities.length,3,r.name);assert.ok(r.playbook.sourceUrls.length,r.name);}
@@ -19,8 +37,22 @@ test('Voodoo policy and cover costs resolve the beginner ambiguity',()=>{
  const vm=byId.get('voodoo-master');assert.equal(vm.preferredClaimId,'cleric');assert.match(vm.playbook.firstNight,/Silence/);assert.match(vm.playbook.firstNight,/Blind/);assert.match(vm.playbook.laterPriorities[0],/Blind/);assert.match(vm.playbook.laterPriorities[2],/Deafen/);
  assert.equal(byId.get('cleric').claimProfile.effort,'Low upkeep');assert.equal(byId.get('psychic').claimProfile.effort,'High upkeep');assert.match(vm.claimAudit.summary,/no invented vision/);
 });
+test('Medusa N1 advice checks the TP cover before recommending an observable Stone visit',()=>{
+ const r=byId.get('medusa');
+ assert.match(r.playbook.firstNight,/Grace Period.*stay home and do not Stone/i);
+ assert.match(r.routes[0].goals[0],/N1 notice/);
+ assert.match(r.routes.find(x=>x.id==='coordinated-mark').when,/Grace Period must be confirmed off/);
+ const cover=r.claimOptions.find(x=>x.roleId==='cleric');
+ assert.match(cover.strategy[0],/stay home and do not Stone/);
+ assert.match(cover.exposure,/observed N1 Stone visit/);
+ for(const id of ['cleric','bodyguard','crusader','oracle']){
+  const p=byId.get(id).claimProfile;
+  assert.doesNotMatch(p.example,/\nN1:/,id);
+  assert.ok(p.openingConstraint.sourceUrls.length,id);
+ }
+});
 test('protective examples do not manufacture saves and tips keep death exceptions',()=>{
- const cleric=byId.get('cleric').claimProfile;assert.equal(cleric.example,'Cleric\nN1: Barrier 4\nN2: Barrier 7');assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
+ const cleric=byId.get('cleric').claimProfile;assert.equal(cleric.example,'Cleric\nN2: Barrier 4\nN3: Barrier 7');assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
 });
 test('higher-payoff role information does not erase movement or demonstration risks',()=>{
  assert.match(byId.get('potion-master').claimOptions.find(c=>c.roleId==='seer').exposure,/two|both/);

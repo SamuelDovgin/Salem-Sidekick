@@ -4,6 +4,8 @@ Research and planning date: **2026-10-15** (America/Chicago). Status: **Compact 
 
 ## Current practical-play revision
 
+The visibility pass adds **Must know beside the action** and **Good to know with ability timing** for all 64 current roles/states. Readable route names replace unexplained numbers, a labeled Role guide opens the full reference, and persistent Play / Good to know / Claims / Will example navigation organizes the page. Later priorities and checkpoints follow dawn/disclosure. Transformed states use their own dawn guidance. [Ranked flow review and all-role priorities](docs/design/FLOW_PRIORITY_AUDIT.md) records what to highlight, keep visible, and move into optional depth. The earlier layout notes below preserve the prior revision.
+
 The route choices now sit beside the first-night heading as numbered inline buttons. Lower-priority claims appear as inline rank/icon/name buttons beside their label; tapping a selected comparison closes it. On narrow screens, choice rows wrap within a bounded vertical scroller. Role pickers open on the non-editable title, and 16px search/select controls avoid the small-text iOS focus zoom without disabling user page zoom.
 
 The current revision adds **ranked, selectable opening routes for all 64 roles/states**. The default remains first; conditional alternatives update the action, target rule, reason, pivot, tradeoff, three subgoals, and three next priorities together. A lower route can become better when its stated condition applies. These ranks are editorial beginner recommendations, not measured win rates.
@@ -101,7 +103,7 @@ Use a searchable labeled roster instead of relying on a horizontal strip of smal
 - Recent choices are shortcuts; All roles remains visible. Enter selects a focused match; arrow navigation, clear labels, and visible focus support keyboard use.
 - Empty search shows Clear search / Clear filters. Missing artwork leaves a usable text result.
 - Keep the independent **Claiming as** selector equally searchable across all 60 base roles. Suggested fit never disables a claim or removes it from search. Show weak-fit reasoning without blocking selection.
-- Picking or browsing a role never erases a draft. Actual role changes update a default claim only if no deliberate claim selection or existing draft would be overwritten.
+- Picking or browsing a role never erases a draft. Switching to a different actual role always selects its recommended public claim, even after a deliberate cover choice or a saved draft. Reloading or reselecting the same role retains its current deliberate cover. Role pickers focus search automatically; 16px input text avoids small-field mobile focus zoom.
 
 ## 6. Beginner guide content contract
 

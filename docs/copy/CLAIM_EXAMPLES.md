@@ -513,6 +513,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)).
 
 ## Bodyguard
 
+**N1 setup and cover:** If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability.
+
 **What this role does:** Guard a person against one direct harmful visitor. A successful interception cancels that harmful action and counterattacks the visitor, putting you in danger. This is an interception, not a general protective shield.
 
 **By claiming it, you mean:** You promise a legal guard attempt, not a guaranteed save. Your own survival and any interception outcome must fit the feedback.
@@ -529,8 +531,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)).
 
 ```text
 Bodyguard
-N1: Guard 4
-N2: Self Protect — use 1
+N2: Guard 4
+N3: Self Protect — use 1
 ```
 
 - Write Guard and the selected player even when nothing was reported; choosing a target is not a save.
@@ -551,6 +553,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)).
 
 ## Cleric
 
+**N1 setup and cover:** If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability.
+
 **What this role does:** Each night, visit one person and give them a protective shield for that night. The game calls this Barrier: it grants Powerful Defense, which stops Basic and Powerful attacks, but not Unstoppable attacks.
 
 **By claiming it, you mean:** You are saying you visited and protected that person. You are not saying they were attacked or that you saved them unless you received supporting feedback.
@@ -569,8 +573,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)).
 
 ```text
 Cleric
-N1: Barrier 4
-N2: Barrier 7
+N2: Barrier 4
+N3: Barrier 7
 ```
 
 - Choose a plausible valuable recipient before night resolves; keep the number consistent with your actual observed visit.
@@ -591,6 +595,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)).
 
 ## Crusader
 
+**N1 setup and cover:** If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability.
+
 **What this role does:** Visit one person, shield them against Basic and Powerful attacks (Powerful Defense), and make a Basic attack against one random direct visitor to their house. This is called Fortify. A friendly Town visitor can be hit too; other visitors can survive.
 
 **By claiming it, you mean:** You are promising BOTH protection for the resident and danger to one visitor. You do not get a complete visitor list or automatically learn whom you attacked.
@@ -607,8 +613,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)).
 
 ```text
 Crusader
-N1: Fortify 4
-N2: Fortify 7 — no attack feedback
+N2: Fortify 4
+N3: Fortify 7 — no attack feedback
 ```
 
 - Write the fortified player, with protection feedback and visitor-attack feedback kept separate.
@@ -629,6 +635,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)).
 
 ## Oracle
 
+**N1 setup and cover:** If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability.
+
 **What this role does:** Choose a Town ROLE, such as Sheriff, instead of choosing a numbered player. Its holders receive Powerful Defense without a normal player visit. You cannot repeat the same role on consecutive nights; choosing Oracle itself is once only.
 
 **By claiming it, you mean:** You promise protection aimed at a role category. A will naming a protected player number instead describes the wrong targeting method.
@@ -645,8 +653,8 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)).
 
 ```text
 Oracle
-N1: Aegis Sheriff
-N2: Aegis Seer
+N2: Aegis Sheriff
+N3: Aegis Seer
 ```
 
 - Write Aegis Sheriff, for example, rather than Barrier 4.

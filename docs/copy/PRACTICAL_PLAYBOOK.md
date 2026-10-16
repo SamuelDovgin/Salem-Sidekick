@@ -8,6 +8,8 @@ The will builder is replaced by [claim-specific examples and maintenance advice]
 
 ## Decisions that changed
 
+- Medusa + TP cover during Grace Period: hold Stone on N1. An enabled non-harmful Stone visit is not a legal protective visit; check the exact cover before acting. Protective examples now start on N2.
+
 - Voodoo Master: default Silence on a low-information N1; Blind a credible investigator when you have that information; Deafen is situational information isolation. Rotate targets regardless of doll.
 - Voodoo cover: Cleric TP is lower upkeep than Psychic TI. It has fewer invented results and less daily posting, but no genuine protection. Psychic offers more discussion influence with higher daily workload and contradictions.
 - A protective will records an attempted Barrier, not an unsupported saved-player result. Choose a plausible target and retain movement continuity. Do not erase a dead target automatically: interruption or Unstoppable damage can explain a death, whereas an unblocked ordinary lethal attack conflicts with a genuine Barrier.
@@ -911,28 +913,29 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)). T
 
 **Actual alignment:** CD — Coven Deception.
 
-**My default:** Stonemark the planned victim when hiding that death has value.
+**My default:** TP cover on N1: hold if Grace Period is active or unchecked.
 
-Coordinate a Stonemark on the team’s likely nonally kill when denying the role/will is useful. Hold a charge if there is no credible death plan.
+Keeping a TP cover? If Grace Period is active or you have not checked the N1 notice, stay home and do not Stone a player. Only visit after confirming your exact claimed role could legally explain that N1 movement, or deliberately choosing a compatible cover before acting.
 
-**Why:** Three active charges should remove useful information, not be spent nightly on people who will probably remain alive indefinitely.
+**Why:** Stone is a direct, non-harmful visit and can still be available while Town protection is disabled. Being allowed to Stone does not make that visit compatible with a TP cover.
 
-**Target rule:** Use the agreed victim, avoiding waste on an already marked player. With no coordinated or likely kill, preserve the charge and prepare the cover.
+**Target rule:** With a TP cover during Grace Period, select no Stone target on N1. Otherwise, mark a fresh useful information holder only when your cover can explain the visit and hiding their eventual death information helps Coven.
 
-**Change the plan when:** If a persistent mark on a useful future victim offers more value than tonight’s uncertain kill, mark that player instead. The book changes the action by adding an attack.
+**Change the plan when:** If Grace Period is confirmed off and your exact cover can visit, consider a coordinated mark. A Trapper still needs to build before placing and Oracle is astral; switching to another TP name does not automatically fix movement.
 
 1. Hide an informative enemy death when the team can make the kill happen.
 2. Track persistent marks and remaining charges so you do not duplicate work.
 3. After the book arrives, plan the attack and concealment together while checking observer exposure.
 
-A mark is not an immediate kill or a protective effect. Consider what Town loses if the victim’s information disappears. A Cleric cover is simple paperwork but no real save is supplied. Old advice about staying home to petrify visitors does not describe this role.
+Example: you are Medusa, claim Cleric/TP, and see the Grace Period notice. Hold Stone on N1. A Tracker or Lookout can observe a Stone visit, but a Cleric could not have made a Barrier visit that night. This is a cover-consistency recommendation, not a rule that Stone itself is disabled or every role must skip N1. A legal nonvisiting action is separate. With Grace Period off and a cover that can legally visit, a useful Stone mark may be reasonable. Stone neither kills by itself nor grants protection; track all three charges and permanent marks.
 
-**Claim comparison:** Cleric is the lower-upkeep direct-visit cover. Psychic can influence discussion but requires a legal vision every morning. A Stonemark is neither a Barrier nor a genuine vision, and book/death information can expose both stories.
+**Claim comparison:** Cleric is a low-upkeep cover only when the action and setup fit. During Grace Period, hold N1 rather than Stone while claiming TP. Psychic can fit a legal direct visit but requires an invented vision and early daily upkeep. Neither cover supplies the ability it claims.
 
-- **Cleric (TP) — Low upkeep · weak independent proof.** A selected player can match a reported Barrier destination. Exposure: Stonemark does not protect them, and a later book kill changes the consequences.
+- **Cleric (TP) — Low upkeep · weak independent proof.** A direct Stone destination can match a Barrier destination only on a night when Cleric could actually make that visit. Exposure: During Grace Period, an observed N1 Stone visit contradicts the usual Cleric protective-visit story. Stone also grants no defense, and later Stoned deaths can expose the mismatch.
+
 - **Psychic (TI) — More influence · more upkeep.** A direct Stonemark can fit a one-player visit. Exposure: There is no genuine vision; persistent marks and hidden-death information can expose the plan.
 
-Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)). Target and priority choices above are editorial recommendations.
+Mechanics: [Medusa](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)), [official Grace Period changes](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/). Holding to keep a cover compatible is an editorial recommendation, not a ban on all N1 actions.
 
 ## Necromancer
 

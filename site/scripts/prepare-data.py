@@ -189,6 +189,11 @@ def build():
         playbooks.update(json.loads((PROJECT/f'content/playbook-{group}.json').read_text()))
     town_covers = json.loads((PROJECT/'content/town-power-covers.json').read_text())
     profiles = json.loads((PROJECT/'content/claim-profiles.json').read_text())
+    opening_constraints = json.loads((PROJECT/'content/claim-opening-constraints.json').read_text())
+    assert set(opening_constraints) == {'cleric','bodyguard','crusader','oracle','trapper'}
+    for role_id, constraint in opening_constraints.items():
+        assert all(constraint.get(k) for k in ['condition','title','body','sourceUrls'])
+        profiles[role_id]['openingConstraint'] = constraint
     relations = {}
     route_copy = {}
     for group in ['coven','neutral']:
@@ -285,7 +290,7 @@ def build():
           'id':'default','label':content.get('defaultLabel',p['headline'].removeprefix('Default: ')),
           'headline':p['headline'],'when':content['defaultWhen'],'action':p['firstNight'],
           'targetRule':p['targetRule'],'reason':p['reason'],'pivot':p['pivot'],
-          'goals':role.get('opening',{}).get('goals',p['laterPriorities']),
+          'goals':content.get('defaultGoals',role.get('opening',{}).get('goals',p['laterPriorities'])),
           'laterPriorities':p['laterPriorities'],'risk':content['defaultRisk'],'sourceUrls':p['sourceUrls']
         }
         role['routes']=[baseline,*copy.deepcopy(content['alternatives'])]
@@ -323,6 +328,17 @@ def build():
                 {'title':'Win condition','markdown':chapters['Win condition'].strip()}]
             role['studyGuide']['details'] = [{'title':parent['name']+' before transformation · '+x['title'],'markdown':x['markdown']} for x in sections]
     assert len(route_copy)==64
+    # Presentation priorities are authored per current role, including each
+    # transformed state. Never inherit a parent's warning after transformation.
+    priorities = json.loads((PROJECT/'content/role-priorities.json').read_text())
+    assert set(priorities) == {r['id'] for r in all_roles}
+    for role in all_roles:
+        guide = copy.deepcopy(priorities[role['id']])
+        for level in ['mustKnow', 'goodToKnow']:
+            assert guide[level]['title'].strip() and guide[level]['body'].strip(), role['id']
+        guide['sourceUrls'] = role['studyGuide']['sourceUrls']
+        guide['basis'] = 'Editorial visibility priorities from the existing reviewed role guidance.'
+        role['priorityGuide'] = guide
     assert len(playbooks)==64 and len(profiles)==29 and len(relations)==31
     assert all(len(r['playbook']['laterPriorities'])==3 and r['claimProfile']['example'] for r in roles+states)
     summary = {

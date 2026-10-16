@@ -403,14 +403,38 @@
     ]
   },
   "medusa": {
-    "defaultWhen": "The team has a credible kill plan and hiding that victim’s role or will has useful information value.",
-    "defaultRisk": "Stone Gaze is a permanent mark, not an immediate kill. You have three active charges and already start Stoned yourself.",
+    "defaultWhen": "You are keeping a TP cover and Grace Period is active or you have not checked the N1 setup. Also hold when there is no useful concealment plan.",
+    "defaultRisk": "Holding delays a mark, but avoids an N1 visit a protective cover cannot explain during Grace Period. Holding now does not erase a visit already observed.",
     "alternatives": [
+      {
+        "id": "coordinated-mark",
+        "label": "Mark an agreed victim when the cover can visit",
+        "when": "The team has a useful concealment plan and your exact cover can legally explain the visit. For a Cleric/Bodyguard/Crusader N1 story, Grace Period must be confirmed off.",
+        "action": "Coordinate a Stone mark on the agreed informative victim only after checking the cover and setup. Do not Stone N1 under Grace Period while maintaining a TP cover.",
+        "targetRule": "Choose a fresh unmarked nonally whose eventual hidden role or will helps Coven. Do not assume the mark itself kills.",
+        "reason": "A direct Stone mark can hide a valuable later death, but creates an observable visit immediately.",
+        "pivot": "Hold if the setup is unchecked, the cover cannot make that visit, or hiding the death has no clear value.",
+        "goals": [
+          "Check that the exact cover can visit tonight",
+          "Agree which information the team wants hidden",
+          "Track the actual mark and remaining charges"
+        ],
+        "laterPriorities": [
+          "Coordinate a meaningful kill without leaking private information",
+          "Keep permanent marks and charges accurate",
+          "Recheck movement when the book changes the action"
+        ],
+        "risk": "A mark gives no protection. A later Stoned death or an N1 visit under an incompatible cover can expose the story.",
+        "sourceUrls": [
+          "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
+          "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/"
+        ]
+      },
       {
         "id": "future-mark",
         "label": "Mark an important future victim",
-        "when": "Tonight’s agreed kill is unlikely to land, but a different informative enemy is likely to die later.",
-        "action": "Place one persistent Stone mark on that future victim after agreeing why hiding their later information matters.",
+        "when": "Your exact cover can legally explain the visit, and an informative enemy is likely to die later. During Grace Period, a TP cover does not explain an ordinary N1 protective visit.",
+        "action": "After checking setup and cover compatibility, place one persistent Stone mark on that future victim. If keeping a TP cover during Grace Period, hold instead.",
         "targetRule": "Prefer a useful information holder expected to die eventually; do not re-mark an existing target.",
         "reason": "A permanent mark can still pay off on a later death, so the target need not die the night you visit.",
         "pivot": "If the player is likely to survive indefinitely or the charge has no foreseeable information value, keep it.",
@@ -424,7 +448,7 @@
           "Avoid duplicate marks",
           "Distinguish a marked survivor from a completed concealment"
         ],
-        "risk": "You grant no protection and do not learn a living target’s role simply by marking them. Later death or observer evidence may connect the visit.",
+        "risk": "You grant no protection and do not learn a living target’s role simply by marking them. Later death or observer evidence may connect the visit. A direct N1 mark also exposes a TP cover during Grace Period; legality of the real ability is not cover compatibility.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
         ]
@@ -452,6 +476,12 @@
           "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)"
         ]
       }
+    ],
+    "defaultLabel": "Hold N1 for a TP cover during Grace Period",
+    "defaultGoals": [
+      "Check the N1 notice and exact claimed role",
+      "Choose a compatible hold or visit before acting",
+      "Record the actual hold or mark and remaining charges"
     ]
   },
   "necromancer": {

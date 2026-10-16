@@ -1,6 +1,6 @@
 # Ranked opening routes and claim strategies
 
-Current website copy, checked 15 October 2026. **64 roles/states, 149 opening routes, 161 opposing-role claim pairings, and 29 truthful Town-role explanations.**
+Current website copy, checked 15 October 2026. **64 roles/states, 150 opening routes, 161 opposing-role claim pairings, and 29 truthful Town-role explanations.**
 
 The first route is the low-information beginner recommendation. Later routes are conditional alternatives, not weaker actions in every situation. The first two public claims stay visible; lower-ranked role icons reveal one comparison at a time. Role definitions live in inline dropdowns. All 29 Town claims remain selectable, while the researched shortlist ranks only choices with an explainable use case.
 
@@ -71,22 +71,52 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)), [source 2
 
 ### Claim strategy
 
-Use your actual Jailor role and truthful feedback. A missed action or quiet night is worth explaining accurately; another role’s sample is not an ability you possess.
+Recommended: Claim TPow when asked; identify yourself as Jailor when trusted coordination or protection makes that useful. Your prisoner already receives a jail interaction. A false killing-role story adds obligations without improving your questioning, and can divert protection from you. A temporary cover is an optional exception, not the recommended start. Only consider a short cover for a concrete survival reason before your identity is known, when alignment-only TPow would not meet that need. It must not obstruct jail coordination. Recommendations are editorial judgments from role mechanics, not measured win rates.
 
-#### 1. Jailor (TPow) — Truthful role · recommended
+#### 1. Jailor (TPow) — Truthful TPow · recommended opening
 
-A documented claim gives you a testable D2 lead; N1 is a questioning night, not a killing opportunity.
+Your prisoner already receives a jail interaction. A false killing-role story adds obligations without improving your questioning, and can divert protection from you.
 
-- Start with the legal opening: Choose an unresolved prisoner during D1, then ask their exact role, intended action, and target reasoning on N1. You cannot execute tonight.
-- Choose the prisoner during the preceding day and record their exact claimed role and useful statements.
-- N1 permits questioning but not execution. Do not jail the same person consecutively.
-- Record released or executed explicitly and distinguish an attempted execution from its actual outcome.
+- Use TPow as the normal public alignment claim; this truthfully withholds the exact role.
+- Keep a real prisoner log and distinguish intended jails, completed jails, claims and execution outcomes.
+- Ask for protection or identify yourself as Jailor when the benefit outweighs the exposure; do not automatically reveal every prisoner’s exact role.
+- Resolve a credible Jailor counterclaim with real evidence rather than maintaining a fake Veteran or Vigilante story.
 
-**Best when:** You are Jailor in the normal-faction setup; report what actually happened.
+**Best when:** Claim TPow when asked; identify yourself as Jailor when trusted coordination or protection makes that useful.
 
-**Exposure/limits:** Do not execute N1. Do not repeat the same prisoner on consecutive nights. Do not rely on jail to stop every astral effect.
+**Exposure/limits:** Disclose your Jailor identity when you need protection, must resolve a counterclaim, or can help Town act on a supported contradiction. Keep future prisoner choices and unneeded exact-role information private.
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)).
+
+#### 2. Veteran (TK) — Optional concealment · situational
+
+Both can keep ordinary visiting claims out of their public story; jail still leaves a prisoner who can describe what happened.
+
+- Do not invent alerts, visitor kills, or a Veteran confirmation. Reveal enough of your real jail history to resolve a counterclaim.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Jailor actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** You have a concrete reason to conceal Jailor beyond a TPow claim, have claimed no alerts or visitor kills, and can still arrange necessary protection.
+
+**Exposure/limits:** A prisoner can identify a real Jailor interaction. Visitor reports or an alert claim can contradict your cover.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)).
+
+#### 3. Vigilante (TK) — Optional concealment · situational
+
+An early quiet night can avoid publishing your prisoner or execution plans. Jail and a Vigilante shot are different actions.
+
+- Do not label an execution as a Vigilante shot or invent ammunition use.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Jailor actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Only during an early quiet period with a concrete concealment benefit, before any claimed shot or visit would conflict with jail history.
+
+**Exposure/limits:** A missing shot, visit evidence, or pressure to demonstrate can end this cover.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)).
 
 ## Marshal
 
@@ -150,22 +180,52 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)).
 
 ### Claim strategy
 
-Use your actual Marshal role and truthful feedback. A missed action or quiet night is worth explaining accurately; another role’s sample is not an ability you possess.
+Recommended: Claim TPow when asked; keep Marshal concealed until a planned Tribunal will help Town. A Tribunal publicly identifies you and accelerates executions. A Deputy cover cannot demonstrate that power and adds avoidable pressure to shoot. A temporary cover is an optional exception, not the recommended start. Only consider a brief cover before Tribunal when a specific survival benefit exceeds the confusion it creates. It must not prevent allies from understanding your execution plan. Recommendations are editorial judgments from role mechanics, not measured win rates.
 
-#### 1. Marshal (TPow) — Truthful role · recommended
+#### 1. Marshal (TPow) — Truthful TPow · recommended opening
 
-Tribunal removes the defense and judgment stages, so activating before you have cases gives coordinated evils a powerful tool.
+A Tribunal publicly identifies you and accelerates executions. A Deputy cover cannot demonstrate that power and adds avoidable pressure to shoot.
 
-- Start with the legal opening: No N1 ability. Prepare a short claim-and-evidence list; preserve both Tribunal charges for a voting day.
-- Write No night ability instead of manufacturing nightly checks.
-- Use a D entry for a real Tribunal and list the people actually executed.
-- Do not label every Tribunal victim evil: execution is an event, not an alignment result.
+- Use a truthful TPow alignment claim while collecting claims and checking voting control.
+- Prepare supported cases and coordinate nominations before committing to Tribunal.
+- Let a useful Tribunal reveal Marshal; do not spend the charge merely to demonstrate your role.
+- Once revealed, explain the rapid execution plan clearly and account for delayed role and will reveals.
 
-**Best when:** You are Marshal in the normal-faction setup; report what actually happened.
+**Best when:** Claim TPow when asked; keep Marshal concealed until a planned Tribunal will help Town.
 
-**Exposure/limits:** Do not activate just to confirm yourself. Do not expect immediate feedback after the first victim. Do not use an outdated three-execution default.
+**Exposure/limits:** Explain supported cases and coordinate a voting plan before activating Tribunal. Use it when Town can control the nominations, not solely to prove your claim.
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)).
+
+#### 2. Deputy (TK) — Optional concealment · situational
+
+A day-action cover avoids inventing nightly investigative reports while you prepare a justified Tribunal.
+
+- Use Tribunal for a supported Town advantage, never just to rescue a false Deputy story.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Marshal actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Before a planned Tribunal, only if a concrete survival benefit justifies the eventual inability to demonstrate a Deputy shot.
+
+**Exposure/limits:** A Deputy shot and Tribunal are visibly different. You cannot meet a demand to shoot.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)).
+
+#### 3. Veteran (TK) — Optional concealment · situational
+
+Both can have a quiet public night history before your day power matters.
+
+- Keep the cover short and avoid directing protective visitors around invented alerts.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Marshal actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Before Tribunal, only if no claimed alert, visitor kill or protection instruction would misdirect Town.
+
+**Exposure/limits:** You cannot alert or explain visitor deaths as your kills. Tribunal exposes Marshal.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)).
 
 ## Mayor
 
@@ -229,22 +289,52 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)).
 
 ### Claim strategy
 
-Use your actual Mayor role and truthful feedback. A missed action or quiet night is worth explaining accurately; another role’s sample is not an ability you possess.
+Recommended: Claim TPow when asked and keep your exact identity private until Reveal has a useful voting purpose. You can preserve the vote swing without inventing a different ability. Claiming Mayor in chat is not the public Reveal effect. A temporary cover is an optional exception, not the recommended start. Only consider a temporary cover when there is a specific reason TPow disclosure would expose you and no useful Reveal is being delayed. End it before vote control depends on your power. Recommendations are editorial judgments from role mechanics, not measured win rates.
 
-#### 1. Mayor (TPow) — Truthful role · recommended
+#### 1. Mayor (TPow) — Truthful TPow · recommended opening
 
-An unrevealed Mayor preserves an important vote swing without immediately advertising the exact role.
+You can preserve the vote swing without inventing a different ability. Claiming Mayor in chat is not the public Reveal effect.
 
-- Start with the legal opening: No N1 action. Record claims and identify the strongest D2 question; you cannot Reveal on D1.
-- Write No night ability for quiet nights; Mayor does not investigate or visit a target.
-- Record Reveal on the actual day it happens, never D1 in the normal setup.
-- Keep observational vote notes distinct from ability results.
+- Claim TPow while unrevealed rather than automatically claiming Veteran or Vigilante.
+- Track claims and actual vote counts; a quiet night is normal for Mayor and needs no invented action.
+- Use Reveal for its voting benefit when needed, before the trial position prevents it.
+- After Reveal, coordinate openly as Mayor; keep reads evidence-based instead of treating extra votes as proof.
 
-**Best when:** You are Mayor in the normal-faction setup; report what actually happened.
+**Best when:** Claim TPow when asked and keep your exact identity private until Reveal has a useful voting purpose.
 
-**Exposure/limits:** Do not assume the ToS1 fixed-vote model. Do not wait until on trial to reveal. Do not lead votes without checking evidence.
+**Exposure/limits:** Reveal before a decisive vote when your extra influence can secure a supported execution, prevent a mistaken execution of you, or establish needed leadership. Do not wait until on trial.
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)).
+
+#### 2. Veteran (TK) — Optional concealment · situational
+
+You have no ordinary night visit to explain before revealing, so a non-visiting cover can conceal your exact power briefly.
+
+- Do not bait Town visitors into danger or promise an alert you cannot perform.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Mayor actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** You are unrevealed, there is a concrete reason to hide beyond TPow, and Town does not need your Reveal or a claimed alert.
+
+**Exposure/limits:** You cannot produce an alert or visitor kill. Your Reveal publicly ends this cover.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)).
+
+#### 3. Vigilante (TK) — Optional concealment · situational
+
+A quiet opening can buy time while you decide when vote growth will help Town.
+
+- Drop the cover before it costs a needed Reveal or forces a false accusation.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Mayor actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Only before a useful Reveal is needed, with no invented shots or visits and a specific survival benefit beyond TPow disclosure.
+
+**Exposure/limits:** You cannot supply a shot, and a real tracker may contradict a claimed visit.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)).
 
 ## Monarch
 
@@ -308,22 +398,52 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)).
 
 ### Claim strategy
 
-Use your actual Monarch role and truthful feedback. A missed action or quiet night is worth explaining accurately; another role’s sample is not an ability you possess.
+Recommended: Claim TPow when asked; explain your Monarch identity and Knight history when voting or a counterclaim requires it. Knighthood changes public vote weight. A protective cover may share a destination, but cannot explain those extra votes or establish that you protected anyone. A temporary cover is an optional exception, not the recommended start. Only consider a movement-compatible cover while your identity remains hidden and keeping it hidden has a specific survival benefit. Recheck every Knight night; never invent protection or trap feedback. Recommendations are editorial judgments from role mechanics, not measured win rates.
 
-#### 1. Monarch (TPow) — Truthful role · recommended
+#### 1. Monarch (TPow) — Truthful TPow · recommended opening
 
-Knight grants permanent voting power to any faction, and its defense does not protect you immediately during the knighting night.
+Knighthood changes public vote weight. A protective cover may share a destination, but cannot explain those extra votes or establish that you protected anyone.
 
-- Start with the legal opening: Default to holding Knight with no credible Town read. Knight tonight only if a well-supported Town candidate is likely to survive.
-- Record each Knight attempt, its target, and whether the effect actually completed.
-- Do not mark a selection as completed before the night resolves.
-- Track the two charges from real outcomes; failed or dead-target attempts need the actual feedback.
+- Start with truthful TPow disclosure rather than automatically claiming Cleric or Trapper.
+- Keep the actual Knight targets and resolution nights; holding Knight creates no protective visit.
+- Explain Knight history when vote control or a counterclaim makes it relevant.
+- Do not treat a Knight as confirmed Town, and do not use a matching destination as proof of protection.
 
-**Best when:** You are Monarch in the normal-faction setup; report what actually happened.
+**Best when:** Claim TPow when asked; explain your Monarch identity and Knight history when voting or a counterclaim requires it.
 
-**Exposure/limits:** Do not knight an impressive speaker solely on confidence. Do not assume Knights are unvoteable. Do not assume a future Knight saves you tonight.
+**Exposure/limits:** Explain a consequential knighting, resolve a Monarch counterclaim, or share identity when it enables useful Town coordination. Separate proof of knighting from evidence of a Knight’s faction.
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)).
+
+#### 2. Cleric (TP) — Optional concealment · situational
+
+On a night you actually Knight someone, a single-target protective story may share that destination. This is movement overlap only.
+
+- Do not invent saves. Disclose Knight history when vote control or a contradiction makes it necessary.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Monarch actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Only on nights when your actual Knight action shares the claimed destination, with no invented protection and no unresolved vote-weight explanation.
+
+**Exposure/limits:** Knighthood is a public effect; a Cleric story cannot establish that you protected anyone. A held Knight action does not supply a visit.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)).
+
+#### 3. Trapper (TP) — Optional concealment · situational
+
+The preparation story can explain a quiet opening if you held your Knight action. Later movement must be checked night by night.
+
+- Never invent trap triggers, visitor roles, or protection. Stop using the cover if it requires impossible timing.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Monarch actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Only while the claimed build/place schedule matches your held or completed Knight actions and no one relies on invented trap information.
+
+**Exposure/limits:** A Trapper must build before placing; your knighting nights and public Knights can contradict that schedule.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)).
 
 ## Prosecutor
 
@@ -387,22 +507,52 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)).
 
 ### Claim strategy
 
-Use your actual Prosecutor role and truthful feedback. A missed action or quiet night is worth explaining accurately; another role’s sample is not an ability you possess.
+Recommended: Claim TPow when asked; keep Prosecutor concealed while building a supported case. Prosecution publicly identifies you and forces a hanging. Claiming Deputy gains no matching shot and can pressure you to spend power for the wrong reason. A temporary cover is an optional exception, not the recommended start. Only consider a brief cover for a specific survival need before Prosecute. Drop it if Town needs your real power or expects the cover’s demonstration. Recommendations are editorial judgments from role mechanics, not measured win rates.
 
-#### 1. Prosecutor (TPow) — Truthful role · recommended
+#### 1. Prosecutor (TPow) — Truthful TPow · recommended opening
 
-One mistaken Town prosecution both removes an ally and costs the remaining charge, so impatience has unusually high cost.
+Prosecution publicly identifies you and forces a hanging. Claiming Deputy gains no matching shot and can pressure you to spend power for the wrong reason.
 
-- Start with the legal opening: No N1 action. Build one supported accusation and prepare the question that could disprove it; Prosecute is a later voting-phase ability.
-- Write No night ability instead of an investigative or protective target.
-- Use D entries for prosecutions, with the actual target and outcome.
-- Track two total charges and at most one use per day; obey the live phase restrictions.
+- Claim TPow as the normal opening, without promising a Deputy shot or Veteran alert.
+- Build a supported accusation and check whether ordinary voting already resolves it.
+- Prosecute when bypassing the vote helps Town; do not do it simply to prove your role or rescue a cover.
+- After Prosecute reveals you, coordinate as Prosecutor and preserve any remaining charge for a supported case.
 
-**Best when:** You are Prosecutor in the normal-faction setup; report what actually happened.
+**Best when:** Claim TPow when asked; keep Prosecutor concealed while building a supported case.
 
-**Exposure/limits:** Do not prosecute merely to prove your role. Do not expect to use it during Tribunal. Do not use outdated Hangman-suicide advice.
+**Exposure/limits:** Disclose your exact role if it resolves a consequential claim dispute or enables trusted coordination. Use Prosecute when a supported case cannot safely be resolved by ordinary voting.
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)).
+
+#### 2. Deputy (TK) — Optional concealment · situational
+
+Both roles can wait for evidence before spending a day action, without a nightly result history.
+
+- Do not call a Prosecution a shot or use it merely to prove a cover.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Prosecutor actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Before Prosecute, only when concealing the exact day power has a specific benefit and no one is relying on a Deputy shot.
+
+**Exposure/limits:** A prosecution counts as a hanging; a Deputy shot does not. The public effects do not confirm the same role.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)).
+
+#### 3. Veteran (TK) — Optional concealment · situational
+
+A non-visiting cover can briefly hide your day power without fabricated investigative results.
+
+- Never invent visitor kills or prolong the cover when Town needs your real power.
+- Prefer an alignment-only TPow claim when that gives enough information without an exact-role cover.
+- Keep the real Prosecutor actions and any cover history separate; a sample will does not give you another role’s ability.
+- Return to your real role before a contradiction misdirects Town votes or protection; explain the reason for the temporary cover.
+
+**Best when:** Before Prosecute, only when there is a specific concealment benefit and no claimed alert or visitor kill to maintain.
+
+**Exposure/limits:** You cannot demonstrate an alert; Prosecute reveals your actual role.
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)).
 
 ## Coroner
 
@@ -1161,9 +1311,9 @@ Use your actual Bodyguard role and truthful feedback. A missed action or quiet n
 Your value is interrupting a harmful visitor and preserving a useful ally; a self-vest spends a night protecting no one else.
 
 - Start with the legal opening: Guard a credible exposed Town Power or useful information claim on N1; save Self Protect unless you expect a direct attack on yourself.
+- Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.
 - Write Guard and the selected player even when nothing was reported; choosing a target is not a save.
 - Use Self Protect at most twice and remember it supplies Basic Defense rather than a normal guard on another player.
-- Keep the destination aligned with any actual observed movement.
 
 **Best when:** You are Bodyguard in the normal-faction setup; report what actually happened.
 
@@ -1268,9 +1418,9 @@ Use your actual Cleric role and truthful feedback. A missed action or quiet nigh
 Repeatable protection on a valuable ally usually adds more team value than using your one self-protection without an attack reason.
 
 - Start with the legal opening: If Barrier is enabled, protect a credible vulnerable Town claim on N1. If Grace Period disables other-player Barrier, hold and preserve Self Barrier.
+- Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.
 - Choose a plausible valuable recipient before night resolves; keep the number consistent with your actual observed visit.
 - Write Barrier 4, not saved 4, unless the actual feedback supports a save.
-- Use Self Barrier at most once. Do not promise a private protection plan to everyone.
 
 **Best when:** You are Cleric in the normal-faction setup; report what actually happened.
 
@@ -1375,9 +1525,9 @@ Use your actual Crusader role and truthful feedback. A missed action or quiet ni
 You attack one random direct visitor regardless of faction; a crowded protection pile creates avoidable Town casualties.
 
 - Start with the legal opening: Fortify a credible but less crowded Town claim on N1 rather than following a mass TP/LO call.
+- Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.
 - Write the fortified player, with protection feedback and visitor-attack feedback kept separate.
 - Do not claim to know which visitor was struck unless the game or independent evidence supplies it.
-- Record at most the actual visitor attack rather than pretending you hit every visitor.
 
 **Best when:** You are Crusader in the normal-faction setup; report what actually happened.
 
@@ -1482,9 +1632,9 @@ Use your actual Oracle role and truthful feedback. A missed action or quiet nigh
 Blindly protecting an unconfirmed role can protect nobody; Oracle is certain to cover you, but spends your one Oracle selection.
 
 - Start with the legal opening: If Aegis is enabled and you know no useful role claim, select Oracle on N1: you know at least your own role exists. If Grace Period disables Aegis, hold.
+- Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.
 - Write Aegis Sheriff, for example, rather than Barrier 4.
 - Choose a different role on consecutive nights and use the Oracle self-role option only once.
-- If Grace Period disables N1 Aegis, write unavailable rather than a fictitious protection.
 
 **Best when:** You are Oracle in the normal-faction setup; report what actually happened.
 
@@ -3898,25 +4048,25 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)), [sou
 
 CD — Coven Deception.
 
-### Route 1: Stonemark the planned victim when hiding that death has value. (recommended)
+### Route 1: Hold N1 for a TP cover during Grace Period (recommended)
 
-**Best when:** The team has a credible kill plan and hiding that victim’s role or will has useful information value.
+**Best when:** You are keeping a TP cover and Grace Period is active or you have not checked the N1 setup. Also hold when there is no useful concealment plan.
 
-**Action:** Coordinate a Stonemark on the team’s likely nonally kill when denying the role/will is useful. Hold a charge if there is no credible death plan.
+**Action:** Keeping a TP cover? If Grace Period is active or you have not checked the N1 notice, stay home and do not Stone a player. Only visit after confirming your exact claimed role could legally explain that N1 movement, or deliberately choosing a compatible cover before acting.
 
-**Target rule:** Use the agreed victim, avoiding waste on an already marked player. With no coordinated or likely kill, preserve the charge and prepare the cover.
+**Target rule:** With a TP cover during Grace Period, select no Stone target on N1. Otherwise, mark a fresh useful information holder only when your cover can explain the visit and hiding their eventual death information helps Coven.
 
-**Why:** Three active charges should remove useful information, not be spent nightly on people who will probably remain alive indefinitely.
+**Why:** Stone is a direct, non-harmful visit and can still be available while Town protection is disabled. Being allowed to Stone does not make that visit compatible with a TP cover.
 
-**Change plan when:** If a persistent mark on a useful future victim offers more value than tonight’s uncertain kill, mark that player instead. The book changes the action by adding an attack.
+**Change plan when:** If Grace Period is confirmed off and your exact cover can visit, consider a coordinated mark. A Trapper still needs to build before placing and Oracle is astral; switching to another TP name does not automatically fix movement.
 
-**Tradeoff:** Stone Gaze is a permanent mark, not an immediate kill. You have three active charges and already start Stoned yourself.
+**Tradeoff:** Holding delays a mark, but avoids an N1 visit a protective cover cannot explain during Grace Period. Holding now does not erase a visit already observed.
 
 **Checkpoints:**
 
-- Choose a useful concealment target
-- Track persistent marks and charges
-- Reassess marks alongside the team kill
+- Check the N1 notice and exact claimed role
+- Choose a compatible hold or visit before acting
+- Record the actual hold or mark and remaining charges
 
 **Follow-up priorities:**
 
@@ -3924,13 +4074,41 @@ CD — Coven Deception.
 2. Track persistent marks and remaining charges so you do not duplicate work.
 3. After the book arrives, plan the attack and concealment together while checking observer exposure.
 
-Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)).
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)), [source 2](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/), [source 3](https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/).
 
-### Route 2: Mark an important future victim
+### Route 2: Mark an agreed victim when the cover can visit
 
-**Best when:** Tonight’s agreed kill is unlikely to land, but a different informative enemy is likely to die later.
+**Best when:** The team has a useful concealment plan and your exact cover can legally explain the visit. For a Cleric/Bodyguard/Crusader N1 story, Grace Period must be confirmed off.
 
-**Action:** Place one persistent Stone mark on that future victim after agreeing why hiding their later information matters.
+**Action:** Coordinate a Stone mark on the agreed informative victim only after checking the cover and setup. Do not Stone N1 under Grace Period while maintaining a TP cover.
+
+**Target rule:** Choose a fresh unmarked nonally whose eventual hidden role or will helps Coven. Do not assume the mark itself kills.
+
+**Why:** A direct Stone mark can hide a valuable later death, but creates an observable visit immediately.
+
+**Change plan when:** Hold if the setup is unchecked, the cover cannot make that visit, or hiding the death has no clear value.
+
+**Tradeoff:** A mark gives no protection. A later Stoned death or an N1 visit under an incompatible cover can expose the story.
+
+**Checkpoints:**
+
+- Check that the exact cover can visit tonight
+- Agree which information the team wants hidden
+- Track the actual mark and remaining charges
+
+**Follow-up priorities:**
+
+1. Coordinate a meaningful kill without leaking private information
+2. Keep permanent marks and charges accurate
+3. Recheck movement when the book changes the action
+
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)), [source 2](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/).
+
+### Route 3: Mark an important future victim
+
+**Best when:** Your exact cover can legally explain the visit, and an informative enemy is likely to die later. During Grace Period, a TP cover does not explain an ordinary N1 protective visit.
+
+**Action:** After checking setup and cover compatibility, place one persistent Stone mark on that future victim. If keeping a TP cover during Grace Period, hold instead.
 
 **Target rule:** Prefer a useful information holder expected to die eventually; do not re-mark an existing target.
 
@@ -3938,7 +4116,7 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)).
 
 **Change plan when:** If the player is likely to survive indefinitely or the charge has no foreseeable information value, keep it.
 
-**Tradeoff:** You grant no protection and do not learn a living target’s role simply by marking them. Later death or observer evidence may connect the visit.
+**Tradeoff:** You grant no protection and do not learn a living target’s role simply by marking them. Later death or observer evidence may connect the visit. A direct N1 mark also exposes a TP cover during Grace Period; legality of the real ability is not cover compatibility.
 
 **Checkpoints:**
 
@@ -3954,7 +4132,7 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)).
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)).
 
-### Route 3: Hold when no useful death plan exists
+### Route 4: Hold when no useful death plan exists
 
 **Best when:** You have no credible victim or no reason that concealment would help the team.
 
@@ -3984,22 +4162,23 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)).
 
 ### Claim strategy
 
-Cleric is the lower-upkeep direct-visit cover. Psychic can influence discussion but requires a legal vision every morning. A Stonemark is neither a Barrier nor a genuine vision, and book/death information can expose both stories.
+Cleric is a low-upkeep cover only when the action and setup fit. During Grace Period, hold N1 rather than Stone while claiming TP. Psychic can fit a legal direct visit but requires an invented vision and early daily upkeep. Neither cover supplies the ability it claims.
 
 #### 1. Cleric (TP) — Low upkeep · direct visit only
 
-Your active Stone or direct book destination can match one claimed Barrier destination.
+A direct Stone destination can match a Barrier destination only on a night when Cleric could actually make that visit.
 
-- Keep the claimed Barrier destination equal to the player actually Stoned or directly attacked that night.
+- N1 with Grace Period active or unchecked: stay home and do not Stone another player while keeping a TP cover. An enabled Medusa button does not make a Cleric visit legal.
+- On a night when a Barrier visit is legal, keep the claimed destination consistent with actual observed movement; matching movement still supplies no real protection.
 - A held charge means you did not make that normal visit. Do not write an invented completed Barrier merely to fill N1.
 - Answer TP and avoid saved messages without real supporting feedback; a permanent mark is not protective.
 - The true role and will you can read after a Stoned death are private actual-role information. Cleric cannot mechanically reveal them.
 
-**Best when:** You are actively visiting and want minimal daily result invention.
+**Best when:** Grace Period is confirmed off for an N1 visit, or it is a later night with a legal Barrier target. During Grace Period, keep the cover with an N1 hold.
 
-**Exposure/limits:** Stone grants no defense; a Stoned death or missing visit on a held night can expose the mismatch.
+**Exposure/limits:** During Grace Period, an observed N1 Stone visit contradicts the usual Cleric protective-visit story. Stone also grants no defense, and later Stoned deaths can expose the mismatch.
 
-Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)).
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)), [source 3](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/).
 
 #### 2. Psychic (TI) — More influence · invented group
 

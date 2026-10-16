@@ -1,10 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {initialState,restoreState,getDraft,newEntry,nextDayCycle,exportDraft,selectActual,selectedRoute} from '../dist/model.js';
+import {initialState,restoreState,getDraft,newEntry,nextDayCycle,exportDraft,selectActual,selectedRoute,openingClaimRisk} from '../dist/model.js';
 import {markdown} from '../dist/markdown.js';
 const data=JSON.parse(readFileSync(new URL('../dist/data/roles.json',import.meta.url)));
 const library=[...data.roles,...data.states];const role=id=>library.find(r=>r.id===id);
+test('Medusa protective covers flag the N1 visit conflict without banning every role action',()=>{
+ for(const id of ['cleric','bodyguard','crusader']){
+  const warning=openingClaimRisk(role('medusa'),role(id));
+  assert.equal(warning.condition,'grace-period');
+  assert.match(warning.body,/If Grace Period is active/);
+  assert.match(warning.body,/stay home/);
+  assert.match(warning.body,/nonvisiting/);
+  assert.match(warning.body,/If Grace Period is off/);
+ }
+ assert.equal(openingClaimRisk(role('medusa'),role('psychic')),null);
+ assert.equal(openingClaimRisk(role('cleric'),role('cleric')),null);
+ assert.equal(openingClaimRisk(role('death'),role('cleric')),null);
+ assert.equal(openingClaimRisk(role('medusa'),role('trapper')).condition,'build-before-place');
+ assert.equal(openingClaimRisk(role('medusa'),role('oracle')).condition,'normal-visible-visit');
+ assert.equal(openingClaimRisk(role('arsonist'),role('cleric')).condition,'grace-period');
+});
 test('a Tracker public export cannot include actual Wildling intelligence',()=>{
  const s=initialState();s.actualId='wildling';s.claimId='tracker';
  const d=getDraft(s,'public','tracker'),e=newEntry(d,role('tracker'));e.target='4';e.feedback='visited 9';
@@ -16,9 +32,18 @@ test('switching claims preserves independently edited drafts',()=>{
  const s=initialState();getDraft(s,'public','tracker').title='My tracker draft';getDraft(s,'public','lookout').title='My lookout draft';
  s.claimId='lookout';s.claimId='tracker';assert.equal(getDraft(s,'public',s.claimId).title,'My tracker draft');
 });
-test('actual-role changes preserve deliberate cover, draft, and role history',()=>{
+test('actual-role changes reset the cover while preserving saved drafts and role history',()=>{
  const s=initialState();s.deliberateClaim=true;newEntry(getDraft(s,'public','sheriff'),role('sheriff')).target='4';selectActual(s,role('baker'),library);
- assert.equal(s.actualId,'baker');assert.equal(s.claimId,'sheriff');assert.equal(s.timeline[0].roleId,'baker');assert.equal(s.drafts.public.sheriff.entries[0].target,'4');
+ assert.equal(s.actualId,'baker');assert.equal(s.claimId,role('baker').preferredClaimId);assert.equal(s.deliberateClaim,false);assert.equal(s.timeline[0].roleId,'baker');assert.equal(s.drafts.public.sheriff.entries[0].target,'4');
+});
+test('every different role and transformed state resets even a deliberate cover with saved notes',()=>{
+ for(const r of library){
+  const s=initialState();s.actualId=r.id==='sheriff'?'wildling':'sheriff';s.claimId='trapper';s.deliberateClaim=true;
+  getDraft(s,'public','trapper').title='Keep this earlier public history';getDraft(s,'private',s.actualId).title='Keep private history';
+  const before=JSON.stringify(s.drafts);
+  selectActual(s,r,library);
+  assert.equal(s.claimId,r.preferredClaimId,r.name);assert.equal(s.deliberateClaim,false,r.name);assert.equal(JSON.stringify(s.drafts),before,r.name);
+ }
 });
 test('an untouched evil-role selection starts with its explained cover',()=>{
  const s=initialState();selectActual(s,role('poisoner'),library);assert.equal(s.claimId,'tavern-keeper');
