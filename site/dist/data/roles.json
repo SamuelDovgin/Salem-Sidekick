@@ -6236,8 +6236,8 @@
           "Use Self Barrier at most once. Do not promise a private protection plan to everyone.",
           "Check the graveyard before posting: a dead target is a red flag, not automatic proof. An interrupted action or Unstoppable attack can explain death; an unblocked ordinary lethal attack conflicts with a genuine Barrier. Keep the original target rather than rewriting history."
         ],
-        "example": "Cleric\nN2: Barrier 4\nN3: Barrier 7",
-        "blank": "Cleric\nN[night]: Barrier [player] - [actual feedback, if any]",
+        "example": "Cleric\nN2: Barrier @4\nN3: Barrier @7",
+        "blank": "Cleric\nN[night]: Barrier @[player number] - [actual feedback, if any]",
         "expanded": "If Grace Period is active, Cleric cannot Barrier another player on N1. Do not use an N1 Barrier example under that setup. These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
@@ -6390,7 +6390,7 @@
           },
           {
             "title": "What you and others see",
-            "markdown": "**You see · meaning:** You see the named-player attack notice when your protected target is attacked. A quiet night normally gives no special attack/save notice.\n\n**They see · meaning:** They see the Barrier notice when attacked and Barrier-protected. With Self Barrier, you are the recipient. A quiet target is not evidence of a save.\n\n**Claim check:** Other Barrier abilities share the recipient notice. Attack feedback does not give exclusive save credit: Bodyguard or Trapper may resolve first. No ordinary other-player Barrier visit during Grace Period N1.\n\n**Documented English · Acting Cleric · your claimed screen:** `[player name] was attacked last night!`\n\nYou Barrier another player and they are attacked: this is your notice in a normal save. They see the separate Barrier notice below.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Documented English · Attacked, protected recipient:** `You were attacked, but a Barrier protected you!`\n\nThey were attacked and a Barrier protected them. This appears on their screen.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Self Barrier · your screen:** Self Barrier: this same notice applies to YOUR screen if you are attacked and protected. Once per game; you stay home.\n\n**Chat format · replace brackets:**\n\n```\nCleric N[night]: Barrier [player] - [no attack reported / attack reported / failed].\n```"
+            "markdown": "**You see · meaning:** You see the named-player attack notice when your protected target is attacked. A quiet night normally gives no special attack/save notice.\n\n**They see · meaning:** They see the Barrier notice when attacked and Barrier-protected. With Self Barrier, you are the recipient. A quiet target is not evidence of a save.\n\n**Claim check:** Other Barrier abilities share the recipient notice. Attack feedback does not give exclusive save credit: Bodyguard or Trapper may resolve first. No ordinary other-player Barrier visit during Grace Period N1.\n\n**Chat wording · @ mention placeholder · Acting Cleric · your claimed screen:** `@[player number] was attacked last night!`\n\nYou Barrier another player and they are attacked: this is your notice in a normal save. They see the separate Barrier notice below.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\n**Documented English · Attacked, protected recipient:** `You were attacked, but a Barrier protected you!`\n\nThey were attacked and a Barrier protected them. This appears on their screen.. [Message source](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric)\n\nReplace @[player number] with their in-game mention, e.g. @4.\n\n**Self Barrier · your screen:** Self Barrier: this same notice applies to YOUR screen if you are attacked and protected. Once per game; you stay home.\n\n**Chat format · replace brackets:**\n\n```\nCleric N[night]: Barrier @[player number] - [no attack reported / attack reported / failed].\n```"
           }
         ],
         "details": [
@@ -6447,7 +6447,9 @@
             "namesNormalized": true,
             "sourceAccessedOn": "2026-10-16",
             "viewpoint": "self",
-            "screenLabel": "YOU · As Cleric"
+            "screenLabel": "YOU · As Cleric",
+            "copyText": "@[player number] was attacked last night!",
+            "copyHint": "Replace @[player number] with their in-game mention, e.g. @4."
           },
           {
             "audience": "Attacked, protected recipient",
@@ -6471,7 +6473,7 @@
         ],
         "reviewedOn": "2026-10-16",
         "liveClientVerified": false,
-        "reportTemplate": "Cleric N[night]: Barrier [player] - [no attack reported / attack reported / failed].",
+        "reportTemplate": "Cleric N[night]: Barrier @[player number] - [no attack reported / attack reported / failed].",
         "mechanicsSourceAccessedOn": "2026-10-15",
         "compactFeedback": true,
         "basis": "Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples."

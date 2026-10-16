@@ -52,7 +52,7 @@ test('Medusa N1 advice checks the TP cover before recommending an observable Sto
  }
 });
 test('protective examples do not manufacture saves and tips keep death exceptions',()=>{
- const cleric=byId.get('cleric').claimProfile;assert.equal(cleric.example,'Cleric\nN2: Barrier 4\nN3: Barrier 7');assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
+ const cleric=byId.get('cleric').claimProfile;assert.equal(cleric.example,'Cleric\nN2: Barrier @4\nN3: Barrier @7');assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
 });
 test('Oracle advice foregrounds astral observation and Arsonist movement modes',()=>{
  const oracle=byId.get('oracle'),arsonist=byId.get('arsonist'),cover=arsonist.claimOptions.find(c=>c.roleId==='oracle');

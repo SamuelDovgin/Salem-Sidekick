@@ -59,3 +59,5 @@ No extra top-level panel or always-expanded reference section is introduced. The
 - Local visual inspection checks Jinx’s compact message example and expanded audience explanations, plus selected-claim feedback. Blank chat formats copy and fit at 1360/768/390/320px in both themes. No live-game session or physical-phone test is claimed.
 
 The list-removal follow-up passed 47 content/unit checks and focused browser checks for removing the report list, preserving screen badges/Self Barrier, copying the blank report and blank will, plain hyphens across all 29 authored claim formats/examples, and desktop/390/320px layouts.
+
+Cleric copy wording now uses an explicit `@[player number]` input placeholder, with `@4` as the adjacent reminder. The source-attested excerpt is retained separately from this chat-ready copy text. Blank feedback/will formats use the same placeholder, and the illustrative will uses `@4` / `@7`. The displayed copy text and clipboard fallback selection agree.

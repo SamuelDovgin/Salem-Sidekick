@@ -33,5 +33,5 @@ test('current feedback excludes stale Pirate/Admirer mechanics and disputed Blin
 
 test('Cleric marks whose screen and explains Self Barrier without inventing another quote',()=>{
  const f=byId.get('cleric').feedbackGuide;assert.equal(f.compactFeedback,true);assert.equal(f.messages[0].viewpoint,'self');assert.equal(f.messages[0].screenLabel,'YOU · As Cleric');assert.equal(f.messages[1].viewpoint,'other');assert.equal(f.messages[1].screenLabel,'THEM · Protected player');assert.match(f.messages[0].when,/normal save/);assert.match(f.messages[1].selfNote,/YOUR screen.*attacked and protected.*Once per game.*stay home/);
- assert.equal(f.messages.length,2);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.messages[1].selfNote));
+ assert.equal(f.messages[0].text,'[player name] was attacked last night!');assert.equal(f.messages[0].copyText,'@[player number] was attacked last night!');assert.match(f.messages[0].copyHint,/@4/);assert.match(f.reportTemplate,/@\[player number\]/);assert.match(byId.get('cleric').claimProfile.blank,/@\[player number\]/);assert.equal(f.messages.length,2);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.messages[1].selfNote));
 });

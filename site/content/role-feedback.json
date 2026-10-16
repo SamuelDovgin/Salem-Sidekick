@@ -243,7 +243,9 @@
         "namesNormalized": true,
         "sourceAccessedOn": "2026-10-16",
         "viewpoint": "self",
-        "screenLabel": "YOU · As Cleric"
+        "screenLabel": "YOU · As Cleric",
+        "copyText": "@[player number] was attacked last night!",
+        "copyHint": "Replace @[player number] with their in-game mention, e.g. @4."
       },
       {
         "audience": "Attacked, protected recipient",
@@ -267,7 +269,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Cleric N[night]: Barrier [player] - [no attack reported / attack reported / failed].",
+    "reportTemplate": "Cleric N[night]: Barrier @[player number] - [no attack reported / attack reported / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "compactFeedback": true
   },

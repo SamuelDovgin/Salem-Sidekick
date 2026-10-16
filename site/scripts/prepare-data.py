@@ -352,8 +352,11 @@ def build():
         role['feedbackGuide']=guide
         lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck']]
         for message in guide['messages']:
-            lines.append('**Documented '+('excerpt' if message.get('excerpt') else 'English')+' · '+message['audience']+':** `'+message['text']+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
+            label='Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented '+('excerpt' if message.get('excerpt') else 'English')
+            lines.append('**'+label+' · '+message['audience']+':** `'+message.get('copyText',message['text'])+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
         for message in guide['messages']:
+            if message.get('copyText'):
+                lines.append(message['copyHint'])
             if message.get('selfNote'):
                 lines.append('**Self Barrier · your screen:** '+message['selfNote'])
         if guide.get('reportTemplate'):

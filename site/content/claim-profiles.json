@@ -11,8 +11,8 @@
       "Use Self Barrier at most once. Do not promise a private protection plan to everyone.",
       "Check the graveyard before posting: a dead target is a red flag, not automatic proof. An interrupted action or Unstoppable attack can explain death; an unblocked ordinary lethal attack conflicts with a genuine Barrier. Keep the original target rather than rewriting history."
     ],
-    "example": "Cleric\nN2: Barrier 4\nN3: Barrier 7",
-    "blank": "Cleric\nN[night]: Barrier [player] - [actual feedback, if any]",
+    "example": "Cleric\nN2: Barrier @4\nN3: Barrier @7",
+    "blank": "Cleric\nN[night]: Barrier @[player number] - [actual feedback, if any]",
     "expanded": "If Grace Period is active, Cleric cannot Barrier another player on N1. Do not use an N1 Barrier example under that setup. These are illustrative cover statements, not abilities the app performs. Low upkeep means less writing, not stronger evidence. Silencing your purported recipient still conflicts with a quiet protective story.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)"
