@@ -24,6 +24,8 @@ The current interface offers ranked opening routes for every role, with conditio
 | [Shared interface copy](docs/copy/SHARED_INTERFACE_COPY.md) | Selector labels, alignment help, claim method, and detail controls |
 | [Three role examples](docs/copy/THREE_ROLE_REVIEW.md) | Deputy, Poisoner, Baker: full copy and concrete opening walkthroughs |
 | [Content-readiness evidence](docs/copy/READINESS.md) | Coverage, decisions, limitations, and audit results |
+| [Correction ledger](docs/copy/CORRECTION_LEDGER.md) | Discrepancies found, source conflicts, and exact corrections to apply |
+| [Readability study](docs/design/READABILITY_STUDY.md) | Card and information-hierarchy guidance for a future readability pass |
 | [Visual layout study](docs/reference/VISUAL_LAYOUTS.md) | Three preview layouts and actual-role PNG provenance |
 | [Research findings](docs/research/RESEARCH.md) | Sources, patch baseline, findings, and research scope |
 | [Fake-claim logic](docs/research/FAKE_CLAIM_LOGIC.md) | Explainable patterns, complete evil-role matrix, worked examples |

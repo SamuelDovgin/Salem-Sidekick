@@ -6,6 +6,8 @@ Current publication copy for the example section, replacing the will builder. Al
 
 The 29 Town claims have individually audited upkeep, payoff, exposure, posting timing, examples, and maintenance tips. Other selectable roles show their own source-checked format and clearly identify open faction disclosure, rather than pretending an evil role name is an ordinary Town cover.
 
+**Modifier check:** Grace Period disables all protective abilities on N1 and has additional role-specific restrictions; it does not block every N1 action. Check the game's Night 1 notice and the role's enabled controls before recording or claiming an action. See the [official R1.5.01 notes](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/) and [R1.5.03 notice update](https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/).
+
 ## Jailor
 
 **What this role does:** Pick a prisoner during the day, then question them privately at night. Their normal night action is restricted by jail. From N2 you may execute, with three executions; killing Town removes further abilities. Do not repeat a prisoner consecutively.
@@ -553,7 +555,9 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)).
 
 **By claiming it, you mean:** You are saying you visited and protected that person. You are not saying they were attacked or that you saved them unless you received supporting feedback.
 
-**For example:** “N1: Barrier 4” means “I protected player 4 on the first night.” It does not mean “4 was attacked.”
+**For example:** When Barrier is enabled, “N1: Barrier 4” means “I protected player 4 on the first night.” It does not mean “4 was attacked.”
+
+**Setup check:** If Grace Period is active, Cleric cannot Barrier another player on N1. Check the game's Night 1 notice before claiming an N1 Barrier.
 
 **TP — Town Protective; Low upkeep.**
 
@@ -1923,6 +1927,25 @@ Arsonist
 Passively Dousing visitors does not reveal a complete visitor list. New visitors Doused on your Ignite night are not burned by that same ignition. Record actual Douses privately. A visiting cover supplies no genuine Barrier; visible movement cannot prove protection.
 
 Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)).
+
+### Match review: Arsonist claiming Cleric during Grace Period
+
+**Observed in the supplied screenshots:** On D2, player 8 was put on trial and claimed `ClearicN1: Barrier 9`, then added “sorry im new.” Another player immediately pointed out that Grace Period was active. The town convicted 8–2, and the reveal showed Arsonist. Player names are omitted here.
+
+The decisive problem was the claimed action: Cleric cannot Barrier another player during Grace Period, so `N1: Barrier 9` could not have happened. This is a timing contradiction, regardless of whether Cleric is otherwise a plausible movement cover for an Arsonist’s direct Douse. The official R1.5.01 notes disable protective abilities during the first Grace Period night and specifically remove Cleric’s ability during Grace Period; the current [Cleric mechanics page](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)) also says other players cannot be Barriered during it. Later patch notes added a Night 1 notice for Grace Period, so checking the modifier or its notice is part of preparing the will. [R1.5.01](https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/) · [R1.5.03](https://www.townofsalem.io/town-of-salem-2-updates-and-bug-fixes-patch-notes-r1-5-03/).
+
+**Would a full claim have been better?** Once you were on trial, yes: give the exact claimed role and a short, mechanically legal will. You did full-claim; that part was appropriate. The problem was the impossible N1 entry. If asked only for alignment before trial, answering TP can be enough; claiming the full role earlier is a situational choice, not a guarantee against being voted up.
+
+A more coherent D2 response would have been:
+
+```text
+Cleric
+N1: No other-player Barrier — Grace Period
+```
+
+If you survived, add an N2 Barrier entry only after N2 resolves. Do not write a planned target or outcome as though the action already happened. A spelling error is easy to avoid and can weaken presentation, but it was secondary to the mechanical contradiction. “Sorry, I’m new” alone does not answer the specific concern; briefly explain the legal timing and what action remains available.
+
+**Takeaway:** check the setup before preparing a cover. Record the action the claimed role could actually take, and distinguish “no action available” from a visit, Barrier, or save. A simple fake claim with a legal empty night is stronger than a detailed will containing an impossible action.
 
 ## Serial Killer
 

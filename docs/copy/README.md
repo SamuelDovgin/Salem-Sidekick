@@ -18,6 +18,8 @@ Read the [three complete role examples](THREE_ROLE_REVIEW.md) and [readiness evi
 
 Also included: [shared control labels and inline help](SHARED_INTERFACE_COPY.md), [opening research decisions](OPENING_RESEARCH.md), and [machine-readable audit results](AUDIT_REPORT.json).
 
+The follow-up [correction ledger](CORRECTION_LEDGER.md) records the discrepancies and source conflict found in the fact review. The [readability study](../design/READABILITY_STUDY.md) compares information-card guidance from public design systems and applies it to this interface.
+
 ## Copy rules
 
 Nine sections per role each contain complete **compact** and **expanded** copy. Expanded copy deliberately includes the compact instruction plus its reasoning, branches, limits, and examples so the expanded state can replace that section’s brief text. Do not print both versions twice. Keep N1 and subgoals prominent even when the rest is compact.
