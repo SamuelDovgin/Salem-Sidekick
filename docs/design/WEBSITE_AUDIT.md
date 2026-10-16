@@ -6,6 +6,12 @@ Reviewed 16 October 2026 against baseline `0a9eca6`, with corrections applied in
 
 The later installed-English pass verified 133 displayed lines and implemented the main Jailor/Crusader/Witch recommendation, plus mode-specific corrections. The current message authority is [the client research](../research/ROLE_FEEDBACK.md); [the gap matrix](../research/MESSAGE_GAPS.md) now separates wording that has been resolved from live-delivery limits. Counts and page measurements below describe the preceding website-audit baseline.
 
+## Follow-up: single-option claim strips
+
+Implemented 16 October 2026: the 24 profiles with one researched claim omit the ranked heading and button when that claim is already active. The full Town picker, active card and Compare 2 remain available. Choosing a different claim restores both the recommendation and active alternative in the strip; returning to the sole recommendation collapses it again. Multi-option strips retain their existing behavior.
+
+A matched compact Sheriff fixture saves 45px at 1360px width and approximately 64px at 320px width. The comparison control remains a compact 48px bar at both widths. These are fixture measurements, not a site-wide median.
+
 ## Result
 
 The core role → plan → result → claim → will flow passes the functional audit. The highest remaining value is **complete actor-side evidence for important claim outcomes**, followed by **containing the page growth caused by global More detail**. The default compact spacing is retained.
@@ -47,7 +53,7 @@ These are design/editorial judgments based on this audit and the requested conde
 | --- | --- | --- | --- |
 | S | Complete high-impact actor feedback | Fill the specific actor/outcome gaps above using current evidence, especially results that could support or expose a claim. | Prevents confusing another player’s message with your own; highest decision value. |
 | A | Global More detail page growth | Keep essential warnings, selected-claim fit and blank format visible; use local Messages/Claim details/Role guide for deep reading. Reduce the global expansion’s prominence or scope. | More detail roughly doubles median page height. Requires preserving quick access to messages. |
-| A | Single-entry ranked strips | Collapse the ranked-strip row on the 24 profiles with only one researched option; retain the full Town picker and deliberate comparison. | Removes a button that selects the role already selected. Does not hide all-claim access. |
+| A | Single-entry ranked strips — implemented | Collapse the ranked-strip row on the 24 profiles with only one researched option; retain the full Town picker and deliberate comparison. | Removes a button that selects the role already selected. Does not hide all-claim access. |
 | B | Repeated reference entrances | Consolidate Review sources / Sources & credits, the identity Details beside Role guide, and the standalone Why this order toggle into their existing references. | Reduces duplicated controls while retaining the underlying content. |
 | B | Repeated upkeep/posting prose | Keep claim-specific exposure and movement warnings visible; put repeated general payoff/posting/maintenance paragraphs in Claim details. | Shorter match reading without burying decisive warnings. |
 | C | Phase bar semantics | Clarify that First night / Day 2 / Later jump and highlight; evaluate whether this adds enough beyond the section navigation. | Modest clarity benefit; true phase filtering needs more design/testing. |

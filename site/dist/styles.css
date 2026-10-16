@@ -176,6 +176,7 @@ html{scroll-padding-top:0}
 .claim-choice-bar{border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:8px 10px;margin:0 0 10px;min-width:0}
 .claim-choice-bar .inline-claim-header>.eyebrow{flex:0 0 auto;font-size:9px}
 .claim-compare-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:7px}
+.claim-compare-controls:first-child{margin-top:0}
 .claim-compare-controls .button{min-height:30px;font-size:11px;padding:4px 8px}
 .claim-compare-controls label{font-size:11px;color:var(--muted)}
 #comparison-claim{font-size:16px;line-height:1.5;min-height:34px;padding:3px 8px;color:var(--ink);background:var(--bg);border:1px solid var(--line);max-width:100%;min-width:0}
