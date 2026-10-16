@@ -165,8 +165,8 @@
       "body": "Aegis protects holders of the chosen Town role. Do not repeat a role on consecutive nights; selecting Oracle itself is available only once."
     },
     "goodToKnow": {
-      "title": "Aegis is astral",
-      "body": "Aegis can reach through jail without a normal visit. Record the role selected; a save does not necessarily identify the protected player's number."
+      "title": "Tracker and Lookout cannot see Aegis",
+      "body": "Aegis is astral: you protect without an ordinary visit for Tracker or Lookout to see. Other players' normal visits remain visible. Aegis can also protect a jailed role holder; record the role selected, not an invented player visit."
     }
   },
   "trapper": {

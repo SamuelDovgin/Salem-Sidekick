@@ -6703,13 +6703,14 @@
             "exposure": "Do not write normal visiting protection wills. Do not repeat a role on consecutive nights. Do not claim precise player feedback the game did not supply.",
             "strategy": [
               "Start with the legal opening: If Aegis is enabled and you know no useful role claim, select Oracle on N1: you know at least your own role exists. If Grace Period disables Aegis, hold.",
-              "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
-              "Write Aegis Sheriff, for example, rather than Barrier 4.",
-              "Choose a different role on consecutive nights and use the Oracle self-role option only once."
+              "Aegis is astral: a Tracker no-visit result fits the claim, and a Lookout will not see Oracle arrive. An observed real Douse or ordinary attack is not hidden by claiming Oracle.",
+              "Write Aegis Sheriff, for example, rather than Barrier 4. Rotate roles on consecutive nights and use the Oracle self-role choice only once.",
+              "During Grace Period, N1 Aegis is unavailable. The example starts on N2; do not invent N1 protection."
             ],
             "bestWhen": "You are Oracle in the normal-faction setup; report what actually happened.",
             "sourceUrls": [
-              "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+              "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+              "https://townofsalem.wiki.gg/wiki/Actions_(ToS2)"
             ],
             "role": "Oracle",
             "alignment": "Town Protective",
@@ -6726,13 +6727,14 @@
           "exposure": "Do not write normal visiting protection wills. Do not repeat a role on consecutive nights. Do not claim precise player feedback the game did not supply.",
           "strategy": [
             "Start with the legal opening: If Aegis is enabled and you know no useful role claim, select Oracle on N1: you know at least your own role exists. If Grace Period disables Aegis, hold.",
-            "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
-            "Write Aegis Sheriff, for example, rather than Barrier 4.",
-            "Choose a different role on consecutive nights and use the Oracle self-role option only once."
+            "Aegis is astral: a Tracker no-visit result fits the claim, and a Lookout will not see Oracle arrive. An observed real Douse or ordinary attack is not hidden by claiming Oracle.",
+            "Write Aegis Sheriff, for example, rather than Barrier 4. Rotate roles on consecutive nights and use the Oracle self-role choice only once.",
+            "During Grace Period, N1 Aegis is unavailable. The example starts on N2; do not invent N1 protection."
           ],
           "bestWhen": "You are Oracle in the normal-faction setup; report what actually happened.",
           "sourceUrls": [
-            "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+            "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+            "https://townofsalem.wiki.gg/wiki/Actions_(ToS2)"
           ],
           "role": "Oracle",
           "alignment": "Town Protective",
@@ -6743,30 +6745,31 @@
       "preferredClaimId": "oracle",
       "claimProfile": {
         "effort": "Low upkeep",
-        "payoff": "Role-based entries are short and astral movement can suit a genuinely nonvisiting role. That makes writing easy while genuine protection feedback remains difficult to reproduce.",
-        "exposure": "You protect a role rather than visiting a numbered player. Repeated consecutive role choices, extra Oracle selections, or a visible direct visit can expose the story.",
+        "payoff": "The main cover advantage is no ordinary visit for Tracker or Lookout to detect. A genuinely nonvisiting or astral action can match it. Short role-based entries reduce writing, but no-visit results alone do not prove protection or Town alignment.",
+        "exposure": "An observed direct visit contradicts ordinary Aegis movement; claiming Oracle does not hide your real action. Illegal role repeats, extra Oracle self-selections, or missing protection can also expose the account.",
         "posting": "Answer TP under alignment claims. Give exact role choices when the history is needed; do not describe a random numbered player as though you directly protected them.",
         "willGuidance": [
-          "Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.",
-          "Write Aegis Sheriff, for example, rather than Barrier 4.",
-          "Choose a different role on consecutive nights and use the Oracle self-role option only once.",
-          "If Grace Period disables N1 Aegis, write unavailable rather than a fictitious protection.",
-          "Do not claim a save just because a player with the chosen role survived; use actual feedback and avoid inventing their exact identity."
+          "Aegis is astral: a Tracker no-visit result fits the claim, and a Lookout will not see Oracle arrive. An observed real Douse or ordinary attack is not hidden by claiming Oracle.",
+          "Write Aegis Sheriff, for example, rather than Barrier 4. Rotate roles on consecutive nights and use the Oracle self-role choice only once.",
+          "During Grace Period, N1 Aegis is unavailable. The example starts on N2; do not invent N1 protection.",
+          "No visible visit does not confirm a save or Town alignment. Keep actual attack/save feedback separate from a role merely surviving."
         ],
         "example": "Oracle\nN2: Aegis Sheriff\nN3: Aegis Seer",
         "blank": "Oracle\nN[night]: Aegis [role] — [actual feedback / unavailable]",
-        "expanded": "The example assumes N1 Aegis is enabled. A false Oracle supplies no actual protection. Later book attacks can break a formerly good astral movement fit.",
+        "expanded": "The example starts on N2. Aegis is astral, but a fake Oracle claim does not grant protection or conceal the real role's visits. Recheck the whole movement history before accepting a direct book attack or another visiting action.",
         "sourceUrls": [
-          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
+          "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+          "https://townofsalem.wiki.gg/wiki/Actions_(ToS2)"
         ],
-        "plainAbility": "Choose a Town ROLE, such as Sheriff, instead of choosing a numbered player. Its holders receive Powerful Defense without a normal player visit. You cannot repeat the same role on consecutive nights; choosing Oracle itself is once only.",
-        "claimMeaning": "You promise protection aimed at a role category. A will naming a protected player number instead describes the wrong targeting method.",
-        "simpleExample": "“N1: Aegis Sheriff” means you selected the Sheriff role for protection; it does not mean you learned who the Sheriff is.",
+        "plainAbility": "Aegis a Town ROLE, such as Sheriff, to give its holders Powerful Defense. Aegis is astral: Tracker and Lookout do not see an ordinary visit. You cannot repeat a role on consecutive nights; Oracle itself is once only.",
+        "claimMeaning": "You claim role-based protection with no ordinary visible visit. A no-visit result is compatible, not confirmation; a will naming a protected player number uses the wrong targeting method.",
+        "simpleExample": "“N2: Aegis Sheriff” means you selected the Sheriff role. A Tracker should not see an Aegis destination; you do not learn who the Sheriff is.",
         "setupWarning": "If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability.",
+        "movementNote": "Aegis is astral: Tracker sees no Aegis destination, and Lookout does not see Oracle arrive. Other players' normal visits remain visible.",
         "openingConstraint": {
           "condition": "normal-visible-visit",
-          "title": "Oracle cover cannot explain a normal visible visit",
-          "body": "Aegis is astral: Oracle does not make an ordinary visible visit to a numbered player. Grace Period also disables N1 Aegis. Keeping this cover means avoiding real actions that create an incompatible visible visit; it does not require skipping a legal nonvisiting ability.",
+          "title": "Oracle is astral: a visible visit contradicts this cover",
+          "body": "Aegis leaves no ordinary visit for Tracker or Lookout. Your real Douse or direct book attack can still be observed even if you claim Oracle. Choose this cover when your actual action also fits no ordinary visit. Grace Period disables N1 Aegis.",
           "sourceUrls": [
             "https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/",
             "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
@@ -6868,7 +6871,7 @@
           "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Oracle%20%28ToS2%29&oldid=5690",
           "sourceRevision": 5690
         },
-        "summary": "Choose a Town ROLE, such as Sheriff, instead of choosing a numbered player. Its holders receive Powerful Defense without a normal player visit. You cannot repeat the same role on consecutive nights; choosing Oracle itself is once only.",
+        "summary": "Aegis a Town ROLE, such as Sheriff, to give its holders Powerful Defense. Aegis is astral: Tracker and Lookout do not see an ordinary visit. You cannot repeat a role on consecutive nights; Oracle itself is once only.",
         "sections": [
           {
             "title": "Role and ability",
@@ -6933,8 +6936,8 @@
           "body": "Aegis protects holders of the chosen Town role. Do not repeat a role on consecutive nights; selecting Oracle itself is available only once."
         },
         "goodToKnow": {
-          "title": "Aegis is astral",
-          "body": "Aegis can reach through jail without a normal visit. Record the role selected; a save does not necessarily identify the protected player's number."
+          "title": "Tracker and Lookout cannot see Aegis",
+          "body": "Aegis is astral: you protect without an ordinary visit for Tracker or Lookout to see. Other players' normal visits remain visible. Aegis can also protect a jailed role holder; record the role selected, not an invented player visit."
         },
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
@@ -26268,7 +26271,7 @@
         "basis": "Editorial recommendation from source-checked mechanics; no measured optimality claim"
       },
       "claimAudit": {
-        "summary": "Cleric is the easiest active-Douse cover; Oracle is conditional on genuinely nonvisiting Clean or astral Ignite nights. Bodyguard, Psychic, Sheriff and Trickster are lower alternatives for direct Douse routes. One cover has to survive your changing movement modes, not merely fit N1.",
+        "summary": "Pick by actual movement: Cleric fits direct Douse only on a night Cleric can visit. Oracle moves ahead on Clean or astral Ignite nights: Tracker and Lookout see no ordinary visit, as with Aegis. An observed earlier Douse still contradicts an Oracle story; neither cover grants protection.",
         "options": [
           {
             "roleId": "cleric",
@@ -26293,16 +26296,16 @@
           },
           {
             "roleId": "oracle",
-            "tag": "Nonvisit mode fit · earlier Douse risk",
-            "why": "Clean and astral Ignite do not require an ordinary numbered-player visit, matching an Oracle-style absence of travel better than an active-Douse cover does.",
-            "exposure": "Direct Douse nights do not match Oracle’s astral role targeting, and neither Clean nor Ignite grants an Aegis.",
+            "tag": "Astral · no tracked visit · avoid direct Douse",
+            "why": "Oracle's Aegis is astral, so Tracker and Lookout do not see an ordinary visit. Your Clean and astral Ignite can match that no-visit result; direct Douse cannot.",
+            "exposure": "An observed direct Douse contradicts Oracle's astral Aegis. Claiming Oracle never makes Douse invisible, and a quiet tracking result proves neither a save nor Town alignment.",
             "strategy": [
-              "Use role choices such as Aegis Sheriff rather than Aegis 4; Oracle targets Town role categories, not player numbers.",
-              "Rotate consecutive claimed roles and limit the Oracle self-role option to its permitted use.",
-              "Keep actual Clean and Ignite nights private and do not invent protection feedback from fire deaths or surviving Doused players.",
-              "Audit earlier Douse travel before choosing this cover. A good fit tonight does not erase a visible visit from N1."
+              "Choose this ahead of a visiting TP cover when you Clean or Ignite: a Tracker can report no destination and a Lookout can see no Aegis arrival without contradicting Oracle.",
+              "Do not use Oracle to explain a direct Douse seen by a Tracker, Lookout or Wildling. A later no-visit night does not erase earlier travel.",
+              "Write role names such as Aegis Sheriff, not Aegis 4. Rotate roles on consecutive nights; selecting Oracle itself is once only.",
+              "Keep gasoline and fire results private. Neither Clean nor Ignite protects anyone, and no visible visit does not establish a successful Aegis."
             ],
-            "bestWhen": "Your actual recent actions are nonvisiting, with no observed direct Douse history already contradicting the account.",
+            "bestWhen": "Prioritize Oracle over Cleric on Clean or astral Ignite nights, if no earlier observed Douse already contradicts the cover. It is a poor fit while actively Dousing.",
             "sourceUrls": [
               "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
               "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"
@@ -26422,16 +26425,16 @@
         },
         {
           "roleId": "oracle",
-          "tag": "Nonvisit mode fit · earlier Douse risk",
-          "why": "Clean and astral Ignite do not require an ordinary numbered-player visit, matching an Oracle-style absence of travel better than an active-Douse cover does.",
-          "exposure": "Direct Douse nights do not match Oracle’s astral role targeting, and neither Clean nor Ignite grants an Aegis.",
+          "tag": "Astral · no tracked visit · avoid direct Douse",
+          "why": "Oracle's Aegis is astral, so Tracker and Lookout do not see an ordinary visit. Your Clean and astral Ignite can match that no-visit result; direct Douse cannot.",
+          "exposure": "An observed direct Douse contradicts Oracle's astral Aegis. Claiming Oracle never makes Douse invisible, and a quiet tracking result proves neither a save nor Town alignment.",
           "strategy": [
-            "Use role choices such as Aegis Sheriff rather than Aegis 4; Oracle targets Town role categories, not player numbers.",
-            "Rotate consecutive claimed roles and limit the Oracle self-role option to its permitted use.",
-            "Keep actual Clean and Ignite nights private and do not invent protection feedback from fire deaths or surviving Doused players.",
-            "Audit earlier Douse travel before choosing this cover. A good fit tonight does not erase a visible visit from N1."
+            "Choose this ahead of a visiting TP cover when you Clean or Ignite: a Tracker can report no destination and a Lookout can see no Aegis arrival without contradicting Oracle.",
+            "Do not use Oracle to explain a direct Douse seen by a Tracker, Lookout or Wildling. A later no-visit night does not erase earlier travel.",
+            "Write role names such as Aegis Sheriff, not Aegis 4. Rotate roles on consecutive nights; selecting Oracle itself is once only.",
+            "Keep gasoline and fire results private. Neither Clean nor Ignite protects anyone, and no visible visit does not establish a successful Aegis."
           ],
-          "bestWhen": "Your actual recent actions are nonvisiting, with no observed direct Douse history already contradicting the account.",
+          "bestWhen": "Prioritize Oracle over Cleric on Clean or astral Ignite nights, if no earlier observed Douse already contradicts the cover. It is a poor fit while actively Dousing.",
           "sourceUrls": [
             "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
             "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"

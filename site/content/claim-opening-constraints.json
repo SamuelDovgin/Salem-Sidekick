@@ -19,8 +19,8 @@
   },
   "oracle": {
     "condition": "normal-visible-visit",
-    "title": "Oracle cover cannot explain a normal visible visit",
-    "body": "Aegis is astral: Oracle does not make an ordinary visible visit to a numbered player. Grace Period also disables N1 Aegis. Keeping this cover means avoiding real actions that create an incompatible visible visit; it does not require skipping a legal nonvisiting ability.",
+    "title": "Oracle is astral: a visible visit contradicts this cover",
+    "body": "Aegis leaves no ordinary visit for Tracker or Lookout. Your real Douse or direct book attack can still be observed even if you claim Oracle. Choose this cover when your actual action also fits no ordinary visit. Grace Period disables N1 Aegis.",
     "sourceUrls": ["https://www.townofsalem.io/town-of-salem-2-bug-fixes-patch-notes-r1-5-01/", "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"]
   },
   "trapper": {

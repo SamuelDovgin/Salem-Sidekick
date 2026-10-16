@@ -1,8 +1,8 @@
 # Ranked opening routes and claim strategies
 
-Current website copy, checked 15 October 2026. **64 roles/states, 150 opening routes, 161 opposing-role claim pairings, and 29 truthful Town-role explanations.**
+Current website copy, updated 16 October 2026; mechanics baseline checked 15 October 2026. **64 roles/states, 150 opening routes, 161 opposing-role claim pairings, and 29 truthful Town-role explanations.**
 
-The first route is the low-information beginner recommendation. Later routes are conditional alternatives, not weaker actions in every situation. The first two public claims stay visible; lower-ranked role icons reveal one comparison at a time. Role definitions live in inline dropdowns. All 29 Town claims remain selectable, while the researched shortlist ranks only choices with an explainable use case.
+The first route is the low-information beginner recommendation. Later routes are conditional alternatives, not weaker actions in every situation. The first two public claims stay visible; lower-ranked role icons select that claim immediately and show its strategy. Role definitions live in inline dropdowns. All 29 Town claims remain selectable, while the researched shortlist ranks only choices with an explainable use case.
 
 Mechanic facts come from the linked role pages and official patch notes; the ordering, target preferences, and false-claim strategy are editorial deductions. No measured win-rate claim or live-client experiment is implied. This guide assumes vanilla text chat and normal factions. Source audits: [Town](../research/ROUTES_TOWN_SOURCES.md), [Coven](../research/CLAIM_ROUTES_COVEN_SOURCES.md), [Neutral/Apocalypse](../research/CLAIM_ROUTES_NEUTRAL_SOURCES.md).
 
@@ -1632,15 +1632,15 @@ Use your actual Oracle role and truthful feedback. A missed action or quiet nigh
 Blindly protecting an unconfirmed role can protect nobody; Oracle is certain to cover you, but spends your one Oracle selection.
 
 - Start with the legal opening: If Aegis is enabled and you know no useful role claim, select Oracle on N1: you know at least your own role exists. If Grace Period disables Aegis, hold.
-- Check the N1 notice. During Grace Period, record no protective action on N1; a visible visit by an opposing role cannot be explained as an unavailable protection.
-- Write Aegis Sheriff, for example, rather than Barrier 4.
-- Choose a different role on consecutive nights and use the Oracle self-role option only once.
+- Aegis is astral: a Tracker no-visit result fits the claim, and a Lookout will not see Oracle arrive. An observed real Douse or ordinary attack is not hidden by claiming Oracle.
+- Write Aegis Sheriff, for example, rather than Barrier 4. Rotate roles on consecutive nights and use the Oracle self-role choice only once.
+- During Grace Period, N1 Aegis is unavailable. The example starts on N2; do not invent N1 protection.
 
 **Best when:** You are Oracle in the normal-faction setup; report what actually happened.
 
 **Exposure/limits:** Do not write normal visiting protection wills. Do not repeat a role on consecutive nights. Do not claim precise player feedback the game did not supply.
 
-Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)).
+Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Actions_(ToS2)).
 
 ## Trapper
 
@@ -6683,7 +6683,7 @@ Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)).
 
 ### Claim strategy
 
-Cleric is the easiest active-Douse cover; Oracle is conditional on genuinely nonvisiting Clean or astral Ignite nights. Bodyguard, Psychic, Sheriff and Trickster are lower alternatives for direct Douse routes. One cover has to survive your changing movement modes, not merely fit N1.
+Pick by actual movement: Cleric fits direct Douse only on a night Cleric can visit. Oracle moves ahead on Clean or astral Ignite nights: Tracker and Lookout see no ordinary visit, as with Aegis. An observed earlier Douse still contradicts an Oracle story; neither cover grants protection.
 
 #### 1. Cleric (TP) — Direct Douse fit · no real protection
 
@@ -6700,18 +6700,18 @@ An active Douse is a one-person visit, allowing a short Barrier account without 
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)).
 
-#### 2. Oracle (TP) — Nonvisit mode fit · earlier Douse risk
+#### 2. Oracle (TP) — Astral · no tracked visit · avoid direct Douse
 
-Clean and astral Ignite do not require an ordinary numbered-player visit, matching an Oracle-style absence of travel better than an active-Douse cover does.
+Oracle's Aegis is astral, so Tracker and Lookout do not see an ordinary visit. Your Clean and astral Ignite can match that no-visit result; direct Douse cannot.
 
-- Use role choices such as Aegis Sheriff rather than Aegis 4; Oracle targets Town role categories, not player numbers.
-- Rotate consecutive claimed roles and limit the Oracle self-role option to its permitted use.
-- Keep actual Clean and Ignite nights private and do not invent protection feedback from fire deaths or surviving Doused players.
-- Audit earlier Douse travel before choosing this cover. A good fit tonight does not erase a visible visit from N1.
+- Choose this ahead of a visiting TP cover when you Clean or Ignite: a Tracker can report no destination and a Lookout can see no Aegis arrival without contradicting Oracle.
+- Do not use Oracle to explain a direct Douse seen by a Tracker, Lookout or Wildling. A later no-visit night does not erase earlier travel.
+- Write role names such as Aegis Sheriff, not Aegis 4. Rotate roles on consecutive nights; selecting Oracle itself is once only.
+- Keep gasoline and fire results private. Neither Clean nor Ignite protects anyone, and no visible visit does not establish a successful Aegis.
 
-**Best when:** Your actual recent actions are nonvisiting, with no observed direct Douse history already contradicting the account.
+**Best when:** Prioritize Oracle over Cleric on Clean or astral Ignite nights, if no earlier observed Douse already contradicts the cover. It is a poor fit while actively Dousing.
 
-**Exposure/limits:** Direct Douse nights do not match Oracle’s astral role targeting, and neither Clean nor Ignite grants an Aegis.
+**Exposure/limits:** An observed direct Douse contradicts Oracle's astral Aegis. Claiming Oracle never makes Douse invisible, and a quiet tracking result proves neither a save nor Town alignment.
 
 Mechanics: [source 1](https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)), [source 2](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)).
 

@@ -637,17 +637,19 @@ Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)).
 
 **N1 setup and cover:** If Grace Period is active, protective abilities are disabled on N1. Do not claim an N1 protective visit or make a visible real-role visit to support this cover. The example starts on N2; that does not mean your real role must skip every legal nonvisiting N1 ability.
 
-**What this role does:** Choose a Town ROLE, such as Sheriff, instead of choosing a numbered player. Its holders receive Powerful Defense without a normal player visit. You cannot repeat the same role on consecutive nights; choosing Oracle itself is once only.
+**Main advantage:** Aegis is astral: Tracker sees no Aegis destination, and Lookout does not see Oracle arrive. Other players' normal visits remain visible.
 
-**By claiming it, you mean:** You promise protection aimed at a role category. A will naming a protected player number instead describes the wrong targeting method.
+**What this role does:** Aegis a Town ROLE, such as Sheriff, to give its holders Powerful Defense. Aegis is astral: Tracker and Lookout do not see an ordinary visit. You cannot repeat a role on consecutive nights; Oracle itself is once only.
 
-**For example:** “N1: Aegis Sheriff” means you selected the Sheriff role for protection; it does not mean you learned who the Sheriff is.
+**By claiming it, you mean:** You claim role-based protection with no ordinary visible visit. A no-visit result is compatible, not confirmation; a will naming a protected player number uses the wrong targeting method.
+
+**For example:** “N2: Aegis Sheriff” means you selected the Sheriff role. A Tracker should not see an Aegis destination; you do not learn who the Sheriff is.
 
 **TP — Town Protective; Low upkeep.**
 
-**Payoff:** Role-based entries are short and astral movement can suit a genuinely nonvisiting role. That makes writing easy while genuine protection feedback remains difficult to reproduce.
+**Payoff:** The main cover advantage is no ordinary visit for Tracker or Lookout to detect. A genuinely nonvisiting or astral action can match it. Short role-based entries reduce writing, but no-visit results alone do not prove protection or Town alignment.
 
-**Exposure:** You protect a role rather than visiting a numbered player. Repeated consecutive role choices, extra Oracle selections, or a visible direct visit can expose the story.
+**Exposure:** An observed direct visit contradicts ordinary Aegis movement; claiming Oracle does not hide your real action. Illegal role repeats, extra Oracle self-selections, or missing protection can also expose the account.
 
 **When to claim/post:** Answer TP under alignment claims. Give exact role choices when the history is needed; do not describe a random numbered player as though you directly protected them.
 
@@ -657,21 +659,21 @@ N2: Aegis Sheriff
 N3: Aegis Seer
 ```
 
-- Write Aegis Sheriff, for example, rather than Barrier 4.
-- Choose a different role on consecutive nights and use the Oracle self-role option only once.
-- If Grace Period disables N1 Aegis, write unavailable rather than a fictitious protection.
-- Do not claim a save just because a player with the chosen role survived; use actual feedback and avoid inventing their exact identity.
+- Aegis is astral: a Tracker no-visit result fits the claim, and a Lookout will not see Oracle arrive. An observed real Douse or ordinary attack is not hidden by claiming Oracle.
+- Write Aegis Sheriff, for example, rather than Barrier 4. Rotate roles on consecutive nights and use the Oracle self-role choice only once.
+- During Grace Period, N1 Aegis is unavailable. The example starts on N2; do not invent N1 protection.
+- No visible visit does not confirm a save or Town alignment. Keep actual attack/save feedback separate from a role merely surviving.
 
 **Blank format:**
 
 ```text
 Oracle
-N1: Aegis [role] — [actual feedback / unavailable]
+N[night]: Aegis [role] — [actual feedback / unavailable]
 ```
 
-The example assumes N1 Aegis is enabled. A false Oracle supplies no actual protection. Later book attacks can break a formerly good astral movement fit.
+The example starts on N2. Aegis is astral, but a fake Oracle claim does not grant protection or conceal the real role's visits. Recheck the whole movement history before accepting a direct book attack or another visiting action.
 
-Mechanics: [role source](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)).
+Mechanics: [Oracle](https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)), [Astral actions](https://townofsalem.wiki.gg/wiki/Actions_(ToS2)).
 
 ## Trapper
 

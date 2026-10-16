@@ -758,7 +758,7 @@
     ]
   },
   "arsonist": {
-    "summary": "Cleric is the easiest active-Douse cover; Oracle is conditional on genuinely nonvisiting Clean or astral Ignite nights. Bodyguard, Psychic, Sheriff and Trickster are lower alternatives for direct Douse routes. One cover has to survive your changing movement modes, not merely fit N1.",
+    "summary": "Pick by actual movement: Cleric fits direct Douse only on a night Cleric can visit. Oracle moves ahead on Clean or astral Ignite nights: Tracker and Lookout see no ordinary visit, as with Aegis. An observed earlier Douse still contradicts an Oracle story; neither cover grants protection.",
     "options": [
       {
         "roleId": "cleric",
@@ -779,16 +779,16 @@
       },
       {
         "roleId": "oracle",
-        "tag": "Nonvisit mode fit · earlier Douse risk",
-        "why": "Clean and astral Ignite do not require an ordinary numbered-player visit, matching an Oracle-style absence of travel better than an active-Douse cover does.",
-        "exposure": "Direct Douse nights do not match Oracle’s astral role targeting, and neither Clean nor Ignite grants an Aegis.",
+        "tag": "Astral · no tracked visit · avoid direct Douse",
+        "why": "Oracle's Aegis is astral, so Tracker and Lookout do not see an ordinary visit. Your Clean and astral Ignite can match that no-visit result; direct Douse cannot.",
+        "exposure": "An observed direct Douse contradicts Oracle's astral Aegis. Claiming Oracle never makes Douse invisible, and a quiet tracking result proves neither a save nor Town alignment.",
         "strategy": [
-          "Use role choices such as Aegis Sheriff rather than Aegis 4; Oracle targets Town role categories, not player numbers.",
-          "Rotate consecutive claimed roles and limit the Oracle self-role option to its permitted use.",
-          "Keep actual Clean and Ignite nights private and do not invent protection feedback from fire deaths or surviving Doused players.",
-          "Audit earlier Douse travel before choosing this cover. A good fit tonight does not erase a visible visit from N1."
+          "Choose this ahead of a visiting TP cover when you Clean or Ignite: a Tracker can report no destination and a Lookout can see no Aegis arrival without contradicting Oracle.",
+          "Do not use Oracle to explain a direct Douse seen by a Tracker, Lookout or Wildling. A later no-visit night does not erase earlier travel.",
+          "Write role names such as Aegis Sheriff, not Aegis 4. Rotate roles on consecutive nights; selecting Oracle itself is once only.",
+          "Keep gasoline and fire results private. Neither Clean nor Ignite protects anyone, and no visible visit does not establish a successful Aegis."
         ],
-        "bestWhen": "Your actual recent actions are nonvisiting, with no observed direct Douse history already contradicting the account.",
+        "bestWhen": "Prioritize Oracle over Cleric on Clean or astral Ignite nights, if no earlier observed Douse already contradicts the cover. It is a poor fit while actively Dousing.",
         "sourceUrls": [
           "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
           "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)"

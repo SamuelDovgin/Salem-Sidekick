@@ -54,6 +54,17 @@ test('Medusa N1 advice checks the TP cover before recommending an observable Sto
 test('protective examples do not manufacture saves and tips keep death exceptions',()=>{
  const cleric=byId.get('cleric').claimProfile;assert.equal(cleric.example,'Cleric\nN2: Barrier 4\nN3: Barrier 7');assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
 });
+test('Oracle advice foregrounds astral observation and Arsonist movement modes',()=>{
+ const oracle=byId.get('oracle'),arsonist=byId.get('arsonist'),cover=arsonist.claimOptions.find(c=>c.roleId==='oracle');
+ assert.match(oracle.claimProfile.movementNote,/Tracker.*Lookout/);
+ assert.match(oracle.claimProfile.movementNote,/Other players.*visits remain visible/);
+ assert.match(oracle.priorityGuide.goodToKnow.body,/astral/);
+ assert.match(cover.why,/Clean.*Ignite.*direct Douse cannot/);
+ assert.match(cover.bestWhen,/Prioritize Oracle over Cleric.*Clean.*Ignite/);
+ assert.match(cover.exposure,/observed direct Douse/);
+ assert.match(oracle.claimProfile.openingConstraint.body,/real Douse or direct book attack can still be observed/);
+ assert.doesNotMatch(oracle.claimProfile.expanded,/assumes N1 Aegis is enabled/);
+});
 test('higher-payoff role information does not erase movement or demonstration risks',()=>{
  assert.match(byId.get('potion-master').claimOptions.find(c=>c.roleId==='seer').exposure,/two|both/);
  assert.match(byId.get('wildling').claimOptions[0].tag,/information/);

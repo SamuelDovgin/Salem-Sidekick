@@ -647,7 +647,7 @@
     ]
   },
   "arsonist": {
-    "summary": "Cleric is the simple active-Douse visiting cover; Oracle fits actual nonvisit actions better. Changing modes changes your movement, so an easy N1 account is not a permanent cover. Neither provides a real save.",
+    "summary": "Cleric fits active Douse on a legal visiting night. Oracle is the better movement fit on Clean or astral Ignite nights because Aegis leaves no ordinary visit for Tracker or Lookout. Earlier observed Douse travel still matters.",
     "options": [
       {
         "roleId": "cleric",
@@ -663,9 +663,9 @@
         "role": "Oracle",
         "alignment": "Town Protective",
         "alignment_abbreviation": "TP",
-        "tag": "Low upkeep · weak independent proof",
-        "why": "Idle cleaning or astral Ignite can fit the absence of a visible visit.",
-        "exposure": "An earlier direct Douse is not an Oracle action, and there is no actual Aegis."
+        "tag": "Astral · no ordinary tracked visit",
+        "why": "Clean or astral Ignite can match Aegis's lack of a Tracker destination or Lookout arrival.",
+        "exposure": "An earlier observed direct Douse contradicts Oracle; the claim hides no real movement and provides no Aegis."
       }
     ]
   },
