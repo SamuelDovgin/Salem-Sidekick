@@ -215,3 +215,31 @@ html{scroll-padding-top:0}
 .claim-full-mechanics>summary{font-size:11px;cursor:pointer;min-height:36px;padding:9px 0;color:var(--ink)}
 .claim-mechanics-section+.claim-mechanics-section{border-top:1px solid var(--line);margin-top:12px}
 @media(max-width:560px){.claim-details>summary{flex-wrap:wrap;gap:5px}.claim-details>summary small{font-size:9px}.claim-option-top .claim-selected-status{margin-left:0}}
+
+/* Message examples use the existing dawn/claim details instead of another panel. */
+.feedback-glance{border-top:1px solid var(--line);margin-top:9px;padding-top:8px}
+.feedback-glance>p{font-size:11px;line-height:1.6;color:var(--muted);margin:0}
+.feedback-glance strong{color:var(--ink);font-weight:550}
+.feedback-guide{border-top:1px solid var(--line);margin-top:12px;padding-top:2px}
+.feedback-guide>h4{font-size:12px;margin:12px 0 9px}
+.feedback-meaning{margin:0;display:grid;gap:9px;font-size:12px;line-height:1.65}
+.feedback-meaning>div{display:grid;grid-template-columns:62px minmax(0,1fr);gap:8px}
+.feedback-meaning dt{font-weight:600;color:var(--ink)}
+.feedback-meaning dd{margin:0;color:var(--muted)}
+.game-message{margin:11px 0;border:1px solid var(--line);border-radius:6px;background:var(--panel);padding:9px 10px}
+.game-message figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:10px;color:var(--muted)}
+.game-message figcaption a{flex-shrink:0;min-height:24px;display:inline-flex;align-items:center}
+.game-message blockquote{margin:6px 0;color:var(--ink);font:12px/1.65 var(--font);overflow-wrap:anywhere}
+.claim-option .game-message p,.game-message .message-condition{font-size:10px;line-height:1.6;margin:5px 0 0;color:var(--muted)}
+.feedback-report{margin-top:12px;border:1px solid var(--line);border-radius:6px;padding:9px 10px;background:var(--panel)}
+.feedback-report .card-heading{gap:7px;flex-wrap:wrap;margin:0 0 6px}
+.feedback-report h4{font-size:11px;margin:0}
+.feedback-report .text-button{font-size:10px;min-height:28px}
+.feedback-report-text{font:11px/1.65 ui-monospace,SFMono-Regular,monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:var(--ink)}
+.feedback-guide .feedback-label,.claim-option .feedback-label{font-size:10px;line-height:1.6;color:var(--muted);margin:8px 0 0}
+.game-message .feedback-label{margin:0}
+.feedback-claim-check{font-size:11px;line-height:1.65;color:var(--muted);margin:10px 0}
+@media(max-width:560px){.feedback-meaning>div{grid-template-columns:1fr;gap:2px}.game-message figcaption{align-items:flex-start}}
+.message-actions{display:inline-flex;gap:9px;align-items:center;flex-shrink:0}
+.message-actions .text-button{font-size:10px;min-height:24px}
+@media(max-width:560px){.game-message figcaption{flex-wrap:wrap}}

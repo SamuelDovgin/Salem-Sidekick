@@ -8,11 +8,11 @@ The compact text and its expanded text belong to the **same section on the singl
 
 **Compact copy**
 
-Visit a player and attack one non-Coven direct visitor. Other direct visitors can learn your identity. Book adds a direct attack on the target. CK — Coven Killing.
+Attack one non-Coven visitor at your chosen house. Direct visitors can get a private message naming you as Jinx and the house, including a surviving attack victim. Book also attacks the resident. CK — Coven Killing.
 
 **Expanded copy — same section**
 
-Visit a player and attack one non-Coven direct visitor. Other direct visitors can learn your identity. Book adds a direct attack on the target.
+Attack one non-Coven visitor at your chosen house. Direct visitors can get a private message naming you as Jinx and the house, including a surviving attack victim. Book also attacks the resident.
 
 **Win condition:** Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
 

@@ -339,6 +339,23 @@ def build():
         guide['sourceUrls'] = role['studyGuide']['sourceUrls']
         guide['basis'] = 'Editorial visibility priorities from the existing reviewed role guidance.'
         role['priorityGuide'] = guide
+    # Feedback separates who sees an effect from source-attested client wording.
+    feedback = json.loads((PROJECT/'content/role-feedback.json').read_text())
+    assert set(feedback) == {r['id'] for r in all_roles}
+    for role in all_roles:
+        guide = copy.deepcopy(feedback[role['id']])
+        for field in ['glance','youSee','theySee','claimCheck']:
+            assert guide[field].strip(), (role['id'],field)
+        assert bool(guide.get('reportTemplate')) == role['alignment'].startswith('Town')
+        assert all(m['kind']=='documented' and m['sourceUrl'].startswith('https://') and m['audience'] and m['when'] for m in guide['messages'])
+        guide['basis']='Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples.'
+        role['feedbackGuide']=guide
+        lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck']]
+        for message in guide['messages']:
+            lines.append('**Documented '+('excerpt' if message.get('excerpt') else 'English')+' · '+message['audience']+':** `'+message['text']+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
+        if guide.get('reportTemplate'):
+            lines.append('**Chat format · replace brackets:**\n\n```\n'+guide['reportTemplate']+'\n```')
+        role['studyGuide']['sections'].append({'title':'What you and others see','markdown':'\n\n'.join(lines)})
     assert len(playbooks)==64 and len(profiles)==29 and len(relations)==31
     assert all(len(r['playbook']['laterPriorities'])==3 and r['claimProfile']['example'] for r in roles+states)
     summary = {

@@ -1,0 +1,45 @@
+# What players see: role feedback and claim reporting
+
+Reviewed and integrated 16 October 2026. Scope: all 60 base roles and four transformed states in the existing vanilla ToS2 reference baseline. The current text-chat/default-faction assumptions still apply.
+
+The authored source is `site/content/role-feedback.json`. Each role/state has its own short visibility summary, feedback meaning for the acting player, feedback/effects visible to other players, and a claim consistency check. All 29 Town roles also have an original chat-report format with explicit placeholders and failure states. These formats are not purported client messages or live results.
+
+## Wording and provenance
+
+Twenty short English excerpts are recorded from documented messages. They are labeled **Documented English**, with the recipient, trigger condition and source adjacent. Player-name/mention tokens become square-bracket placeholders; icons, gradients and rich text are not reproduced. The remaining feedback is explicitly presented as paraphrased meaning. No message was added from memory and labeled as exact.
+
+The role-specific excerpts come from the reviewed wiki revisions linked on each message. The source role pages were retrieved using the public MediaWiki API on 15 October 2026 and remain the same mechanics baseline as the rest of this app. Feedback passages were reviewed against those retrieved pages on 16 October. Their revision URLs are retained in the authored JSON. The Jinx witness and generic Barrier excerpts were additionally located on the [ToS2 Messages reference](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)) on 16 October. The shared message-reference excerpts are limited to 25 words in total, and role-page excerpts to 25 words per source.
+
+These are community-documented lines, not strings captured from an installed client. They do not establish the precise color, animation, chat-log position, translation, or version of the user's game. Public death-cause examples are conditional on relevant setup modifiers. Missing or suppressed feedback does not become a negative result.
+
+## Jinx clarification
+
+The identity exposure is a private night message to direct co-visitors that contains the Jinx's player name and the shared destination. It is not limited to investigative roles. The attacked visitor is not a safe exception: if they survive, they can also report the Jinx. The Jinx's own visitor-attack feedback does not supply the complete set of visitor names or roles. Sources: [Jinx reviewed mechanics](https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984), [documented witness message](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Jinx).
+
+The official R1.5.14 change log includes a fix for a Jinx player-name substitution bug. That supports keeping player names as explicit placeholders rather than reproducing a broken `%name2%` string as intended wording. See [official R1.5.14 Steam announcement](https://store.steampowered.com/news/app/2140510/view/1839041357036710) and the corresponding [change-log index](https://townofsalem.wiki.gg/wiki/Change_Log_(ToS2)).
+
+## Deliberate omissions and limitations
+
+- Current Pirate uses Scour/Plunder, so older duel-result lines were excluded.
+- Current Admirer uses Obsession, Admire, Care and Bestow, so old proposal/acceptance/rejection messages were excluded.
+- Current Investigator uses crimes; older blood-only formats were excluded.
+- Psychic late-game failure descriptions are explicitly marked potentially outdated in the source. They were not promoted to guaranteed message/trigger pairs.
+- Voodoo Master's role page prints a Blind notice, while Keywords says the recipient is not told they were Blinded. The app explains missing-result behavior and this uncertainty without promising either exact notice. The well-documented Silence excerpt is included.
+- War's longer announcement differs in punctuation between references. Only its matching first sentence is quoted. The same capitalization-only ambiguity in the Hex Bomb line is not treated as mechanically meaningful.
+- Public transformation text identifies the transformed role, not automatically the numbered player. Current Famine, War, Pestilence and Death have separate feedback guidance rather than inherited pre-transformation instructions.
+- Generic Barrier wording does not identify a specific Cleric, Oracle, Admirer or Potion Master. A quiet target surviving does not create protection feedback.
+
+## Presentation and copying
+
+The existing **At dawn → Messages** control contains the complete actual-role feedback, and the full Role guide has a corresponding section. The dawn summary adds one short visibility line. Jinx's naming message is also visible beside its concise dawn guidance because it explains a direct identity risk.
+
+The existing **Claim details** panel contains the selected Town role's expected feedback and report format. Documented wording and authored chat formats have distinct copy actions. Copying a comparison role's text does not select it, update the active will, or include the actual role's private information. Clipboard denial selects the visible text for manual copying.
+
+No extra top-level panel or always-expanded reference section is introduced. The earlier claim-position stabilization remains in place when claim-dependent N1 warnings change height.
+
+## Verification
+
+- 46 unit/content checks cover complete role/state coverage, distinct audiences, 29 Town-only chat formats, message provenance, source excerpt limits, Jinx witness identity, generic Barrier limitations, and omitted stale/disputed messages.
+- 122 browser checks cover all role/route views, all 29 feedback/report formats, copying the compared claim without changing the active claim/will, both clipboard fallbacks, responsive/touch layouts, and existing behavior.
+- 40 additional position transitions keep Cleric/Psychic claim controls stable while the N1 warning changes, including compact/expanded layouts and the full picker at desktop and narrow widths.
+- Local visual inspection checks Jinx's compact message example and expanded audience explanations, plus selected-claim feedback. No live-game session or physical-phone test is claimed.

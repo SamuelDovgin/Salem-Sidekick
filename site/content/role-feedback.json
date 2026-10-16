@@ -1,0 +1,1127 @@
+{
+  "jailor": {
+    "glance": "Your prisoner knows they were jailed; Jailor chat does not normally show your player name.",
+    "youSee": "The jail interface and private prisoner chat identify whom you jailed. An execution attempt and its actual outcome must be recorded separately.",
+    "theySee": "The prisoner gets a jail notice and can speak to the anonymous Jailor. A death from execution is public later; jailing alone does not publicly reveal your identity.",
+    "claimCheck": "A prisoner can confirm the jail, but not automatically the Jailor’s player name. Keep the same prisoner, conversation and execution outcome.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Jailor%20%28ToS2%29&oldid=6571"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Jailor N[night]: jailed [player] — [released / executed / execution failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "marshal": {
+    "glance": "A Tribunal is a public event, not a private night result.",
+    "youSee": "Your daytime control starts a Tribunal when permitted. The public trial sequence supplies the outcome; you receive no investigative check for merely being Marshal.",
+    "theySee": "Everyone sees the Tribunal and its trial/voting changes. They can check whether the public event you claim actually happened.",
+    "claimCheck": "A private will line cannot substitute for a real Tribunal. Report the day and executions that everyone can verify.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Marshal%20%28ToS2%29&oldid=5387"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Marshal D[day]: Tribunal [called / held] — [public trial outcomes].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "mayor": {
+    "glance": "A real reveal publicly identifies the Mayor.",
+    "youSee": "Revealing changes your public role display and vote power. A quiet night gives you no investigative result.",
+    "theySee": "Everyone sees the reveal and can account for the extra votes. The reveal also changes which protection and targeting options apply.",
+    "claimCheck": "Saying Mayor in chat is different from using Reveal. After a claimed reveal, the public role display and vote count must agree.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Mayor%20%28ToS2%29&oldid=5492"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Mayor D[day]: [unrevealed / publicly revealed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "monarch": {
+    "glance": "The knight receives a Knighted effect; the extra vote can be observed.",
+    "youSee": "Use the resulting knight status and actual action feedback to track successful Knights. A selection click alone is not proof a Knight resolved.",
+    "theySee": "A successful recipient gets the Knighted effect and extra vote. The effect demonstrates knighting, rather than giving them a routine investigative report on you.",
+    "claimCheck": "A recipient’s effect and voting power can test this claim. Do not promise a successful Knight after an interrupted action.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Monarch%20%28ToS2%29&oldid=6477"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Monarch N[night]: Knight [player] — [confirmed / failed]; living knights: [players].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "prosecutor": {
+    "glance": "A prosecution is public and can be checked by the whole town.",
+    "youSee": "The daytime prosecution control and its public resolution supply your evidence. There is no normal nightly investigation.",
+    "theySee": "Everyone sees who is prosecuted and the resulting execution. Applicable Town penalties and remaining uses affect what can happen next.",
+    "claimCheck": "Use the actual day, defendant and outcome. A written claim cannot create the public prosecution event.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Prosecutor%20%28ToS2%29&oldid=6514"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Prosecutor D[day]: prosecuted [player] — [public outcome].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "coroner": {
+    "glance": "Your examined player does not receive your autopsy or killer-match result.",
+    "youSee": "Autopsy establishes the relevant killer information. A later Examine gives a match or no-match against that autopsied killer; preserve the corpse and suspect separately.",
+    "theySee": "The suspect does not receive your private comparison result. An observer may still see an ordinary Examine visit.",
+    "claimCheck": "A killer match is not a universal evil check. State which corpse supplied the comparison, and record no autopsy or a failed Examine honestly.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Coroner%20%28ToS2%29&oldid=6348"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Coroner D[day]: Autopsy [corpse]. N[night]: Examine [player] — [match / no match / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "investigator": {
+    "glance": "Crimes are your private result; the checked player is not sent the same report.",
+    "youSee": "The report concerns Murder on the checked night and Trespassing history. A failure or missing result is separate from No Crime.",
+    "theySee": "Your subject does not receive a normal notice listing the crimes you found. Direct movement can still be observed by other roles.",
+    "claimCheck": "Murder means an attack, not necessarily a death; Trespassing is not just tonight’s destination. Framing and concealment can alter the report.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Investigator%20%28ToS2%29&oldid=5154"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Investigator N[night]: [player] — [Murder / Trespassing / both / No Crime / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "lookout": {
+    "glance": "You get visitors to one house; those visitors do not receive your list.",
+    "youSee": "A successful Watch lists observable players visiting the watched house, or no visible visitors. It does not list their destinations elsewhere.",
+    "theySee": "The watched player and visitors do not receive your Lookout report. Astral or camouflaged movement can be absent from what you see.",
+    "claimCheck": "Use the watched house and visible visitor list. No visible visitors does not prove that no astral ability affected the house.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Lookout%20%28ToS2%29&oldid=6340"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Lookout N[night]: watched [house] — visitors [players / none visible / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "psychic": {
+    "glance": "Only you receive the vision; the selected player is not sent your group.",
+    "youSee": "A normal odd-night Good vision contains two players; an even-night Evil vision contains three. Keep the selected player in the group and retain any failed or unavailable result.",
+    "theySee": "The selected player does not normally get a Psychic vision notice. Ordinary direct movement can still be seen by an observer.",
+    "claimCheck": "The group guarantees at least one apparent Good or Evil player, not exactly one. Keep both/all three names; a secret exact-role read is not a Psychic result.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Psychic%20%28ToS2%29&oldid=6298"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Psychic N[night]: [Good: player, player / Evil: player, player, player] — selected [player]; [failure if any].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "seer": {
+    "glance": "Friends or Enemies is your private comparison, not an exact-role reveal.",
+    "youSee": "A successful comparison returns Friends or Enemies for the chosen pair. A prevented action or invalid target is not a normal comparison result.",
+    "theySee": "Neither target receives your private comparison. Your two ordinary visits may be observed, subject to movement-changing effects.",
+    "claimCheck": "Friends does not necessarily mean two Townies, and Enemies does not identify which person is evil. Preserve the exact pair and any failure.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Seer%20%28ToS2%29&oldid=5395"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Seer N[night]: [player] + [player] — [Friends / Enemies / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "sheriff": {
+    "glance": "The checked player does not get your Innocent or Suspicious result.",
+    "youSee": "A successful Search reports Innocent or Suspicious. That is an appearance check; it does not identify the actual role or faction in every case.",
+    "theySee": "Your subject gets no routine Sheriff result notice. An observer may still see the direct Search visit.",
+    "claimCheck": "Keep the exact target and result. Innocent can include protected Coven appearances and Neutral Killings; an interrupted check is not Innocent.",
+    "messages": [
+      {
+        "audience": "You",
+        "when": "A successful Search returns an Innocent appearance",
+        "text": "You cannot find any evidence of wrongdoing. [Player] seems innocent.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148",
+        "namesNormalized": true,
+        "sourceAccessedOn": "2026-10-15"
+      },
+      {
+        "audience": "You",
+        "when": "A successful Search returns a Suspicious appearance",
+        "text": "[Player] seems suspicious!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148",
+        "namesNormalized": true,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Sheriff N[night]: [player] — [Innocent / Suspicious / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "spy": {
+    "glance": "A bug can name an evil visiting role without naming the player who owns it.",
+    "youSee": "A placed bug waits for a qualifying event. Its trigger can identify evil activity or a role; an untriggered bug is not a clean bill of health.",
+    "theySee": "The bug report is private to you. It is not a universal visitor list delivered to the bugged player.",
+    "claimCheck": "Name the bug location and the actual reported activity. Do not turn a role label into a player number without separate evidence.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Spy%20%28ToS2%29&oldid=6346"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Spy N[night]: Bug [player] — [untriggered / exact reported event / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "tracker": {
+    "glance": "You get one player’s visible destinations; those destinations do not receive your tracking report.",
+    "youSee": "A successful Track reports the subject’s observable destinations, or no visible visit. Some abilities can generate multiple destinations.",
+    "theySee": "Your subject and their destinations do not normally get a message naming you as their Tracker. Your own direct visit can still be observed.",
+    "claimCheck": "An astral action can return no visible visit. A destination report is not a Lookout list of everyone at that house.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Tracker%20%28ToS2%29&oldid=5571"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Tracker N[night]: tracked [player] — visited [destinations / nobody visible / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "bodyguard": {
+    "glance": "A real interception can notify the saved target and leave a public Bodyguard death.",
+    "youSee": "A successful Guard can intercept an eligible direct attack and fight the attacker. A quiet target list supplies no save confirmation by itself.",
+    "theySee": "A saved target can receive protection feedback. The attacker and any resulting deaths create other evidence; a quiet night does not prove an interception.",
+    "claimCheck": "Keep Guard distinct from the one Self Protect. Do not claim a fight solely because the chosen target survived.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Bodyguard%20%28ToS2%29&oldid=5558"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Bodyguard N[night]: Guard [player] — [no interception reported / intercepted attack / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "cleric": {
+    "glance": "An attacked recipient can see a Barrier message; it does not name you as Cleric.",
+    "youSee": "Attack feedback can tell you the protected target was attacked. It is not an automatic kill result or proof your Barrier was the protection that ultimately resolved.",
+    "theySee": "An attacked and Barrier-protected player can receive a Barrier notice. A blocked attacker may receive a defense notice. A quiet target is not evidence of a save.",
+    "claimCheck": "Barrier feedback can also come from other Barrier abilities. Keep target, attack feedback and actual outcome separate; Grace Period can disable N1 protection.",
+    "messages": [
+      {
+        "audience": "Attacked, protected recipient",
+        "when": "A Barrier prevents the attack; this wording does not identify which Barrier role supplied it",
+        "text": "You were attacked, but a Barrier protected you!",
+        "kind": "documented",
+        "sourceUrl": "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-16"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Cleric%20%28ToS2%29&oldid=4540",
+      "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Cleric"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Cleric N[night]: Barrier [player] — [no attack reported / attack reported / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "crusader": {
+    "glance": "A protected player can see Crusader protection; a visitor death can publicly name Crusader.",
+    "youSee": "You can receive feedback that your protected target was attacked and that you attacked a visitor. These are different events, not the same player.",
+    "theySee": "The protected resident can receive protection feedback. A visitor can be attacked, and a resulting public death can identify Crusader as the cause.",
+    "claimCheck": "Fortify protects the resident and may attack one random direct visitor. Do not say you attacked the resident or choose a visitor identity that you were never given.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "A player dies to the Crusader attack, if the cause is not hidden",
+        "text": "they were killed by a Crusader",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15",
+        "excerpt": true
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Crusader N[night]: Fortify [player] — target [attack/no attack reported]; visitor [attack/no attack reported].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "oracle": {
+    "glance": "An attacked protected role-holder can see a Barrier; observers see no ordinary Aegis visit.",
+    "youSee": "Aegis targets a Town role, not a player number. Use actual attack feedback for protected role-holders; an enabled choice or a survivor alone is not save confirmation.",
+    "theySee": "An attacked and protected recipient can see a Barrier message. Aegis is astral, so Tracker and Lookout do not see an ordinary Oracle visit; other players’ visits stay visible.",
+    "claimCheck": "Name the selected Town role and follow consecutive-role/self-role restrictions. A generic Barrier notice does not prove an Oracle identity or hide your real role’s direct travel.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Oracle%20%28ToS2%29&oldid=5690"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Oracle N[night]: Aegis [Town role] — [no attack reported / attack reported / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "trapper": {
+    "glance": "A harmless trigger gives you roles; the resident is not normally told about that trigger.",
+    "youSee": "Build completion and trap status are separate from a placed trap triggering. A non-harmful trigger can report visitor roles; attack handling has different feedback.",
+    "theySee": "A resident is not routinely told that harmless visitors triggered a trap. A trap that prevents an attack can notify the saved player and leave attack/death evidence.",
+    "claimCheck": "Record build, placement and trigger separately. Role order is not player order; trap information does not supply matching player numbers.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Trapper%20%28ToS2%29&oldid=6488"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Trapper N[night]: [Build / Place on player / trigger]; reported roles or attack: [actual feedback].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "deputy": {
+    "glance": "A daytime shot is a public event, not a private investigation.",
+    "youSee": "Your shot resolves in public, including any miss/defense outcome. The public event and any applicable penalty determine what you can do next.",
+    "theySee": "Everyone can see the shot event and its target/outcome. A shot does not give you a hidden nightly result to post later.",
+    "claimCheck": "An unperformed shot cannot be supplied by a copied will. Report the public target and outcome; check the current shot control and eligibility.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Deputy%20%28ToS2%29&oldid=6299"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Deputy D[day]: shot [player] — [public hit / defense or miss / other shown outcome].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "trickster": {
+    "glance": "A successful absorption is separate from the later Unleash; quiet mirroring confirms no save.",
+    "youSee": "A Magic Mirror can absorb one qualifying direct attack and tell you the stored attacker role. Unstoppable attacks shatter it rather than supplying a normal stored attack.",
+    "theySee": "Other players can receive attack/protection evidence from the event. An Unleash can use the absorbed role’s death label, rather than a generic Trickster kill label.",
+    "claimCheck": "Do not claim an absorption because the target survived. Record the supplied attacker role, keep the stored state, and separate Mirror from Unleash.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Trickster%20%28ToS2%29&oldid=5398"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Trickster N[night]: [Mirror player / Self Mirror / Unleash player] — [no absorption / reported attacker role / actual outcome].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "veteran": {
+    "glance": "A visitor can receive a Veteran attack message; no report gives you a full visitor list.",
+    "youSee": "Alert and resulting attack feedback concern visitors to your own house. An Alert alone is not a complete list of visitors or guaranteed kills.",
+    "theySee": "Direct visitors can be attacked, and public deaths can identify Veteran as the cause. Astral visits and survival effects can change the outcome.",
+    "claimCheck": "Keep the Alert night and actual attacks separate. Do not invent names for every visitor or claim a normal visit while staying home.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Veteran%20%28ToS2%29&oldid=6536"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Veteran N[night]: [Alert / no Alert] — [actual attack feedback or none].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "vigilante": {
+    "glance": "A victim can see a Vigilante attack; defense means a shot need not produce a death.",
+    "youSee": "Load before shooting. Later shot feedback and any guilt/penalty are actual outcomes, not an alignment result inferred from whether somebody died.",
+    "theySee": "The target can receive an attack notice and public deaths can expose a Vigilante shot. Surviving a shot does not by itself tell you their faction.",
+    "claimCheck": "Preserve the bullet spent and outcome. Do not write an N1 shot while still loading, or label defense as a precise role.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Vigilante%20%28ToS2%29&oldid=5532"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Vigilante N[night]: [Load / hold / shoot player] — [actual hit / defense / failure feedback].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "admirer": {
+    "glance": "Admire tests your Obsession; Bestow creates a lasting effect another player can check.",
+    "youSee": "You begin with an Obsession subalignment clue. Admire tests a player; finding the Obsession unlocks limited Care. No valid Obsession can produce a distinct notice.",
+    "theySee": "Care can give the Obsession Barrier feedback when attacked. Bestow grants lasting astral visits plus roleblock/control immunity; the recipient can check their effects and later ability behavior.",
+    "claimCheck": "Use the current Obsession/Care/Bestow model. Do not invent old public proposals, acceptance/rejection scenes, or mutual exact-role reveals.",
+    "messages": [
+      {
+        "audience": "You",
+        "when": "No eligible secret Obsession remains",
+        "text": "There are no valid targets for your secret Obsession.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Admirer N[night]: Admire [player] — [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow [player].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "amnesiac": {
+    "glance": "A remembered role changes your own role card; it is not a nightly check on another player.",
+    "youSee": "When Remember resolves, the new Town role and its controls replace Amnesiac. Record the change when it happens rather than predicting a role before resolution.",
+    "theySee": "Other players do not automatically receive your complete private remembered-role history. Graveyard deaths and later role demonstrations can test your account.",
+    "claimCheck": "Record the starting role and actual remembered role separately. Hidden or altered corpses and unique-role priority can affect what you obtain.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Amnesiac%20%28ToS2%29&oldid=6546"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Amnesiac D[day]: [no role remembered / remembered role] — first available action [if any].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "retributionist": {
+    "glance": "The reanimated body supplies role-specific feedback; a missing corpse is not a negative check.",
+    "youSee": "Select a usable Town corpse and its destination. You can receive that corpse ability’s result or a corpse-use failure; preserve which body supplied it.",
+    "theySee": "Recipients may see the reanimated ability’s ordinary effect. That alone does not prove which living corpse-user produced it.",
+    "claimCheck": "A body being taken or unavailable is not an Innocent/no-match result. Keep body, destination, actual result and the Town-only corpse pool consistent.",
+    "messages": [
+      {
+        "audience": "You",
+        "when": "The chosen corpse is unavailable",
+        "text": "Your target's corpse is missing!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Retributionist N[night]: [Town corpse] → [destination] — [actual ability result / corpse unavailable / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "socialite": {
+    "glance": "Rejected visitors see an obstacle; you do not get a complete list of their identities.",
+    "youSee": "Invitations and the Guest List determine who is admitted. A Party can tell you that someone was rejected, rather than furnishing a Lookout report.",
+    "theySee": "Eligible uninvited visitors can get obstacle/failure feedback. Invited, astral and Party-immune actions do not all behave identically.",
+    "claimCheck": "Record the invitation/Party and whether rejection was reported. Do not identify every rejected player from a simple rejection notification.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Socialite%20%28ToS2%29&oldid=5893"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Socialite D[day]: invited [player]. N[night]: [Party / no Party] — [rejection reported / none / failed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "tavern-keeper": {
+    "glance": "The recipient can see drink/roleblock feedback and may confirm or dispute the effect.",
+    "youSee": "A completed Drink is distinct from an interrupted visit. Immunity and retaliation can change the result; a visit alone does not prove the target was roleblocked.",
+    "theySee": "A target may receive a drink or roleblock/immunity notice. An uncautious Serial Killer can retaliate and leave a distinctive death explanation.",
+    "claimCheck": "Keep Hangover and roleblock immunity in mind. Do not turn a failure to block into an exact-role identification.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Tavern%20Keeper%20%28ToS2%29&oldid=4009"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Tavern Keeper N[night]: Drink [player] — [completed / immune / failed / actual feedback].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "catalyst": {
+    "glance": "An Overcharged player can test the extra action through their own controls.",
+    "youSee": "Your targeting and action feedback establish what you attempted. The recipient’s compatible ability determines how an extra action becomes available.",
+    "theySee": "The affected player can observe an Overcharge effect and additional permitted ability use. Timing and limitations depend on the ability and setup.",
+    "claimCheck": "Coordinate the recipient’s expected extra action instead of claiming a particular result for them. Extra destinations are not exclusive proof of Seer.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Catalyst%20%28ToS2%29&oldid=6496"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Catalyst [phase]: Overcharge [player] — [recipient-confirmed effect / failed / unconfirmed].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "pilgrim": {
+    "glance": "You have no role ability that generates a nightly target result.",
+    "youSee": "Your role card, public events and effects applied by others supply information. There is no Pilgrim investigation or protective action to resolve.",
+    "theySee": "Others can observe public speech, votes and effects they cause to you. No private Pilgrim ability confirms their role or alignment.",
+    "claimCheck": "A truthful history has no active visit or investigation. Do not turn being unharmed into a claimed mechanical check.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Pilgrim%20%28ToS2%29&oldid=6432"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "reportTemplate": "Pilgrim N[night]: no active role ability. Public observations: [facts].",
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "archmage": {
+    "glance": "A retrained ally sees a changed role card; this does not automatically change faction.",
+    "youSee": "Retrain changes the eligible ally’s role and controls. With the book, the ordinary attack is an alternative to Retrain; record the mode that actually resolved.",
+    "theySee": "The retrained player can observe their new role. Targets of a book attack can receive Coven attack feedback, with deaths public later.",
+    "claimCheck": "Do not post private Retrain information as a Town-role result. A cover history must survive the new action and movement pattern.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Archmage%20%28ToS2%29&oldid=5752"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "hex-master": {
+    "glance": "A Hex is not a public exact-role announcement; the final bomb is public.",
+    "youSee": "Track Hex state and the final-condition progress from your own interface. A placed Hex is not an ordinary attack death.",
+    "theySee": "Hexed players need not announce a Hex for it to exist. At the final resolution, the town receives the Hex Bomb event and deaths.",
+    "claimCheck": "Do not use private Hex state as a supposed Town investigation. With the book, distinguish the astral Hex attack from ordinary travel.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "The Hex Bomb resolves",
+        "text": "The Town has been Hex Bombed!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "witch": {
+    "glance": "A controlled player can receive a control notice and challenge an unrelated cover.",
+    "youSee": "Control has a first target and forced destination. The controlled role’s feedback can give private information; your own ordinary movement is to the first target.",
+    "theySee": "The controlled player can receive control or immunity feedback. Their forced action may generate messages/evidence at the second destination.",
+    "claimCheck": "A harmless one-target protection story does not explain a control complaint. Do not put your first target’s private role in an unrelated Town will.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Witch%20%28ToS2%29&oldid=5401"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "conjurer": {
+    "glance": "Meteor is publicly visible; it cannot be quietly passed off as an ordinary night action.",
+    "youSee": "The daytime Meteor control and its public resolution provide the result. A book attack is a different nighttime action.",
+    "theySee": "Everyone sees the Meteor event and victim. The displayed death/event exposes Conjurer activity even if it does not identify every faction member.",
+    "claimCheck": "A cover must account for the public Meteor timing. Do not rewrite a daytime victim as a private Sheriff result or ordinary protective night.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "A Meteor resolves",
+        "text": "[Player] faces an untimely end!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365",
+        "namesNormalized": true,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "ritualist": {
+    "glance": "A wrong ritual guess gives no replacement role result.",
+    "youSee": "Blood Ritual reports success or failure and spends an attempt. Failure does not tell you which different role the target holds.",
+    "theySee": "A successful ritual can leave distinctive attack/death evidence. With the book, ordinary attacks have a separate presentation and cannot occur as an independent second ritual.",
+    "claimCheck": "Do not fabricate an exact-role result from failure. Check eligible roles, illuminated status and the current attempt limit before acting.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Ritualist%20%28ToS2%29&oldid=5403"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "jinx": {
+    "glance": "Other direct visitors can receive a private message with your name and the visited house.",
+    "youSee": "You learn that you Jinxed a visitor of the chosen house. This does not give you every visitor’s player name or role, or prove the visitor died.",
+    "theySee": "Direct co-visitors can see a message naming the Jinx and the shared destination. The attacked visitor is not a safe exception: a survivor can report you too. A Jinx death cause is public unless hidden by a setup effect.",
+    "claimCheck": "A Crusader story cannot erase a witness’s Jinx message. A claimed Lookout list is also unsupported by simply knowing you attacked a visitor.",
+    "messages": [
+      {
+        "audience": "Direct co-visitor",
+        "when": "At the end of a night visiting the Jinx’s chosen house",
+        "text": "You saw the Jinx [Jinx name] visit [target name]!",
+        "kind": "documented",
+        "sourceUrl": "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Jinx",
+        "namesNormalized": true,
+        "sourceAccessedOn": "2026-10-16"
+      },
+      {
+        "audience": "Everyone",
+        "when": "A player dies to the Jinx attack, if the cause is not hidden",
+        "text": "They were killed by a Jinx.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984",
+      "https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)#Jinx"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "dreamweaver": {
+    "glance": "The target can see Dreamweaver/Insomnia effects, while you do not receive their exact Town role.",
+    "youSee": "Your action and the target’s later state concern Dreamweave/Insomnia. They do not supply a Town role investigation.",
+    "theySee": "A qualifying target can see Dreamweave/Insomnia notices; a Town visit on the following night can prevent Insomnia. Insomnia and its removal change their available abilities.",
+    "claimCheck": "An ordinary protection story can conflict with the target’s status. Record cures and cleared effects; do not treat every applied status as permanent.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Dreamweaver%20%28ToS2%29&oldid=5416"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "enchanter": {
+    "glance": "Your altered death information is what the public can read, not proof it was genuine.",
+    "youSee": "Track which player you Enchanted and any Alterate role/will you submitted. Framing is not an investigative discovery of their true role.",
+    "theySee": "Investigatives can receive altered appearances. On an Alterated death, the displayed role/will can be the forged version rather than the true one.",
+    "claimCheck": "Do not cite your own frame or forged will as independent confirmation. A corpse-user or other private result may contradict the public display.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Enchanter%20%28ToS2%29&oldid=6673"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "illusionist": {
+    "glance": "A disguised death can show a chosen role; favorable investigation is not a faction change.",
+    "youSee": "Track the chosen Illusion, Phantasm or death Disguise separately. The role-changing display does not grant the claimed role’s actual abilities.",
+    "theySee": "Investigatives can receive altered appearances, and public death information can show a Disguise. These displays do not establish the player’s actual faction.",
+    "claimCheck": "A book attack is direct and replaces the ordinary protective choice. A nonvisiting cover must account for that switch in observed movement.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Illusionist%20%28ToS2%29&oldid=6359"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "medusa": {
+    "glance": "The graveyard can hide role and will; Coven can still receive the real information.",
+    "youSee": "Track your actual Stone marks and charges. A marked death can expose the true role/will privately to Coven while others see hidden information.",
+    "theySee": "Stone is a persistent mark, not a protection notice. When a marked player dies, ordinary opponents can be denied the role and will; observers can still see a direct Stone visit.",
+    "claimCheck": "A Cleric claim cannot explain a visible N1 protective visit during Grace Period. Privately readable Stoned information is not a Psychic or Sheriff result.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Medusa%20%28ToS2%29&oldid=5933"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "necromancer": {
+    "glance": "Recipients can see the corpse ability’s effect; that does not certify a Town corpse-user.",
+    "youSee": "The reanimated body can supply role-specific feedback. Record the body, destination and mode; a book attack is a separate action choice.",
+    "theySee": "Targets may receive the reanimated ability’s normal message or attack evidence. They do not thereby learn that a Town Retributionist produced it.",
+    "claimCheck": "A Ret cover has a smaller legal body pool. Evil/hidden bodies or private self-protection can expose a false Town-only corpse history.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Necromancer%20%28ToS2%29&oldid=5465"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "poisoner": {
+    "glance": "Drink and Smog give different visible problems to affected players.",
+    "youSee": "Record Drink versus Smog and the action’s actual outcome. A Smog rejection is not a complete list of visitor identities.",
+    "theySee": "A Drink recipient can receive roleblock/immunity feedback. Eligible visitors encountering Smog can receive an obstacle; the resident need not get that same visitor message.",
+    "claimCheck": "Match the effect witnesses describe. A roleblock or obstacle complaint is not ordinary protection feedback; Hangover and immunity can also explain failures.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Poisoner%20%28ToS2%29&oldid=6228"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "potion-master": {
+    "glance": "A Reveal gives you a private exact-role line; a Barrier recipient sees protection, not your identity.",
+    "youSee": "The selected potion determines the feedback: attack, protection, or an exact-role reveal. Keep the chosen mode and any failure separate.",
+    "theySee": "An attacked Barrier recipient can receive generic Barrier feedback. A Harmful potion can leave attack evidence; your Reveal report is private to you and informed allies as applicable.",
+    "claimCheck": "Do not present a private exact-role Reveal as a Sheriff/Seer result. A Barrier message alone does not uniquely prove Cleric or Oracle.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Potion%20Master%20%28ToS2%29&oldid=5596"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "voodoo-master": {
+    "glance": "Silence, Deafen and Blind affect different parts of the recipient’s screen.",
+    "youSee": "Record the selected thread and actual outcome. The victim’s missing chat/results are not an exact-role result for you.",
+    "theySee": "Silence prevents speech, Deafen removes other players’ chat/whispers, and Blind suppresses nightly results. On an ordinary text-chat trial, a Silenced player can use the limited ellipsis response.",
+    "claimCheck": "A protection cover can conflict with the recipient’s status. Blind notification wording is inconsistent across references; do not promise a particular explanatory line.",
+    "messages": [
+      {
+        "audience": "Silenced recipient",
+        "when": "Silence takes effect / the player attempts to speak",
+        "text": "Your voice seems to be lost! You can't speak.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "wildling": {
+    "glance": "Your private movement and whisper information is not automatically public.",
+    "youSee": "Sensed travel and permitted whisper information can give real destinations or private conversations. Keep what you actually observed distinct from a complete role reveal.",
+    "theySee": "Observed players do not receive your entire private log. Your direct Sense/book visit can still be visible to other observers.",
+    "claimCheck": "Tracker/Lookout reporting must match what that Town role could see. Do not copy private whispers or unrelated movement into a public claimed result.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Wildling%20%28ToS2%29&oldid=6347"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "covenite": {
+    "glance": "Without the book, you have no personal nightly role-result ability.",
+    "youSee": "Your Coven chat/team information is private faction information. With the Necronomicon, record the actual attack and any feedback.",
+    "theySee": "A book target may receive Coven attack feedback. Other players do not receive a special Covenite investigation/protection result.",
+    "claimCheck": "Separate no-book holds from book travel. An invented nightly investigation is not supplied by Covenite’s actual ability.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Covenite%20%28ToS2%29&oldid=6354"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "cultist": {
+    "glance": "The converted player can see their faction change while retaining their role.",
+    "youSee": "Your permitted day Indoctrinate converts an eligible player. Keep conversion state and any later book attack separate.",
+    "theySee": "The converted player receives the new faction/team context and keeps their role’s real ability. Earlier Town demonstrations can remain mechanically genuine.",
+    "claimCheck": "A former Town confirmation does not prove current allegiance. Do not claim Indoctrinate itself was a Town investigation or a role swap.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Cultist%20%28ToS2%29&oldid=6353"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "baker": {
+    "glance": "A public Famine announcement identifies the transformation, not the player who transformed.",
+    "youSee": "Bread markers and living recipients track your progress. Your starting Bread is separate from the ordinary living recipients needed for transformation.",
+    "theySee": "Transformation announces Famine to the town. Bread/Starvation effects are different from an ordinary protective save; the announcement alone does not name your player.",
+    "claimCheck": "Do not turn Bread status into a Cleric save or a visitor report. After transformation, your history must switch from Feed to Famine’s current ability.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "berserker": {
+    "glance": "Rampage feedback and public deaths are not a complete visitor list.",
+    "youSee": "Record the attack mode, actual rampage feedback and kill-based progression. A selected house alone does not tell you all visitors or guarantee each death.",
+    "theySee": "Victims can get attack/death feedback and public deaths show the relevant cause unless hidden. A War transformation is publicly announced.",
+    "claimCheck": "Do not report kill progress as an investigative check. Once War arrives, follow its new two-target action rather than the earlier Berserker story.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "plaguebearer": {
+    "glance": "Your infection markers are broader than a list of visitors to one house.",
+    "youSee": "The interface tracks infected players and fresh spread. Starting infections and repeated infected contacts are not fresh observer reports.",
+    "theySee": "A public Pestilence transformation announces that condition was met. It does not make your private infection map a public Lookout result.",
+    "claimCheck": "If using a movement cover, distinguish active Infect, passive spread and existing infection. An infection event alone does not assign a visitor to a numbered house.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "soul-collector": {
+    "glance": "Your soul count is private; becoming Death is publicly announced.",
+    "youSee": "Track your souls and actual Reap state. Reap frames an appearance and can affect later soul gain, but is not itself a kill.",
+    "theySee": "Investigatives can see the altered appearance of a Reaped player. At the threshold, the public Death transformation gives the town urgent new information.",
+    "claimCheck": "An astral Reap does not support a normal visiting cover. Keep private soul counts and invented exact-role findings out of public Town reports.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "doomsayer": {
+    "glance": "Your success/failure line is private; a wrong set does not reveal which guess was wrong.",
+    "youSee": "A correct set of three guesses produces success feedback. A failed set says at least one was wrong, without supplying a replacement list of roles.",
+    "theySee": "A successful Doom creates the relevant deaths and your departure/win evidence. Other players do not get a routine list of your failed guesses.",
+    "claimCheck": "Do not treat one failed triple as three cleared players. Keep the permitted guess categories and the actual night’s outcome separate.",
+    "messages": [
+      {
+        "audience": "You",
+        "when": "All three submitted role guesses are correct",
+        "text": "You have chosen wisely. All three roles are correct.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      },
+      {
+        "audience": "You",
+        "when": "At least one submitted role guess is wrong",
+        "text": "You have chosen poorly. At least one of your guesses is incorrect.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "executioner": {
+    "glance": "A qualifying target execution produces public outcome evidence; private target assignment is yours.",
+    "youSee": "Your assigned target and actual win/transform state establish progress. A death by another route is not automatically the qualifying execution.",
+    "theySee": "The trial and any revenge/win/departure events can be seen publicly. They do not give other players your earlier private target-selection information.",
+    "claimCheck": "A cover story must fit the public trial. If you become Jester, switch to Jester’s conditions instead of claiming the old target objective is still active.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Executioner%20%28ToS2%29&oldid=6370"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "jester": {
+    "glance": "The public revenge announcement can distinguish a qualifying hanging from an invalid one.",
+    "youSee": "The interface gives a daily Chatterbox requirement and progress. A qualifying execution and available Haunt are different from failing the quota or dying at night.",
+    "theySee": "The town sees the hanging and the appropriate revenge/no-revenge announcement. A later Haunt creates attack/death evidence.",
+    "claimCheck": "A role claim does not replace the quota or qualifying death condition. Preserve which voters and targets the client actually permits.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "A Jester with a completed Chatterbox is hanged",
+        "text": "The Jester will get their revenge from the grave!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      },
+      {
+        "audience": "Everyone",
+        "when": "A Jester without a completed Chatterbox is hanged",
+        "text": "The Jester cannot be bothered getting revenge beyond the grave!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "pirate": {
+    "glance": "Scour information concerns your Landlubbers; it is not a normal Sheriff result.",
+    "youSee": "Your objective and Scour feedback concern the three Landlubbers. A Plunder is a separate attack action with limited charges and a real outcome.",
+    "theySee": "A victim can receive Pirate attack/death feedback; public deaths can advance the objective even when you did not kill that player.",
+    "claimCheck": "Use the current Scour/Plunder rules. Old duel choices and duel-result messages are not a valid current claim history.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Pirate%20%28ToS2%29&oldid=6542"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "arsonist": {
+    "glance": "Most victims do not get a routine Doused notice; another Arsonist can detect their own gasoline.",
+    "youSee": "Track active Douse, passive Douse from visitors and self-Doused state separately. Taking no action can Clean you; Ignite is a distinct action.",
+    "theySee": "A normal Douse is not a protection/save notice. Fire deaths create public evidence later, while observers may see direct Douse travel.",
+    "claimCheck": "A visiting cover can fit a direct Douse destination but has no real protection. Clean/astral Ignite can fit a nonvisiting story only if earlier observed travel also agrees.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Arsonist%20%28ToS2%29&oldid=5504"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "serial-killer": {
+    "glance": "Roleblock retaliation can leave a different death explanation from your selected attack.",
+    "youSee": "Your selected attack, Cautious setting and any passive retaliation are separate. Attack feedback is not an exact-role investigation.",
+    "theySee": "Targets can get attack/death feedback. An uncautious roleblock retaliation can leave the distinctive roleblocker/jailed-SK explanation and affect their will.",
+    "claimCheck": "Do not claim a clean ordinary visit account while ignoring retaliation. The person you chose to attack is not necessarily the only relevant victim.",
+    "messages": [
+      {
+        "audience": "You",
+        "when": "A Tavern Keeper or Poisoner gives you a drink",
+        "text": "Someone gave you a drink last night, but you have high tolerance.",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "shroud": {
+    "glance": "A shrouded player can appear to have attacked; death evidence alone does not identify their intent.",
+    "youSee": "Record direct Attack versus Shroud and the action’s outcome. A failed shrouding route can result in a different direct attack path.",
+    "theySee": "The forced attack can create Murder evidence on the shrouded player. The attacked recipient and public deaths can supply attack evidence without establishing a willing killer.",
+    "claimCheck": "Keep your own destination and the forced attacker’s destination separate. A Seer/Tracker account must fit the movement it actually claims to observe.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Shroud%20%28ToS2%29&oldid=5928"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "werewolf": {
+    "glance": "A persistent Scent result does not mean you visited that player again tonight.",
+    "youSee": "Scent and Full Moon attacks give different information. An existing scent can keep supplying destinations without a fresh visit to that subject.",
+    "theySee": "Victims of a Full Moon attack/rampage can get attack feedback and leave public deaths. That does not broadcast your complete private scent history.",
+    "claimCheck": "A fresh Tracker account about an old scented player can conflict with your real attack elsewhere. Preserve the current moon and actual travel mode.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Werewolf%20%28ToS2%29&oldid=6584"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "cursed-soul": {
+    "glance": "A successful role swap changes both role cards; it does not swap factions.",
+    "youSee": "After a successful Soul Swap, your new role and controls are the relevant actual state. An attempted swap alone does not prove success.",
+    "theySee": "The other player can observe their changed role. The retained faction context matters; a familiar Town ability can now belong to a different allegiance.",
+    "claimCheck": "Do not keep reporting the old role’s power after losing it. An old role read does not establish anyone’s current role or faction.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Cursed%20Soul%20%28ToS2%29&oldid=5714"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "vampire": {
+    "glance": "A converted Town player keeps their real role ability and sees a new faction context.",
+    "youSee": "Track Convert versus Drain and actual success. Defense or an ineligible faction can prevent a conversion; a button click is not confirmed recruitment.",
+    "theySee": "A successfully converted player gets the Vampire faction/team context while retaining the role. Drain and succession create different outcomes.",
+    "claimCheck": "A genuine Town-role demonstration can remain genuine after conversion. Avoid the obsolete youngest-biter account and distinguish conversion from a kill.",
+    "messages": [],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Vampire%20%28ToS2%29&oldid=4747"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "famine": {
+    "glance": "Opponents can suffer starvation effects; transformation did not instantly kill everyone.",
+    "youSee": "You now use Starve and Bread depletion, rather than Baker’s earlier Feed plan. Record the current controls and actual living Bread state.",
+    "theySee": "The town has seen the Famine announcement. Starvation and later deaths create evidence, but that announcement does not identify which numbered player is Famine.",
+    "claimCheck": "A prior Baker-style history must stop claiming fresh Feed actions. Your current Starve action supplies neither a Town save nor an investigative result.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "Baker transforms into Famine",
+        "text": "The Baker has transformed into Famine, Horseman of the Apocalypse! A famine has begun!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "war": {
+    "glance": "The town knows War exists; victims can receive Unstoppable rampage evidence.",
+    "youSee": "You can select up to two distinct Rampage targets. Actual deaths and feedback establish outcomes; a chosen target is not a full list of visitors.",
+    "theySee": "The public transformation announces War without directly identifying the player. Rampage deaths and attack feedback create new public/private evidence afterward.",
+    "claimCheck": "Do not continue a one-target Berserker buildup or invent investigative results from your kill count. Account for both real destinations when choosing a cover.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "Berserker transforms into War",
+        "text": "The Berserker has transformed into War, Horseman of the Apocalypse!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15",
+        "excerpt": true
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "pestilence": {
+    "glance": "Stack effects and lethal Pestilence outcomes differ from ordinary attack-defense feedback.",
+    "youSee": "Your current Spread Pestilence and stack state replace the old infection-completion task. Record actual applied stacks/outcomes rather than an old passive-rampage result.",
+    "theySee": "The public transformation announces Pestilence. Affected players can experience stack effects and lethal outcomes; this is not a standard protection message.",
+    "claimCheck": "Do not claim the old ToS1 Pestilence rampage or a fresh Plaguebearer infection log. Use the transformed ability and check current client feedback.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "Plaguebearer transforms into Pestilence",
+        "text": "A Plague has consumed the Town, transforming the Plaguebearer into Pestilence, Horseman of the Apocalypse!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  },
+  "death": {
+    "glance": "The Death announcement is public; your immediate objective is surviving the day.",
+    "youSee": "Your transformation and current-day survival replace Soul Collector’s next-night Reap progression. Check the actual end-of-day resolution.",
+    "theySee": "The town sees Death’s arrival and can act before its resolution. A subsequent apocalypse event is public rather than a private attack result you can reinterpret.",
+    "claimCheck": "Do not continue a Soul Collector count/visit story as though transformation never happened. A normal protective or investigative report cannot manufacture the end-of-day event.",
+    "messages": [
+      {
+        "audience": "Everyone",
+        "when": "The end-of-day Death event resolves",
+        "text": "Death has claimed the souls of the Town!",
+        "kind": "documented",
+        "sourceUrl": "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562",
+        "namesNormalized": false,
+        "sourceAccessedOn": "2026-10-15"
+      }
+    ],
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562"
+    ],
+    "reviewedOn": "2026-10-16",
+    "liveClientVerified": false,
+    "mechanicsSourceAccessedOn": "2026-10-15"
+  }
+}

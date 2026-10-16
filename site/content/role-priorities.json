@@ -346,7 +346,7 @@
     },
     "goodToKnow": {
       "title": "Jinx does not supply a Lookout list",
-      "body": "Attacking one visitor does not reveal the full visitor set. Astral visitors evade the passive attack, and book attacks add separate interception risks."
+      "body": "Direct co-visitors can receive a private night message naming you as Jinx and naming the house. The attacked visitor is not a safe exception: if they survive, they can report you too. Your own attack feedback is not a complete visitor list."
     }
   },
   "dreamweaver": {
