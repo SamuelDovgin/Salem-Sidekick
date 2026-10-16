@@ -6,7 +6,7 @@ The authored source is `site/content/role-feedback.json`. Each role/state has it
 
 ## Wording and provenance
 
-Twenty-one short English excerpts are recorded from documented messages. They are labeled **Documented English**, with the recipient, trigger condition and source adjacent. Player-name/mention tokens become square-bracket placeholders; icons, gradients and rich text are not reproduced. The remaining feedback is explicitly presented as paraphrased meaning. No message was added from memory and labeled as exact.
+Twenty-four short English excerpts are recorded from documented messages. They are labeled **Documented English**, with the recipient, trigger condition and source adjacent. Player-name/mention tokens become square-bracket placeholders; icons, gradients and rich text are not reproduced. The remaining feedback is explicitly presented as paraphrased meaning. No message was added from memory and labeled as exact.
 
 The role-specific excerpts come from the reviewed wiki revisions linked on each message. The source role pages were retrieved using the public MediaWiki API on 15 October 2026 and remain the same mechanics baseline as the rest of this app. Feedback passages were reviewed against those retrieved pages on 16 October. Their revision URLs are retained in the authored JSON. The Jinx witness, Cleric actor and generic Barrier excerpts were additionally located on the [ToS2 Messages reference](https://town-of-salem.fandom.com/wiki/Messages_(ToS_2)) on 16 October. The shared message-reference excerpts are limited to 25 words in total, and role-page excerpts to 25 words per source.
 
@@ -53,7 +53,7 @@ No extra top-level panel or always-expanded reference section is introduced. The
 
 ## Verification
 
-- 47 unit/content checks cover complete role/state coverage, distinct audiences, 29 Town-only chat formats, message provenance, source excerpt limits, Jinx witness identity, generic Barrier limitations, and omitted stale/disputed messages.
+- 51 unit/content checks cover complete role/state coverage, distinct audiences, 29 Town-only chat formats, message provenance, source excerpt limits, Jinx witness identity, generic Barrier limitations, and omitted stale/disputed messages.
 - 125 browser checks cover all role/route views, all 29 feedback/report formats, copying the compared claim without changing the active claim/will, both clipboard fallbacks, responsive/touch layouts, and existing behavior.
 - 40 additional position transitions keep Cleric/Psychic claim controls stable while the N1 warning changes, including compact/expanded layouts and the full picker at desktop and narrow widths.
 - Local visual inspection checks Jinx’s compact message example and expanded audience explanations, plus selected-claim feedback. Blank chat formats copy and fit at 1360/768/390/320px in both themes. No live-game session or physical-phone test is claimed.
@@ -61,3 +61,13 @@ No extra top-level panel or always-expanded reference section is introduced. The
 The list-removal follow-up passed 47 content/unit checks and focused browser checks for removing the report list, preserving screen badges/Self Barrier, copying the blank report and blank will, plain hyphens across all 29 authored claim formats/examples, and desktop/390/320px layouts.
 
 Cleric copy wording now uses an explicit `@[player number]` input placeholder, with `@4` as the adjacent reminder. The source-attested excerpt is retained separately from this chat-ready copy text. Blank feedback/will formats use the same placeholder, and the illustrative will uses `@4` / `@7`. The displayed copy text and clipboard fallback selection agree.
+
+## Full role-by-role pass
+
+All 60 current source articles were retrieved again on 16 October, sequentially, and their text matched the reviewed baseline. The four transformed sections were reviewed separately. [The complete audit](ROLE_FEEDBACK_AUDIT.md) has one resolution row for each of the 64 selectable roles/states; `site/content/feedback-audit.json` records the source fingerprints and wording coverage.
+
+Every role now has an authored quiet/failure note in the existing feedback disclosure. All feedback meanings and quoted lines distinguish the acting player, recipient or everyone. All 29 Town formats and will examples use player mentions where appropriate; Oracle role targeting, Veteran self-use, passive Pilgrim and Amnesiac do not acquire fictional player targets. Copy buttons remain beside their wording, and one blank format per claim is retained. No exhaustive report list is restored.
+
+Three additional short excerpts cover Deputy’s successful-shot announcement, a Tavern Keeper’s Serial Killer death explanation and the Wandering Souls departure. That brings coverage to 24 excerpts across 19 profiles. The remaining messages are described as paraphrased meaning; no exact wording is invented. Retributionist’s generic-target wording is marked version-uncertain given the later named-target patch. The Bodyguard role page’s misspelled example is not promoted to a verified client quote. Coroner/Illusion and Psychic/Blind uncertainties remain explicit rather than being used as definite claim excuses.
+
+The completed all-role UI pass checks every actual-role view at 1360px and 320px: 256 explanation copies, 48 documented/adapted message copies, 64 unique quiet/failure notes, audience labels, and horizontal bounds. It also checks comparison isolation and manual-copy fallback. The existing 125-check browser suite covers all 29 Town claims and the full role/route UI; 40 position checks preserve the N1 warning and stable claim controls. Copying a paraphrased explanation never represents it as a source-attested game quote.

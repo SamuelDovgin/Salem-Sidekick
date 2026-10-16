@@ -69,7 +69,7 @@ test('higher-payoff role information does not erase movement or demonstration ri
  assert.match(byId.get('potion-master').claimOptions.find(c=>c.roleId==='seer').exposure,/two|both/);
  assert.match(byId.get('wildling').claimOptions[0].tag,/information/);
  assert.match(byId.get('deputy').claimProfile.exposure,/shot/);
- assert.match(byId.get('psychic').claimProfile.example,/N1 Good: 4, 9/);assert.match(byId.get('psychic').claimProfile.example,/N2 Evil: 2, 7, 11/);
+ assert.match(byId.get('psychic').claimProfile.example,/N1 Good: @4, @9/);assert.match(byId.get('psychic').claimProfile.example,/N2 Evil: @2, @7, @11/);
 });
 test('inactive and preparation roles retain legal opening recommendations',()=>{
  assert.match(byId.get('deputy').playbook.firstNight,/no night|No night|no N1|No N1/i);assert.match(byId.get('trapper').playbook.firstNight,/Build|build/);assert.match(byId.get('vigilante').playbook.firstNight,/Load|load/);assert.match(byId.get('berserker').playbook.firstNight,/cannot/);

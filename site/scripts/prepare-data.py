@@ -344,19 +344,23 @@ def build():
     assert set(feedback) == {r['id'] for r in all_roles}
     for role in all_roles:
         guide = copy.deepcopy(feedback[role['id']])
-        for field in ['glance','youSee','theySee','claimCheck']:
+        for field in ['glance','youSee','theySee','claimCheck','outcomeNote']:
             assert guide[field].strip(), (role['id'],field)
         assert bool(guide.get('reportTemplate')) == role['alignment'].startswith('Town')
         assert all(m['kind']=='documented' and m['sourceUrl'].startswith('https://') and m['audience'] and m['when'] for m in guide['messages'])
         guide['basis']='Feedback meaning is paraphrased; documented English excerpts cite their source. Player mentions use brackets. Chat formats are authored examples.'
+        assert guide['feedbackAudit']['reviewedOn']=='2026-10-16' and len(guide['feedbackAudit']['sourceSha256'])==64
+        assert all(m['viewpoint'] in ['self','other','public'] and m['screenLabel'] for m in guide['messages'])
         role['feedbackGuide']=guide
-        lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck']]
+        lines=['**You see · meaning:** '+guide['youSee'], '**They see · meaning:** '+guide['theySee'], '**Claim check:** '+guide['claimCheck'], '**Quiet / failed:** '+guide['outcomeNote']]
         for message in guide['messages']:
-            label='Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented '+('excerpt' if message.get('excerpt') else 'English')
+            label='Source wording · version uncertain' if message.get('legacyWording') else 'Chat wording · @ mention placeholder' if message.get('copyText') else 'Documented '+('excerpt' if message.get('excerpt') else 'English')
             lines.append('**'+label+' · '+message['audience']+':** `'+message.get('copyText',message['text'])+'`\n\n'+message['when']+'. [Message source]('+message['sourceUrl']+')')
         for message in guide['messages']:
             if message.get('copyText'):
                 lines.append(message['copyHint'])
+            if message.get('wordingNote'):
+                lines.append(message['wordingNote'])
             if message.get('selfNote'):
                 lines.append('**Self Barrier · your screen:** '+message['selfNote'])
         if guide.get('reportTemplate'):

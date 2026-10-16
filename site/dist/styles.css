@@ -258,3 +258,10 @@ html{scroll-padding-top:0}
 .message-copy-line{margin:6px 0;line-height:1.65}
 .game-message .message-copy-line blockquote{display:inline;margin:0}
 .message-copy-line>.text-button{margin-left:8px;min-height:28px;font-size:10px;white-space:nowrap;vertical-align:middle}
+
+.feedback-perspective{display:flex;align-items:flex-start;gap:5px;font-size:10px;letter-spacing:.3px;color:var(--accent)}
+.feedback-perspective svg{width:14px;height:14px;margin-top:2px}
+.feedback-meaning>div+div .feedback-perspective,.message-public .message-audience{color:var(--gold)}
+
+.feedback-copy-meaning{display:inline-flex;vertical-align:middle;margin-left:4px;min-width:26px;min-height:26px;justify-content:center}
+.feedback-copy-meaning svg{width:14px;height:14px}
