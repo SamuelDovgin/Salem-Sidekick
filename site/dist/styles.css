@@ -186,3 +186,32 @@ html{scroll-padding-top:0}
 .claim-grid.comparing .claim-strategy{grid-template-columns:1fr}
 @media(max-width:760px){.claim-grid.one-option .claim-strategy{grid-template-columns:1fr}}
 @media(max-width:560px){.claim-choice-bar .inline-claim-header{display:block}.claim-choice-bar .inline-claim-header>.eyebrow{display:block;margin-bottom:5px}.claim-compare-controls{gap:6px}#comparison-claim{flex:1;max-width:100%}.claim-compare-controls label{margin-left:auto}}
+
+/* Keep choices immediate; reveal reference and filters only when requested. */
+.picker-toolbar{display:flex;align-items:flex-start;gap:12px;margin:10px 0 4px}
+#picker-advanced{flex:1;min-width:0}
+#picker-advanced>summary{cursor:pointer;min-height:36px;padding:7px 0;font-size:12px}
+#filter-context{color:var(--accent);font-size:11px;margin-left:5px}
+#picker-count{color:var(--muted);font-size:11px;padding-top:9px;white-space:nowrap}
+#picker-advanced .picker-filters{margin:6px 0 10px}
+#picker-advanced .alignment-shortcuts{margin-bottom:10px}
+.recent-section{margin:0 0 6px;font-size:11px}
+.recent-section>summary{cursor:pointer;min-height:32px;padding:6px 0}
+.recent-section>summary span{color:var(--muted);margin-left:5px}
+.recent-list{margin:4px 0 8px}
+.claim-selected-status{display:inline-flex;align-items:center;gap:4px;margin-left:auto;color:var(--accent);font-size:10px;white-space:nowrap}
+.claim-selected-status svg{width:13px;height:13px}
+.claim-details{margin-top:12px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+.claim-details>summary{display:flex;align-items:center;gap:7px;cursor:pointer;list-style:none;min-height:36px;padding:8px 10px;font-size:11px;color:var(--ink)}
+.claim-details>summary::-webkit-details-marker{display:none}
+.claim-details>summary svg{width:14px;height:14px;color:var(--accent);flex-shrink:0}
+.claim-details>summary svg:last-child{margin-left:auto;transition:transform .15s}
+.claim-details[open]>summary svg:last-child{transform:rotate(90deg)}
+.claim-details>summary small{font-size:10px;color:var(--muted)}
+.claim-details-body{padding:0 11px 11px}
+.claim-details-body h4{font-size:12px;margin:13px 0 6px;color:var(--ink)}
+.claim-option .claim-details-body p{font-size:12px;line-height:1.65;margin:7px 0;color:var(--muted)}
+.claim-full-mechanics{border-top:1px solid var(--line);margin-top:12px}
+.claim-full-mechanics>summary{font-size:11px;cursor:pointer;min-height:36px;padding:9px 0;color:var(--ink)}
+.claim-mechanics-section+.claim-mechanics-section{border-top:1px solid var(--line);margin-top:12px}
+@media(max-width:560px){.claim-details>summary{flex-wrap:wrap;gap:5px}.claim-details>summary small{font-size:9px}.claim-option-top .claim-selected-status{margin-left:0}}
