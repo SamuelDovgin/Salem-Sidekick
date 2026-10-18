@@ -1,6 +1,6 @@
 # Full wills through N7
 
-Updated 16 October 2026. The app now has **64 separate example wills and 64 separate blank wills**. Canonical content: [will-examples.json](../../site/content/will-examples.json). These are authored formatting examples, not literal client messages or a prescribed sequence of actions.
+Updated 17 October 2026. The app now has **64 separate example wills and 64 separate blank wills**. Canonical content: [will-examples.json](../../site/content/will-examples.json). These are authored formatting examples, not literal client messages or a prescribed sequence of actions.
 
 ## Placement and copy behavior
 
@@ -8,10 +8,10 @@ Updated 16 October 2026. The app now has **64 separate example wills and 64 sepa
 - All 64 Role guides have a Full will - N1-N7 section. The 35 non-Town/state histories are explicitly labeled private; their copy actions do not change the public claim.
 - The blank preview stays collapsed while its copy button remains available in one click. A denied clipboard reveals and selects the requested format without replacing the example.
 - The existing single-line Blank chat format remains separate. No exhaustive list of per-outcome chat cards was added.
-- Both formats include the role title and N1 through N7 exactly once. Day actions keep D labels. Fixed no-night-ability lines are appropriate for day-only roles.
+- Both formats include the role title and N1 through N7 exactly once. Day actions keep D labels. Blank copies contain only the role heading and empty N/D slots; instructional prompts and fixed outcomes stay in the examples.
 - Examples mix distinct common outcomes while preserving prerequisites, charges, used targets and role changes. Mutually exclusive single-use outcomes are explained as alternatives, rather than shown as extra uses.
-- A known death or game end stops actions: later slots say Not reached where appropriate. Blank slots remain prompts and should be filled only for nights actually reached.
-- Player placeholders retain @ reminders; authored wills use ASCII dashes. Literal game-message cards retain their separately verified wording.
+- A known death or game end stops actions: later slots say Not reached where appropriate. Blank slots remain empty and should be filled only for nights actually reached.
+- Example player placeholders retain @ reminders; authored wills use ASCII dashes. Literal game-message cards retain their separately verified wording.
 
 ## Cleric before and after
 
@@ -30,7 +30,7 @@ N6: Self Barrier - attacked and protected; self use spent
 N7: Tried Barrier @12 - Unknown Obstacle; no protection
 ```
 
-The full blank will has its own role heading, a conditional N1 restriction slot and N2-N7 action/feedback prompts. The quiet one-line report remains in Claim details.
+The full blank will contains only `Cleric` followed by empty `N1:` through `N7:` lines. The quiet one-line report remains in Claim details.
 
 Benefit: the example distinguishes quiet, attacked, blocked, dead-target, self-protection and obstacle outcomes. The blank will supplies an editable seven-night structure without copying fictional targets or results.
 
@@ -110,3 +110,5 @@ Every row has an example and a blank will, with seven night slots. Evidence is t
 `npm test` checks seven-night coverage, headings, empty target placeholders, public/private scope, protective N1 holds, charges, prerequisites, day-only actions and transitions. `tests/wills-browser.mjs` checks all 64 guide histories and all 29 selected claims at desktop/mobile widths, exact clipboard contents, comparison isolation, manual-copy fallbacks and optional axe checks.
 
 Validated: 57 unit tests; 374 exact will clipboard copies; 186 public/private scope checks; 128 desktop/mobile guide layouts; eight will-dialog accessibility states; three manual-copy fallbacks; 129 general browser checks; and the whole-site audit of 512 layout states, 56 accessibility states and 149 regressions. No runtime errors or automated accessibility violations were detected. Native game paste/length limits and live-match trigger testing remain outside these browser checks.
+
+Copy notes contains only the numbers 1–15, one per line, with no headings, separators or voting rows.

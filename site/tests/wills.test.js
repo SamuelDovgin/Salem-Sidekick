@@ -5,7 +5,7 @@ const pack=JSON.parse(readFileSync(new URL('../dist/data/roles.json',import.meta
 const roles=[...pack.roles,...pack.states],byId=new Map(roles.map(r=>[r.id,r]));
 test('all 64 wills have a role heading, seven nights, and an independent unfilled skeleton',()=>{
  assert.equal(roles.length,64);
- for(const r of roles){const w=r.willGuide;for(const field of ['example','blank']){assert.equal(w[field].split('\n')[0],r.name);assert.deepEqual([...w[field].matchAll(/^N([1-7])(?: (?:Good|Evil))?:/gm)].map(m=>m[1]),['1','2','3','4','5','6','7'],r.id+' '+field);assert.doesNotMatch(w[field],/[—–_]|@@/,r.id);}assert.notEqual(w.blank,w.example);assert.doesNotMatch(w.blank,/@\d/,'no illustrative targets in blank '+r.id);assert.equal(r.claimProfile.example,w.example);assert.equal(r.claimProfile.blank,w.blank);assert.equal(r.studyGuide.sections.filter(s=>s.kind==='will-formats').length,1);assert.ok(w.sourceUrls.length);}
+ for(const r of roles){const w=r.willGuide;for(const field of ['example','blank']){assert.equal(w[field].split('\n')[0],r.name);assert.deepEqual([...w[field].matchAll(/^N([1-7])(?: (?:Good|Evil))?:/gm)].map(m=>m[1]),['1','2','3','4','5','6','7'],r.id+' '+field);assert.doesNotMatch(w[field],/[—–_]|@@/,r.id);}assert.ok(w.blank.split('\n').slice(1).every(line=>/^[ND][1-7]:$/.test(line)),r.id+' contains only empty day/night slots');assert.notEqual(w.blank,w.example);assert.doesNotMatch(w.blank,/@\d/,'no illustrative targets in blank '+r.id);assert.equal(r.claimProfile.example,w.example);assert.equal(r.claimProfile.blank,w.blank);assert.equal(r.studyGuide.sections.filter(s=>s.kind==='will-formats').length,1);assert.ok(w.sourceUrls.length);}
 });
 test('Town claims and private actual-role histories keep their scope through transitions',()=>{
  assert.equal(roles.filter(r=>r.willGuide.scope==='public-claim').length,29);
@@ -29,12 +29,11 @@ test('mixed examples preserve protective prerequisites, charge limits and abilit
  assert.match(ex('jailor'),/Town reveal; abilities lost\nN7: No jail/);
  for(const id of ['retributionist','socialite','tavern-keeper','necromancer','poisoner','witch','serial-killer','war','pestilence'])assert.doesNotMatch(ex(id),/- roleblocked/,id+' is roleblock immune');
 });
-test('day-only roles keep abilities on D entries and all seven nights explicitly inactive',()=>{
+test('day-only examples keep abilities on D entries and nights explicitly inactive',()=>{
  for(const id of ['marshal','mayor','prosecutor','deputy','pilgrim']){
   const w=byId.get(id).willGuide;
-  for(const field of ['example','blank'])for(const line of w[field].split('\n').filter(s=>/^N\d:/.test(s)))assert.match(line,/^N\d: No night ability$/);
+  for(const field of ['example'])for(const line of w[field].split('\n').filter(s=>/^N\d:/.test(s)))assert.match(line,/^N\d: No night ability$/);
   assert.match(w.example,/^D[2-7]:/m);
  }
- const psychic=byId.get('psychic').willGuide.blank;
- for(let n=1;n<=7;n++){const row=psychic.split('\n')[n];assert.ok(row.startsWith(`N${n} ${n%2?'Good':'Evil'}:`));assert.equal((row.match(/@\[/g)||[]).length,n%2?2:3);}
+
 });

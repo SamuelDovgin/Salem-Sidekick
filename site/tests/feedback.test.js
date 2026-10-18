@@ -34,7 +34,7 @@ test('current feedback excludes stale Pirate/Admirer mechanics and disputed Blin
 
 test('Cleric marks whose screen and explains Self Barrier without inventing another quote',()=>{
  const f=byId.get('cleric').feedbackGuide;assert.equal(f.compactFeedback,true);assert.equal(f.messages[0].viewpoint,'self');assert.equal(f.messages[0].screenLabel,'YOU · As Cleric');assert.equal(f.messages[1].viewpoint,'other');assert.equal(f.messages[1].screenLabel,'THEM · Protected player');assert.match(f.messages[0].when,/normal save/);assert.match(f.messages[1].selfNote,/YOUR screen.*attacked and protected.*Once per game.*stay home/);
- assert.equal(f.messages[0].text,'[player name] was attacked last night!');assert.equal(f.messages[0].copyText,'@[player number] was attacked last night!');assert.match(f.messages[0].copyHint,/@4/);assert.match(f.reportTemplate,/@\[player number\]/);assert.match(byId.get('cleric').claimProfile.blank,/@\[player number\]/);assert.equal(f.messages.length,2);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.messages[1].selfNote));
+ assert.equal(f.messages[0].text,'[player name] was attacked last night!');assert.equal(f.messages[0].copyText,'@[player number] was attacked last night!');assert.match(f.messages[0].copyHint,/@4/);assert.match(f.reportTemplate,/@\[player number\]/);assert.doesNotMatch(byId.get('cleric').claimProfile.blank,/@|\[/);assert.equal(f.messages.length,2);assert.ok(byId.get('cleric').studyGuide.sections.find(s=>s.title==='What you and others see').markdown.includes(f.messages[1].selfNote));
 });
 
 test('each role and transformed state has a separate source-linked feedback audit resolution',()=>{
@@ -65,7 +65,7 @@ test('quiet/failure notes preserve role-specific visibility and immunity distinc
 });
 test('all authored player-target claim formats use mention placeholders without changing role targeting',()=>{
  for(const r of roles.filter(r=>r.alignment.startsWith('Town'))){for(const text of [r.feedbackGuide.reportTemplate,r.claimProfile.blank,r.claimProfile.example]){assert.doesNotMatch(text,/[—–]|@@/);assert.doesNotMatch(text,/(?<!@)\[(?:player|house|selected|other|tracked player|eligible player|corpse|living target)\]/);}}
- assert.doesNotMatch(byId.get('oracle').feedbackGuide.reportTemplate,/@/);assert.match(byId.get('psychic').claimProfile.blank,/@\[selected player number\]/);assert.match(byId.get('retributionist').claimProfile.blank,/@\[corpse player number\].*-> @\[living target number\]/);assert.match(byId.get('veteran').claimProfile.example,/No Alert/);
+ assert.doesNotMatch(byId.get('oracle').feedbackGuide.reportTemplate,/@/);assert.match(byId.get('psychic').feedbackGuide.reportTemplate,/@\[player numbers\].*selected @\[player number\]/);assert.match(byId.get('retributionist').feedbackGuide.reportTemplate,/@\[corpse player number\].*-> @\[living target number\]/);assert.match(byId.get('veteran').claimProfile.example,/No Alert/);
 });
 
 test('installed-string evidence is traceable and actor notices keep their distinct meanings',()=>{
