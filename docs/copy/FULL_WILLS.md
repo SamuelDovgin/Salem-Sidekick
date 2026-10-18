@@ -1,6 +1,6 @@
 # Full wills through N7
 
-Updated 17 October 2026. The app now has **64 separate example wills and 64 separate blank wills**. Canonical content: [will-examples.json](../../site/content/will-examples.json). These are authored formatting examples, not literal client messages or a prescribed sequence of actions.
+Updated 18 October 2026. The app now has **64 separate example wills and 64 separate blank wills**. Canonical content: [will-examples.json](../../site/content/will-examples.json). These are authored formatting examples, not literal client messages or a prescribed sequence of actions.
 
 ## Placement and copy behavior
 
@@ -111,4 +111,4 @@ Every row has an example and a blank will, with seven night slots. Evidence is t
 
 Validated: 57 unit tests; 374 exact will clipboard copies; 186 public/private scope checks; 128 desktop/mobile guide layouts; eight will-dialog accessibility states; three manual-copy fallbacks; 129 general browser checks; and the whole-site audit of 512 layout states, 56 accessibility states and 149 regressions. No runtime errors or automated accessibility violations were detected. Native game paste/length limits and live-match trigger testing remain outside these browser checks.
 
-Copy notes contains only the numbers 1–15, one per line, with no headings, separators or voting rows.
+Copy notes contains player numbers 1–15, one per line as `1: ` through `15: `, with no headings or voting rows. Both notes and blank will slots preserve one literal space after each colon, including the last line.
