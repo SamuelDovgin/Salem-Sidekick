@@ -256,7 +256,7 @@ def build():
         assert will['scope'] == ('public-claim' if role['faction']=='Town' else 'private-actual')
         for field in ['example', 'blank']:
             assert will[field].startswith(role['name']+'\n'), role['id']
-            assert re.findall(r'^N([1-7])(?: (?:Good|Evil))?:', will[field], re.M) == list('1234567'), (role['id'],field)
+            assert re.findall(r'^N([1-7])(?: (?:Good|Evil))? -', will[field], re.M) == list('1234567'), (role['id'],field)
             assert not re.search(r'[\u2013\u2014_]',will[field]), (role['id'],field)
         role['willGuide'] = will
         role['claimProfile'].update(example=will['example'], blank=will['blank'])

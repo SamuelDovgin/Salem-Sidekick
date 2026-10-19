@@ -21,16 +21,16 @@ After:
 
 ```text
 Cleric
-N1: No Barrier - Grace Period
-N2: Barrier @4 - no attack feedback
-N3: Barrier @7 - attack reported on @7
-N4: Tried Barrier @9 - roleblocked; no protection
-N5: Barrier @11 - attack reported; target died to an Unstoppable attack
-N6: Self Barrier - attacked and protected; self use spent
-N7: Tried Barrier @12 - Unknown Obstacle; no protection
+N1 - No Barrier - Grace Period
+N2 - Barrier @4 - no attack feedback
+N3 - Barrier @7 - attack reported on @7
+N4 - Tried Barrier @9 - roleblocked; no protection
+N5 - Barrier @11 - attack reported; target died to an Unstoppable attack
+N6 - Self Barrier - attacked and protected; self use spent
+N7 - Tried Barrier @12 - Unknown Obstacle; no protection
 ```
 
-The full blank will contains only `Cleric` followed by empty `N1:` through `N7:` lines. The quiet one-line report remains in Claim details.
+The full blank will contains only `Cleric` followed by empty `N1 -` through `N7 -` lines. The quiet one-line report remains in Claim details.
 
 Benefit: the example distinguishes quiet, attacked, blocked, dead-target, self-protection and obstacle outcomes. The blank will supplies an editable seven-night structure without copying fictional targets or results.
 
@@ -111,4 +111,4 @@ Every row has an example and a blank will, with seven night slots. Evidence is t
 
 Validated: 57 unit tests; 374 exact will clipboard copies; 186 public/private scope checks; 128 desktop/mobile guide layouts; eight will-dialog accessibility states; three manual-copy fallbacks; 129 general browser checks; and the whole-site audit of 512 layout states, 56 accessibility states and 149 regressions. No runtime errors or automated accessibility violations were detected. Native game paste/length limits and live-match trigger testing remain outside these browser checks.
 
-Copy notes contains player numbers 1–15, one per line as `1: ` through `15: `, with no headings or voting rows. Both notes and blank will slots preserve one literal space after each colon, including the last line.
+Copy notes contains player numbers 1–15, one per line as `1 - ` through `15 - `, with no headings or voting rows. Both notes and blank will slots preserve one literal space after each dash, including the last line.

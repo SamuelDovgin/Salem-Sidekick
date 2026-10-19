@@ -4,11 +4,15 @@ Reviewed 19 October 2026. Scope: all 60 base roles and four transformed states i
 
 The starting gap was Hex Master: the guide mentioned a Hex Bomb without telling a beginner how to cause it. The same audit checks every role for its action, payoff prerequisite, actual win and a small worked example.
 
+## Compact-view adjustment
+
+After the user’s layout review, the main header shows only the short action description. The complete Do / Key rule / Win explanation and example are available through local Details, global More detail and Role guide. Research and deeper source content are retained.
+
 ## Before and after
 
 | Before | After | Benefit |
 | --- | --- | --- |
-| Abstract role description before detailed strategy | A compact Do / Key rule / Win block on the main role header and at the top of Role guide | The ability and victory requirements are visible without opening More detail |
+| Abstract role description before detailed strategy | A short main header; a Do / Key rule / Win block in Details, More detail and the top of Role guide | The main page stays condensed, while the full ability and victory requirements remain easy to open |
 | Hex Bomb “requires the Hex Master to remain active under its conditions” | Every living non-Coven player must be Hexed; survive to resolution; automatic activation; no separate button or book required | A beginner can tell what still needs to happen |
 | Transformations mentioned without a checklist at the top | Baker: three other living Bread recipients; Berserker: actual kill thresholds; Plaguebearer: all other living players infected; Soul Collector: seven souls | Selection, progress, transformation and winning stay distinct |
 | Generic faction win repeated for personal-objective roles | Hanging plus quota for Jester; assigned target hanged while alive for Executioner; all three assigned Landlubbers dead while alive for Pirate; one complete correct set for Doomsayer | An ordinary death or partial progress is not mistaken for a win |

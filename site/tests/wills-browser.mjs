@@ -13,6 +13,8 @@ try {
  for(const width of [1360,320]){
   const context=await browser.newContext({viewport:{width,height:900},permissions:['clipboard-read','clipboard-write']});const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await page.goto(origin+'/#sheriff');await page.locator('#role-title').waitFor();
+  const notes=Array.from({length:15},(_,i)=>`${i+1} - `).join('\n');await page.locator('[data-action="copy-claim-vote-notes"]').click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),notes);assert.equal(await page.locator('.notes-preview').evaluate(e=>e.open),false);
+
   for(const role of roles){
    await page.evaluate(id=>{location.hash=id},role.id);await page.locator('#role-title').filter({hasText:new RegExp('^'+role.name+'$')}).waitFor();
    const publicClaim=await page.locator('#active-claim-card').getAttribute('data-claim-option');
@@ -48,8 +50,10 @@ try {
  }
  const context=await browser.newContext({viewport:{width:320,height:900}});await context.addInitScript(()=>Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{throw Error('denied')}}}));const page=await context.newPage();await page.goto(origin+'/#medusa');await page.locator('#role-title').waitFor();
  const cleric=roles.find(r=>r.id==='cleric');const block=page.locator('#will-examples .will-formats');
+ await page.locator('[data-action="copy-claim-vote-notes"]').click();assert.equal(await page.evaluate(()=>getSelection().toString()),Array.from({length:15},(_,i)=>`${i+1} - `).join('\n'));assert.ok(await page.locator('.notes-preview').evaluate(e=>e.open));
+
  await block.locator('[data-action="copy-blank"]').click();assert.equal(await page.evaluate(()=>getSelection().toString()),cleric.willGuide.blank);assert.ok(await block.locator('.blank-will').evaluate(e=>e.open));assert.equal(await page.locator('#claim-example').innerText(),cleric.willGuide.example);
  await block.locator('[data-action="copy-example"]').click();assert.equal(await page.evaluate(()=>getSelection().toString()),cleric.willGuide.example);
  await page.locator('[data-action="study-role"]').click();const privateBlock=page.locator('#study-content .will-formats');await privateBlock.locator('[data-action="copy-blank"]').click();assert.equal(await page.evaluate(()=>getSelection().toString()),roles.find(r=>r.id==='medusa').willGuide.blank);assert.equal(await page.locator('#active-claim-card').getAttribute('data-claim-option'),'cleric');await context.close();
- assert.deepEqual(errors,[]);const report={copies,scopeChecks:scopes,guideLayouts:layouts,accessibilityStates:axeStates,manualCopyFallbacks:3,runtimeErrors:errors.length};writeFileSync(new URL('../qa/wills-browser-report.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log('PASS',JSON.stringify(report));
+ assert.deepEqual(errors,[]);const report={copies,scopeChecks:scopes,guideLayouts:layouts,accessibilityStates:axeStates,manualCopyFallbacks:4,runtimeErrors:errors.length};writeFileSync(new URL('../qa/wills-browser-report.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log('PASS',JSON.stringify(report));
 } finally {await browser.close();}

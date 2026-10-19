@@ -105,7 +105,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Jailor N[night]: jailed @[player number] - [released / executed / execution failed].",
+    "reportTemplate": "Jailor N[night] - jailed @[player number] - [released / executed / execution failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A released prisoner gives no execution result. Jailor cannot execute on N1; on later nights, surviving an attempted execution differs from release or never being jailed. The jail confirmation and Execute-selection line are different events. Selecting Execute is not a completed kill; verify the prisoner’s actual fate instead of inventing a private success sentence.",
     "feedbackAudit": {
@@ -189,7 +189,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Marshal D[day]: Tribunal [held / called; executed @[player numbers]] - [public outcomes].",
+    "reportTemplate": "Marshal D[day] - Tribunal [held / called; executed @[player numbers]] - [public outcomes].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Holding Tribunal gives no private result. A claimed Tribunal must match the public daytime trial sequence; a quiet night has no Marshal action to report.",
     "feedbackAudit": {
@@ -270,7 +270,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Mayor D[day]: [unrevealed / publicly revealed].",
+    "reportTemplate": "Mayor D[day] - [unrevealed / publicly revealed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Before Reveal, a quiet night supplies no role result. Typing a Mayor claim does not trigger the public reveal or extra votes.",
     "feedbackAudit": {
@@ -351,7 +351,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Monarch N[night]: Knight @[player number] - [confirmed / failed]; living knights: @[player numbers].",
+    "reportTemplate": "Monarch N[night] - Knight @[player number] - [confirmed / failed]; living knights - @[player numbers].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A held, roleblocked or obstructed Knight is not a completed Knight. Check the next-day Knight announcement/status; an existing knight dying is separate feedback.",
     "feedbackAudit": {
@@ -405,7 +405,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Prosecutor D[day]: prosecuted @[player number] - [public outcome].",
+    "reportTemplate": "Prosecutor D[day] - prosecuted @[player number] - [public outcome].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Holding Prosecute gives no ability result. A real prosecution has a public daytime resolution; it cannot be supplied by a private night claim.",
     "feedbackAudit": {
@@ -487,7 +487,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Coroner D[day]: Autopsy @[dead player number] - [killer role]. N[night]: Examine @[living player number] - [match / no match / failed].",
+    "reportTemplate": "Coroner D[day] - Autopsy @[dead player number] - [killer role]. N[night] - Examine @[living player number] - [match / no match / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Without an Autopsy, do not invent a killer comparison. An unblocked no-match is a result; an interrupted Examine is no result. Autopsy and Examine refer to different players. The role page says Enchant/Illusion do not change this result; Keywords conflicts on Illusion, so that interaction is not presented as settled.",
     "feedbackAudit": {
@@ -570,7 +570,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Investigator N[night]: @[player number] - [Murder / Trespassing / both / No Crime / failed].",
+    "reportTemplate": "Investigator N[night] - @[player number] - [Murder / Trespassing / both / No Crime / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No Crime is a completed investigation result, not silence. Roleblock, obstacle or suppressed feedback is no result. Murder means an attack that night, not necessarily a kill.",
     "feedbackAudit": {
@@ -653,7 +653,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Lookout N[night]: Watch @[house player number] - [visitors @[player numbers] / none visible / failed].",
+    "reportTemplate": "Lookout N[night] - Watch @[house player number] - [visitors @[player numbers] / none visible / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No visible visitors is a usable observation only after a completed Watch. Astral traffic is absent from the list; an interrupted or suppressed Watch is not an empty list.",
     "feedbackAudit": {
@@ -736,7 +736,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Psychic N[night]: [Good pair / Evil trio] @[player numbers] - selected @[player number]; [failure if any].",
+    "reportTemplate": "Psychic N[night] - [Good pair / Evil trio] @[player numbers] - selected @[player number]; [failure if any].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Odd nights give Good pairs; even nights give Evil trios. No vision is not an all-good/all-evil group. Late-game failure-message triggers remain uncertain in the source.",
     "feedbackAudit": {
@@ -790,7 +790,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Seer N[night]: @[player 1 number] + @[player 2 number] - [Friends / Enemies / failed].",
+    "reportTemplate": "Seer N[night] - @[player 1 number] + @[player 2 number] - [Friends / Enemies / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Friends or Enemies compares apparent factions, not exact roles. Both selected players must be recorded. An interrupted comparison supplies neither Friends nor Enemies.",
     "feedbackAudit": {
@@ -867,7 +867,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Sheriff N[night]: @[player number] - [Innocent / Suspicious / failed].",
+    "reportTemplate": "Sheriff N[night] - @[player number] - [Innocent / Suspicious / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Innocent and Suspicious are actual results. Roleblock, obstacle or suppressed feedback is not Innocent; Innocent does not establish a Town role.",
     "feedbackAudit": {
@@ -944,7 +944,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Spy N[night]: Bug @[player number] - [no trigger reported / reported visitor role or event / failed].",
+    "reportTemplate": "Spy N[night] - Bug @[player number] - [no trigger reported / reported visitor role or event / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A quiet Bug is not proof that the player is Town. Existing Bugs can keep reporting later visits; an interrupted new placement does not establish a new Bug.",
     "feedbackAudit": {
@@ -1028,7 +1028,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Tracker N[night]: Track @[player number] - [visited @[destination player numbers] / no visible visit / failed].",
+    "reportTemplate": "Tracker N[night] - Track @[player number] - [visited @[destination player numbers] / no visible visit / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No visible visit can mean staying home or astral activity. It is a successful observation only if Track resolved; a failed Track is not a stay-home result.",
     "feedbackAudit": {
@@ -1136,7 +1136,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Bodyguard N[night]: [Guard @[player number] / Self Protect] - [no interception reported / intercepted attack / failed].",
+    "reportTemplate": "Bodyguard N[night] - [Guard @[player number] / Self Protect] - [no interception reported / intercepted attack / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No interception reported is not a save. Self Protect stays home, has two uses and grants Basic Defense; it does not fight an attacker or Guard another player.",
     "feedbackAudit": {
@@ -1217,7 +1217,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Cleric N[night]: Barrier @[player number] - [no attack reported / attack reported / failed].",
+    "reportTemplate": "Cleric N[night] - Barrier @[player number] - [no attack reported / attack reported / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "compactFeedback": true,
     "outcomeNote": "An unblocked quiet night normally gives no attack/save notice. A prevented Barrier is a failure, not a save. Quiet Self Barrier still spends its once-per-game use.",
@@ -1338,7 +1338,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Crusader N[night]: Fortify @[player number] - target [attack/no attack reported]; visitor [attack/no attack reported].",
+    "reportTemplate": "Crusader N[night] - Fortify @[player number] - target [attack/no attack reported]; visitor [attack/no attack reported].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Separate target-attack feedback from your own visitor-attack feedback. A quiet Fortify is not a save, and a visitor attack is not proof that visitor died.",
     "feedbackAudit": {
@@ -1420,7 +1420,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Oracle N[night]: Aegis [Town role] - [no attack reported / attack reported / failed].",
+    "reportTemplate": "Oracle N[night] - Aegis [Town role] - [no attack reported / attack reported / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No attack feedback does not confirm that the selected role exists. Aegis Oracle is the once-per-game self-role choice; target roles, not player numbers, and do not repeat a role consecutively.",
     "feedbackAudit": {
@@ -1526,7 +1526,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Trapper N[night]: [Build / Place on @[player number] / trap triggered] - [reported roles or attack / no trigger / failed].",
+    "reportTemplate": "Trapper N[night] - [Build / Place on @[player number] / trap triggered] - [reported roles or attack / no trigger / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Build is preparation, not a visit or save. A quiet placed Trap can persist into later nights. A harmful trigger is not the same as a complete non-harmful visitor-role list.",
     "feedbackAudit": {
@@ -1607,7 +1607,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Deputy D[day]: shot @[player number] - [public hit / private miss / other shown outcome].",
+    "reportTemplate": "Deputy D[day] - shot @[player number] - [public hit / private miss / other shown outcome].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A miss is private to the Deputy and spends the single shot. No public animation does not disprove a miss; a held shot is not a missed shot.",
     "feedbackAudit": {
@@ -1686,7 +1686,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Trickster N[night]: [Mirror @[player number] / Self Mirror / Unleash @[player number]] - [no absorption / attacker role / actual outcome].",
+    "reportTemplate": "Trickster N[night] - [Mirror @[player number] / Self Mirror / Unleash @[player number]] - [no absorption / attacker role / actual outcome].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No absorption is not a save. Self Mirror has one use. An absorbed attack must be stored before Unleash; while stored, another ordinary Mirror placement is unavailable.",
     "feedbackAudit": {
@@ -1765,7 +1765,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Veteran N[night]: [Alert / no Alert] - [reported shots / none / actual failure].",
+    "reportTemplate": "Veteran N[night] - [Alert / no Alert] - [reported shots / none / actual failure].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A quiet Alert still spends a charge. No Alert cannot produce Alert shots. You learn how many visitors you shot, not a complete named visitor list or guaranteed kill count.",
     "feedbackAudit": {
@@ -1844,7 +1844,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Vigilante N[night]: [Load / hold / Shoot @[player number]] - [actual hit / defense / failure feedback].",
+    "reportTemplate": "Vigilante N[night] - [Load / hold / Shoot @[player number]] - [actual hit / defense / failure feedback].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "Load or hold nights are not shots. A surviving target is not automatically a missed visit; preserve defense/failure feedback and any Town-hit penalty separately.",
     "feedbackAudit": {
@@ -1951,7 +1951,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Admirer N[night]: Admire @[player number] - [Obsession / not Obsession / failed]; Care [if unlocked]. D[day]: Bestow @[player number].",
+    "reportTemplate": "Admirer N[night] - Admire @[player number] - [Obsession / not Obsession / failed]; Care [if unlocked]. D[day] - Bestow @[player number].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A negative Admire is a result; a prevented Admire is not. Care protects you and the found Obsession, while Bestow is a separate daytime effect, not a marriage proposal.",
     "feedbackAudit": {
@@ -2006,7 +2006,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Amnesiac D[day]: [no role remembered / remembered role] - first available action [if any].",
+    "reportTemplate": "Amnesiac D[day] - [no role remembered / remembered role] - first available action [if any].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No eligible role to Remember means no transformation yet. Remember is automatic; it is not a chosen night visit, an investigation, or a current public role announcement.",
     "feedbackAudit": {
@@ -2107,7 +2107,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Retributionist N[night]: @[corpse player number] [role] -> @[living target number] - [borrowed result / corpse unavailable / failed].",
+    "reportTemplate": "Retributionist N[night] - @[corpse player number] [role] -> @[living target number] - [borrowed result / corpse unavailable / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A missing/contested corpse is a failure, not a negative investigation. You are roleblock-immune; the corpse ability and its destination still determine other restrictions and feedback.",
     "feedbackAudit": {
@@ -2228,7 +2228,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Socialite D[day]: Invite @[player number]. N[night]: Party @[house player number] - [rejection reported / none / failed].",
+    "reportTemplate": "Socialite D[day] - Invite @[player number]. N[night] - Party @[house player number] - [rejection reported / none / failed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No rejection reported does not prove no one visited. Guests and permitted bypasses can enter; a rejection notice does not name the rejected visitors. You are roleblock-immune.",
     "feedbackAudit": {
@@ -2333,7 +2333,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Tavern Keeper N[night]: Drink @[player number] - [completed / immune / failed / actual feedback].",
+    "reportTemplate": "Tavern Keeper N[night] - Drink @[player number] - [completed / immune / failed / actual feedback].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A visit alone does not prove roleblock success. Immunity, Hungover, jail or an obstacle can change the account. You are roleblock-immune; an uncautious Serial Killer can retaliate.",
     "feedbackAudit": {
@@ -2413,7 +2413,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Catalyst [phase]: Overcharge @[player number] - [recipient-confirmed effect / failed / unconfirmed].",
+    "reportTemplate": "Catalyst [phase] - Overcharge @[player number] - [recipient-confirmed effect / failed / unconfirmed].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "No visible second action does not alone prove failure: the recipient needs a compatible ability and correct cycle. Do not promise extra charges or a doubled effect for every role.",
     "feedbackAudit": {
@@ -2441,7 +2441,7 @@
     ],
     "reviewedOn": "2026-10-16",
     "liveClientVerified": false,
-    "reportTemplate": "Pilgrim N[night]: no active role ability. Public observations: [facts].",
+    "reportTemplate": "Pilgrim N[night] - no active role ability. Public observations - [facts].",
     "mechanicsSourceAccessedOn": "2026-10-15",
     "outcomeNote": "A quiet night is normal: there is no Pilgrim ability to succeed, fail or produce a result. Messages about attacks or interference come from other roles.",
     "feedbackAudit": {

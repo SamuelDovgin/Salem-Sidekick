@@ -47,12 +47,12 @@ test('Medusa N1 advice checks the TP cover before recommending an observable Sto
  assert.match(cover.exposure,/observed N1 Stone visit/);
  for(const id of ['cleric','bodyguard','crusader','oracle']){
   const p=byId.get(id).claimProfile;
-  assert.match(p.example,/\nN1: No (?:Barrier|Guard|Fortify|Aegis) - Grace Period/,id);
+  assert.match(p.example,/\nN1 - No (?:Barrier|Guard|Fortify|Aegis) - Grace Period/,id);
   assert.ok(p.openingConstraint.sourceUrls.length,id);
  }
 });
 test('protective examples do not manufacture saves and tips keep death exceptions',()=>{
- const cleric=byId.get('cleric').claimProfile;assert.match(cleric.example,/N2: Barrier @4 - no attack feedback/);assert.match(cleric.example,/N3: Barrier @7 - attack reported on @7/);assert.match(cleric.example,/N5: Barrier @11 - attack reported; target died to an Unstoppable attack/);assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
+ const cleric=byId.get('cleric').claimProfile;assert.match(cleric.example,/N2 - Barrier @4 - no attack feedback/);assert.match(cleric.example,/N3 - Barrier @7 - attack reported on @7/);assert.match(cleric.example,/N5 - Barrier @11 - attack reported; target died to an Unstoppable attack/);assert.match(cleric.willGuidance.join(' '),/Unstoppable/);assert.match(cleric.willGuidance.join(' '),/observed visit/);assert.doesNotMatch(cleric.example,/saved/i);
 });
 test('Oracle advice foregrounds astral observation and Arsonist movement modes',()=>{
  const oracle=byId.get('oracle'),arsonist=byId.get('arsonist'),cover=arsonist.claimOptions.find(c=>c.roleId==='oracle');
@@ -69,7 +69,7 @@ test('higher-payoff role information does not erase movement or demonstration ri
  assert.match(byId.get('potion-master').claimOptions.find(c=>c.roleId==='seer').exposure,/two|both/);
  assert.match(byId.get('wildling').claimOptions[0].tag,/information/);
  assert.match(byId.get('deputy').claimProfile.exposure,/shot/);
- assert.match(byId.get('psychic').claimProfile.example,/N1 Good: @4, @9/);assert.match(byId.get('psychic').claimProfile.example,/N2 Evil: @2, @7, @11/);
+ assert.match(byId.get('psychic').claimProfile.example,/N1 Good - @4, @9/);assert.match(byId.get('psychic').claimProfile.example,/N2 Evil - @2, @7, @11/);
 });
 test('inactive and preparation roles retain legal opening recommendations',()=>{
  assert.match(byId.get('deputy').playbook.firstNight,/no night|No night|no N1|No N1/i);assert.match(byId.get('trapper').playbook.firstNight,/Build|build/);assert.match(byId.get('vigilante').playbook.firstNight,/Load|load/);assert.match(byId.get('berserker').playbook.firstNight,/cannot/);
