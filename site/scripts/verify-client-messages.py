@@ -51,3 +51,12 @@ for spec in mapping['entries']:
     messages=feedback[spec['roleId']]['messages']
     assert any(m.get('clientEvidence',{}).get('key')==spec['key'] and m['text']==text for m in messages),(spec['roleId'],spec['key'])
 print(f"PASS {len(mapping['entries'])} curated messages match installed {receipt['clientVersion']} English strings; bundle/table/entry fingerprints and substitutions verified. No game files changed.")
+
+core_receipt=json.loads((root/'docs/research/CORE_MECHANICS_EVIDENCE.json').read_text())
+assert core_receipt['tableSha256']==receipt['tableSha256']
+for key,fingerprint in core_receipt['entries'].items():
+    assert sha(entries[key].encode())==fingerprint,key
+core=json.loads((root/'site/content/role-essentials.json').read_text())
+assert len(core)==64
+assert set(core_receipt['entries'])=={key for guide in core.values() for key in guide['clientKeys']}
+print(f"PASS {len(core_receipt['entries'])} role-card and faction-goal entry fingerprints underpin all 64 core summaries; editorial interpretations are not live-game tests.")

@@ -1,16 +1,18 @@
 # Monarch
 
-Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6477. No live-client test is claimed.
+Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6477. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Two Knight charges grant extra votes. A living Knight grants you Basic Defense after the knighting resolves; a Knight need not be Town.
+Knight a player at night to give them a lasting extra vote. You have two Knight charges.
+
+**Key rule:** You gain Basic Defense while a Knight is alive. Knighthood grants voting power, not proof that its recipient is Town.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Charges are not spent if the selected player dies before knighting completes. Co
 
 ## Worked decision
 
-#4 has strong independent Town evidence: increasing their vote is more defensible than rewarding an unverified TPow claim.
+Knight 4; check that the effect completed. If no Knight remains alive, do not assume you still have its defense.
 
 ## Wills and cover reasoning
 

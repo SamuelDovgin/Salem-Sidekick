@@ -1,16 +1,18 @@
 # Deputy
 
-Default role family: **Town Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6299. No live-client test is claimed.
+Default role family: **Town Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6299. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-One day shot from D2. A hit kills an eligible target; a miss can arise from Town status or defense. A miss does not publicly demonstrate the ability.
+Use your single daytime High Noon shot on a supported suspect. You have no night ability.
+
+**Key rule:** Available from D2. A miss can result from apparent Town status or defense and still spends your only shot; it is private feedback.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Enchant/Reap can change eligibility. Early Neutral Evil defense and other protec
 
 ## Worked decision
 
-D2 shot at #7 misses: report the attempt if needed, but keep #7 unresolved rather than declaring them safe.
+D3 shoot 9 and miss: record the miss and stop claiming further shots. A held shot is not a miss.
 
 ## Wills and cover reasoning
 

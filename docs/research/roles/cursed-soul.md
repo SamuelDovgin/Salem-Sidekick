@@ -1,16 +1,18 @@
 # Cursed Soul
 
-Default role family: **Neutral Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5714. No live-client test is claimed.
+Default role family: **Neutral Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5714. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Soul Swap changes roles, not faction. In the default Wandering Souls faction, win by eliminating every Cursed Soul role while a faction member survives.
+Soul Swap exchanges roles with a player; it does not exchange factions. After swapping, use the new role’s abilities.
+
+**Key rule:** In the default Wandering Souls faction, the goal is to remove every remaining Cursed Soul role. Check the actual role gained; the swap can be redirected or randomized.
 
 ## Win condition
 
-For default Wandering Souls, eliminate every Cursed Soul role while at least one faction member remains alive. Acquiring another role does not replace your faction objective.
+In the default Wandering Souls faction, eliminate every Cursed Soul role while a Wandering Souls member survives. Your current role and your faction are separate.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Wandering Souls faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ The main wiki role’s Swap section is incomplete; Fandom and official changes s
 
 ## Worked decision
 
-You acquire a killing role but remain Wandering Souls: use the new ability toward removing Cursed Souls, not the acquired role’s default faction goal.
+Swap into Sheriff and you still belong to Wandering Souls. The player given Cursed Soul keeps their old faction.
 
 ## Wills and cover reasoning
 

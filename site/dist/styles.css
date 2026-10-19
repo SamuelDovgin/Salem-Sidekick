@@ -284,3 +284,13 @@ html{scroll-padding-top:0}
 .notes-preview>summary{cursor:pointer;min-height:28px;line-height:28px}
 .notes-preview .example-code{margin-top:6px}
 .claim-vote-notes .notes-hint{font-size:10px}
+
+/* Put core actions and victory before strategic and interaction detail. */
+.role-essentials{margin:0;display:grid;gap:5px;font-size:12px;line-height:1.6}
+.role-essentials>div{display:grid;grid-template-columns:54px minmax(0,1fr);gap:8px}
+.role-essentials dt{font-size:10px;font-weight:600;color:var(--accent);padding-top:1px}
+.role-essentials dd{margin:0;color:var(--muted);overflow-wrap:anywhere}
+.role-essentials .core-win dt{color:var(--gold)}
+.study-summary .role-essentials{margin-top:8px}
+.core-context{font-size:10px;color:var(--muted);margin:8px 0}
+@media(max-width:560px){.role-essentials{font-size:11px}.role-essentials>div{grid-template-columns:46px minmax(0,1fr);gap:6px}.role-essentials dt{font-size:9px}}

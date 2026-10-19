@@ -1,16 +1,18 @@
 # Medusa
 
-Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5933. No live-client test is claimed.
+Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5933. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Three Stone Gazes mark players so their eventual death role and will are hidden from opponents. Medusa begins self-Stoned; book can attack while applying Stone.
+Spend up to three Stone Gazes to permanently mark players. If a marked player dies, opponents cannot read their role or will.
+
+**Key rule:** Stone is not a kill or protection. You start self-Stoned; marked deaths remain readable to Coven. A visible N1 Stone can contradict an unavailable TP cover.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -46,7 +48,7 @@ Necromancer can use Stoned bodies; normal Town Retributionist cannot. Amnesiac c
 
 ## Worked decision
 
-You claim TP/Cleric and see the Grace Period notice: hold Stone on N1. A Tracker following you or a Lookout watching the recipient could see a Stone visit that a Cleric could not legally make that night. With Grace Period off and a cover that can actually visit, a coordinated useful mark may be reasonable.
+Stone 4 tonight; if 4 dies on a later night, their hidden role/will effect still applies. Holding Stone creates no ordinary Stone visit.
 
 ## Wills and cover reasoning
 

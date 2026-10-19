@@ -1,16 +1,18 @@
 # Doomsayer
 
-Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6436. No live-client test is claimed.
+Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6436. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-From N2, confirm three simultaneous role/alignment guesses. All must be right to win; victims are Doomed and die later rather than immediately that same night.
+From N2, confirm three simultaneous player/role guesses. All three must be correct in the same set.
+
+**Key rule:** One wrong guess fails the whole set without identifying the mistake. Do not guess Town Investigative roles; Doom victims die later, not immediately on confirmation.
 
 ## Win condition
 
-Successfully confirm the required three-player guess set. The later deaths are a consequence, not a separate victory requirement.
+Win by correctly Dooming all three players in one set; you then leave Town in victory. You do not need to eliminate the rest of the town.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Doomsayer faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Current official UI fixes and the Fandom role page contradict wiki.gg’s no-Out
 
 ## Worked decision
 
-Two public exact roles and a strongly supported Coven identity give a reasoned set; do not add a random third merely because the first two seem certain.
+4 Cleric, 7 Coven Utility and 9 Vigilante must all match in one submitted set. Two correct guesses are no win.
 
 ## Wills and cover reasoning
 

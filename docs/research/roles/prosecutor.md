@@ -1,16 +1,18 @@
 # Prosecutor
 
-Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6514. No live-client test is claimed.
+Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6514. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Two day Prosecutions force a hanging without normal judgment; at most one per day. Using it reveals you; prosecuting Town removes remaining charges.
+Prosecute during the day to force your chosen player’s execution without normal judgment.
+
+**Key rule:** Two charges, at most one use per day from D2. Prosecuting Town removes the remaining charges. No night ability.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Prosecution counts as hanging for relevant neutral objectives. Ordinary day guns
 
 ## Worked decision
 
-A supported evil will escape the vote due to disruption: consider Prosecute, after checking for alternative explanations and Jester risk.
+A supported case against 9 can justify Prosecute; using it merely to prove your role can cost Town an ally.
 
 ## Wills and cover reasoning
 

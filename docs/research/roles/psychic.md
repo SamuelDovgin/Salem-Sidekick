@@ -1,16 +1,18 @@
 # Psychic
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6298. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6298. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Visit a chosen player included in your vision. Odd nights give two names with at least one Good; even nights give three with at least one Evil.
+Choose a player to include in a vision. Odd nights give two names with at least one appearing Good; even nights give three with at least one appearing Evil.
+
+**Key rule:** The group includes your chosen target. It does not identify which member fits, and it does not mean exactly one.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Enchant, Illusion, and Reap can affect classifications. Late-game no-vision mess
 
 ## Worked decision
 
-N2 Evil [4,7,9], with #4 independently Town: investigate #7 and #9; do not choose one arbitrarily.
+N1 Good: 4 and 9 means at least one appears Good. N2 Evil: 2, 7 and 11 means at least one appears Evil.
 
 ## Wills and cover reasoning
 

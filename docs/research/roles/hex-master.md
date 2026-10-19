@@ -1,16 +1,18 @@
 # Hex Master
 
-Default role family: **Coven Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6232. No live-client test is claimed.
+Default role family: **Coven Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6232. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Hex living opponents toward a Hex Bomb. With the book, Hex plus a Basic Attack becomes astral. Bomb completion requires the Hex Master to remain active under its conditions.
+Hex one player each night. Marks persist, so spread them among opponents likely to stay alive.
+
+**Key rule:** Hex Bomb automatically kills the Hexed opponents once every living non-Coven player is Hexed and you are alive at resolution, usually dawn. No Bomb button or Necronomicon is required.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -40,11 +42,11 @@ Do not claim visible visits after an astral book action without context. Do not 
 
 ## Interactions and limits
 
-An astral attack bypasses some interception but not every protection. A bomb has a different power and trigger from a normal attack.
+The normal Bomb check resolves at a game transition, usually the next dawn; removing the final unhexed opponent during the day can also trigger it. You must remain alive through that resolution. A Necromancer can reanimate a dead Hex Master to trigger completed coverage. The Bomb ignores defense, including transformed Horsemen; ordinary book attacks do not. With the book, Hex becomes astral and adds a Basic Attack. Keep this different from the Bomb’s automatic elimination.
 
 ## Worked decision
 
-#4 is likely to survive while #7 is being eliminated: hexing #4 can preserve progress instead of duplicating a likely death.
+Only 4, 7 and 9 remain outside Coven; 4 and 7 are Hexed. Hex 9, or have 9 eliminated, to complete the Bomb condition. Stay alive through resolution.
 
 ## Wills and cover reasoning
 

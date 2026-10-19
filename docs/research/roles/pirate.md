@@ -1,16 +1,18 @@
 # Pirate
 
-Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6542. No live-client test is claimed.
+Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6542. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Three players are Landlubbers; survive until all die. Scour identifies target status, and three Plunders are available; killing a non-Landlubber removes remaining Plunders.
+Scour to find your three secretly assigned Landlubbers. From N2, Plunder can attack one, with three Plunder uses.
+
+**Key rule:** All three assigned players must die; other killers can do it. Killing a non-Landlubber with Plunder removes your remaining Plunders. There are no duels.
 
 ## Win condition
 
-Remain alive until all assigned Landlubber players are dead, regardless of who killed them.
+Stay alive until all three assigned Landlubbers are dead, then leave in victory. Three arbitrary kills do not satisfy the objective.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Pirate faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ At least one starting target is ordinarily Town and one opposes Town, with setup
 
 ## Worked decision
 
-If the shown target role has multiple claimants, Scour a plausible one rather than assuming the first claimant is the Landlubber.
+Scour 4 and find a Landlubber. If someone else kills 4, that still advances your objective while you stay alive.
 
 ## Wills and cover reasoning
 

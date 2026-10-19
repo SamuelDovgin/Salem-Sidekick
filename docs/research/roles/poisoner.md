@@ -1,16 +1,18 @@
 # Poisoner
 
-Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6228. No live-client test is claimed.
+Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6228. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Drink roleblocks; alternative Smog obstructs visits to a target. With book, a direct attack also roleblocks, but cannot normally accompany Smog.
+Choose Drink to roleblock a player, or Smog to obstruct visits into their house.
+
+**Key rule:** Drink affects the resident’s action; Smog affects incoming visitors. Smog cannot accompany a book attack and can obstruct Coven teammates.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Real Socialites and Spies can expose Smog-based stories. Some Coven astral inter
 
 ## Worked decision
 
-N1 Drink #4 supports a Tavern Keeper will; choosing Smog N2 means the story must account for a different effect.
+Smog 4 can stop your own teammate reaching 4. Drink 4 instead tries to stop 4 from acting.
 
 ## Wills and cover reasoning
 

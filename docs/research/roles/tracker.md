@@ -1,16 +1,18 @@
 # Tracker
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5571. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5571. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Follow one player at night and learn visible destinations. Astral actions can appear as no visit.
+Follow a player and learn their visible destinations, or that they made no visible visit.
+
+**Key rule:** This shows outgoing movement. Astral actions are invisible, so no visible visit does not prove that the player used no ability.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Bestow changes visibility; Catalyst creates extra actions. Faction changes inval
 
 ## Worked decision
 
-#4 claims a normal protection visit to #9 but you saw #4 go to #7: ask about redirection or other context, then present the conflict.
+Track 4 and see 9: player 4 went to 9. It does not mean player 9 visited 4.
 
 ## Wills and cover reasoning
 

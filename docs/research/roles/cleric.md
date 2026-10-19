@@ -1,16 +1,18 @@
 # Cleric
 
-Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4540. No live-client test is claimed.
+Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4540. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Barrier grants a player Powerful Defense for the night. One Self Barrier is available; attack feedback is separate from merely choosing a target.
+Barrier one player for Powerful Defense that night, stopping Basic and Powerful attacks.
+
+**Key rule:** Your named-target attack notice means the target was attacked. Quiet nights give no save notice. Self Barrier has one use; Grace Period disables N1 protection.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Unstoppable attacks bypass the barrier. Visiting can expose you to rampages even
 
 ## Worked decision
 
-#4 is providing useful results and is under threat: barrier them, then record whether the game reported an attack.
+Barrier 4; if 4 is attacked, you can receive attack feedback while 4 receives the separate Barrier notice. Unstoppable attacks still bypass this defense.
 
 ## Wills and cover reasoning
 

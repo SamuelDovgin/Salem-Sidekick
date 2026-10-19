@@ -1,16 +1,18 @@
 # Executioner
 
-Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6370. No live-client test is claimed.
+Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6370. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Get the assigned Town target hanged while you are alive. Other causes of death can turn you into Jester; a successful objective reduces future trial capacity.
+Read your assigned Town target and get that specific player hanged while you are alive.
+
+**Key rule:** Other deaths are not your hanging objective; losing the target that way can turn you into Jester, with a different win requirement.
 
 ## Win condition
 
-Remain alive when the assigned target is hanged through a valid route. If they die otherwise, your role and objective change.
+Win when your assigned target is hanged while you are alive. Hanging someone else or killing the target at night does not satisfy it.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Executioner faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Prosecution and Tribunal can fulfill the hanging objective. The target pool excl
 
 ## Worked decision
 
-Your target dies at night: stop the Executioner plan and record the Jester transition before following its new objective.
+If the assigned target dies to a night attack, do not claim the Executioner win. Follow your new role if you become Jester.
 
 ## Wills and cover reasoning
 

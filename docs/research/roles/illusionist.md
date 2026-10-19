@@ -1,16 +1,18 @@
 # Illusionist
 
-Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6359. No live-client test is claimed.
+Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6359. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Cast astral Illusion, use one team-wide Phantasm, or Disguise your shown death role/faction. Ordinary book attacks are direct and replace the protection choice.
+Illusion an ally to disguise their investigative appearance. Use one Phantasm for the living team, or set your own displayed death role and faction.
+
+**Key rule:** These effects change appearances, not real roles or loyalties. A book attack replaces the ordinary protection choice; Illusion does not stop Bodyguard/Trap interception.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Reap can override Illusion. Voice-only restrictions are separate from this text-
 
 ## Worked decision
 
-An ally is under investigative pressure: Illusion may help, while a simultaneous normal attack is a different action choice.
+Illusion the acting book holder to hide investigative evidence; do not promise that this shields them from every defensive role.
 
 ## Wills and cover reasoning
 

@@ -1,16 +1,18 @@
 # Ritualist
 
-Default role family: **Coven Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5403. No live-client test is claimed.
+Default role family: **Coven Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5403. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Two Blood Ritual attempts guess an eligible exact role for an astral Unstoppable attack. TIs and Illuminated targets cannot normally be ritualed.
+Blood Ritual guesses an eligible player’s exact role for an astral Unstoppable attack.
+
+**Key rule:** Two attempts. A wrong guess spends one and can give no failure notice. You cannot guess Town Investigatives or Illuminated players; Grace Period blocks N1 Ritual.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Illumination lasts conditionally and matters to target eligibility. Ordinary boo
 
 ## Worked decision
 
-A public eligible exact role is known: check defenses and Illumination before committing one of only two attempts.
+A confident exact-role guess can kill through ordinary protection, but not Invincible Defense. Guessing a broad alignment is not an exact-role Ritual.
 
 ## Wills and cover reasoning
 

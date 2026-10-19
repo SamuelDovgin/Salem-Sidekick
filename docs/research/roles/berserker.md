@@ -1,16 +1,18 @@
 # Berserker
 
-Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6632. No live-client test is claimed.
+Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6632. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Attack nightly after N1. The first kill upgrades Basic to Powerful, the second adds Rampage, and the third enables transformation into War.
+You start attacking on N2. Actual kills build your strength toward War.
+
+**Key rule:** First kill: Powerful attack. Second: Rampage. Third: transform into War, gaining two-target Unstoppable Rampages and Invincible Defense. A survived attempt adds no kill.
 
 ## Win condition
 
-Win with the Apocalypse faction by eliminating its opponents. Transformation advances your power; it is not itself the final win condition.
+Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Apocalypse faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Solo versus allied Apocalypse affects factional defense. Witch redirection can b
 
 ## Worked decision
 
-You have no kills and #4 likely has protection: attacking a softer opponent may advance progression more reliably.
+N2 attack and kill gives progress; N3 attack stopped by defense does not. Count kills, not the nights you pressed Attack.
 
 ## Transformed state
 

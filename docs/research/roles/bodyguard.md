@@ -1,16 +1,18 @@
 # Bodyguard
 
-Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5558. No live-client test is claimed.
+Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5558. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Guard against one direct harmful visitor, canceling that action and counterattacking. Successful interception endangers you. Two self-protection uses grant Basic Defense.
+Guard a player to intercept one direct harmful visitor, stop that harmful action and fight the visitor.
+
+**Key rule:** The fight deals Powerful attacks to the attacker and to you. Self Protect is different: two uses of Basic Defense at home. Grace Period disables N1 protection.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Barrier protection can preserve you during a counterattack. Astral attacks bypas
 
 ## Worked decision
 
-A revealed leader is threatened by ordinary killing: guarding them may trade your life for theirs, whereas an expected astral attack calls for another plan.
+Guard 4 and intercept an attacker: 4 avoids that action, but you can die in the fight. A quiet Guard is not a save.
 
 ## Wills and cover reasoning
 

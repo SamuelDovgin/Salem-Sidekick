@@ -1,16 +1,18 @@
 # Lookout
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6340. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6340. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Watch a house at night and see visible visitors. Astral visitors are absent; the observation does not identify visitor roles.
+Watch a player’s house and learn the identities of its visible visitors.
+
+**Key rule:** You see who came to the watched house, not where its owner went or the visitors’ roles. Astral visits are invisible.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Crowded calls can attract rampages. The page contains an obsolete Camouflage ref
 
 ## Worked decision
 
-#4 says they were blocked and #7 visited: ask #7 what they did, then compare with any other visitors.
+Watch 4; see 7 and 9 visiting 4. That says nothing about whom 4 visited.
 
 ## Wills and cover reasoning
 

@@ -469,9 +469,9 @@
     "scope": "private-actual"
   },
   "jester": {
-    "example": "Jester\nN1: No night ability; no D1 Chatterbox quota\nD2: Chatterbox completed; not hanged\nN2: No ordinary night ability\nD3: Chatterbox incomplete; not hanged\nN3: No ordinary night ability\nD4: Chatterbox completed; not hanged\nN4: No ordinary night ability\nD5: Chatterbox completed; not hanged\nN5: No ordinary night ability\nD6: Chatterbox completed; not hanged\nN6: No ordinary night ability\nD7: Chatterbox completed; hanged\nN7: Haunt eligible voter @9 - actual revenge outcome recorded",
+    "example": "Jester\nN1: No night ability; no D1 Chatterbox quota\nD2: Chatterbox completed; not hanged\nN2: No ordinary night ability\nD3: Chatterbox completed; not hanged\nN3: No ordinary night ability\nD4: Chatterbox completed; not hanged\nN4: No ordinary night ability\nD5: Chatterbox completed; not hanged\nN5: No ordinary night ability\nD6: Chatterbox completed; not hanged\nN6: No ordinary night ability\nD7: Chatterbox completed; hanged\nN7: Haunt eligible voter @9 - actual revenge outcome recorded",
     "blank": "Jester\nN1: \nD2: \nN2: \nD3: \nN3: \nD4: \nN4: \nD5: \nN5: \nD6: \nN6: \nD7: \nN7: ",
-    "note": "Revenge depends on the qualifying hanging and the actual Chatterbox state for that day. A night death or failed quota is a separate branch.",
+    "note": "Meet the day’s Chatterbox quota to win from a hanging. An unmet quota blocks the win and causes boredom death at day end; a night death also fails. Haunt requires a qualifying hanging.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)"
     ],

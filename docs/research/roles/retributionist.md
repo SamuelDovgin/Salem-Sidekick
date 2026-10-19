@@ -1,16 +1,18 @@
 # Retributionist
 
-Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5202. No live-client test is claimed.
+Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5202. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Raise a suitable dead Town body and direct its ability. You visit the corpse; the corpse visits the living destination. Normally roleblock/control immune.
+Raise an eligible dead Town player, then choose where their borrowed ability acts. You receive that ability’s feedback.
+
+**Key rule:** You visit the corpse; the zombie visits its destination. You need a usable body, cannot normally use Stoned corpses or protect yourself, and are roleblock/control immune.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Necromancer wins corpse-use priority. Altered bodies retain underlying ability b
 
 ## Worked decision
 
-N2 use dead Sheriff #6 on #9: preserve both numbers and the returned check; do not say you personally visited #9.
+Raise dead Sheriff 6 to check living 9. Report both numbers and the borrowed result; an unavailable corpse gives no check.
 
 ## Wills and cover reasoning
 

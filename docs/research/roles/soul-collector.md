@@ -1,16 +1,18 @@
 # Soul Collector
 
-Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6562. No live-client test is claimed.
+Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6562. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Astrally Reap players for extra souls when they die, plus passive nightly progress. Reap also frames targets. Seven souls transform you into Death.
+Reap players to mark them for extra souls when they die. You also gain one passive soul each night.
+
+**Key rule:** At seven actual souls you transform into Death. Reap does not kill its target; their later death supplies progress.
 
 ## Win condition
 
-Win with the Apocalypse faction by eliminating its opponents. Transformation advances your power; it is not itself the final win condition.
+Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Apocalypse faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Reap can override other apparent-faction effects. Source prose differs on some f
 
 ## Worked decision
 
-A prominent player is likely to die tonight: reaping them can advance progress, while your public will must not reveal private soul knowledge.
+Mark a likely victim, then check the soul counter. Once Death arrives, stop using the old Reap plan.
 
 ## Transformed state
 

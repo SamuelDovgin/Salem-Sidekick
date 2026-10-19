@@ -1,16 +1,18 @@
 # Investigator
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5154. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5154. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Investigate crimes: Murder reflects an attack that night; Trespassing reflects opposing-faction visiting history. No Crime is the absence of detectable crimes.
+Investigate a player for Murder, Trespassing, both crimes, or No Crime.
+
+**Key rule:** Murder concerns an attack that night. Trespassing concerns an opposing-faction visit at some point in the game. Neither result alone reveals allegiance.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Enchant, Reap, Illusion, and Shroud complicate interpretation. The source has co
 
 ## Worked decision
 
-#4 shows Trespassing and claims to have checked #9: compare both claims; either player or another earlier visit may explain the result.
+A Town player can have Trespassing; No Crime does not mean the checked player is harmless.
 
 ## Wills and cover reasoning
 

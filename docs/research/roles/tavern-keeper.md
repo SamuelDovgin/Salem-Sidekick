@@ -1,16 +1,18 @@
 # Tavern Keeper
 
-Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4009. No live-client test is claimed.
+Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4009. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Drink with a player to roleblock their night ability. Successful roleblocking leaves Hangover, preventing immediate repeat blocking; you are roleblock immune.
+Drink with a player to attempt to roleblock their night action.
+
+**Key rule:** After a successful block, Hangover prevents an immediate repeat block or Control. You are roleblock immune; visiting certain killers can make them retaliate.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Uncautious SK and Full Moon Werewolf can counterattack. Hangover also grants Con
 
 ## Worked decision
 
-N1 block #4 and no kill occurs: ask for #4’s action and seek corroboration instead of calling the case solved.
+Drink with 4 on N1; choose someone else on N2. No deaths after the block does not prove 4 is the killer.
 
 ## Wills and cover reasoning
 

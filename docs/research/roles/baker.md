@@ -1,16 +1,18 @@
 # Baker
 
-Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6503. No live-client test is claimed.
+Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6503. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Feed Bread to three other living players to become Famine, with a reduced-population exception. Bread recipients need to survive; you already possess Bread.
+Feed Bread to other players at night. Get three other living players with Bread to become Famine.
+
+**Key rule:** Your own starting Bread is not one of those three recipients. If fewer than three others remain, all living players must have Bread instead.
 
 ## Win condition
 
-Win with the Apocalypse faction by eliminating its opponents. Transformation advances your power; it is not itself the final win condition.
+Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Apocalypse faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Bodyguard/Trap do not ordinarily respond to a nonharmful Feed. Blocks and obstac
 
 ## Worked decision
 
-If #4 is likely to be eliminated tomorrow, feeding a less threatened eligible player can retain progress.
+Feed 4, 7 and 9 and keep them alive. A fed player dying before completion removes them from the living-recipient count.
 
 ## Transformed state
 

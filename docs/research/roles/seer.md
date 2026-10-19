@@ -1,16 +1,18 @@
 # Seer
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5395. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5395. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Compare two eligible players at night for Friends or Enemies. You normally visit both; previously compared and revealed targets have restrictions.
+Compare two players and learn whether their apparent factions are Friends or Enemies.
+
+**Key rule:** You visit both players. You cannot use yourself, revealed Town members or any player you have already selected earlier in the game.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Framing and Illusion matter. Bestow can hide visits; Catalyst can create extra v
 
 ## Worked decision
 
-N1 #4/#9 Enemies: request both claims and compare them before selecting a push.
+4 and 9 are Enemies: their apparent factions differ. It does not say which player opposes Town.
 
 ## Wills and cover reasoning
 

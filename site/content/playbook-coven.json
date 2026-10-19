@@ -19,15 +19,15 @@
   "hex-master": {
     "headline": "Hex a likely survivor the team is not killing.",
     "firstNight": "Without the book, Hex a useful unmarked nonally expected to remain alive. Avoid duplicating the agreed Coven kill if another eligible target exists.",
-    "reason": "Your final threat needs living opponents Hexed; a mark on someone who immediately dies usually buys less progress.",
+    "reason": "Every living non-Coven player must be Hexed while you survive to the Bomb’s resolution. Marks persist, so Hex a likely survivor and let Coven eliminate unhexed opponents.",
     "targetRule": "Use an unpressured eligible nonally when there is no D1 evidence. Prefer a player likely to live over someone already headed for execution.",
     "pivot": "With the book, the Hex also attacks and is astral: choose kill value and reconsider any cover that claimed an ordinary visit.",
     "laterPriorities": [
-      "Hex useful living unmarked opponents rather than revisiting completed progress.",
-      "Coordinate kills so they do not unnecessarily erase the mark you needed to retain.",
-      "Near completion, identify the remaining unhexed opponents and preserve your survival through the vote."
+      "Hex a new living opponent; already Hexed survivors need no fresh mark.",
+      "Eliminate the remaining unhexed opponents with your team; dead players no longer need a Hex.",
+      "Stay alive until resolution: with all living opponents Hexed, the Bomb triggers automatically, without the book or a separate button."
     ],
-    "expanded": "Count living marked and unmarked opponents after every death. Do not confuse attempts with applied marks. The correct target can change when the book arrives because survival-based progress and a lethal action now compete. A quiet visiting cover works differently once your real action becomes astral.",
+    "expanded": "After every death, list only living non-Coven players who are still unhexed. Apply the last needed Hex or have the team remove that opponent. When none remain and you are alive at resolution, the Hex Bomb automatically kills the Hexed opponents, ignoring defense. For example, if 4 and 7 are Hexed and 9 is the only unhexed opponent, Hexing or eliminating 9 completes the coverage. You do not press a Bomb button or need the Necronomicon. With the book, ordinary Hex also attacks and becomes astral; this can change the cover’s movement story.",
     "sourceUrls": [
       "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)"
     ],

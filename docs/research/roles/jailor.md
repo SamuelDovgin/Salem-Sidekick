@@ -1,16 +1,18 @@
 # Jailor
 
-Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6571. No live-client test is claimed.
+Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6571. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Select a prisoner during the day, question them privately at night, and optionally execute from N2. Three executions; killing Town removes further abilities.
+Choose a prisoner during the day; question them privately that night. From N2, you can execute instead of releasing them.
+
+**Key rule:** Three executions total. Executing Town removes your jail ability. Choose a different prisoner on consecutive nights.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Execution is Powerful, not universally unstoppable. Some astral protection can s
 
 ## Worked decision
 
-D2 select #7; N2 compare their exact claim with D2 statements before choosing whether to execute.
+D2 select 7; N2 hear their claim, then release or attempt an execution. Selecting Execute does not guarantee a death.
 
 ## Wills and cover reasoning
 

@@ -1,16 +1,18 @@
 # Marshal
 
-Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5387. No live-client test is claimed.
+Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5387. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Two day Tribunals reveal you and allow immediate executions on nomination, normally up to two victims. Reveals and wills are delayed until it ends.
+Start a daytime Tribunal to execute nominated players without the usual defense and judgment.
+
+**Key rule:** Two Tribunal uses, normally up to two executions per Tribunal. Roles and wills stay hidden until the Tribunal ends. No night ability.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Jesters and Executioners interact with Tribunal deaths; modifiers can change tri
 
 ## Worked decision
 
-Two supported contradictions exist and allies can coordinate: plan both nominations before starting the Tribunal.
+If you execute 4, you must decide whether to execute 9 before seeing 4’s role. Have evidence for both first.
 
 ## Wills and cover reasoning
 

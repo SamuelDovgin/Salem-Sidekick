@@ -1,16 +1,18 @@
 # Spy
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6346. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6346. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Plant persistent bugs on players. Bugs can later report evil visiting roles; bug placement and later triggers are different events.
+Place a permanent Bug on a house to learn about evil-role visitors. Old Bugs can report on later nights.
+
+**Key rule:** Record the bugged house and reported role separately. A quiet Bug is not a Town clear, and a role report does not give the visitor’s player number.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ The wiki gives a narrow trigger description; exhaustiveness and some astral/fram
 
 ## Worked decision
 
-Bug #4 N1; N3 it reports Poisoner activity: record the N3 trigger on #4 rather than pretending you bugged them again.
+Bug 4 on N1; on N3 it reports a Jinx visit to 4 even though you placed tonight’s new Bug elsewhere.
 
 ## Wills and cover reasoning
 

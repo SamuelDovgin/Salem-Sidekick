@@ -1,0 +1,1189 @@
+{
+  "jailor": {
+    "action": "Choose a prisoner during the day; question them privately that night. From N2, you can execute instead of releasing them.",
+    "keyRule": "Three executions total. Executing Town removes your jail ability. Choose a different prisoner on consecutive nights.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "D2 select 7; N2 hear their claim, then release or attempt an execution. Selecting Execute does not guarantee a death.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jailor_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Jailor%20%28ToS2%29&oldid=6571"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_9_1",
+      "GUI_ROLE_ABILITY1_DESC_9",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_9",
+      "GUI_ROLE_ATTRIBUTES_9",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "marshal": {
+    "action": "Start a daytime Tribunal to execute nominated players without the usual defense and judgment.",
+    "keyRule": "Two Tribunal uses, normally up to two executions per Tribunal. Roles and wills stay hidden until the Tribunal ends. No night ability.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "If you execute 4, you must decide whether to execute 9 before seeing 4’s role. Have evidence for both first.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Marshal_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Marshal%20%28ToS2%29&oldid=5387"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_55",
+      "GUI_ROLE_ATTRIBUTES_55",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "mayor": {
+    "action": "Reveal during the day to increase the weight of your vote. You have no night action.",
+    "keyRule": "Reveal adds one vote immediately; each later day adds another. You cannot Reveal on D1 or while on trial.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "If your extra vote changes today’s majority, Reveal before you are put on trial.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Mayor_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Mayor%20%28ToS2%29&oldid=5492"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_11",
+      "GUI_ROLE_ATTRIBUTES_11_1",
+      "GUI_ROLE_ATTRIBUTES_11",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "monarch": {
+    "action": "Knight a player at night to give them a lasting extra vote. You have two Knight charges.",
+    "keyRule": "You gain Basic Defense while a Knight is alive. Knighthood grants voting power, not proof that its recipient is Town.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Knight 4; check that the effect completed. If no Knight remains alive, do not assume you still have its defense.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Monarch_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Monarch%20%28ToS2%29&oldid=6477"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_12",
+      "GUI_ROLE_ATTRIBUTES_12",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "prosecutor": {
+    "action": "Prosecute during the day to force your chosen player’s execution without normal judgment.",
+    "keyRule": "Two charges, at most one use per day from D2. Prosecuting Town removes the remaining charges. No night ability.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "A supported case against 9 can justify Prosecute; using it merely to prove your role can cost Town an ally.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Prosecutor_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Prosecutor%20%28ToS2%29&oldid=6514"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_13_1",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_13",
+      "GUI_ROLE_ATTRIBUTES_13",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "coroner": {
+    "action": "Autopsy a dead player during the day to collect their killer’s role. At night, Examine a living suspect against the killer records you have collected.",
+    "keyRule": "You need an Autopsy before a useful Examine. Records accumulate; no match means no match to your records, not confirmed Town.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Autopsy dead 6, then Examine 9. Report the corpse, killer role and match result separately.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Coroner_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Coroner%20%28ToS2%29&oldid=6348"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_5",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_5",
+      "GUI_ROLE_ATTRIBUTES_5",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "investigator": {
+    "action": "Investigate a player for Murder, Trespassing, both crimes, or No Crime.",
+    "keyRule": "Murder concerns an attack that night. Trespassing concerns an opposing-faction visit at some point in the game. Neither result alone reveals allegiance.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "A Town player can have Trespassing; No Crime does not mean the checked player is harmless.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Investigator_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Investigator%20%28ToS2%29&oldid=5154"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_8",
+      "GUI_ROLE_ATTRIBUTES_8",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "lookout": {
+    "action": "Watch a player’s house and learn the identities of its visible visitors.",
+    "keyRule": "You see who came to the watched house, not where its owner went or the visitors’ roles. Astral visits are invisible.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Watch 4; see 7 and 9 visiting 4. That says nothing about whom 4 visited.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Lookout_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Lookout%20%28ToS2%29&oldid=6340"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_10",
+      "GUI_ROLE_ATTRIBUTES_10",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "psychic": {
+    "action": "Choose a player to include in a vision. Odd nights give two names with at least one appearing Good; even nights give three with at least one appearing Evil.",
+    "keyRule": "The group includes your chosen target. It does not identify which member fits, and it does not mean exactly one.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "N1 Good: 4 and 9 means at least one appears Good. N2 Evil: 2, 7 and 11 means at least one appears Evil.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Psychic_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Psychic%20%28ToS2%29&oldid=6298"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_14",
+      "GUI_ROLE_ATTRIBUTES_14",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "seer": {
+    "action": "Compare two players and learn whether their apparent factions are Friends or Enemies.",
+    "keyRule": "You visit both players. You cannot use yourself, revealed Town members or any player you have already selected earlier in the game.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "4 and 9 are Enemies: their apparent factions differ. It does not say which player opposes Town.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Seer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Seer%20%28ToS2%29&oldid=5395"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_16",
+      "GUI_ROLE_ABILITY2_DESC_16",
+      "GUI_ROLE_ATTRIBUTES_16",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "sheriff": {
+    "action": "Search one player at night for Innocent or Suspicious feedback.",
+    "keyRule": "This checks apparent suspicion, not exact role or guaranteed allegiance. Some enemies appear Innocent, and framing can make allies Suspicious.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "A roleblocked Search is no result. Do not enter Innocent merely because no suspicion message appeared.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Sheriff_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Sheriff%20%28ToS2%29&oldid=5148"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_17",
+      "GUI_ROLE_ATTRIBUTES_17",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "spy": {
+    "action": "Place a permanent Bug on a house to learn about evil-role visitors. Old Bugs can report on later nights.",
+    "keyRule": "Record the bugged house and reported role separately. A quiet Bug is not a Town clear, and a role report does not give the visitor’s player number.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Bug 4 on N1; on N3 it reports a Jinx visit to 4 even though you placed tonight’s new Bug elsewhere.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Spy_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Spy%20%28ToS2%29&oldid=6346"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_18",
+      "GUI_ROLE_ATTRIBUTES_18",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "tracker": {
+    "action": "Follow a player and learn their visible destinations, or that they made no visible visit.",
+    "keyRule": "This shows outgoing movement. Astral actions are invisible, so no visible visit does not prove that the player used no ability.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Track 4 and see 9: player 4 went to 9. It does not mean player 9 visited 4.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tracker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Tracker%20%28ToS2%29&oldid=5571"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_20",
+      "GUI_ROLE_ATTRIBUTES_20",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "bodyguard": {
+    "action": "Guard a player to intercept one direct harmful visitor, stop that harmful action and fight the visitor.",
+    "keyRule": "The fight deals Powerful attacks to the attacker and to you. Self Protect is different: two uses of Basic Defense at home. Grace Period disables N1 protection.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Guard 4 and intercept an attacker: 4 avoids that action, but you can die in the fight. A quiet Guard is not a save.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Bodyguard_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Bodyguard%20%28ToS2%29&oldid=5558"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_3",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_3",
+      "GUI_ROLE_ATTRIBUTES_3",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "cleric": {
+    "action": "Barrier one player for Powerful Defense that night, stopping Basic and Powerful attacks.",
+    "keyRule": "Your named-target attack notice means the target was attacked. Quiet nights give no save notice. Self Barrier has one use; Grace Period disables N1 protection.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Barrier 4; if 4 is attacked, you can receive attack feedback while 4 receives the separate Barrier notice. Unstoppable attacks still bypass this defense.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cleric_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Cleric%20%28ToS2%29&oldid=4540"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_4",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_4",
+      "GUI_ROLE_ATTRIBUTES_4",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "crusader": {
+    "action": "Fortify one player with Powerful Defense and attack one random direct visitor to their house.",
+    "keyRule": "Your visitor attack can hit Town. Target-attack feedback and visitor-attack feedback are separate; neither identifies the struck visitor. Grace Period disables N1 protection.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Fortify 4; a friendly Sheriff visiting 4 can be hit. You do not automatically learn that visitor’s identity.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Crusader_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Crusader%20%28ToS2%29&oldid=3870"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_6",
+      "GUI_ROLE_ATTRIBUTES_6",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "oracle": {
+    "action": "Choose a Town role, not a player number, and protect its holders with Powerful Defense for that night.",
+    "keyRule": "Aegis is astral: it makes no ordinary visible visit. Do not choose the same role consecutively; Oracle itself is once-only. Grace Period disables N1 Aegis.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Aegis Sheriff covers actual Sheriffs, not everyone claiming Sheriff. Its protection notice names neither a player nor a role.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Oracle_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Oracle%20%28ToS2%29&oldid=5690"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_56",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_56_1",
+      "GUI_ROLE_ATTRIBUTES_56",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "trapper": {
+    "action": "Build a Trap for one night, then place it at a player’s house. It stays there until triggered or dismantled.",
+    "keyRule": "Only one active Trap. A harmful trigger attacks and intercepts the visitor; a non-harmful trigger reveals visitor roles. Rebuild before placing again after a trigger.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "N1 Build; N2 place on 4; N3 trigger; N4 rebuild; N5 place again. A quiet existing Trap is not a new nightly visit.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trapper_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Trapper%20%28ToS2%29&oldid=6488"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_21",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_21",
+      "GUI_ROLE_ATTRIBUTES_21",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "deputy": {
+    "action": "Use your single daytime High Noon shot on a supported suspect. You have no night ability.",
+    "keyRule": "Available from D2. A miss can result from apparent Town status or defense and still spends your only shot; it is private feedback.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "D3 shoot 9 and miss: record the miss and stop claiming further shots. A held shot is not a miss.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Deputy_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Deputy%20%28ToS2%29&oldid=6299"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_7",
+      "GUI_ROLE_ATTRIBUTES_7",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "trickster": {
+    "action": "Place a Magic Mirror to absorb a qualifying direct attack. After absorbing one, use Unleash to send that stored attack at another player.",
+    "keyRule": "You cannot place another Mirror while storing an attack. Self Mirror is once-only; an Unstoppable attack shatters a Mirror. No absorption means no stored shot.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "N2 Mirror 4 absorbs a Vigilante attack; N3 Unleash it on a supported target, or hold it without placing another Mirror.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Trickster_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Trickster%20%28ToS2%29&oldid=5398"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_22",
+      "GUI_ROLE_ABILITY2_DESC_22",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_22",
+      "GUI_ROLE_ATTRIBUTES_22",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "veteran": {
+    "action": "Choose Alert to defend yourself and shoot your direct visitors that night; choose No Alert to save a charge.",
+    "keyRule": "Three Alerts. Alert gives Basic Defense and Powerful attacks, including against Town visitors. Shot feedback is a count, not visitor identities.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Alert and shoot two visitors: that does not prove both died or tell you which players they were.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Veteran_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Veteran%20%28ToS2%29&oldid=6536"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_23",
+      "GUI_ROLE_ATTRIBUTES_23",
+      "GUI_ROLE_ATTRIBUTES_23_1",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "vigilante": {
+    "action": "Load a bullet on a night you do not shoot, then Shoot a player on a later night.",
+    "keyRule": "Three bullets to load; Load and Shoot take separate nights. Shooting Town removes your gun. A surviving target is not automatically evil.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "N1 Load, N2 Shoot, N3 Load. If a Town-hit penalty removes the gun, you cannot keep loading or firing.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vigilante_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Vigilante%20%28ToS2%29&oldid=5532"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_24",
+      "GUI_ROLE_ABILITY1_DESC_24_1",
+      "GUI_ROLE_ATTRIBUTES_24",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "admirer": {
+    "action": "Use your starting subalignment clue to find your Obsession with Admire. Finding them unlocks Care, protecting both of you.",
+    "keyRule": "Care has two uses. Daytime Bestow has two separate uses and grants lasting astral visits plus roleblock/control immunity. Care is unavailable before discovery.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Admire 4 and find your Obsession; a later Care protects both of you. Bestow is a separate day action, not another Admire.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Admirer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Admirer%20%28ToS2%29&oldid=6658"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_1",
+      "GUI_ROLE_ABILITY1_DESC_1",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_1",
+      "GUI_ROLE_ATTRIBUTES_1",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "amnesiac": {
+    "action": "Automatically Remember an eligible dead Town role in the morning, then play as that role.",
+    "keyRule": "You do not select a corpse by visiting it at night. Town Power gets priority; once you remember, use the new role’s actions and limits.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "N1 wait; D2 remember Sheriff; from N2, use Search rather than inventing an Amnesiac night action.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Amnesiac_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Amnesiac%20%28ToS2%29&oldid=6546"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_2",
+      "GUI_ROLE_ATTRIBUTES_2",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "retributionist": {
+    "action": "Raise an eligible dead Town player, then choose where their borrowed ability acts. You receive that ability’s feedback.",
+    "keyRule": "You visit the corpse; the zombie visits its destination. You need a usable body, cannot normally use Stoned corpses or protect yourself, and are roleblock/control immune.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Raise dead Sheriff 6 to check living 9. Report both numbers and the borrowed result; an unavailable corpse gives no check.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Retributionist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Retributionist%20%28ToS2%29&oldid=5202"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_15",
+      "GUI_ROLE_ABILITY2_DESC_15",
+      "GUI_ROLE_ATTRIBUTES_15",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "socialite": {
+    "action": "Add guests during the day, then Party at a house to reject uninvited visitors.",
+    "keyRule": "Two manual guests total, at most one added per day. Do not Party at the same house consecutively. This obstructs incoming visits, not the resident’s outgoing ability.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Party at 4 can stop an uninvited player reaching 4. A rejection notice does not name that visitor.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Socialite_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Socialite%20%28ToS2%29&oldid=5893"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_54",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_54",
+      "GUI_ROLE_ATTRIBUTES_54",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "tavern-keeper": {
+    "action": "Drink with a player to attempt to roleblock their night action.",
+    "keyRule": "After a successful block, Hangover prevents an immediate repeat block or Control. You are roleblock immune; visiting certain killers can make them retaliate.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Drink with 4 on N1; choose someone else on N2. No deaths after the block does not prove 4 is the killer.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Tavern_Keeper_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Tavern%20Keeper%20%28ToS2%29&oldid=4009"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_19",
+      "GUI_ROLE_ATTRIBUTES_19",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "catalyst": {
+    "action": "Overcharge a player so their ability can act twice on its following day or night cycle.",
+    "keyRule": "The recipient’s role determines the timing and effect. Applying Overcharge is not itself proof that two actions succeeded.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "Overcharge a night actor on N1; confirm their following cycle rather than promising two actions on the application night.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Catalyst_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Catalyst%20%28ToS2%29&oldid=6496"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_59",
+      "GUI_ROLE_ATTRIBUTES_59",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "pilgrim": {
+    "action": "You have no active ability. Help Town by comparing claims, asking useful questions and voting.",
+    "keyRule": "No night targets or special results. Public observations belong in day notes, and Pilgrim must be permitted by the setup.",
+    "win": "Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.",
+    "example": "“7 changed their N1 target” records a public contradiction; it is not a private investigative result.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Town",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pilgrim_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Pilgrim%20%28ToS2%29&oldid=6432"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ATTRIBUTES_57",
+      "GUI_FACTION_GOAL_1",
+      "GUI_FACTION_VICTORY_CONDITION_1"
+    ]
+  },
+  "archmage": {
+    "action": "Retrain a teammate into an available Common Coven role, or retrain yourself into an available Coven Killing or Coven Power role.",
+    "keyRule": "A role change needs legal availability and the actual resulting role. Book attacks are an alternative to Retrain, not a simultaneous extra action.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Retrain an ally only when the replacement solves a team problem; verify the changed role before planning its next ability.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Archmage_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Archmage%20%28ToS2%29&oldid=5752"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_26",
+      "GUI_ROLE_ATTRIBUTES_26",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "hex-master": {
+    "action": "Hex one player each night. Marks persist, so spread them among opponents likely to stay alive.",
+    "keyRule": "Hex Bomb automatically kills the Hexed opponents once every living non-Coven player is Hexed and you are alive at resolution, usually dawn. No Bomb button or Necronomicon is required.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Only 4, 7 and 9 remain outside Coven; 4 and 7 are Hexed. Hex 9, or have 9 eliminated, to complete the Bomb condition. Stay alive through resolution.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Hex_Master_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Hex%20Master%20%28ToS2%29&oldid=6232"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_29",
+      "GUI_ROLE_ATTRIBUTES_29",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "witch": {
+    "action": "Control one player into a second destination. Your faction learns the controlled player’s role; you receive their borrowed ability feedback.",
+    "keyRule": "You normally visit only the first player. Change that player on consecutive nights. Revealing them Illuminates them, making them unavailable to Blood Ritual.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Control Sheriff 4 into 9: your visible destination is 4; the borrowed Search checks 9. No completed Control means no borrowed result.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Witch_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Witch%20%28ToS2%29&oldid=5401"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_39",
+      "GUI_ROLE_ABILITY2_DESC_39",
+      "GUI_ROLE_ATTRIBUTES_39",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "conjurer": {
+    "action": "Use your one daytime Meteor from D2 for a Powerful attack. With the book, you can also make normal night attacks.",
+    "keyRule": "Meteor does not publicly name you as its caster, but its attack is public. A defended Meteor still spends the single use.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Save Meteor for a consequential removal; a failed kill does not restore the charge.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Conjurer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Conjurer%20%28ToS2%29&oldid=6365"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_25",
+      "GUI_ROLE_ATTRIBUTES_25",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "ritualist": {
+    "action": "Blood Ritual guesses an eligible player’s exact role for an astral Unstoppable attack.",
+    "keyRule": "Two attempts. A wrong guess spends one and can give no failure notice. You cannot guess Town Investigatives or Illuminated players; Grace Period blocks N1 Ritual.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "A confident exact-role guess can kill through ordinary protection, but not Invincible Defense. Guessing a broad alignment is not an exact-role Ritual.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Ritualist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Ritualist%20%28ToS2%29&oldid=5403"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_36",
+      "GUI_ROLE_ATTRIBUTES_36",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "jinx": {
+    "action": "Choose a house and attack one random non-Coven visitor. With the book, you also attack its resident.",
+    "keyRule": "Other direct visitors can learn your identity and the house, including a surviving victim. An attack notice gives no full visitor list.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Jinx 4; if several players visit, an unhit witness can identify you. A quiet house gives no visitor attack.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jinx_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Jinx%20%28ToS2%29&oldid=5984"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_31",
+      "GUI_ROLE_ATTRIBUTES_31",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "dreamweaver": {
+    "action": "Dreamweave a Town player. If no Town visit cures them the following night, they develop Insomnia and lose day and night ability use.",
+    "keyRule": "Dreamweave is delayed, not an instant roleblock. Your death or retraining normally clears the effect.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Weave 4 on N1; a Town visitor on N2 can cure them. Without that cure, Insomnia develops afterward.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Dreamweaver_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Dreamweaver%20%28ToS2%29&oldid=5416"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_27",
+      "GUI_ROLE_ATTRIBUTES_27",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "enchanter": {
+    "action": "Enchant to falsify investigative appearances. Or spend one of two Alterates to forge a player’s shown death role, faction and will.",
+    "keyRule": "Enchant does not reveal the target’s true role. An Alterate must coincide with the target’s death that night; a surviving target does not show the forgery.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Coordinate Alterate 4 with a planned death. Do not call a living player successfully forged just because you selected a replacement will.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Enchanter_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Enchanter%20%28ToS2%29&oldid=6673"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_28",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_28",
+      "GUI_ROLE_ATTRIBUTES_28",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "illusionist": {
+    "action": "Illusion an ally to disguise their investigative appearance. Use one Phantasm for the living team, or set your own displayed death role and faction.",
+    "keyRule": "These effects change appearances, not real roles or loyalties. A book attack replaces the ordinary protection choice; Illusion does not stop Bodyguard/Trap interception.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Illusion the acting book holder to hide investigative evidence; do not promise that this shields them from every defensive role.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Illusionist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Illusionist%20%28ToS2%29&oldid=6359"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_30",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_30",
+      "GUI_ROLE_ATTRIBUTES_30",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "medusa": {
+    "action": "Spend up to three Stone Gazes to permanently mark players. If a marked player dies, opponents cannot read their role or will.",
+    "keyRule": "Stone is not a kill or protection. You start self-Stoned; marked deaths remain readable to Coven. A visible N1 Stone can contradict an unavailable TP cover.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Stone 4 tonight; if 4 dies on a later night, their hidden role/will effect still applies. Holding Stone creates no ordinary Stone visit.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Medusa_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Medusa%20%28ToS2%29&oldid=5933"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_32",
+      "GUI_ROLE_ATTRIBUTES_32",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "necromancer": {
+    "action": "Reanimate an eligible corpse and direct its borrowed ability to a destination. You receive its feedback.",
+    "keyRule": "You visit the corpse, not its destination. Each usable evil corpse is once-only; Town corpses can be reused. Book attacks replace ordinary reanimation.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Use dead Sheriff 6 to check 9. A missing or unsuitable corpse is a failure, not an Innocent result.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Necromancer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Necromancer%20%28ToS2%29&oldid=5465"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_33",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_33",
+      "GUI_ROLE_ATTRIBUTES_33",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "poisoner": {
+    "action": "Choose Drink to roleblock a player, or Smog to obstruct visits into their house.",
+    "keyRule": "Drink affects the resident’s action; Smog affects incoming visitors. Smog cannot accompany a book attack and can obstruct Coven teammates.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Smog 4 can stop your own teammate reaching 4. Drink 4 instead tries to stop 4 from acting.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Poisoner_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Poisoner%20%28ToS2%29&oldid=6228"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_34",
+      "GUI_ROLE_ABILITY2_DESC_34",
+      "GUI_ROLE_ATTRIBUTES_34",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "potion-master": {
+    "action": "Choose Barrier for Powerful Defense or Reveal to learn a player’s role with Coven. The book adds a Harmful attack potion.",
+    "keyRule": "Use one mode for the night. Reveal also Illuminates the player, blocking Blood Ritual on them. Quiet Barrier feedback is not a save.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Reveal 4 supplies role knowledge; Barrier 4 supplies protection. The same visit cannot be reported as both modes without a real extra-action effect.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Potion_Master_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Potion%20Master%20%28ToS2%29&oldid=5596"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_35",
+      "GUI_ROLE_ABILITY2_DESC_35",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_35",
+      "GUI_ROLE_ATTRIBUTES_35",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "voodoo-master": {
+    "action": "Choose a doll: Silence stops next-day speech, Deafen hides next-day chat, or Blind hides night feedback.",
+    "keyRule": "Do not target the same player on consecutive nights, even with a different doll. With the book, the selected effect can also carry an attack.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Blind an information role to suppress its result; do not describe that effect as an ordinary roleblock or assume no victim report means failure.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Voodoo_Master_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Voodoo%20Master%20%28ToS2%29&oldid=6360"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_37",
+      "GUI_ROLE_ABILITY2_DESC_37",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_37",
+      "GUI_ROLE_ATTRIBUTES_37",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "wildling": {
+    "action": "Sense a player’s visible destinations and visitors. In text mode, you also overhear whispers.",
+    "keyRule": "Outgoing destinations and incoming visitors are separate lists. Astral travel is invisible; whisper content is separate from Sense feedback.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Sense 4: “went to 9; visitors 7 and 11” means three different relationships, not a list of everyone you personally visited.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Wildling_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Wildling%20%28ToS2%29&oldid=6347"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_38",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_38",
+      "GUI_ROLE_ATTRIBUTES_38",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "covenite": {
+    "action": "You have no special role ability. Coordinate with Coven; if you hold the book, use its night attack.",
+    "keyRule": "No book means no Covenite night action. The role must be permitted by the setup; team information is not your own investigation.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "An N1 hold without the book is normal. Do not invent a target or result merely to fill your private history.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Covenite_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Covenite%20%28ToS2%29&oldid=6354"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ATTRIBUTES_58",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "cultist": {
+    "action": "Use your one daytime Indoctrinate to convert an eligible Town player into Coven, retaining their role and abilities.",
+    "keyRule": "Successful recruitment ends your Basic Defense. Confirm the faction change; a book attack is separate from the daytime conversion.",
+    "win": "Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.",
+    "example": "Convert a Cleric: they remain Cleric but now win with Coven. You have not changed their role into Cultist.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Coven",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cultist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Cultist%20%28ToS2%29&oldid=6353"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_60",
+      "GUI_ROLE_ATTRIBUTES_60",
+      "GUI_FACTION_GOAL_2",
+      "GUI_FACTION_VICTORY_CONDITION_2"
+    ]
+  },
+  "baker": {
+    "action": "Feed Bread to other players at night. Get three other living players with Bread to become Famine.",
+    "keyRule": "Your own starting Bread is not one of those three recipients. If fewer than three others remain, all living players must have Bread instead.",
+    "win": "Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.",
+    "example": "Feed 4, 7 and 9 and keep them alive. A fed player dying before completion removes them from the living-recipient count.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_41",
+      "GUI_ROLE_ATTRIBUTES_41",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "berserker": {
+    "action": "You start attacking on N2. Actual kills build your strength toward War.",
+    "keyRule": "First kill: Powerful attack. Second: Rampage. Third: transform into War, gaining two-target Unstoppable Rampages and Invincible Defense. A survived attempt adds no kill.",
+    "win": "Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.",
+    "example": "N2 attack and kill gives progress; N3 attack stopped by defense does not. Count kills, not the nights you pressed Attack.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_42",
+      "GUI_ROLE_ATTRIBUTES_42",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "plaguebearer": {
+    "action": "Infect players until every other living player is infected. Contact with infected players spreads the infection; your two starting neighbors begin infected.",
+    "keyRule": "Completing infection transforms you into Pestilence. Passive spread counts too; already infected players are not new progress.",
+    "win": "Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.",
+    "example": "Infect an active visitor so their contacts spread infection. Watch the living infection markers, not just your direct target list.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_47",
+      "GUI_ROLE_ATTRIBUTES_47",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "soul-collector": {
+    "action": "Reap players to mark them for extra souls when they die. You also gain one passive soul each night.",
+    "keyRule": "At seven actual souls you transform into Death. Reap does not kill its target; their later death supplies progress.",
+    "win": "Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.",
+    "example": "Mark a likely victim, then check the soul counter. Once Death arrives, stop using the old Reap plan.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_50",
+      "GUI_ROLE_ATTRIBUTES_50",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "doomsayer": {
+    "action": "From N2, confirm three simultaneous player/role guesses. All three must be correct in the same set.",
+    "keyRule": "One wrong guess fails the whole set without identifying the mistake. Do not guess Town Investigative roles; Doom victims die later, not immediately on confirmation.",
+    "win": "Win by correctly Dooming all three players in one set; you then leave Town in victory. You do not need to eliminate the rest of the town.",
+    "example": "4 Cleric, 7 Coven Utility and 9 Vigilante must all match in one submitted set. Two correct guesses are no win.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Doomsayer",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Doomsayer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Doomsayer%20%28ToS2%29&oldid=6436"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_43",
+      "GUI_ROLE_ATTRIBUTES_43",
+      "GUI_FACTION_GOAL_11",
+      "GUI_FACTION_VICTORY_CONDITION_11"
+    ]
+  },
+  "executioner": {
+    "action": "Read your assigned Town target and get that specific player hanged while you are alive.",
+    "keyRule": "Other deaths are not your hanging objective; losing the target that way can turn you into Jester, with a different win requirement.",
+    "win": "Win when your assigned target is hanged while you are alive. Hanging someone else or killing the target at night does not satisfy it.",
+    "example": "If the assigned target dies to a night attack, do not claim the Executioner win. Follow your new role if you become Jester.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Executioner",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Executioner_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Executioner%20%28ToS2%29&oldid=6370"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ATTRIBUTES_44",
+      "GUI_FACTION_GOAL_8",
+      "GUI_FACTION_VICTORY_CONDITION_8"
+    ]
+  },
+  "jester": {
+    "action": "Meet the day’s Chatterbox message quota, then get yourself hanged by the trial system.",
+    "keyRule": "Failing the quota prevents your win even if hanged and can kill you of boredom. A qualifying hanging unlocks a Haunt against an eligible guilty/abstaining voter.",
+    "win": "Win by being hanged after meeting that day’s Chatterbox quota. Dying to an attack or being hanged with an unmet quota is not enough.",
+    "example": "Complete the quota before judgment and last words, which do not count. A night death is not the hanging you need.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Jester",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Jester_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Jester%20%28ToS2%29&oldid=6368"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_45",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_45",
+      "GUI_ROLE_ATTRIBUTES_45",
+      "GUI_FACTION_GOAL_9",
+      "GUI_FACTION_VICTORY_CONDITION_9"
+    ]
+  },
+  "pirate": {
+    "action": "Scour to find your three secretly assigned Landlubbers. From N2, Plunder can attack one, with three Plunder uses.",
+    "keyRule": "All three assigned players must die; other killers can do it. Killing a non-Landlubber with Plunder removes your remaining Plunders. There are no duels.",
+    "win": "Stay alive until all three assigned Landlubbers are dead, then leave in victory. Three arbitrary kills do not satisfy the objective.",
+    "example": "Scour 4 and find a Landlubber. If someone else kills 4, that still advances your objective while you stay alive.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Pirate",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Pirate_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Pirate%20%28ToS2%29&oldid=6542"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_46",
+      "GUI_ROLE_ABILITY1_DESC_46",
+      "GUI_ROLE_ATTRIBUTES_46",
+      "GUI_FACTION_GOAL_10",
+      "GUI_FACTION_VICTORY_CONDITION_10"
+    ]
+  },
+  "arsonist": {
+    "action": "Douse players directly and passively Douse your normal visitors. Choose Ignite to burn all previously Doused players.",
+    "keyRule": "Ignite is a separate astral Unstoppable attack. Taking no action can Clean gasoline from yourself; Douse and Clean do not burn targets.",
+    "win": "Win with the Arsonist faction by eliminating its opponents. You do not need to Douse every survivor before choosing Ignite.",
+    "example": "Douse 4 and 7, then choose Ignite on a later night. Do not wait for automatic ignition or mistake a passive visitor for your own visit.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Arsonist",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Arsonist_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Arsonist%20%28ToS2%29&oldid=5504"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_40",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_40",
+      "GUI_ROLE_ATTRIBUTES_40",
+      "GUI_FACTION_GOAL_4",
+      "GUI_FACTION_VICTORY_CONDITION_4"
+    ]
+  },
+  "serial-killer": {
+    "action": "Attack at night. Two consecutive kills prepare a Powerful Rampage for your next attack.",
+    "keyRule": "A night without a kill resets Bloodlust. Cautious prevents your automatic retaliation against roleblockers; it does not cancel your chosen attack.",
+    "win": "Win with the Serial Killer faction by eliminating its opponents. Bloodlust is a combat upgrade, not a separate victory condition.",
+    "example": "Kill on two consecutive nights, then plan the stronger attack’s visitor risk. Two attempted attacks that fail do not build the same progress.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Serial Killer",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Serial_Killer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Serial%20Killer%20%28ToS2%29&oldid=4741"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_48",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_48",
+      "GUI_ROLE_ATTRIBUTES_48",
+      "GUI_FACTION_GOAL_3",
+      "GUI_FACTION_VICTORY_CONDITION_3"
+    ]
+  },
+  "shroud": {
+    "action": "Choose a direct attack, or Shroud a player so their direct visits carry Basic attacks.",
+    "keyRule": "If the Shrouded player makes no direct visit, the fallback attacks that player instead. Their chosen route determines the victims.",
+    "win": "Win with the Shroud faction by eliminating its opponents. A successful Shroud or fallback kill is progress, not an automatic win.",
+    "example": "Shroud 4 and they visit 9: the attack follows to 9. If 4 stays home, the fallback attacks 4.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Shroud",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Shroud_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Shroud%20%28ToS2%29&oldid=5928"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_49",
+      "GUI_ROLE_SPECIAL_ABILITY_DESC_49",
+      "GUI_ROLE_ATTRIBUTES_49",
+      "GUI_FACTION_GOAL_6",
+      "GUI_FACTION_VICTORY_CONDITION_6"
+    ]
+  },
+  "werewolf": {
+    "action": "On human nights, learn a player’s scent and keep receiving their destinations. On Full Moons, Rampage at a house or at home.",
+    "keyRule": "Baseline Full Moons are N2, N4 and every night afterward. Home Rampage attacks your visitors; an existing scent can still report without a new visit.",
+    "win": "Win with the Werewolf faction by eliminating its opponents. Learning every scent is not required.",
+    "example": "Scent 4 on N1; Rampage at 9 on N2 while the old scent can still report where 4 went.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Werewolf",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Werewolf_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Werewolf%20%28ToS2%29&oldid=6584"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_51",
+      "GUI_ROLE_ABILITY2_DESC_51",
+      "GUI_ROLE_ATTRIBUTES_51",
+      "GUI_FACTION_GOAL_5",
+      "GUI_FACTION_VICTORY_CONDITION_5"
+    ]
+  },
+  "cursed-soul": {
+    "action": "Soul Swap exchanges roles with a player; it does not exchange factions. After swapping, use the new role’s abilities.",
+    "keyRule": "In the default Wandering Souls faction, the goal is to remove every remaining Cursed Soul role. Check the actual role gained; the swap can be redirected or randomized.",
+    "win": "In the default Wandering Souls faction, eliminate every Cursed Soul role while a Wandering Souls member survives. Your current role and your faction are separate.",
+    "example": "Swap into Sheriff and you still belong to Wandering Souls. The player given Cursed Soul keeps their old faction.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Wandering Souls",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Cursed_Soul_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Cursed%20Soul%20%28ToS2%29&oldid=5714"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_53",
+      "GUI_ROLE_ABILITY1_DESC_53_1",
+      "GUI_ROLE_ABILITY1_DESC_53_13",
+      "GUI_ROLE_ATTRIBUTES_53",
+      "GUI_FACTION_GOAL_13",
+      "GUI_FACTION_VICTORY_CONDITION_13"
+    ]
+  },
+  "vampire": {
+    "action": "Convert an undefended Town player into your Vampire faction, or Drain for a Basic attack. Conversion keeps their existing role.",
+    "keyRule": "Three Convert charges. An ineligible Convert falls back to Drain. If you die, a surviving converted faction member can inherit the Vampire role and remaining charges.",
+    "win": "Win with the Vampire faction by eliminating or converting its opponents. A single conversion is recruitment, not the win itself.",
+    "example": "Convert a Cleric: they keep Barrier but now win with Vampires. Their survival alone does not prove recruitment.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Vampire",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Vampire_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Vampire%20%28ToS2%29&oldid=4747"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY2_DESC_52",
+      "GUI_ROLE_ABILITY1_DESC_52",
+      "GUI_ROLE_ATTRIBUTES_52",
+      "GUI_FACTION_GOAL_12",
+      "GUI_FACTION_VICTORY_CONDITION_12"
+    ]
+  },
+  "famine": {
+    "action": "You are already Famine. Starve a living Bread recipient to remove one day of Bread and accelerate their starvation.",
+    "keyRule": "While you remain alive, opponents consume Bread each morning and die when they have none to eat. Do not resume Baker’s Feed plan.",
+    "win": "Win with Apocalypse by eliminating its opponents. Keep Famine alive to continue starvation; becoming Famine is not itself a win.",
+    "example": "A Bread recipient can survive today while their supply shrinks. Keep Famine alive and track the remaining Bread; a Starve selection is not an immediate kill.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Baker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Baker%20%28ToS2%29&oldid=6503"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_250",
+      "GUI_ROLE_ATTRIBUTES_250",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "war": {
+    "action": "You are already War. Choose up to two distinct houses for Unstoppable Rampages that also attack their visitors.",
+    "keyRule": "Your Invincible Defense stops ordinary attacks, not hanging or defense-ignoring effects. You no longer need Berserker’s three-kill buildup.",
+    "win": "Win with Apocalypse by eliminating its opponents. Use your Rampages to finish remaining enemies; becoming War is not itself a win.",
+    "example": "Attack 4 and 9 in one night if both destinations are useful; count visitors and team traffic before committing.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Berserker_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Berserker%20%28ToS2%29&oldid=6632"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_251",
+      "GUI_ROLE_ABILITY2_DESC_251",
+      "GUI_ROLE_ATTRIBUTES_251",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "pestilence": {
+    "action": "You are already Pestilence. Visit to apply the maximum Pestilence stacks; contacts also spread stacks between players.",
+    "keyRule": "Three stacks kill a player. These stacks replace the earlier infection goal; you are roleblock/obstacle immune, but hanging can still remove you.",
+    "win": "Win with Apocalypse by eliminating its opponents. Stack deaths help remove them; becoming Pestilence is not itself a win.",
+    "example": "A player at one or two stacks can survive. Your selected Spread fills their stacks; track the actual resulting deaths.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Plaguebearer_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Plaguebearer%20%28ToS2%29&oldid=5579"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_252",
+      "GUI_ROLE_ATTRIBUTES_252",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  },
+  "death": {
+    "action": "You are already Death. Survive the day of your public transformation until sundown.",
+    "keyRule": "There is no further ordinary Reap action. Surviving the daytime deadline brings Apocalypse against non-Apocalypse players; being hanged first stops that route.",
+    "win": "Survive your transformation day to sundown so Apocalypse resolves for your faction. Transformation alone does not win; daytime execution can still stop you.",
+    "example": "Transform on D5: your decisive task is surviving D5’s votes. You do not need to select another night target.",
+    "reviewedOn": "2026-10-19",
+    "defaultFaction": "Apocalypse",
+    "sourceUrls": [
+      "https://townofsalem.wiki.gg/wiki/Soul_Collector_(ToS2)",
+      "https://townofsalem.wiki.gg/w/index.php?title=Soul%20Collector%20%28ToS2%29&oldid=6562"
+    ],
+    "clientKeys": [
+      "GUI_ROLE_ABILITY1_DESC_253",
+      "GUI_ROLE_ATTRIBUTES_253",
+      "GUI_FACTION_GOAL_7",
+      "GUI_FACTION_VICTORY_CONDITION_7"
+    ]
+  }
+}

@@ -313,6 +313,15 @@ def build():
             assert all(route.get(f) for f in ['id','label','when','action','targetRule','reason','pivot','risk','sourceUrls']), (role['id'],route['id'])
             assert len(route['goals'])==len(route['laterPriorities'])==3, (role['id'],route['id'])
             assert re.fullmatch(r'[a-z0-9-]+', route['id']), (role['id'],route['id'])
+    # Essentials state the action, activation requirement and win before edge cases.
+    essentials = json.loads((PROJECT/'content/role-essentials.json').read_text())
+    assert set(essentials) == {r['id'] for r in all_roles}
+    for role in all_roles:
+        core = copy.deepcopy(essentials[role['id']])
+        for field in ['action','keyRule','win','example']:
+            assert core[field].strip() and len(core[field].split())<=58, (role['id'],field)
+        assert core['clientKeys'] and core['sourceUrls'], role['id']
+        role['coreGuide'] = core
     # Study guides use the original source-reviewed dossiers and expanded mechanics.
     study_facts = json.loads((PROJECT/'content/role-study-facts.json').read_text())
     study_titles = ['Role and ability', 'Win condition', 'Interactions and limits',
@@ -340,6 +349,15 @@ def build():
                 {'title':'Transition and cover limits','markdown':role['claimAudit']['summary']},
                 {'title':'Win condition','markdown':chapters['Win condition'].strip()}]
             role['studyGuide']['details'] = [{'title':parent['name']+' before transformation · '+x['title'],'markdown':x['markdown']} for x in sections]
+    for role in all_roles:
+        core = role['coreGuide']
+        role['studyGuide']['summary'] = core['action']+' '+core['keyRule']
+        for section in role['studyGuide']['sections']:
+            if section['title'] in ['Role and ability','Current ability and objective']:
+                section['markdown'] = core['action']+'\n\n**Key rule:** '+core['keyRule']+'\n\n**In practice:** '+core['example']
+            elif section['title']=='Win condition':
+                section['markdown'] = core['win']+'\n\nThis is the default '+core['defaultFaction']+' faction objective. If converted or playing Flexible Factions, your current faction determines whom you win with; changing roles alone does not change faction.'
+        role['studyGuide']['reviewedOn'] = core['reviewedOn']
     assert len(route_copy)==64
     # Presentation priorities are authored per current role, including each
     # transformed state. Never inherit a parent's warning after transformation.

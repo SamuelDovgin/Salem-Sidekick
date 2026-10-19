@@ -1,16 +1,18 @@
 # Pilgrim
 
-Default role family: **Town Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6432. No live-client test is claimed.
+Default role family: **Town Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6432. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-An Outlier Town role with no active ability. Its value comes from discussion, voting, and information organization rather than nightly feedback.
+You have no active ability. Help Town by comparing claims, asking useful questions and voting.
+
+**Key rule:** No night targets or special results. Public observations belong in day notes, and Pilgrim must be permitted by the setup.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Custom factions and hidden deaths complicate slot reasoning. You can remain usef
 
 ## Worked decision
 
-#7 changes their claimed N1 target: quote the conflicting statements and ask for clarification, rather than inventing a night check.
+“7 changed their N1 target” records a public contradiction; it is not a private investigative result.
 
 ## Wills and cover reasoning
 

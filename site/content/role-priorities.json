@@ -301,12 +301,12 @@
   },
   "hex-master": {
     "mustKnow": {
-      "title": "The book changes your movement",
-      "body": "Book Hex and its Basic Attack become astral. A cover promising a normal visible visit can contradict your real action."
+      "title": "Hex every living opponent; stay alive",
+      "body": "The Hex Bomb triggers automatically when every living non-Coven player is Hexed and you are alive at resolution. Dead players no longer count. There is no Bomb button and no book requirement."
     },
     "goodToKnow": {
-      "title": "Hex progress is not a completed bomb",
-      "body": "Bomb completion has its own trigger and requires the Hex Master to remain active under its conditions. Keep progression private and separate from ordinary attack results."
+      "title": "The book changes your movement",
+      "body": "With the Necronomicon, Hex also makes a Basic Attack and becomes astral. Existing marks remain. The Bomb ignores defense; your ordinary book attack does not."
     }
   },
   "witch": {

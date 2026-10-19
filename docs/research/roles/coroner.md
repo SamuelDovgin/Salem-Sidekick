@@ -1,16 +1,18 @@
 # Coroner
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6348. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6348. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Autopsy a dead player during the day to collect killer information, then Examine living players at night against accumulated records. Without a suitable autopsy, the night check cannot provide that comparison.
+Autopsy a dead player during the day to collect their killer’s role. At night, Examine a living suspect against the killer records you have collected.
+
+**Key rule:** You need an Autopsy before a useful Examine. Records accumulate; no match means no match to your records, not confirmed Town.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Coroner resists ordinary Enchanter/Illusionist result changes. Role changes and 
 
 ## Worked decision
 
-D2 autopsy #6 killed by Coven; N2 examine #9: record both the collected killer role and the actual examination result.
+Autopsy dead 6, then Examine 9. Report the corpse, killer role and match result separately.
 
 ## Wills and cover reasoning
 

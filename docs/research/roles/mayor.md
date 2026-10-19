@@ -1,16 +1,18 @@
 # Mayor
 
-Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5492. No live-client test is claimed.
+Default role family: **Town Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5492. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Reveal from D2 to gain an additional vote immediately and more on subsequent days while alive. A reveal creates public identity and exposure.
+Reveal during the day to increase the weight of your vote. You have no night action.
+
+**Key rule:** Reveal adds one vote immediately; each later day adds another. You cannot Reveal on D1 or while on trial.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Town Traitor hunt affects further vote growth. Public identity can enable role g
 
 ## Worked decision
 
-Your reveal would prevent a supported Town vote from losing today: use the actual button before the trial starts.
+If your extra vote changes today’s majority, Reveal before you are put on trial.
 
 ## Wills and cover reasoning
 

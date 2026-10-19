@@ -1,16 +1,18 @@
 # Crusader
 
-Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 3870. No live-client test is claimed.
+Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 3870. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Fortify grants Powerful Defense and attacks one random direct visitor with Basic Attack, regardless of whether that visitor is friendly.
+Fortify one player with Powerful Defense and attack one random direct visitor to their house.
+
+**Key rule:** Your visitor attack can hit Town. Target-attack feedback and visitor-attack feedback are separate; neither identifies the struck visitor. Grace Period disables N1 protection.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Astral actions avoid visitor retaliation. A visiting protector can die in a ramp
 
 ## Worked decision
 
-Two allies intend to visit the same leader: coordinate another protection target rather than risking killing one of them.
+Fortify 4; a friendly Sheriff visiting 4 can be hit. You do not automatically learn that visitor’s identity.
 
 ## Wills and cover reasoning
 

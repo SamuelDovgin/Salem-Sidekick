@@ -1,16 +1,18 @@
 # Cultist
 
-Default role family: **Coven Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6353. No live-client test is claimed.
+Default role family: **Coven Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6353. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-An Outlier with one day Indoctrinate converting an eligible Town player into your faction while retaining their role. Book use is separate.
+Use your one daytime Indoctrinate to convert an eligible Town player into Coven, retaining their role and abilities.
+
+**Key rule:** Successful recruitment ends your Basic Defense. Confirm the faction change; a book attack is separate from the daytime conversion.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Cultist’s pre-conversion defense and special slot behavior are setup details. 
 
 ## Worked decision
 
-An established Town ally becomes converted: their public role demonstration remains real, but the team objective has changed.
+Convert a Cleric: they remain Cleric but now win with Coven. You have not changed their role into Cultist.
 
 ## Wills and cover reasoning
 

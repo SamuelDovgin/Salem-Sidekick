@@ -1,16 +1,18 @@
 # Necromancer
 
-Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5465. No live-client test is claimed.
+Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5465. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Reanimate suitable corpses and direct their actions. More corpse types are available than for normal Town Ret; each evil corpse is limited, and book attacks replace ordinary reanimation.
+Reanimate an eligible corpse and direct its borrowed ability to a destination. You receive its feedback.
+
+**Key rule:** You visit the corpse, not its destination. Each usable evil corpse is once-only; Town corpses can be reused. Book attacks replace ordinary reanimation.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Necromancer takes corpse-use priority over Ret. Some day-role bodies act at the 
 
 ## Worked decision
 
-Use a legal dead Town investigator on #9 and preserve the real returned information; an evil corpse kill would require a different explanation.
+Use dead Sheriff 6 to check 9. A missing or unsuitable corpse is a failure, not an Innocent result.
 
 ## Wills and cover reasoning
 

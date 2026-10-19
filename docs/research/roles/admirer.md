@@ -1,16 +1,18 @@
 # Admirer
 
-Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6658. No live-client test is claimed.
+Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6658. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Learn an Obsession’s subalignment, search for that player, then unlock two Cares. Two day Bestows grant lasting astral visits plus roleblock/control immunity.
+Use your starting subalignment clue to find your Obsession with Admire. Finding them unlocks Care, protecting both of you.
+
+**Key rule:** Care has two uses. Daytime Bestow has two separate uses and grants lasting astral visits plus roleblock/control immunity. Care is unavailable before discovery.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ An Obsession dying before discovery can be reassigned; death after discovery has
 
 ## Worked decision
 
-Your clue is TP and #4 claims protective: checking #4 is a reasoned search, not proof they are truthful.
+Admire 4 and find your Obsession; a later Care protects both of you. Bestow is a separate day action, not another Admire.
 
 ## Wills and cover reasoning
 

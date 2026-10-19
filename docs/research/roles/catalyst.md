@@ -1,16 +1,18 @@
 # Catalyst
 
-Default role family: **Town Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6496. No live-client test is claimed.
+Default role family: **Town Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6496. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-An Outlier that Overcharges a player to enable additional actions on the following ability cycle. It is Unique and needs a compatible setup.
+Overcharge a player so their ability can act twice on its following day or night cycle.
+
+**Key rule:** The recipient’s role determines the timing and effect. Applying Overcharge is not itself proof that two actions succeeded.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Role-specific Overcharge details vary; several have official bug fixes. Complex 
 
 ## Worked decision
 
-An established investigative ally can use another action next cycle: coordinate the benefit and log the charge application.
+Overcharge a night actor on N1; confirm their following cycle rather than promising two actions on the application night.
 
 ## Wills and cover reasoning
 

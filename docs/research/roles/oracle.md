@@ -1,16 +1,18 @@
 # Oracle
 
-Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5690. No live-client test is claimed.
+Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5690. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Choose a Town role, not a player number, and grant its holders Powerful Defense astrally. No consecutive repeat role; Oracle itself is a once-only choice.
+Choose a Town role, not a player number, and protect its holders with Powerful Defense for that night.
+
+**Key rule:** Aegis is astral: it makes no ordinary visible visit. Do not choose the same role consecutively; Oracle itself is once-only. Grace Period disables N1 Aegis.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Aegis is astral and can bypass jail. An ordinary visible visit conflicts with an
 
 ## Worked decision
 
-You know a threatened Seer exists and did not Aegis Seer last night: selecting that role can cover them without a direct visit.
+Aegis Sheriff covers actual Sheriffs, not everyone claiming Sheriff. Its protection notice names neither a player nor a role.
 
 ## Wills and cover reasoning
 

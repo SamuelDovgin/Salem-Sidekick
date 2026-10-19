@@ -1,16 +1,18 @@
 # Dreamweaver
 
-Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5416. No live-client test is claimed.
+Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5416. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Dreamweave Town targets; without a curing Town visit on the following night they develop Insomnia. Death or retraining of the Dreamweaver normally clears its effects.
+Dreamweave a Town player. If no Town visit cures them the following night, they develop Insomnia and lose day and night ability use.
+
+**Key rule:** Dreamweave is delayed, not an instant roleblock. Your death or retraining normally clears the effect.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Poisoner and Voodoo Master can complicate cures. Official fixes make faction, no
 
 ## Worked decision
 
-#4 is isolated and important: assess whether disruption prevents a cure before investing in a Dreamweave line.
+Weave 4 on N1; a Town visitor on N2 can cure them. Without that cure, Insomnia develops afterward.
 
 ## Wills and cover reasoning
 

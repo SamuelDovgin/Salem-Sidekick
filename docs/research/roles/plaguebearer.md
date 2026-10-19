@@ -1,16 +1,18 @@
 # Plaguebearer
 
-Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5579. No live-client test is claimed.
+Default role family: **Neutral Apocalypse**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5579. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Infect players; contact spreads infection and provides propagation information. Adjacent neighbors begin infected in the current baseline. Infect all living opponents to become Pestilence.
+Infect players until every other living player is infected. Contact with infected players spreads the infection; your two starting neighbors begin infected.
+
+**Key rule:** Completing infection transforms you into Pestilence. Passive spread counts too; already infected players are not new progress.
 
 ## Win condition
 
-Win with the Apocalypse faction by eliminating its opponents. Transformation advances your power; it is not itself the final win condition.
+Win with Apocalypse by eliminating its opponents. Transforming unlocks your stronger form; transformation alone is not a win.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Apocalypse faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Astral contact does not spread infection normally. Solo/multi-member Apocalypse 
 
 ## Worked decision
 
-#4 becomes newly infected through contact: identify what the actual feedback establishes before writing a numbered Tracker result.
+Infect an active visitor so their contacts spread infection. Watch the living infection markers, not just your direct target list.
 
 ## Transformed state
 

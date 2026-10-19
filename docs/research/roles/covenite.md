@@ -1,16 +1,18 @@
 # Covenite
 
-Default role family: **Coven Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6354. No live-client test is claimed.
+Default role family: **Coven Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6354. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-An Outlier Coven role with no special ability beyond potential book use and faction cooperation. The roledeck must permit it.
+You have no special role ability. Coordinate with Coven; if you hold the book, use its night attack.
+
+**Key rule:** No book means no Covenite night action. The role must be permitted by the setup; team information is not your own investigation.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Public-reveal Town roles remain poor durable covers. Outlier legality matters to
 
 ## Worked decision
 
-No book tonight: an Oracle story avoids a movement mismatch, but you still cannot produce a genuine protective save.
+An N1 hold without the book is normal. Do not invent a target or result merely to fill your private history.
 
 ## Wills and cover reasoning
 

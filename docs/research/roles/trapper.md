@@ -1,16 +1,18 @@
 # Trapper
 
-Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6488. No live-client test is claimed.
+Default role family: **Town Protective**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6488. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Build before placing a trap. One trap can remain active; a trigger can reveal visitor roles or intercept a harmful visitor. Dismantling rebuilds for a later placement.
+Build a Trap for one night, then place it at a player’s house. It stays there until triggered or dismantled.
+
+**Key rule:** Only one active Trap. A harmful trigger attacks and intercepts the visitor; a non-harmful trigger reveals visitor roles. Rebuild before placing again after a trigger.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Blocks can prevent building. Astral actions do not trigger the trap; some harmfu
 
 ## Worked decision
 
-N1 built; N2 placed on #4; N3 triggered: preserve that sequence instead of claiming a new trap every night.
+N1 Build; N2 place on 4; N3 trigger; N4 rebuild; N5 place again. A quiet existing Trap is not a new nightly visit.
 
 ## Wills and cover reasoning
 

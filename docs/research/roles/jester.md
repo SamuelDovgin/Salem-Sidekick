@@ -1,16 +1,18 @@
 # Jester
 
-Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6368. No live-client test is claimed.
+Default role family: **Neutral Evil**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6368. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Complete the daily text-mode Chatterbox requirement and get hanged. Other deaths do not win. A valid hanging unlocks revenge against eligible voters.
+Meet the day’s Chatterbox message quota, then get yourself hanged by the trial system.
+
+**Key rule:** Failing the quota prevents your win even if hanged and can kill you of boredom. A qualifying hanging unlocks a Haunt against an eligible guilty/abstaining voter.
 
 ## Win condition
 
-Meet the participation prerequisite and get hanged through a valid route; ordinary killing does not satisfy the objective.
+Win by being hanged after meeting that day’s Chatterbox quota. Dying to an attack or being hanged with an unmet quota is not enough.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Jester faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Prosecution and Tribunal have different revenge eligibility. Voice-mode Shuffleb
 
 ## Worked decision
 
-You are being questioned on the stand: contribute eligible messages before judgment and aim for the actual hanging condition.
+Complete the quota before judgment and last words, which do not count. A night death is not the hanging you need.
 
 ## Wills and cover reasoning
 

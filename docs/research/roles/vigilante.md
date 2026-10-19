@@ -1,16 +1,18 @@
 # Vigilante
 
-Default role family: **Town Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5532. No live-client test is claimed.
+Default role family: **Town Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5532. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Load by spending a night at home, then shoot a Basic Attack on another night. Up to three loads; shooting a Town member removes access to the gun.
+Load a bullet on a night you do not shoot, then Shoot a player on a later night.
+
+**Key rule:** Three bullets to load; Load and Shoot take separate nights. Shooting Town removes your gun. A surviving target is not automatically evil.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Control can redirect your shot. Harmful visits interact with guards/traps; roleb
 
 ## Worked decision
 
-N1 load, N2 shoot #7: record the actual outcome. If the gun is lost after a Town shot, stop generating future shooting entries.
+N1 Load, N2 Shoot, N3 Load. If a Town-hit penalty removes the gun, you cannot keep loading or firing.
 
 ## Wills and cover reasoning
 

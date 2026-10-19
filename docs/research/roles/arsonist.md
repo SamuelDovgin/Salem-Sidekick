@@ -1,16 +1,18 @@
 # Arsonist
 
-Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5504. No live-client test is claimed.
+Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5504. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Douse directly and passively douse normal visitors; Ignite burns doused players with an astral Unstoppable attack. Taking no action can clean gasoline from yourself.
+Douse players directly and passively Douse your normal visitors. Choose Ignite to burn all previously Doused players.
+
+**Key rule:** Ignite is a separate astral Unstoppable attack. Taking no action can Clean gasoline from yourself; Douse and Clean do not burn targets.
 
 ## Win condition
 
-Eliminate opposing factions until only your allied Arsonist faction remains.
+Win with the Arsonist faction by eliminating its opponents. You do not need to Douse every survivor before choosing Ignite.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Arsonist faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Astral visitors avoid passive dousing. Multiple Arsonists can affect ignition an
 
 ## Worked decision
 
-You directly douse #4 and #7 becomes passively doused: a cover must not turn #7 into a visitor of #4 without evidence.
+Douse 4 and 7, then choose Ignite on a later night. Do not wait for automatic ignition or mistake a passive visitor for your own visit.
 
 ## Wills and cover reasoning
 

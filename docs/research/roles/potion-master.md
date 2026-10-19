@@ -1,16 +1,18 @@
 # Potion Master
 
-Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5596. No live-client test is claimed.
+Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5596. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Choose Barrier, Reveal, or a Harmful Potion with book. Barrier can genuinely protect; Reveal gives role information and applies Illumination.
+Choose Barrier for Powerful Defense or Reveal to learn a player’s role with Coven. The book adds a Harmful attack potion.
+
+**Key rule:** Use one mode for the night. Reveal also Illuminates the player, blocking Blood Ritual on them. Quiet Barrier feedback is not a save.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Illumination restricts Ritualist. Changing potion mode can undermine a protectio
 
 ## Worked decision
 
-If you genuinely barrier #4, a Cleric-style action matches; if you reveal #7, do not automatically log a proven Murder result.
+Reveal 4 supplies role knowledge; Barrier 4 supplies protection. The same visit cannot be reported as both modes without a real extra-action effect.
 
 ## Wills and cover reasoning
 

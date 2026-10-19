@@ -1,16 +1,18 @@
 # Werewolf
 
-Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6584. No live-client test is claimed.
+Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6584. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-On non-Full-Moon nights, mark a scent to keep receiving that player’s destinations. On Full Moon, make a Powerful Rampage or stay home and rampage there.
+On human nights, learn a player’s scent and keep receiving their destinations. On Full Moons, Rampage at a house or at home.
+
+**Key rule:** Baseline Full Moons are N2, N4 and every night afterward. Home Rampage attacks your visitors; an existing scent can still report without a new visit.
 
 ## Win condition
 
-Eliminate opposing factions until only your allied Werewolf faction remains.
+Win with the Werewolf faction by eliminating its opponents. Learning every scent is not required.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Werewolf faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Jail, roleblock, and Control have dangerous retaliation/redirection interactions
 
 ## Worked decision
 
-You marked #4 earlier but attack #9 tonight: a Tracker story about #4 can be informationally true while failing a check of your own movement.
+Scent 4 on N1; Rampage at 9 on N2 while the old scent can still report where 4 went.
 
 ## Wills and cover reasoning
 

@@ -458,7 +458,7 @@
         "uses": "No fixed charge limit"
       },
       {
-        "name": "7AA2E6;\">Necronomicon",
+        "name": "Necronomicon",
         "phase": "Night",
         "uses": "No fixed charge limit"
       }
@@ -594,17 +594,17 @@
         "uses": "No fixed charge limit"
       },
       {
-        "name": "A331EF;\">Phantasm",
+        "name": "Phantasm",
         "phase": "Night",
         "uses": "1"
       },
       {
-        "name": "A331EF;\">Disguise",
+        "name": "Disguise",
         "phase": "Day/Night",
         "uses": "No fixed charge limit"
       },
       {
-        "name": "7AA2E6\">Necronomicon",
+        "name": "Necronomicon",
         "phase": "Night",
         "uses": "No fixed charge limit"
       }
@@ -745,7 +745,7 @@
     "defense": "None",
     "abilities": [
       {
-        "name": "7AA2E6;\">Necronomicon",
+        "name": "Necronomicon",
         "phase": "Night",
         "uses": "No fixed charge limit"
       }
@@ -763,7 +763,7 @@
         "uses": "1"
       },
       {
-        "name": "7AA2E6\">Necronomicon",
+        "name": "Necronomicon",
         "phase": "Night",
         "uses": "No fixed charge limit"
       }

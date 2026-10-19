@@ -1,16 +1,18 @@
 # Trickster
 
-Default role family: **Town Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5398. No live-client test is claimed.
+Default role family: **Town Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5398. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Place a Magic Mirror to absorb a direct attack, then Unleash the stored attack on a later night. One Self Mirror is available.
+Place a Magic Mirror to absorb a qualifying direct attack. After absorbing one, use Unleash to send that stored attack at another player.
+
+**Key rule:** You cannot place another Mirror while storing an attack. Self Mirror is once-only; an Unstoppable attack shatters a Mirror. No absorption means no stored shot.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Unstoppable attacks shatter mirrors. Some passive attacks are not absorbed. Body
 
 ## Worked decision
 
-N1 mirror #4 absorbs an attack: record the reported role; N2 select a justified target for the stored attack.
+N2 Mirror 4 absorbs a Vigilante attack; N3 Unleash it on a supported target, or hold it without placing another Mirror.
 
 ## Wills and cover reasoning
 

@@ -1,16 +1,18 @@
 # Enchanter
 
-Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6673. No live-client test is claimed.
+Default role family: **Coven Deception**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6673. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Enchant alters apparent investigative properties. Two Alterates can rewrite a dying player’s shown role, faction, and will; failed death timing wastes a use.
+Enchant to falsify investigative appearances. Or spend one of two Alterates to forge a player’s shown death role, faction and will.
+
+**Key rule:** Enchant does not reveal the target’s true role. An Alterate must coincide with the target’s death that night; a surviving target does not show the forgery.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Coroner, Tracker, Lookout, and Spy have resistance to this kind of information a
 
 ## Worked decision
 
-You alter a planned victim: prepare a chronologically plausible will instead of creating impossible ability timing.
+Coordinate Alterate 4 with a planned death. Do not call a living player successfully forged just because you selected a replacement will.
 
 ## Wills and cover reasoning
 

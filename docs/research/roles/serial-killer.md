@@ -1,16 +1,18 @@
 # Serial Killer
 
-Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4741. No live-client test is claimed.
+Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4741. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Make night attacks, build Bloodlust toward a Powerful Rampage, and choose Cautious to suppress retaliation against disruptors. Normally roleblock immune.
+Attack at night. Two consecutive kills prepare a Powerful Rampage for your next attack.
+
+**Key rule:** A night without a kill resets Bloodlust. Cautious prevents your automatic retaliation against roleblockers; it does not cancel your chosen attack.
 
 ## Win condition
 
-Eliminate opposing factions until only your allied Serial Killer faction remains.
+Win with the Serial Killer faction by eliminating its opponents. Bloodlust is a combat upgrade, not a separate victory condition.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Serial Killer faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Sources describe retaliation through natural defense with protection exceptions;
 
 ## Worked decision
 
-A roleblocker is likely to visit: choose whether Cautious better preserves your cover before the night resolves.
+Kill on two consecutive nights, then plan the stronger attack’s visitor risk. Two attempted attacks that fail do not build the same progress.
 
 ## Wills and cover reasoning
 

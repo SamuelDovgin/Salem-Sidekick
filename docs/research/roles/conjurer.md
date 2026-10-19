@@ -1,16 +1,18 @@
 # Conjurer
 
-Default role family: **Coven Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6365. No live-client test is claimed.
+Default role family: **Coven Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6365. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-One Powerful meteor during a later day; your identity is not publicly announced by the ability. With book, you can also make ordinary night attacks.
+Use your one daytime Meteor from D2 for a Powerful attack. With the book, you can also make normal night attacks.
+
+**Key rule:** Meteor does not publicly name you as its caster, but its attack is public. A defended Meteor still spends the single use.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ The meteor has different strength and feedback from a basic shot. Secret Killers
 
 ## Worked decision
 
-A confirmed leader threatens a decisive vote: assess whether meteor removal changes the outcome before spending it.
+Save Meteor for a consequential removal; a failed kill does not restore the charge.
 
 ## Wills and cover reasoning
 

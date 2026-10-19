@@ -14,6 +14,8 @@ Open http://127.0.0.1:4173. No application dependencies or build step are requir
 
 ## Included behavior
 
+- Every actual role/state starts with compact Do / Key rule / Win lines. Role guide repeats these before warnings and ability tables and adds a concrete example. Thresholds, prerequisites, distinct personal objectives and current transformed abilities are explicit; uncommon interactions stay in deeper reference sections. Canonical summaries: `content/role-essentials.json`; [64-role clarity audit](../docs/design/CORE_ROLE_CLARITY_AUDIT.md).
+
 - Top Town, Coven, Neutral, and All roles buttons open a filtered roster directly. Alignment shortcuts (TK, TPow, NE, etc.) apply only within that picker session and reset on reopening. This top selector is the single way to change actual roles.
 - A labeled Role guide button opens the complete study guide for all 60 roles and four transformed states: summary, attack/defense, ability timing and charges, win condition, interactions, feedback, mistakes, disclosure, examples, and expandable deeper explanations. Guides include full wiki and reviewed-revision links.
 - Each current role has its own Must know warning beside the opening action, a visible Good to know note, and an ability phase/use summary. Four transformed states have separate current-state dawn instructions. Persistent section navigation keeps Play, Good to know, Claims, and Will example within reach. The actual role and current public claim are both visible in the header.

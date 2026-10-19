@@ -1,16 +1,18 @@
 # Amnesiac
 
-Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6546. No live-client test is claimed.
+Default role family: **Town Support**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6546. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Automatically remember an eligible dead Town player’s true role; Town Power has priority. This is a role transition, not a selectable night visit.
+Automatically Remember an eligible dead Town role in the morning, then play as that role.
+
+**Key rule:** You do not select a corpse by visiting it at night. Town Power gets priority; once you remember, use the new role’s actions and limits.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ The lowest-number resolution for competing Unique remembers is documented; custo
 
 ## Worked decision
 
-A Town role dies and you remember it next morning: keep the original Amnesiac start and open that new guide.
+N1 wait; D2 remember Sheriff; from N2, use Search rather than inventing an Amnesiac night action.
 
 ## Wills and cover reasoning
 

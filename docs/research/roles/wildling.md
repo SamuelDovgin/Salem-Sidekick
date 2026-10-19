@@ -1,16 +1,18 @@
 # Wildling
 
-Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6347. No live-client test is claimed.
+Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6347. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Sense gives the selected player’s visible destinations and visitors. In text chat you also hear whispers. Book attacks retain Sense but attack the same target.
+Sense a player’s visible destinations and visitors. In text mode, you also overhear whispers.
+
+**Key rule:** Outgoing destinations and incoming visitors are separate lists. Astral travel is invisible; whisper content is separate from Sense feedback.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Astral actions evade Sense. The stale upcoming-ability banner concerns voice-onl
 
 ## Worked decision
 
-Sense #4, see destination #9 and visitor #7: Tracker cover publishes #4→#9; keep #7 as private actual-role information.
+Sense 4: “went to 9; visitors 7 and 11” means three different relationships, not a list of everyone you personally visited.
 
 ## Wills and cover reasoning
 

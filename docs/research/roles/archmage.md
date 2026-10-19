@@ -1,16 +1,18 @@
 # Archmage
 
-Default role family: **Coven Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5752. No live-client test is claimed.
+Default role family: **Coven Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5752. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Formerly Coven Leader. Retrain yourself or known allies under role-availability restrictions; retraining allies is limited to Common Coven. Book attacks are an alternative action.
+Retrain a teammate into an available Common Coven role, or retrain yourself into an available Coven Killing or Coven Power role.
+
+**Key rule:** A role change needs legal availability and the actual resulting role. Book attacks are an alternative to Retrain, not a simultaneous extra action.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Current CPOW roles are mutually exclusive at normal spawning. Self-retraining an
 
 ## Worked decision
 
-A needed utility role is available: agree the change with your ally and retain a dated old-role/new-role history.
+Retrain an ally only when the replacement solves a team problem; verify the changed role before planning its next ability.
 
 ## Wills and cover reasoning
 

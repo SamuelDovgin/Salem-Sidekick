@@ -1,16 +1,18 @@
 # Sheriff
 
-Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5148. No live-client test is claimed.
+Default role family: **Town Investigative**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5148. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Search one player at night for Innocent or Suspicious feedback. This is a limited detection check, not an exact-role reveal.
+Search one player at night for Innocent or Suspicious feedback.
+
+**Key rule:** This checks apparent suspicion, not exact role or guaranteed allegiance. Some enemies appear Innocent, and framing can make allies Suspicious.
 
 ## Win condition
 
-Win with Town by eliminating opposing factions; the role’s ability is a tool toward that shared objective.
+Help Town eliminate its enemies, including Coven and hostile killing factions. You share Town’s victory even if dead; your ability has no separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Town faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Enchant and Reap can change apparent guilt; Illusion can conceal Coven. Solo Apo
 
 ## Worked decision
 
-N1 #4 Innocent: ask #4 for a claim when useful, but do not protect them solely because of this check.
+A roleblocked Search is no result. Do not enter Innocent merely because no suspicion message appeared.
 
 ## Wills and cover reasoning
 

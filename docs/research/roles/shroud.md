@@ -1,16 +1,18 @@
 # Shroud
 
-Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5928. No live-client test is claimed.
+Default role family: **Neutral Killing**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5928. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Attack directly or Shroud another player so their direct visits carry attacks. If they do not directly visit, the fallback attacks that target; visibility has documented inconsistencies.
+Choose a direct attack, or Shroud a player so their direct visits carry Basic attacks.
+
+**Key rule:** If the Shrouded player makes no direct visit, the fallback attacks that player instead. Their chosen route determines the victims.
 
 ## Win condition
 
-Eliminate opposing factions until only your allied Shroud faction remains.
+Win with the Shroud faction by eliminating its opponents. A successful Shroud or fallback kill is progress, not an automatic win.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Shroud faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Shroud can make friendly visitors harmful to guards/traps and affect Investigato
 
 ## Worked decision
 
-Shroud #4 and #9 dies: that may support a destination inference, but a complete fabricated Tracker history still requires more information.
+Shroud 4 and they visit 9: the attack follows to 9. If 4 stays home, the fallback attacks 4.
 
 ## Wills and cover reasoning
 

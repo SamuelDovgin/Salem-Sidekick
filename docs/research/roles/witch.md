@@ -1,16 +1,18 @@
 # Witch
 
-Default role family: **Coven Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5401. No live-client test is claimed.
+Default role family: **Coven Power**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 5401. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Control a first target toward a second target, learn role information and steal feedback. You normally visit only the first target, not both selected numbers.
+Control one player into a second destination. Your faction learns the controlled player’s role; you receive their borrowed ability feedback.
+
+**Key rule:** You normally visit only the first player. Change that player on consecutive nights. Revealing them Illuminates them, making them unavailable to Blood Ritual.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Immunity, Hangover, and limited-use abilities constrain Control. Revealing infor
 
 ## Worked decision
 
-You control #4 into #9: a Tracker following you normally sees #4, so a will claiming two visible Seer visits is fragile.
+Control Sheriff 4 into 9: your visible destination is 4; the borrowed Search checks 9. No completed Control means no borrowed result.
 
 ## Wills and cover reasoning
 

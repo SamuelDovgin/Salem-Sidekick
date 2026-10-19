@@ -1,16 +1,18 @@
 # Voodoo Master
 
-Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6360. No live-client test is claimed.
+Default role family: **Coven Utility**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 6360. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Use dolls to Silence, Deafen, or Blind. The same player cannot be targeted on consecutive nights regardless of chosen doll. Book adds an attack to the selected effect.
+Choose a doll: Silence stops next-day speech, Deafen hides next-day chat, or Blind hides night feedback.
+
+**Key rule:** Do not target the same player on consecutive nights, even with a different doll. With the book, the selected effect can also carry an attack.
 
 ## Win condition
 
-Win with Coven by eliminating opposing factions; protecting the faction’s path can matter more than personal survival.
+Help Coven eliminate Town and other opposing factions. You share Coven’s victory even if dead; your special effect is a tool, not a separate win quota.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Coven faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Day communication effects and night blindness differ. Voice-mode behavior must n
 
 ## Worked decision
 
-Blind an informative opponent: consider whether the benefit outweighs a Tracker correlating your visit with their missing results.
+Blind an information role to suppress its result; do not describe that effect as an ordinary roleblock or assume no victim report means failure.
 
 ## Wills and cover reasoning
 

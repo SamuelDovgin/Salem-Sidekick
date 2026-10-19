@@ -1,16 +1,18 @@
 # Vampire
 
-Default role family: **Neutral Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4747. No live-client test is claimed.
+Default role family: **Neutral Outlier**. Context: vanilla text chat, normal factions. Research date: 2026-10-15. Source revision: 4747. No live-client test is claimed. Core summary reviewed 2026-10-19 against installed R1.5.14 role/faction text.
 
 ## Role and ability
 
-Unique Outlier that Drains or converts eligible Town players, retaining their roles on the Vampire faction. Limited conversions and successor inheritance differ from ToS1 biting.
+Convert an undefended Town player into your Vampire faction, or Drain for a Basic attack. Conversion keeps their existing role.
+
+**Key rule:** Three Convert charges. An ineligible Convert falls back to Drain. If you die, a surviving converted faction member can inherit the Vampire role and remaining charges.
 
 ## Win condition
 
-Win with the Vampire faction by eliminating its opponents; converted allies can keep other role abilities.
+Win with the Vampire faction by eliminating or converting its opponents. A single conversion is recruitment, not the win itself.
 
-The statement assumes the default faction profile. Conversion or Flexible Factions can change the applicable faction objective. A role swap alone does not change your faction.
+This assumes the default Vampire faction. Conversion or Flexible Factions can change the faction objective; a role change alone does not change faction.
 
 ## Beginner priorities
 
@@ -44,7 +46,7 @@ Converted teammates can inherit Vampire after its death. The page flags a solo-d
 
 ## Worked decision
 
-A previously demonstrated role is converted: keep its mechanical proof while changing its allegiance in private faction notes.
+Convert a Cleric: they keep Barrier but now win with Vampires. Their survival alone does not prove recruitment.
 
 ## Wills and cover reasoning
 
