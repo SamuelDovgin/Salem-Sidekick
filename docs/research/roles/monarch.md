@@ -30,7 +30,11 @@ These are recommendations, not forced actions:
 
 ## Claim timing and disclosure
 
-Claim carefully; use the Knight history to explain your role when needed. Being Knighted is not allegiance confirmation.
+Start with TP rather than TPow; Trapper is the default temporary cover for the recommended N1 Knight hold.
+
+**End the cover when:** Explain a consequential knighting, resolve a Monarch counterclaim, or share identity when it enables useful Town coordination. Separate proof of knighting from evidence of a Knight’s faction.
+
+This is an editorial concealment default, not proof that a cover is best in every lobby. Keep real actions private and do not fabricate the claimed role’s effects.
 
 ## Read the information
 

@@ -110,7 +110,7 @@ test('unknown route selections and invalid route checkpoint indexes are discarde
 });
 
 test('switching into each Town Power uses its recommendation instead of inheriting another role cover',()=>{
- for(const r of library.filter(r=>r.alignment==='Town Power')){const s=initialState();selectActual(s,role('voodoo-master'),library);s.claimId='psychic';s.deliberateClaim=true;getDraft(s,'public','psychic').title='Keep this history';selectActual(s,r,library);assert.equal(s.claimId,r.id);assert.equal(s.deliberateClaim,false);assert.equal(s.drafts.public.psychic.title,'Keep this history');}
+ for(const r of library.filter(r=>r.alignment==='Town Power')){const s=initialState();selectActual(s,role('voodoo-master'),library);s.claimId='psychic';s.deliberateClaim=true;getDraft(s,'public','psychic').title='Keep this history';selectActual(s,r,library);assert.equal(s.claimId,r.preferredClaimId);assert.notEqual(s.claimId,r.id);assert.equal(s.deliberateClaim,false);assert.equal(s.drafts.public.psychic.title,'Keep this history');}
 });
 test('a Town Power cover deliberately selected for that same role survives restore and same-role navigation',()=>{
  for(const r of library.filter(r=>r.alignment==='Town Power')){const s=initialState();selectActual(s,r,library);s.claimId=r.claimOptions[1].roleId;s.deliberateClaim=true;const restored=restoreState(JSON.stringify(s),library);selectActual(restored,r,library);assert.equal(restored.claimId,s.claimId);assert.equal(restored.deliberateClaim,true);}

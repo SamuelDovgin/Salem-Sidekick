@@ -30,7 +30,11 @@ These are recommendations, not forced actions:
 
 ## Claim timing and disclosure
 
-Conceal exact identity when useful, but reveal through the ability when its value justifies the risk.
+Start with TK rather than TPow; Deputy is the default temporary cover before Prosecute.
+
+**End the cover when:** Disclose your exact role if it resolves a consequential claim dispute or enables trusted coordination. Use Prosecute when a supported case cannot safely be resolved by ordinary voting.
+
+This is an editorial concealment default, not proof that a cover is best in every lobby. Keep real actions private and do not fabricate the claimed role’s effects.
 
 ## Read the information
 

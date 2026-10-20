@@ -279,9 +279,13 @@ def build():
             policy = town_covers[role['id']]['recommendation']
             role['claimRecommendation'] = copy.deepcopy(policy)
             role['claimAudit']['summary'] = town_covers[role['id']]['summary']
-            role['claimOptions'][0].update(tag='Truthful TPow · recommended opening', why=policy['reason'],
-                bestWhen=policy['opening'], strategy=policy['strategy'], exposure=policy['revealWhen'])
-            role['claimOptions'].extend(copy.deepcopy(town_covers[role['id']]['options']))
+            truthful = role['claimOptions'][0]
+            truthful.update(tag='Reveal actual role · when useful',
+                bestWhen=policy['revealWhen'], exposure='Public TPow disclosure can expose your power category. '+policy['revealWhen'])
+            covers = copy.deepcopy(town_covers[role['id']]['options'])
+            assert covers[0]['roleId']==policy['defaultClaimId']
+            role['claimOptions'] = [*covers,truthful]
+            role['claimAudit']['options'] = role['claimOptions']
         if role.get('parentId'):
             role['claimAudit']=copy.deepcopy(by_id[role['parentId']]['claimAudit'])
             role['claimAudit']['summary']+=' You are '+role['name']+' now: a pre-transformation cover does not explain new attacks, altered movement, or the public transformation.'

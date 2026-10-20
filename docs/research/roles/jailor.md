@@ -30,7 +30,11 @@ These are recommendations, not forced actions:
 
 ## Claim timing and disclosure
 
-Consider how public identity affects survival. Use alignment-first disclosure where appropriate; reveal when coordination or defense requires it.
+Start with TK rather than TPow; Veteran is the default temporary cover. Reveal Jailor when protection or a claim dispute makes that useful.
+
+**End the cover when:** Disclose your Jailor identity when you need protection, must resolve a counterclaim, or can help Town act on a supported contradiction. Keep future prisoner choices and unneeded exact-role information private.
+
+This is an editorial concealment default, not proof that a cover is best in every lobby. Keep real actions private and do not fabricate the claimed role’s effects.
 
 ## Read the information
 

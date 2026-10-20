@@ -30,7 +30,11 @@ These are recommendations, not forced actions:
 
 ## Claim timing and disclosure
 
-Use discretion before revealing; claiming your exact role alone is not equivalent to the public Reveal effect.
+Start with TK rather than TPow; Veteran is the default temporary cover until a useful Reveal.
+
+**End the cover when:** Reveal before a decisive vote when your extra influence can secure a supported execution, prevent a mistaken execution of you, or establish needed leadership. Do not wait until on trial.
+
+This is an editorial concealment default, not proof that a cover is best in every lobby. Keep real actions private and do not fabricate the claimed role’s effects.
 
 ## Read the information
 

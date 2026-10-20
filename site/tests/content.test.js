@@ -97,9 +97,10 @@ test('study guides cover every role and state with source-linked mechanics and s
  for(const r of library){const g=r.studyGuide;assert.ok(g.summary&&g.reviewedOn,r.name);assert.ok(g.sections.length>=4,r.name);assert.ok(g.details.length>=4,r.name);assert.equal(g.sourceUrls.length,2);for(const section of [...g.sections,...g.details]){assert.ok(section.title&&section.markdown,r.name);assert.doesNotMatch(section.markdown,/\]\((?!https?:|\.\/message-sources\.html#[A-Z0-9_]+\))/);}}
  for(const r of pack.states){assert.match(r.studyGuide.details[0].title,/before transformation/);assert.equal(r.studyGuide.summary,r.coreGuide.action+' '+r.coreGuide.keyRule);}
 });
-test('Town Power has truthful defaults plus role-specific temporary concealment options',()=>{
+test('Town Power starts with a non-TPow temporary cover and keeps the real role selectable',()=>{
+ const expected={jailor:'veteran',mayor:'veteran',marshal:'deputy',prosecutor:'deputy',monarch:'trapper'};
  const powers=pack.roles.filter(r=>r.alignment==='Town Power');assert.equal(powers.length,5);
- for(const r of powers){assert.equal(r.preferredClaimId,r.id);assert.equal(r.claimOptions[0].roleId,r.id);assert.equal(r.claimOptions.length,3);assert.match(r.claimAudit.summary,/temporary cover/);for(const o of r.claimOptions.slice(1)){assert.match(o.tag,/Optional concealment/);assert.ok(o.exposure&&o.strategy.length>=4);assert.ok(o.sourceUrls.includes(r.source_url));}}
+ for(const r of powers){assert.equal(r.preferredClaimId,expected[r.id]);assert.equal(r.claimOptions[0].roleId,expected[r.id]);assert.equal(r.claimOptions.length,3);assert.match(r.claimAudit.summary,/temporary cover/);assert.equal(r.claimOptions.find(o=>o.roleId===r.id).tag,'Reveal actual role · when useful');assert.notEqual(byId.get(r.preferredClaimId).alignment,'Town Power');for(const o of r.claimOptions.filter(o=>o.roleId!==r.id)){assert.ok(o.strategy.length>=4&&o.sourceUrls.includes(r.source_url));}}
 });
 
 test('base-role study references include readable stats, phase and charge limits from reviewed role records',()=>{
@@ -107,9 +108,9 @@ test('base-role study references include readable stats, phase and charge limits
  assert.equal(byId.get('jailor').studyGuide.facts.abilities.find(a=>a.name==='Execute').uses,'3');assert.match(byId.get('monarch').studyGuide.facts.defense,/Knight/);assert.equal(byId.get('pilgrim').studyGuide.facts.abilities.length,0);
 });
 
-test('Town Power recommendations explain a distinct truthful opening, reveal condition and cover exception',()=>{
+test('Town Power recommendations explain each cover default and when to end concealment',()=>{
  const powers=pack.roles.filter(r=>r.alignment==='Town Power');
  for(const field of ['opening','reason','revealWhen','coverWhen'])assert.equal(new Set(powers.map(r=>r.claimRecommendation[field])).size,5);
- for(const r of powers){const p=r.claimRecommendation;assert.match(p.opening,/TPow/);assert.equal(r.claimOptions[0].why,p.reason);assert.equal(r.claimOptions[0].exposure,p.revealWhen);assert.deepEqual(r.claimOptions[0].strategy,p.strategy);assert.equal(r.preferredClaimId,r.id);assert.match(r.claimAudit.summary,/not the recommended start/);}
+ for(const r of powers){const p=r.claimRecommendation;assert.match(p.opening,/TPow/);assert.equal(r.claimOptions[0].why,p.reason);assert.ok(r.claimOptions.find(o=>o.roleId===r.id).bestWhen.includes(p.revealWhen));assert.deepEqual(r.claimOptions[0].strategy,p.strategy);assert.equal(r.preferredClaimId,p.defaultClaimId);assert.match(r.claimOptions[0].tag,/recommended opening/);}
  assert.match(byId.get('jailor').claimRecommendation.revealWhen,/protection/);assert.match(byId.get('mayor').claimRecommendation.revealWhen,/vote/);assert.match(byId.get('marshal').claimRecommendation.revealWhen,/Tribunal/);assert.match(byId.get('prosecutor').claimRecommendation.revealWhen,/ordinary voting/);assert.match(byId.get('monarch').claimRecommendation.revealWhen,/knighting/);
 });

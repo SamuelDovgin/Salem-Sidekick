@@ -30,7 +30,11 @@ These are recommendations, not forced actions:
 
 ## Claim timing and disclosure
 
-Keep exact identity concealed where useful until the public ability’s benefit warrants revealing.
+Start with TK rather than TPow; Deputy is the default temporary cover before Tribunal.
+
+**End the cover when:** Explain supported cases and coordinate a voting plan before activating Tribunal. Use it when Town can control the nominations, not solely to prove your claim.
+
+This is an editorial concealment default, not proof that a cover is best in every lobby. Keep real actions private and do not fabricate the claimed role’s effects.
 
 ## Read the information
 
