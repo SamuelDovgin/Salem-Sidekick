@@ -21,7 +21,7 @@ Open http://127.0.0.1:4173. No application dependencies or build step are requir
 - Each current role has its own Must know warning beside the opening action, a visible Good to know note, and an ability phase/use summary. Four transformed states have separate current-state dawn instructions. Persistent section navigation keeps Play, Good to know, Claims, and Will example within reach. The actual role and current public claim are both visible in the header.
 - Town Power has role-specific temporary cover defaults: Jailor/Mayor → Veteran (TK), Marshal/Prosecutor → Deputy (TK), Monarch → Trapper (TP). The real-role disclosure option remains in the shortlist, with reveal triggers for protection, coordination, public actions and vote control. Switching into any different actual role selects its recommended claim (truthful for ordinary Town). Deliberate cover choices survive reload or reselecting the same role; old drafts remain intact.
 - Searchable actual-role selector for all 64 roles/states; a separate Town-only public-claim selector with 29 roles. Filters, aliases, recent actual roles, and real game icons remain available.
-- Ranked opening-route buttons sit at the top of the opening-plan card, above the action and warnings, with readable names for every role/state. The recommended route starts selected; conditional alternatives show their use condition and update the action, target rule, explanation, pivot, tradeoff, checkpoints, and next priorities together. Route choices and checkboxes persist separately for each actual role.
+- The selected opening action, its conditions, warnings, targeting, pivot and tradeoff appear before the named opening-route buttons for every role/state. Route choices stay in place when clicked; View plan returns to the updated action with keyboard focus. The recommended route starts selected; conditional alternatives show their use condition and update the action, target rule, explanation, pivot, tradeoff, checkpoints, and next priorities together. Route choices and checkboxes persist separately for each actual role. [S1 implementation and all-role layout evidence](../docs/design/S1_IMPLEMENTATION.md).
 - Top-right More detail expands the same sections inline; each Why control expands its own section. Cover obligations remain inline and separate from actual-role guidance.
 - Ranked claim icons sit above the details, including ranks one and two. The redundant strip is hidden on 24 single-option default profiles and returns when another claim is selected. One selected claim card shows by default; clicking any icon replaces it and updates the public claim, disclosure, and will in one step. Compare 2 adds one clearly labeled comparison card with a Town-only selector. Comparing does not change the active claim or will; Use claim swaps it into the active slot. The view never shows more than two claim cards. Comparison is temporary and resets when switching actual roles or reloading. Ability definitions remain in compact dropdowns, and narrow choice rows stay in a bounded vertical scroller. Saved notes remain archived.
 - All 64 roles/states have separate N1-N7 example and blank wills with their role title at the top. Main-page copies follow the selected Town claim; Role guide adds explicitly private histories for Coven, Neutral and transformed roles. Examples show distinct outcomes with legal charges, day actions and transitions. Blank copies contain just the role name and empty N1–N7 slots (each dash is followed by a literal space), with empty day slots for roles that use them. Blank previews stay collapsed with a one-click copy button. The separate one-line chat format remains. Clipboard denial selects the requested text without replacing the example. Canonical formats live in `content/will-examples.json`; [coverage and format notes](../docs/copy/FULL_WILLS.md).
@@ -59,9 +59,18 @@ The model tests use Node’s built-in runner. Browser checks use Playwright with
 PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.js node tests/browser.mjs
 ```
 
+The S1 route checks also exercise all routes in compact and expanded views, plus touch return navigation:
+
+```sh
+PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.js node tests/route-flow.mjs
+PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.js PLAYWRIGHT_ENGINES=chromium,webkit node tests/route-touch.mjs
+```
+
+The touch check requires the selected engines to be installed for that Playwright version. Omit `PLAYWRIGHT_ENGINES` for Chrome only.
+
 Alternatively install Playwright in your development environment and omit `PLAYWRIGHT_MODULE`. Start the local server first. `SALEM_TEST_URL` can select a different origin. The browser run writes `qa/browser-report.json`; it checks all role/state selections, public/private exports, persistence, inline expansion, selectors, mobile overflow, and failure recovery.
 
-Publication uses the private Sites project identified in `.openai/hosting.json`. The source and deployable assets are tracked together. No runtime credentials or server storage are needed by this application.
+The [Publish GitHub Pages workflow](../.github/workflows/pages.yml) regenerates role data, runs model/content tests, and publishes `site/dist` on pushes to `main`. The private Sites project metadata is retained in `.openai/hosting.json`. The source and deployable assets are tracked together; the application needs no runtime credentials or server storage.
 
 ## Whole-site audit
 

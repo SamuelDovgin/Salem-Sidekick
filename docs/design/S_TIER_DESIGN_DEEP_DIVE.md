@@ -2,6 +2,8 @@
 
 **20 October 2026 · Design proposal for the current local app.** Companion to the [next-changes tier list](NEXT_CHANGES_TIER_LIST.md). This expands S1 and S2; it does not implement them. Measurements below come from the preceding review, not a new layout run. Suggested benefits and targets are hypotheses to test.
 
+**21 October update:** S1 is now implemented locally; see the [results and all-role evidence](S1_IMPLEMENTATION.md). S2 remains proposed. The design discussion below preserves the reasoning before implementation.
+
 ## The value I expect overall
 
 **These changes would make the app easier to consult repeatedly during a match while preserving its value as a learning guide.** Most of the necessary content already exists. The opportunity is to make its importance, conditions, and scope apparent sooner.

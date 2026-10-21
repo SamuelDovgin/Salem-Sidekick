@@ -36,6 +36,8 @@ Effort is relative: **small** = a focused change; **medium** = several related U
 
 ## S tier — the changes I would start with
 
+**21 October update:** S1 is now implemented locally. See the [implementation, all-role measurements and tradeoffs](S1_IMPLEMENTATION.md). The recommendations and earlier measurements below retain their original review context; S2 remains proposed.
+
 See the [detailed S1/S2 design proposal](S_TIER_DESIGN_DEEP_DIVE.md) for proposed content order, role examples, interaction behavior, tradeoffs, implementation steps, and an assessment of overall value.
 
 ### S1. Put the selected action before route comparisons
